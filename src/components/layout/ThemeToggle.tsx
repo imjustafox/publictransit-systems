@@ -1,34 +1,19 @@
 "use client";
 
 import { useTheme } from "next-themes";
-import { useEffect, useState } from "react";
 
 export function ThemeToggle() {
-  const { theme, setTheme } = useTheme();
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-  }, []);
-
-  if (!mounted) {
-    return (
-      <button
-        className="p-2 rounded-md bg-bg-tertiary border border-border"
-        aria-label="Toggle theme"
-      >
-        <span className="w-4 h-4 block" />
-      </button>
-    );
-  }
+  const { resolvedTheme, setTheme } = useTheme();
+  const isDark = resolvedTheme === "dark";
 
   return (
     <button
-      onClick={() => setTheme(theme === "dark" ? "light" : "dark")}
+      onClick={() => setTheme(isDark ? "light" : "dark")}
       className="p-2 rounded-md bg-bg-tertiary border border-border hover:border-border-hover transition-colors"
-      aria-label={`Switch to ${theme === "dark" ? "light" : "dark"} mode`}
+      aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
+      suppressHydrationWarning
     >
-      {theme === "dark" ? (
+      {isDark ? (
         <svg
           className="w-4 h-4 text-accent-primary"
           fill="none"

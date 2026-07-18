@@ -16,7 +16,7 @@ export function Terminal({
   title,
   className,
   glow = false,
-  scanline = false
+  scanline = false,
 }: TerminalProps) {
   return (
     <div
@@ -24,7 +24,7 @@ export function Terminal({
         "bg-bg-secondary border border-border rounded-lg overflow-hidden transition-theme",
         glow && "glow-accent",
         scanline && "scanline-container",
-        className
+        className,
       )}
     >
       {title && (
@@ -37,9 +37,7 @@ export function Terminal({
           <span className="font-mono text-xs text-text-muted ml-2">{title}</span>
         </div>
       )}
-      <div className="p-4 font-mono text-sm overflow-x-auto">
-        {children}
-      </div>
+      <div className="p-4 font-mono text-sm overflow-x-auto">{children}</div>
       {scanline && <div className="scanline" />}
     </div>
   );
@@ -58,17 +56,19 @@ export function TerminalLine({
   children,
   className,
   typing = false,
-  delay = 0
+  delay = 0,
 }: TerminalLineProps) {
-  const [displayedText, setDisplayedText] = useState("");
+  const [displayedText, setDisplayedText] = useState(text);
   const [showCursor, setShowCursor] = useState(true);
   const text = typeof children === "string" ? children : "";
 
   useEffect(() => {
     if (!typing || typeof children !== "string") {
-      setDisplayedText(text);
       return;
     }
+
+    setDisplayedText("");
+    setShowCursor(true);
 
     const timeout = setTimeout(() => {
       let currentIndex = 0;
@@ -88,6 +88,10 @@ export function TerminalLine({
     return () => clearTimeout(timeout);
   }, [text, typing, delay, children]);
 
+  if (!typing && displayedText !== text) {
+    setDisplayedText(text);
+  }
+
   useEffect(() => {
     if (!typing) return;
 
@@ -103,7 +107,9 @@ export function TerminalLine({
       <span className="text-accent-primary select-none">{prompt}</span>
       <span className="text-text-primary">
         {typing ? displayedText : children}
-        {typing && showCursor && <span className="inline-block w-2 h-4 bg-accent-primary ml-0.5 animate-pulse" />}
+        {typing && showCursor && (
+          <span className="inline-block w-2 h-4 bg-accent-primary ml-0.5 animate-pulse" />
+        )}
       </span>
     </div>
   );
@@ -120,16 +126,18 @@ export function TerminalOutput({
   children,
   className,
   success = false,
-  error = false
+  error = false,
 }: TerminalOutputProps) {
   return (
-    <div className={cn(
-      "ml-4",
-      success && "text-status-active",
-      error && "text-status-closed",
-      !success && !error && "text-text-secondary",
-      className
-    )}>
+    <div
+      className={cn(
+        "ml-4",
+        success && "text-status-active",
+        error && "text-status-closed",
+        !success && !error && "text-text-secondary",
+        className,
+      )}
+    >
       {children}
     </div>
   );

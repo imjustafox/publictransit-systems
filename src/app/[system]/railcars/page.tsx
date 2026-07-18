@@ -10,10 +10,9 @@ interface PageProps {
 export default async function RailcarsPage({ params }: PageProps) {
   const { system: systemId } = await params;
 
-  const [system, railcars] = await Promise.all([
-    getSystem(systemId),
-    getRailcars(systemId),
-  ]);
+  const [system, railcars] = await Promise.all([getSystem(systemId), getRailcars(systemId)]).catch(
+    () => notFound(),
+  );
 
   const activeRailcars = railcars.filter((r) => r.status === "active");
   const retiredRailcars = railcars.filter((r) => r.status === "retired");
@@ -82,16 +81,10 @@ export default async function RailcarsPage({ params }: PageProps) {
       {/* Active Fleet */}
       {activeRailcars.length > 0 && (
         <section>
-          <h2 className="text-xl font-mono font-semibold text-text-primary mb-4">
-            Active Fleet
-          </h2>
+          <h2 className="text-xl font-mono font-semibold text-text-primary mb-4">Active Fleet</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {activeRailcars.map((railcar) => (
-              <RailcarCard
-                key={railcar.id}
-                railcar={railcar}
-                systemId={systemId}
-              />
+              <RailcarCard key={railcar.id} railcar={railcar} systemId={systemId} />
             ))}
           </div>
         </section>
@@ -100,16 +93,10 @@ export default async function RailcarsPage({ params }: PageProps) {
       {/* Retired Fleet */}
       {retiredRailcars.length > 0 && (
         <section>
-          <h2 className="text-xl font-mono font-semibold text-text-primary mb-4">
-            Retired Fleet
-          </h2>
+          <h2 className="text-xl font-mono font-semibold text-text-primary mb-4">Retired Fleet</h2>
           <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
             {retiredRailcars.map((railcar) => (
-              <RailcarCard
-                key={railcar.id}
-                railcar={railcar}
-                systemId={systemId}
-              />
+              <RailcarCard key={railcar.id} railcar={railcar} systemId={systemId} />
             ))}
           </div>
         </section>

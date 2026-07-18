@@ -17,7 +17,7 @@ export default async function StationsPage({ params, searchParams }: PageProps) 
     getSystem(systemId),
     getStations(systemId),
     getLines(systemId),
-  ]);
+  ]).catch(() => notFound());
 
   let filteredStations = stations;
 

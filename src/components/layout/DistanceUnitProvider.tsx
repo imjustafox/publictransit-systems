@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { createContext, useContext, useState, ReactNode } from "react";
 import type { DistanceUnit } from "@/lib/types";
 
 interface DistanceUnitContextType {
@@ -13,35 +13,26 @@ const DistanceUnitContext = createContext<DistanceUnitContextType | undefined>(u
 
 const STORAGE_KEY = "distance-unit";
 
-export function DistanceUnitProvider({ children }: { children: ReactNode }) {
-  const [unit, setUnitState] = useState<DistanceUnit>("mi");
-  const [mounted, setMounted] = useState(false);
+function getInitialUnit(): DistanceUnit {
+  if (typeof window === "undefined") return "mi";
 
-  useEffect(() => {
-    setMounted(true);
-    const stored = localStorage.getItem(STORAGE_KEY) as DistanceUnit | null;
-    if (stored === "km" || stored === "mi") {
-      setUnitState(stored);
-    }
-  }, []);
+  const stored = localStorage.getItem(STORAGE_KEY);
+  return stored === "km" || stored === "mi" ? stored : "mi";
+}
+
+export function DistanceUnitProvider({ children }: { children: ReactNode }) {
+  const [unit, setUnitState] = useState<DistanceUnit>(getInitialUnit);
 
   const setUnit = (newUnit: DistanceUnit) => {
     setUnitState(newUnit);
-    localStorage.setItem(STORAGE_KEY, newUnit);
+    if (typeof window !== "undefined") {
+      localStorage.setItem(STORAGE_KEY, newUnit);
+    }
   };
 
   const toggleUnit = () => {
     setUnit(unit === "km" ? "mi" : "km");
   };
-
-  // Avoid hydration mismatch
-  if (!mounted) {
-    return (
-      <DistanceUnitContext.Provider value={{ unit: "mi", setUnit, toggleUnit }}>
-        {children}
-      </DistanceUnitContext.Provider>
-    );
-  }
 
   return (
     <DistanceUnitContext.Provider value={{ unit, setUnit, toggleUnit }}>

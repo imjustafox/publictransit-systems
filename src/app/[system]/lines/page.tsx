@@ -14,10 +14,9 @@ interface PageProps {
 export default async function LinesPage({ params }: PageProps) {
   const { system: systemId } = await params;
 
-  const [system, lines] = await Promise.all([
-    getSystem(systemId),
-    getLines(systemId),
-  ]);
+  const [system, lines] = await Promise.all([getSystem(systemId), getLines(systemId)]).catch(() =>
+    notFound(),
+  );
 
   return (
     <div className="space-y-6">
@@ -32,9 +31,7 @@ export default async function LinesPage({ params }: PageProps) {
 
       {/* Header */}
       <div className="space-y-2">
-        <h1 className="text-2xl font-mono font-bold text-text-primary">
-          {system.shortName} Lines
-        </h1>
+        <h1 className="text-2xl font-mono font-bold text-text-primary">{system.shortName} Lines</h1>
         <p className="text-text-secondary">
           {lines.length} lines serving the {system.location} area
         </p>
@@ -46,17 +43,18 @@ export default async function LinesPage({ params }: PageProps) {
           <Link key={line.id} href={`/${systemId}/lines/${line.id}`}>
             <Card hover>
               <div className="flex items-center gap-4">
-                <LineIndicator line={line} size="lg" shape={system.lineIndicatorShape} linkable={false} />
+                <LineIndicator
+                  line={line}
+                  size="lg"
+                  shape={system.lineIndicatorShape}
+                  linkable={false}
+                />
                 <div className="flex-1 min-w-0">
                   <div className="flex items-center gap-2 mb-1">
-                    <h2 className="font-mono font-semibold text-text-primary">
-                      {line.name}
-                    </h2>
+                    <h2 className="font-mono font-semibold text-text-primary">{line.name}</h2>
                     <StatusBadge status={line.status} />
                   </div>
-                  <p className="text-sm text-text-muted">
-                    {formatTermini(line)}
-                  </p>
+                  <p className="text-sm text-text-muted">{formatTermini(line)}</p>
                 </div>
                 <div className="hidden sm:flex items-center gap-6 text-sm font-mono">
                   <div className="text-center">
