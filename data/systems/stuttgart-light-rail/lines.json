@@ -47,7 +47,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 14.91,
+      "length": 18.73,
       "description": "One of the busiest longitudinal lines, the U1 runs from Fellbach Lutherkirche in the east via Bad Cannstatt through the inner-city loop (Charlottenplatz – Marienplatz – Rotebühlplatz) to Heslach Vogelrain in the south. Since the December 2023 Network 2024 reshuffle, it uses the loop rather than running directly via Hauptbahnhof, and is being progressively upgraded for 80 m double-set operation.",
       "opened": "1986-04-19",
       "abbreviation": "U1"
@@ -103,7 +103,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 14.13,
+      "length": 14.88,
       "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Rotebühlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
       "opened": "2002-06-22",
       "abbreviation": "U2"
@@ -215,7 +215,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 15.56,
+      "length": 15.57,
       "description": "The U5 is a cross-valley line running from Killesberg in the north through Hauptbahnhof and the city-centre tunnel to Degerloch, Möhringen, and Leinfelden Bahnhof at the southern edge of the network, with S-Bahn interchange at Hauptbahnhof and Leinfelden. Unlike most other lines, the U5 operates every 20 minutes rather than the standard 10-minute headway.",
       "opened": "1990-11-03",
       "abbreviation": "U5"
@@ -436,7 +436,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 10.66,
+      "length": 13.3,
       "description": "The U9 links Hedelfingen in the Neckar valley east with Vogelsang in the west, passing through Raitelsberg and the underground city-centre at Charlottenplatz. During school-day peak hours the line extends further west to Botnang. It provides interchange at multiple stops and serves the eastern Neckar valley neighbourhoods along its route.",
       "opened": "1989-09-30",
       "abbreviation": "U9"
@@ -469,7 +469,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 3.97,
+      "length": 7.22,
       "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Rotebühlplatz – Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
       "opened": "1994-01-01",
       "abbreviation": "U11"
@@ -575,7 +575,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 2.6,
+      "length": 18.57,
       "description": "The U13 is a tangential line connecting Feuerbach in the northwest with Hedelfingen in the Neckar valley east, via Pragsattel, Löwentor, Wilhelma, Bad Cannstatt, and Untertürkheim. During school-day peak hours the service extends west from Feuerbach to Giebel. Since the introduction of U16 in 2018, the standard non-peak western terminus is Feuerbach Pfostenwäldle.",
       "opened": "1997-09-13",
       "abbreviation": "U13"
@@ -680,7 +680,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 14.61,
+      "length": 17.98,
       "description": "The U15 was the last tram line in Stuttgart to be converted to Stadtbahn standard gauge, completed in phases between 2007 and December 2011 when the full current route from Stammheim to Ruhbank (Fernsehturm) was established. It passes through Zuffenhausen and Pragsattel, traverses the underground city-centre trunk, and climbs the Olgaeck–Ruhbank gradient — the steepest standard-gauge adhesion track in Europe used by regular public transport. Outside school hours the line runs only between Stammheim and Ruhbank.",
       "opened": "2007-12-08",
       "abbreviation": "U15"
@@ -729,7 +729,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 16.73,
+      "length": 16.74,
       "description": "The U16 is a peak-hour reinforcement line operating Monday to Friday, running from Giebel in the west via Feuerbach, Pragsattel, Löwentor, Wilhelma, and Bad Cannstatt to Fellbach Lutherkirche in the east. Introduced in December 2018, it provides additional capacity on the heavily used Feuerbach–Bad Cannstatt–Fellbach corridor and relieved the U1 pending its ongoing platform-extension upgrades for 80 m trains.",
       "opened": "2018-12-09",
       "abbreviation": "U16"

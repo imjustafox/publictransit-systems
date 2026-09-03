@@ -169,7 +169,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 27.2,
+      "length": 27.51,
       "description": "The F train is a Sixth Avenue local service and one of the longest routes in the system, running from Jamaica in eastern Queens through Manhattan to Coney Island via the Culver Line in Brooklyn. It passes through diverse neighborhoods including the Lower East Side, Park Slope, and Kensington.",
       "opened": "1940"
     },
@@ -235,7 +235,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 2.82,
+      "length": 8.18,
       "description": "The Rockaway Park Shuttle connects Broad Channel to the Rockaway Park peninsula, branching off from the main A train route across Jamaica Bay. It runs on a former Long Island Rail Road right-of-way acquired by the city in 1956.",
       "opened": "1956"
     },
@@ -324,7 +324,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 23.53,
+      "length": 32.18,
       "description": "The A train is the longest service in the New York City subway system, running over 31 miles from Inwood at the northern tip of Manhattan to Far Rockaway in Queens. Made famous by Billy Strayhorn's jazz standard, it also branches to Ozone Park–Lefferts Blvd and serves as the Eighth Avenue express.",
       "opened": "1932-09-10"
     },
@@ -436,7 +436,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 15.46,
+      "length": 16.22,
       "description": "The E train runs from Jamaica Center in Queens to the World Trade Center in Lower Manhattan via the Queens Boulevard and Eighth Avenue lines. It is one of the primary airport connections, linking to the AirTrain at Sutphin Blvd–Archer Av–JFK Airport station.",
       "opened": "1932"
     },
@@ -604,7 +604,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 5.92,
+      "length": 18.37,
       "description": "The M train is a Sixth Avenue local service running from Forest Hills in Queens through Manhattan to Middle Village–Metropolitan Avenue via the Myrtle Avenue Line in Brooklyn. It follows an unusual looping route connecting central Queens to Bushwick and Ridgewood.",
       "opened": "1915"
     },
@@ -839,7 +839,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 20.27,
+      "length": 21.6,
       "description": "The N train runs from Astoria in Queens via the Broadway express tracks in Manhattan to Coney Island along the Sea Beach Line in Brooklyn. It crosses the Manhattan Bridge and serves as one of the primary connections between Queens and Brooklyn.",
       "opened": "1920"
     },
@@ -961,7 +961,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 21.59,
+      "length": 23,
       "description": "The R train is a Broadway local service running from Forest Hills in Queens through the Montague Street Tunnel to Bay Ridge in southwestern Brooklyn. It is the only subway service to Bay Ridge and one of the few lines using the Montague Street Tunnel.",
       "opened": "1920"
     },
@@ -1026,7 +1026,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 9.69,
+      "length": 20.25,
       "description": "The W train is a Broadway local service running from Astoria in Queens to Whitehall Street in Lower Manhattan. Discontinued in 2010 and restored in 2016, it provides local service along Broadway in Manhattan complementing the express N train.",
       "opened": "2001"
     },
@@ -1171,7 +1171,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 25.39,
+      "length": 26.62,
       "description": "The 2 train is a Seventh Avenue express service running from Wakefield in the northern Bronx through Manhattan to Flatbush in Brooklyn. It shares its trunk line with the 1 and 3 trains but operates as an express through Midtown and the Upper West Side.",
       "opened": "1904-10-27"
     },
@@ -1295,7 +1295,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 20.04,
+      "length": 22.89,
       "description": "The 4 train is a Lexington Avenue express service running from Woodlawn in the Bronx to Crown Heights in Brooklyn. It is one of the most heavily used subway services, carrying enormous ridership through the Lexington Avenue corridor in Midtown Manhattan.",
       "opened": "1908"
     },
@@ -1373,7 +1373,7 @@
       "topology": {
         "type": "linear"
       },
-      "length": 17.06,
+      "length": 25.3,
       "description": "The 5 train is a Lexington Avenue express service connecting the Dyre Avenue line in the northeast Bronx to Flatbush Avenue in Brooklyn. It shares its trunk line with the 4 and 6 trains on the busiest rail corridor in North America.",
       "opened": "1908"
     }
