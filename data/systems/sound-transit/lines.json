@@ -3,10 +3,27 @@
     {
       "id": "n-line",
       "systemId": "sound-transit",
-      "name": "Sounder",
-      "color": "lightblue",
+      "name": "N Line (Sounder)",
+      "color": "9AB6D3",
       "colorHex": "#9AB6D3",
-      "status": "disabled",
+      "status": "active",
+      "stations": ["everett-station", "mukilteo-station", "edmonds-station", "king-street-station"],
+      "stationCount": 4,
+      "termini": ["Everett", "Seattle"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 34.13,
+      "description": "The N Line is Sounder's north commuter rail service, running along Puget Sound between Everett and King Street Station in Seattle with stops in Mukilteo and Edmonds.",
+      "opened": "2003-12-21"
+    },
+    {
+      "id": "s-line",
+      "systemId": "sound-transit",
+      "name": "S Line (Sounder)",
+      "color": "9AB6D3",
+      "colorHex": "#9AB6D3",
+      "status": "active",
       "stations": [
         "lakewood-station",
         "south-tacoma-station",
@@ -16,24 +33,22 @@
         "auburn-station",
         "kent-sounder-station",
         "tukwila-sounder-station",
-        "king-street-station",
-        "everett-station",
-        "mukilteo-station",
-        "edmonds-station"
+        "king-street-station"
       ],
-      "stationCount": 12,
-      "termini": ["Lakewood Station", "King Street Station", "Everett Station"],
+      "stationCount": 9,
+      "termini": ["Seattle", "Lakewood"],
       "topology": {
         "type": "linear"
       },
       "length": 47.56,
-      "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines."
+      "description": "The S Line is Sounder's south commuter rail service, connecting King Street Station in Seattle to Lakewood through the Green River valley cities and Tacoma.",
+      "opened": "2000-09-18"
     },
     {
       "id": "1-line",
       "systemId": "sound-transit",
       "name": "1 Line",
-      "color": "green",
+      "color": "28813F",
       "colorHex": "#28813F",
       "status": "active",
       "stations": [
@@ -77,7 +92,7 @@
       "id": "2-line",
       "systemId": "sound-transit",
       "name": "2 Line",
-      "color": "blue",
+      "color": "007CAD",
       "colorHex": "#007CAD",
       "status": "active",
       "stations": [
@@ -120,7 +135,7 @@
       "id": "t-line",
       "systemId": "sound-transit",
       "name": "T Line (Tacoma Link)",
-      "color": "orange",
+      "color": "F38B00",
       "colorHex": "#F38B00",
       "status": "active",
       "stations": [
@@ -178,7 +193,7 @@
     },
     {
       "systemId": "sound-transit",
-      "id": "s-line",
+      "id": "stride",
       "name": "Stride",
       "color": "yellow",
       "colorHex": "#F5A623",

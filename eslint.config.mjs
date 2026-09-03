@@ -12,6 +12,8 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Wrangler's local dev cache holds generated worker bundles.
+    "workers/incidents/.wrangler/**",
   ]),
 ]);
 

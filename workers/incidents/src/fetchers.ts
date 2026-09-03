@@ -423,6 +423,9 @@ const SOUND_TRANSIT_ROUTES: Record<string, string> = {
   TLINE: "t-line",
   NLINE: "n-line",
   SLINE: "s-line",
+  // Sounder alerts carry the static feed's route ids.
+  SNDR_EV: "n-line",
+  SNDR_TL: "s-line",
 };
 
 // Sound Transit station name patterns for text matching
@@ -442,7 +445,10 @@ const SOUND_TRANSIT_STATION_PATTERNS: Array<{ pattern: RegExp; stationId: string
   { pattern: /\bcolumbia city\b/i, stationId: "columbia-city" },
   { pattern: /\bothello\b/i, stationId: "othello" },
   { pattern: /\brainier beach\b/i, stationId: "rainier-beach" },
-  { pattern: /\btukwila\b/i, stationId: "tukwila-international-boulevard" },
+  {
+    pattern: /\btukwila international\b|\btukwila int'l\b/i,
+    stationId: "tukwila-international-boulevard",
+  },
   { pattern: /\bseatac|sea-tac|seatac\/airport/i, stationId: "sea-tac-airport" },
   { pattern: /\bangle lake\b/i, stationId: "angle-lake" },
   { pattern: /\bcapitol hill\b/i, stationId: "capitol-hill" },
@@ -469,6 +475,21 @@ const SOUND_TRANSIT_STATION_PATTERNS: Array<{ pattern: RegExp; stationId: string
   { pattern: /\bfederal way\b/i, stationId: "federal-way-downtown" },
   { pattern: /\bkent des moines\b/i, stationId: "kent-des-moines" },
   { pattern: /\bstar lake\b/i, stationId: "star-lake" },
+  // Sounder stations. Tacoma Dome maps to both the Sounder station and the
+  // T Line platform; an alert naming it concerns the whole complex.
+  { pattern: /\bking street\b/i, stationId: "king-street-station" },
+  { pattern: /\bedmonds\b/i, stationId: "edmonds-station" },
+  { pattern: /\bmukilteo\b/i, stationId: "mukilteo-station" },
+  { pattern: /\beverett\b/i, stationId: "everett-station" },
+  { pattern: /\btukwila station\b|\btukwila sounder\b/i, stationId: "tukwila-sounder-station" },
+  { pattern: /\bkent\b(?!\s+des\s+moines)/i, stationId: "kent-sounder-station" },
+  { pattern: /\bauburn\b/i, stationId: "auburn-station" },
+  { pattern: /\bsumner\b/i, stationId: "sumner-station" },
+  { pattern: /\bpuyallup\b/i, stationId: "puyallup-station" },
+  { pattern: /\btacoma dome\b/i, stationId: "tacoma-dome-station" },
+  { pattern: /\btacoma dome\b/i, stationId: "tacoma-dome-t" },
+  { pattern: /\bsouth tacoma\b/i, stationId: "south-tacoma-station" },
+  { pattern: /\blakewood\b/i, stationId: "lakewood-station" },
 ];
 
 function findStationsInTextByPattern(
