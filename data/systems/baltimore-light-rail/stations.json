@@ -11,6 +11,8 @@
         "lng": -76.63308
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/850371396",
+      "wikidata": "Q5187676",
       "opened": "1993-05-20",
       "description": "Southern terminus of the main line, located in Glen Burnie, Anne Arundel County. Large park-and-ride facility."
     },
@@ -25,6 +27,8 @@
         "lng": -76.64016
       },
       "features": ["accessible"],
+      "osmId": "node/850371399",
+      "wikidata": "Q5445053",
       "opened": "1993-05-20",
       "description": "Surface station in the Ferndale community of Anne Arundel County."
     },
@@ -39,6 +43,19 @@
         "lng": -76.669823
       },
       "features": ["accessible", "airport-connection"],
+      "osmId": "node/848318012",
+      "wikidata": "Q4836842",
+      "entrances": [
+        {
+          "id": "osm-node-10070170226",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.1823201,
+            "lng": -76.6694993
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "opened": "1997-12-06",
       "description": "Terminus of the BWI Airport branch, providing direct rail access to BWI Thurgood Marshall Airport. Connected to the airport terminal via a covered walkway."
     },
@@ -53,6 +70,8 @@
         "lng": -76.67321
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/848318076",
+      "wikidata": "Q4836841",
       "opened": "1997-12-06",
       "description": "Surface station serving the BWI Business District office park area near the airport."
     },
@@ -67,6 +86,8 @@
         "lng": -76.655357
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/848279408",
+      "wikidata": "Q6554849",
       "opened": "1993-04-02",
       "description": "Junction station where the BWI Airport branch diverges from the main line. Park-and-ride facility available."
     },
@@ -81,6 +102,8 @@
         "lng": -76.64608
       },
       "features": ["accessible"],
+      "osmId": "node/848279364",
+      "wikidata": "Q7055962",
       "opened": "1993-04-02",
       "description": "Surface station in the North Linthicum area of Anne Arundel County."
     },
@@ -95,6 +118,8 @@
         "lng": -76.641403
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/848279442",
+      "wikidata": "Q7070223",
       "opened": "1993-04-02",
       "description": "Surface station with park-and-ride facility near Nursery Road in Linthicum Heights."
     },
@@ -109,6 +134,8 @@
         "lng": -76.632927
       },
       "features": ["accessible"],
+      "osmId": "node/848279440",
+      "wikidata": "Q4852878",
       "opened": "1993-04-02",
       "description": "Surface station in the Baltimore Highlands community of Anne Arundel County."
     },
@@ -123,6 +150,8 @@
         "lng": -76.629974
       },
       "features": ["accessible"],
+      "osmId": "node/848279259",
+      "wikidata": "Q7144253",
       "opened": "1992-08-20",
       "description": "Surface station near the Patapsco River crossing. The BWI Airport branch diverges south of this station."
     },
@@ -137,6 +166,8 @@
         "lng": -76.634933
       },
       "features": ["accessible"],
+      "osmId": "node/847727185",
+      "wikidata": "Q5092376",
       "opened": "1992-08-20",
       "description": "Surface station serving the Cherry Hill community of South Baltimore."
     },
@@ -151,6 +182,8 @@
         "lng": -76.632126
       },
       "features": ["accessible"],
+      "osmId": "node/847727112",
+      "wikidata": "Q7989583",
       "opened": "1992-08-20",
       "description": "Surface station in the Westport neighborhood of South Baltimore."
     },
@@ -165,6 +198,8 @@
         "lng": -76.619904
       },
       "features": ["accessible"],
+      "osmId": "node/847727127",
+      "wikidata": "Q5644323",
       "opened": "1998-09-06",
       "description": "Infill station formerly known as Hamburg Street, opened in 1998 adjacent to M&T Bank Stadium (home of the Baltimore Ravens). Initially a game-day-only stop, it became a full-time daily station in 2005."
     },
@@ -179,6 +214,8 @@
         "lng": -76.619713
       },
       "features": ["accessible", "amtrak-connection"],
+      "osmId": "node/845910705",
+      "wikidata": "Q5025819",
       "opened": "1992-04-02",
       "description": "Street-running station near Oriole Park at Camden Yards and the historic Camden Station. Southern terminus of the Penn-Camden shuttle. Adjacent to the Camden MARC station for Amtrak and MARC Camden Line service."
     },
@@ -193,6 +230,8 @@
         "lng": -76.619392
       },
       "features": ["accessible"],
+      "osmId": "node/845911393",
+      "wikidata": "Q5166215",
       "opened": "1992-04-02",
       "description": "Street-running station on Howard Street near the Baltimore Convention Center."
     },
@@ -207,6 +246,8 @@
         "lng": -76.619461
       },
       "features": ["accessible"],
+      "osmId": "node/845911138",
+      "wikidata": "Q7894542",
       "opened": "1992-04-02",
       "description": "Street-running station on Howard Street at Baltimore Street, near the University of Maryland, Baltimore campus."
     },
@@ -221,6 +262,28 @@
         "lng": -76.619621
       },
       "features": ["accessible", "bus-connection"],
+      "osmId": "node/845372088",
+      "wikidata": "Q18153577",
+      "entrances": [
+        {
+          "id": "osm-node-844091649",
+          "name": "Lexington Market",
+          "coordinates": {
+            "lat": 39.2916428,
+            "lng": -76.620633
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-844091777",
+          "name": "Lexington Market",
+          "coordinates": {
+            "lat": 39.2929275,
+            "lng": -76.620955
+          },
+          "accessibility": []
+        }
+      ],
       "opened": "1992-04-02",
       "connections": ["baltimore-metro:lexington-market"],
       "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station."
@@ -236,6 +299,8 @@
         "lng": -76.619957
       },
       "features": ["accessible"],
+      "osmId": "node/845371951",
+      "wikidata": "Q5062312",
       "opened": "1992-04-02",
       "description": "Street-running station on Howard Street at Centre Street in downtown Baltimore."
     },
@@ -250,6 +315,8 @@
         "lng": -76.620453
       },
       "features": ["accessible"],
+      "osmId": "node/845372038",
+      "wikidata": "Q5193198",
       "opened": "1992-04-02",
       "description": "Street-running station on Howard Street near the Lyric Opera House and Joseph Meyerhoff Symphony Hall. Walking distance to the Metro SubwayLink State Center station."
     },
@@ -264,6 +331,8 @@
         "lng": -76.619888
       },
       "features": ["accessible"],
+      "osmId": "node/844812290",
+      "wikidata": "Q7895106",
       "opened": "1992-04-02",
       "description": "Street-running station on Howard Street near the University of Baltimore and Maryland Institute College of Art. The Penn Station spur diverges near this station."
     },
@@ -278,6 +347,8 @@
         "lng": -76.622589
       },
       "features": ["accessible", "bus-connection"],
+      "osmId": "node/844812526",
+      "wikidata": "Q15262492",
       "opened": "1992-04-02",
       "description": "Street-running station on Howard Street at North Avenue. Adjacent to the light rail maintenance facility. Served by both the main line and Penn-Camden shuttle."
     },
@@ -292,6 +363,8 @@
         "lng": -76.643417
       },
       "features": ["accessible"],
+      "osmId": "node/844696754",
+      "wikidata": "Q8032348",
       "opened": "1992-04-02",
       "description": "Surface station in the Woodberry neighborhood, near the Meadow Mill development and Clipper Mill."
     },
@@ -306,6 +379,8 @@
         "lng": -76.647903
       },
       "features": ["accessible"],
+      "osmId": "node/844696317",
+      "wikidata": "Q5142551",
       "opened": "1992-04-02",
       "description": "Surface station at Cold Spring Lane in northern Baltimore."
     },
@@ -320,6 +395,8 @@
         "lng": -76.652176
       },
       "features": ["accessible"],
+      "osmId": "node/529084461",
+      "wikidata": "Q14692257",
       "opened": "1992-04-02",
       "description": "Surface station in the Mt Washington neighborhood of Baltimore."
     },
@@ -334,6 +411,8 @@
         "lng": -76.649727
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/844224968",
+      "wikidata": "Q5432495",
       "opened": "1992-04-02",
       "description": "Surface station with park-and-ride facility adjacent to Lake Roland and the Robert E. Lee Memorial Park."
     },
@@ -348,6 +427,8 @@
         "lng": -76.627144
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/844225037",
+      "wikidata": "Q6705770",
       "opened": "1992-04-02",
       "description": "Surface station with park-and-ride facility in the Lutherville-Timonium community."
     },
@@ -362,6 +443,8 @@
         "lng": -76.628181
       },
       "features": ["accessible"],
+      "osmId": "node/844225174",
+      "wikidata": "Q7806935",
       "opened": "1992-04-02",
       "description": "Surface station serving the Timonium business park area of Baltimore County."
     },
@@ -376,6 +459,8 @@
         "lng": -76.634926
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/844179240",
+      "wikidata": "Q7806934",
       "opened": "1992-04-02",
       "description": "Formerly Timonium Fairgrounds, this was the original northern terminus when the system opened in 1992. Located adjacent to the Maryland State Fairgrounds."
     },
@@ -390,6 +475,8 @@
         "lng": -76.653755
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/844179301",
+      "wikidata": "Q7970453",
       "opened": "1997-09-09",
       "description": "Surface station with park-and-ride facility in the Timonium area."
     },
@@ -404,6 +491,8 @@
         "lng": -76.661728
       },
       "features": ["accessible"],
+      "osmId": "node/844179024",
+      "wikidata": "Q5562585",
       "opened": "1997-09-09",
       "description": "Surface station in the Timonium area of Baltimore County."
     },
@@ -418,6 +507,8 @@
         "lng": -76.658943
       },
       "features": ["accessible"],
+      "osmId": "node/844179415",
+      "wikidata": "Q6800581",
       "opened": "1997-09-09",
       "description": "Surface station near McCormick & Company headquarters in Hunt Valley."
     },
@@ -432,6 +523,8 @@
         "lng": -76.656273
       },
       "features": ["accessible"],
+      "osmId": "node/844179287",
+      "wikidata": "Q7166374",
       "opened": "1997-09-09",
       "description": "Surface station in the Hunt Valley area, opened as part of the 1997 northern extension."
     },
@@ -446,6 +539,8 @@
         "lng": -76.654289
       },
       "features": ["park-and-ride", "accessible"],
+      "osmId": "node/844118971",
+      "wikidata": "Q5944009",
       "opened": "1997-09-09",
       "description": "Northern terminus of the Light RailLink system, located in Hunt Valley, Baltimore County. Large park-and-ride facility."
     },
@@ -460,6 +555,8 @@
         "lng": -76.616087
       },
       "features": ["accessible", "amtrak-connection"],
+      "osmId": "node/7103884603",
+      "wikidata": "Q3374785",
       "opened": "1997-12-06",
       "description": "Northern terminus of the Penn-Camden shuttle, located adjacent to Baltimore Penn Station. Provides connections to Amtrak Northeast Corridor and MARC Penn Line commuter rail services."
     }

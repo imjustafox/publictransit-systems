@@ -11,6 +11,30 @@
         "lng": -87.776812
       },
       "features": [],
+      "osmId": "node/737746214",
+      "wikidata": "Q2872109",
+      "entrances": [
+        {
+          "id": "osm-node-2074799361",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8707536,
+            "lng": -87.7744428
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7953114854",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8710595,
+            "lng": -87.7791741
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Austin is a station on the Blue Line in the Austin neighborhood."
     },
     {
@@ -24,6 +48,50 @@
         "lng": -87.803176
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7132430675",
+      "wikidata": "Q3034416",
+      "entrances": [
+        {
+          "id": "osm-node-13281921088",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8867685,
+            "lng": -87.805123
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13281921097",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8868903,
+            "lng": -87.8031118
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13834688441",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8868297,
+            "lng": -87.8034302
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7706503950",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8871012,
+            "lng": -87.8034454
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Harlem/Lake is the western terminus of the Green Line in Oak Park."
     },
     {
@@ -37,6 +105,59 @@
         "lng": -87.725404
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2042977745",
+      "wikidata": "Q3410726",
+      "entrances": [
+        {
+          "id": "osm-node-13520564913",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8853813,
+            "lng": -87.7260201
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13520564914",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8855689,
+            "lng": -87.7260122
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13520564925",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8855911,
+            "lng": -87.7262327
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13695852156",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8853822,
+            "lng": -87.7262535
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13695852181",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8856294,
+            "lng": -87.7261986
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Pulaski is a station on the Green Line in the West Garfield Park neighborhood."
     },
     {
@@ -50,6 +171,66 @@
         "lng": -87.63374
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258940052",
+      "wikidata": "Q3414534",
+      "entrances": [
+        {
+          "id": "osm-node-10932767752",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8788513,
+            "lng": -87.633879
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10932767754",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.878591,
+            "lng": -87.6338725
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10932767756",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8788952,
+            "lng": -87.6336573
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10932767758",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.878614,
+            "lng": -87.6336486
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10932767781",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.878509,
+            "lng": -87.633657
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10932767782",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8784726,
+            "lng": -87.6338533
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Quincy is a downtown Loop station on the Wells Street elevated, serving the Brown, Orange, Pink, and Purple lines."
     },
     {
@@ -63,6 +244,48 @@
         "lng": -87.683543
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2092506200",
+      "wikidata": "Q3019160",
+      "entrances": [
+        {
+          "id": "osm-node-7841433456",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0479946,
+            "lng": -87.6838202
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-8041709693",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0478374,
+            "lng": -87.6835656
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-8041709694",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0478414,
+            "lng": -87.6838524
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-8041709699",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.04799,
+            "lng": -87.6835903
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "description": "Davis is a station in downtown Evanston on the Purple Line, serving as the line's primary Evanston stop."
     },
     {
@@ -76,6 +299,30 @@
         "lng": -87.71225212
       },
       "features": [],
+      "osmId": "node/258284110",
+      "wikidata": "Q2895020",
+      "entrances": [
+        {
+          "id": "osm-node-13794289984",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9391102,
+            "lng": -87.7121396
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2088673223",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.939123,
+            "lng": -87.7121398
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Belmont is a station on the Blue Line in the Avondale neighborhood."
     },
     {
@@ -89,6 +336,99 @@
         "lng": -87.629296
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/289821023",
+      "wikidata": "Q6116928",
+      "entrances": [
+        {
+          "id": "osm-node-11776503258",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8775693,
+            "lng": -87.6298819
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13329301212",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8786628,
+            "lng": -87.6293177
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1407580199",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8786618,
+            "lng": -87.6294337
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1407580202",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.878664,
+            "lng": -87.6292122
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2435818024",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8788723,
+            "lng": -87.6292173
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5289721664",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8776537,
+            "lng": -87.6293941
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289721665",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8773724,
+            "lng": -87.6293887
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289721666",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8773323,
+            "lng": -87.6291883
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289721667",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8776545,
+            "lng": -87.6291901
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Jackson is a station on the Blue Line in the the Loop neighborhood."
     },
     {
@@ -102,6 +442,20 @@
         "lng": -87.6546614127
       },
       "features": [],
+      "osmId": "node/252643632",
+      "wikidata": "Q3481922",
+      "entrances": [
+        {
+          "id": "osm-node-13524799174",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9539005,
+            "lng": -87.6546706
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Sheridan is a station on the Red Line in the Lakeview neighborhood."
     },
     {
@@ -115,6 +469,30 @@
         "lng": -87.678639
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758336881",
+      "wikidata": "Q3012678",
+      "entrances": [
+        {
+          "id": "osm-node-12292651254",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9664822,
+            "lng": -87.6789392
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12292651286",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9664058,
+            "lng": -87.6789671
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Damen is a station on the Brown Line in the North Center neighborhood."
     },
     {
@@ -128,6 +506,29 @@
         "lng": -87.665909
       },
       "features": [],
+      "osmId": "node/252643581",
+      "wikidata": "Q3324437",
+      "entrances": [
+        {
+          "id": "osm-node-13440684292",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0088994,
+            "lng": -87.6660002
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13440687957",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0080304,
+            "lng": -87.6659684
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Morse is a station on the Red Line in the Rogers Park neighborhood."
     },
     {
@@ -141,6 +542,49 @@
         "lng": -87.680622
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758297004",
+      "wikidata": "Q2816283",
+      "entrances": [
+        {
+          "id": "osm-node-13375154644",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8293999,
+            "lng": -87.6808035
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13809747716",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8292923,
+            "lng": -87.6806523
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9836695434",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8292391,
+            "lng": -87.6807969
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9836695435",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8293825,
+            "lng": -87.6805606
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "35th/Archer is a station on the Orange Line in the Brighton Park neighborhood."
     },
     {
@@ -154,6 +598,20 @@
         "lng": -87.618487
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/706934716",
+      "wikidata": "Q2817438",
+      "entrances": [
+        {
+          "id": "osm-node-13520313550",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8019818,
+            "lng": -87.6185227
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "51st is a station on the Green Line."
     },
     {
@@ -167,6 +625,40 @@
         "lng": -87.751919
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758315716",
+      "wikidata": "Q568297",
+      "entrances": [
+        {
+          "id": "osm-node-10302041103",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0395415,
+            "lng": -87.7523154
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13474529688",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0395451,
+            "lng": -87.7521479
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2052893599",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0392478,
+            "lng": -87.7520486
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Dempster-Skokie is the northern terminus of the Yellow Line in Skokie."
     },
     {
@@ -180,6 +672,60 @@
         "lng": -87.724311
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758311743",
+      "wikidata": "Q3410724",
+      "entrances": [
+        {
+          "id": "osm-node-13841953899",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.853761,
+            "lng": -87.7246228
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13841953900",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8539669,
+            "lng": -87.7246275
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13841954009",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8538647,
+            "lng": -87.7245602
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9782295462",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8539312,
+            "lng": -87.7246538
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9782295463",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8537901,
+            "lng": -87.7246507
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Pulaski is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
@@ -193,6 +739,50 @@
         "lng": -87.631739
       },
       "features": [],
+      "osmId": "node/258940056",
+      "wikidata": "Q3206263",
+      "entrances": [
+        {
+          "id": "osm-node-10933145702",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8767668,
+            "lng": -87.6319785
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10933145703",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8768052,
+            "lng": -87.6316261
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10933145704",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.876938,
+            "lng": -87.6319752
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10933204905",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8769401,
+            "lng": -87.6316333
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "LaSalle/Van Buren is a downtown Loop station on the Wells Street elevated, serving the Brown, Orange, Pink, and Purple lines."
     },
     {
@@ -206,6 +796,80 @@
         "lng": -87.666969
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258942196",
+      "wikidata": "Q2866523",
+      "entrances": [
+        {
+          "id": "osm-node-13724151403",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8852488,
+            "lng": -87.6665267
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13724151404",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8852713,
+            "lng": -87.6665273
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13724151405",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8854233,
+            "lng": -87.666532
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2042074120",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8854399,
+            "lng": -87.6655681
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2042074150",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8852857,
+            "lng": -87.6655587
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2403785234",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8851062,
+            "lng": -87.6670604
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2403785238",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8851025,
+            "lng": -87.6667436
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Ashland is a station on the Green and Pink lines in Near West Side."
     },
     {
@@ -219,6 +883,30 @@
         "lng": -87.791602
       },
       "features": [],
+      "osmId": "node/737746111",
+      "wikidata": "Q3347837",
+      "entrances": [
+        {
+          "id": "osm-node-2074790525",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.872287,
+            "lng": -87.7938874
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7953114855",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8718932,
+            "lng": -87.7891956
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Oak Park is a station on the Blue Line in the Oak Park neighborhood."
     },
     {
@@ -232,6 +920,30 @@
         "lng": -87.630636
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/1236309640",
+      "wikidata": "Q3264096",
+      "entrances": [
+        {
+          "id": "osm-node-13283605308",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8314882,
+            "lng": -87.6306595
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9266734995",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8310841,
+            "lng": -87.6306668
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Sox-35th is a station on the Red Line near Guaranteed Rate Field, home of the Chicago White Sox."
     },
     {
@@ -245,6 +957,40 @@
         "lng": -87.675975
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758311739",
+      "wikidata": "Q2888781",
+      "entrances": [
+        {
+          "id": "osm-node-12097699018",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8546837,
+            "lng": -87.676049
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12097699038",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8545181,
+            "lng": -87.6761168
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2404385815",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8544788,
+            "lng": -87.6781888
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Damen is a station on the Pink Line in the McKinley Park neighborhood."
     },
     {
@@ -258,6 +1004,19 @@
         "lng": -87.688436
       },
       "features": [],
+      "osmId": "node/7758309687",
+      "wikidata": "Q3567480",
+      "entrances": [
+        {
+          "id": "osm-node-2404275513",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8755513,
+            "lng": -87.6864911
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Western is a station on the Blue Line in the East Garfield Park neighborhood."
     },
     {
@@ -271,6 +1030,49 @@
         "lng": -87.838028
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2088620947",
+      "wikidata": "Q3007516",
+      "entrances": [
+        {
+          "id": "osm-node-11926199594",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9839533,
+            "lng": -87.8381498
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2088620955",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9842348,
+            "lng": -87.8393536
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9904867219",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9842718,
+            "lng": -87.8388483
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9904867221",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9839333,
+            "lng": -87.8393005
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Cumberland is a station on the Blue Line in the Cumberland neighborhood."
     },
     {
@@ -284,6 +1086,39 @@
         "lng": -87.625112
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023849144",
+      "wikidata": "Q2818320",
+      "entrances": [
+        {
+          "id": "osm-node-10595063863",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7511575,
+            "lng": -87.6251965
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10595063868",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7508634,
+            "lng": -87.6251933
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13283605359",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7506606,
+            "lng": -87.625191
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "description": "79th is a station on the Red Line in the Chatham neighborhood."
     },
     {
@@ -297,6 +1132,20 @@
         "lng": -87.70604
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2090194444",
+      "wikidata": "Q3194605",
+      "entrances": [
+        {
+          "id": "osm-node-2399951309",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8744284,
+            "lng": -87.7060715
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Kedzie-Homan is a station on the Blue Line in the Lawndale neighborhood."
     },
     {
@@ -310,6 +1159,30 @@
         "lng": -87.679538
       },
       "features": [],
+      "osmId": "node/7132414064",
+      "wikidata": "Q3278263",
+      "entrances": [
+        {
+          "id": "osm-node-13283843922",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.033347,
+            "lng": -87.679421
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13433003620",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0333015,
+            "lng": -87.6799355
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Main is a station on the Purple Line in the Evanston neighborhood."
     },
     {
@@ -323,6 +1196,30 @@
         "lng": -87.76565
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758320416",
+      "wikidata": "Q2944388",
+      "entrances": [
+        {
+          "id": "osm-node-13524536433",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8873558,
+            "lng": -87.7653159
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13680607357",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8874304,
+            "lng": -87.7654014
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Central is a station on the Green Line in the Austin neighborhood."
     },
     {
@@ -336,6 +1233,30 @@
         "lng": -87.663766
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758205846",
+      "wikidata": "Q2866525",
+      "entrances": [
+        {
+          "id": "osm-node-13191473730",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7788413,
+            "lng": -87.6639437
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13191473732",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7788411,
+            "lng": -87.6637931
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Ashland/63rd is a station on the Green Line in the Englewood neighborhood."
     },
     {
@@ -349,6 +1270,40 @@
         "lng": -87.621371
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/706934719",
+      "wikidata": "Q3150103",
+      "entrances": [
+        {
+          "id": "osm-node-13520432403",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.821828,
+            "lng": -87.6213717
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14132272580",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8217776,
+            "lng": -87.6211841
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14132272581",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8218887,
+            "lng": -87.6211869
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Indiana is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
@@ -362,6 +1317,39 @@
         "lng": -87.684019
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758297005",
+      "wikidata": "Q3567470",
+      "entrances": [
+        {
+          "id": "osm-node-13365905066",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8047809,
+            "lng": -87.6842274
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13365905068",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8048097,
+            "lng": -87.6840624
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13365905069",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8046883,
+            "lng": -87.6840792
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "description": "Western is a station on the Orange Line in the Brighton Park neighborhood."
     },
     {
@@ -375,6 +1363,30 @@
         "lng": -87.666496
       },
       "features": [],
+      "osmId": "node/2389096816",
+      "wikidata": "Q3032329",
+      "entrances": [
+        {
+          "id": "osm-node-1699464673",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9035686,
+            "lng": -87.667327
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4398103350",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9039066,
+            "lng": -87.6676947
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Division is a station on the Blue Line in the Wicker Park neighborhood."
     },
     {
@@ -388,6 +1400,56 @@
         "lng": -87.628021
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/6939681043",
+      "wikidata": "Q3113492",
+      "entrances": [
+        {
+          "id": "osm-node-11114866877",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8917754,
+            "lng": -87.6278168
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3032553427",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8915947,
+            "lng": -87.6284137
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3032553429",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8917472,
+            "lng": -87.6283283
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3032553431",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8917874,
+            "lng": -87.6282004
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4428028423",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8916066,
+            "lng": -87.6276147
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Grand is a station on the Red Line in the River North neighborhood."
     },
     {
@@ -401,6 +1463,29 @@
         "lng": -87.658668
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023206637",
+      "wikidata": "Q952265",
+      "entrances": [
+        {
+          "id": "osm-node-13455398361",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.977848,
+            "lng": -87.6586759
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13455398366",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9780473,
+            "lng": -87.6587124
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Berwyn is a station on the Red Line in the Edgewater neighborhood."
     },
     {
@@ -414,6 +1499,50 @@
         "lng": -87.649707
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258026049",
+      "wikidata": "Q3547211",
+      "entrances": [
+        {
+          "id": "osm-node-12018689313",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8754969,
+            "lng": -87.6500608
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2868745287",
+          "name": "UIC-Halsted (Morgan Street)",
+          "coordinates": {
+            "lat": 41.8754859,
+            "lng": -87.6517325
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6366358664",
+          "name": "UIC-Halsted (Halsted Street)",
+          "coordinates": {
+            "lat": 41.8755284,
+            "lng": -87.6473044
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9272851680",
+          "name": "UIC-Halsted (Peoria Street)",
+          "coordinates": {
+            "lat": 41.8755429,
+            "lng": -87.6496081
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "UIC-Halsted is a station on the Blue Line in the University Village neighborhood."
     },
     {
@@ -427,6 +1556,20 @@
         "lng": -87.663619
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758320417",
+      "wikidata": "Q3492341",
+      "entrances": [
+        {
+          "id": "osm-node-12300383883",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9438252,
+            "lng": -87.6637878
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Southport is a station on the Brown Line in the Lakeview neighborhood."
     },
     {
@@ -440,6 +1583,80 @@
         "lng": -87.62944
       },
       "features": [],
+      "osmId": "node/289820702",
+      "wikidata": "Q3566503",
+      "entrances": [
+        {
+          "id": "osm-node-2025289439",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.882736,
+            "lng": -87.6293288
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289443",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.882434,
+            "lng": -87.6293224
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289448",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8824305,
+            "lng": -87.6295272
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289452",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8827347,
+            "lng": -87.6295333
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2396937593",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8836962,
+            "lng": -87.6296089
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2423463122",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8837013,
+            "lng": -87.629364
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2423463125",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8840038,
+            "lng": -87.6293654
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Washington is a station on the Blue Line in the the Loop neighborhood."
     },
     {
@@ -453,6 +1670,106 @@
         "lng": -87.630886
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258940066",
+      "wikidata": "Q601041",
+      "entrances": [
+        {
+          "id": "osm-node-13330659521",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.885502,
+            "lng": -87.6315262
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13330659526",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8857347,
+            "lng": -87.6317458
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2463944481",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8854849,
+            "lng": -87.6319245
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2464793292",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8859552,
+            "lng": -87.6316401
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2464794008",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8859567,
+            "lng": -87.6315507
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2464795744",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8855249,
+            "lng": -87.6316292
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2464795746",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8855887,
+            "lng": -87.6317426
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9007520469",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8860625,
+            "lng": -87.6312185
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9622882831",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8855065,
+            "lng": -87.6338411
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9622882835",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8859606,
+            "lng": -87.6338549
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Clark/Lake is a major downtown hub in the Loop, serving six L lines with connections to all services."
     },
     {
@@ -466,6 +1783,39 @@
         "lng": -87.817318
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/13166659192",
+      "wikidata": "Q3077167",
+      "entrances": [
+        {
+          "id": "osm-node-13002504375",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8742453,
+            "lng": -87.8165645
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13166605005",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8743452,
+            "lng": -87.8166377
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13166605006",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8741755,
+            "lng": -87.8166638
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Forest Park is the western terminus of the Blue Line's Forest Park branch."
     },
     {
@@ -479,6 +1829,19 @@
         "lng": -87.683337
       },
       "features": [],
+      "osmId": "node/2091745257",
+      "wikidata": "Q3345691",
+      "entrances": [
+        {
+          "id": "osm-node-13419186054",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.058691,
+            "lng": -87.6834676
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Noyes is a station on the Purple Line in the Evanston neighborhood."
     },
     {
@@ -492,6 +1855,20 @@
         "lng": -87.745336
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2080123172",
+      "wikidata": "Q2972269",
+      "entrances": [
+        {
+          "id": "osm-node-14071135229",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8519296,
+            "lng": -87.7444271
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Cicero is a station on the Pink Line in the Cicero neighborhood."
     },
     {
@@ -505,6 +1882,50 @@
         "lng": -87.640984
       },
       "features": [],
+      "osmId": "node/258281897",
+      "wikidata": "Q2979347",
+      "entrances": [
+        {
+          "id": "osm-node-11983620773",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8754094,
+            "lng": -87.6408791
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11983620775",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8754081,
+            "lng": -87.6411087
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11983620777",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8757228,
+            "lng": -87.6411208
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11983620779",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8757307,
+            "lng": -87.6408892
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Clinton is a station on the Blue Line in the West Loop neighborhood."
     },
     {
@@ -518,6 +1939,50 @@
         "lng": -87.694774
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758311741",
+      "wikidata": "Q2933966",
+      "entrances": [
+        {
+          "id": "osm-node-13507685083",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8542217,
+            "lng": -87.6953963
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13507685084",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8542616,
+            "lng": -87.6953976
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13507685087",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8542936,
+            "lng": -87.6956797
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13984306053",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8543024,
+            "lng": -87.6953074
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "California is a station on the Pink Line in the Brighton Park neighborhood."
     },
     {
@@ -531,6 +1996,120 @@
         "lng": -87.624342
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/8018718986",
+      "wikidata": "Q2818719",
+      "entrances": [
+        {
+          "id": "osm-node-13283605384",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7214474,
+            "lng": -87.6243817
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13283605388",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7219316,
+            "lng": -87.6243893
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13283605394",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7223691,
+            "lng": -87.6244029
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13387851092",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7214901,
+            "lng": -87.6243417
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13396465565",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.721902,
+            "lng": -87.6243488
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9873259960",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7214892,
+            "lng": -87.6244196
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9873259961",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7219019,
+            "lng": -87.6244232
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9873259963",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7223712,
+            "lng": -87.6247479
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9873259965",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7223789,
+            "lng": -87.6240537
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9873259976",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7227166,
+            "lng": -87.624412
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9873259985",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7209139,
+            "lng": -87.6243737
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "95th/Dan Ryan is the southern terminus of the Red Line on the South Side, featuring a major bus terminal."
     },
     {
@@ -544,6 +2123,48 @@
         "lng": -87.633924
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5349574577",
+      "wikidata": "Q3306331",
+      "entrances": [
+        {
+          "id": "osm-node-11842104652",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8884557,
+            "lng": -87.63455
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2012981097",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8894333,
+            "lng": -87.6341359
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2012981099",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8894333,
+            "lng": -87.6339154
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2394653169",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8886822,
+            "lng": -87.6341562
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Merchandise Mart is a station on the Brown and Purple lines, located near the Merchandise Mart in River North."
     },
     {
@@ -557,6 +2178,20 @@
         "lng": -87.659458
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258026055",
+      "wikidata": "Q3416226",
+      "entrances": [
+        {
+          "id": "osm-node-2051982650",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8758892,
+            "lng": -87.6571865
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Racine is a station on the Blue Line in the University Village neighborhood."
     },
     {
@@ -570,6 +2205,50 @@
         "lng": -87.744698
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2043012982",
+      "wikidata": "Q2972270",
+      "entrances": [
+        {
+          "id": "osm-node-10674920297",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8869493,
+            "lng": -87.7452384
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13694115724",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8867277,
+            "lng": -87.7452245
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13694115799",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8865712,
+            "lng": -87.7451209
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13694142016",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8869767,
+            "lng": -87.7452201
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Cicero is a station on the Green Line in the Austin neighborhood."
     },
     {
@@ -583,6 +2262,40 @@
         "lng": -87.647578
       },
       "features": [],
+      "osmId": "node/258281908",
+      "wikidata": "Q3113491",
+      "entrances": [
+        {
+          "id": "osm-node-3654876207",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8912621,
+            "lng": -87.6480859
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-369631470",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8915541,
+            "lng": -87.6477263
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9282112426",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8911077,
+            "lng": -87.6478972
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Grand is a station on the Blue Line in the River North neighborhood."
     },
     {
@@ -596,6 +2309,20 @@
         "lng": -87.618327
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758205847",
+      "wikidata": "Q259349",
+      "entrances": [
+        {
+          "id": "osm-node-13520159132",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7948933,
+            "lng": -87.6183403
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Garfield is a station on the Green Line in the Washington Park neighborhood."
     },
     {
@@ -609,6 +2336,20 @@
         "lng": -87.68356
       },
       "features": [],
+      "osmId": "node/3882686491",
+      "wikidata": "Q384659",
+      "entrances": [
+        {
+          "id": "osm-node-2295266018",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0536778,
+            "lng": -87.6836832
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Foster is a station on the Purple Line in the Evanston neighborhood."
     },
     {
@@ -622,6 +2363,40 @@
         "lng": -87.653131
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758320419",
+      "wikidata": "Q3032235",
+      "entrances": [
+        {
+          "id": "osm-node-12307104168",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9328339,
+            "lng": -87.6530904
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-12307104170",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9325633,
+            "lng": -87.6531708
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12307104171",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9325649,
+            "lng": -87.6530849
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Diversey is a station on the Brown and Purple lines in Lakeview."
     },
     {
@@ -635,6 +2410,60 @@
         "lng": -87.6579258145
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/734512771",
+      "wikidata": "Q2838851",
+      "entrances": [
+        {
+          "id": "osm-node-13606930159",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9651358,
+            "lng": -87.658118
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13606930160",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9651657,
+            "lng": -87.6579417
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5267159888",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9634728,
+            "lng": -87.6574805
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5267159889",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9652144,
+            "lng": -87.6580572
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5267159890",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.965518,
+            "lng": -87.6581496
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Wilson is a major Red Line station in Uptown, rebuilt and reopened in 2024 as part of the Red-Purple Modernization program."
     },
     {
@@ -648,6 +2477,40 @@
         "lng": -87.729229
       },
       "features": [],
+      "osmId": "node/6371391670",
+      "wikidata": "Q3154618",
+      "entrances": [
+        {
+          "id": "osm-node-7892196864",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9537532,
+            "lng": -87.7306339
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7892196867",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9534833,
+            "lng": -87.7301553
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7892196877",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9521882,
+            "lng": -87.7278595
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Irving Park is a station on the Blue Line in the Irving Park neighborhood."
     },
     {
@@ -661,6 +2524,117 @@
         "lng": -87.627596
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258296742",
+      "wikidata": "Q2670059",
+      "entrances": [
+        {
+          "id": "osm-node-10977345827",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8788832,
+            "lng": -87.6279233
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11778218235",
+          "name": "Jackson",
+          "coordinates": {
+            "lat": 41.8774284,
+            "lng": -87.6275491
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11778218244",
+          "name": "Jackson",
+          "coordinates": {
+            "lat": 41.8777876,
+            "lng": -87.6278104
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11778218257",
+          "name": "Jackson",
+          "coordinates": {
+            "lat": 41.8776072,
+            "lng": -87.6278067
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13444719857",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.878615,
+            "lng": -87.6276861
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13444736993",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8778093,
+            "lng": -87.6276717
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1469315808",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8790055,
+            "lng": -87.6275882
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315819",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8786694,
+            "lng": -87.6275802
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315825",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8789979,
+            "lng": -87.6278353
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1469315831",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8786665,
+            "lng": -87.6278276
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5273609832",
+          "name": "Jackson",
+          "coordinates": {
+            "lat": 41.8777568,
+            "lng": -87.6275594
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Jackson is a station on the Red Line in the the Loop neighborhood."
     },
     {
@@ -674,6 +2648,28 @@
         "lng": -87.6972439537
       },
       "features": [],
+      "osmId": "node/1130096180",
+      "wikidata": "Q2933963",
+      "entrances": [
+        {
+          "id": "osm-node-11049669205",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9221485,
+            "lng": -87.6971901
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11049669206",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9221753,
+            "lng": -87.6971591
+          },
+          "accessibility": []
+        }
+      ],
       "description": "California is a station on the Blue Line in the Humboldt Park neighborhood."
     },
     {
@@ -687,6 +2683,50 @@
         "lng": -87.75669201
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2080123194",
+      "wikidata": "Q2817469",
+      "entrances": [
+        {
+          "id": "osm-node-7965513551",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8517574,
+            "lng": -87.758852
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7965513554",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8517532,
+            "lng": -87.7562116
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7965513555",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8517433,
+            "lng": -87.7569154
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7965513565",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8518239,
+            "lng": -87.7542756
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "54th/Cermak is the southern terminus of the Pink Line in Archer Heights."
     },
     {
@@ -700,6 +2740,40 @@
         "lng": -87.6775400139
       },
       "features": [],
+      "osmId": "node/2090176565",
+      "wikidata": "Q3012677",
+      "entrances": [
+        {
+          "id": "osm-node-11051649820",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9098752,
+            "lng": -87.6776254
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11051649821",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9098531,
+            "lng": -87.6776506
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11051649831",
+          "name": "North Ave Exit",
+          "coordinates": {
+            "lat": 41.91057,
+            "lng": -87.6786409
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Damen is a station on the Blue Line in the Wicker Park neighborhood."
     },
     {
@@ -713,6 +2787,30 @@
         "lng": -87.733258
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758311744",
+      "wikidata": "Q3199118",
+      "entrances": [
+        {
+          "id": "osm-node-7965508560",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8537717,
+            "lng": -87.7322977
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9782295453",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.853732,
+            "lng": -87.7344371
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Kostner is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
@@ -726,6 +2824,20 @@
         "lng": -87.783661
       },
       "features": [],
+      "osmId": "node/7758320413",
+      "wikidata": "Q3431728",
+      "entrances": [
+        {
+          "id": "osm-node-13281927709",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8870854,
+            "lng": -87.7844365
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Ridgeland is a station on the Green Line in the Austin neighborhood."
     },
     {
@@ -739,6 +2851,89 @@
         "lng": -87.631412
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/1894033196",
+      "wikidata": "Q2975647",
+      "entrances": [
+        {
+          "id": "osm-node-12919071589",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9037652,
+            "lng": -87.6327226
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14086219812",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9038862,
+            "lng": -87.6326936
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2039052243",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9037469,
+            "lng": -87.6315475
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2039052248",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9037476,
+            "lng": -87.6313432
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2039052252",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9040687,
+            "lng": -87.6313531
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2039052256",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9040616,
+            "lng": -87.6315555
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3845614185",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9040606,
+            "lng": -87.632774
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3845614186",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9037038,
+            "lng": -87.63277
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Clark/Division is a station on the Red Line in the Gold Coast neighborhood near Rush Street."
     },
     {
@@ -752,6 +2947,20 @@
         "lng": -87.649177
       },
       "features": [],
+      "osmId": "node/7758428036",
+      "wikidata": "Q3344077",
+      "entrances": [
+        {
+          "id": "osm-node-13191187491",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9107208,
+            "lng": -87.6488647
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "North/Clybourn is a station on the Red Line in the Lincoln Park neighborhood."
     },
     {
@@ -765,6 +2974,30 @@
         "lng": -87.652644
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/252683073",
+      "wikidata": "Q2862279",
+      "entrances": [
+        {
+          "id": "osm-node-12316953731",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9182142,
+            "lng": -87.6526967
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12317229947",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9183017,
+            "lng": -87.6526036
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Armitage is a station on the Brown and Purple lines in Lincoln Park."
     },
     {
@@ -778,6 +3011,50 @@
         "lng": -87.687364
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2090182932",
+      "wikidata": "Q3567468",
+      "entrances": [
+        {
+          "id": "osm-node-11050225652",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.916091,
+            "lng": -87.687179
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13799715231",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9160385,
+            "lng": -87.6869697
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2090182936",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9160267,
+            "lng": -87.6875213
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2090182946",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9165645,
+            "lng": -87.687559
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Western is a station on the Blue Line in the Bucktown neighborhood."
     },
     {
@@ -791,6 +3068,49 @@
         "lng": -87.626037
       },
       "features": [],
+      "osmId": "node/258940060",
+      "wikidata": "Q2311028",
+      "entrances": [
+        {
+          "id": "osm-node-2404152592",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8796751,
+            "lng": -87.6260112
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2404152599",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8796601,
+            "lng": -87.6262613
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2404152601",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8793842,
+            "lng": -87.6262577
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2404152603",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8793874,
+            "lng": -87.6260039
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Adams/Wabash is a downtown Loop elevated station serving the Brown, Green, Orange, Pink, and Purple lines."
     },
     {
@@ -804,6 +3124,20 @@
         "lng": -87.681602
       },
       "features": [],
+      "osmId": "node/7758315715",
+      "wikidata": "Q3022247",
+      "entrances": [
+        {
+          "id": "osm-node-13283843921",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0416721,
+            "lng": -87.6815351
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Dempster is a station on the Purple Line in the Evanston neighborhood."
     },
     {
@@ -817,6 +3151,50 @@
         "lng": -87.754986
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2043044695",
+      "wikidata": "Q3217830",
+      "entrances": [
+        {
+          "id": "osm-node-13524523762",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8870656,
+            "lng": -87.7552377
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13676569526",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8870662,
+            "lng": -87.7552183
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2445152685",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8868984,
+            "lng": -87.7552228
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2445152693",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8868994,
+            "lng": -87.7553932
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Laramie is a station on the Green Line in the Austin neighborhood."
     },
     {
@@ -830,6 +3208,49 @@
         "lng": -87.635924
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5349571275",
+      "wikidata": "Q2963286",
+      "entrances": [
+        {
+          "id": "osm-node-12097453038",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8955255,
+            "lng": -87.6353706
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-12097453048",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8964784,
+            "lng": -87.6353504
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12097453049",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8964682,
+            "lng": -87.6361104
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2012967753",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8956325,
+            "lng": -87.6360215
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Chicago is a station on the Brown and Purple lines at Chicago Avenue in River North."
     },
     {
@@ -843,6 +3264,50 @@
         "lng": -87.605857
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758205845",
+      "wikidata": "Q2998600",
+      "entrances": [
+        {
+          "id": "osm-node-10302062624",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7802707,
+            "lng": -87.606075
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10302062627",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7805353,
+            "lng": -87.606092
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2039152474",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7807325,
+            "lng": -87.6060783
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2039152483",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7807347,
+            "lng": -87.6058
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Cottage Grove is the eastern terminus of the Green Line's Cottage Grove branch on the South Side."
     },
     {
@@ -856,6 +3321,68 @@
         "lng": -87.63378
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258940051",
+      "wikidata": "Q3566498",
+      "entrances": [
+        {
+          "id": "osm-node-10932536212",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8828228,
+            "lng": -87.6339729
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10932536214",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8827423,
+            "lng": -87.633769
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10932536219",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8826447,
+            "lng": -87.6337605
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13328987919",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8826429,
+            "lng": -87.6339707
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7326451923",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8829794,
+            "lng": -87.6337686
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7326451925",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8829804,
+            "lng": -87.6339755
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Washington/Wells is a downtown Loop station serving the Brown, Orange, Pink, and Purple lines."
     },
     {
@@ -869,6 +3396,60 @@
         "lng": -87.685129
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758311740",
+      "wikidata": "Q3567471",
+      "entrances": [
+        {
+          "id": "osm-node-13846974180",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8543902,
+            "lng": -87.6855106
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13846974181",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8544455,
+            "lng": -87.6855115
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13847061749",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8543468,
+            "lng": -87.685486
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13847061759",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8543648,
+            "lng": -87.6854198
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2404385137",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8543603,
+            "lng": -87.685893
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Western is a station on the Pink Line in the McKinley Park neighborhood."
     },
     {
@@ -882,6 +3463,30 @@
         "lng": -87.8089
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2088630556",
+      "wikidata": "Q3127472",
+      "entrances": [
+        {
+          "id": "osm-node-6369695868",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9823448,
+            "lng": -87.8071416
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7892196845",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9823205,
+            "lng": -87.8078974
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Harlem is a station on the Blue Line in the Norwood Park neighborhood."
     },
     {
@@ -895,6 +3500,30 @@
         "lng": -87.6591866269
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023183680",
+      "wikidata": "Q3115442",
+      "entrances": [
+        {
+          "id": "osm-node-12776749063",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.99447,
+            "lng": -87.6592514
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13453402889",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9944158,
+            "lng": -87.6591891
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Granville is a station on the Red Line in the Edgewater neighborhood."
     },
     {
@@ -908,6 +3537,29 @@
         "lng": -87.6584869372
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/734512775",
+      "wikidata": "Q2415676",
+      "entrances": [
+        {
+          "id": "osm-node-13524829246",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9691573,
+            "lng": -87.6584538
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13799904006",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9692882,
+            "lng": -87.6584632
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Lawrence is a station on the Red Line in the Uptown neighborhood."
     },
     {
@@ -921,6 +3573,60 @@
         "lng": -87.714842
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758311742",
+      "wikidata": "Q2892844",
+      "entrances": [
+        {
+          "id": "osm-node-14062425410",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8541588,
+            "lng": -87.7152859
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14062425411",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.854164,
+            "lng": -87.7153962
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14062425419",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8540363,
+            "lng": -87.7151977
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14062452312",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8540051,
+            "lng": -87.7154715
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14062452321",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.854032,
+            "lng": -87.7149315
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Central Park is a station on the Pink Line in the Lawndale neighborhood."
     },
     {
@@ -934,6 +3640,80 @@
         "lng": -87.629378
       },
       "features": [],
+      "osmId": "node/289821002",
+      "wikidata": "Q3321303",
+      "entrances": [
+        {
+          "id": "osm-node-10956413352",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8799403,
+            "lng": -87.6292545
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289438",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8799342,
+            "lng": -87.6294604
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289440",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8812091,
+            "lng": -87.6295337
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289441",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8802317,
+            "lng": -87.6294711
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289444",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8812072,
+            "lng": -87.6292928
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289446",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8815118,
+            "lng": -87.6293011
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025289453",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8802363,
+            "lng": -87.6292606
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Monroe is a station on the Blue Line in the the Loop neighborhood."
     },
     {
@@ -947,6 +3727,73 @@
         "lng": -87.639302
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758428037",
+      "wikidata": "Q3477613",
+      "entrances": [
+        {
+          "id": "osm-node-12330612374",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9104366,
+            "lng": -87.6387211
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-12330612375",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9103851,
+            "lng": -87.6387203
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-12330612376",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9104114,
+            "lng": -87.6387055
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-12330631511",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.91049,
+            "lng": -87.6388778
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-12330631512",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9103258,
+            "lng": -87.6388751
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-12330631551",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9104718,
+            "lng": -87.6396607
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-12330631552",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.910341,
+            "lng": -87.639658
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Sedgwick is a station on the Brown and Purple lines in Old Town."
     },
     {
@@ -960,6 +3807,40 @@
         "lng": -87.673932
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258278032",
+      "wikidata": "Q3148729",
+      "entrances": [
+        {
+          "id": "osm-node-13821625258",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8756761,
+            "lng": -87.6725522
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2404295401",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8756179,
+            "lng": -87.6763416
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2404295919",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8756728,
+            "lng": -87.6727915
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Illinois Medical District is a station on the Blue Line, serving the Illinois Medical District on the Near West Side."
     },
     {
@@ -973,6 +3854,29 @@
         "lng": -87.859388
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2088605514",
+      "wikidata": "Q3442525",
+      "entrances": [
+        {
+          "id": "osm-node-13407989072",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9835697,
+            "lng": -87.8604068
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7892196840",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9839144,
+            "lng": -87.8602852
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Rosemont is a station on the Blue Line in the Rosemont neighborhood."
     },
     {
@@ -986,6 +3890,50 @@
         "lng": -87.669147
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2080150506",
+      "wikidata": "Q2810937",
+      "entrances": [
+        {
+          "id": "osm-node-12001803197",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8578835,
+            "lng": -87.6691802
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13847342226",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8578831,
+            "lng": -87.6692096
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13847342251",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8579987,
+            "lng": -87.6692699
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13847342252",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8580014,
+            "lng": -87.669126
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "18th is a station on the Pink Line in the Pilsen neighborhood."
     },
     {
@@ -999,6 +3947,20 @@
         "lng": -87.678329
       },
       "features": [],
+      "osmId": "node/2092525316",
+      "wikidata": "Q3492236",
+      "entrances": [
+        {
+          "id": "osm-node-13283843924",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0273594,
+            "lng": -87.6784141
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "South Boulevard is a station on the Purple Line in the Evanston neighborhood."
     },
     {
@@ -1012,6 +3974,68 @@
         "lng": -87.628196
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258940057",
+      "wikidata": "Q3127657",
+      "entrances": [
+        {
+          "id": "osm-node-10933329803",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8768325,
+            "lng": -87.6294519
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10933342028",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8769803,
+            "lng": -87.6285505
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10933342053",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8768479,
+            "lng": -87.6283304
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10933342061",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8769959,
+            "lng": -87.6282815
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10933342062",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.876983,
+            "lng": -87.6282811
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5273609833",
+          "name": "Jackson",
+          "coordinates": {
+            "lat": 41.8774155,
+            "lng": -87.627802
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Harold Washington Library-State/Van Buren is a downtown Loop station serving the Brown, Orange, Pink, and Purple lines, located near the Harold Washington Library."
     },
     {
@@ -1025,6 +4049,30 @@
         "lng": -87.701644
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4060919450",
+      "wikidata": "Q3081776",
+      "entrances": [
+        {
+          "id": "osm-node-10584800280",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9661471,
+            "lng": -87.7033651
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7675750735",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9661622,
+            "lng": -87.7013997
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Francisco is a station on the Brown Line in the North Center neighborhood."
     },
     {
@@ -1038,6 +4086,19 @@
         "lng": -87.6590684978
       },
       "features": [],
+      "osmId": "node/2023196501",
+      "wikidata": "Q280905",
+      "entrances": [
+        {
+          "id": "osm-node-13454330830",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9901515,
+            "lng": -87.6590533
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Thorndale is a station on the Red Line in the Edgewater neighborhood."
     },
     {
@@ -1051,6 +4112,55 @@
         "lng": -87.90422307
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5750470892",
+      "entrances": [
+        {
+          "id": "osm-node-6319668574",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9782941,
+            "lng": -87.9043526
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-6319668575",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9776407,
+            "lng": -87.9030905
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-6319685613",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9776637,
+            "lng": -87.9030613
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-6319685620",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9783239,
+            "lng": -87.904337
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-6319743864",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9778264,
+            "lng": -87.9032452
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "O'Hare is the northwestern terminus of the Blue Line, located inside O'Hare International Airport."
     },
     {
@@ -1064,6 +4174,68 @@
         "lng": -87.672892
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4060906740",
+      "wikidata": "Q3031716",
+      "entrances": [
+        {
+          "id": "osm-node-13399163219",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0190932,
+            "lng": -87.673372
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7973494624",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0184962,
+            "lng": -87.6726574
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7973494628",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0185969,
+            "lng": -87.6724579
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7973494629",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0186596,
+            "lng": -87.6723629
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-8041642520",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0183422,
+            "lng": -87.6728123
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-8041642552",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0193081,
+            "lng": -87.6731279
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Howard is a major transfer station on the North Side, serving as the northern terminus of the Red Line and connecting to Purple and Yellow line services."
     },
     {
@@ -1077,6 +4249,30 @@
         "lng": -87.630952
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023880687",
+      "wikidata": "Q2817979",
+      "entrances": [
+        {
+          "id": "osm-node-13283605324",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7801351,
+            "lng": -87.6310015
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9269697873",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7800629,
+            "lng": -87.6309985
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "63rd is a station on the Red Line in the Englewood neighborhood."
     },
     {
@@ -1090,6 +4286,19 @@
         "lng": -87.725663
       },
       "features": [],
+      "osmId": "node/2090194452",
+      "wikidata": "Q3410720",
+      "entrances": [
+        {
+          "id": "osm-node-7953114849",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.873908,
+            "lng": -87.7255612
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Pulaski is a station on the Blue Line in the Lawndale neighborhood."
     },
     {
@@ -1103,6 +4312,67 @@
         "lng": -87.737875
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758297007",
+      "wikidata": "Q1588368",
+      "entrances": [
+        {
+          "id": "osm-node-10814755518",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7866559,
+            "lng": -87.7386567
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11940573885",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7867039,
+            "lng": -87.7387026
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13407964932",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7867038,
+            "lng": -87.7381489
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13407964937",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7867074,
+            "lng": -87.7379793
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2416648787",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7867972,
+            "lng": -87.7386796
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2416648791",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.786782,
+            "lng": -87.7386076
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Midway is the southern terminus of the Orange Line, providing direct rail access to Midway International Airport."
     },
     {
@@ -1116,6 +4386,40 @@
         "lng": -87.644244
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/706929554",
+      "wikidata": "Q3126219",
+      "entrances": [
+        {
+          "id": "osm-node-13153337443",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7790683,
+            "lng": -87.6446006
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6774669070",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7790898,
+            "lng": -87.6445636
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6774669073",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7789946,
+            "lng": -87.6445587
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Halsted is a station on the Green Line in the Englewood neighborhood."
     },
     {
@@ -1129,6 +4433,39 @@
         "lng": -87.724493
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758297006",
+      "wikidata": "Q2367981",
+      "entrances": [
+        {
+          "id": "osm-node-13373148667",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8000683,
+            "lng": -87.7243267
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13373148771",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7999019,
+            "lng": -87.7244733
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13373148773",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7999089,
+            "lng": -87.7247335
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Pulaski is a station on the Orange Line in the Marquette Park neighborhood."
     },
     {
@@ -1142,6 +4479,19 @@
         "lng": -87.745154
       },
       "features": [],
+      "osmId": "node/737746092",
+      "wikidata": "Q2972268",
+      "entrances": [
+        {
+          "id": "osm-node-7953114850",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8716231,
+            "lng": -87.7450995
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Cicero is a station on the Blue Line in the Austin neighborhood."
     },
     {
@@ -1155,6 +4505,30 @@
         "lng": -87.806961
       },
       "features": [],
+      "osmId": "node/737746125",
+      "wikidata": "Q3127474",
+      "entrances": [
+        {
+          "id": "osm-node-2869280428",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8733245,
+            "lng": -87.8046767
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7953114858",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8736589,
+            "lng": -87.8080983
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Harlem is a station on the Blue Line in the Forest Park neighborhood."
     },
     {
@@ -1168,6 +4542,40 @@
         "lng": -87.625724
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023880736",
+      "wikidata": "Q2818065",
+      "entrances": [
+        {
+          "id": "osm-node-10595069912",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7688482,
+            "lng": -87.6257934
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10595069913",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7690644,
+            "lng": -87.6258016
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10595069923",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7688649,
+            "lng": -87.6258415
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "69th is a station on the Red Line in the Greater Grand Crossing neighborhood."
     },
     {
@@ -1181,6 +4589,60 @@
         "lng": -87.630968
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2025084473",
+      "wikidata": "Q2946689",
+      "entrances": [
+        {
+          "id": "osm-node-12277204825",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8544226,
+            "lng": -87.6312917
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-12277204827",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8530708,
+            "lng": -87.6310841
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12277204838",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8530801,
+            "lng": -87.6309739
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13120425089",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8530558,
+            "lng": -87.631062
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13120425149",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8526969,
+            "lng": -87.6308921
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Cermak-Chinatown is a station on the Red Line in Chinatown, one of the few outdoor stations on the Red Line's South Side segment."
     },
     {
@@ -1194,6 +4656,20 @@
         "lng": -87.6941
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4060919453",
+      "wikidata": "Q3438011",
+      "entrances": [
+        {
+          "id": "osm-node-7675750736",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9662217,
+            "lng": -87.6938548
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Rockwell is a station on the Brown Line in the North Center neighborhood."
     },
     {
@@ -1207,6 +4683,59 @@
         "lng": -87.7076881549
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258284111",
+      "wikidata": "Q3257856",
+      "entrances": [
+        {
+          "id": "osm-node-13792437353",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9297259,
+            "lng": -87.7076771
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13792437355",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9295409,
+            "lng": -87.7077298
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13792437356",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9295278,
+            "lng": -87.7077292
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-1633523173",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9297254,
+            "lng": -87.7077019
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-250062519",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9290673,
+            "lng": -87.7079974
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Logan Square is a major station on the Blue Line in Logan Square, one of the busiest stations on the O'Hare branch."
     },
     {
@@ -1220,6 +4749,40 @@
         "lng": -87.66953
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758309686",
+      "wikidata": "Q3395304",
+      "entrances": [
+        {
+          "id": "osm-node-13507764068",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8714694,
+            "lng": -87.6695757
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13771187995",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8712934,
+            "lng": -87.6694571
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13771187996",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8712914,
+            "lng": -87.6696803
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Polk is a station on the Pink Line in the Pilsen neighborhood."
     },
     {
@@ -1233,6 +4796,50 @@
         "lng": -87.705408
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5756693179",
+      "wikidata": "Q3194608",
+      "entrances": [
+        {
+          "id": "osm-node-13507739187",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8541335,
+            "lng": -87.7051935
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13507739188",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.854141,
+            "lng": -87.7054466
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13507739189",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8541096,
+            "lng": -87.7054465
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13988462142",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8541534,
+            "lng": -87.705564
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Kedzie is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
@@ -1246,6 +4853,30 @@
         "lng": -87.69073
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758315717",
+      "wikidata": "Q3241406",
+      "entrances": [
+        {
+          "id": "osm-node-10302086835",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0736273,
+            "lng": -87.6909917
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2065469548",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0736038,
+            "lng": -87.6908614
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Linden is the northern terminus of the Purple Line in Wilmette, the northernmost station in the CTA system."
     },
     {
@@ -1259,6 +4890,39 @@
         "lng": -87.665317
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5745254807",
+      "wikidata": "Q2866524",
+      "entrances": [
+        {
+          "id": "osm-node-13375178061",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.839214,
+            "lng": -87.6653702
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13375183728",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8393717,
+            "lng": -87.665276
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9397969700",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8393546,
+            "lng": -87.6650744
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Ashland is a station on the Orange Line in the McKinley Park neighborhood."
     },
     {
@@ -1272,6 +4936,56 @@
         "lng": -87.706155
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2042812605",
+      "wikidata": "Q3194609",
+      "entrances": [
+        {
+          "id": "osm-node-13578070251",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8842664,
+            "lng": -87.7060686
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2042812591",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8842892,
+            "lng": -87.7064659
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2042812594",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8840516,
+            "lng": -87.7061325
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2042812610",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8844571,
+            "lng": -87.7064488
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2042812616",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8840625,
+            "lng": -87.7062823
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Kedzie is a station on the Green Line in the East Garfield Park neighborhood."
     },
     {
@@ -1285,6 +4999,38 @@
         "lng": -87.618826
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/706934717",
+      "wikidata": "Q2816904",
+      "entrances": [
+        {
+          "id": "osm-node-13520406067",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8094788,
+            "lng": -87.6188655
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13787670388",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8095844,
+            "lng": -87.6189248
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13787670391",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8095856,
+            "lng": -87.6188061
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "description": "47th is a station on the Green Line in the Grand Boulevard neighborhood."
     },
     {
@@ -1298,6 +5044,90 @@
         "lng": -87.627696
       },
       "features": [],
+      "osmId": "node/258296743",
+      "wikidata": "Q959400",
+      "entrances": [
+        {
+          "id": "osm-node-1469315832",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8815493,
+            "lng": -87.6279023
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315833",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.880258,
+            "lng": -87.6278708
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315837",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8799517,
+            "lng": -87.6276122
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315846",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8812208,
+            "lng": -87.6278921
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315847",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8812267,
+            "lng": -87.6276408
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315848",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8799322,
+            "lng": -87.6278632
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315849",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8802735,
+            "lng": -87.6276203
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315858",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8815563,
+            "lng": -87.6276513
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Monroe is a station on the Red Line in the the Loop neighborhood."
     },
     {
@@ -1311,6 +5141,40 @@
         "lng": -87.625826
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/259749423",
+      "wikidata": "Q2816282",
+      "entrances": [
+        {
+          "id": "osm-node-13520443191",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8312256,
+            "lng": -87.625865
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13783990392",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8313795,
+            "lng": -87.6258688
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14120681443",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8329508,
+            "lng": -87.625874
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "35th-Bronzeville-IIT is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
@@ -1324,6 +5188,49 @@
         "lng": -87.648088
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5745254805",
+      "wikidata": "Q679514",
+      "entrances": [
+        {
+          "id": "osm-node-12272007826",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8467815,
+            "lng": -87.6480168
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12272007830",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8469158,
+            "lng": -87.6481223
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13379164474",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8467364,
+            "lng": -87.6481542
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2203195581",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8468585,
+            "lng": -87.647912
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Halsted is a station on the Orange Line in the Pilsen neighborhood."
     },
     {
@@ -1337,6 +5244,50 @@
         "lng": -87.615546
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758205844",
+      "wikidata": "Q3197002",
+      "entrances": [
+        {
+          "id": "osm-node-10302062543",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7804012,
+            "lng": -87.615725
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10302062545",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7801379,
+            "lng": -87.6157742
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5839695424",
+          "name": "King Drive",
+          "coordinates": {
+            "lat": 41.7806022,
+            "lng": -87.615731
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5839695426",
+          "name": "King Drive",
+          "coordinates": {
+            "lat": 41.7806049,
+            "lng": -87.6155526
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "King Drive is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
@@ -1350,6 +5301,29 @@
         "lng": -87.704406
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7686073813",
+      "wikidata": "Q3194606",
+      "entrances": [
+        {
+          "id": "osm-node-13374657762",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8043557,
+            "lng": -87.7042792
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13374901402",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.804508,
+            "lng": -87.7043003
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Kedzie is a station on the Orange Line in the Marquette Park neighborhood."
     },
     {
@@ -1363,6 +5337,40 @@
         "lng": -87.641782
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/258942193",
+      "wikidata": "Q2979346",
+      "entrances": [
+        {
+          "id": "osm-node-11989411026",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8856316,
+            "lng": -87.6411866
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9411378355",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8854953,
+            "lng": -87.6414216
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9411378368",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8854603,
+            "lng": -87.641211
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Clinton is a station on the Green and Pink lines in West Loop."
     },
     {
@@ -1376,6 +5384,30 @@
         "lng": -87.631157
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5346246731",
+      "wikidata": "Q975026",
+      "entrances": [
+        {
+          "id": "osm-node-13283605318",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7950923,
+            "lng": -87.631201
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9265125471",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7946297,
+            "lng": -87.6311805
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Garfield is a station on the Red Line in the Washington Park neighborhood."
     },
     {
@@ -1389,6 +5421,30 @@
         "lng": -87.708821
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4060919451",
+      "wikidata": "Q3194604",
+      "entrances": [
+        {
+          "id": "osm-node-10584800272",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9661045,
+            "lng": -87.7085277
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13805348735",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9660867,
+            "lng": -87.710718
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Kedzie is a station on the Brown Line in the North Center neighborhood."
     },
     {
@@ -1402,6 +5458,19 @@
         "lng": -87.6692571266
       },
       "features": [],
+      "osmId": "node/2166678698",
+      "wikidata": "Q3162813",
+      "entrances": [
+        {
+          "id": "osm-node-13438643747",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0159229,
+            "lng": -87.6691412
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Jarvis is a station on the Red Line in the Rogers Park neighborhood."
     },
     {
@@ -1415,6 +5484,30 @@
         "lng": -87.6585279483
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023209951",
+      "wikidata": "Q2861091",
+      "entrances": [
+        {
+          "id": "osm-node-13015671943",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9733627,
+            "lng": -87.6585541
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13027114661",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9736248,
+            "lng": -87.658561
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Argyle is a station on the Red Line in the Uptown neighborhood."
     },
     {
@@ -1428,6 +5521,20 @@
         "lng": -87.653266
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758320418",
+      "wikidata": "Q3567177",
+      "entrances": [
+        {
+          "id": "osm-node-12305696212",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9361834,
+            "lng": -87.6532663
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Wellington is a station on the Brown and Purple lines in Lakeview."
     },
     {
@@ -1441,6 +5548,30 @@
         "lng": -87.6528684398
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/389151453",
+      "wikidata": "Q3090793",
+      "entrances": [
+        {
+          "id": "osm-node-12308461922",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9255042,
+            "lng": -87.6528213
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-12489866724",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9252915,
+            "lng": -87.6528103
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Fullerton is a major transfer station in Lincoln Park, serving the Red, Brown, and Purple lines."
     },
     {
@@ -1454,6 +5585,30 @@
         "lng": -87.63094
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4139536496",
+      "wikidata": "Q2816905",
+      "entrances": [
+        {
+          "id": "osm-node-13283605314",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8097108,
+            "lng": -87.6314299
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9265293035",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8094837,
+            "lng": -87.6315376
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "47th is a station on the Red Line in the Grand Boulevard neighborhood."
     },
     {
@@ -1467,6 +5622,30 @@
         "lng": -87.7184584172
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/6371391669",
+      "wikidata": "Q2824152",
+      "entrances": [
+        {
+          "id": "osm-node-13137006697",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9467707,
+            "lng": -87.7185488
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6369533863",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9466078,
+            "lng": -87.7184481
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Addison is a station on the Blue Line in the Avondale neighborhood."
     },
     {
@@ -1480,6 +5659,20 @@
         "lng": -87.685617
       },
       "features": [],
+      "osmId": "node/249656713",
+      "wikidata": "Q2944389",
+      "entrances": [
+        {
+          "id": "osm-node-13283843918",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0641128,
+            "lng": -87.6857888
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Central is a station on the Purple Line in the Evanston neighborhood."
     },
     {
@@ -1493,6 +5686,49 @@
         "lng": -87.774135
       },
       "features": [],
+      "osmId": "node/7758320415",
+      "wikidata": "Q2872107",
+      "entrances": [
+        {
+          "id": "osm-node-13281927718",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.887225,
+            "lng": -87.7746639
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13683367008",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8873049,
+            "lng": -87.774665
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13683367019",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8872311,
+            "lng": -87.7733991
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13683395935",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8872158,
+            "lng": -87.7746439
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Austin is a station on the Green Line in the Austin neighborhood."
     },
     {
@@ -1506,6 +5742,40 @@
         "lng": -87.619021
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758205848",
+      "wikidata": "Q2816829",
+      "entrances": [
+        {
+          "id": "osm-node-13520429991",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8166906,
+            "lng": -87.6190614
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14133911184",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8167565,
+            "lng": -87.6191468
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14133911185",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8167593,
+            "lng": -87.6189812
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "43rd is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
@@ -1519,6 +5789,29 @@
         "lng": -87.7615940115
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2088638857",
+      "wikidata": "Q3176657",
+      "entrances": [
+        {
+          "id": "osm-node-13619255163",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9707715,
+            "lng": -87.7612015
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7892196858",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9707274,
+            "lng": -87.7612548
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Jefferson Park Transit Center is a major transit hub in Jefferson Park, connecting the Blue Line with Metra and CTA bus services."
     },
     {
@@ -1532,6 +5825,30 @@
         "lng": -87.713065
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4060919452",
+      "wikidata": "Q3031699",
+      "entrances": [
+        {
+          "id": "osm-node-10686158474",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9683115,
+            "lng": -87.7130308
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12290787426",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.968199,
+            "lng": -87.7129555
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Kimball is the northwestern terminus of the Brown Line in Albany Park."
     },
     {
@@ -1545,6 +5862,58 @@
         "lng": -87.661061
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758315714",
+      "wikidata": "Q3264446",
+      "entrances": [
+        {
+          "id": "osm-node-13384042923",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0011996,
+            "lng": -87.6611232
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13443887947",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0012856,
+            "lng": -87.6610586
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13443887987",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 42.0012166,
+            "lng": -87.6611441
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7618450320",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0012238,
+            "lng": -87.660981
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-8061827694",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0009815,
+            "lng": -87.6609555
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Loyola is a station on the Red Line in the Rogers Park neighborhood."
     },
     {
@@ -1558,6 +5927,30 @@
         "lng": -87.670907
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4697817170",
+      "wikidata": "Q3372690",
+      "entrances": [
+        {
+          "id": "osm-node-12299678827",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9437099,
+            "lng": -87.6716157
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12299767561",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9437204,
+            "lng": -87.6707679
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Paulina is a station on the Brown Line in the Lakeview neighborhood."
     },
     {
@@ -1571,6 +5964,79 @@
         "lng": -87.65338
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/252683064",
+      "wikidata": "Q2895014",
+      "entrances": [
+        {
+          "id": "osm-node-11908172931",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9397469,
+            "lng": -87.6533343
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11908172933",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9398123,
+            "lng": -87.653451
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11908172936",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9398165,
+            "lng": -87.6532232
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11908172961",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9401226,
+            "lng": -87.6532864
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11908172962",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9401206,
+            "lng": -87.6533997
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-12306024778",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9400241,
+            "lng": -87.6533403
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13524818292",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9397563,
+            "lng": -87.6533346
+          },
+          "accessibility": []
+        }
+      ],
       "description": "Belmont is a major transfer station in Lakeview, serving the Red, Brown, and Purple lines."
     },
     {
@@ -1584,6 +6050,30 @@
         "lng": -87.7429034362
       },
       "features": [],
+      "osmId": "node/2088645408",
+      "wikidata": "Q3322966",
+      "entrances": [
+        {
+          "id": "osm-node-2884007589",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9609051,
+            "lng": -87.7429437
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7873546172",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.960654,
+            "lng": -87.7426438
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Montrose is a station on the Blue Line in the Old Irving Park neighborhood."
     },
     {
@@ -1597,6 +6087,66 @@
         "lng": -87.631722
       },
       "features": [],
+      "osmId": "node/853530314",
+      "wikidata": "Q780607",
+      "entrances": [
+        {
+          "id": "osm-node-13728830257",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8754006,
+            "lng": -87.6326166
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2394595074",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8759543,
+            "lng": -87.6323821
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3312394798",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8757663,
+            "lng": -87.6311112
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5289725109",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8757615,
+            "lng": -87.6314048
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5289725110",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8754564,
+            "lng": -87.631397
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9818659474",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8754611,
+            "lng": -87.6311032
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "LaSalle is a station on the Blue Line in the the Loop neighborhood."
     },
     {
@@ -1610,6 +6160,20 @@
         "lng": -87.793783
       },
       "features": [],
+      "osmId": "node/7758320414",
+      "wikidata": "Q652399",
+      "entrances": [
+        {
+          "id": "osm-node-13281921025",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8869549,
+            "lng": -87.79427
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Oak Park is a station on the Green Line in the Oak Park neighborhood."
     },
     {
@@ -1623,6 +6187,69 @@
         "lng": -87.696234
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/3211876637",
+      "wikidata": "Q2933969",
+      "entrances": [
+        {
+          "id": "osm-node-13578049148",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8841319,
+            "lng": -87.6964543
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13673012074",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.884344,
+            "lng": -87.6960669
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13673012075",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8841987,
+            "lng": -87.6960582
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13709817394",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8841315,
+            "lng": -87.6964717
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2042183469",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8839723,
+            "lng": -87.6962864
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2042183478",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.883972,
+            "lng": -87.6964564
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "California is a station on the Green Line in the Humboldt Park neighborhood."
     },
     {
@@ -1636,6 +6263,60 @@
         "lng": -87.65884
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023202877",
+      "wikidata": "Q2366050",
+      "entrances": [
+        {
+          "id": "osm-node-13454429086",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9837374,
+            "lng": -87.6588392
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13454429091",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.98355,
+            "lng": -87.6588601
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13454435101",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9853555,
+            "lng": -87.6588881
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13454435145",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9838487,
+            "lng": -87.658841
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13454435150",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9835503,
+            "lng": -87.6588057
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Bryn Mawr is a station on the Red Line in the Edgewater neighborhood."
     },
     {
@@ -1649,6 +6330,90 @@
         "lng": -87.6270314058
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/6509194108",
+      "wikidata": "Q3441899",
+      "entrances": [
+        {
+          "id": "osm-node-10769243018",
+          "name": "Roosevelt",
+          "coordinates": {
+            "lat": 41.8672657,
+            "lng": -87.6266544
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-12086135774",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.867974,
+            "lng": -87.626684
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13138351108",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8681442,
+            "lng": -87.6274634
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13138351115",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.867856,
+            "lng": -87.626678
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2025105432",
+          "name": "Roosevelt",
+          "coordinates": {
+            "lat": 41.8677818,
+            "lng": -87.6275754
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2025105434",
+          "name": "Roosevelt",
+          "coordinates": {
+            "lat": 41.8680456,
+            "lng": -87.6272688
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2355593970",
+          "name": "Roosevelt",
+          "coordinates": {
+            "lat": 41.8676126,
+            "lng": -87.6265421
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9906954150",
+          "name": "Roosevelt",
+          "coordinates": {
+            "lat": 41.8679289,
+            "lng": -87.6272816
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Roosevelt is a major transfer station in the South Loop, connecting the Red, Orange, and Green lines with nearby access to Museum Campus."
     },
     {
@@ -1662,6 +6427,40 @@
         "lng": -87.655214
       },
       "features": [],
+      "osmId": "node/736035818",
+      "wikidata": "Q2963288",
+      "entrances": [
+        {
+          "id": "osm-node-2162253293",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8961233,
+            "lng": -87.6550095
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2162253294",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8961817,
+            "lng": -87.655644
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2162253295",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8963627,
+            "lng": -87.6549425
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Chicago is a station on the Blue Line in the Chicago Avenue commercial corridor."
     },
     {
@@ -1675,6 +6474,39 @@
         "lng": -87.6536241013
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/252683058",
+      "wikidata": "Q265675",
+      "entrances": [
+        {
+          "id": "osm-node-13309603215",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9473503,
+            "lng": -87.6537291
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13309603218",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.947687,
+            "lng": -87.6537408
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13309603241",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.9475008,
+            "lng": -87.6536255
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "description": "Addison is a station on the Red Line in the Wrigleyville neighborhood."
     },
     {
@@ -1688,6 +6520,39 @@
         "lng": -87.624717
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2023849177",
+      "wikidata": "Q2818539",
+      "entrances": [
+        {
+          "id": "osm-node-10595063882",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7364389,
+            "lng": -87.6247909
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10595063887",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7361447,
+            "lng": -87.6247837
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13283605347",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7359626,
+            "lng": -87.6247801
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
       "description": "87th is a station on the Red Line in the Auburn Gresham neighborhood."
     },
     {
@@ -1701,6 +6566,30 @@
         "lng": -87.674642
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758336878",
+      "wikidata": "Q2824153",
+      "entrances": [
+        {
+          "id": "osm-node-12298372638",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9470345,
+            "lng": -87.6747622
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12298372641",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9470353,
+            "lng": -87.6746995
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Addison is a station on the Brown Line in the Wrigleyville neighborhood."
     },
     {
@@ -1714,6 +6603,50 @@
         "lng": -87.628176
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/1894033187",
+      "wikidata": "Q2963284",
+      "entrances": [
+        {
+          "id": "osm-node-13319887275",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8965824,
+            "lng": -87.6284496
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1434382175",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8965961,
+            "lng": -87.6277745
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1434382176",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8967788,
+            "lng": -87.627854
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289748488",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8967738,
+            "lng": -87.6284646
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Chicago is a station on the Red Line in the River North neighborhood."
     },
     {
@@ -1727,6 +6660,20 @@
         "lng": -87.674868
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758336879",
+      "wikidata": "Q3154616",
+      "entrances": [
+        {
+          "id": "osm-node-12294855030",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.954354,
+            "lng": -87.674949
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Irving Park is a station on the Brown Line in the North Center neighborhood."
     },
     {
@@ -1740,6 +6687,40 @@
         "lng": -87.688502
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/4060919454",
+      "wikidata": "Q3567469",
+      "entrances": [
+        {
+          "id": "osm-node-12144821436",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9663695,
+            "lng": -87.6885678
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12144821437",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9661626,
+            "lng": -87.6885644
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12144821440",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9662612,
+            "lng": -87.6886438
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Western is a station on the Brown Line in the Lincoln Square neighborhood."
     },
     {
@@ -1753,6 +6734,40 @@
         "lng": -87.627479
       },
       "features": [],
+      "osmId": "node/258294724",
+      "wikidata": "Q3127748",
+      "entrances": [
+        {
+          "id": "osm-node-6966999058",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8722135,
+            "lng": -87.6279145
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7980060725",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8741796,
+            "lng": -87.6277285
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-8025882601",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8741835,
+            "lng": -87.627475
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Harrison is a station on the Red Line."
     },
     {
@@ -1766,6 +6781,20 @@
         "lng": -87.675047
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/7758336880",
+      "wikidata": "Q3322962",
+      "entrances": [
+        {
+          "id": "osm-node-12292934782",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.9613984,
+            "lng": -87.6751528
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Montrose is a station on the Brown Line in the North Center neighborhood."
     },
     {
@@ -1779,6 +6808,50 @@
         "lng": -87.65212993
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/1762400891",
+      "wikidata": "Q3323961",
+      "entrances": [
+        {
+          "id": "osm-node-13330859877",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8856649,
+            "lng": -87.6518282
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13731017998",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8855334,
+            "lng": -87.6518241
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13731060734",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8856855,
+            "lng": -87.6520042
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13731060735",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8855059,
+            "lng": -87.6519992
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Morgan is a station on the Green and Pink lines in the West Loop, opened in 2012 as one of the newest stations in the system."
     },
     {
@@ -1792,6 +6865,119 @@
         "lng": -87.627813
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/1894018275",
+      "wikidata": "Q2656448",
+      "entrances": [
+        {
+          "id": "osm-node-13329208292",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8840865,
+            "lng": -87.6278714
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1469315835",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8836968,
+            "lng": -87.6280392
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315850",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8840741,
+            "lng": -87.6277654
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315862",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8836862,
+            "lng": -87.6277533
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1469315863",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8841303,
+            "lng": -87.6280536
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289740238",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.885468,
+            "lng": -87.6280954
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289740239",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8854736,
+            "lng": -87.6278064
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289740240",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8849626,
+            "lng": -87.6277945
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5289740241",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8849663,
+            "lng": -87.6280817
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9878390020",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8839003,
+            "lng": -87.6276329
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9906954152",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8839496,
+            "lng": -87.6280485
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Lake is a downtown Loop subway station serving the Red Line, located beneath State Street."
     },
     {
@@ -1805,6 +6991,50 @@
         "lng": -87.716523
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2042959694",
+      "wikidata": "Q2994604",
+      "entrances": [
+        {
+          "id": "osm-node-10171951993",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8848866,
+            "lng": -87.7170161
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10171951994",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8850816,
+            "lng": -87.7169954
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2042959701",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8847275,
+            "lng": -87.7169719
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2042959767",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8852524,
+            "lng": -87.7169252
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
       "description": "Conservatory-Central Park Drive is a station on the Green Line in the Garfield Park neighborhood."
     },
     {
@@ -1818,6 +7048,30 @@
         "lng": -87.74722084
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/2587095874",
+      "wikidata": "Q3347865",
+      "entrances": [
+        {
+          "id": "osm-node-2052931022",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.0284142,
+            "lng": -87.7479425
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7601582852",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 42.026478,
+            "lng": -87.7473743
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Oakton-Skokie is the only intermediate station on the Yellow Line in Skokie."
     },
     {
@@ -1831,6 +7085,50 @@
         "lng": -87.626402
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/3341016000",
+      "wikidata": "Q5064515",
+      "entrances": [
+        {
+          "id": "osm-node-12086068656",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8512145,
+            "lng": -87.6263804
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12086068666",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8530703,
+            "lng": -87.6264616
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12086135771",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8524968,
+            "lng": -87.6264013
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13138387450",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8534363,
+            "lng": -87.6264337
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Cermak-McCormick Place is a station on the Green Line near McCormick Place convention center."
     },
     {
@@ -1844,6 +7142,110 @@
         "lng": -87.626189
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/5091005359",
+      "wikidata": "Q7971635",
+      "entrances": [
+        {
+          "id": "osm-node-10922954358",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8824533,
+            "lng": -87.6262918
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10922954360",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8824559,
+            "lng": -87.6260966
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10922954367",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8826525,
+            "lng": -87.6263146
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10922954377",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8829548,
+            "lng": -87.6261192
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10922954384",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8830981,
+            "lng": -87.6263132
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10922954386",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8831017,
+            "lng": -87.6261409
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10932198471",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8831176,
+            "lng": -87.6261658
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-13137165010",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8826934,
+            "lng": -87.6263306
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2397700253",
+          "name": "Millennium Station",
+          "coordinates": {
+            "lat": 41.8843802,
+            "lng": -87.6248021
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2397707751",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8843465,
+            "lng": -87.6246498
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
       "description": "Washington/Wabash is a downtown Loop station serving the Brown, Green, Orange, Pink, and Purple lines, replacing the old Randolph/Wabash and Madison/Wabash stations."
     },
     {
@@ -1857,6 +7259,40 @@
         "lng": -87.67689149
       },
       "features": ["wheelchair-accessible"],
+      "osmId": "node/12093932127",
+      "wikidata": "Q30599018",
+      "entrances": [
+        {
+          "id": "osm-node-12094395925",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8850637,
+            "lng": -87.6769481
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12094395932",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8845992,
+            "lng": -87.6770638
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13709809598",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8848099,
+            "lng": -87.6770234
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
       "description": "Damen is a station on the Green Line in the Near West Side neighborhood."
     }
   ]

@@ -43,6 +43,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351619702",
+      "wikidata": "Q7998917",
       "opened": "2014-07-26",
       "address": "11389 Reston Station Blvd, Reston, VA 20190",
       "description": "Major park-and-ride station serving Reston with 2,300 parking spaces."
@@ -100,6 +102,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351724653",
+      "wikidata": "Q7580572",
       "opened": "2014-07-26",
       "address": "1574 Spring Hill Rd, Tysons, VA 22102",
       "description": "Serves the Spring Hill area of Tysons."
@@ -157,6 +161,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351728283",
+      "wikidata": "Q5604438",
       "opened": "2014-07-26",
       "address": "8100 Greensboro Dr, Tysons, VA 22102",
       "description": "Serves Tysons Galleria and surrounding office buildings."
@@ -214,6 +220,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351730606",
+      "wikidata": "Q7861806",
       "opened": "2014-07-26",
       "address": "8300 Tysons Corner Center, Tysons, VA 22102",
       "description": "Tysons Corner station serves the major commercial center and shopping destination in Fairfax County, Virginia."
@@ -271,6 +279,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351736893",
+      "wikidata": "Q6802123",
       "opened": "2014-07-26",
       "address": "1823 Chain Bridge Rd, McLean, VA 22102",
       "description": "Serves downtown McLean and Capital One headquarters."
@@ -308,6 +318,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189340",
+      "wikidata": "Q7928300",
       "opened": "1986-06-07",
       "address": "9550 Saintsbury Dr, Fairfax, VA 22031",
       "description": "Vienna is the western terminus of the Orange Line, serving Fairfax County and George Mason University."
@@ -335,6 +347,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351693108",
+      "wikidata": "Q2890689",
       "opened": "1986-06-07",
       "address": "2700 Gallows Rd, Vienna, VA 22180",
       "description": "Serves the Merrifield area and Mosaic District."
@@ -372,6 +386,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2367269727",
+      "wikidata": "Q5391941",
       "opened": "1986-06-07",
       "address": "7040 Haycock Rd, Falls Church, VA 22043",
       "description": "Serves the West Falls Church area with major bus connections."
@@ -399,6 +415,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189328",
+      "wikidata": "Q5328333",
       "opened": "1986-06-07",
       "address": "2001 N Sycamore St, Falls Church, VA 22043",
       "description": "Where Orange and Silver lines split; serves Falls Church area."
@@ -446,6 +464,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189325",
+      "wikidata": "Q3563745",
       "opened": "1979-12-01",
       "address": "4230 Fairfax Dr, Arlington, VA 22203",
       "description": "Serves the Ballston commercial district and Marymount University."
@@ -483,6 +503,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189346",
+      "wikidata": "Q7934527",
       "opened": "1979-12-01",
       "address": "3600 Fairfax Dr, Arlington, VA 22201",
       "description": "Serves George Mason University's Arlington campus and Virginia Square."
@@ -520,6 +542,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189356",
+      "wikidata": "Q3561863",
       "opened": "1979-12-01",
       "address": "3100 Wilson Blvd, Arlington, VA 22201",
       "description": "Serves the Clarendon neighborhood, known for restaurants and nightlife."
@@ -557,6 +581,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189396",
+      "wikidata": "Q5178239",
       "opened": "1979-12-01",
       "address": "2100 Wilson Blvd, Arlington, VA 22201",
       "description": "Serves the Arlington County courthouse and government complex."
@@ -592,6 +618,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189366",
+      "wikidata": "Q170873",
       "opened": "1997-06-29",
       "address": "6880 Frontier Dr, Springfield, VA 22150",
       "description": "Southern terminus of the Blue Line with Amtrak, VRE, and extensive bus connections."
@@ -629,6 +657,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189365",
+      "wikidata": "Q170852",
       "opened": "1991-06-15",
       "address": "4799 Van Dorn St, Alexandria, VA 22304",
       "description": "Serves the west Alexandria/Van Dorn area."
@@ -666,6 +696,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/810813923",
+      "wikidata": "Q6489288",
       "opened": "2004-12-18",
       "address": "1100 Largo Center Dr, Largo, MD 20774",
       "description": "Eastern terminus of the Blue and Silver Lines, serving Prince George's County."
@@ -703,6 +735,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189322",
+      "wikidata": "Q6911589",
       "opened": "2004-12-18",
       "address": "1001 Morgan Blvd, Landover, MD 20785",
       "description": "Serves FedEx Field, home of the Washington Commanders."
@@ -730,6 +764,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189387",
+      "wikidata": "Q4681286",
       "opened": "1980-11-22",
       "address": "900 Addison Rd, Seat Pleasant, MD 20743",
       "description": "Serves the Seat Pleasant community with large park-and-ride facilities."
@@ -757,6 +793,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189348",
+      "wikidata": "Q3566174",
       "opened": "1980-11-22",
       "address": "601 Central Ave, Capitol Heights, MD 20743",
       "description": "First station in Prince George's County on the Blue Line."
@@ -784,6 +822,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189384",
+      "wikidata": "Q4889853",
       "opened": "1980-11-22",
       "address": "4500 Benning Rd NE, Washington, DC 20019",
       "description": "Serves the Benning neighborhood in Northeast D.C."
@@ -821,6 +861,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189335",
+      "wikidata": "Q4956341",
       "opened": "2001-01-13",
       "address": "4704 Old Soper Rd, Suitland, MD 20746",
       "description": "Southern terminus of the Green Line with extensive parking."
@@ -858,6 +900,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189370",
+      "wikidata": "Q7635589",
       "opened": "2001-01-13",
       "address": "4500 Silver Hill Rd, Suitland, MD 20746",
       "description": "Serves Suitland and the Census Bureau headquarters."
@@ -885,6 +929,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189369",
+      "wikidata": "Q6983167",
       "opened": "2001-01-13",
       "address": "3101 Branch Ave, Temple Hills, MD 20748",
       "description": "Serves the Naylor Road area in Prince George's County."
@@ -922,6 +968,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189373",
+      "wikidata": "Q7569658",
       "opened": "2001-01-13",
       "address": "1411 Southern Ave, Oxon Hill, MD 20745",
       "description": "Located on the D.C./Maryland border at Southern Avenue."
@@ -959,6 +1007,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189331",
+      "wikidata": "Q5160799",
       "opened": "2001-01-13",
       "address": "1290 Alabama Ave SE, Washington, DC 20020",
       "description": "Serves the Congress Heights neighborhood and St. Elizabeths campus."
@@ -1006,6 +1056,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189399",
+      "wikidata": "Q3563757",
       "opened": "1991-12-28",
       "address": "1101 Howard Rd SE, Washington, DC 20020",
       "description": "Serves the historic Anacostia neighborhood east of the Anacostia River."
@@ -1053,6 +1105,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189401",
+      "wikidata": "Q5548352",
       "opened": "1991-12-28",
       "address": "200 M St SE, Washington, DC 20003",
       "description": "Navy Yard-Ballpark serves the Capitol Riverfront neighborhood and Nationals Park, home of the Washington Nationals."
@@ -1090,6 +1144,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/5284068378",
+      "wikidata": "Q7974067",
       "opened": "1991-12-28",
       "address": "399 M St SW, Washington, DC 20024",
       "description": "Serves the Southwest Waterfront and The Wharf development."
@@ -1127,6 +1183,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189394",
+      "wikidata": "Q3563768",
       "opened": "1991-12-28",
       "address": "701 Pennsylvania Ave NW, Washington, DC 20004",
       "description": "Serves the National Archives, Navy Memorial, and Penn Quarter entertainment district."
@@ -1171,6 +1229,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189376",
+      "wikidata": "Q5603694",
       "opened": "1993-12-11",
       "address": "5717 Greenbelt Metro Dr, Greenbelt, MD 20770",
       "description": "Northern terminus of the Green Line with MARC and extensive bus connections."
@@ -1215,6 +1275,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189344",
+      "wikidata": "Q3563737",
       "opened": "1993-12-11",
       "address": "4931 Calvert Rd, College Park, MD 20740",
       "description": "Serves the University of Maryland with MARC Camden Line connection."
@@ -1252,6 +1314,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189345",
+      "wikidata": "Q2877606",
       "opened": "1993-12-11",
       "address": "3575 East West Hwy, Hyattsville, MD 20782",
       "description": "Serves the Prince George's Plaza retail area."
@@ -1279,6 +1343,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189383",
+      "wikidata": "Q7985433",
       "opened": "1993-12-11",
       "address": "2700 Hamilton St, Hyattsville, MD 20782",
       "description": "Serves Hyattsville and the University of Maryland area."
@@ -1326,6 +1392,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189374",
+      "wikidata": "Q5547352",
       "opened": "1999-09-18",
       "address": "3700 Georgia Ave NW, Washington, DC 20010",
       "description": "Serves the Petworth neighborhood and Georgia Avenue corridor."
@@ -1373,6 +1441,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/1333688926",
+      "wikidata": "Q3566181",
       "opened": "1999-09-18",
       "address": "3030 14th St NW, Washington, DC 20009",
       "description": "Columbia Heights station serves the Columbia Heights neighborhood and the DC USA shopping center."
@@ -1420,6 +1490,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189385",
+      "wikidata": "Q7876239",
       "opened": "1991-05-11",
       "address": "1240 U St NW, Washington, DC 20009",
       "description": "U Street serves the historic U Street Corridor, known for its jazz heritage and nightlife, and is near the African American Civil War Memorial."
@@ -1467,6 +1539,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189352",
+      "wikidata": "Q431481",
       "opened": "1991-05-11",
       "address": "1701 8th St NW, Washington, DC 20001",
       "description": "Serves the Shaw neighborhood and Howard University."
@@ -1514,6 +1588,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189363",
+      "wikidata": "Q9035422",
       "opened": "1991-12-28",
       "address": "700 M St NW, Washington, DC 20001",
       "description": "Serves the Walter E. Washington Convention Center and historic Shaw neighborhood."
@@ -1559,6 +1635,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5351589325",
+      "wikidata": "Q7006384",
       "opened": "1978-11-20",
       "address": "4700 Garden City Dr, New Carrollton, MD 20784",
       "description": "Eastern terminus of the Orange Line with Amtrak and MARC connections."
@@ -1586,6 +1664,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189404",
+      "wikidata": "Q6484930",
       "opened": "1978-11-20",
       "address": "3401 Pennsy Dr, Landover, MD 20785",
       "description": "Serves the Landover area with major park-and-ride facilities."
@@ -1613,6 +1693,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189391",
+      "wikidata": "Q3566161",
       "opened": "1978-11-20",
       "address": "5701 Columbia Park Rd, Landover Hills, MD 20784",
       "description": "First station in Prince George's County on the Orange Line."
@@ -1650,6 +1732,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189333",
+      "wikidata": "Q5246799",
       "opened": "1978-11-20",
       "address": "4720 Sheriff Rd NE, Washington, DC 20019",
       "description": "Serves the Deanwood neighborhood in Northeast D.C."
@@ -1697,6 +1781,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189371",
+      "wikidata": "Q6868161",
       "opened": "1978-11-20",
       "address": "4000 Minnesota Ave NE, Washington, DC 20019",
       "description": "Serves the Minnesota Avenue corridor in Northeast D.C."
@@ -1744,6 +1830,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189327",
+      "wikidata": "Q7596515",
       "opened": "1977-11-20",
       "address": "192 19th St SE, Washington, DC 20003",
       "description": "Serves the D.C. Armory and formerly served RFK Stadium. Major transfer point to Blue Line."
@@ -1781,6 +1869,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189360",
+      "wikidata": "Q2981603",
       "opened": "1977-07-01",
       "address": "700 14th St SE, Washington, DC 20003",
       "description": "Serves the Hill East neighborhood near the Anacostia River."
@@ -1808,6 +1898,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189400",
+      "wikidata": "Q5330278",
       "opened": "1977-07-01",
       "address": "701 Pennsylvania Ave SE, Washington, DC 20003",
       "description": "Serves the Capitol Hill neighborhood and the historic Eastern Market."
@@ -1845,6 +1937,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189321",
+      "wikidata": "Q3566191",
       "opened": "1977-07-01",
       "address": "355 1st St SE, Washington, DC 20003",
       "description": "Primary station for the U.S. Capitol and House office buildings."
@@ -1882,6 +1976,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189403",
+      "wikidata": "Q5440054",
       "opened": "1977-07-01",
       "address": "401 3rd St SW, Washington, DC 20024",
       "description": "Serves federal office buildings and the U.S. Botanic Garden."
@@ -1939,6 +2035,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/7788485988",
+      "wikidata": "Q170799",
       "opened": "1977-07-01",
       "address": "600 Maryland Ave SW, Washington, DC 20024",
       "description": "L'Enfant Plaza is one of the most important transfer stations in the system, serving all lines except the Red Line. It is adjacent to the Smithsonian museums."
@@ -1986,6 +2084,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/1844430184",
+      "wikidata": "Q7545599",
       "opened": "1977-07-01",
       "address": "1200 Independence Ave SW, Washington, DC 20004",
       "description": "Central access point for the National Mall and Smithsonian museums."
@@ -2023,6 +2123,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189343",
+      "wikidata": "Q5440474",
       "opened": "1977-07-01",
       "address": "302 12th St NW, Washington, DC 20004",
       "description": "Serves the Federal Triangle complex of government buildings including the IRS and EPA headquarters."
@@ -2060,6 +2162,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189378",
+      "wikidata": "Q5945246",
       "opened": "1983-04-30",
       "address": "2460 Huntington Ave, Alexandria, VA 22303",
       "description": "Southern terminus of the Yellow Line with large parking facilities."
@@ -2097,6 +2201,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5352800477",
+      "wikidata": "Q5349912",
       "opened": "1983-04-30",
       "address": "2425 Eisenhower Ave, Alexandria, VA 22314",
       "description": "Serves the Eisenhower Valley commercial area."
@@ -2152,6 +2258,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189339",
+      "wikidata": "Q170893",
       "opened": "1983-04-30",
       "address": "1900 King St, Alexandria, VA 22314",
       "description": "Major transit hub serving Old Town Alexandria with Amtrak and VRE connections."
@@ -2179,6 +2287,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189320",
+      "wikidata": "Q170909",
       "opened": "1983-04-30",
       "address": "700 N West St, Alexandria, VA 22314",
       "description": "Serves the Braddock Road neighborhood in Alexandria."
@@ -2216,6 +2326,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189386",
+      "wikidata": "Q171074",
       "opened": "1977-07-01",
       "address": "National Airport, Arlington, VA",
       "description": "This station provides direct access to Reagan National Airport, serving as a major transportation hub for air travelers to the Washington area."
@@ -2253,6 +2365,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189355",
+      "wikidata": "Q171109",
       "opened": "1977-07-01",
       "address": "1750 S Clark St, Arlington, VA 22202",
       "description": "Serves the Crystal City business district with connection to VRE commuter rail."
@@ -2300,6 +2414,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189357",
+      "wikidata": "Q171182",
       "opened": "1977-07-01",
       "address": "1250 S Hayes St, Arlington, VA 22202",
       "description": "Serves Pentagon City mall and the surrounding residential area."
@@ -2347,6 +2463,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/453069888",
+      "wikidata": "Q171200",
       "opened": "1977-07-01",
       "address": "Pentagon, Arlington, VA",
       "description": "Pentagon station serves the United States Department of Defense headquarters. It is one of the deepest stations in the system at 97 feet below ground."
@@ -2404,6 +2522,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189380",
+      "wikidata": "Q4792300",
       "opened": "1977-07-01",
       "address": "Arlington National Cemetery, Arlington, VA 22202",
       "description": "Serves Arlington National Cemetery. No parking available; no Sunday service on Blue Line."
@@ -2451,6 +2571,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189319",
+      "wikidata": "Q7369892",
       "opened": "1977-07-01",
       "address": "1850 N Moore St, Arlington, VA 22209",
       "description": "Rosslyn is the deepest station in the system at 97 feet below ground and serves as the gateway between D.C. and Northern Virginia."
@@ -2488,6 +2610,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189359",
+      "wikidata": "Q8564177",
       "opened": "1977-07-01",
       "address": "2301 I St NW, Washington, DC 20037",
       "description": "Serves George Washington University, the State Department, and Kennedy Center."
@@ -2535,6 +2659,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189326",
+      "wikidata": "Q976362",
       "opened": "1977-07-01",
       "address": "900 18th St NW, Washington, DC 20006",
       "description": "Farragut West serves the western portion of downtown D.C. and is located near the White House and World Bank headquarters."
@@ -2582,6 +2708,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189342",
+      "wikidata": "Q278435",
       "opened": "1977-07-01",
       "address": "1400 I St NW, Washington, DC 20005",
       "description": "Located in the central business district, serving K Street and nearby office buildings."
@@ -2619,6 +2747,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189375",
+      "wikidata": "Q4505474",
       "opened": "2004-11-20",
       "address": "200 Florida Ave NE, Washington, DC 20002",
       "description": "Serves the NoMa business district and Gallaudet University, the only university for the deaf and hard of hearing."
@@ -2656,6 +2786,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189379",
+      "wikidata": "Q1064150",
       "opened": "1998-07-25",
       "address": "12501 Georgia Ave, Silver Spring, MD 20906",
       "description": "Glenmont is the northeastern terminus of the Red Line and was the final Red Line station to open."
@@ -2693,6 +2825,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189337",
+      "wikidata": "Q7991952",
       "opened": "1990-09-22",
       "address": "2700 University Blvd, Wheaton, MD 20902",
       "description": "Features one of the longest single-span escalators in the Western Hemisphere at 230 feet."
@@ -2730,6 +2864,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189324",
+      "wikidata": "Q5468881",
       "opened": "1990-09-22",
       "address": "9850 Georgia Ave, Silver Spring, MD 20902",
       "description": "The deepest station in the system at 196 feet below ground, with no escalators—only elevators."
@@ -2774,6 +2910,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/3816542778",
+      "wikidata": "Q7516347",
       "opened": "1978-02-06",
       "address": "8400 Colesville Rd, Silver Spring, MD 20910",
       "description": "Silver Spring is a major transit hub providing connections to MARC commuter rail and numerous bus routes."
@@ -2811,6 +2949,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189358",
+      "wikidata": "Q5485329",
       "opened": "1978-02-06",
       "address": "327 Cedar St NW, Washington, DC 20012",
       "description": "Serves the Takoma neighborhood near the D.C./Maryland border."
@@ -2838,6 +2978,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189367",
+      "wikidata": "Q5472194",
       "opened": "1978-02-06",
       "address": "550 Galloway St NE, Washington, DC 20011",
       "description": "Major transfer point between Red and Green/Yellow lines."
@@ -2885,6 +3027,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189398",
+      "wikidata": "Q3566154",
       "opened": "1978-02-06",
       "address": "801 Michigan Ave NE, Washington, DC 20017",
       "description": "Serves Catholic University of America and the Brookland neighborhood."
@@ -2912,6 +3056,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/5276250837",
+      "wikidata": "Q7320900",
       "opened": "1976-03-27",
       "address": "919 Rhode Island Ave NE, Washington, DC 20018",
       "description": "One of the original five stations, serving the Brentwood and Woodridge neighborhoods."
@@ -2959,6 +3105,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189330",
+      "wikidata": "Q1080527",
       "opened": "1976-03-27",
       "address": "50 Massachusetts Ave NE, Washington, DC 20002",
       "description": "Union Station serves the historic Union Station, providing connections to Amtrak, MARC, and VRE commuter rail services, as well as intercity bus services."
@@ -3016,6 +3164,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189406",
+      "wikidata": "Q6303076",
       "opened": "1976-03-27",
       "address": "450 F St NW, Washington, DC 20001",
       "description": "Serves the D.C. courts, city offices, and the National Law Enforcement Officers Memorial."
@@ -3073,6 +3223,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/7788485987",
+      "wikidata": "Q3846014",
       "opened": "1976-03-27",
       "address": "630 H St NW, Washington, DC 20001",
       "description": "Gallery Place-Chinatown serves the Penn Quarter and Chinatown neighborhoods. The station is adjacent to Capital One Arena and the National Portrait Gallery.",
@@ -3121,6 +3273,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189350",
+      "wikidata": "Q3234043",
       "opened": "1984-12-15",
       "address": "15903 Somerville Dr, Rockville, MD 20855",
       "description": "Shady Grove is the northwestern terminus of the Red Line, located in Montgomery County, Maryland with extensive parking facilities."
@@ -3165,6 +3319,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/7015066751",
+      "wikidata": "Q4380631",
       "opened": "1984-12-15",
       "address": "150 Hungerford Dr, Rockville, MD 20850",
       "description": "Serves downtown Rockville with connections to MARC Brunswick Line commuter rail."
@@ -3202,6 +3358,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189388",
+      "wikidata": "Q2917662",
       "opened": "1984-12-15",
       "address": "1601 Chapman Ave, Rockville, MD 20852",
       "description": "Serves the Twinbrook neighborhood and nearby commercial areas in Rockville."
@@ -3229,6 +3387,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189389",
+      "wikidata": "Q279084",
       "opened": "1984-08-25",
       "address": "5500 Marinelli Rd, North Bethesda, MD 20852",
       "description": "Serves the Pike District redevelopment area in North Bethesda."
@@ -3276,6 +3436,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189392",
+      "wikidata": "Q5610665",
       "opened": "1984-08-25",
       "address": "10300 Rockville Pike, North Bethesda, MD 20852",
       "description": "Serves the Strathmore music center and surrounding residential areas."
@@ -3313,6 +3475,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189354",
+      "wikidata": "Q9031053",
       "opened": "1984-08-25",
       "address": "8810 Rockville Pike, Bethesda, MD 20889",
       "description": "Serves the National Institutes of Health and Walter Reed National Military Medical Center."
@@ -3350,6 +3514,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189338",
+      "wikidata": "Q3565966",
       "opened": "1984-08-25",
       "address": "7450 Wisconsin Ave, Bethesda, MD 20814",
       "description": "Bethesda station serves the downtown Bethesda business district in Montgomery County, Maryland."
@@ -3407,6 +3573,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189372",
+      "wikidata": "Q5504403",
       "opened": "1984-08-25",
       "address": "5337 Wisconsin Ave NW, Washington, DC 20015",
       "description": "Located on the D.C./Maryland border, serving a major retail district."
@@ -3444,6 +3612,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189341",
+      "wikidata": "Q7699930",
       "opened": "1984-08-25",
       "address": "4501 Wisconsin Ave NW, Washington, DC 20016",
       "description": "Serves American University and the Tenleytown commercial district."
@@ -3491,6 +3661,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189407",
+      "wikidata": "Q7913537",
       "opened": "1981-12-05",
       "address": "4200 Connecticut Ave NW, Washington, DC 20008",
       "description": "Serves the Van Ness neighborhood and the University of the District of Columbia."
@@ -3538,6 +3710,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189318",
+      "wikidata": "Q2548809",
       "opened": "1981-12-05",
       "address": "3599 Connecticut Ave NW, Washington, DC 20008",
       "description": "Cleveland Park station serves a residential neighborhood with historic homes and local shops."
@@ -3575,6 +3749,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/738189368",
+      "wikidata": "Q2548733",
       "opened": "1981-12-05",
       "address": "2700 Connecticut Ave NW, Washington, DC 20008",
       "description": "Serves the Woodley Park neighborhood and provides access to the Smithsonian National Zoo."
@@ -3612,6 +3788,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738182031",
+      "wikidata": "Q2466932",
       "opened": "1977-01-17",
       "address": "1525 20th St NW, Washington, DC 20036",
       "description": "Dupont Circle serves the vibrant Dupont Circle neighborhood, known for its embassies, restaurants, and LGBTQ+ community."
@@ -3669,6 +3847,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189364",
+      "wikidata": "Q2548615",
       "opened": "1976-03-27",
       "address": "1001 Connecticut Ave NW, Washington, DC 20036",
       "description": "Located in the central business district, Farragut North is one of the original five stations that opened with the system in 1976."
@@ -3736,6 +3916,8 @@
           "wheelchair": false
         }
       ],
+      "osmId": "node/738189329",
+      "wikidata": "Q4966977",
       "opened": "1976-03-27",
       "address": "607 13th St NW, Washington, DC 20005",
       "description": "Metro Center is the central hub of the Metrorail system, located at the intersection of G Street and 12th/13th Streets NW. It is one of the busiest stations in the system and serves as a transfer point between the Red, Blue, Orange, and Silver lines.",
@@ -3792,6 +3974,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2471616984",
+      "wikidata": "Q7316187",
       "opened": "2022-11-15",
       "address": "12001 Sunrise Valley Dr, Reston, VA 20191",
       "description": "Serves Reston Town Center's urban core and surrounding businesses."
@@ -3857,6 +4041,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2471616566",
+      "wikidata": "Q5742279",
       "opened": "2022-11-15",
       "address": "475 Herndon Pkwy, Herndon, VA 20170",
       "description": "Serves the Town of Herndon and surrounding residential areas."
@@ -3902,6 +4088,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2471616567",
+      "wikidata": "Q14712607",
       "opened": "2022-11-15",
       "address": "4600 Brookfield Corporate Dr, Chantilly, VA 20151",
       "description": "Serves Fairfax County's Innovation Center area and data center corridor."
@@ -3957,6 +4145,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2471615966",
+      "wikidata": "Q5313452",
       "opened": "2022-11-15",
       "address": "Dulles International Airport, Dulles, VA",
       "description": "The newest major station on the Silver Line, providing direct rail access to Dulles International Airport for the first time."
@@ -4002,6 +4192,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2471607100",
+      "wikidata": "Q7371491",
       "opened": "2022-11-15",
       "address": "22900 Loudoun Gateway Dr, Sterling, VA 20166",
       "description": "First station in Loudoun County, serving the Route 606 corridor."
@@ -4059,6 +4251,8 @@
           "wheelchair": true
         }
       ],
+      "osmId": "node/2471607103",
+      "wikidata": "Q7371522",
       "opened": "2022-11-15",
       "address": "43360 Bahnhof Dr, Ashburn, VA 20147",
       "description": "Ashburn is the western terminus of the Silver Line, serving Loudoun County's rapidly growing data center corridor."
@@ -4073,7 +4267,7 @@
         "lat": 38.83319218,
         "lng": -77.04641974
       },
-      "features": ["elevator"],
+      "features": ["accessible", "elevator"],
       "entrances": [
         {
           "id": "ENT_C11_EL",
@@ -4103,7 +4297,9 @@
           },
           "accessibility": []
         }
-      ]
+      ],
+      "osmId": "node/5549002328",
+      "wikidata": "Q7235094"
     }
   ]
 }

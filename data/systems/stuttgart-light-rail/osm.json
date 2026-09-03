@@ -1,0 +1,2526 @@
+{
+  "stations": {
+    "karl-olga-krankenhaus": {
+      "osmId": "node/5278473334",
+      "features": ["accessible"]
+    },
+    "dobelstrasse": {
+      "osmId": "node/280139065"
+    },
+    "heutingsheimer-strasse": {
+      "osmId": "node/1540744965",
+      "features": ["accessible"]
+    },
+    "stammheim": {
+      "osmId": "node/1541454175",
+      "features": ["accessible"]
+    },
+    "ostendplatz": {
+      "osmId": "node/417704314",
+      "features": ["accessible"]
+    },
+    "milchhof": {
+      "osmId": "node/726825813",
+      "features": ["accessible"]
+    },
+    "wilhelm-geiger-platz": {
+      "osmId": "node/10874429493",
+      "wikidata": "Q106879742",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3800106891",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8115105,
+            "lng": 9.1589595
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3800106910",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8116175,
+            "lng": 9.1588601
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "ebitzweg": {
+      "osmId": "node/11067819747",
+      "wikidata": "Q106879673"
+    },
+    "glockenstrasse": {
+      "osmId": "node/11072620179",
+      "wikidata": "Q106879711"
+    },
+    "gerlingen-siedlung": {
+      "osmId": "node/243460938"
+    },
+    "landauer-strasse": {
+      "osmId": "node/5634357688"
+    },
+    "ruhbank": {
+      "osmId": "node/279898448",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3581666801",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7532173,
+            "lng": 9.1946473
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "schwab-bebelstrasse": {
+      "osmId": "node/300818615",
+      "wikidata": "Q106890982",
+      "features": ["accessible"]
+    },
+    "geroksruhe": {
+      "osmId": "node/726825677",
+      "features": ["accessible"]
+    },
+    "jurastrasse": {
+      "osmId": "node/9995142",
+      "features": ["accessible"]
+    },
+    "nordbahnhof": {
+      "osmId": "node/263346985",
+      "wikidata": "Q538138",
+      "entrances": [
+        {
+          "id": "osm-node-11551869974",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8033197,
+            "lng": 9.1894543
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "wolfbusch": {
+      "osmId": "node/5634289538",
+      "wikidata": "Q106879744"
+    },
+    "payerstrasse": {
+      "osmId": "node/2355847726",
+      "features": ["accessible"]
+    },
+    "suedheimer-platz": {
+      "osmId": "node/5646911024",
+      "wikidata": "Q106879717"
+    },
+    "scharnhauser-park": {
+      "osmId": "node/5540010806",
+      "wikidata": "Q106890976"
+    },
+    "wimpfener-strasse": {
+      "osmId": "node/5532614221",
+      "wikidata": "Q106879743"
+    },
+    "landhaus": {
+      "osmId": "node/403037928",
+      "wikidata": "Q106880794",
+      "features": ["accessible"]
+    },
+    "bopser": {
+      "osmId": "node/11067656516",
+      "wikidata": "Q106879654"
+    },
+    "marienplatz": {
+      "osmId": "node/9775741115",
+      "wikidata": "Q106880803",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1286387402",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.7642452,
+            "lng": 9.1685214
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-278819196",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.7643403,
+            "lng": 9.1684559
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3431207862",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.764413,
+            "lng": 9.1679957
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "stadtwerke-stuttgart": {
+      "osmId": "node/5646998090",
+      "wikidata": "Q106880765"
+    },
+    "heidehofstrasse": {
+      "osmId": "node/3224912068",
+      "wikidata": "Q106880766",
+      "features": ["accessible"]
+    },
+    "borsigstrasse": {
+      "osmId": "node/5532740087",
+      "wikidata": "Q106879656",
+      "features": ["accessible"]
+    },
+    "uff-kirchhof": {
+      "osmId": "node/5648833313",
+      "wikidata": "Q106879721"
+    },
+    "obere-ziegelei": {
+      "osmId": "node/738900682",
+      "wikidata": "Q106890535"
+    },
+    "lapp-kabel": {
+      "osmId": "node/11066838580",
+      "wikidata": "Q106880795"
+    },
+    "waldeck": {
+      "osmId": "node/5639195396",
+      "wikidata": "Q106879732"
+    },
+    "salzaecker": {
+      "osmId": "node/5619200637",
+      "wikidata": "Q106890974",
+      "features": ["accessible"]
+    },
+    "lindpaintnerstrasse": {
+      "osmId": "node/5616776650",
+      "wikidata": "Q106880798"
+    },
+    "beethovenstrasse": {
+      "osmId": "node/5616767997",
+      "wikidata": "Q106879645"
+    },
+    "stoeckach": {
+      "osmId": "node/11066462321"
+    },
+    "sigmaringer-strasse": {
+      "osmId": "node/5619224656",
+      "wikidata": "Q106890985",
+      "features": ["accessible"]
+    },
+    "salamanderweg": {
+      "osmId": "node/10873807603"
+    },
+    "erwin-schoettle-platz": {
+      "osmId": "node/5646957211",
+      "wikidata": "Q106879678",
+      "features": ["accessible"]
+    },
+    "fasanenhof": {
+      "osmId": "node/11066897679",
+      "wikidata": "Q106879684"
+    },
+    "esslinger-strasse": {
+      "osmId": "node/9775743223",
+      "wikidata": "Q106879680"
+    },
+    "daimlerplatz": {
+      "osmId": "node/137321732",
+      "wikidata": "Q106879668",
+      "features": ["accessible"]
+    },
+    "kaltental": {
+      "osmId": "node/5639184610",
+      "wikidata": "Q106880782"
+    },
+    "olgaeck": {
+      "osmId": "node/11070705450",
+      "wikidata": "Q106881008",
+      "features": ["accessible"]
+    },
+    "bergheimer-hof": {
+      "osmId": "node/5634276490"
+    },
+    "arndt-spittastrasse": {
+      "osmId": "node/741516462",
+      "wikidata": "Q106879640"
+    },
+    "raitelsberg": {
+      "osmId": "node/5649035395",
+      "wikidata": "Q106942082"
+    },
+    "kursaal": {
+      "osmId": "node/1644849820",
+      "wikidata": "Q106880792",
+      "features": ["accessible"]
+    },
+    "wasenstrasse": {
+      "osmId": "node/5647126641"
+    },
+    "fauststrasse": {
+      "osmId": "node/5639140040",
+      "wikidata": "Q106879686"
+    },
+    "untertuerkheim-bf": {
+      "osmId": "node/248909838",
+      "wikidata": "Q801479",
+      "entrances": [
+        {
+          "id": "osm-node-2387294289",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7797454,
+            "lng": 9.2504044
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2387475646",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7801078,
+            "lng": 9.2509356
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-367222962",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7796171,
+            "lng": 9.2500909
+          },
+          "accessibility": []
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "milloeckerstrasse": {
+      "osmId": "node/5573222452",
+      "wikidata": "Q106880318",
+      "features": ["accessible"]
+    },
+    "muenster-viadukt": {
+      "osmId": "node/5621444748",
+      "wikidata": "Q106880816",
+      "features": ["accessible"]
+    },
+    "metzstrasse": {
+      "osmId": "node/5572943128",
+      "wikidata": "Q106879715",
+      "features": ["accessible"]
+    },
+    "freibergstrasse": {
+      "osmId": "node/5621466882",
+      "wikidata": "Q106879703",
+      "features": ["accessible"]
+    },
+    "muehlsteg": {
+      "osmId": "node/11068648559",
+      "wikidata": "Q106880814",
+      "features": ["accessible"]
+    },
+    "eltinger-strasse": {
+      "osmId": "node/5573126904",
+      "wikidata": "Q106879675",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12944288460",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.778815,
+            "lng": 9.1257052
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "vogelsang": {
+      "osmId": "node/741516488",
+      "wikidata": "Q106879729",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1658348613",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7741671,
+            "lng": 9.1453945
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "leinf-unteraichen": {
+      "osmId": "node/11066936921",
+      "wikidata": "Q106879722"
+    },
+    "vaihingen-schillerplatz": {
+      "osmId": "node/9775741114",
+      "wikidata": "Q106879726"
+    },
+    "loewentor": {
+      "osmId": "node/11069865625",
+      "wikidata": "Q106880801"
+    },
+    "enbw-city": {
+      "osmId": "node/11066897678",
+      "wikidata": "Q106879676",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12498173181",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7120973,
+            "lng": 9.1672212
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "augsburger-platz": {
+      "osmId": "node/12572069978",
+      "wikidata": "Q106879641"
+    },
+    "stafflenbergstrasse": {
+      "osmId": "node/3224912263"
+    },
+    "bubenbad": {
+      "osmId": "node/128830593",
+      "features": ["accessible"]
+    },
+    "russische-kirche": {
+      "osmId": "node/5619035696",
+      "wikidata": "Q106890865"
+    },
+    "elbestrasse": {
+      "osmId": "node/5621270527",
+      "wikidata": "Q106879674"
+    },
+    "cannstatter-wasen": {
+      "osmId": "node/722934044",
+      "wikidata": "Q106879665",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12054589813",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7973768,
+            "lng": 9.2198462
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "nellingen-technische-akademie": {
+      "osmId": "node/5539791641",
+      "wikidata": "Q106879720"
+    },
+    "wangen-marktplatz": {
+      "osmId": "node/5647116619",
+      "wikidata": "Q106879734"
+    },
+    "boersenplatz": {
+      "osmId": "node/11070696881",
+      "wikidata": "Q106879659",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1393804245",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.780161,
+            "lng": 9.1771171
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2145685310",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7798416,
+            "lng": 9.1758929
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2145685315",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7799814,
+            "lng": 9.1755273
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-320286171",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7804733,
+            "lng": 9.176067
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-418324761",
+          "name": "Börsenplatz (L-Bank)",
+          "coordinates": {
+            "lat": 48.7801649,
+            "lng": 9.1772162
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4288719179",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7804267,
+            "lng": 9.1765991
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-444582347",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7809994,
+            "lng": 9.1762302
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-623483681",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7803805,
+            "lng": 9.1767071
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "vaihingen-viadukt": {
+      "osmId": "node/5639178974",
+      "wikidata": "Q106879727"
+    },
+    "kraftwerk-muenster": {
+      "osmId": "node/5621335198",
+      "wikidata": "Q106880790",
+      "features": ["accessible"]
+    },
+    "berliner-platz": {
+      "osmId": "node/5619001502",
+      "wikidata": "Q106879648",
+      "features": ["accessible"]
+    },
+    "schlachthof": {
+      "osmId": "node/5649019399",
+      "wikidata": "Q106890978"
+    },
+    "auwiesen": {
+      "osmId": "node/5621504090",
+      "wikidata": "Q106879642"
+    },
+    "vaihinger-strasse": {
+      "osmId": "node/5639017294",
+      "wikidata": "Q106879728",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-387860320",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7279657,
+            "lng": 9.1393092
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-387860322",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7279234,
+            "lng": 9.1394416
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "rastatter-strasse": {
+      "osmId": "node/5634344300",
+      "wikidata": "Q106881972"
+    },
+    "zuffenhausen-rathaus": {
+      "osmId": "node/5532654963",
+      "wikidata": "Q106879747"
+    },
+    "wallgraben": {
+      "osmId": "node/11068366147",
+      "wikidata": "Q106879733"
+    },
+    "tapachstrasse": {
+      "osmId": "node/5623698424",
+      "wikidata": "Q106879719"
+    },
+    "eugensplatz": {
+      "osmId": "node/3224912065",
+      "wikidata": "Q106879682",
+      "features": ["accessible"]
+    },
+    "bockelstrasse": {
+      "osmId": "node/5542105769",
+      "wikidata": "Q106880770"
+    },
+    "rosensteinbruecke": {
+      "osmId": "node/5621285503",
+      "wikidata": "Q106890966",
+      "features": ["accessible"]
+    },
+    "fuerfelder-strasse": {
+      "osmId": "node/5623684625",
+      "wikidata": "Q106879705"
+    },
+    "moehringen-freibad": {
+      "osmId": "node/5638927568",
+      "wikidata": "Q106880809",
+      "entrances": [
+        {
+          "id": "osm-node-4980152699",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7174685,
+            "lng": 9.1411963
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "kelterplatz": {
+      "osmId": "node/5621612007",
+      "wikidata": "Q106879746"
+    },
+    "stelle": {
+      "osmId": "node/279898521"
+    },
+    "schlotterbeckstrasse": {
+      "osmId": "node/5648789074",
+      "wikidata": "Q106890981"
+    },
+    "gnesener-strasse": {
+      "osmId": "node/26632804",
+      "wikidata": "Q106879712"
+    },
+    "riedsee": {
+      "osmId": "node/11068891959",
+      "wikidata": "Q106882054"
+    },
+    "ruit-zinsholz": {
+      "osmId": "node/5541867444",
+      "wikidata": "Q106879745"
+    },
+    "schozacher-strasse": {
+      "osmId": "node/5623677125",
+      "wikidata": "Q106882041"
+    },
+    "remseck-neckargroeningen": {
+      "osmId": "node/11066948709",
+      "wikidata": "Q106880829"
+    },
+    "schelmenwasen": {
+      "osmId": "node/11066897677",
+      "wikidata": "Q106879685"
+    },
+    "freiberg": {
+      "osmId": "node/5623829273",
+      "wikidata": "Q106879702"
+    },
+    "sportpark-feuerbach": {
+      "osmId": "node/5634446112"
+    },
+    "plieningen": {
+      "osmId": "node/403038018",
+      "wikidata": "Q106938553",
+      "features": ["accessible"]
+    },
+    "gaisburg": {
+      "osmId": "node/11069810855",
+      "wikidata": "Q106879706"
+    },
+    "hauptfriedhof": {
+      "osmId": "node/738900567",
+      "wikidata": "Q106880763",
+      "features": ["accessible"]
+    },
+    "rosenberg-seidenstrasse": {
+      "osmId": "node/5619017616",
+      "wikidata": "Q106937111"
+    },
+    "aldingen-brueckenstrasse": {
+      "osmId": "node/11066948708",
+      "wikidata": "Q106879662",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3560104773",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8669712,
+            "lng": 9.2583015
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "budapester-platz": {
+      "osmId": "node/11072621197",
+      "wikidata": "Q106879664",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-13875505661",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7905678,
+            "lng": 9.1857974
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "scharnhauser-park-kreuzbrunnen": {
+      "osmId": "node/5539839273",
+      "wikidata": "Q106880791"
+    },
+    "eszet": {
+      "osmId": "node/5648800519",
+      "wikidata": "Q106879681"
+    },
+    "loewen-markt": {
+      "osmId": "node/5634352079",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10870902855",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8138069,
+            "lng": 9.1124883
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "korntaler-strasse": {
+      "osmId": "node/5532587258",
+      "wikidata": "Q106880789"
+    },
+    "salzwiesenstrasse": {
+      "osmId": "node/5532634543",
+      "wikidata": "Q106890975"
+    },
+    "brendle": {
+      "osmId": "node/5648992534",
+      "wikidata": "Q106879661"
+    },
+    "ostheim-leo-vetter-bad": {
+      "osmId": "node/3420680495",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-6509869580",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7844723,
+            "lng": 9.2096801
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "pragfriedhof": {
+      "osmId": "node/3303949551",
+      "wikidata": "Q106951331"
+    },
+    "stadionstrasse": {
+      "osmId": "node/11066897676",
+      "wikidata": "Q110670891"
+    },
+    "plieninger-strasse": {
+      "osmId": "node/1667455653",
+      "features": ["accessible"]
+    },
+    "hoelderlinplatz": {
+      "osmId": "node/5619047502",
+      "wikidata": "Q106880776"
+    },
+    "moenchfeld": {
+      "osmId": "node/5623842858",
+      "wikidata": "Q106880810"
+    },
+    "foehrich": {
+      "osmId": "node/10874429492"
+    },
+    "fellbach-lutherkirche": {
+      "osmId": "node/9775743225",
+      "wikidata": "Q106879687",
+      "features": ["accessible"]
+    },
+    "schemppstrasse": {
+      "osmId": "node/5542211032",
+      "wikidata": "Q106890977",
+      "entrances": [
+        {
+          "id": "osm-node-5542211040",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7414854,
+            "lng": 9.2183463
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-792090137",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7408961,
+            "lng": 9.2193112
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-879330331",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7415862,
+            "lng": 9.218247
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "riethmuellerhaus": {
+      "osmId": "node/11073488596",
+      "wikidata": "Q106882014"
+    },
+    "muehlhausen": {
+      "osmId": "node/5621508740",
+      "wikidata": "Q106880813"
+    },
+    "himmelsleiter": {
+      "osmId": "node/5623791353",
+      "wikidata": "Q106880772"
+    },
+    "duerrlewang": {
+      "osmId": "node/3510348490"
+    },
+    "friedrichswahl": {
+      "osmId": "node/5532740097",
+      "wikidata": "Q106879704"
+    },
+    "bad-cannstatt-wilhelmsplatz": {
+      "osmId": "node/5616551136",
+      "wikidata": "Q106879643",
+      "features": ["accessible"]
+    },
+    "muenster-rathaus": {
+      "osmId": "node/5621460578",
+      "wikidata": "Q106880815",
+      "features": ["accessible"]
+    },
+    "hohensteinstrasse": {
+      "osmId": "node/5532665880",
+      "wikidata": "Q106880774"
+    },
+    "zuericher-strasse": {
+      "osmId": "node/2457943483"
+    },
+    "bottroper-strasse": {
+      "osmId": "node/5273763001",
+      "wikidata": "Q106879658",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5272014257",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8210401,
+            "lng": 9.2102974
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "oesterreichischer-platz": {
+      "osmId": "node/9775741116",
+      "wikidata": "Q106881358",
+      "entrances": [
+        {
+          "id": "osm-node-1686344723",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7697675,
+            "lng": 9.1751287
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-303808198",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7702457,
+            "lng": 9.1747018
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4291725891",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7699804,
+            "lng": 9.1754545
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4291725899",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7700907,
+            "lng": 9.1753074
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5728713298",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7711414,
+            "lng": 9.1764985
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "mittnachtstrasse": {
+      "osmId": "node/726825729"
+    },
+    "maybachstrasse": {
+      "osmId": "node/5530422522",
+      "wikidata": "Q106880235",
+      "entrances": [
+        {
+          "id": "osm-node-1321831668",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8108293,
+            "lng": 9.1768959
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1750037105",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8110745,
+            "lng": 9.177559
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-268108171",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8108673,
+            "lng": 9.1774808
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5529962281",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8108444,
+            "lng": 9.1769799
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5530421854",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8109283,
+            "lng": 9.1771534
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5530421859",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8110444,
+            "lng": 9.1771779
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "waldau": {
+      "osmId": "node/5542589349",
+      "wikidata": "Q106879731"
+    },
+    "aldingen-hornbach": {
+      "osmId": "node/2088700332",
+      "wikidata": "Q106880777",
+      "features": ["accessible"]
+    },
+    "heslach-vogelrain": {
+      "osmId": "node/5639214769",
+      "wikidata": "Q106880768"
+    },
+    "heumaden": {
+      "osmId": "node/5542060485",
+      "wikidata": "Q106880769"
+    },
+    "max-eyth-see": {
+      "osmId": "node/5621481693",
+      "wikidata": "Q106880804"
+    },
+    "hedelfingen": {
+      "osmId": "node/26407026",
+      "wikidata": "Q106880764",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-13626830542",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7599745,
+            "lng": 9.254931
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "herderplatz": {
+      "osmId": "node/5616826387",
+      "wikidata": "Q106880767",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1721481675",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7720448,
+            "lng": 9.1409479
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "sillenbuch": {
+      "osmId": "node/5542324638",
+      "wikidata": "Q106882080",
+      "entrances": [
+        {
+          "id": "osm-node-2131448756",
+          "name": "Sillenbuch",
+          "coordinates": {
+            "lat": 48.7445102,
+            "lng": 9.2131869
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5542324661",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7444859,
+            "lng": 9.213122
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "sonnenberg": {
+      "osmId": "node/13355378",
+      "features": ["accessible"]
+    },
+    "kirchtalstrasse": {
+      "osmId": "node/1540261827",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-2210339438",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8321247,
+            "lng": 9.171266
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2210339449",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8322673,
+            "lng": 9.1702915
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2305288059",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8322288,
+            "lng": 9.1705762
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "peregrinastrasse": {
+      "osmId": "node/13355384",
+      "features": ["accessible"]
+    },
+    "giebel": {
+      "osmId": "node/1563613093",
+      "features": ["accessible"]
+    },
+    "loewentorbruecke": {
+      "osmId": "node/4426896678",
+      "wikidata": "Q106880802"
+    },
+    "leinfelden-neuer-markt": {
+      "osmId": "node/12260553347"
+    },
+    "neckartor": {
+      "osmId": "node/11066462322",
+      "wikidata": "Q106880831",
+      "entrances": [
+        {
+          "id": "osm-node-10879795518",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.786353,
+            "lng": 9.1901404
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-255579046",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7859808,
+            "lng": 9.1903802
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-255579107",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7863523,
+            "lng": 9.1903146
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3674055978",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7860604,
+            "lng": 9.1904254
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-455444693",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7861728,
+            "lng": 9.1896239
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "steinhaldenfeld": {
+      "osmId": "node/738900628",
+      "wikidata": "Q106882062",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1511895493",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8282202,
+            "lng": 9.2316341
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "gerlingen": {
+      "osmId": "node/243460932",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1450789873",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8001731,
+            "lng": 9.063689
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "wangener-landhausstrasse": {
+      "osmId": "node/5649007062",
+      "wikidata": "Q106879735"
+    },
+    "schloss-johannesstrasse": {
+      "osmId": "node/667183217"
+    },
+    "aldingen-muehle": {
+      "osmId": "node/2088699554",
+      "wikidata": "Q106880811"
+    },
+    "mercedesstrasse": {
+      "osmId": "node/5572840200",
+      "wikidata": "Q106879978",
+      "features": ["accessible"]
+    },
+    "rohrer-weg": {
+      "osmId": "node/5638991338",
+      "wikidata": "Q106890672"
+    },
+    "stadtbibliothek": {
+      "osmId": "node/1487228315",
+      "wikidata": "Q106890991",
+      "entrances": [
+        {
+          "id": "osm-node-2907106469",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7905392,
+            "lng": 9.180528
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3377834929",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7907956,
+            "lng": 9.1808719
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3377867839",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7906468,
+            "lng": 9.181381
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3377867840",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7906566,
+            "lng": 9.1811005
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-425530634",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.790829,
+            "lng": 9.1806633
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-443132352",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.790209,
+            "lng": 9.1807551
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "parksiedlung": {
+      "osmId": "node/5541834231",
+      "wikidata": "Q106892083",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5541834226",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7244424,
+            "lng": 9.2719826
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "moehringen-bahnhof": {
+      "osmId": "node/3750521391",
+      "wikidata": "Q106880808",
+      "features": ["accessible"]
+    },
+    "botnang": {
+      "osmId": "node/5573102692",
+      "wikidata": "Q106879657"
+    },
+    "mineralbaeder": {
+      "osmId": "node/5572880885",
+      "wikidata": "Q106879716",
+      "features": ["accessible"]
+    },
+    "schlossplatz": {
+      "osmId": "node/3228714629",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1397163245",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7786738,
+            "lng": 9.1776002
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-1397163305",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7793905,
+            "lng": 9.1777777
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-444582340",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7785931,
+            "lng": 9.1783197
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-444582342",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7791984,
+            "lng": 9.1791684
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-444582345",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.779089,
+            "lng": 9.1790137
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "killesberg": {
+      "osmId": "node/10936388923",
+      "wikidata": "Q106880785",
+      "entrances": [
+        {
+          "id": "osm-node-1668699397",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7993022,
+            "lng": 9.1704395
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1750009450",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7994543,
+            "lng": 9.1708939
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3503840957",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7994956,
+            "lng": 9.1728447
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-6992937438",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7998962,
+            "lng": 9.1726835
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "pragsattel": {
+      "osmId": "node/5539230473",
+      "wikidata": "Q23927040",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1297297980",
+          "name": "Exit 4288/1845",
+          "coordinates": {
+            "lat": 48.8094453,
+            "lng": 9.183339
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "wilhelma": {
+      "osmId": "node/11072620180",
+      "wikidata": "Q106879741"
+    },
+    "nellingen-ostfildern": {
+      "osmId": "node/5539716393",
+      "wikidata": "Q106891967",
+      "features": ["accessible"]
+    },
+    "staatsgalerie": {
+      "osmId": "node/8291715043",
+      "wikidata": "Q106890989",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7899464292",
+          "name": "Exit SI 01",
+          "coordinates": {
+            "lat": 48.7828993,
+            "lng": 9.1872163
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7899464293",
+          "name": "Exit SI 02",
+          "coordinates": {
+            "lat": 48.7829834,
+            "lng": 9.1870469
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "suttnerstrasse": {
+      "osmId": "node/5623808547",
+      "wikidata": "Q106879718"
+    },
+    "neugereut": {
+      "osmId": "node/26632819",
+      "wikidata": "Q106919466"
+    },
+    "neckarpark": {
+      "osmId": "node/5651080735",
+      "wikidata": "Q106880830"
+    },
+    "engelboldstrasse": {
+      "osmId": "node/340473995",
+      "features": ["accessible"]
+    },
+    "weinsteige": {
+      "osmId": "node/11067656515",
+      "wikidata": "Q106879740",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3676392855",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7547971,
+            "lng": 9.1747559
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "bihlplatz": {
+      "osmId": "node/443826010",
+      "features": ["accessible"]
+    },
+    "feuerbach-bahnhof": {
+      "osmId": "node/303467028",
+      "wikidata": "Q801471",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7873659051",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8139575,
+            "lng": 9.1687011
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7873659053",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8140673,
+            "lng": 9.1689714
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "beskidenstrasse": {
+      "osmId": "node/5651100247",
+      "wikidata": "Q106879651",
+      "features": ["accessible"]
+    },
+    "antwerpener-strasse": {
+      "osmId": "node/5651095354",
+      "wikidata": "Q106879639",
+      "features": ["accessible"]
+    },
+    "rotebuehlplatz": {
+      "osmId": "node/278553729",
+      "entrances": [
+        {
+          "id": "osm-node-1057852827",
+          "name": "Stadtmitte",
+          "coordinates": {
+            "lat": 48.7769882,
+            "lng": 9.1747524
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1493169833",
+          "name": "Stadtmitte",
+          "coordinates": {
+            "lat": 48.7770519,
+            "lng": 9.1742443
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1621899309",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7749218,
+            "lng": 9.1711164
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3034475421",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7744821,
+            "lng": 9.1717517
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3034475422",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7747041,
+            "lng": 9.1720933
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3034475423",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.774836,
+            "lng": 9.1722584
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3635290340",
+          "name": "Stadtmitte",
+          "coordinates": {
+            "lat": 48.7772655,
+            "lng": 9.1744656
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3657852735",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7755541,
+            "lng": 9.1712823
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-647308536",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7748116,
+            "lng": 9.1710178
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-647308545",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7751405,
+            "lng": 9.1722068
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-71712383",
+          "name": "Stadtmitte",
+          "coordinates": {
+            "lat": 48.7774893,
+            "lng": 9.1736401
+          },
+          "accessibility": []
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "hauptbahnhof": {
+      "osmId": "node/276888120",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-114253545",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7828098,
+            "lng": 9.1824811
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-20276019",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7823273,
+            "lng": 9.18182
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-293901432",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7837534,
+            "lng": 9.1803526
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-293901580",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.783881,
+            "lng": 9.1801575
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3027349478",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7830086,
+            "lng": 9.1809936
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3027349518",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7833711,
+            "lng": 9.1802455
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3027357158",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7834915,
+            "lng": 9.1803556
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-439648079",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.783336,
+            "lng": 9.1811916
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-439659744",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7828828,
+            "lng": 9.1811509
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-439659792",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7831551,
+            "lng": 9.1804873
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-440975038",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7817092,
+            "lng": 9.1809255
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-440975041",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7822201,
+            "lng": 9.178946
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-440975043",
+          "name": "Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7825245,
+            "lng": 9.1792129
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-440981894",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7839817,
+            "lng": 9.1807795
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-443060445",
+          "name": "Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7823693,
+            "lng": 9.1795637
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-443060448",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7838273,
+            "lng": 9.1791906
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-443060449",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7838293,
+            "lng": 9.1788534
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-451617517",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.783217,
+            "lng": 9.1799691
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5194338491",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7840998,
+            "lng": 9.1784845
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5198639340",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7835999,
+            "lng": 9.1804566
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6582700398",
+          "name": "Hauptbahnhof / Arnulf-Klett-Platz",
+          "coordinates": {
+            "lat": 48.7845391,
+            "lng": 9.1789686
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "hallschlag": {
+      "osmId": "node/2457943462"
+    },
+    "rathaus": {
+      "osmId": "node/9775743217",
+      "wikidata": "Q106881376",
+      "entrances": [
+        {
+          "id": "osm-node-11860891466",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.7730998,
+            "lng": 9.1785385
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11860898732",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.7726931,
+            "lng": 9.1793345
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11860924244",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.7731042,
+            "lng": 9.1785353
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11860932299",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.7731233,
+            "lng": 9.1788245
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11860944932",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.773793,
+            "lng": 9.1810868
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3028124071",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.774433,
+            "lng": 9.1804719
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-303808186",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.7739161,
+            "lng": 9.179959
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5709480383",
+          "name": "Rathaus",
+          "coordinates": {
+            "lat": 48.7742415,
+            "lng": 9.1798912
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5709583940",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7739369,
+            "lng": 9.180061
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5709861752",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7738062,
+            "lng": 9.1803021
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "hoehenstrasse": {
+      "osmId": "node/9775743222",
+      "wikidata": "Q106880775"
+    },
+    "ruit": {
+      "osmId": "node/9689684561",
+      "wikidata": "Q106890877",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-263806052",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7310826,
+            "lng": 9.2535796
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4379712492",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7309663,
+            "lng": 9.253699
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5541970270",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7307237,
+            "lng": 9.2542174
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5541970271",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7312905,
+            "lng": 9.2532278
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "schwabenlandhalle": {
+      "osmId": "node/9775743224",
+      "wikidata": "Q106890983"
+    },
+    "leinfelden-frank": {
+      "osmId": "node/11066936920",
+      "wikidata": "Q106880797"
+    },
+    "messe-west": {
+      "osmId": "node/11066897674",
+      "wikidata": "Q106880806"
+    },
+    "silberwald": {
+      "osmId": "node/5542451286",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3760440704",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7476351,
+            "lng": 9.2081702
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "degerloch-albstrasse": {
+      "osmId": "node/11068362178",
+      "wikidata": "Q106879670",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1709026399",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7462912,
+            "lng": 9.1629643
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1709026404",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7465268,
+            "lng": 9.1626753
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-439664706",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7462421,
+            "lng": 9.1631076
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "ssb-zentrum": {
+      "osmId": "node/9994979",
+      "features": ["accessible"]
+    },
+    "nuernberger-strasse": {
+      "osmId": "node/3045280857",
+      "wikidata": "Q130397",
+      "entrances": [
+        {
+          "id": "osm-node-1845155735",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8065466,
+            "lng": 9.2348045
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1845155737",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8064751,
+            "lng": 9.234442
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-748300158",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8063293,
+            "lng": 9.2351827
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-748300182",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8062561,
+            "lng": 9.2348034
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "im-degen": {
+      "osmId": "node/5648939929"
+    },
+    "leinfelden-bahnhof": {
+      "osmId": "node/103011354",
+      "wikidata": "Q195824",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3085984288",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6973574,
+            "lng": 9.1425956
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3085984315",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6974893,
+            "lng": 9.1427572
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-333741992",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6973439,
+            "lng": 9.1424282
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "breitwiesen": {
+      "osmId": "node/266035343",
+      "features": ["accessible"]
+    },
+    "degerloch": {
+      "osmId": "node/11068362179",
+      "wikidata": "Q106879669",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-247693903",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7490455,
+            "lng": 9.1694659
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-247693904",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7492646,
+            "lng": 9.1691988
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-405589625",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.748473,
+            "lng": 9.167888
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-6770998494",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7485209,
+            "lng": 9.1679889
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "hofen": {
+      "osmId": "node/11068648561",
+      "wikidata": "Q106880773"
+    },
+    "blick": {
+      "osmId": "node/11067819746",
+      "wikidata": "Q106879653",
+      "features": ["accessible"]
+    },
+    "kienbachstrasse": {
+      "osmId": "node/5648804183",
+      "wikidata": "Q106880784",
+      "features": ["accessible"]
+    },
+    "bergfriedhof": {
+      "osmId": "node/5649048888",
+      "wikidata": "Q106879646",
+      "features": ["accessible"]
+    },
+    "rosensteinpark": {
+      "osmId": "node/11069865624",
+      "wikidata": "Q70717000"
+    },
+    "wagrainaecker": {
+      "osmId": "node/11068648560",
+      "wikidata": "Q106879730"
+    },
+    "inselstrasse": {
+      "osmId": "node/5648925931",
+      "wikidata": "Q106880780"
+    },
+    "flughafen-messe": {
+      "osmId": "node/27312362",
+      "wikidata": "Q801485",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-11760680219",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6905695,
+            "lng": 9.1929632
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3095789519",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6905873,
+            "lng": 9.1929546
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123354",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6903769,
+            "lng": 9.1924923
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123366",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.690461,
+            "lng": 9.1929289
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123402",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6906228,
+            "lng": 9.1940441
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123412",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6906453,
+            "lng": 9.1941612
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123451",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.690802,
+            "lng": 9.1941391
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "feuerbach-pfostenwaeldle": {
+      "osmId": "node/10874429491"
+    },
+    "sieglestrasse": {
+      "osmId": "node/5532740042",
+      "wikidata": "Q106890984"
+    },
+    "vaihingen": {
+      "osmId": "node/2521443817",
+      "wikidata": "Q801478",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10217002645",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7262075,
+            "lng": 9.113027
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2385470611",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7263045,
+            "lng": 9.1129028
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "charlottenplatz": {
+      "osmId": "node/3228714627",
+      "wikidata": "Q56773137",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-20276177",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7766165,
+            "lng": 9.182762
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2984398164",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7760063,
+            "lng": 9.1825249
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-425416114",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7772475,
+            "lng": 9.183478
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-482490775",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7756506,
+            "lng": 9.1823505
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-482498154",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7752732,
+            "lng": 9.1833534
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-482498155",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.775291,
+            "lng": 9.1830868
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5530580687",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7758465,
+            "lng": 9.183333
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5664621839",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.775338,
+            "lng": 9.1830876
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5688609893",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7763639,
+            "lng": 9.1828531
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5688609901",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7763889,
+            "lng": 9.1830874
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5688714624",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.776142,
+            "lng": 9.1825157
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-82797763",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7757437,
+            "lng": 9.1833911
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    }
+  }
+}

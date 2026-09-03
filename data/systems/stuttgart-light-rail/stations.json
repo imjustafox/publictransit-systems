@@ -11,7 +11,8 @@
         "lng": 9.23207241
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 1086549974
+      "osmId": 1086549974,
+      "wikidata": "Q106879673"
     },
     {
       "id": "nuernberger-strasse",
@@ -24,7 +25,46 @@
         "lng": 9.23457691
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 600447956
+      "osmId": 600447956,
+      "wikidata": "Q130397",
+      "entrances": [
+        {
+          "id": "osm-node-1845155735",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8065466,
+            "lng": 9.2348045
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1845155737",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8064751,
+            "lng": 9.234442
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-748300158",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8063293,
+            "lng": 9.2351827
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-748300182",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8062561,
+            "lng": 9.2348034
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "vaihingen",
@@ -37,7 +77,30 @@
         "lng": 9.11391337
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 9995173
+      "osmId": 9995173,
+      "wikidata": "Q801478",
+      "entrances": [
+        {
+          "id": "osm-node-10217002645",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7262075,
+            "lng": 9.113027
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2385470611",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7263045,
+            "lng": 9.1129028
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "rotebuehlplatz",
@@ -155,7 +218,39 @@
         "lng": 9.25046707
       },
       "features": ["elevator", "fare-vending", "transfer"],
-      "osmId": 26407028
+      "osmId": 26407028,
+      "wikidata": "Q801479",
+      "entrances": [
+        {
+          "id": "osm-node-2387294289",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7797454,
+            "lng": 9.2504044
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2387475646",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7801078,
+            "lng": 9.2509356
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-367222962",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.7796171,
+            "lng": 9.2500909
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "feuerbach-bahnhof",
@@ -168,7 +263,30 @@
         "lng": 9.16918629
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 717575086
+      "osmId": 717575086,
+      "wikidata": "Q801471",
+      "entrances": [
+        {
+          "id": "osm-node-7873659051",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8139575,
+            "lng": 9.1687011
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7873659053",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8140673,
+            "lng": 9.1689714
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "nordbahnhof",
@@ -181,7 +299,19 @@
         "lng": 9.18806145
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 255577460
+      "osmId": 255577460,
+      "wikidata": "Q538138",
+      "entrances": [
+        {
+          "id": "osm-node-11551869974",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 48.8033197,
+            "lng": 9.1894543
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "leinfelden-bahnhof",
@@ -194,7 +324,40 @@
         "lng": 9.1428597
       },
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
-      "osmId": 3738199384
+      "osmId": 3738199384,
+      "wikidata": "Q195824",
+      "entrances": [
+        {
+          "id": "osm-node-3085984288",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6973574,
+            "lng": 9.1425956
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3085984315",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6974893,
+            "lng": 9.1427572
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-333741992",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6973439,
+            "lng": 9.1424282
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "flughafen-messe",
@@ -207,7 +370,80 @@
         "lng": 9.19341157
       },
       "features": ["elevator", "fare-vending"],
-      "osmId": 9330061530
+      "osmId": 9330061530,
+      "wikidata": "Q801485",
+      "entrances": [
+        {
+          "id": "osm-node-11760680219",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6905695,
+            "lng": 9.1929632
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3095789519",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6905873,
+            "lng": 9.1929546
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123354",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6903769,
+            "lng": 9.1924923
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123366",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.690461,
+            "lng": 9.1929289
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123402",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6906228,
+            "lng": 9.1940441
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123412",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.6906453,
+            "lng": 9.1941612
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3097123451",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.690802,
+            "lng": 9.1941391
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "stammheim",
@@ -233,7 +469,8 @@
         "lng": 9.1570904
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 1541057204
+      "osmId": 1541057204,
+      "wikidata": "Q106880789"
     },
     {
       "id": "heutingsheimer-strasse",
@@ -259,7 +496,8 @@
         "lng": 9.16095984
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 1540738738
+      "osmId": 1540738738,
+      "wikidata": "Q106879743"
     },
     {
       "id": "kirchtalstrasse",
@@ -314,7 +552,8 @@
         "lng": 9.17465083
       },
       "features": ["fare-vending"],
-      "osmId": 1540261524
+      "osmId": 1540261524,
+      "wikidata": "Q106879747"
     },
     {
       "id": "friedrichswahl",
@@ -327,7 +566,8 @@
         "lng": 9.1728128
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26407051
+      "osmId": 26407051,
+      "wikidata": "Q106879704"
     },
     {
       "id": "borsigstrasse",
@@ -340,7 +580,8 @@
         "lng": 9.17544245
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 33327551
+      "osmId": 33327551,
+      "wikidata": "Q106879656"
     },
     {
       "id": "sieglestrasse",
@@ -353,7 +594,8 @@
         "lng": 9.177161
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26790152
+      "osmId": 26790152,
+      "wikidata": "Q106890984"
     },
     {
       "id": "pragfriedhof",
@@ -366,7 +608,8 @@
         "lng": 9.18251402
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 5539414145
+      "osmId": 5539414145,
+      "wikidata": "Q106951331"
     },
     {
       "id": "stafflenbergstrasse",
@@ -431,7 +674,18 @@
         "lng": 9.20769187
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26407070
+      "osmId": 26407070,
+      "entrances": [
+        {
+          "id": "osm-node-3760440704",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7476351,
+            "lng": 9.2081702
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "suedheimer-platz",
@@ -444,7 +698,8 @@
         "lng": 9.14362953
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 34580107
+      "osmId": 34580107,
+      "wikidata": "Q106879717"
     },
     {
       "id": "waldau",
@@ -457,7 +712,8 @@
         "lng": 9.18908974
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 675756
+      "osmId": 675756,
+      "wikidata": "Q106879731"
     },
     {
       "id": "heumaden",
@@ -470,7 +726,8 @@
         "lng": 9.2338364
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26407066
+      "osmId": 26407066,
+      "wikidata": "Q106880769"
     },
     {
       "id": "giebel",
@@ -522,7 +779,8 @@
         "lng": 9.10535643
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 282943399
+      "osmId": 282943399,
+      "wikidata": "Q106879744"
     },
     {
       "id": "rastatter-strasse",
@@ -535,7 +793,8 @@
         "lng": 9.10800323
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26405805
+      "osmId": 26405805,
+      "wikidata": "Q106881972"
     },
     {
       "id": "bihlplatz",
@@ -614,6 +873,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26405960,
+      "wikidata": "Q106880235",
       "entrances": [
         {
           "id": "osm-268108171",
@@ -668,7 +928,20 @@
         "lng": 9.17470044
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 498454608
+      "osmId": 498454608,
+      "wikidata": "Q106879740",
+      "entrances": [
+        {
+          "id": "osm-node-3676392855",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7547971,
+            "lng": 9.1747559
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "vaihinger-strasse",
@@ -681,7 +954,30 @@
         "lng": 9.13917003
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 9994951
+      "osmId": 9994951,
+      "wikidata": "Q106879728",
+      "entrances": [
+        {
+          "id": "osm-node-387860320",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7279657,
+            "lng": 9.1393092
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-387860322",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7279234,
+            "lng": 9.1394416
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "rohrer-weg",
@@ -694,7 +990,8 @@
         "lng": 9.13664056
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26240181
+      "osmId": 26240181,
+      "wikidata": "Q106890672"
     },
     {
       "id": "milloeckerstrasse",
@@ -707,7 +1004,8 @@
         "lng": 9.13203404
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 21281027
+      "osmId": 21281027,
+      "wikidata": "Q106880318"
     },
     {
       "id": "beethovenstrasse",
@@ -720,7 +1018,8 @@
         "lng": 9.13337515
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 21286538
+      "osmId": 21286538,
+      "wikidata": "Q106879645"
     },
     {
       "id": "herderplatz",
@@ -733,7 +1032,19 @@
         "lng": 9.14144314
       },
       "features": ["elevator", "fare-vending", "transfer"],
-      "osmId": 21288473
+      "osmId": 21288473,
+      "wikidata": "Q106880767",
+      "entrances": [
+        {
+          "id": "osm-node-1721481675",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7720448,
+            "lng": 9.1409479
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "vogelsang",
@@ -746,7 +1057,19 @@
         "lng": 9.14593967
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 21288478
+      "osmId": 21288478,
+      "wikidata": "Q106879729",
+      "entrances": [
+        {
+          "id": "osm-node-1658348613",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7741671,
+            "lng": 9.1453945
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "arndt-spittastrasse",
@@ -759,7 +1082,8 @@
         "lng": 9.15078368
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 31127640
+      "osmId": 31127640,
+      "wikidata": "Q106879640"
     },
     {
       "id": "raitelsberg",
@@ -772,7 +1096,8 @@
         "lng": 9.21228467
       },
       "features": ["fare-vending"],
-      "osmId": 89417460
+      "osmId": 89417460,
+      "wikidata": "Q106942082"
     },
     {
       "id": "killesberg",
@@ -786,6 +1111,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "wheelchair-accessible"],
       "osmId": 18241005,
+      "wikidata": "Q106880785",
       "entrances": [
         {
           "id": "osm-1668699397",
@@ -827,7 +1153,8 @@
         "lng": 9.24541929
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26407024
+      "osmId": 26407024,
+      "wikidata": "Q106879734"
     },
     {
       "id": "stadtwerke-stuttgart",
@@ -840,7 +1167,8 @@
         "lng": 9.24902875
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26407025
+      "osmId": 26407025,
+      "wikidata": "Q106880765"
     },
     {
       "id": "bottroper-strasse",
@@ -853,7 +1181,20 @@
         "lng": 9.2100235
       },
       "features": ["elevator", "fare-vending"],
-      "osmId": 2457964058
+      "osmId": 2457964058,
+      "wikidata": "Q106879658",
+      "entrances": [
+        {
+          "id": "osm-node-5272014257",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8210401,
+            "lng": 9.2102974
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "hedelfingen",
@@ -866,7 +1207,19 @@
         "lng": 9.25431302
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 279930071
+      "osmId": 279930071,
+      "wikidata": "Q106880764",
+      "entrances": [
+        {
+          "id": "osm-node-13626830542",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7599745,
+            "lng": 9.254931
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "boersenplatz",
@@ -880,6 +1233,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 2145685316,
+      "wikidata": "Q106879659",
       "entrances": [
         {
           "id": "osm-320286171",
@@ -957,7 +1311,19 @@
         "lng": 9.22019744
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 21097477
+      "osmId": 21097477,
+      "wikidata": "Q106879665",
+      "entrances": [
+        {
+          "id": "osm-node-12054589813",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7973768,
+            "lng": 9.2198462
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "hallschlag",
@@ -983,7 +1349,8 @@
         "lng": 9.23630339
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 738900577
+      "osmId": 738900577,
+      "wikidata": "Q106919466"
     },
     {
       "id": "steinhaldenfeld",
@@ -996,7 +1363,20 @@
         "lng": 9.23158732
       },
       "features": ["elevator", "fare-vending", "transfer"],
-      "osmId": 26632815
+      "osmId": 26632815,
+      "wikidata": "Q106882062",
+      "entrances": [
+        {
+          "id": "osm-node-1511895493",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8282202,
+            "lng": 9.2316341
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "hauptfriedhof",
@@ -1009,7 +1389,8 @@
         "lng": 9.23711339
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26632814
+      "osmId": 26632814,
+      "wikidata": "Q106880763"
     },
     {
       "id": "riethmuellerhaus",
@@ -1022,7 +1403,8 @@
         "lng": 9.2037849
       },
       "features": ["fare-vending"],
-      "osmId": 1485637818
+      "osmId": 1485637818,
+      "wikidata": "Q106882014"
     },
     {
       "id": "zuericher-strasse",
@@ -1049,6 +1431,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 20956735,
+      "wikidata": "Q106880831",
       "entrances": [
         {
           "id": "osm-255579046",
@@ -1099,7 +1482,8 @@
         "lng": 9.20827799
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 3895357042
+      "osmId": 3895357042,
+      "wikidata": "Q106879741"
     },
     {
       "id": "europaplatz",
@@ -1125,7 +1509,20 @@
         "lng": 9.16741638
       },
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
-      "osmId": 662437120
+      "osmId": 662437120,
+      "wikidata": "Q106879676",
+      "entrances": [
+        {
+          "id": "osm-node-12498173181",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7120973,
+            "lng": 9.1672212
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "degerloch-albstrasse",
@@ -1138,7 +1535,40 @@
         "lng": 9.16335759
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 439664668
+      "osmId": 439664668,
+      "wikidata": "Q106879670",
+      "entrances": [
+        {
+          "id": "osm-node-1709026399",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7462912,
+            "lng": 9.1629643
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1709026404",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7465268,
+            "lng": 9.1626753
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-439664706",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7462421,
+            "lng": 9.1631076
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "lapp-kabel",
@@ -1151,7 +1581,8 @@
         "lng": 9.12073989
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 3512202176
+      "osmId": 3512202176,
+      "wikidata": "Q106880795"
     },
     {
       "id": "stoeckach",
@@ -1190,7 +1621,8 @@
         "lng": 9.19577858
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 726509486
+      "osmId": 726509486,
+      "wikidata": "Q70717000"
     },
     {
       "id": "glockenstrasse",
@@ -1203,7 +1635,8 @@
         "lng": 9.20423782
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26786753
+      "osmId": 26786753,
+      "wikidata": "Q106879711"
     },
     {
       "id": "kienbachstrasse",
@@ -1216,7 +1649,8 @@
         "lng": 9.23424675
       },
       "features": ["fare-vending"],
-      "osmId": 26407038
+      "osmId": 26407038,
+      "wikidata": "Q106880784"
     },
     {
       "id": "blick",
@@ -1229,7 +1663,8 @@
         "lng": 9.24181097
       },
       "features": ["elevator", "fare-vending"],
-      "osmId": 306271971
+      "osmId": 306271971,
+      "wikidata": "Q106879653"
     },
     {
       "id": "eszet",
@@ -1242,7 +1677,8 @@
         "lng": 9.24660008
       },
       "features": ["fare-vending"],
-      "osmId": 26407034
+      "osmId": 26407034,
+      "wikidata": "Q106879681"
     },
     {
       "id": "schlotterbeckstrasse",
@@ -1255,7 +1691,8 @@
         "lng": 9.24889615
       },
       "features": ["fare-vending"],
-      "osmId": 26407033
+      "osmId": 26407033,
+      "wikidata": "Q106890981"
     },
     {
       "id": "metzstrasse",
@@ -1268,7 +1705,8 @@
         "lng": 9.20052591
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 20982241
+      "osmId": 20982241,
+      "wikidata": "Q106879715"
     },
     {
       "id": "auwiesen",
@@ -1281,7 +1719,8 @@
         "lng": 9.22485441
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 18353111
+      "osmId": 18353111,
+      "wikidata": "Q106879642"
     },
     {
       "id": "hofen",
@@ -1294,7 +1733,8 @@
         "lng": 9.2224303
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 18353086
+      "osmId": 18353086,
+      "wikidata": "Q106880773"
     },
     {
       "id": "wagrainaecker",
@@ -1307,7 +1747,8 @@
         "lng": 9.21248575
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 246282061
+      "osmId": 246282061,
+      "wikidata": "Q106879730"
     },
     {
       "id": "elbestrasse",
@@ -1320,7 +1761,8 @@
         "lng": 9.21284802
       },
       "features": ["fare-vending"],
-      "osmId": 18353056
+      "osmId": 18353056,
+      "wikidata": "Q106879674"
     },
     {
       "id": "freibergstrasse",
@@ -1333,7 +1775,8 @@
         "lng": 9.22193996
       },
       "features": ["fare-vending"],
-      "osmId": 18353052
+      "osmId": 18353052,
+      "wikidata": "Q106879703"
     },
     {
       "id": "muenster-rathaus",
@@ -1346,7 +1789,8 @@
         "lng": 9.2265966
       },
       "features": ["fare-vending"],
-      "osmId": 743056123
+      "osmId": 743056123,
+      "wikidata": "Q106880815"
     },
     {
       "id": "muenster-viadukt",
@@ -1359,7 +1803,8 @@
         "lng": 9.22221923
       },
       "features": ["fare-vending"],
-      "osmId": 18353045
+      "osmId": 18353045,
+      "wikidata": "Q106880816"
     },
     {
       "id": "mineralbaeder",
@@ -1372,7 +1817,8 @@
         "lng": 9.20567625
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 10798229
+      "osmId": 10798229,
+      "wikidata": "Q106879716"
     },
     {
       "id": "kraftwerk-muenster",
@@ -1385,7 +1831,8 @@
         "lng": 9.21741454
       },
       "features": ["fare-vending"],
-      "osmId": 18353042
+      "osmId": 18353042,
+      "wikidata": "Q106880790"
     },
     {
       "id": "muehlsteg",
@@ -1398,7 +1845,8 @@
         "lng": 9.21561267
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 26632799
+      "osmId": 26632799,
+      "wikidata": "Q106880814"
     },
     {
       "id": "suttnerstrasse",
@@ -1411,7 +1859,8 @@
         "lng": 9.20649526
       },
       "features": ["fare-vending"],
-      "osmId": 26407043
+      "osmId": 26407043,
+      "wikidata": "Q106879718"
     },
     {
       "id": "himmelsleiter",
@@ -1424,7 +1873,8 @@
         "lng": 9.2015375
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 26407044
+      "osmId": 26407044,
+      "wikidata": "Q106880772"
     },
     {
       "id": "mittnachtstrasse",
@@ -1463,7 +1913,20 @@
         "lng": 9.18565729
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 3736798282
+      "osmId": 3736798282,
+      "wikidata": "Q106879664",
+      "entrances": [
+        {
+          "id": "osm-node-13875505661",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7905678,
+            "lng": 9.1857974
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "mercedesstrasse",
@@ -1476,7 +1939,8 @@
         "lng": 9.21167794
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 21097466
+      "osmId": 21097466,
+      "wikidata": "Q106879978"
     },
     {
       "id": "uff-kirchhof",
@@ -1489,7 +1953,8 @@
         "lng": 9.22592506
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 722970518
+      "osmId": 722970518,
+      "wikidata": "Q106879721"
     },
     {
       "id": "gnesener-strasse",
@@ -1502,7 +1967,8 @@
         "lng": 9.22857299
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 738900600
+      "osmId": 738900600,
+      "wikidata": "Q106879712"
     },
     {
       "id": "kursaal",
@@ -1515,7 +1981,8 @@
         "lng": 9.22230865
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 738900576
+      "osmId": 738900576,
+      "wikidata": "Q106880792"
     },
     {
       "id": "daimlerplatz",
@@ -1528,7 +1995,8 @@
         "lng": 9.21899723
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 738900597
+      "osmId": 738900597,
+      "wikidata": "Q106879668"
     },
     {
       "id": "augsburger-platz",
@@ -1541,7 +2009,8 @@
         "lng": 9.23251832
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 600573126
+      "osmId": 600573126,
+      "wikidata": "Q106879641"
     },
     {
       "id": "antwerpener-strasse",
@@ -1554,7 +2023,8 @@
         "lng": 9.24293125
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 10798221
+      "osmId": 10798221,
+      "wikidata": "Q106879639"
     },
     {
       "id": "ssb-zentrum",
@@ -1593,7 +2063,8 @@
         "lng": 9.15325495
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 9936394
+      "osmId": 9936394,
+      "wikidata": "Q106890985"
     },
     {
       "id": "wallgraben",
@@ -1606,7 +2077,8 @@
         "lng": 9.12526308
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 338786820
+      "osmId": 338786820,
+      "wikidata": "Q106879733"
     },
     {
       "id": "jurastrasse",
@@ -1632,7 +2104,8 @@
         "lng": 9.25379082
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 10798199
+      "osmId": 10798199,
+      "wikidata": "Q106879651"
     },
     {
       "id": "salzaecker",
@@ -1645,7 +2118,8 @@
         "lng": 9.16186358
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 9936191
+      "osmId": 9936191,
+      "wikidata": "Q106890974"
     },
     {
       "id": "schelmenwasen",
@@ -1658,7 +2132,8 @@
         "lng": 9.17033769
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 662446225
+      "osmId": 662446225,
+      "wikidata": "Q106879685"
     },
     {
       "id": "fasanenhof",
@@ -1671,7 +2146,8 @@
         "lng": 9.1529815
       },
       "features": ["fare-vending"],
-      "osmId": 662424904
+      "osmId": 662424904,
+      "wikidata": "Q106879684"
     },
     {
       "id": "heslach-vogelrain",
@@ -1684,7 +2160,8 @@
         "lng": 9.13820824
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 298691598
+      "osmId": 298691598,
+      "wikidata": "Q106880768"
     },
     {
       "id": "fauststrasse",
@@ -1697,7 +2174,8 @@
         "lng": 9.11512084
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 34578810
+      "osmId": 34578810,
+      "wikidata": "Q106879686"
     },
     {
       "id": "berliner-platz",
@@ -1710,7 +2188,8 @@
         "lng": 9.16860057
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 273102152
+      "osmId": 273102152,
+      "wikidata": "Q106879648"
     },
     {
       "id": "vaihingen-viadukt",
@@ -1723,7 +2202,8 @@
         "lng": 9.11869911
       },
       "features": ["fare-vending"],
-      "osmId": 34578813
+      "osmId": 34578813,
+      "wikidata": "Q106879727"
     },
     {
       "id": "vaihingen-schillerplatz",
@@ -1736,7 +2216,8 @@
         "lng": 9.11294189
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 332621606
+      "osmId": 332621606,
+      "wikidata": "Q106879726"
     },
     {
       "id": "kaltental",
@@ -1749,7 +2230,8 @@
         "lng": 9.12991718
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 34580083
+      "osmId": 34580083,
+      "wikidata": "Q106880782"
     },
     {
       "id": "waldeck",
@@ -1762,7 +2244,8 @@
         "lng": 9.13437683
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 34580092
+      "osmId": 34580092,
+      "wikidata": "Q106879732"
     },
     {
       "id": "erwin-schoettle-platz",
@@ -1775,7 +2258,8 @@
         "lng": 9.16007866
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 34580121
+      "osmId": 34580121,
+      "wikidata": "Q106879678"
     },
     {
       "id": "marienplatz",
@@ -1789,6 +2273,7 @@
       },
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 69463507,
+      "wikidata": "Q106880803",
       "entrances": [
         {
           "id": "osm-278819196",
@@ -1831,6 +2316,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 281150040,
+      "wikidata": "Q106881358",
       "entrances": [
         {
           "id": "osm-303808198",
@@ -1923,7 +2409,28 @@
         "lng": 9.18718098
       },
       "features": ["elevator", "fare-vending", "transfer"],
-      "osmId": 9775743219
+      "osmId": 9775743219,
+      "wikidata": "Q106890989",
+      "entrances": [
+        {
+          "id": "osm-node-7899464292",
+          "name": "Exit SI 01",
+          "coordinates": {
+            "lat": 48.7828993,
+            "lng": 9.1872163
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7899464293",
+          "name": "Exit SI 02",
+          "coordinates": {
+            "lat": 48.7829834,
+            "lng": 9.1870469
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "ostendplatz",
@@ -1949,7 +2456,8 @@
         "lng": 9.1583835
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 278490359
+      "osmId": 278490359,
+      "wikidata": "Q106880776"
     },
     {
       "id": "russische-kirche",
@@ -1962,7 +2470,8 @@
         "lng": 9.16130389
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 60399595
+      "osmId": 60399595,
+      "wikidata": "Q106890865"
     },
     {
       "id": "rosenberg-seidenstrasse",
@@ -1975,7 +2484,8 @@
         "lng": 9.16495651
       },
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
-      "osmId": 60399583
+      "osmId": 60399583,
+      "wikidata": "Q106937111"
     },
     {
       "id": "rathaus",
@@ -1989,6 +2499,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 20957377,
+      "wikidata": "Q106881376",
       "entrances": [
         {
           "id": "osm-303808186",
@@ -2076,6 +2587,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 20276002,
+      "wikidata": "Q56773137",
       "entrances": [
         {
           "id": "osm-3028124071",
@@ -2180,7 +2692,8 @@
         "lng": 9.16279278
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 1540266132
+      "osmId": 1540266132,
+      "wikidata": "Q106890975"
     },
     {
       "id": "hohensteinstrasse",
@@ -2193,7 +2706,8 @@
         "lng": 9.17365742
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26407049
+      "osmId": 26407049,
+      "wikidata": "Q106880774"
     },
     {
       "id": "hauptbahnhof",
@@ -2365,7 +2879,19 @@
         "lng": 9.18322241
       },
       "features": ["elevator", "fare-vending", "transfer"],
-      "osmId": 26789306
+      "osmId": 26789306,
+      "wikidata": "Q23927040",
+      "entrances": [
+        {
+          "id": "osm-node-1297297980",
+          "name": "Exit 4288/1845",
+          "coordinates": {
+            "lat": 48.8094453,
+            "lng": 9.183339
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "loewentorbruecke",
@@ -2378,7 +2904,8 @@
         "lng": 9.18341922
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 38901889
+      "osmId": 38901889,
+      "wikidata": "Q106880802"
     },
     {
       "id": "stadtbibliothek",
@@ -2392,6 +2919,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 33327666,
+      "wikidata": "Q106890991",
       "entrances": [
         {
           "id": "osm-425530634",
@@ -2443,6 +2971,7 @@
       },
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 662855510,
+      "wikidata": "Q106881008",
       "entrances": [
         {
           "id": "osm-482498154",
@@ -2466,7 +2995,8 @@
         "lng": 9.19049571
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 3224912063
+      "osmId": 3224912063,
+      "wikidata": "Q106879682"
     },
     {
       "id": "heidehofstrasse",
@@ -2479,7 +3009,8 @@
         "lng": 9.19266224
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 3224912067
+      "osmId": 3224912067,
+      "wikidata": "Q106880766"
     },
     {
       "id": "stelle",
@@ -2505,7 +3036,19 @@
         "lng": 9.19525726
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 675759
+      "osmId": 675759,
+      "entrances": [
+        {
+          "id": "osm-node-3581666801",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7532173,
+            "lng": 9.1946473
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "schemppstrasse",
@@ -2519,6 +3062,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 274246540,
+      "wikidata": "Q106890977",
       "entrances": [
         {
           "id": "osm-792090137",
@@ -2551,7 +3095,8 @@
         "lng": 9.22782023
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26407067
+      "osmId": 26407067,
+      "wikidata": "Q106880770"
     },
     {
       "id": "sillenbuch",
@@ -2565,6 +3110,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26407069,
+      "wikidata": "Q106882080",
       "entrances": [
         {
           "id": "osm-2131448756",
@@ -2588,7 +3134,18 @@
         "lng": 9.11281718
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26405923
+      "osmId": 26405923,
+      "entrances": [
+        {
+          "id": "osm-node-10870902855",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8138069,
+            "lng": 9.1124883
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "bopser",
@@ -2601,7 +3158,8 @@
         "lng": 9.18369671
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 280139053
+      "osmId": 280139053,
+      "wikidata": "Q106879654"
     },
     {
       "id": "degerloch",
@@ -2615,6 +3173,7 @@
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 20970570,
+      "wikidata": "Q106879669",
       "entrances": [
         {
           "id": "osm-405589625",
@@ -2682,7 +3241,8 @@
         "lng": 9.15057719
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 9936645
+      "osmId": 9936645,
+      "wikidata": "Q106882054"
     },
     {
       "id": "moehringen-bahnhof",
@@ -2695,7 +3255,8 @@
         "lng": 9.14683117
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 9936541
+      "osmId": 9936541,
+      "wikidata": "Q106880808"
     },
     {
       "id": "moehringen-freibad",
@@ -2709,6 +3270,7 @@
       },
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26240192,
+      "wikidata": "Q106880809",
       "entrances": [
         {
           "id": "osm-4980152699",
@@ -2732,7 +3294,28 @@
         "lng": 9.15902245
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 3800106789
+      "osmId": 3800106789,
+      "wikidata": "Q106879742",
+      "entrances": [
+        {
+          "id": "osm-node-3800106891",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8115105,
+            "lng": 9.1589595
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3800106910",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8116175,
+            "lng": 9.1588601
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "schwab-bebelstrasse",
@@ -2745,7 +3328,8 @@
         "lng": 9.15501537
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 31127642
+      "osmId": 31127642,
+      "wikidata": "Q106890982"
     },
     {
       "id": "eltinger-strasse",
@@ -2758,7 +3342,19 @@
         "lng": 9.1268359
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 259711280
+      "osmId": 259711280,
+      "wikidata": "Q106879675",
+      "entrances": [
+        {
+          "id": "osm-node-12944288460",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.778815,
+            "lng": 9.1257052
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "lindpaintnerstrasse",
@@ -2771,7 +3367,8 @@
         "lng": 9.134319
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 21286549
+      "osmId": 21286549,
+      "wikidata": "Q106880798"
     },
     {
       "id": "schloss-johannesstrasse",
@@ -2797,7 +3394,8 @@
         "lng": 9.21761174
       },
       "features": ["fare-vending"],
-      "osmId": 94849768
+      "osmId": 94849768,
+      "wikidata": "Q106890978"
     },
     {
       "id": "rosensteinbruecke",
@@ -2810,7 +3408,8 @@
         "lng": 9.20960631
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26782694
+      "osmId": 26782694,
+      "wikidata": "Q106890966"
     },
     {
       "id": "loewentor",
@@ -2823,7 +3422,8 @@
         "lng": 9.1881449
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26789969
+      "osmId": 26789969,
+      "wikidata": "Q106880801"
     },
     {
       "id": "muehlhausen",
@@ -2836,7 +3436,8 @@
         "lng": 9.23020262
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 18353108
+      "osmId": 18353108,
+      "wikidata": "Q106880813"
     },
     {
       "id": "max-eyth-see",
@@ -2849,7 +3450,8 @@
         "lng": 9.21620213
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 20283010
+      "osmId": 20283010,
+      "wikidata": "Q106880804"
     },
     {
       "id": "freiberg",
@@ -2862,7 +3464,8 @@
         "lng": 9.21058387
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 26407042
+      "osmId": 26407042,
+      "wikidata": "Q106879702"
     },
     {
       "id": "moenchfeld",
@@ -2875,7 +3478,8 @@
         "lng": 9.21795546
       },
       "features": ["fare-vending"],
-      "osmId": 26407041
+      "osmId": 26407041,
+      "wikidata": "Q106880810"
     },
     {
       "id": "tapachstrasse",
@@ -2888,7 +3492,8 @@
         "lng": 9.19553016
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 26407045
+      "osmId": 26407045,
+      "wikidata": "Q106879719"
     },
     {
       "id": "fuerfelder-strasse",
@@ -2901,7 +3506,8 @@
         "lng": 9.19205046
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 26407047
+      "osmId": 26407047,
+      "wikidata": "Q106879705"
     },
     {
       "id": "schozacher-strasse",
@@ -2914,7 +3520,8 @@
         "lng": 9.18490626
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 716887778
+      "osmId": 716887778,
+      "wikidata": "Q106882041"
     },
     {
       "id": "kelterplatz",
@@ -2927,7 +3534,8 @@
         "lng": 9.17611878
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 26407048
+      "osmId": 26407048,
+      "wikidata": "Q106879746"
     },
     {
       "id": "obere-ziegelei",
@@ -2940,7 +3548,8 @@
         "lng": 9.23535242
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26632811
+      "osmId": 26632811,
+      "wikidata": "Q106890535"
     },
     {
       "id": "neckarpark",
@@ -2953,7 +3562,8 @@
         "lng": 9.22531631
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 722934089
+      "osmId": 722934089,
+      "wikidata": "Q106880830"
     },
     {
       "id": "bad-cannstatt-wilhelmsplatz",
@@ -2966,7 +3576,8 @@
         "lng": 9.21575991
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 137321726
+      "osmId": 137321726,
+      "wikidata": "Q106879643"
     },
     {
       "id": "landhaus",
@@ -2979,7 +3590,8 @@
         "lng": 9.16562409
       },
       "features": ["fare-vending"],
-      "osmId": 9936190
+      "osmId": 9936190,
+      "wikidata": "Q106880794"
     },
     {
       "id": "botnang",
@@ -2992,7 +3604,8 @@
         "lng": 9.12218106
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 21281018
+      "osmId": 21281018,
+      "wikidata": "Q106879657"
     },
     {
       "id": "plieningen",
@@ -3005,7 +3618,8 @@
         "lng": 9.20180257
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 1745866243
+      "osmId": 1745866243,
+      "wikidata": "Q106938553"
     },
     {
       "id": "karl-olga-krankenhaus",
@@ -3031,7 +3645,8 @@
         "lng": 9.20497712
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 741569484
+      "osmId": 741569484,
+      "wikidata": "Q106879646"
     },
     {
       "id": "ostheim-leo-vetter-bad",
@@ -3044,7 +3659,18 @@
         "lng": 9.21098905
       },
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
-      "osmId": 3420680494
+      "osmId": 3420680494,
+      "entrances": [
+        {
+          "id": "osm-node-6509869580",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7844723,
+            "lng": 9.2096801
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "gaisburg",
@@ -3057,7 +3683,8 @@
         "lng": 9.21576029
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 417674796
+      "osmId": 417674796,
+      "wikidata": "Q106879706"
     },
     {
       "id": "engelboldstrasse",
@@ -3083,7 +3710,8 @@
         "lng": 9.22262594
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 89414027
+      "osmId": 89414027,
+      "wikidata": "Q106879735"
     },
     {
       "id": "brendle",
@@ -3096,7 +3724,8 @@
         "lng": 9.22674487
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26407020
+      "osmId": 26407020,
+      "wikidata": "Q106879661"
     },
     {
       "id": "im-degen",
@@ -3122,7 +3751,8 @@
         "lng": 9.23831123
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26632845
+      "osmId": 26632845,
+      "wikidata": "Q106880780"
     },
     {
       "id": "wasenstrasse",
@@ -3148,7 +3778,8 @@
         "lng": 9.14330159
       },
       "features": ["fare-vending"],
-      "osmId": 332616566
+      "osmId": 332616566,
+      "wikidata": "Q106879722"
     },
     {
       "id": "leinfelden-neuer-markt",
@@ -3175,6 +3806,7 @@
       },
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 113591455,
+      "wikidata": "Q106890877",
       "entrances": [
         {
           "id": "osm-263806052",
@@ -3225,7 +3857,8 @@
         "lng": 9.26188953
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 270599198
+      "osmId": 270599198,
+      "wikidata": "Q106879745"
     },
     {
       "id": "parksiedlung",
@@ -3238,7 +3871,20 @@
         "lng": 9.2715983
       },
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 270196725
+      "osmId": 270196725,
+      "wikidata": "Q106892083",
+      "entrances": [
+        {
+          "id": "osm-node-5541834226",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.7244424,
+            "lng": 9.2719826
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "scharnhauser-park",
@@ -3251,7 +3897,8 @@
         "lng": 9.27256866
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 66828122
+      "osmId": 66828122,
+      "wikidata": "Q106890976"
     },
     {
       "id": "scharnhauser-park-kreuzbrunnen",
@@ -3264,7 +3911,8 @@
         "lng": 9.27311038
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 66828113
+      "osmId": 66828113,
+      "wikidata": "Q106880791"
     },
     {
       "id": "nellingen-technische-akademie",
@@ -3277,7 +3925,8 @@
         "lng": 9.28982558
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 271464257
+      "osmId": 271464257,
+      "wikidata": "Q106879720"
     },
     {
       "id": "nellingen-ostfildern",
@@ -3290,7 +3939,8 @@
         "lng": 9.29578162
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 253915614
+      "osmId": 253915614,
+      "wikidata": "Q106891967"
     },
     {
       "id": "leinfelden-frank",
@@ -3303,7 +3953,8 @@
         "lng": 9.14282312
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 265768595
+      "osmId": 265768595,
+      "wikidata": "Q106880797"
     },
     {
       "id": "stadionstrasse",
@@ -3316,7 +3967,8 @@
         "lng": 9.17546847
       },
       "features": ["fare-vending"],
-      "osmId": 9330052888
+      "osmId": 9330052888,
+      "wikidata": "Q110670891"
     },
     {
       "id": "messe-west",
@@ -3329,7 +3981,8 @@
         "lng": 9.18235554
       },
       "features": ["fare-vending"],
-      "osmId": 9330061520
+      "osmId": 9330061520,
+      "wikidata": "Q106880806"
     },
     {
       "id": "gerlingen-siedlung",
@@ -3368,7 +4021,8 @@
         "lng": 9.24902666
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 18353124
+      "osmId": 18353124,
+      "wikidata": "Q106880777"
     },
     {
       "id": "aldingen-muehle",
@@ -3381,7 +4035,8 @@
         "lng": 9.25346409
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 18353128
+      "osmId": 18353128,
+      "wikidata": "Q106880811"
     },
     {
       "id": "aldingen-brueckenstrasse",
@@ -3394,7 +4049,20 @@
         "lng": 9.25800312
       },
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
-      "osmId": 267174590
+      "osmId": 267174590,
+      "wikidata": "Q106879662",
+      "entrances": [
+        {
+          "id": "osm-node-3560104773",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8669712,
+            "lng": 9.2583015
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "remseck-neckargroeningen",
@@ -3407,7 +4075,8 @@
         "lng": 9.27066131
       },
       "features": ["fare-vending", "wheelchair-accessible"],
-      "osmId": 18353190
+      "osmId": 18353190,
+      "wikidata": "Q106880829"
     },
     {
       "id": "gerlingen",
@@ -3420,7 +4089,18 @@
         "lng": 9.06405547
       },
       "features": ["elevator", "fare-vending"],
-      "osmId": 243460932
+      "osmId": 243460932,
+      "entrances": [
+        {
+          "id": "osm-node-1450789873",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 48.8001731,
+            "lng": 9.063689
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "hoehenstrasse",
@@ -3433,7 +4113,8 @@
         "lng": 9.26233597
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 10798156
+      "osmId": 10798156,
+      "wikidata": "Q106880775"
     },
     {
       "id": "esslinger-strasse",
@@ -3446,7 +4127,8 @@
         "lng": 9.26936344
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26632833
+      "osmId": 26632833,
+      "wikidata": "Q106879680"
     },
     {
       "id": "schwabenlandhalle",
@@ -3459,7 +4141,8 @@
         "lng": 9.27027087
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 26632839
+      "osmId": 26632839,
+      "wikidata": "Q106890983"
     },
     {
       "id": "fellbach-lutherkirche",
@@ -3472,7 +4155,8 @@
         "lng": 9.27650775
       },
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
-      "osmId": 26632840
+      "osmId": 26632840,
+      "wikidata": "Q106879687"
     }
   ]
 }
