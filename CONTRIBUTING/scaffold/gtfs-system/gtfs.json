@@ -1,0 +1,18 @@
+{
+  "static": {
+    "url_secret": "EXAMPLE_METRO_GTFS_URL",
+    "auth": { "type": "none" },
+    "filters": {
+      "route_types": [0, 1, 2],
+      "route_ids_exclude": ["SHUTTLE"]
+    },
+    "route_groups": {
+      "red-line": ["RED_NB", "RED_SB"],
+      "blue-line": ["BLU"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name",
+      "line_color_fallback": "#0057B8"
+    }
+  }
+}

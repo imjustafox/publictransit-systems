@@ -1,0 +1,18 @@
+{
+  "lines": [
+    {
+      "id": "main-line",
+      "systemId": "example-tram",
+      "name": "Main Line",
+      "color": "Purple",
+      "colorHex": "#6B3FA0",
+      "opened": "1927-06-15",
+      "status": "active",
+      "termini": ["Depot Square", "Fairgrounds"],
+      "topology": { "type": "linear" },
+      "length": 8.7,
+      "stationCount": 14,
+      "description": "The Main Line runs from Depot Square through downtown to the fairgrounds, following the route of the original 1927 streetcar."
+    }
+  ]
+}

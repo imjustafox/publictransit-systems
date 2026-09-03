@@ -1,0 +1,29 @@
+{
+  "stations": [
+    {
+      "id": "depot-square",
+      "systemId": "example-tram",
+      "name": "Depot Square",
+      "lines": ["main-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.123456,
+        "lng": -76.54321
+      },
+      "features": ["fare-vending"],
+      "description": "Depot Square is the western terminus, built on the site of the city's former railroad depot."
+    },
+    {
+      "id": "fairgrounds",
+      "systemId": "example-tram",
+      "name": "Fairgrounds",
+      "lines": ["main-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.134567,
+        "lng": -76.498765
+      },
+      "features": ["fare-vending", "parking"]
+    }
+  ]
+}

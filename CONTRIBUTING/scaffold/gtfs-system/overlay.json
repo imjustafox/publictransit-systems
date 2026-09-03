@@ -1,0 +1,67 @@
+{
+  "system": {
+    "overview": "One or two sentences describing the system: what modes it runs, roughly where, and anything that makes it distinctive.",
+    "stats": {
+      "annualRidership": "22.5 million",
+      "dailyRidership": "68,000"
+    },
+    "history": [
+      {
+        "date": "1979-03-01",
+        "title": "Authority Founded",
+        "description": "The Example Metro Authority was created by the state legislature to plan and operate rail transit in the region."
+      },
+      {
+        "date": "1984-05-12",
+        "title": "Red Line Opens",
+        "description": "The first segment of the Red Line opened between Union Plaza and Airport, with eleven stations."
+      }
+    ]
+  },
+  "lines": {
+    "red-line": {
+      "name": "Red Line",
+      "color": "Red",
+      "colorHex": "#C8102E",
+      "opened": "1984-05-12",
+      "termini": ["Airport", "Harbor East"],
+      "description": "The Red Line is the system's original and busiest line, running from the airport through downtown to the harbor.",
+      "topology": {
+        "$replace": true,
+        "type": "lollipop",
+        "loopStation": "Union Plaza"
+      }
+    },
+    "loop-line": {
+      "id": "loop-line",
+      "systemId": "example-metro",
+      "name": "Loop Line",
+      "color": "Green",
+      "colorHex": "#00843D",
+      "status": "under-construction",
+      "termini": ["Union Plaza"],
+      "topology": { "type": "loop" },
+      "length": 6.2,
+      "stationCount": 9,
+      "description": "The Loop Line is a downtown circulator scheduled to open in 2028. It is not in the agency's feed yet, so this entry passes through the build whole."
+    }
+  },
+  "stations": {
+    "old-town": {
+      "opened": "1984-05-12",
+      "description": "Old Town Station serves the historic district and was the system's first accessible station."
+    },
+    "harbor-west": {
+      "id": "harbor-west",
+      "systemId": "example-metro",
+      "name": "Harbor West",
+      "lines": ["red-line"],
+      "status": "closed",
+      "coordinates": {
+        "lat": 39.271234,
+        "lng": -76.612345
+      },
+      "description": "Harbor West closed in 2003 when the Red Line was rerouted to Harbor East. Closed stations are not in the feed, so this entry passes through the build whole."
+    }
+  }
+}

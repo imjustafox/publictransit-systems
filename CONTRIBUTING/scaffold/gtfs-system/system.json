@@ -1,0 +1,36 @@
+{
+  "id": "example-metro",
+  "dataSource": "gtfs",
+  "name": "Example Metro Authority",
+  "shortName": "EMA",
+  "location": "Example City, EX",
+  "region": "Example Metro Area",
+  "country": "United States",
+  "opened": "1984-05-12",
+  "website": "https://www.example-metro.gov",
+  "overview": "One or two sentences describing the system: what modes it runs, roughly where, and anything that makes it distinctive.",
+  "stats": {
+    "totalStations": 48,
+    "totalLines": 3,
+    "annualRidership": "22.5 million",
+    "dailyRidership": "68,000",
+    "trackLength": 52.4,
+    "distanceUnit": "mi"
+  },
+  "colors": {
+    "primary": "#0057B8",
+    "secondary": "#FFB81C"
+  },
+  "history": [
+    {
+      "date": "1979-03-01",
+      "title": "Authority Founded",
+      "description": "The Example Metro Authority was created by the state legislature to plan and operate rail transit in the region."
+    },
+    {
+      "date": "1984-05-12",
+      "title": "Red Line Opens",
+      "description": "The first segment of the Red Line opened between Union Plaza and Airport, with eleven stations."
+    }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "id": "example-tram",
+  "name": "Example City Tramway",
+  "shortName": "ECT",
+  "location": "Example City, EX",
+  "region": "Example Metro Area",
+  "country": "United States",
+  "opened": "1927-06-15",
+  "website": "https://www.example-tram.gov",
+  "overview": "One or two sentences describing the system: what modes it runs, roughly where, and anything that makes it distinctive.",
+  "stats": {
+    "totalStations": 14,
+    "totalLines": 1,
+    "annualRidership": "3.1 million",
+    "dailyRidership": "9,800",
+    "trackLength": 8.7,
+    "distanceUnit": "mi"
+  },
+  "colors": {
+    "primary": "#6B3FA0",
+    "secondary": "#D0D0CE"
+  },
+  "history": [
+    {
+      "date": "1927-06-15",
+      "title": "Tramway Opens",
+      "description": "The original streetcar line opened between Depot Square and the fairgrounds."
+    },
+    {
+      "date": "1998-09-01",
+      "title": "Modernization Complete",
+      "description": "New low-floor vehicles entered service and every stop was rebuilt with level boarding."
+    }
+  ]
+}
