@@ -11,12 +11,14 @@ import {
   simplifyPolyline,
 } from "./geometry";
 import { mergeOverlay, applyOverlayCollection } from "./merge";
+import { applyRouteGroups } from "./groups";
 import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
 interface GtfsConfig {
   static: {
     url_secret: string;
     auth: AuthConfig;
+    route_groups?: Record<string, string[]>;
     filters?: {
       route_types?: number[];
       agency_ids?: string[] | null;
@@ -112,6 +114,11 @@ export async function processSystem(
   if (includeIds) routes = routes.filter((r) => includeIds.includes(r.route_id));
   if (excludeIds.length) routes = routes.filter((r) => !excludeIds.includes(r.route_id));
 
+  // Collapse direction/branch routes into configured line groups
+  const grouped = applyRouteGroups(routes, gtfs.trips, config.static.route_groups);
+  routes = grouped.routes;
+  const trips = grouped.trips;
+
   // Build id_map for lines (must run BEFORE stations so we have line slugs)
   let idMap: IdMap = await loadIdMap(path.join(systemDir, "id_map.json"));
   idMap = mergeIdMap(
@@ -157,7 +164,7 @@ export async function processSystem(
   // Determine reachable canonical stops from filtered routes
   const reachableStopIds = new Set<string>();
   const tripsByRoute = new Map<string, string[]>();
-  for (const trip of gtfs.trips) {
+  for (const trip of trips) {
     if (!routes.some((r) => r.route_id === trip.route_id)) continue;
     const stopTimes = canonicalStopTimesByTrip.get(trip.trip_id);
     if (!stopTimes) continue;
@@ -245,7 +252,7 @@ export async function processSystem(
     }
 
     // Geometry + length
-    const shapeId = dominantShapeForRoute(route.route_id, gtfs.trips);
+    const shapeId = dominantShapeForRoute(route.route_id, trips);
     let length = 0;
     if (shapeId) {
       const shape = gtfs.shapesByShapeId.get(shapeId);
