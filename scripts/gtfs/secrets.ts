@@ -24,7 +24,7 @@ function getSecret(env: Record<string, string | undefined>, name: string): strin
 export function resolveAuth(
   baseUrl: string,
   auth: AuthConfig,
-  env: Record<string, string | undefined>,
+  env: Record<string, string | undefined>
 ): ResolvedAuth {
   if (auth.type === "none") {
     return { url: baseUrl, headers: {} };
@@ -41,9 +41,7 @@ export function resolveAuth(
 
   // header
   const secret = getSecret(env, auth.value_secret);
-  const value = auth.value_template
-    ? auth.value_template.replace("${SECRET}", secret)
-    : secret;
+  const value = auth.value_template ? auth.value_template.replace("${SECRET}", secret) : secret;
   return { url: baseUrl, headers: { [auth.header]: value } };
 }
 

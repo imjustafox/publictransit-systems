@@ -13,16 +13,12 @@ describe("dominantShapeForRoute", () => {
   });
 
   it("returns null when no trips have shape_id", () => {
-    const trips: GtfsTrip[] = [
-      { trip_id: "T1", route_id: "R1", service_id: "WK" },
-    ];
+    const trips: GtfsTrip[] = [{ trip_id: "T1", route_id: "R1", service_id: "WK" }];
     expect(dominantShapeForRoute("R1", trips)).toBeNull();
   });
 
   it("returns null when no trips for the route", () => {
-    const trips: GtfsTrip[] = [
-      { trip_id: "T1", route_id: "R2", service_id: "WK", shape_id: "A" },
-    ];
+    const trips: GtfsTrip[] = [{ trip_id: "T1", route_id: "R2", service_id: "WK", shape_id: "A" }];
     expect(dominantShapeForRoute("R1", trips)).toBeNull();
   });
 });
@@ -30,7 +26,10 @@ describe("dominantShapeForRoute", () => {
 describe("polylineLength (haversine)", () => {
   it("computes ~3.1 miles for a 5km segment", () => {
     // 0.045 deg latitude ~ 5.005 km. ~3.108 mi.
-    const points: [number, number][] = [[0, 0], [0.045, 0]];
+    const points: [number, number][] = [
+      [0, 0],
+      [0.045, 0],
+    ];
     const miles = polylineLength(points, "mi");
     expect(miles).toBeCloseTo(3.106, 1);
   });
@@ -44,12 +43,19 @@ describe("polylineLength (haversine)", () => {
   });
 
   it("supports km unit", () => {
-    const points: [number, number][] = [[0, 0], [0.045, 0]];
+    const points: [number, number][] = [
+      [0, 0],
+      [0.045, 0],
+    ];
     expect(polylineLength(points, "km")).toBeCloseTo(5.0, 0);
   });
 
   it("sums multi-segment paths", () => {
-    const points: [number, number][] = [[0, 0], [0.045, 0], [0.090, 0]];
+    const points: [number, number][] = [
+      [0, 0],
+      [0.045, 0],
+      [0.09, 0],
+    ];
     expect(polylineLength(points, "km")).toBeCloseTo(10.0, 0);
   });
 });
@@ -57,7 +63,10 @@ describe("polylineLength (haversine)", () => {
 describe("simplifyPolyline (Douglas-Peucker)", () => {
   it("preserves endpoints and removes near-collinear interior points", () => {
     const pts: [number, number][] = [
-      [0, 0], [0.0001, 0.0001], [0.0002, 0.0002], [1, 1],
+      [0, 0],
+      [0.0001, 0.0001],
+      [0.0002, 0.0002],
+      [1, 1],
     ];
     const simplified = simplifyPolyline(pts, 0.001);
     expect(simplified[0]).toEqual([0, 0]);
@@ -67,12 +76,27 @@ describe("simplifyPolyline (Douglas-Peucker)", () => {
 
   it("returns input unchanged when length <= 2", () => {
     expect(simplifyPolyline([[0, 0]], 0.1)).toEqual([[0, 0]]);
-    expect(simplifyPolyline([[0, 0], [1, 1]], 0.1)).toEqual([[0, 0], [1, 1]]);
+    expect(
+      simplifyPolyline(
+        [
+          [0, 0],
+          [1, 1],
+        ],
+        0.1
+      )
+    ).toEqual([
+      [0, 0],
+      [1, 1],
+    ]);
   });
 
   it("preserves significant detours that exceed epsilon", () => {
-    const pts: [number, number][] = [[0, 0], [0.5, 1], [1, 0]];  // sharp peak
+    const pts: [number, number][] = [
+      [0, 0],
+      [0.5, 1],
+      [1, 0],
+    ]; // sharp peak
     const simplified = simplifyPolyline(pts, 0.1);
-    expect(simplified.length).toBe(3);  // peak must be preserved
+    expect(simplified.length).toBe(3); // peak must be preserved
   });
 });

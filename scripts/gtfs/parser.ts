@@ -104,7 +104,9 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
     stop_lon: parseFloat(row.stop_lon),
     location_type: row.location_type ? parseInt(row.location_type, 10) : undefined,
     parent_station: row.parent_station || undefined,
-    wheelchair_boarding: row.wheelchair_boarding ? parseInt(row.wheelchair_boarding, 10) : undefined,
+    wheelchair_boarding: row.wheelchair_boarding
+      ? parseInt(row.wheelchair_boarding, 10)
+      : undefined,
   }));
 
   const trips: GtfsTrip[] = parseCsv(tripsCsv!, (row) => ({
@@ -112,9 +114,10 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
     service_id: row.service_id,
     trip_id: row.trip_id,
     trip_headsign: row.trip_headsign || undefined,
-    direction_id: row.direction_id !== undefined && row.direction_id !== ""
-      ? (parseInt(row.direction_id, 10) as 0 | 1)
-      : undefined,
+    direction_id:
+      row.direction_id !== undefined && row.direction_id !== ""
+        ? (parseInt(row.direction_id, 10) as 0 | 1)
+        : undefined,
     shape_id: row.shape_id || undefined,
   }));
 
@@ -128,7 +131,10 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
   }));
   for (const st of stopTimes) {
     let arr = stopTimesByTrip.get(st.trip_id);
-    if (!arr) { arr = []; stopTimesByTrip.set(st.trip_id, arr); }
+    if (!arr) {
+      arr = [];
+      stopTimesByTrip.set(st.trip_id, arr);
+    }
     arr.push(st);
   }
   for (const arr of stopTimesByTrip.values()) {
@@ -145,7 +151,10 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
     }));
     for (const pt of shapes) {
       let arr = shapesByShapeId.get(pt.shape_id);
-      if (!arr) { arr = []; shapesByShapeId.set(pt.shape_id, arr); }
+      if (!arr) {
+        arr = [];
+        shapesByShapeId.set(pt.shape_id, arr);
+      }
       arr.push(pt);
     }
     for (const arr of shapesByShapeId.values()) {

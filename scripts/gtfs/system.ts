@@ -4,7 +4,12 @@ import { parseGtfsBundle, type GtfsRoute, type GtfsStopTime } from "./parser";
 import { resolveAuth, resolveUrl, MissingSecretError, type AuthConfig } from "./secrets";
 import { loadIdMap, saveIdMap, mergeIdMap, type IdMap } from "./id-map";
 import { detectTopology, extractTripPatterns } from "./topology";
-import { dominantShapeForRoute, shapeToPolyline, polylineLength, simplifyPolyline } from "./geometry";
+import {
+  dominantShapeForRoute,
+  shapeToPolyline,
+  polylineLength,
+  simplifyPolyline,
+} from "./geometry";
 import { mergeOverlay } from "./merge";
 import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
@@ -48,7 +53,7 @@ export interface ProcessResult {
 export async function processSystem(
   systemDir: string,
   systemId: string,
-  env: Record<string, string | undefined>,
+  env: Record<string, string | undefined>
 ): Promise<ProcessResult> {
   const systemJsonPath = path.join(systemDir, "system.json");
   let systemRaw: Plain;
@@ -115,7 +120,7 @@ export async function processSystem(
       gtfs_id: r.route_id,
       name: pickRouteName(r, config.static.fields?.line_name_source ?? "route_long_name"),
     })),
-    "lines",
+    "lines"
   );
 
   // Build canonical stop_id resolver: platform stops collapse to their parent_station.
@@ -158,7 +163,10 @@ export async function processSystem(
     if (!stopTimes) continue;
     for (const st of stopTimes) reachableStopIds.add(st.stop_id);
     let arr = tripsByRoute.get(trip.route_id);
-    if (!arr) { arr = []; tripsByRoute.set(trip.route_id, arr); }
+    if (!arr) {
+      arr = [];
+      tripsByRoute.set(trip.route_id, arr);
+    }
     arr.push(trip.trip_id);
   }
   // Final stops array contains only canonical entries (platform-only stops are excluded).
@@ -166,7 +174,7 @@ export async function processSystem(
   idMap = mergeIdMap(
     idMap,
     stops.map((s) => ({ gtfs_id: s.stop_id, name: s.stop_name })),
-    "stations",
+    "stations"
   );
 
   // Build topology + per-line records
@@ -174,7 +182,8 @@ export async function processSystem(
   const baseLines: Plain[] = [];
   const baseStationLines = new Map<string, Set<string>>();
   const baseGeometry: Record<string, { shapeId: string; coordinates: [number, number][] }> = {};
-  const distanceUnit = (systemRaw.stats as { distanceUnit?: "mi" | "km" } | undefined)?.distanceUnit ?? "mi";
+  const distanceUnit =
+    (systemRaw.stats as { distanceUnit?: "mi" | "km" } | undefined)?.distanceUnit ?? "mi";
   const fallbackColor = (config.static.fields?.line_color_fallback || "#888888").replace(/^#/, "");
 
   for (const route of routes) {
@@ -182,7 +191,8 @@ export async function processSystem(
     const tripIds = tripsByRoute.get(route.route_id) ?? [];
     const patterns = extractTripPatterns(tripIds, canonicalStopTimesByTrip);
     const detected = detectTopology(patterns);
-    const branchTag = detected.topology.type === "linear" && detected.topology.branches ? "+branches" : "";
+    const branchTag =
+      detected.topology.type === "linear" && detected.topology.branches ? "+branches" : "";
     topologyByLine[lineSlug] = detected.topology.type + branchTag;
 
     const stationSlugs = detected.dominantStops
@@ -190,7 +200,10 @@ export async function processSystem(
       .filter((slug): slug is string => Boolean(slug));
     for (const slug of stationSlugs) {
       let set = baseStationLines.get(slug);
-      if (!set) { set = new Set(); baseStationLines.set(slug, set); }
+      if (!set) {
+        set = new Set();
+        baseStationLines.set(slug, set);
+      }
       set.add(lineSlug);
     }
 
@@ -207,7 +220,11 @@ export async function processSystem(
         branches: detected.topology.branches.map((b, i) => ({
           id: `${lineSlug}-branch-${i + 1}`,
           name: `Branch ${i + 1}`,
-          termini: [stops.find((s) => s.stop_id === b.terminus)?.stop_name ?? idMap.stations[b.terminus] ?? b.terminus],
+          termini: [
+            stops.find((s) => s.stop_id === b.terminus)?.stop_name ??
+              idMap.stations[b.terminus] ??
+              b.terminus,
+          ],
           branchStation: idMap.stations[b.branchStation] ?? b.branchStation,
           servicePattern: "full-time",
         })),
@@ -215,7 +232,8 @@ export async function processSystem(
     } else if (detected.topology.type === "loop") {
       topologyOut = {
         type: "loop",
-        referenceStation: idMap.stations[detected.topology.referenceStation] ?? detected.topology.referenceStation,
+        referenceStation:
+          idMap.stations[detected.topology.referenceStation] ?? detected.topology.referenceStation,
       };
     } else if (detected.topology.type === "lollipop") {
       topologyOut = {
@@ -277,21 +295,36 @@ export async function processSystem(
   const overlay = await readOverlay(overlayPath);
 
   const finalLines = baseLines.map((bl) =>
-    mergeOverlay(bl, overlay.lines?.[bl.id as string] as Plain | undefined),
+    mergeOverlay(bl, overlay.lines?.[bl.id as string] as Plain | undefined)
   );
   const finalStations = baseStations.map((bs) =>
-    mergeOverlay(bs, overlay.stations?.[bs.id as string] as Plain | undefined),
+    mergeOverlay(bs, overlay.stations?.[bs.id as string] as Plain | undefined)
   );
   const finalSystem = mergeOverlay(systemRaw, overlay.system);
   const finalRailcars = overlay.railcars ?? [];
 
   // Write artifacts
   await fs.writeFile(systemJsonPath, JSON.stringify(finalSystem, null, 2) + "\n");
-  await fs.writeFile(path.join(systemDir, "lines.json"), JSON.stringify({ lines: finalLines }, null, 2) + "\n");
-  await fs.writeFile(path.join(systemDir, "stations.json"), JSON.stringify({ stations: finalStations }, null, 2) + "\n");
-  await fs.writeFile(path.join(systemDir, "railcars.json"), JSON.stringify({ generations: finalRailcars }, null, 2) + "\n");
-  await fs.writeFile(path.join(systemDir, "geometry.json"), JSON.stringify(baseGeometry, null, 2) + "\n");
-  await fs.writeFile(path.join(systemDir, "topology_detected.json"), JSON.stringify(topologyByLine, null, 2) + "\n");
+  await fs.writeFile(
+    path.join(systemDir, "lines.json"),
+    JSON.stringify({ lines: finalLines }, null, 2) + "\n"
+  );
+  await fs.writeFile(
+    path.join(systemDir, "stations.json"),
+    JSON.stringify({ stations: finalStations }, null, 2) + "\n"
+  );
+  await fs.writeFile(
+    path.join(systemDir, "railcars.json"),
+    JSON.stringify({ generations: finalRailcars }, null, 2) + "\n"
+  );
+  await fs.writeFile(
+    path.join(systemDir, "geometry.json"),
+    JSON.stringify(baseGeometry, null, 2) + "\n"
+  );
+  await fs.writeFile(
+    path.join(systemDir, "topology_detected.json"),
+    JSON.stringify(topologyByLine, null, 2) + "\n"
+  );
   await saveIdMap(path.join(systemDir, "id_map.json"), idMap);
 
   return {

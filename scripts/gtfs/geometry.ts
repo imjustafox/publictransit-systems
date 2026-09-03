@@ -25,8 +25,7 @@ function haversineKm(a: [number, number], b: [number, number]): number {
   const lat2 = toRad(b[0]);
   const dLat = lat2 - lat1;
   const dLon = toRad(b[1] - a[1]);
-  const h =
-    Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
+  const h = Math.sin(dLat / 2) ** 2 + Math.cos(lat1) * Math.cos(lat2) * Math.sin(dLon / 2) ** 2;
   return 2 * EARTH_RADIUS_KM * Math.asin(Math.sqrt(h));
 }
 
@@ -50,7 +49,10 @@ export function simplifyPolyline(points: [number, number][], epsilon: number): [
     let maxIdx = -1;
     for (let i = start + 1; i < end; i++) {
       const d = perpendicularDistance(points[i], points[start], points[end]);
-      if (d > maxDist) { maxDist = d; maxIdx = i; }
+      if (d > maxDist) {
+        maxDist = d;
+        maxIdx = i;
+      }
     }
     if (maxDist > epsilon && maxIdx !== -1) {
       keep[maxIdx] = true;
@@ -60,7 +62,11 @@ export function simplifyPolyline(points: [number, number][], epsilon: number): [
   return points.filter((_, i) => keep[i]);
 }
 
-function perpendicularDistance(p: [number, number], a: [number, number], b: [number, number]): number {
+function perpendicularDistance(
+  p: [number, number],
+  a: [number, number],
+  b: [number, number]
+): number {
   const [x, y] = p;
   const [x1, y1] = a;
   const [x2, y2] = b;

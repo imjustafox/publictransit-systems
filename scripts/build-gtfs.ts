@@ -25,7 +25,9 @@ async function main() {
       const result = await processSystem(systemDir, systemId, process.env);
       if (result.status === "regenerated") {
         const d = result.diagnostics!;
-        summary.push(`✓ ${systemId}: regenerated (${d.linesDetected} lines, ${d.stationsDetected} stations)`);
+        summary.push(
+          `✓ ${systemId}: regenerated (${d.linesDetected} lines, ${d.stationsDetected} stations)`
+        );
       } else {
         summary.push(`- ${systemId}: skipped (${result.reason})`);
       }

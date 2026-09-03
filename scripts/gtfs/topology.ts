@@ -1,7 +1,7 @@
 import type { GtfsStopTime } from "./parser";
 
 export interface TripPattern {
-  stops: string[];     // ordered stop_ids
+  stops: string[]; // ordered stop_ids
   tripCount: number;
 }
 
@@ -18,13 +18,13 @@ export type DetectedTopologyValue =
 
 export interface DetectedTopology {
   topology: DetectedTopologyValue;
-  termini: string[];   // GTFS stop_ids — caller maps to slugs
+  termini: string[]; // GTFS stop_ids — caller maps to slugs
   dominantStops: string[]; // for stationCount/stations
 }
 
 export function extractTripPatterns(
   tripIds: string[],
-  stopTimesByTrip: Map<string, GtfsStopTime[]>,
+  stopTimesByTrip: Map<string, GtfsStopTime[]>
 ): TripPattern[] {
   const counts = new Map<string, { stops: string[]; tripCount: number }>();
   for (const tripId of tripIds) {
@@ -48,7 +48,8 @@ export function detectTopology(patterns: TripPattern[]): DetectedTopology {
   const totalTrips = patterns.reduce((s, p) => s + p.tripCount, 0);
 
   // Loop check: dominant pattern starts and ends at same stop, and majority of trips agree
-  const closesLoop = dominant.stops[0] === dominant.stops[dominant.stops.length - 1] && dominant.stops.length > 2;
+  const closesLoop =
+    dominant.stops[0] === dominant.stops[dominant.stops.length - 1] && dominant.stops.length > 2;
   const loopShareTrips = patterns
     .filter((p) => p.stops[0] === p.stops[p.stops.length - 1] && p.stops.length > 2)
     .reduce((s, p) => s + p.tripCount, 0);
@@ -78,9 +79,7 @@ export function detectTopology(patterns: TripPattern[]): DetectedTopology {
   const termini = collectTermini(patterns);
 
   return {
-    topology: branches.length >= 2
-      ? { type: "linear", branches }
-      : { type: "linear" },
+    topology: branches.length >= 2 ? { type: "linear", branches } : { type: "linear" },
     termini,
     dominantStops: allStops,
   };
@@ -90,7 +89,10 @@ function dedupeOrdered(stops: string[]): string[] {
   const seen = new Set<string>();
   const out: string[] = [];
   for (const s of stops) {
-    if (!seen.has(s)) { seen.add(s); out.push(s); }
+    if (!seen.has(s)) {
+      seen.add(s);
+      out.push(s);
+    }
   }
   return out;
 }
@@ -106,7 +108,10 @@ function collectAllStops(patterns: TripPattern[]): string[] {
   const out: string[] = [];
   for (const p of patterns) {
     for (const s of p.stops) {
-      if (!seen.has(s)) { seen.add(s); out.push(s); }
+      if (!seen.has(s)) {
+        seen.add(s);
+        out.push(s);
+      }
     }
   }
   return out;
@@ -133,7 +138,7 @@ function detectBranches(patterns: TripPattern[]): DetectedBranch[] {
 
   const top = patterns.slice(0, Math.min(patterns.length, 4));
   const prefix = longestCommonPrefix(top.map((p) => p.stops));
-  if (prefix.length < 2) return [];  // need at least 2-stop trunk
+  if (prefix.length < 2) return []; // need at least 2-stop trunk
 
   const branchStation = prefix[prefix.length - 1];
   const branches: DetectedBranch[] = [];

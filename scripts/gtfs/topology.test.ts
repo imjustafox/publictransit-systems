@@ -3,7 +3,10 @@ import { detectTopology, extractTripPatterns } from "./topology";
 
 describe("extractTripPatterns", () => {
   it("groups trips into unique stop sequences", () => {
-    const stopTimesByTrip = new Map<string, Array<{ stop_id: string; stop_sequence: number; trip_id: string }>>();
+    const stopTimesByTrip = new Map<
+      string,
+      Array<{ stop_id: string; stop_sequence: number; trip_id: string }>
+    >();
     stopTimesByTrip.set("T1", [
       { trip_id: "T1", stop_id: "A", stop_sequence: 1 },
       { trip_id: "T1", stop_id: "B", stop_sequence: 2 },
@@ -58,7 +61,7 @@ describe("detectTopology — loop", () => {
   it("does not detect loop from short-turn artifacts when minority", () => {
     const patterns = [
       { stops: ["A", "B", "C"], tripCount: 100 },
-      { stops: ["A", "B", "A"], tripCount: 5 },  // a tail-track short-turn
+      { stops: ["A", "B", "A"], tripCount: 5 }, // a tail-track short-turn
     ];
     const result = detectTopology(patterns);
     expect(result.topology.type).toBe("linear");

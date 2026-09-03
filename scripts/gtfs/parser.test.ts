@@ -53,6 +53,8 @@ describe("parseGtfsBundle", () => {
     const zip = new JSZip();
     zip.file("agency.txt", "agency_id,agency_name\nT,Test\n");
     const buf = await zip.generateAsync({ type: "nodebuffer" });
-    await expect(parseGtfsBundle(buf)).rejects.toThrow(/required.*stops\.txt|stops\.txt.*required/i);
+    await expect(parseGtfsBundle(buf)).rejects.toThrow(
+      /required.*stops\.txt|stops\.txt.*required/i
+    );
   });
 });

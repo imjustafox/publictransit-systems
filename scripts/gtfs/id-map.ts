@@ -22,7 +22,7 @@ export function kebabSlug(input: string): string {
 export function mergeIdMap(
   existing: IdMap,
   incoming: IdMapEntry[],
-  scope: "stations" | "lines",
+  scope: "stations" | "lines"
 ): IdMap {
   const result: IdMap = {
     stations: { ...existing.stations },
