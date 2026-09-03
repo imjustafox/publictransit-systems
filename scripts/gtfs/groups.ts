@@ -47,3 +47,12 @@ export function applyRouteGroups(
 
   return { routes: [...groupedRoutes, ...ungrouped], trips: remappedTrips };
 }
+
+// IFOPT stop ids (DIN EN 28701, used across German feeds) encode the station
+// in their first three segments: "de:08111:55:1:2" is platform 2 of quay 1 of
+// station "de:08111:55". Feeds like VVS publish no parent_station rows at
+// all, so grouping by the IFOPT prefix is the only way to collapse platforms.
+export function ifoptStationId(stopId: string): string {
+  const parts = stopId.split(":");
+  return parts.length >= 3 ? parts.slice(0, 3).join(":") : stopId;
+}

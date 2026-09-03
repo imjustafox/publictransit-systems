@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { applyRouteGroups } from "./groups";
+import { applyRouteGroups, ifoptStationId } from "./groups";
 import type { GtfsRoute, GtfsTrip } from "./parser";
 
 const route = (id: string, name: string): GtfsRoute => ({
@@ -49,5 +49,16 @@ describe("applyRouteGroups", () => {
 
   it("throws when a route belongs to two groups", () => {
     expect(() => applyRouteGroups(routes, trips, { a: ["1"], b: ["1"] })).toThrow(/both/);
+  });
+});
+
+describe("ifoptStationId", () => {
+  it("truncates platform and quay segments to the station", () => {
+    expect(ifoptStationId("de:08111:55:1:2")).toBe("de:08111:55");
+    expect(ifoptStationId("de:08111:6073:1:2")).toBe("de:08111:6073");
+  });
+  it("returns non-IFOPT ids unchanged", () => {
+    expect(ifoptStationId("place_PCTR")).toBe("place_PCTR");
+    expect(ifoptStationId("101")).toBe("101");
   });
 });

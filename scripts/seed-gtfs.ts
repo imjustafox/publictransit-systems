@@ -11,7 +11,7 @@
 import { promises as fs } from "fs";
 import path from "path";
 import { parseGtfsBundle } from "./gtfs/parser";
-import { applyRouteGroups } from "./gtfs/groups";
+import { applyRouteGroups, ifoptStationId } from "./gtfs/groups";
 import { RAIL_ROUTE_TYPES } from "./gtfs/constants";
 import {
   seedStationIdMap,
@@ -66,6 +66,7 @@ async function main() {
   );
   const stopById = new Map(gtfs.stops.map((s) => [s.stop_id, s]));
   const servedCanonical = new Set<string>();
+  const representative = new Map<string, (typeof gtfs.stops)[number]>();
   for (const [tripId, stopTimes] of gtfs.stopTimesByTrip) {
     if (!tripIds.has(tripId)) continue;
     const excluded = new Set(filters.stop_ids_exclude || []);
@@ -74,16 +75,21 @@ async function main() {
       const stop = stopById.get(st.stop_id);
       if (!stop) continue;
       const canonical =
-        stop.parent_station && stopById.has(stop.parent_station)
-          ? stop.parent_station
-          : stop.stop_id;
+        config.static.fields?.stop_grouping === "ifopt"
+          ? ifoptStationId(stop.stop_id)
+          : stop.parent_station && stopById.has(stop.parent_station)
+            ? stop.parent_station
+            : stop.stop_id;
       servedCanonical.add(canonical);
+      // IFOPT canonical ids have no stop row of their own; remember a
+      // representative platform for name and coordinates.
+      if (!representative.has(canonical)) representative.set(canonical, stop);
     }
   }
   const stops: SeedStop[] = [...servedCanonical].map((id) => {
-    const s = stopById.get(id)!;
+    const s = stopById.get(id) ?? representative.get(id)!;
     return {
-      stop_id: s.stop_id,
+      stop_id: id,
       stop_name: s.stop_name,
       stop_lat: s.stop_lat,
       stop_lon: s.stop_lon,

@@ -11,7 +11,7 @@ import {
   simplifyPolyline,
 } from "./geometry";
 import { mergeOverlay, applyOverlayCollection } from "./merge";
-import { applyRouteGroups } from "./groups";
+import { applyRouteGroups, ifoptStationId } from "./groups";
 import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
 interface GtfsConfig {
@@ -29,6 +29,7 @@ interface GtfsConfig {
     fields?: {
       line_name_source?: "route_short_name" | "route_long_name";
       line_color_fallback?: string;
+      stop_grouping?: "parent_station" | "ifopt";
     };
   };
 }
@@ -144,7 +145,9 @@ export async function processSystem(
       parentByStopId.set(stop.stop_id, stop.stop_id);
     }
   }
-  const canonical = (sid: string): string => parentByStopId.get(sid) ?? sid;
+  const useIfopt = config.static.fields?.stop_grouping === "ifopt";
+  const canonical = (sid: string): string =>
+    useIfopt ? ifoptStationId(sid) : (parentByStopId.get(sid) ?? sid);
 
   // Build canonical stop_times per trip with consecutive-duplicate compression.
   // Two consecutive platforms of the same parent station collapse to a single visit
@@ -179,8 +182,21 @@ export async function processSystem(
     }
     arr.push(trip.trip_id);
   }
-  // Final stops array contains only canonical entries (platform-only stops are excluded).
+  // Final stops array contains only canonical entries (platform-only stops are
+  // excluded). IFOPT canonical ids have no stop row of their own, so a
+  // representative platform stands in for name and coordinates.
   const stops = gtfs.stops.filter((s) => reachableStopIds.has(s.stop_id));
+  if (useIfopt) {
+    const have = new Set(stops.map((s) => s.stop_id));
+    const repByCanonical = new Map<string, (typeof gtfs.stops)[number]>();
+    for (const s of gtfs.stops) {
+      const c = ifoptStationId(s.stop_id);
+      if (reachableStopIds.has(c) && !have.has(c) && !repByCanonical.has(c)) {
+        repByCanonical.set(c, s);
+      }
+    }
+    for (const [c, rep] of repByCanonical) stops.push({ ...rep, stop_id: c });
+  }
   idMap = mergeIdMap(
     idMap,
     stops.map((s) => ({ gtfs_id: s.stop_id, name: s.stop_name })),
