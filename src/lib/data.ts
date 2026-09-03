@@ -850,6 +850,148 @@ async function fetchBartIncidents(): Promise<IncidentData | null> {
   }
 }
 
+// RTD Denver GTFS-RT service alerts (public, no key). Informed entities carry
+// feed route and stop ids; routes map through the same table as
+// data/systems/rtd-denver/gtfs.json's route_groups, and stops resolve to
+// station slugs through the system's id map, so no text matching is needed.
+const RTD_ALERTS_URL = "https://open-data.rtd-denver.com/files/gtfs-rt/rtd/Alerts.pb";
+
+const RTD_ROUTES: Record<string, string> = {
+  "101C": "c-line",
+  "101D": "d-line",
+  "101E": "e-line",
+  "101T": "t-line",
+  "103W": "w-line",
+  "107R": "r-line",
+  "113B": "b-line",
+  "113G": "g-line",
+  "117N": "n-line",
+  A: "a-line",
+};
+
+let rtdStationNamesCache: Array<{ name: string; id: string }> | null = null;
+async function rtdStationNames(): Promise<Array<{ name: string; id: string }>> {
+  if (!rtdStationNamesCache) {
+    try {
+      const raw = await fs.readFile(path.join(DATA_DIR, "rtd-denver", "stations.json"), "utf-8");
+      const stations = (JSON.parse(raw) as { stations: Array<{ id: string; name: string }> })
+        .stations;
+      // Longest first so "Littleton-Downtown" wins over any shorter overlap.
+      rtdStationNamesCache = stations
+        .map((st) => ({ name: st.name, id: st.id }))
+        .sort((a, b) => b.name.length - a.name.length);
+    } catch {
+      rtdStationNamesCache = [];
+    }
+  }
+  return rtdStationNamesCache;
+}
+
+let rtdStopMapCache: Record<string, string> | null = null;
+async function rtdStopMap(): Promise<Record<string, string>> {
+  if (!rtdStopMapCache) {
+    try {
+      const raw = await fs.readFile(path.join(DATA_DIR, "rtd-denver", "id_map.json"), "utf-8");
+      rtdStopMapCache = (JSON.parse(raw) as { stations: Record<string, string> }).stations;
+    } catch {
+      rtdStopMapCache = {};
+    }
+  }
+  return rtdStopMapCache;
+}
+
+async function fetchRtdIncidents(): Promise<IncidentData | null> {
+  const feed = await fetchGtfsRtFeed(RTD_ALERTS_URL);
+  if (!feed) return null;
+  const stopMap = await rtdStopMap();
+  const stationNames = await rtdStationNames();
+
+  const alerts: ServiceAlert[] = [];
+  const outagesByStation: Record<string, UnitOutage[]> = {};
+  let elevatorOutages = 0;
+  let escalatorOutages = 0;
+
+  for (const entity of feed.entity || []) {
+    const alert = entity.alert;
+    if (!alert) continue;
+
+    const affectedLines: string[] = [];
+    const affectedStations: string[] = [];
+    for (const informed of alert.informedEntity || []) {
+      const lineId = informed.routeId ? RTD_ROUTES[informed.routeId] : undefined;
+      if (lineId && !affectedLines.includes(lineId)) affectedLines.push(lineId);
+      const stationId = informed.stopId ? stopMap[informed.stopId] : undefined;
+      if (stationId && !affectedStations.includes(stationId)) affectedStations.push(stationId);
+    }
+    // The feed is mostly bus alerts; keep only entries touching rail.
+    if (affectedLines.length === 0 && affectedStations.length === 0) continue;
+
+    const headerText = alert.headerText?.translation?.[0]?.text || "Service Alert";
+    const descriptionText = alert.descriptionText?.translation?.[0]?.text || "";
+    const fullText = `${headerText} ${descriptionText}`;
+
+    // Rail alerts often name the station without a stop id; fall back to
+    // matching station names in the text, with punctuation normalized so
+    // "38th & Blake" in an alert matches our "38th / Blake".
+    if (affectedStations.length === 0) {
+      const normalize = (t: string) =>
+        t
+          .toLowerCase()
+          .replace(/[^a-z0-9]+/g, " ")
+          .trim();
+      const haystack = ` ${normalize(fullText)} `;
+      for (const st of stationNames) {
+        if (haystack.includes(` ${normalize(st.name)} `) && !affectedStations.includes(st.id)) {
+          affectedStations.push(st.id);
+        }
+      }
+    }
+
+    const startTime = alert.activePeriod?.[0]?.start;
+    const endTime = alert.activePeriod?.[0]?.end;
+    const postedAt = startTime
+      ? new Date(Number(startTime) * 1000).toISOString()
+      : new Date().toISOString();
+    const expiresAt = endTime ? new Date(Number(endTime) * 1000).toISOString() : null;
+
+    const equipment = detectEquipmentOutages(
+      fullText,
+      affectedStations,
+      outagesByStation,
+      headerText,
+      postedAt,
+      expiresAt
+    );
+    elevatorOutages += equipment.elevatorOutages;
+    escalatorOutages += equipment.escalatorOutages;
+
+    alerts.push({
+      id: entity.id,
+      type: mapGtfsEffect(alert.effect),
+      title: headerText,
+      description: descriptionText.trim(),
+      affectedLines: affectedLines.length > 0 ? affectedLines : undefined,
+      affectedStations: affectedStations.length > 0 ? affectedStations : undefined,
+      postedAt,
+      expiresAt,
+    });
+  }
+
+  return {
+    fetchedAt: new Date().toISOString(),
+    systemId: "rtd-denver",
+    summary: {
+      totalOutages: elevatorOutages + escalatorOutages,
+      elevatorOutages,
+      escalatorOutages,
+      stationsAffected: Object.keys(outagesByStation).length,
+      activeAlerts: alerts.length,
+    },
+    outagesByStation,
+    alerts,
+  };
+}
+
 async function fetchSoundTransitIncidents(): Promise<IncidentData | null> {
   const feed = await fetchGtfsRtFeed(SOUND_TRANSIT_ALERTS_URL);
   if (!feed) return null;
@@ -1454,6 +1596,7 @@ export async function getIncidents(systemId: string): Promise<IncidentData | nul
     "baltimore-light-rail",
     "tokyo-metro",
     "cta",
+    "rtd-denver",
   ];
   if (!supportedSystems.includes(systemId)) return null;
 
@@ -1471,6 +1614,8 @@ export async function getIncidents(systemId: string): Promise<IncidentData | nul
     data = await fetchWmataIncidents();
   } else if (systemId === "sound-transit") {
     data = await fetchSoundTransitIncidents();
+  } else if (systemId === "rtd-denver") {
+    data = await fetchRtdIncidents();
   } else if (systemId === "nyc-subway") {
     data = await fetchNycSubwayIncidents();
   } else if (systemId === "baltimore-metro") {
