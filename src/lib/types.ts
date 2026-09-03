@@ -42,6 +42,8 @@ export interface TransitSystem {
   };
   lineIndicatorShape?: LineIndicatorShape;
   dataSource?: DataSource;
+  // OSM enrichment runs for every system unless a system opts out.
+  osmEnrichment?: boolean;
 }
 
 export interface SystemStats {
@@ -103,6 +105,11 @@ export interface Station {
   description?: string;
   connections?: string[];
   entrances?: StationEntrance[];
+  // Stable external identifiers; import and enrichment tooling matches on
+  // these instead of names or proximity when refreshing.
+  gtfsId?: string;
+  osmId?: string;
+  wikidata?: string;
 }
 
 export interface RailcarGeneration {
