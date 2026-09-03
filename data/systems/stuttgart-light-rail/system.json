@@ -1,5 +1,6 @@
 {
   "id": "stuttgart-light-rail",
+  "dataSource": "gtfs",
   "name": "Stadtbahn Stuttgart",
   "shortName": "SSB",
   "location": "Stuttgart, Baden-Württemberg",

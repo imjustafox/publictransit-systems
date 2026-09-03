@@ -1,17 +1,2830 @@
 {
   "stations": [
     {
+      "id": "gnesener-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Gnesener Straße",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81245,
+        "lng": 9.228591
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 738900600
+    },
+    {
+      "id": "raitelsberg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Raitelsberg",
+      "lines": ["u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.788956,
+        "lng": 9.212268
+      },
+      "features": ["fare-vending"],
+      "osmId": 89417460
+    },
+    {
+      "id": "sportpark-feuerbach",
+      "systemId": "stuttgart-light-rail",
+      "name": "Sportpark Feuerbach",
+      "lines": ["u13", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.809776,
+        "lng": 9.142406
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 717575294
+    },
+    {
+      "id": "borsigstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Borsigstraße",
+      "lines": ["u15", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81939,
+        "lng": 9.175482
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 33327551
+    },
+    {
+      "id": "sonnenberg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Sonnenberg",
+      "lines": ["u12", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.741104,
+        "lng": 9.153536
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 13355377
+    },
+    {
+      "id": "fellbach-lutherkirche",
+      "systemId": "stuttgart-light-rail",
+      "name": "Fellbach Lutherkirche",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.809055,
+        "lng": 9.276507
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632840
+    },
+    {
+      "id": "ruit-zinsholz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Ruit Zinsholz",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.726303,
+        "lng": 9.261927
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 270599198
+    },
+    {
+      "id": "brendle",
+      "systemId": "stuttgart-light-rail",
+      "name": "Brendle (Großmarkt)",
+      "lines": ["u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.781544,
+        "lng": 9.226749
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26407020
+    },
+    {
+      "id": "schlachthof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schlachthof",
+      "lines": ["u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.78719,
+        "lng": 9.217586
+      },
+      "features": ["fare-vending"],
+      "osmId": 94849768
+    },
+    {
+      "id": "payerstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Payerstraße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.769756,
+        "lng": 9.195703
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 87388046
+    },
+    {
+      "id": "eltinger-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Eltinger Straße",
+      "lines": ["u2", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.779243,
+        "lng": 9.12682
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 259711280
+    },
+    {
+      "id": "schloss-johannesstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schloss-/Johannesstraße",
+      "lines": ["u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.776386,
+        "lng": 9.162394
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 31127214
+    },
+    {
+      "id": "europaplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Europaplatz",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.712177,
+        "lng": 9.160301
+      },
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 263250079
+    },
+    {
+      "id": "gaisburg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Gaisburg",
+      "lines": ["u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.78383,
+        "lng": 9.215772
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 417674796
+    },
+    {
+      "id": "marienplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Marienplatz",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.764263,
+        "lng": 9.168152
+      },
+      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 69463507,
+      "entrances": [
+        {
+          "id": "osm-278819196",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.7643403,
+            "lng": 9.1684559
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3431207862",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.764413,
+            "lng": 9.1679957
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1286387402",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.7642452,
+            "lng": 9.1685214
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "leinfelden-bahnhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Leinfelden Bahnhof",
+      "lines": ["u5"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.69642,
+        "lng": 9.142855
+      },
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 3738199384
+    },
+    {
+      "id": "bergheimer-hof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bergheimer Hof",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.804256,
+        "lng": 9.101182
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 255030848
+    },
+    {
+      "id": "stadtwerke-stuttgart",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stadtwerke Stuttgart",
+      "lines": ["u13", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.766922,
+        "lng": 9.249
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26407025
+    },
+    {
+      "id": "rastatter-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Rastatter Straße",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81017,
+        "lng": 9.107992
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26405805
+    },
+    {
+      "id": "vaihingen-schillerplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Vaihingen Schillerplatz",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.730103,
+        "lng": 9.112897
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 332621606
+    },
+    {
+      "id": "stadtbibliothek",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stadtbibliothek",
+      "lines": ["u15", "u5", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.790676,
+        "lng": 9.181177
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 33327666,
+      "entrances": [
+        {
+          "id": "osm-425530634",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.790829,
+            "lng": 9.1806633
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-443132352",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.790209,
+            "lng": 9.1807551
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2907106469",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7905392,
+            "lng": 9.180528
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3377834929",
+          "name": "Eingang 4",
+          "coordinates": {
+            "lat": 48.7907956,
+            "lng": 9.1808719
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "bad-cannstatt-wilhelmsplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bad Cannstatt Wilhelmsplatz",
+      "lines": ["u1", "u13", "u16", "u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.802765,
+        "lng": 9.215763
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 137321726
+    },
+    {
+      "id": "remseck-neckargroeningen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Remseck Neckargröningen",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.873615,
+        "lng": 9.270937
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 18353190
+    },
+    {
+      "id": "degerloch",
+      "systemId": "stuttgart-light-rail",
+      "name": "Degerloch",
+      "lines": ["u12", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.748775,
+        "lng": 9.168583
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20970570,
+      "entrances": [
+        {
+          "id": "osm-405589625",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.748473,
+            "lng": 9.167888
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-247693903",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7490455,
+            "lng": 9.1694659
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-247693904",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7492646,
+            "lng": 9.1691988
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "russische-kirche",
+      "systemId": "stuttgart-light-rail",
+      "name": "Russische Kirche",
+      "lines": ["u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.78434,
+        "lng": 9.161289
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 60399595
+    },
+    {
+      "id": "plieningen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Plieningen",
+      "lines": ["u3"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.71032,
+        "lng": 9.201803
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1745866243
+    },
+    {
+      "id": "degerloch-albstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Degerloch Albstraße",
+      "lines": ["u12", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.746418,
+        "lng": 9.163373
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 439664668
+    },
+    {
+      "id": "cannstatter-wasen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Cannstatter Wasen",
+      "lines": ["u19"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.79649,
+        "lng": 9.220182
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21097477
+    },
+    {
+      "id": "engelboldstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Engelboldstraße",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.73743,
+        "lng": 9.12806
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34578825
+    },
+    {
+      "id": "fuerfelder-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Fürfelder Straße",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.83225,
+        "lng": 9.192065
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407047
+    },
+    {
+      "id": "stelle",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stelle",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.76123,
+        "lng": 9.199826
+      },
+      "features": ["fare-vending"],
+      "osmId": 279898521
+    },
+    {
+      "id": "nuernberger-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Nürnberger Straße",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80656,
+        "lng": 9.234573
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 600447956
+    },
+    {
+      "id": "loewentorbruecke",
+      "systemId": "stuttgart-light-rail",
+      "name": "Löwentorbrücke",
+      "lines": ["u15", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.803696,
+        "lng": 9.183486
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 38901889
+    },
+    {
+      "id": "antwerpener-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Antwerpener Straße",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80842,
+        "lng": 9.242928
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 10798221
+    },
+    {
+      "id": "ruit",
+      "systemId": "stuttgart-light-rail",
+      "name": "Ruit",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.73102,
+        "lng": 9.253716
+      },
+      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 113591455,
+      "entrances": [
+        {
+          "id": "osm-263806052",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7310826,
+            "lng": 9.2535796
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-5541970271",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7312905,
+            "lng": 9.2532278
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4379712492",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7309663,
+            "lng": 9.253699
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5541970270",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7307237,
+            "lng": 9.2542174
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    {
+      "id": "waldeck",
+      "systemId": "stuttgart-light-rail",
+      "name": "Waldeck",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.744823,
+        "lng": 9.134393
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34580092
+    },
+    {
+      "id": "elbestrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Elbestraße",
+      "lines": ["u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.825527,
+        "lng": 9.212834
+      },
+      "features": ["fare-vending"],
+      "osmId": 18353056
+    },
+    {
+      "id": "wagrainaecker",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wagrainäcker",
+      "lines": ["u12", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.82968,
+        "lng": 9.212142
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 246282061
+    },
+    {
+      "id": "eszet",
+      "systemId": "stuttgart-light-rail",
+      "name": "Eszet",
+      "lines": ["u13"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.787624,
+        "lng": 9.246611
+      },
+      "features": ["fare-vending"],
+      "osmId": 26407034
+    },
+    {
+      "id": "korntaler-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Korntaler Straße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.846733,
+        "lng": 9.157121
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1541057204
+    },
+    {
+      "id": "himmelsleiter",
+      "systemId": "stuttgart-light-rail",
+      "name": "Himmelsleiter",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.837368,
+        "lng": 9.201551
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407044
+    },
+    {
+      "id": "landhaus",
+      "systemId": "stuttgart-light-rail",
+      "name": "Landhaus",
+      "lines": ["u3"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.72041,
+        "lng": 9.165637
+      },
+      "features": ["fare-vending"],
+      "osmId": 9936190
+    },
+    {
+      "id": "augsburger-platz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Augsburger Platz",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80591,
+        "lng": 9.232534
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 600573126
+    },
+    {
+      "id": "berliner-platz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Berliner Platz",
+      "lines": ["u1", "u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.777134,
+        "lng": 9.168574
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 273102152
+    },
+    {
+      "id": "ruhbank",
+      "systemId": "stuttgart-light-rail",
+      "name": "Ruhbank (Fernsehturm)",
+      "lines": ["u15", "u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.753338,
+        "lng": 9.195119
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 675759
+    },
+    {
+      "id": "messe-west",
+      "systemId": "stuttgart-light-rail",
+      "name": "Messe West",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.690887,
+        "lng": 9.182669
+      },
+      "features": ["fare-vending"],
+      "osmId": 9330061520
+    },
+    {
+      "id": "salzaecker",
+      "systemId": "stuttgart-light-rail",
+      "name": "Salzäcker",
+      "lines": ["u3"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.721634,
+        "lng": 9.161846
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 9936191
+    },
+    {
+      "id": "wolfbusch",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wolfbusch",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80754,
+        "lng": 9.105342
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 282943399
+    },
+    {
+      "id": "rotebuehlplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Rotebühlplatz",
+      "lines": ["u1", "u2", "u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.77633,
+        "lng": 9.173048
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 78679799,
+      "entrances": [
+        {
+          "id": "osm-647308536",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7748116,
+            "lng": 9.1710178
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-647308545",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7751405,
+            "lng": 9.1722068
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-1621863003",
+          "name": "Rotebühlplatz (Stadtmitte)",
+          "coordinates": {
+            "lat": 48.7738077,
+            "lng": 9.1739115
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1621899309",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7749218,
+            "lng": 9.1711164
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-1989724631",
+          "name": "Rotebühlplatz (Stadtmitte)",
+          "coordinates": {
+            "lat": 48.773813,
+            "lng": 9.1745094
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3034475420",
+          "name": "Rotebühlplatz (Stadtmitte)",
+          "coordinates": {
+            "lat": 48.7740125,
+            "lng": 9.1741788
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3034475421",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7744821,
+            "lng": 9.1717517
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3034475422",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7747041,
+            "lng": 9.1720933
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3034475423",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.774836,
+            "lng": 9.1722584
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3657852735",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7755541,
+            "lng": 9.1712823
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "rosensteinpark",
+      "systemId": "stuttgart-light-rail",
+      "name": "Rosensteinpark",
+      "lines": ["u13", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.806866,
+        "lng": 9.19653
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 726509486
+    },
+    {
+      "id": "waldau",
+      "systemId": "stuttgart-light-rail",
+      "name": "Waldau",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.75156,
+        "lng": 9.189047
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 675756
+    },
+    {
+      "id": "hoelderlinplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Hölderlinplatz",
+      "lines": ["u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.781727,
+        "lng": 9.158342
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 278490359
+    },
+    {
+      "id": "duerrlewang",
+      "systemId": "stuttgart-light-rail",
+      "name": "Dürrlewang",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.71902,
+        "lng": 9.118053
+      },
+      "features": ["fare-vending"],
+      "osmId": 3510348490
+    },
+    {
+      "id": "moehringen-bahnhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Möhringen Bahnhof",
+      "lines": ["u12", "u3", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.730564,
+        "lng": 9.146898
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9936541
+    },
+    {
+      "id": "aldingen-muehle",
+      "systemId": "stuttgart-light-rail",
+      "name": "Aldingen Mühle",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.861374,
+        "lng": 9.253519
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 18353128
+    },
+    {
+      "id": "suedheimer-platz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Südheimer Platz",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.75664,
+        "lng": 9.143628
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 34580107
+    },
+    {
+      "id": "nellingen-ostfildern",
+      "systemId": "stuttgart-light-rail",
+      "name": "Nellingen Ostfildern",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.71583,
+        "lng": 9.295811
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 253915614
+    },
+    {
+      "id": "scharnhauser-park-kreuzbrunnen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Scharnhauser Park Kreuzbrunnen",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.71511,
+        "lng": 9.273174
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 66828113
+    },
+    {
+      "id": "leinf-unteraichen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Leinf. Unteraichen",
+      "lines": ["u5"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.703712,
+        "lng": 9.143331
+      },
+      "features": ["fare-vending"],
+      "osmId": 332616566
+    },
+    {
+      "id": "vaihingen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Vaihingen",
+      "lines": ["u1", "u14", "u3", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.72698,
+        "lng": 9.113912
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9995173
+    },
+    {
+      "id": "lindpaintnerstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Lindpaintnerstraße",
+      "lines": ["u2", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.77401,
+        "lng": 9.134294
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21286549
+    },
+    {
+      "id": "wangen-marktplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wangen Marktplatz",
+      "lines": ["u13", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.771526,
+        "lng": 9.245407
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407024
+    },
+    {
+      "id": "lapp-kabel",
+      "systemId": "stuttgart-light-rail",
+      "name": "Lapp Kabel",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.72265,
+        "lng": 9.120739
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3512202176
+    },
+    {
+      "id": "hallschlag",
+      "systemId": "stuttgart-light-rail",
+      "name": "Hallschlag",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.818317,
+        "lng": 9.204471
+      },
+      "features": ["fare-vending"],
+      "osmId": 2457943460
+    },
+    {
+      "id": "weinsteige",
+      "systemId": "stuttgart-light-rail",
+      "name": "Weinsteige",
+      "lines": ["u12", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.75496,
+        "lng": 9.17471
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 498454608
+    },
+    {
+      "id": "dobelstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Dobelstraße",
+      "lines": ["u12", "u5", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.769745,
+        "lng": 9.185992
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20968183
+    },
+    {
+      "id": "metzstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Metzstraße",
+      "lines": ["u1", "u14", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.79223,
+        "lng": 9.200536
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20982241
+    },
+    {
+      "id": "kaltental",
+      "systemId": "stuttgart-light-rail",
+      "name": "Kaltental",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.739655,
+        "lng": 9.12992
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34580083
+    },
+    {
+      "id": "boersenplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Börsenplatz",
+      "lines": ["u1", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.780136,
+        "lng": 9.176362
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 2145685316,
+      "entrances": [
+        {
+          "id": "osm-320286171",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7804733,
+            "lng": 9.176067
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-418324761",
+          "name": "Börsenplatz (L-Bank)",
+          "coordinates": {
+            "lat": 48.7801649,
+            "lng": 9.1772162
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582340",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7785931,
+            "lng": 9.1783197
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582342",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7791984,
+            "lng": 9.1791684
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582347",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7809994,
+            "lng": 9.1762302
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2145685310",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7798416,
+            "lng": 9.1758929
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2145685315",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7799814,
+            "lng": 9.1755273
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "peregrinastrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Peregrinastraße",
+      "lines": ["u12", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.74396,
+        "lng": 9.159393
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 13355384
+    },
+    {
+      "id": "flughafen-messe",
+      "systemId": "stuttgart-light-rail",
+      "name": "Flughafen/Messe",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.69075,
+        "lng": 9.193413
+      },
+      "features": ["elevator", "fare-vending"],
+      "osmId": 9330061530
+    },
+    {
+      "id": "plieninger-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Plieninger Straße",
+      "lines": ["u3"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.72426,
+        "lng": 9.156635
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 9936195
+    },
+    {
+      "id": "silberwald",
+      "systemId": "stuttgart-light-rail",
+      "name": "Silberwald",
+      "lines": ["u15", "u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.74793,
+        "lng": 9.207723
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407070
+    },
+    {
+      "id": "fasanenhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Fasanenhof (Bonhoefferkirche)",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.710373,
+        "lng": 9.153006
+      },
+      "features": ["fare-vending"],
+      "osmId": 662424904
+    },
+    {
+      "id": "muehlsteg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Mühlsteg",
+      "lines": ["u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80967,
+        "lng": 9.215637
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26632799
+    },
+    {
+      "id": "zuffenhausen-rathaus",
+      "systemId": "stuttgart-light-rail",
+      "name": "Zuffenhausen Rathaus",
+      "lines": ["u15", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.830585,
+        "lng": 9.174692
+      },
+      "features": ["fare-vending"],
+      "osmId": 1540261524
+    },
+    {
+      "id": "ssb-zentrum",
+      "systemId": "stuttgart-light-rail",
+      "name": "SSB-Zentrum",
+      "lines": ["u12", "u3", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.726837,
+        "lng": 9.130198
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9994979
+    },
+    {
+      "id": "muenster-rathaus",
+      "systemId": "stuttgart-light-rail",
+      "name": "Münster Rathaus",
+      "lines": ["u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.821053,
+        "lng": 9.226641
+      },
+      "features": ["fare-vending"],
+      "osmId": 743056123
+    },
+    {
+      "id": "bopser",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bopser",
+      "lines": ["u12", "u5", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.76794,
+        "lng": 9.183693
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 280139053
+    },
+    {
+      "id": "riethmuellerhaus",
+      "systemId": "stuttgart-light-rail",
+      "name": "Riethmüllerhaus",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.813858,
+        "lng": 9.203851
+      },
+      "features": ["fare-vending"],
+      "osmId": 1485637818
+    },
+    {
+      "id": "uff-kirchhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Uff-Kirchhof",
+      "lines": ["u1", "u13", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.804996,
+        "lng": 9.225887
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 722970518
+    },
+    {
+      "id": "tapachstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Tapachstraße",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.833908,
+        "lng": 9.195559
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407045
+    },
+    {
+      "id": "salzwiesenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Salzwiesenstraße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.836414,
+        "lng": 9.162843
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1540266132
+    },
+    {
+      "id": "mercedesstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Mercedesstraße",
+      "lines": ["u1", "u13", "u16", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.79998,
+        "lng": 9.211675
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 21097466
+    },
+    {
+      "id": "moenchfeld",
+      "systemId": "stuttgart-light-rail",
+      "name": "Mönchfeld",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.84436,
+        "lng": 9.217999
+      },
+      "features": ["fare-vending"],
+      "osmId": 26407041
+    },
+    {
+      "id": "bihlplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bihlplatz",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.75978,
+        "lng": 9.151416
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 443826010
+    },
+    {
+      "id": "hedelfingen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Hedelfingen",
+      "lines": ["u13", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.760082,
+        "lng": 9.254273
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 279930071
+    },
+    {
+      "id": "herderplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Herderplatz",
+      "lines": ["u2", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.77228,
+        "lng": 9.141454
+      },
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 21288473
+    },
+    {
+      "id": "max-eyth-see",
+      "systemId": "stuttgart-light-rail",
+      "name": "Max-Eyth-See",
+      "lines": ["u12", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.83272,
+        "lng": 9.216212
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20283010
+    },
+    {
+      "id": "rohrer-weg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Rohrer Weg",
+      "lines": ["u5", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.722286,
+        "lng": 9.136666
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26240181
+    },
+    {
+      "id": "heslach-vogelrain",
+      "systemId": "stuttgart-light-rail",
+      "name": "Heslach Vogelrain",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.75361,
+        "lng": 9.138238
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 298691598
+    },
+    {
+      "id": "stoeckach",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stöckach",
+      "lines": ["u1", "u14", "u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.788982,
+        "lng": 9.194976
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 303028845
+    },
+    {
+      "id": "im-degen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Im Degen",
+      "lines": ["u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.778156,
+        "lng": 9.233208
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632844
+    },
+    {
+      "id": "kraftwerk-muenster",
+      "systemId": "stuttgart-light-rail",
+      "name": "Kraftwerk Münster",
+      "lines": ["u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.813908,
+        "lng": 9.217442
+      },
+      "features": ["fare-vending"],
+      "osmId": 18353042
+    },
+    {
+      "id": "vaihinger-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Vaihinger Straße",
+      "lines": ["u12", "u3", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.727726,
+        "lng": 9.139199
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9994951
+    },
+    {
+      "id": "hoehenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Höhenstraße",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.811844,
+        "lng": 9.26234
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 10798156
+    },
+    {
+      "id": "aldingen-hornbach",
+      "systemId": "stuttgart-light-rail",
+      "name": "Aldingen Hornbach",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.856987,
+        "lng": 9.249063
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 18353124
+    },
+    {
+      "id": "fauststrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Fauststraße",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.73191,
+        "lng": 9.115133
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34578810
+    },
+    {
+      "id": "schemppstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schemppstraße",
+      "lines": ["u15", "u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.74126,
+        "lng": 9.218736
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 274246540,
+      "entrances": [
+        {
+          "id": "osm-792090137",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.7408961,
+            "lng": 9.2193112
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-879330331",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7415862,
+            "lng": 9.218247
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "vogelsang",
+      "systemId": "stuttgart-light-rail",
+      "name": "Vogelsang",
+      "lines": ["u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.774677,
+        "lng": 9.145928
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21288478
+    },
+    {
+      "id": "jurastrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Jurastraße",
+      "lines": ["u3", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.728916,
+        "lng": 9.117217
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9995142
+    },
+    {
+      "id": "scharnhauser-park",
+      "systemId": "stuttgart-light-rail",
+      "name": "Scharnhauser Park",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.720425,
+        "lng": 9.272572
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 66828122
+    },
+    {
+      "id": "eugensplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Eugensplatz",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.778004,
+        "lng": 9.190466
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3224912063
+    },
+    {
+      "id": "zuericher-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Züricher Straße",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81043,
+        "lng": 9.199907
+      },
+      "features": ["fare-vending"],
+      "osmId": 2457943479
+    },
+    {
+      "id": "bottroper-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bottroper Straße",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.82095,
+        "lng": 9.210067
+      },
+      "features": ["elevator", "fare-vending"],
+      "osmId": 2457964058
+    },
+    {
+      "id": "neckartor",
+      "systemId": "stuttgart-light-rail",
+      "name": "Neckartor",
+      "lines": ["u1", "u14", "u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.786186,
+        "lng": 9.190295
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20956735,
+      "entrances": [
+        {
+          "id": "osm-255579046",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.7859808,
+            "lng": 9.1903802
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-255579107",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7863523,
+            "lng": 9.1903146
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-455444693",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7861728,
+            "lng": 9.1896239
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-10879795518",
+          "name": "Eingang 4",
+          "coordinates": {
+            "lat": 48.786353,
+            "lng": 9.1901404
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    {
+      "id": "leinfelden-neuer-markt",
+      "systemId": "stuttgart-light-rail",
+      "name": "Leinfelden Neuer Markt (EUCHNER)",
+      "lines": ["u5"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.69336,
+        "lng": 9.146583
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 12250522542
+    },
+    {
+      "id": "schlotterbeckstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schlotterbeckstraße",
+      "lines": ["u13"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.784096,
+        "lng": 9.248946
+      },
+      "features": ["fare-vending"],
+      "osmId": 26407033
+    },
+    {
+      "id": "aldingen-brueckenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Aldingen Brückenstraße",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.866776,
+        "lng": 9.258046
+      },
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 267174590
+    },
+    {
+      "id": "landauer-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Landauer Straße",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.814594,
+        "lng": 9.123955
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405931
+    },
+    {
+      "id": "schelmenwasen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schelmenwasen",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.707684,
+        "lng": 9.170389
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 662446225
+    },
+    {
+      "id": "feuerbach-pfostenwaeldle",
+      "systemId": "stuttgart-light-rail",
+      "name": "Feuerbach Pfostenwäldle",
+      "lines": ["u13", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81217,
+        "lng": 9.135525
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405936
+    },
+    {
+      "id": "rosensteinbruecke",
+      "systemId": "stuttgart-light-rail",
+      "name": "Rosensteinbrücke",
+      "lines": ["u13", "u14", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.805492,
+        "lng": 9.210436
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26782694
+    },
+    {
+      "id": "olgaeck",
+      "systemId": "stuttgart-light-rail",
+      "name": "Olgaeck",
+      "lines": ["u12", "u15", "u5", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.774044,
+        "lng": 9.186082
+      },
+      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 662855510,
+      "entrances": [
+        {
+          "id": "osm-482498154",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7752732,
+            "lng": 9.1833534
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    {
+      "id": "milloeckerstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Millöckerstraße",
+      "lines": ["u2", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.779427,
+        "lng": 9.132031
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21281027
+    },
+    {
+      "id": "neugereut",
+      "systemId": "stuttgart-light-rail",
+      "name": "Neugereut",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.832016,
+        "lng": 9.236343
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 738900577
+    },
+    {
+      "id": "oesterreichischer-platz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Österreichischer Platz",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.770344,
+        "lng": 9.175994
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 281150040,
+      "entrances": [
+        {
+          "id": "osm-303808198",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.7702457,
+            "lng": 9.1747018
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1686344723",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7697675,
+            "lng": 9.1751287
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4291725891",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7699804,
+            "lng": 9.1754545
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-5728713298",
+          "name": "Eingang 4",
+          "coordinates": {
+            "lat": 48.7711414,
+            "lng": 9.1764985
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    {
+      "id": "staatsgalerie",
+      "systemId": "stuttgart-light-rail",
+      "name": "Staatsgalerie",
+      "lines": ["u1", "u14", "u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.783005,
+        "lng": 9.187205
+      },
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 9775743219
+    },
+    {
+      "id": "stafflenbergstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stafflenbergstraße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.7754,
+        "lng": 9.19193
+      },
+      "features": ["fare-vending"],
+      "osmId": 3224912263
+    },
+    {
+      "id": "bockelstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bockelstraße",
+      "lines": ["u15", "u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.739677,
+        "lng": 9.227836
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407067
+    },
+    {
+      "id": "gerlingen-siedlung",
+      "systemId": "stuttgart-light-rail",
+      "name": "Gerlingen Siedlung",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.801273,
+        "lng": 9.072823
+      },
+      "features": ["fare-vending"],
+      "osmId": 243460938
+    },
+    {
+      "id": "bergfriedhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bergfriedhof",
+      "lines": ["u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.789062,
+        "lng": 9.205621
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 741569484
+    },
+    {
+      "id": "kienbachstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Kienbachstraße",
+      "lines": ["u13"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.79965,
+        "lng": 9.234475
+      },
+      "features": ["fare-vending"],
+      "osmId": 26407038
+    },
+    {
+      "id": "milchhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Milchhof",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.793488,
+        "lng": 9.189864
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 726825811
+    },
+    {
+      "id": "kursaal",
+      "systemId": "stuttgart-light-rail",
+      "name": "Kursaal",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80915,
+        "lng": 9.22232
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 738900576
+    },
+    {
+      "id": "hofen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Hofen",
+      "lines": ["u12", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.83635,
+        "lng": 9.222105
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 18353086
+    },
+    {
+      "id": "heumaden",
+      "systemId": "stuttgart-light-rail",
+      "name": "Heumaden",
+      "lines": ["u15", "u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.738113,
+        "lng": 9.233756
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407066
+    },
+    {
+      "id": "freibergstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Freibergstraße",
+      "lines": ["u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.82429,
+        "lng": 9.22197
+      },
+      "features": ["fare-vending"],
+      "osmId": 18353052
+    },
+    {
+      "id": "breitwiesen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Breitwiesen",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80245,
+        "lng": 9.082569
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 266035343
+    },
+    {
+      "id": "wilhelm-geiger-platz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wilhelm-Geiger-Platz",
+      "lines": ["u13", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.811592,
+        "lng": 9.15898
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 3800106789
+    },
+    {
+      "id": "freiberg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Freiberg",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.844112,
+        "lng": 9.210615
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407042
+    },
+    {
+      "id": "suttnerstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Suttnerstraße",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.840496,
+        "lng": 9.206519
+      },
+      "features": ["fare-vending"],
+      "osmId": 26407043
+    },
+    {
+      "id": "inselstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Inselstraße",
+      "lines": ["u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.77572,
+        "lng": 9.237457
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632845
+    },
+    {
+      "id": "pragfriedhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Pragfriedhof",
+      "lines": ["u15", "u5", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.79809,
+        "lng": 9.18257
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 5539414145
+    },
+    {
+      "id": "untertuerkheim-bf",
+      "systemId": "stuttgart-light-rail",
+      "name": "Untertürkheim Bf",
+      "lines": ["u13", "u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.779846,
+        "lng": 9.250465
+      },
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 26407028
+    },
+    {
+      "id": "salamanderweg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Salamanderweg",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.802635,
+        "lng": 9.093241
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 1381070326
+    },
+    {
+      "id": "rosenberg-seidenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Rosenberg-/Seidenstraße",
+      "lines": ["u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.782,
+        "lng": 9.165008
+      },
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 60399583
+    },
+    {
+      "id": "riedsee",
+      "systemId": "stuttgart-light-rail",
+      "name": "Riedsee",
+      "lines": ["u12", "u5", "u6", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.73327,
+        "lng": 9.150608
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9936645
+    },
+    {
+      "id": "sillenbuch",
+      "systemId": "stuttgart-light-rail",
+      "name": "Sillenbuch",
+      "lines": ["u15", "u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.7445,
+        "lng": 9.213086
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407069,
+      "entrances": [
+        {
+          "id": "osm-2131448756",
+          "name": "Sillenbuch",
+          "coordinates": {
+            "lat": 48.7445102,
+            "lng": 9.2131869
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "feuerbach-bahnhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Feuerbach Bahnhof",
+      "lines": ["u13", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.813633,
+        "lng": 9.169185
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 717575086
+    },
+    {
+      "id": "arndt-spittastrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Arndt-/Spittastraße",
+      "lines": ["u2", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.774868,
+        "lng": 9.150769
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 31127640
+    },
+    {
+      "id": "beskidenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Beskidenstraße",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.810173,
+        "lng": 9.253788
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 10798199
+    },
+    {
+      "id": "muenster-viadukt",
+      "systemId": "stuttgart-light-rail",
+      "name": "Münster Viadukt",
+      "lines": ["u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.816593,
+        "lng": 9.22223
+      },
+      "features": ["fare-vending"],
+      "osmId": 18353045
+    },
+    {
+      "id": "killesberg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Killesberg",
+      "lines": ["u15", "u5"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.7994,
+        "lng": 9.171359
+      },
+      "features": ["elevator", "escalator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 18241005,
+      "entrances": [
+        {
+          "id": "osm-1668699397",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7993022,
+            "lng": 9.1704395
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-1750009450",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7994543,
+            "lng": 9.1708939
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3503840957",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7994956,
+            "lng": 9.1728447
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    {
+      "id": "foehrich",
+      "systemId": "stuttgart-light-rail",
+      "name": "Föhrich",
+      "lines": ["u13", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81011,
+        "lng": 9.14988
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26405948
+    },
+    {
+      "id": "friedrichswahl",
+      "systemId": "stuttgart-light-rail",
+      "name": "Friedrichswahl",
+      "lines": ["u15", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.822903,
+        "lng": 9.172823
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26407051
+    },
+    {
+      "id": "geroksruhe",
+      "systemId": "stuttgart-light-rail",
+      "name": "Geroksruhe",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.766224,
+        "lng": 9.201147
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 726825677
+    },
+    {
+      "id": "ostendplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Ostendplatz",
+      "lines": ["u4"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.78657,
+        "lng": 9.20766
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 417704314
+    },
+    {
+      "id": "hohensteinstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Hohensteinstraße",
+      "lines": ["u15", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.82693,
+        "lng": 9.173694
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407049
+    },
+    {
+      "id": "esslinger-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Esslinger Straße",
+      "lines": ["u1", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81222,
+        "lng": 9.269338
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632833
+    },
+    {
+      "id": "kirchtalstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Kirchtalstraße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.83223,
+        "lng": 9.170595
+      },
+      "features": ["escalator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 1540261722,
+      "entrances": [
+        {
+          "id": "osm-2210339438",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.8321247,
+            "lng": 9.171266
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2210339449",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.8322673,
+            "lng": 9.1702915
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2305288059",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.8322288,
+            "lng": 9.1705762
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "stammheim",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stammheim",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.850056,
+        "lng": 9.156231
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1541454118
+    },
+    {
+      "id": "loewentor",
+      "systemId": "stuttgart-light-rail",
+      "name": "Löwentor",
+      "lines": ["u12", "u13", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.807693,
+        "lng": 9.188795
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26789969
+    },
+    {
+      "id": "kelterplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Kelterplatz",
+      "lines": ["u15", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.829693,
+        "lng": 9.17612
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407048
+    },
+    {
+      "id": "steinhaldenfeld",
+      "systemId": "stuttgart-light-rail",
+      "name": "Steinhaldenfeld",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.82836,
+        "lng": 9.231672
+      },
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 26632815
+    },
+    {
+      "id": "auwiesen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Auwiesen",
+      "lines": ["u12", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.83945,
+        "lng": 9.224881
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 18353111
+    },
+    {
+      "id": "leinfelden-frank",
+      "systemId": "stuttgart-light-rail",
+      "name": "Leinfelden Frank",
+      "lines": ["u5"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.707226,
+        "lng": 9.142927
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 265768595
+    },
+    {
+      "id": "erwin-schoettle-platz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Erwin-Schoettle-Platz",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.76288,
+        "lng": 9.160076
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 34580121
+    },
+    {
+      "id": "loewen-markt",
+      "systemId": "stuttgart-light-rail",
+      "name": "Löwen-Markt",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81373,
+        "lng": 9.112807
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405923
+    },
+    {
+      "id": "stadionstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Stadionstraße",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.69454,
+        "lng": 9.175464
+      },
+      "features": ["fare-vending"],
+      "osmId": 9330052888
+    },
+    {
+      "id": "hauptfriedhof",
+      "systemId": "stuttgart-light-rail",
+      "name": "Hauptfriedhof",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.819,
+        "lng": 9.237178
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632814
+    },
+    {
+      "id": "maybachstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Maybachstraße",
+      "lines": ["u13", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.81097,
+        "lng": 9.177261
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405960,
+      "entrances": [
+        {
+          "id": "osm-268108171",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8108673,
+            "lng": 9.1774808
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1321831668",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8108293,
+            "lng": 9.1768959
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1750037105",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8110745,
+            "lng": 9.177559
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    {
+      "id": "schozacher-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schozacher Straße",
+      "lines": ["u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.830383,
+        "lng": 9.184923
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 716887778
+    },
+    {
+      "id": "gerlingen",
+      "systemId": "stuttgart-light-rail",
+      "name": "Gerlingen",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80027,
+        "lng": 9.064001
+      },
+      "features": ["elevator", "fare-vending"],
+      "osmId": 243460932
+    },
+    {
+      "id": "vaihingen-viadukt",
+      "systemId": "stuttgart-light-rail",
+      "name": "Vaihingen Viadukt",
+      "lines": ["u1", "u14"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.733253,
+        "lng": 9.118709
+      },
+      "features": ["fare-vending"],
+      "osmId": 34578813
+    },
+    {
+      "id": "schlossplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Schlossplatz",
+      "lines": ["u12", "u15", "u5", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.778976,
+        "lng": 9.179004
+      },
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 265921689,
+      "entrances": [
+        {
+          "id": "osm-418324761",
+          "name": "Börsenplatz (L-Bank)",
+          "coordinates": {
+            "lat": 48.7801649,
+            "lng": 9.1772162
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582340",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7785931,
+            "lng": 9.1783197
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582342",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7791984,
+            "lng": 9.1791684
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    {
+      "id": "daimlerplatz",
+      "systemId": "stuttgart-light-rail",
+      "name": "Daimlerplatz",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.805305,
+        "lng": 9.219015
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 738900597
+    },
+    {
+      "id": "wallgraben",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wallgraben",
+      "lines": ["u12", "u3", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.727005,
+        "lng": 9.125266
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 338786820
+    },
+    {
+      "id": "heutingsheimer-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Heutingsheimer Straße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.842453,
+        "lng": 9.159312
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1540744965
+    },
+    {
+      "id": "neckarpark",
+      "systemId": "stuttgart-light-rail",
+      "name": "NeckarPark (Stadion)",
+      "lines": ["u19"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.793682,
+        "lng": 9.225258
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 722934089
+    },
+    {
+      "id": "sigmaringer-strasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Sigmaringer Straße",
+      "lines": ["u3"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.728718,
+        "lng": 9.153231
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 9936394
+    },
+    {
+      "id": "wilhelma",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wilhelma",
+      "lines": ["u13", "u14", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.804005,
+        "lng": 9.208289
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 3895357042
+    },
+    {
+      "id": "pragsattel",
+      "systemId": "stuttgart-light-rail",
+      "name": "Pragsattel",
+      "lines": ["u13", "u15", "u16", "u6", "u7"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.809475,
+        "lng": 9.18328
+      },
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 26789306
+    },
+    {
+      "id": "mineralbaeder",
+      "systemId": "stuttgart-light-rail",
+      "name": "Mineralbäder (Naturkundemuseum)",
+      "lines": ["u1", "u14", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.796932,
+        "lng": 9.205728
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 10798229
+    },
+    {
+      "id": "wasenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Wasenstraße",
+      "lines": ["u13", "u4", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.776093,
+        "lng": 9.243745
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 279915707
+    },
+    {
+      "id": "nellingen-technische-akademie",
+      "systemId": "stuttgart-light-rail",
+      "name": "Nellingen Technische Akademie",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.71522,
+        "lng": 9.289802
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 271464257
+    },
+    {
       "id": "charlottenplatz",
       "systemId": "stuttgart-light-rail",
       "name": "Charlottenplatz",
-      "osmId": 20276002,
-      "lines": ["u11", "u12", "u14", "u15", "u2", "u4", "u5", "u6", "u7"],
+      "lines": ["u12", "u14", "u15", "u2", "u4", "u5", "u6", "u7"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7759111,
-        "lng": 9.1829348
+        "lat": 48.776276,
+        "lng": 9.182911
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20276002,
       "entrances": [
         {
           "id": "osm-3028124071",
@@ -106,17 +2919,147 @@
       ]
     },
     {
+      "id": "heidehofstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Heidehofstraße",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.77883,
+        "lng": 9.192694
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3224912067
+    },
+    {
+      "id": "beethovenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Beethovenstraße",
+      "lines": ["u2", "u9"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.777218,
+        "lng": 9.133333
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21286538
+    },
+    {
+      "id": "glockenstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Glockenstraße (Mahle)",
+      "lines": ["u13", "u16"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80807,
+        "lng": 9.204237
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26786753
+    },
+    {
+      "id": "bubenbad",
+      "systemId": "stuttgart-light-rail",
+      "name": "Bubenbad",
+      "lines": ["u15"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.773464,
+        "lng": 9.194751
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 279898615
+    },
+    {
+      "id": "obere-ziegelei",
+      "systemId": "stuttgart-light-rail",
+      "name": "Obere Ziegelei",
+      "lines": ["u19", "u2"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.815155,
+        "lng": 9.235355
+      },
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26632811
+    },
+    {
+      "id": "blick",
+      "systemId": "stuttgart-light-rail",
+      "name": "Blick",
+      "lines": ["u13"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.793175,
+        "lng": 9.24211
+      },
+      "features": ["elevator", "fare-vending"],
+      "osmId": 306271971
+    },
+    {
+      "id": "mittnachtstrasse",
+      "systemId": "stuttgart-light-rail",
+      "name": "Mittnachtstraße",
+      "lines": ["u12"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.797928,
+        "lng": 9.190152
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 726825698
+    },
+    {
+      "id": "enbw-city",
+      "systemId": "stuttgart-light-rail",
+      "name": "EnBW City",
+      "lines": ["u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.711723,
+        "lng": 9.167469
+      },
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 662437120
+    },
+    {
+      "id": "ebitzweg",
+      "systemId": "stuttgart-light-rail",
+      "name": "Ebitzweg",
+      "lines": ["u13"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.803715,
+        "lng": 9.232076
+      },
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1086549974
+    },
+    {
+      "id": "giebel",
+      "systemId": "stuttgart-light-rail",
+      "name": "Giebel",
+      "lines": ["u13", "u16", "u6"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.80263,
+        "lng": 9.087905
+      },
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 2375852755
+    },
+    {
       "id": "hauptbahnhof",
       "systemId": "stuttgart-light-rail",
       "name": "Hauptbahnhof (Arnulf-Klett-Platz)",
-      "osmId": 20968427,
-      "lines": ["u1", "u11", "u12", "u15", "u5", "u6", "u7", "u9"],
+      "lines": ["u1", "u12", "u15", "u5", "u6", "u7", "u9"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7833047,
-        "lng": 9.1805953
+        "lat": 48.78316,
+        "lng": 9.181124
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20968427,
       "entrances": [
         {
           "id": "osm-440975038",
@@ -265,371 +3208,56 @@
       ]
     },
     {
-      "id": "neckartor",
+      "id": "sieglestrasse",
       "systemId": "stuttgart-light-rail",
-      "name": "Neckartor",
-      "osmId": 20956735,
-      "lines": ["u1", "u11", "u14", "u2", "u4", "u9"],
+      "name": "Sieglestraße",
+      "lines": ["u15", "u7"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7861224,
-        "lng": 9.1902327
+        "lat": 48.81578,
+        "lng": 9.177539
       },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-255579046",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.7859808,
-            "lng": 9.1903802
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-255579107",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7863523,
-            "lng": 9.1903146
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-455444693",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7861728,
-            "lng": 9.1896239
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-10879795518",
-          "name": "Eingang 4",
-          "coordinates": {
-            "lat": 48.786353,
-            "lng": 9.1901404
-          },
-          "wheelchair": false
-        }
-      ]
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26790152
     },
     {
-      "id": "staatsgalerie",
+      "id": "nordbahnhof",
       "systemId": "stuttgart-light-rail",
-      "name": "Staatsgalerie",
-      "osmId": 9775743219,
-      "lines": ["u1", "u11", "u14", "u2", "u4", "u9"],
+      "name": "Nordbahnhof",
+      "lines": ["u12"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7831051,
-        "lng": 9.1873508
+        "lat": 48.80374,
+        "lng": 9.188059
       },
-      "features": ["elevator", "fare-vending", "transfer"]
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 255577460
     },
     {
-      "id": "stoeckach",
+      "id": "schwab-bebelstrasse",
       "systemId": "stuttgart-light-rail",
-      "name": "Stöckach",
-      "osmId": 303028845,
-      "lines": ["u1", "u11", "u14", "u2", "u4", "u9"],
+      "name": "Schwab-/Bebelstraße",
+      "lines": ["u2", "u4", "u9"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7887646,
-        "lng": 9.1945923
+        "lat": 48.775032,
+        "lng": 9.155019
       },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "bad-cannstatt-wilhelmsplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bad Cannstatt Wilhelmsplatz",
-      "osmId": 137321726,
-      "lines": ["u1", "u13", "u16", "u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8028257,
-        "lng": 9.2159178
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "berliner-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Berliner Platz",
-      "osmId": 273102152,
-      "lines": ["u1", "u11", "u2", "u4", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.77713,
-        "lng": 9.1685494
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "mercedesstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Mercedesstraße",
-      "osmId": 21097466,
-      "lines": ["u1", "u11", "u13", "u16", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8000426,
-        "lng": 9.2118994
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "moehringen-bahnhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Möhringen Bahnhof",
-      "osmId": 9936541,
-      "lines": ["u12", "u3", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7305421,
-        "lng": 9.1469109
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "olgaeck",
-      "systemId": "stuttgart-light-rail",
-      "name": "Olgaeck",
-      "osmId": 662855510,
-      "lines": ["u12", "u15", "u5", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7740392,
-        "lng": 9.1860568
-      },
-      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-482498154",
-          "name": "Charlottenplatz",
-          "coordinates": {
-            "lat": 48.7752732,
-            "lng": 9.1833534
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    {
-      "id": "pragsattel",
-      "systemId": "stuttgart-light-rail",
-      "name": "Pragsattel",
-      "osmId": 26789306,
-      "lines": ["u13", "u15", "u16", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8094169,
-        "lng": 9.1832892
-      },
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    {
-      "id": "schlossplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schlossplatz",
-      "osmId": 265921689,
-      "lines": ["u12", "u15", "u5", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7788814,
-        "lng": 9.1790081
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-418324761",
-          "name": "Börsenplatz (L-Bank)",
-          "coordinates": {
-            "lat": 48.7801649,
-            "lng": 9.1772162
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582340",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7785931,
-            "lng": 9.1783197
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582342",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7791984,
-            "lng": 9.1791684
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "vaihinger-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Vaihinger Straße",
-      "osmId": 9994951,
-      "lines": ["u12", "u3", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7277965,
-        "lng": 9.1392469
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "bopser",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bopser",
-      "osmId": 280139053,
-      "lines": ["u12", "u5", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7679386,
-        "lng": 9.1837342
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "degerloch",
-      "systemId": "stuttgart-light-rail",
-      "name": "Degerloch",
-      "osmId": 20970570,
-      "lines": ["u12", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7486122,
-        "lng": 9.168125
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-405589625",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.748473,
-            "lng": 9.167888
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-247693903",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7490455,
-            "lng": 9.1694659
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-247693904",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7492646,
-            "lng": 9.1691988
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "degerloch-albstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Degerloch Albstraße",
-      "osmId": 439664668,
-      "lines": ["u12", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7462661,
-        "lng": 9.1631533
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "dobelstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Dobelstraße",
-      "osmId": 20968183,
-      "lines": ["u12", "u5", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7697234,
-        "lng": 9.1860127
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "metzstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Metzstraße",
-      "osmId": 20982241,
-      "lines": ["u1", "u11", "u14", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7921922,
-        "lng": 9.2005186
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "mineralbaeder",
-      "systemId": "stuttgart-light-rail",
-      "name": "Mineralbäder (Naturkundemuseum)",
-      "osmId": 10798229,
-      "lines": ["u1", "u11", "u14", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7970219,
-        "lng": 9.2060162
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "peregrinastrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Peregrinastraße",
-      "osmId": 13355384,
-      "lines": ["u12", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7442122,
-        "lng": 9.1598187
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "pragfriedhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Pragfriedhof",
-      "osmId": 5539414145,
-      "lines": ["u15", "u5", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7982197,
-        "lng": 9.1826472
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 31127642
     },
     {
       "id": "rathaus",
       "systemId": "stuttgart-light-rail",
       "name": "Rathaus",
-      "osmId": 20957377,
-      "lines": ["u11", "u14", "u2", "u4"],
+      "lines": ["u14", "u2", "u4"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7735428,
-        "lng": 9.1798189
+        "lat": 48.773647,
+        "lng": 9.180019
       },
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20957377,
       "entrances": [
         {
           "id": "osm-303808186",
@@ -706,1172 +3334,134 @@
       ]
     },
     {
-      "id": "riedsee",
+      "id": "wangener-landhausstrasse",
       "systemId": "stuttgart-light-rail",
-      "name": "Riedsee",
-      "osmId": 9936645,
-      "lines": ["u12", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7329786,
-        "lng": 9.1505075
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "rotebuehlplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Rotebühlplatz",
-      "osmId": 78679799,
-      "lines": ["u1", "u11", "u2", "u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7744385,
-        "lng": 9.1727532
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-647308536",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7748116,
-            "lng": 9.1710178
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-647308545",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7751405,
-            "lng": 9.1722068
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-1621863003",
-          "name": "Rotebühlplatz (Stadtmitte)",
-          "coordinates": {
-            "lat": 48.7738077,
-            "lng": 9.1739115
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1621899309",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7749218,
-            "lng": 9.1711164
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-1989724631",
-          "name": "Rotebühlplatz (Stadtmitte)",
-          "coordinates": {
-            "lat": 48.773813,
-            "lng": 9.1745094
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3034475420",
-          "name": "Rotebühlplatz (Stadtmitte)",
-          "coordinates": {
-            "lat": 48.7740125,
-            "lng": 9.1741788
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3034475421",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7744821,
-            "lng": 9.1717517
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3034475422",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7747041,
-            "lng": 9.1720933
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3034475423",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.774836,
-            "lng": 9.1722584
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3657852735",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7755541,
-            "lng": 9.1712823
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "sonnenberg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Sonnenberg",
-      "osmId": 13355377,
-      "lines": ["u12", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.740692,
-        "lng": 9.1529782
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "stadtbibliothek",
-      "systemId": "stuttgart-light-rail",
-      "name": "Stadtbibliothek",
-      "osmId": 33327666,
-      "lines": ["u15", "u5", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7906411,
-        "lng": 9.1812065
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-425530634",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.790829,
-            "lng": 9.1806633
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-443132352",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.790209,
-            "lng": 9.1807551
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2907106469",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7905392,
-            "lng": 9.180528
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3377834929",
-          "name": "Eingang 4",
-          "coordinates": {
-            "lat": 48.7907956,
-            "lng": 9.1808719
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "weinsteige",
-      "systemId": "stuttgart-light-rail",
-      "name": "Weinsteige",
-      "osmId": 498454608,
-      "lines": ["u12", "u5", "u6", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7548782,
-        "lng": 9.1746675
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "bockelstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bockelstraße",
-      "osmId": 26407067,
-      "lines": ["u15", "u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7397483,
-        "lng": 9.2277185
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "boersenplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Börsenplatz",
-      "osmId": 2145685316,
-      "lines": ["u1", "u11", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7801433,
-        "lng": 9.1764258
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-320286171",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7804733,
-            "lng": 9.176067
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-418324761",
-          "name": "Börsenplatz (L-Bank)",
-          "coordinates": {
-            "lat": 48.7801649,
-            "lng": 9.1772162
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582340",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7785931,
-            "lng": 9.1783197
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582342",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7791984,
-            "lng": 9.1791684
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582347",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7809994,
-            "lng": 9.1762302
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2145685310",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7798416,
-            "lng": 9.1758929
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2145685315",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7799814,
-            "lng": 9.1755273
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "feuerbach-bahnhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Feuerbach Bahnhof",
-      "osmId": 717575086,
-      "lines": ["u13", "u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8138405,
-        "lng": 9.1678619
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "feuerbach-pfostenwaeldle",
-      "systemId": "stuttgart-light-rail",
-      "name": "Feuerbach Pfostenwäldle",
-      "osmId": 26405936,
-      "lines": ["u13", "u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8122897,
-        "lng": 9.1348589
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "foehrich",
-      "systemId": "stuttgart-light-rail",
-      "name": "Föhrich",
-      "osmId": 26405948,
-      "lines": ["u13", "u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8100904,
-        "lng": 9.149936
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "heumaden",
-      "systemId": "stuttgart-light-rail",
-      "name": "Heumaden",
-      "osmId": 26407066,
-      "lines": ["u15", "u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7381999,
-        "lng": 9.2338332
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "loewentor",
-      "systemId": "stuttgart-light-rail",
-      "name": "Löwentor",
-      "osmId": 26789969,
-      "lines": ["u12", "u13", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8078083,
-        "lng": 9.188181
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "loewentorbruecke",
-      "systemId": "stuttgart-light-rail",
-      "name": "Löwentorbrücke",
-      "osmId": 38901889,
-      "lines": ["u15", "u6", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8037406,
-        "lng": 9.1833994
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "maybachstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Maybachstraße",
-      "osmId": 26405960,
-      "lines": ["u13", "u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8109708,
-        "lng": 9.1771406
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-268108171",
-          "name": "Maybachstraße",
-          "coordinates": {
-            "lat": 48.8108673,
-            "lng": 9.1774808
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1321831668",
-          "name": "Maybachstraße",
-          "coordinates": {
-            "lat": 48.8108293,
-            "lng": 9.1768959
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1750037105",
-          "name": "Maybachstraße",
-          "coordinates": {
-            "lat": 48.8110745,
-            "lng": 9.177559
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    {
-      "id": "rosensteinbruecke",
-      "systemId": "stuttgart-light-rail",
-      "name": "Rosensteinbrücke",
-      "osmId": 26782694,
-      "lines": ["u13", "u14", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8060526,
-        "lng": 9.211296
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "ruhbank",
-      "systemId": "stuttgart-light-rail",
-      "name": "Ruhbank (Fernsehturm)",
-      "osmId": 675759,
-      "lines": ["u15", "u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7532731,
-        "lng": 9.1950072
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "schemppstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schemppstraße",
-      "osmId": 274246540,
-      "lines": ["u15", "u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7412827,
-        "lng": 9.2187834
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-792090137",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.7408961,
-            "lng": 9.2193112
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-879330331",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7415862,
-            "lng": 9.218247
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "silberwald",
-      "systemId": "stuttgart-light-rail",
-      "name": "Silberwald",
-      "osmId": 26407070,
-      "lines": ["u15", "u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7481262,
-        "lng": 9.207464
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "sillenbuch",
-      "systemId": "stuttgart-light-rail",
-      "name": "Sillenbuch",
-      "osmId": 26407069,
-      "lines": ["u15", "u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7445009,
-        "lng": 9.2131816
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-2131448756",
-          "name": "Sillenbuch",
-          "coordinates": {
-            "lat": 48.7445102,
-            "lng": 9.2131869
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "sportpark-feuerbach",
-      "systemId": "stuttgart-light-rail",
-      "name": "Sportpark Feuerbach",
-      "osmId": 717575294,
-      "lines": ["u13", "u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8098559,
-        "lng": 9.142208
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "ssb-zentrum",
-      "systemId": "stuttgart-light-rail",
-      "name": "SSB-Zentrum",
-      "osmId": 9994979,
-      "lines": ["u12", "u3", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7268746,
-        "lng": 9.1292875
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "uff-kirchhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Uff-Kirchhof",
-      "osmId": 722970518,
-      "lines": ["u1", "u13", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8049656,
-        "lng": 9.2257288
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "vaihingen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Vaihingen",
-      "osmId": 9995173,
-      "lines": ["u14", "u3", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7262245,
-        "lng": 9.1118172
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wallgraben",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wallgraben",
-      "osmId": 338786820,
-      "lines": ["u12", "u3", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7269684,
-        "lng": 9.1256902
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wasenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wasenstraße",
-      "osmId": 279915707,
-      "lines": ["u13", "u4", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7754775,
-        "lng": 9.244645
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wilhelm-geiger-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wilhelm-Geiger-Platz",
-      "osmId": 3800106789,
-      "lines": ["u13", "u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8114493,
-        "lng": 9.1585118
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wilhelma",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wilhelma",
-      "osmId": 3895357042,
-      "lines": ["u13", "u14", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8038756,
-        "lng": 9.2080887
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "antwerpener-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Antwerpener Straße",
-      "osmId": 10798221,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8084425,
-        "lng": 9.2431816
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "arndt-spittastrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Arndt-/Spittastraße",
-      "osmId": 31127640,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.774872,
-        "lng": 9.1508336
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "augsburger-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Augsburger Platz",
-      "osmId": 600573126,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8058885,
-        "lng": 9.2325246
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "auwiesen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Auwiesen",
-      "osmId": 18353111,
-      "lines": ["u12", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8394249,
-        "lng": 9.2248912
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "beethovenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Beethovenstraße",
-      "osmId": 21286538,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7772092,
-        "lng": 9.1333744
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "bergfriedhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bergfriedhof",
-      "osmId": 741569484,
+      "name": "Wangener-/Landhausstraße",
       "lines": ["u4", "u9"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7890966,
-        "lng": 9.2050219
+        "lat": 48.7824,
+        "lng": 9.22268
       },
-      "features": ["fare-vending", "transfer"]
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 89414027
     },
     {
-      "id": "bergheimer-hof",
+      "id": "ostheim-leo-vetter-bad",
       "systemId": "stuttgart-light-rail",
-      "name": "Bergheimer Hof",
-      "osmId": 255030848,
-      "lines": ["u16", "u6"],
+      "name": "Ostheim Leo-Vetter-Bad",
+      "lines": ["u4"],
       "status": "active",
       "coordinates": {
-        "lat": 48.804185,
-        "lng": 9.1011199
+        "lat": 48.785053,
+        "lng": 9.210966
       },
-      "features": ["fare-vending", "transfer"]
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 3420680494
     },
     {
-      "id": "beskidenstrasse",
+      "id": "budapester-platz",
       "systemId": "stuttgart-light-rail",
-      "name": "Beskidenstraße",
-      "osmId": 10798199,
-      "lines": ["u1", "u16"],
+      "name": "Budapester Platz",
+      "lines": ["u12"],
       "status": "active",
       "coordinates": {
-        "lat": 48.8102072,
-        "lng": 9.2540353
+        "lat": 48.79045,
+        "lng": 9.185687
       },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "bihlplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bihlplatz",
-      "osmId": 443826010,
-      "lines": ["u1", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7591738,
-        "lng": 9.1505842
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "borsigstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Borsigstraße",
-      "osmId": 33327551,
-      "lines": ["u15", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8193877,
-        "lng": 9.1754305
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "botnang",
-      "systemId": "stuttgart-light-rail",
-      "name": "Botnang",
-      "osmId": 21281018,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7786189,
-        "lng": 9.1219176
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "brendle",
-      "systemId": "stuttgart-light-rail",
-      "name": "Brendle (Großmarkt)",
-      "osmId": 26407020,
-      "lines": ["u4", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7815536,
-        "lng": 9.226744
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "cannstatter-wasen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Cannstatter Wasen",
-      "osmId": 21097477,
-      "lines": ["u11", "u19"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7965011,
-        "lng": 9.2201282
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "daimlerplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Daimlerplatz",
-      "osmId": 738900597,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8051921,
-        "lng": 9.2188501
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "eltinger-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Eltinger Straße",
-      "osmId": 259711280,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.779252,
-        "lng": 9.1268579
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "erwin-schoettle-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Erwin-Schoettle-Platz",
-      "osmId": 34580121,
-      "lines": ["u1", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7629051,
-        "lng": 9.1600669
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "esslinger-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Esslinger Straße",
-      "osmId": 26632833,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8122298,
-        "lng": 9.2693149
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "fellbach-lutherkirche",
-      "systemId": "stuttgart-light-rail",
-      "name": "Fellbach Lutherkirche",
-      "osmId": 26632840,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8090278,
-        "lng": 9.2764263
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "friedrichswahl",
-      "systemId": "stuttgart-light-rail",
-      "name": "Friedrichswahl",
-      "osmId": 26407051,
-      "lines": ["u15", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8226052,
-        "lng": 9.1730136
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "giebel",
-      "systemId": "stuttgart-light-rail",
-      "name": "Giebel",
-      "osmId": 2375852755,
-      "lines": ["u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8026985,
-        "lng": 9.088132
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "glockenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Glockenstraße (Mahle)",
-      "osmId": 26786753,
-      "lines": ["u13", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8080962,
-        "lng": 9.2045002
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "gnesener-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Gnesener Straße",
-      "osmId": 738900600,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8124809,
-        "lng": 9.2285722
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "hauptfriedhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Hauptfriedhof",
-      "osmId": 26632814,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8190523,
-        "lng": 9.2372308
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "hedelfingen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Hedelfingen",
-      "osmId": 279930071,
-      "lines": ["u13", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7601381,
-        "lng": 9.2541826
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "herderplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Herderplatz",
-      "osmId": 21288473,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7722438,
-        "lng": 9.1413878
-      },
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    {
-      "id": "heslach-vogelrain",
-      "systemId": "stuttgart-light-rail",
-      "name": "Heslach Vogelrain",
-      "osmId": 298691598,
-      "lines": ["u1", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7536552,
-        "lng": 9.138427
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "hofen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Hofen",
-      "osmId": 18353086,
-      "lines": ["u12", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8362567,
-        "lng": 9.2219339
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "hohensteinstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Hohensteinstraße",
-      "osmId": 26407049,
-      "lines": ["u15", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8270599,
-        "lng": 9.1737174
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "hoehenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Höhenstraße",
-      "osmId": 10798156,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8118699,
-        "lng": 9.2626166
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "im-degen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Im Degen",
-      "osmId": 26632844,
-      "lines": ["u4", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.77792,
-        "lng": 9.2335445
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "inselstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Inselstraße",
-      "osmId": 26632845,
-      "lines": ["u4", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7758932,
-        "lng": 9.2383088
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "jurastrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Jurastraße",
-      "osmId": 9995142,
-      "lines": ["u3", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7289486,
-        "lng": 9.1172043
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3736798282
     },
     {
       "id": "karl-olga-krankenhaus",
       "systemId": "stuttgart-light-rail",
       "name": "Karl-Olga-Krankenhaus",
-      "osmId": 741569470,
       "lines": ["u4", "u9"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7891641,
-        "lng": 9.2021363
+        "lat": 48.789196,
+        "lng": 9.201749
       },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 741569470
     },
     {
-      "id": "kursaal",
+      "id": "botnang",
       "systemId": "stuttgart-light-rail",
-      "name": "Kursaal",
-      "osmId": 738900576,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8091015,
-        "lng": 9.222336
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "landauer-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Landauer Straße",
-      "osmId": 26405931,
-      "lines": ["u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.814576,
-        "lng": 9.1239686
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "lindpaintnerstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Lindpaintnerstraße",
-      "osmId": 21286549,
+      "name": "Botnang",
       "lines": ["u2", "u9"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7741474,
-        "lng": 9.1342526
+        "lat": 48.778645,
+        "lng": 9.122212
       },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21281018
     },
     {
-      "id": "loewen-markt",
+      "id": "schwabenlandhalle",
       "systemId": "stuttgart-light-rail",
-      "name": "Löwen-Markt",
-      "osmId": 26405923,
-      "lines": ["u16", "u6"],
+      "name": "Schwabenlandhalle",
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
-        "lat": 48.8137052,
-        "lng": 9.1128165
+        "lat": 48.80883,
+        "lng": 9.270668
       },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26632839
     },
     {
-      "id": "marienplatz",
+      "id": "muehlhausen",
       "systemId": "stuttgart-light-rail",
-      "name": "Marienplatz",
-      "osmId": 69463507,
-      "lines": ["u1", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7642282,
-        "lng": 9.1677808
-      },
-      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-278819196",
-          "name": "Marienplatz",
-          "coordinates": {
-            "lat": 48.7643403,
-            "lng": 9.1684559
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3431207862",
-          "name": "Marienplatz",
-          "coordinates": {
-            "lat": 48.764413,
-            "lng": 9.1679957
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1286387402",
-          "name": "Marienplatz",
-          "coordinates": {
-            "lat": 48.7642452,
-            "lng": 9.1685214
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "max-eyth-see",
-      "systemId": "stuttgart-light-rail",
-      "name": "Max-Eyth-See",
-      "osmId": 20283010,
+      "name": "Mühlhausen",
       "lines": ["u12", "u14"],
       "status": "active",
       "coordinates": {
-        "lat": 48.8328698,
-        "lng": 9.2164797
+        "lat": 48.841187,
+        "lng": 9.230225
       },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 18353108
     },
     {
-      "id": "milloeckerstrasse",
+      "id": "wimpfener-strasse",
       "systemId": "stuttgart-light-rail",
-      "name": "Millöckerstraße",
-      "osmId": 21281027,
-      "lines": ["u2", "u9"],
+      "name": "Wimpfener Straße",
+      "lines": ["u15"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7794197,
-        "lng": 9.1318547
+        "lat": 48.83825,
+        "lng": 9.161037
       },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1540738738
+    },
+    {
+      "id": "parksiedlung",
+      "systemId": "stuttgart-light-rail",
+      "name": "Parksiedlung",
+      "lines": ["u7", "u8"],
+      "status": "active",
+      "coordinates": {
+        "lat": 48.72452,
+        "lng": 9.271629
+      },
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 270196725
     },
     {
       "id": "moehringen-freibad",
       "systemId": "stuttgart-light-rail",
       "name": "Möhringen Freibad",
-      "osmId": 26240192,
       "lines": ["u5", "u6"],
       "status": "active",
       "coordinates": {
-        "lat": 48.7169245,
-        "lng": 9.1413896
+        "lat": 48.716915,
+        "lng": 9.141454
       },
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26240192,
       "entrances": [
         {
           "id": "osm-4980152699",
@@ -1883,1596 +3473,6 @@
           "wheelchair": true
         }
       ]
-    },
-    {
-      "id": "muehlhausen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Mühlhausen",
-      "osmId": 18353108,
-      "lines": ["u12", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8412991,
-        "lng": 9.2306456
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "neckarpark",
-      "systemId": "stuttgart-light-rail",
-      "name": "NeckarPark (Stadion)",
-      "osmId": 722934089,
-      "lines": ["u11", "u19"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7936564,
-        "lng": 9.2254821
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "nellingen-ostfildern",
-      "systemId": "stuttgart-light-rail",
-      "name": "Nellingen Ostfildern",
-      "osmId": 253915614,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7158552,
-        "lng": 9.2957697
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "nellingen-technische-akademie",
-      "systemId": "stuttgart-light-rail",
-      "name": "Nellingen Technische Akademie",
-      "osmId": 271464257,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7152478,
-        "lng": 9.2897776
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "neugereut",
-      "systemId": "stuttgart-light-rail",
-      "name": "Neugereut",
-      "osmId": 738900577,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.83213,
-        "lng": 9.2364813
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "nuernberger-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Nürnberger Straße",
-      "osmId": 600447956,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8068856,
-        "lng": 9.2368715
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "obere-ziegelei",
-      "systemId": "stuttgart-light-rail",
-      "name": "Obere Ziegelei",
-      "osmId": 26632811,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8152048,
-        "lng": 9.2354816
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "oesterreichischer-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Österreichischer Platz",
-      "osmId": 281150040,
-      "lines": ["u1", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7703726,
-        "lng": 9.1759984
-      },
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-303808198",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.7702457,
-            "lng": 9.1747018
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1686344723",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7697675,
-            "lng": 9.1751287
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4291725891",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7699804,
-            "lng": 9.1754545
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-5728713298",
-          "name": "Eingang 4",
-          "coordinates": {
-            "lat": 48.7711414,
-            "lng": 9.1764985
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    {
-      "id": "parksiedlung",
-      "systemId": "stuttgart-light-rail",
-      "name": "Parksiedlung",
-      "osmId": 270196725,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7245625,
-        "lng": 9.271656
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "rastatter-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Rastatter Straße",
-      "osmId": 26405805,
-      "lines": ["u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8102885,
-        "lng": 9.1081437
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "rohrer-weg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Rohrer Weg",
-      "osmId": 26240181,
-      "lines": ["u5", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7221253,
-        "lng": 9.1366919
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "rosensteinpark",
-      "systemId": "stuttgart-light-rail",
-      "name": "Rosensteinpark",
-      "osmId": 726509486,
-      "lines": ["u13", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8068778,
-        "lng": 9.1968106
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "ruit",
-      "systemId": "stuttgart-light-rail",
-      "name": "Ruit",
-      "osmId": 113591455,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7310117,
-        "lng": 9.2538157
-      },
-      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-263806052",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7310826,
-            "lng": 9.2535796
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-5541970271",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7312905,
-            "lng": 9.2532278
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4379712492",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7309663,
-            "lng": 9.253699
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5541970270",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7307237,
-            "lng": 9.2542174
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    {
-      "id": "ruit-zinsholz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Ruit Zinsholz",
-      "osmId": 270599198,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7263402,
-        "lng": 9.2619524
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "salamanderweg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Salamanderweg",
-      "osmId": 1381070326,
-      "lines": ["u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8026247,
-        "lng": 9.0931963
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "scharnhauser-park",
-      "systemId": "stuttgart-light-rail",
-      "name": "Scharnhauser Park",
-      "osmId": 66828122,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7204462,
-        "lng": 9.2726097
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "scharnhauser-park-kreuzbrunnen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Scharnhauser Park Kreuzbrunnen",
-      "osmId": 66828113,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7151469,
-        "lng": 9.2732183
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "schloss-johannesstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schloss-/Johannesstraße",
-      "osmId": 31127214,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7765261,
-        "lng": 9.1628387
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "schwab-bebelstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schwab-/Bebelstraße",
-      "osmId": 31127642,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7750511,
-        "lng": 9.155187
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "schwabenlandhalle",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schwabenlandhalle",
-      "osmId": 26632839,
-      "lines": ["u1", "u16"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8087951,
-        "lng": 9.2705693
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "sieglestrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Sieglestraße",
-      "osmId": 26790152,
-      "lines": ["u15", "u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8163153,
-        "lng": 9.1771689
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "stadtwerke-stuttgart",
-      "systemId": "stuttgart-light-rail",
-      "name": "Stadtwerke Stuttgart",
-      "osmId": 26407025,
-      "lines": ["u13", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7670486,
-        "lng": 9.2489377
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "steinhaldenfeld",
-      "systemId": "stuttgart-light-rail",
-      "name": "Steinhaldenfeld",
-      "osmId": 26632815,
-      "lines": ["u19", "u2"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8283851,
-        "lng": 9.2317192
-      },
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    {
-      "id": "suedheimer-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Südheimer Platz",
-      "osmId": 34580107,
-      "lines": ["u1", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.75661,
-        "lng": 9.1434785
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "untertuerkheim-bf",
-      "systemId": "stuttgart-light-rail",
-      "name": "Untertürkheim Bf",
-      "osmId": 26407028,
-      "lines": ["u13", "u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7801455,
-        "lng": 9.2491563
-      },
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    {
-      "id": "vogelsang",
-      "systemId": "stuttgart-light-rail",
-      "name": "Vogelsang",
-      "osmId": 21288478,
-      "lines": ["u2", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.774686,
-        "lng": 9.1459246
-      },
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wagrainaecker",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wagrainäcker",
-      "osmId": 246282061,
-      "lines": ["u12", "u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8294603,
-        "lng": 9.2119869
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "waldau",
-      "systemId": "stuttgart-light-rail",
-      "name": "Waldau",
-      "osmId": 675756,
-      "lines": ["u7", "u8"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7516105,
-        "lng": 9.1890356
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wangen-marktplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wangen Marktplatz",
-      "osmId": 26407024,
-      "lines": ["u13", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7716745,
-        "lng": 9.245325
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wangener-landhausstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wangener-/Landhausstraße",
-      "osmId": 89414027,
-      "lines": ["u4", "u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7825366,
-        "lng": 9.2224135
-      },
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    {
-      "id": "wolfbusch",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wolfbusch",
-      "osmId": 282943399,
-      "lines": ["u16", "u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8077856,
-        "lng": 9.1056199
-      },
-      "features": ["fare-vending", "transfer"]
-    },
-    {
-      "id": "aldingen-brueckenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Aldingen Brückenstraße",
-      "osmId": 267174590,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8667467,
-        "lng": 9.258075
-      },
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "aldingen-hornbach",
-      "systemId": "stuttgart-light-rail",
-      "name": "Aldingen Hornbach",
-      "osmId": 18353124,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8569194,
-        "lng": 9.2490361
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "aldingen-muehle",
-      "systemId": "stuttgart-light-rail",
-      "name": "Aldingen Mühle",
-      "osmId": 18353128,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8614309,
-        "lng": 9.2536161
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "blick",
-      "systemId": "stuttgart-light-rail",
-      "name": "Blick",
-      "osmId": 306271971,
-      "lines": ["u13"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7934859,
-        "lng": 9.2418338
-      },
-      "features": ["elevator", "fare-vending"]
-    },
-    {
-      "id": "bottroper-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bottroper Straße",
-      "osmId": 2457964058,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8208068,
-        "lng": 9.2096477
-      },
-      "features": ["elevator", "fare-vending"]
-    },
-    {
-      "id": "breitwiesen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Breitwiesen",
-      "osmId": 266035343,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8024161,
-        "lng": 9.0820723
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "bubenbad",
-      "systemId": "stuttgart-light-rail",
-      "name": "Bubenbad",
-      "osmId": 279898615,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7737713,
-        "lng": 9.1944102
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "budapester-platz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Budapester Platz",
-      "osmId": 3736798282,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7904393,
-        "lng": 9.1862418
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "duerrlewang",
-      "systemId": "stuttgart-light-rail",
-      "name": "Dürrlewang",
-      "osmId": 3510348490,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7187509,
-        "lng": 9.1179017
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "ebitzweg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Ebitzweg",
-      "osmId": 1086549974,
-      "lines": ["u13"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8037322,
-        "lng": 9.2321137
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "elbestrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Elbestraße",
-      "osmId": 18353056,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8255555,
-        "lng": 9.2128746
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "enbw-city",
-      "systemId": "stuttgart-light-rail",
-      "name": "EnBW City",
-      "osmId": 662437120,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7117501,
-        "lng": 9.1675255
-      },
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "engelboldstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Engelboldstraße",
-      "osmId": 34578825,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7376993,
-        "lng": 9.1282135
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "eszet",
-      "systemId": "stuttgart-light-rail",
-      "name": "Eszet",
-      "osmId": 26407034,
-      "lines": ["u13"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7875876,
-        "lng": 9.2466187
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "eugensplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Eugensplatz",
-      "osmId": 3224912063,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.777974,
-        "lng": 9.190489
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "europaplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Europaplatz",
-      "osmId": 263250079,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7121354,
-        "lng": 9.1603041
-      },
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "fasanenhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Fasanenhof (Bonhoefferkirche)",
-      "osmId": 662424904,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7103807,
-        "lng": 9.152997
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "fauststrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Fauststraße",
-      "osmId": 34578810,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7319475,
-        "lng": 9.1153847
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "flughafen-messe",
-      "systemId": "stuttgart-light-rail",
-      "name": "Flughafen/Messe",
-      "osmId": 9330061530,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.6916696,
-        "lng": 9.191189
-      },
-      "features": ["elevator", "fare-vending"]
-    },
-    {
-      "id": "freiberg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Freiberg",
-      "osmId": 26407042,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8441517,
-        "lng": 9.2105957
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "freibergstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Freibergstraße",
-      "osmId": 18353052,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8243062,
-        "lng": 9.2219748
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "fuerfelder-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Fürfelder Straße",
-      "osmId": 26407047,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8322457,
-        "lng": 9.1919624
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "gaisburg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Gaisburg",
-      "osmId": 417674796,
-      "lines": ["u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7839051,
-        "lng": 9.2155437
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "gerlingen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Gerlingen",
-      "osmId": 243460932,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8001787,
-        "lng": 9.0639446
-      },
-      "features": ["elevator", "fare-vending"]
-    },
-    {
-      "id": "gerlingen-siedlung",
-      "systemId": "stuttgart-light-rail",
-      "name": "Gerlingen Siedlung",
-      "osmId": 243460938,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8012711,
-        "lng": 9.0728284
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "geroksruhe",
-      "systemId": "stuttgart-light-rail",
-      "name": "Geroksruhe",
-      "osmId": 726825677,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7662124,
-        "lng": 9.2010791
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "hallschlag",
-      "systemId": "stuttgart-light-rail",
-      "name": "Hallschlag",
-      "osmId": 2457943460,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8181625,
-        "lng": 9.2043237
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "heidehofstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Heidehofstraße",
-      "osmId": 3224912067,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7787782,
-        "lng": 9.1926448
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "heutingsheimer-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Heutingsheimer Straße",
-      "osmId": 1540744965,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8424416,
-        "lng": 9.1593042
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "himmelsleiter",
-      "systemId": "stuttgart-light-rail",
-      "name": "Himmelsleiter",
-      "osmId": 26407044,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8373853,
-        "lng": 9.2015348
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "hoelderlinplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Hölderlinplatz",
-      "osmId": 278490359,
-      "lines": ["u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7816847,
-        "lng": 9.1583395
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "kaltental",
-      "systemId": "stuttgart-light-rail",
-      "name": "Kaltental",
-      "osmId": 34580083,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7397607,
-        "lng": 9.1300761
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "kelterplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Kelterplatz",
-      "osmId": 26407048,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8297125,
-        "lng": 9.1761137
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "kienbachstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Kienbachstraße",
-      "osmId": 26407038,
-      "lines": ["u13"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7999913,
-        "lng": 9.234251
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "killesberg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Killesberg",
-      "osmId": 18241005,
-      "lines": ["u5"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7994087,
-        "lng": 9.1715901
-      },
-      "features": ["elevator", "escalator", "fare-vending", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-1668699397",
-          "name": "Killesberg",
-          "coordinates": {
-            "lat": 48.7993022,
-            "lng": 9.1704395
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-1750009450",
-          "name": "Killesberg",
-          "coordinates": {
-            "lat": 48.7994543,
-            "lng": 9.1708939
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3503840957",
-          "name": "Killesberg",
-          "coordinates": {
-            "lat": 48.7994956,
-            "lng": 9.1728447
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    {
-      "id": "kirchtalstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Kirchtalstraße",
-      "osmId": 1540261722,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.832153,
-        "lng": 9.1708307
-      },
-      "features": ["escalator", "fare-vending", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-2210339438",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.8321247,
-            "lng": 9.171266
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2210339449",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.8322673,
-            "lng": 9.1702915
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2305288059",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.8322288,
-            "lng": 9.1705762
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    {
-      "id": "korntaler-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Korntaler Straße",
-      "osmId": 1541057204,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.846752,
-        "lng": 9.1571718
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "kraftwerk-muenster",
-      "systemId": "stuttgart-light-rail",
-      "name": "Kraftwerk Münster",
-      "osmId": 18353042,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8140646,
-        "lng": 9.2175516
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "landhaus",
-      "systemId": "stuttgart-light-rail",
-      "name": "Landhaus",
-      "osmId": 9936190,
-      "lines": ["u3"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7204138,
-        "lng": 9.1656542
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "lapp-kabel",
-      "systemId": "stuttgart-light-rail",
-      "name": "Lapp Kabel",
-      "osmId": 3512202176,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7223843,
-        "lng": 9.1204675
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "leinf-unteraichen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Leinf. Unteraichen",
-      "osmId": 332616566,
-      "lines": ["u5"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7036932,
-        "lng": 9.1433606
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "leinfelden-bahnhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Leinfelden Bahnhof",
-      "osmId": 3738199384,
-      "lines": ["u5"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.6971178,
-        "lng": 9.1427795
-      },
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "leinfelden-frank",
-      "systemId": "stuttgart-light-rail",
-      "name": "Leinfelden Frank",
-      "osmId": 265768595,
-      "lines": ["u5"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7074596,
-        "lng": 9.1428179
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "leinfelden-neuer-markt",
-      "systemId": "stuttgart-light-rail",
-      "name": "Leinfelden Neuer Markt (EUCHNER)",
-      "osmId": 12250522542,
-      "lines": ["u5"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.6934674,
-        "lng": 9.1464155
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "messe-west",
-      "systemId": "stuttgart-light-rail",
-      "name": "Messe West",
-      "osmId": 9330061520,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.6908885,
-        "lng": 9.1826721
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "milchhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Milchhof",
-      "osmId": 726825811,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7934935,
-        "lng": 9.1899112
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "mittnachtstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Mittnachtstraße",
-      "osmId": 726825698,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.797862,
-        "lng": 9.190177
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "moenchfeld",
-      "systemId": "stuttgart-light-rail",
-      "name": "Mönchfeld",
-      "osmId": 26407041,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8443175,
-        "lng": 9.218034
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "muehlsteg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Mühlsteg",
-      "osmId": 26632799,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8097728,
-        "lng": 9.2157904
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "muenster-rathaus",
-      "systemId": "stuttgart-light-rail",
-      "name": "Münster Rathaus",
-      "osmId": 743056123,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8209977,
-        "lng": 9.2266346
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "muenster-viadukt",
-      "systemId": "stuttgart-light-rail",
-      "name": "Münster Viadukt",
-      "osmId": 18353045,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.816664,
-        "lng": 9.2224831
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "nordbahnhof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Nordbahnhof",
-      "osmId": 255577460,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8032179,
-        "lng": 9.1897256
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "ostendplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Ostendplatz",
-      "osmId": 417704314,
-      "lines": ["u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.786565,
-        "lng": 9.2077495
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "ostheim-leo-vetter-bad",
-      "systemId": "stuttgart-light-rail",
-      "name": "Ostheim Leo-Vetter-Bad",
-      "osmId": 3420680494,
-      "lines": ["u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7850092,
-        "lng": 9.211023
-      },
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "payerstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Payerstraße",
-      "osmId": 87388046,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7693249,
-        "lng": 9.1952857
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "plieningen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Plieningen",
-      "osmId": 1745866243,
-      "lines": ["u3"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7103293,
-        "lng": 9.2017701
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "plieninger-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Plieninger Straße",
-      "osmId": 9936195,
-      "lines": ["u3"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7242528,
-        "lng": 9.1566932
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "raitelsberg",
-      "systemId": "stuttgart-light-rail",
-      "name": "Raitelsberg",
-      "osmId": 89417460,
-      "lines": ["u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7889634,
-        "lng": 9.2122832
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "remseck-neckargroeningen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Remseck Neckargröningen",
-      "osmId": 18353190,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8735078,
-        "lng": 9.2707058
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "riethmuellerhaus",
-      "systemId": "stuttgart-light-rail",
-      "name": "Riethmüllerhaus",
-      "osmId": 1485637818,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8136792,
-        "lng": 9.2037365
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "rosenberg-seidenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Rosenberg-/Seidenstraße",
-      "osmId": 60399583,
-      "lines": ["u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7819775,
-        "lng": 9.1649638
-      },
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "russische-kirche",
-      "systemId": "stuttgart-light-rail",
-      "name": "Russische Kirche",
-      "osmId": 60399595,
-      "lines": ["u4"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7843271,
-        "lng": 9.1612118
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "salzaecker",
-      "systemId": "stuttgart-light-rail",
-      "name": "Salzäcker",
-      "osmId": 9936191,
-      "lines": ["u3"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7216829,
-        "lng": 9.1617633
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "salzwiesenstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Salzwiesenstraße",
-      "osmId": 1540266132,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8363633,
-        "lng": 9.1628153
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "schelmenwasen",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schelmenwasen",
-      "osmId": 662446225,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7077067,
-        "lng": 9.1704284
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "schlachthof",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schlachthof",
-      "osmId": 94849768,
-      "lines": ["u9"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7871893,
-        "lng": 9.2176143
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "schlotterbeckstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schlotterbeckstraße",
-      "osmId": 26407033,
-      "lines": ["u13"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7840663,
-        "lng": 9.2489111
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "schozacher-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Schozacher Straße",
-      "osmId": 716887778,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8303701,
-        "lng": 9.1849312
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "sigmaringer-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Sigmaringer Straße",
-      "osmId": 9936394,
-      "lines": ["u3"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7288038,
-        "lng": 9.1530996
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "stadionstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Stadionstraße",
-      "osmId": 9330052888,
-      "lines": ["u6"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.6945669,
-        "lng": 9.175499
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "stafflenbergstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Stafflenbergstraße",
-      "osmId": 3224912263,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7753792,
-        "lng": 9.1918892
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "stammheim",
-      "systemId": "stuttgart-light-rail",
-      "name": "Stammheim",
-      "osmId": 1541454118,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.850031,
-        "lng": 9.1563042
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "stelle",
-      "systemId": "stuttgart-light-rail",
-      "name": "Stelle",
-      "osmId": 279898521,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7612455,
-        "lng": 9.1997625
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "suttnerstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Suttnerstraße",
-      "osmId": 26407043,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8405986,
-        "lng": 9.2065597
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "tapachstrasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Tapachstraße",
-      "osmId": 26407045,
-      "lines": ["u7"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8339026,
-        "lng": 9.1955436
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "vaihingen-schillerplatz",
-      "systemId": "stuttgart-light-rail",
-      "name": "Vaihingen Schillerplatz",
-      "osmId": 332621606,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.730059,
-        "lng": 9.1127718
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "vaihingen-viadukt",
-      "systemId": "stuttgart-light-rail",
-      "name": "Vaihingen Viadukt",
-      "osmId": 34578813,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.7333229,
-        "lng": 9.1189381
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "waldeck",
-      "systemId": "stuttgart-light-rail",
-      "name": "Waldeck",
-      "osmId": 34580092,
-      "lines": ["u14"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.74494,
-        "lng": 9.1345059
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "wimpfener-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Wimpfener Straße",
-      "osmId": 1540738738,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8382484,
-        "lng": 9.1610008
-      },
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    {
-      "id": "zuffenhausen-rathaus",
-      "systemId": "stuttgart-light-rail",
-      "name": "Zuffenhausen Rathaus",
-      "osmId": 1540261524,
-      "lines": ["u15"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8306774,
-        "lng": 9.174643
-      },
-      "features": ["fare-vending"]
-    },
-    {
-      "id": "zuericher-strasse",
-      "systemId": "stuttgart-light-rail",
-      "name": "Züricher Straße",
-      "osmId": 2457943479,
-      "lines": ["u12"],
-      "status": "active",
-      "coordinates": {
-        "lat": 48.8104235,
-        "lng": 9.2000139
-      },
-      "features": ["fare-vending"]
     }
   ]
 }

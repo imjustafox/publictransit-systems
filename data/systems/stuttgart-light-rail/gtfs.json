@@ -1,0 +1,13 @@
+{
+  "static": {
+    "url_secret": "STUTTGART_GTFS_URL",
+    "auth": { "type": "none" },
+    "filters": {
+      "agency_ids": ["205"],
+      "route_types": [1]
+    },
+    "fields": {
+      "line_name_source": "route_short_name"
+    }
+  }
+}
