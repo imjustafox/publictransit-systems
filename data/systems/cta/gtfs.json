@@ -1,0 +1,19 @@
+{
+  "static": {
+    "url_secret": "CTA_GTFS_URL",
+    "auth": { "type": "none" },
+    "route_groups": {
+      "red": ["Red"],
+      "blue": ["Blue"],
+      "brown": ["Brn"],
+      "green": ["G"],
+      "orange": ["Org"],
+      "purple": ["P"],
+      "pink": ["Pink"],
+      "yellow": ["Y"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name"
+    }
+  }
+}

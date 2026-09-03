@@ -1,0 +1,3238 @@
+{
+  "stations": {
+    "landover": {
+      "osmId": "node/738189404",
+      "wikidata": "Q6484930",
+      "entrances": [
+        {
+          "id": "osm-node-8659410117",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9334293,
+            "lng": -76.8911951
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "minnesota-ave": {
+      "osmId": "node/738189371",
+      "wikidata": "Q6868161",
+      "entrances": [
+        {
+          "id": "osm-node-3105340706",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.899183,
+            "lng": -76.9472922
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-6744756800",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8985897,
+            "lng": -76.9469466
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951092239",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8988007,
+            "lng": -76.9466765
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "huntington": {
+      "osmId": "node/738189378",
+      "wikidata": "Q5945246",
+      "features": ["accessible"]
+    },
+    "cheverly": {
+      "osmId": "node/738189391",
+      "wikidata": "Q3566161",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-2873486406",
+          "name": "Cheverly",
+          "coordinates": {
+            "lat": 38.9162728,
+            "lng": -76.9164842
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951147086",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9161612,
+            "lng": -76.9167195
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "twinbrook": {
+      "osmId": "node/738189388",
+      "wikidata": "Q2917662",
+      "features": ["accessible"]
+    },
+    "farragut-west": {
+      "osmId": "node/738189326",
+      "wikidata": "Q976362",
+      "entrances": [
+        {
+          "id": "osm-node-1643428783",
+          "name": "Farragut West",
+          "coordinates": {
+            "lat": 38.9015106,
+            "lng": -77.0419276
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-4576181765",
+          "name": "Farragut West",
+          "coordinates": {
+            "lat": 38.9011921,
+            "lng": -77.039193
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "shady-grove": {
+      "osmId": "node/738189350",
+      "wikidata": "Q3234043",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3105409164",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.1204302,
+            "lng": -77.1644133
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951063869",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.1199555,
+            "lng": -77.1650257
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951063873",
+          "name": "Street Elevator",
+          "coordinates": {
+            "lat": 39.120084,
+            "lng": -77.1650096
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "glenmont": {
+      "osmId": "node/738189379",
+      "wikidata": "Q1064150",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7814043595",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0617897,
+            "lng": -77.0535888
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7814043596",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.062349,
+            "lng": -77.0531622
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951138198",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0622832,
+            "lng": -77.0533752
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951163279",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.061971,
+            "lng": -77.0536295
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "new-carrollton": {
+      "osmId": "node/5351589325",
+      "wikidata": "Q7006384",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3105360826",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.948456,
+            "lng": -76.8723584
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-8630050068",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9480041,
+            "lng": -76.8716894
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951060300",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9484308,
+            "lng": -76.8721811
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "eisenhower-ave": {
+      "osmId": "node/5352800477",
+      "wikidata": "Q5349912",
+      "entrances": [
+        {
+          "id": "osm-node-13809942375",
+          "name": "Eisenhower Ave Metro",
+          "coordinates": {
+            "lat": 38.8004833,
+            "lng": -77.0708868
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13822034444",
+          "name": "Eisenhower Ave Metro",
+          "coordinates": {
+            "lat": 38.8005633,
+            "lng": -77.0710073
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "largo-town-center": {
+      "osmId": "node/810813923",
+      "wikidata": "Q6489288",
+      "entrances": [
+        {
+          "id": "osm-node-8651370043",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8998521,
+            "lng": -76.844895
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "arlington-cemetery": {
+      "osmId": "node/738189380",
+      "wikidata": "Q4792300",
+      "entrances": [
+        {
+          "id": "osm-node-504916518",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8842155,
+            "lng": -77.0635392
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-504916519",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8845523,
+            "lng": -77.0637398
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-8615390946",
+          "name": "To Largo",
+          "coordinates": {
+            "lat": 38.8848427,
+            "lng": -77.0630993
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-8615390948",
+          "name": "To Franconia-Springfield",
+          "coordinates": {
+            "lat": 38.88475,
+            "lng": -77.063354
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "navy-yard": {
+      "osmId": "node/738189401",
+      "wikidata": "Q5548352",
+      "entrances": [
+        {
+          "id": "osm-node-2906384898",
+          "name": "Navy Yard Metro: New Jersey Entrance",
+          "coordinates": {
+            "lat": 38.8766759,
+            "lng": -77.0043982
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4633033798",
+          "name": "Navy Yard Metro: Ballpark Entrance",
+          "coordinates": {
+            "lat": 38.8760834,
+            "lng": -77.0073177
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5135556250",
+          "name": "Navy Yard Metro: New Jersey Elevator",
+          "coordinates": {
+            "lat": 38.8766275,
+            "lng": -77.0046886
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "greenbelt": {
+      "osmId": "node/738189376",
+      "wikidata": "Q5603694",
+      "entrances": [
+        {
+          "id": "osm-node-1129957130",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.011061,
+            "lng": -76.9107678
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1129957217",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0108095,
+            "lng": -76.9119543
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2166373311",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0108056,
+            "lng": -76.9109939
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "waterfront": {
+      "osmId": "node/5284068378",
+      "wikidata": "Q7974067",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-738189395",
+          "name": "Waterfront",
+          "coordinates": {
+            "lat": 38.8770574,
+            "lng": -77.0175528
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7792761318",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.876611,
+            "lng": -77.0173507
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "silver-spring": {
+      "osmId": "node/3816542778",
+      "wikidata": "Q7516347",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-459797179",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9940675,
+            "lng": -77.0318861
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-459797183",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9943636,
+            "lng": -77.0316669
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-459797188",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9936699,
+            "lng": -77.0313531
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-6835873199",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9939387,
+            "lng": -77.0303908
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9895069135",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9939095,
+            "lng": -77.0310934
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "shaw-howard": {
+      "osmId": "node/738189352",
+      "wikidata": "Q431481",
+      "entrances": [
+        {
+          "id": "osm-node-1739572373",
+          "name": "Shaw-Howard Univ",
+          "coordinates": {
+            "lat": 38.9127849,
+            "lng": -77.0227112
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1739572377",
+          "name": "Shaw-Howard University Metro Station Elevator",
+          "coordinates": {
+            "lat": 38.9142227,
+            "lng": -77.0216663
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1739572381",
+          "name": "Shaw-Howard University Metro Station",
+          "coordinates": {
+            "lat": 38.914546,
+            "lng": -77.0216979
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "west-hyattsville": {
+      "osmId": "node/738189383",
+      "wikidata": "Q7985433",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-2859000846",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.955621,
+            "lng": -76.9691129
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "potomac-yard": {
+      "osmId": "node/5549002328",
+      "wikidata": "Q7235094",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10913626152",
+          "name": "Potomac Greens Entrance",
+          "coordinates": {
+            "lat": 38.8341759,
+            "lng": -77.0462265
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-10913626155",
+          "name": "North Pavilion",
+          "coordinates": {
+            "lat": 38.8349338,
+            "lng": -77.0472222
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-10913626159",
+          "name": "South Pavilion",
+          "coordinates": {
+            "lat": 38.8328203,
+            "lng": -77.0474221
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13233743425",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8328556,
+            "lng": -77.0474545
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "naylor-road": {
+      "osmId": "node/738189369",
+      "wikidata": "Q6983167"
+    },
+    "spring-hill": {
+      "osmId": "node/5351724653",
+      "wikidata": "Q7580572",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12198097340",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9291434,
+            "lng": -77.2410113
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12198097349",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9285876,
+            "lng": -77.2418386
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7154994574",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9283366,
+            "lng": -77.2416039
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7154994579",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.929323,
+            "lng": -77.2407905
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951109265",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9291581,
+            "lng": -77.2409989
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951125561",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9285764,
+            "lng": -77.2418581
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "smithsonian": {
+      "osmId": "node/1844430184",
+      "wikidata": "Q7545599",
+      "entrances": [
+        {
+          "id": "osm-node-1844430190",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8873694,
+            "lng": -77.0285173
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-627214736",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8890807,
+            "lng": -77.0283776
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9981774300",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8877397,
+            "lng": -77.0285601
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "herndon": {
+      "osmId": "node/2471616566",
+      "wikidata": "Q5742279",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-3105651341",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.95177,
+            "lng": -77.3844866
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7432921936",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9535559,
+            "lng": -77.3845183
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "pentagon": {
+      "osmId": "node/453069888",
+      "wikidata": "Q171200",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-9951215217",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8691642,
+            "lng": -77.0545824
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951215218",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8695799,
+            "lng": -77.053808
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951215219",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8698758,
+            "lng": -77.0536357
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "braddock-road": {
+      "osmId": "node/738189320",
+      "wikidata": "Q170909",
+      "entrances": [
+        {
+          "id": "osm-node-875288501",
+          "name": "Braddock Road Metro Station",
+          "coordinates": {
+            "lat": 38.813745,
+            "lng": -77.0538557
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "rosslyn": {
+      "osmId": "node/738189319",
+      "wikidata": "Q7369892",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10196205351",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8961613,
+            "lng": -77.0710028
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-12031036802",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8960833,
+            "lng": -77.0718991
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-12031036803",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8958701,
+            "lng": -77.0719479
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-576549187",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8961466,
+            "lng": -77.0713864
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "brookland-cua": {
+      "osmId": "node/738189398",
+      "wikidata": "Q3566154",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-8026994805",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9338396,
+            "lng": -76.995038
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9703009991",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9335108,
+            "lng": -76.9943324
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951104268",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9337651,
+            "lng": -76.9944077
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "reagan-national-airport": {
+      "osmId": "node/738189386",
+      "wikidata": "Q171074",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10944051173",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8542748,
+            "lng": -77.0443377
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-12743700532",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8536993,
+            "lng": -77.0431114
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9951175832",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8533098,
+            "lng": -77.0440714
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951175833",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8546239,
+            "lng": -77.0445114
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951175834",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8522547,
+            "lng": -77.0435444
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "king-street": {
+      "osmId": "node/738189339",
+      "wikidata": "Q170893",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-1727229943",
+          "name": "King Street Metro Station",
+          "coordinates": {
+            "lat": 38.806306,
+            "lng": -77.0613079
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-299795401",
+          "name": "King Street Metro Station",
+          "coordinates": {
+            "lat": 38.8067566,
+            "lng": -77.0608098
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-299795429",
+          "name": "King Street Metro Station",
+          "coordinates": {
+            "lat": 38.8072891,
+            "lng": -77.0598375
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "rhode-island-ave": {
+      "osmId": "node/5276250837",
+      "wikidata": "Q7320900",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-1861067502",
+          "name": "Rhode Island Ave Metro Station",
+          "coordinates": {
+            "lat": 38.9204732,
+            "lng": -76.9961165
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "u-street": {
+      "osmId": "node/738189385",
+      "wikidata": "Q7876239",
+      "entrances": [
+        {
+          "id": "osm-node-1017700795",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9168341,
+            "lng": -77.0291982
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1739572386",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9167391,
+            "lng": -77.0259715
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1739572390",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.916806,
+            "lng": -77.0288908
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "dulles-airport": {
+      "osmId": "node/2471615966",
+      "wikidata": "Q5313452",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10050184637",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560607,
+            "lng": -77.4487223
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-10826977985",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9556772,
+            "lng": -77.4477606
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10826977986",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9558688,
+            "lng": -77.4477584
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-11069898222",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560598,
+            "lng": -77.4477936
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11069898230",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560387,
+            "lng": -77.4477939
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11069898231",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560188,
+            "lng": -77.4477946
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11069898232",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560382,
+            "lng": -77.4477229
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11069898233",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560178,
+            "lng": -77.4477235
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11069898246",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560453,
+            "lng": -77.4487219
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3087904070",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9560587,
+            "lng": -77.4477222
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9441059123",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9549383,
+            "lng": -77.4477761
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "friendship-heights": {
+      "osmId": "node/738189372",
+      "wikidata": "Q5504403",
+      "entrances": [
+        {
+          "id": "osm-node-10271545758",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9603362,
+            "lng": -77.0874403
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10271545759",
+          "name": "Friendship Heights",
+          "coordinates": {
+            "lat": 38.9606896,
+            "lng": -77.0853642
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-10748179814",
+          "name": "Friendship Heights",
+          "coordinates": {
+            "lat": 38.9603168,
+            "lng": -77.0852703
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-567266985",
+          "name": "Friendship Heights",
+          "coordinates": {
+            "lat": 38.9609326,
+            "lng": -77.086054
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-567266986",
+          "name": "Friendship Heights",
+          "coordinates": {
+            "lat": 38.9611947,
+            "lng": -77.0856171
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-567266988",
+          "name": "Friendship Heights",
+          "coordinates": {
+            "lat": 38.9585082,
+            "lng": -77.0849186
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "east-falls-church": {
+      "osmId": "node/738189328",
+      "wikidata": "Q5328333",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-4812627063",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8858917,
+            "lng": -77.1565484
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "fort-totten": {
+      "osmId": "node/738189367",
+      "wikidata": "Q5472194",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-9881079569",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9520825,
+            "lng": -77.0022744
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "van-dorn-street": {
+      "osmId": "node/738189365",
+      "wikidata": "Q170852",
+      "entrances": [
+        {
+          "id": "osm-node-2270242674",
+          "name": "Van Dorn Street",
+          "coordinates": {
+            "lat": 38.7997096,
+            "lng": -77.1296974
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2873462420",
+          "name": "Van Dorn Street Metrorail Station Entrance",
+          "coordinates": {
+            "lat": 38.7995302,
+            "lng": -77.1291389
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "vienna": {
+      "osmId": "node/738189340",
+      "wikidata": "Q7928300",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-446861221",
+          "name": "Vienna Metro Station - South Entrance",
+          "coordinates": {
+            "lat": 38.8773489,
+            "lng": -77.2712391
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-446861222",
+          "name": "Vienna Metro Station - North Entrance",
+          "coordinates": {
+            "lat": 38.878303,
+            "lng": -77.2715364
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "rockville": {
+      "osmId": "node/7015066751",
+      "wikidata": "Q4380631",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-2722045612",
+          "name": "West Entrance",
+          "coordinates": {
+            "lat": 39.0844082,
+            "lng": -77.1466652
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951189538",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0846579,
+            "lng": -77.1461221
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "farragut-north": {
+      "osmId": "node/738189364",
+      "wikidata": "Q2548615",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1254219139",
+          "name": "Farragut North",
+          "coordinates": {
+            "lat": 38.9039019,
+            "lng": -77.0398173
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1254219146",
+          "name": "Farragut North",
+          "coordinates": {
+            "lat": 38.9027875,
+            "lng": -77.0391272
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-4600743010",
+          "name": "Farragut North",
+          "coordinates": {
+            "lat": 38.9035476,
+            "lng": -77.0402165
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951125602",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9030332,
+            "lng": -77.0393509
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "judiciary-square": {
+      "osmId": "node/738189406",
+      "wikidata": "Q6303076",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3621904755",
+          "name": "Judiciary Square",
+          "coordinates": {
+            "lat": 38.8953656,
+            "lng": -77.0160122
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3621904756",
+          "name": "Judiciary Square",
+          "coordinates": {
+            "lat": 38.8969971,
+            "lng": -77.0175536
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9981798981",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8966651,
+            "lng": -77.0176661
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9981798982",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8968288,
+            "lng": -77.0174428
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "college-park": {
+      "osmId": "node/738189344",
+      "wikidata": "Q3563737",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-280103079",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9781727,
+            "lng": -76.9280702
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-280103124",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9783654,
+            "lng": -76.9289418
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-4812797943",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.978374,
+            "lng": -76.9287594
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5074677769",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9782044,
+            "lng": -76.9280577
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5074677954",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9781319,
+            "lng": -76.9280221
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "dupont-circle": {
+      "osmId": "node/738182031",
+      "wikidata": "Q2466932",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12006728891",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9107994,
+            "lng": -77.0445498
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-3015263248",
+          "name": "Dupont Circle Metro (South)",
+          "coordinates": {
+            "lat": 38.9085861,
+            "lng": -77.0433404
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3015263249",
+          "name": "Dupont Circle Metro (North Q St. Entrance)",
+          "coordinates": {
+            "lat": 38.9110058,
+            "lng": -77.0447408
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "gallery-place": {
+      "osmId": "node/7788485987",
+      "wikidata": "Q3846014",
+      "entrances": [
+        {
+          "id": "osm-node-324153414",
+          "name": "Exit C",
+          "coordinates": {
+            "lat": 38.8996564,
+            "lng": -77.0217227
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-324153442",
+          "name": "Exit A",
+          "coordinates": {
+            "lat": 38.897506,
+            "lng": -77.0217143
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951151069",
+          "name": "Exit B",
+          "coordinates": {
+            "lat": 38.8980598,
+            "lng": -77.0237543
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951151070",
+          "name": "Exit D",
+          "coordinates": {
+            "lat": 38.8979408,
+            "lng": -77.0217569
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "greensboro": {
+      "osmId": "node/5351728283",
+      "wikidata": "Q5604438",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-4938580933",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9209596,
+            "lng": -77.2331679
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5026882531",
+          "name": "Greensboro",
+          "coordinates": {
+            "lat": 38.9211279,
+            "lng": -77.2328936
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5182454400",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9205005,
+            "lng": -77.2339578
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5182454401",
+          "name": "Greensboro",
+          "coordinates": {
+            "lat": 38.9207119,
+            "lng": -77.2341516
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "west-falls-church": {
+      "osmId": "node/2367269727",
+      "wikidata": "Q5391941",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10969406302",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9009358,
+            "lng": -77.1889439
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-446861224",
+          "name": "West Falls Church–VT Metro Station",
+          "coordinates": {
+            "lat": 38.9002097,
+            "lng": -77.1888713
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "wiehle-reston-east": {
+      "osmId": "node/5351619702",
+      "wikidata": "Q7998917",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-11159920461",
+          "name": "Exit 3",
+          "coordinates": {
+            "lat": 38.9476662,
+            "lng": -77.3398544
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11159920462",
+          "name": "Exit 4",
+          "coordinates": {
+            "lat": 38.9476782,
+            "lng": -77.3398973
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1844858695",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.946856,
+            "lng": -77.3398416
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5261181923",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9482971,
+            "lng": -77.3389164
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951159168",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9469901,
+            "lng": -77.3401438
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "deanwood": {
+      "osmId": "node/738189333",
+      "wikidata": "Q5246799",
+      "entrances": [
+        {
+          "id": "osm-node-3105344836",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9082371,
+            "lng": -76.9347499
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3105344839",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9085761,
+            "lng": -76.9351956
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951107313",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9081904,
+            "lng": -76.9348324
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "prince-georges-plaza": {
+      "osmId": "node/738189345",
+      "wikidata": "Q2877606",
+      "features": ["accessible"]
+    },
+    "addison-road": {
+      "osmId": "node/738189387",
+      "wikidata": "Q4681286",
+      "entrances": [
+        {
+          "id": "osm-node-8659330385",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8867156,
+            "lng": -76.8957699
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "crystal-city": {
+      "osmId": "node/738189355",
+      "wikidata": "Q171109",
+      "entrances": [
+        {
+          "id": "osm-node-5166361841",
+          "name": "Crystal City",
+          "coordinates": {
+            "lat": 38.8580258,
+            "lng": -77.0515181
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-6640596092",
+          "name": "Crystal City (Elevator)",
+          "coordinates": {
+            "lat": 38.8579455,
+            "lng": -77.0507845
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "suitland": {
+      "osmId": "node/738189370",
+      "wikidata": "Q7635589",
+      "entrances": [
+        {
+          "id": "osm-node-13892504266",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8442472,
+            "lng": -76.9321477
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13893886323",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8442703,
+            "lng": -76.9322876
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "branch-ave": {
+      "osmId": "node/738189335",
+      "wikidata": "Q4956341"
+    },
+    "foggy-bottom": {
+      "osmId": "node/738189359",
+      "wikidata": "Q8564177",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3403048240",
+          "name": "Foggy Bottom-GWU Elevator",
+          "coordinates": {
+            "lat": 38.9008331,
+            "lng": -77.0508592
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6380984999",
+          "name": "Foggy Bottom-GWU Escalators",
+          "coordinates": {
+            "lat": 38.9008738,
+            "lng": -77.0503742
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "union-station": {
+      "osmId": "node/738189330",
+      "wikidata": "Q1080527",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-5519584476",
+          "name": "Union Station",
+          "coordinates": {
+            "lat": 38.8983998,
+            "lng": -77.0072391
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-585908957",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.89743,
+            "lng": -77.0072829
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "ashburn": {
+      "osmId": "node/2471607103",
+      "wikidata": "Q7371522",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7329400101",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0048376,
+            "lng": -77.4901529
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7329400104",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0043929,
+            "lng": -77.4917707
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-8619287395",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0049954,
+            "lng": -77.4898748
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-8619287396",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0046003,
+            "lng": -77.4919809
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "potomac-ave": {
+      "osmId": "node/738189360",
+      "wikidata": "Q2981603",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-9951191412",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8810515,
+            "lng": -76.9851313
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951191413",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8807879,
+            "lng": -76.9851992
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "loudoun-gateway": {
+      "osmId": "node/2471607100",
+      "wikidata": "Q7371491",
+      "entrances": [
+        {
+          "id": "osm-node-8043490483",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9929327,
+            "lng": -77.4600015
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-8044246563",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9931916,
+            "lng": -77.4599969
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "franconia-springfield": {
+      "osmId": "node/738189366",
+      "wikidata": "Q170873",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1111827022",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.7661749,
+            "lng": -77.1687697
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-463721423",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.7659166,
+            "lng": -77.1685937
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-463721427",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.7666749,
+            "lng": -77.1691025
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "clarendon": {
+      "osmId": "node/738189356",
+      "wikidata": "Q3561863",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-11676196768",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8867519,
+            "lng": -77.0956915
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-4040909553",
+          "name": "Clarendon Station",
+          "coordinates": {
+            "lat": 38.8871653,
+            "lng": -77.0951468
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951184360",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8867407,
+            "lng": -77.0957067
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "reston-town-center": {
+      "osmId": "node/2471616984",
+      "wikidata": "Q7316187",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-13853391339",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9522334,
+            "lng": -77.3609528
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13853418711",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9534445,
+            "lng": -77.3601866
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7432921910",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.952323,
+            "lng": -77.361291
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7433034321",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9535783,
+            "lng": -77.3598072
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "innovation-center": {
+      "osmId": "node/2471616567",
+      "wikidata": "Q14712607",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-7432942385",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9599681,
+            "lng": -77.4172656
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-8441898051",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9620523,
+            "lng": -77.4169019
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "forest-glen": {
+      "osmId": "node/738189324",
+      "wikidata": "Q5468881",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-14117966304",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0152738,
+            "lng": -77.0430122
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14117966305",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0153539,
+            "lng": -77.0430331
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-1518253623",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0153256,
+            "lng": -77.0436485
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-460391051",
+          "name": "Forest Glen Metro",
+          "coordinates": {
+            "lat": 39.0157994,
+            "lng": -77.0443303
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "mclean": {
+      "osmId": "node/5351736893",
+      "wikidata": "Q6802123",
+      "entrances": [
+        {
+          "id": "osm-node-10242056060",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9247041,
+            "lng": -77.2095181
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13334336661",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9247959,
+            "lng": -77.2097108
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "federal-triangle": {
+      "osmId": "node/738189343",
+      "wikidata": "Q5440474",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-506866681",
+          "name": "Federal Triangle",
+          "coordinates": {
+            "lat": 38.8938411,
+            "lng": -77.028964
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-611151640",
+          "name": "Federal Triangle",
+          "coordinates": {
+            "lat": 38.8937768,
+            "lng": -77.0282927
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "metro-center": {
+      "osmId": "node/738189329",
+      "wikidata": "Q4966977",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-2295072019",
+          "name": "Metro Center (South Entrance)",
+          "coordinates": {
+            "lat": 38.8971935,
+            "lng": -77.0282983
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2295072023",
+          "name": "Metro Center (West Entrance)",
+          "coordinates": {
+            "lat": 38.8981029,
+            "lng": -77.0293383
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2295072026",
+          "name": "Metro Center (East Entrance)",
+          "coordinates": {
+            "lat": 38.8980983,
+            "lng": -77.0266771
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-585335305",
+          "name": "Metro Center (North Entrance)",
+          "coordinates": {
+            "lat": 38.8984716,
+            "lng": -77.0278947
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951086238",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8988951,
+            "lng": -77.0279197
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951086239",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8989927,
+            "lng": -77.0282458
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951086240",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8984625,
+            "lng": -77.0266713
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951184361",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8984625,
+            "lng": -77.0294018
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "noma-gallaudet": {
+      "osmId": "node/738189375",
+      "wikidata": "Q4505474",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-1652366993",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9057736,
+            "lng": -77.0036389
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9481540443",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9072966,
+            "lng": -77.0032325
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "takoma": {
+      "osmId": "node/738189358",
+      "wikidata": "Q5485329",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-3693036799",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9757757,
+            "lng": -77.0179075
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9139973388",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9750301,
+            "lng": -77.0175271
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "eastern-market": {
+      "osmId": "node/738189400",
+      "wikidata": "Q5330278",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-2748976028",
+          "name": "Eastern Market",
+          "coordinates": {
+            "lat": 38.8842435,
+            "lng": -76.996018
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-627213245",
+          "name": "Eastern Market",
+          "coordinates": {
+            "lat": 38.8842084,
+            "lng": -76.995736
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "white-flint": {
+      "osmId": "node/738189389",
+      "wikidata": "Q279084",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-2382927897",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0471887,
+            "lng": -77.1132506
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2382927908",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0473835,
+            "lng": -77.1126276
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "archives": {
+      "osmId": "node/738189394",
+      "wikidata": "Q3563768",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-506866682",
+          "name": "Archives",
+          "coordinates": {
+            "lat": 38.8939444,
+            "lng": -77.0225284
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-8623256473",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8939026,
+            "lng": -77.022078
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "l-enfant-plaza": {
+      "osmId": "node/7788485988",
+      "wikidata": "Q170799",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10752047582",
+          "name": "L'Enfant Plaza - Entrance C (9th St)",
+          "coordinates": {
+            "lat": 38.8843253,
+            "lng": -77.0235125
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4412227659",
+          "name": "L'Enfant Plaza Elevator",
+          "coordinates": {
+            "lat": 38.8859795,
+            "lng": -77.0221012
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5171896413",
+          "name": "L'Enfant Plaza - Entrance A (7th St & Maryland Av)",
+          "coordinates": {
+            "lat": 38.8862829,
+            "lng": -77.0214401
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5553643994",
+          "name": "L'Enfant Plaza - Entrance B (6th St)",
+          "coordinates": {
+            "lat": 38.8845932,
+            "lng": -77.0208719
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "southern-avenue": {
+      "osmId": "node/738189373",
+      "wikidata": "Q7569658"
+    },
+    "virginia-square": {
+      "osmId": "node/738189346",
+      "wikidata": "Q7934527",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-9219824267",
+          "name": "Virginia Square-GMU Station",
+          "coordinates": {
+            "lat": 38.8828279,
+            "lng": -77.1032885
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9219824288",
+          "name": "Virginia Square-GMU Metro Elevator",
+          "coordinates": {
+            "lat": 38.8830344,
+            "lng": -77.1033249
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "morgan-boulevard": {
+      "osmId": "node/738189322",
+      "wikidata": "Q6911589",
+      "entrances": [
+        {
+          "id": "osm-node-8659331844",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.893806,
+            "lng": -76.8685698
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-8659331845",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8935312,
+            "lng": -76.8684029
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "tysons-corner": {
+      "osmId": "node/5351730606",
+      "wikidata": "Q7861806",
+      "entrances": [
+        {
+          "id": "osm-node-10240319627",
+          "name": "Tysons",
+          "coordinates": {
+            "lat": 38.9206001,
+            "lng": -77.2225153
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "woodley-park": {
+      "osmId": "node/738189368",
+      "wikidata": "Q2548733",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-776464320",
+          "name": "Woodley Park",
+          "coordinates": {
+            "lat": 38.9244723,
+            "lng": -77.0523481
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7814119674",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9254558,
+            "lng": -77.0528814
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "medical-center": {
+      "osmId": "node/738189354",
+      "wikidata": "Q9031053",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-11361216194",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9991512,
+            "lng": -77.0971401
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11361216197",
+          "name": "Elevator 1",
+          "coordinates": {
+            "lat": 38.9991604,
+            "lng": -77.0964447
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-474123649",
+          "name": "Medical Center Station Escalators",
+          "coordinates": {
+            "lat": 38.9990539,
+            "lng": -77.0979055
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-551108953",
+          "name": "Medical Center Metro Elevator",
+          "coordinates": {
+            "lat": 38.9990711,
+            "lng": -77.0971193
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9512298305",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9991771,
+            "lng": -77.0971425
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9512298306",
+          "name": "Elevator 2",
+          "coordinates": {
+            "lat": 38.9991401,
+            "lng": -77.0964431
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "congress-heights": {
+      "osmId": "node/738189331",
+      "wikidata": "Q5160799",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-695645366",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8451275,
+            "lng": -76.9878121
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-695645431",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8454823,
+            "lng": -76.9878166
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7792761322",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8445877,
+            "lng": -76.9875665
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "georgia-ave-petworth": {
+      "osmId": "node/738189374",
+      "wikidata": "Q5547352",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-9951126710",
+          "name": "Georgia Ave NW & Quincy St. NW (Elevator)",
+          "coordinates": {
+            "lat": 38.9367926,
+            "lng": -77.0246168
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951126711",
+          "name": "Georgia Ave NW & Quincy St. NW",
+          "coordinates": {
+            "lat": 38.9371288,
+            "lng": -77.0247153
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951126712",
+          "name": "Georgia and New Hampshire Ave., NW",
+          "coordinates": {
+            "lat": 38.9370059,
+            "lng": -77.0241229
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "cleveland-park": {
+      "osmId": "node/738189318",
+      "wikidata": "Q2548809",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10067955080",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9357775,
+            "lng": -77.0584237
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4558685179",
+          "name": "Cleveland Park Metro Station - East Entrance",
+          "coordinates": {
+            "lat": 38.9359047,
+            "lng": -77.0584963
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4558685180",
+          "name": "Cleveland Park Metro Station - West Entrance",
+          "coordinates": {
+            "lat": 38.9362205,
+            "lng": -77.0590491
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "capitol-south": {
+      "osmId": "node/738189321",
+      "wikidata": "Q3566191",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-1937264737",
+          "name": "Capitol South",
+          "coordinates": {
+            "lat": 38.8856773,
+            "lng": -77.0060694
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-627213244",
+          "name": "Capitol South",
+          "coordinates": {
+            "lat": 38.885178,
+            "lng": -77.0061508
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "federal-center-sw": {
+      "osmId": "node/738189403",
+      "wikidata": "Q5440054",
+      "entrances": [
+        {
+          "id": "osm-node-627213243",
+          "name": "Federal Center SW",
+          "coordinates": {
+            "lat": 38.8848902,
+            "lng": -77.0154174
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9981807072",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8849428,
+            "lng": -77.0160384
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "grosvenor-strathmore": {
+      "osmId": "node/738189392",
+      "wikidata": "Q5610665",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-9127756071",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0289316,
+            "lng": -77.1035988
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9127756072",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0288615,
+            "lng": -77.1038286
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "dunn-loring": {
+      "osmId": "node/5351693108",
+      "wikidata": "Q2890689",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-1495820426",
+          "name": "Dunn Loring",
+          "coordinates": {
+            "lat": 38.882824,
+            "lng": -77.2284429
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "tenleytown-au": {
+      "osmId": "node/738189341",
+      "wikidata": "Q7699930",
+      "entrances": [
+        {
+          "id": "osm-node-5532271773",
+          "name": "Tenleytown-AU",
+          "coordinates": {
+            "lat": 38.9483299,
+            "lng": -77.0801613
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-567267002",
+          "name": "Tenleytown-AU",
+          "coordinates": {
+            "lat": 38.9480744,
+            "lng": -77.0793607
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951215492",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9481062,
+            "lng": -77.0792735
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "van-ness-udc": {
+      "osmId": "node/738189407",
+      "wikidata": "Q7913537",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7814119672",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9445533,
+            "lng": -77.0640541
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7814119673",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9446332,
+            "lng": -77.0635785
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-851595761",
+          "name": "Van Ness-UDC",
+          "coordinates": {
+            "lat": 38.9439674,
+            "lng": -77.0636065
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "capitol-heights": {
+      "osmId": "node/738189348",
+      "wikidata": "Q3566174",
+      "entrances": [
+        {
+          "id": "osm-node-12080323196",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8892385,
+            "lng": -76.9130138
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7807331585",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8892257,
+            "lng": -76.9132788
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "benning-road": {
+      "osmId": "node/738189384",
+      "wikidata": "Q4889853",
+      "entrances": [
+        {
+          "id": "osm-node-2998136069",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8903287,
+            "lng": -76.937352
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951187116",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8905364,
+            "lng": -76.9375078
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "mt-vernon-sq": {
+      "osmId": "node/738189363",
+      "wikidata": "Q9035422",
+      "entrances": [
+        {
+          "id": "osm-node-4335916674",
+          "name": "Mt Vernon Sq/7th St - Convention Center",
+          "coordinates": {
+            "lat": 38.9053553,
+            "lng": -77.022222
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9981771592",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.9055372,
+            "lng": -77.022331
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9981771593",
+          "name": "Exit 3",
+          "coordinates": {
+            "lat": 38.9059509,
+            "lng": -77.0220681
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "anacostia": {
+      "osmId": "node/738189399",
+      "wikidata": "Q3563757",
+      "entrances": [
+        {
+          "id": "osm-node-7792761320",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8622122,
+            "lng": -76.9950546
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7792761321",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8621469,
+            "lng": -76.9953949
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7793079871",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8642059,
+            "lng": -76.9958513
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "mcpherson-square": {
+      "osmId": "node/738189342",
+      "wikidata": "Q278435",
+      "entrances": [
+        {
+          "id": "osm-node-2790566044",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9011527,
+            "lng": -77.0322072
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3659308940",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.9011058,
+            "lng": -77.0322013
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9951099199",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.901174,
+            "lng": -77.0349003
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "bethesda": {
+      "osmId": "node/738189338",
+      "wikidata": "Q3565966",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-479580540",
+          "name": "Bethesda Metro (Red Line) Entrance",
+          "coordinates": {
+            "lat": 38.9843719,
+            "lng": -77.0945078
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-567264685",
+          "name": "Bethesda Metro Elevator",
+          "coordinates": {
+            "lat": 38.983643,
+            "lng": -77.0941718
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "pentagon-city": {
+      "osmId": "node/738189357",
+      "wikidata": "Q171182",
+      "entrances": [
+        {
+          "id": "osm-node-11767528252",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8631523,
+            "lng": -77.0590046
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2747999105",
+          "name": "Pentagon City Metro Exit",
+          "coordinates": {
+            "lat": 38.8629346,
+            "lng": -77.0603003
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-449437258",
+          "name": "Pentagon City Metro",
+          "coordinates": {
+            "lat": 38.8626798,
+            "lng": -77.0591009
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-572306165",
+          "name": "Pentagon City Metro",
+          "coordinates": {
+            "lat": 38.8626578,
+            "lng": -77.0598929
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "columbia-heights": {
+      "osmId": "node/1333688926",
+      "wikidata": "Q3566181",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1683828323",
+          "name": "SW corner of 14th and Irving St. NW (Elevator)",
+          "coordinates": {
+            "lat": 38.9285502,
+            "lng": -77.0327671
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1683828330",
+          "name": "Columbia Heights Station West Entrance",
+          "coordinates": {
+            "lat": 38.9285941,
+            "lng": -77.0331312
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1683828334",
+          "name": "Columbia Heights Station East Entrance",
+          "coordinates": {
+            "lat": 38.928965,
+            "lng": -77.0324504
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "wheaton": {
+      "osmId": "node/738189337",
+      "wikidata": "Q7991952",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-6549102246",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0382907,
+            "lng": -77.0510756
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7814043594",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.0386658,
+            "lng": -77.0503203
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "court-house": {
+      "osmId": "node/738189396",
+      "wikidata": "Q5178239",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10090582446",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8902765,
+            "lng": -77.0853066
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10090582447",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8912221,
+            "lng": -77.0849743
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-10164801044",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8904738,
+            "lng": -77.0860787
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "ballston-mu": {
+      "osmId": "node/738189325",
+      "wikidata": "Q3563745",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-11361216189",
+          "name": "Exit K04X05",
+          "coordinates": {
+            "lat": 38.8820617,
+            "lng": -77.1121279
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11361216191",
+          "name": "Exit K04X04",
+          "coordinates": {
+            "lat": 38.8820626,
+            "lng": -77.1120991
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11361216193",
+          "name": "Exit K04X02",
+          "coordinates": {
+            "lat": 38.8821431,
+            "lng": -77.1121714
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9617032138",
+          "name": "Ballston Metro Elevator",
+          "coordinates": {
+            "lat": 38.8823745,
+            "lng": -77.1121214
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9617032139",
+          "name": "Ballston Metro Elevator",
+          "coordinates": {
+            "lat": 38.8823536,
+            "lng": -77.1121359
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9671000017",
+          "name": "Ballston Metro Station",
+          "coordinates": {
+            "lat": 38.8818707,
+            "lng": -77.1113508
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "stadium-armory": {
+      "osmId": "node/738189327",
+      "wikidata": "Q7596515",
+      "entrances": [
+        {
+          "id": "osm-node-9951165463",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8883912,
+            "lng": -76.9770869
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-9951165464",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.8859292,
+            "lng": -76.9771387
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9951165465",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8856532,
+            "lng": -76.9770484
+          },
+          "accessibility": []
+        }
+      ],
+      "features": ["elevator"]
+    }
+  }
+}

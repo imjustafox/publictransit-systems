@@ -1,0 +1,4 @@
+route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
+R001,TEST,RED,Red Line,1,FF0000,FFFFFF
+R002,TEST,LOOP,Loop Line,1,00FF00,000000
+R003,TEST,B1,Bus 1,3,888888,FFFFFF

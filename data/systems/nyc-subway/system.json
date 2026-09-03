@@ -1,5 +1,6 @@
 {
   "id": "nyc-subway",
+  "dataSource": "gtfs",
   "name": "New York City Subway",
   "shortName": "NYC Subway",
   "location": "New York City",

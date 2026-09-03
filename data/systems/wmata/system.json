@@ -1,5 +1,6 @@
 {
   "id": "wmata",
+  "dataSource": "gtfs",
   "name": "Washington Metropolitan Area Transit Authority",
   "shortName": "WMATA",
   "location": "Washington, D.C.",

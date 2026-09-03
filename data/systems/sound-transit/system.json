@@ -1,5 +1,6 @@
 {
   "id": "sound-transit",
+  "dataSource": "gtfs",
   "name": "Sound Transit",
   "shortName": "Sound Transit",
   "location": "Seattle, WA",

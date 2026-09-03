@@ -86,7 +86,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3367038996,
+      "osmId": "node/3367038996",
       "wikidata": "Q5926481"
     },
     {
@@ -105,7 +105,7 @@
       "localName": "万寿寺",
       "lines": ["line-16"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9471407,
         "lng": 116.3032926
@@ -152,7 +152,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112842,
+      "osmId": "node/4564112842",
       "wikidata": "Q28412821"
     },
     {
@@ -241,7 +241,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849504,
+      "osmId": "node/6617849504",
       "wikidata": "Q6123642"
     },
     {
@@ -288,7 +288,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112855,
+      "osmId": "node/4564112855",
       "wikidata": "Q28411146"
     },
     {
@@ -303,7 +303,7 @@
         "lat": 39.8017615,
         "lng": 116.4995335
       },
-      "osmId": 5444694219,
+      "osmId": "node/5444694219",
       "wikidata": "Q5936047"
     },
     {
@@ -327,7 +327,7 @@
         "lat": 39.8624408,
         "lng": 116.6267073
       },
-      "osmId": 6930098570
+      "osmId": "node/6930098570"
     },
     {
       "id": "三元桥",
@@ -391,7 +391,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441521553,
+      "osmId": "node/5441521553",
       "wikidata": "Q847757"
     },
     {
@@ -418,7 +418,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617852359,
+      "osmId": "node/6617852359",
       "wikidata": "Q5976563"
     },
     {
@@ -433,7 +433,7 @@
         "lat": 40.043537,
         "lng": 116.2805664
       },
-      "osmId": 13410014896,
+      "osmId": "node/13410014896",
       "wikidata": "Q107870434"
     },
     {
@@ -457,7 +457,7 @@
         "lat": 40.051835,
         "lng": 116.2887219
       },
-      "osmId": 13410014897,
+      "osmId": "node/13410014897",
       "wikidata": "Q111802257"
     },
     {
@@ -552,7 +552,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430429324,
+      "osmId": "node/5430429324",
       "wikidata": "Q843279"
     },
     {
@@ -619,7 +619,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505990
+      "osmId": "node/5305505990"
     },
     {
       "id": "东四十条",
@@ -684,7 +684,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6497754454,
+      "osmId": "node/6497754454",
       "wikidata": "Q5296031"
     },
     {
@@ -699,7 +699,7 @@
         "lat": 39.964645,
         "lng": 116.541359
       },
-      "osmId": 12417931584,
+      "osmId": "node/12417931584",
       "wikidata": "Q103791191"
     },
     {
@@ -714,7 +714,7 @@
         "lat": 39.9746043,
         "lng": 116.5519702
       },
-      "osmId": 10671369627,
+      "osmId": "node/10671369627",
       "wikidata": "Q103742468"
     },
     {
@@ -729,7 +729,7 @@
         "lat": 39.9507876,
         "lng": 116.5411241
       },
-      "osmId": 12417931579,
+      "osmId": "node/12417931579",
       "wikidata": "Q103819135"
     },
     {
@@ -744,7 +744,7 @@
         "lat": 39.9733361,
         "lng": 116.5283562
       },
-      "osmId": 12423757161,
+      "osmId": "node/12423757161",
       "wikidata": "Q103745911"
     },
     {
@@ -801,7 +801,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5428312459,
+      "osmId": "node/5428312459",
       "wikidata": "Q18394757"
     },
     {
@@ -811,7 +811,7 @@
       "localName": "东大桥",
       "lines": ["line-17", "line-6"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending", "transfer"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.921482,
         "lng": 116.4455603
@@ -876,7 +876,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 7896877680,
+      "osmId": "node/7896877680",
       "wikidata": "Q82803"
     },
     {
@@ -920,7 +920,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369356928,
+      "osmId": "node/3369356928",
       "wikidata": "Q17163628"
     },
     {
@@ -1043,7 +1043,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 10655378374,
+      "osmId": "node/10655378374",
       "wikidata": "Q847850"
     },
     {
@@ -1058,7 +1058,7 @@
         "lat": 39.8661164,
         "lng": 116.3144367
       },
-      "osmId": 3367069254,
+      "osmId": "node/3367069254",
       "wikidata": "Q105069698"
     },
     {
@@ -1125,7 +1125,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8277164642,
+      "osmId": "node/8277164642",
       "wikidata": "Q78054167"
     },
     {
@@ -1172,7 +1172,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369001427,
+      "osmId": "node/3369001427",
       "wikidata": "Q17013586"
     },
     {
@@ -1187,7 +1187,7 @@
         "lat": 39.8037787,
         "lng": 116.4030681
       },
-      "osmId": 6172173705,
+      "osmId": "node/6172173705",
       "wikidata": "Q56449093"
     },
     {
@@ -1202,7 +1202,7 @@
         "lat": 39.8662759,
         "lng": 116.3256029
       },
-      "osmId": 3367069255,
+      "osmId": "node/3367069255",
       "wikidata": "Q27949117"
     },
     {
@@ -1264,7 +1264,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7861046851,
+      "osmId": "node/7861046851",
       "wikidata": "Q5937882"
     },
     {
@@ -1321,7 +1321,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173744,
+      "osmId": "node/6172173744",
       "wikidata": "Q6970482"
     },
     {
@@ -1336,7 +1336,7 @@
         "lat": 39.8541721,
         "lng": 116.2877862
       },
-      "osmId": 7860304589,
+      "osmId": "node/7860304589",
       "wikidata": "Q4392154"
     },
     {
@@ -1351,7 +1351,7 @@
         "lat": 39.8395949,
         "lng": 116.2906678
       },
-      "osmId": 7780780502,
+      "osmId": "node/7780780502",
       "wikidata": "Q4392273"
     },
     {
@@ -1361,7 +1361,7 @@
       "localName": "丰台科技园",
       "lines": ["line-9"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8239138,
         "lng": 116.2912488
@@ -1417,7 +1417,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7860304588
+      "osmId": "node/7860304588"
     },
     {
       "id": "丰台站",
@@ -1431,7 +1431,7 @@
         "lat": 39.8496396,
         "lng": 116.2975967
       },
-      "osmId": 5453410797,
+      "osmId": "node/5453410797",
       "wikidata": "Q105072002"
     },
     {
@@ -1446,7 +1446,7 @@
         "lat": 39.8742944,
         "lng": 116.6728594
       },
-      "osmId": 8073325260,
+      "osmId": "node/8073325260",
       "wikidata": "Q5973022"
     },
     {
@@ -1499,7 +1499,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7860703076,
+      "osmId": "node/7860703076",
       "wikidata": "Q6119497"
     },
     {
@@ -1518,13 +1518,24 @@
       "localName": "九棵树",
       "lines": ["line-1"],
       "status": "active",
-      "features": ["fare-vending"],
+      "features": ["elevator", "fare-vending"],
       "coordinates": {
         "lat": 39.889165,
         "lng": 116.651623
       },
-      "osmId": 8073325261,
-      "wikidata": "Q5973051"
+      "osmId": "node/8073325261",
+      "wikidata": "Q5973051",
+      "entrances": [
+        {
+          "id": "osm-node-13506337451",
+          "name": "Exit 1206180",
+          "coordinates": {
+            "lat": 39.8889909,
+            "lng": 116.6518422
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "九龙山",
@@ -1590,7 +1601,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369001428,
+      "osmId": "node/3369001428",
       "wikidata": "Q15928637"
     },
     {
@@ -1600,7 +1611,7 @@
       "localName": "二里沟",
       "lines": ["line-16", "line-6"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending", "transfer"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9310721,
         "lng": 116.3275776
@@ -1666,7 +1677,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9380308680,
+      "osmId": "node/9380308680",
       "wikidata": "Q130094"
     },
     {
@@ -1755,7 +1766,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849505,
+      "osmId": "node/6617849505",
       "wikidata": "Q842090"
     },
     {
@@ -1770,7 +1781,7 @@
         "lat": 39.7837675,
         "lng": 116.4174105
       },
-      "osmId": 6172173707,
+      "osmId": "node/6172173707",
       "wikidata": "Q56683211"
     },
     {
@@ -1807,7 +1818,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5442237543,
+      "osmId": "node/5442237543",
       "wikidata": "Q6124229"
     },
     {
@@ -1840,7 +1851,7 @@
         "lat": 39.8056285,
         "lng": 116.4846211
       },
-      "osmId": 5444691512,
+      "osmId": "node/5444691512",
       "wikidata": "Q5938025"
     },
     {
@@ -1855,7 +1866,7 @@
         "lat": 39.801744,
         "lng": 116.4742673
       },
-      "osmId": 8073260826,
+      "osmId": "node/8073260826",
       "wikidata": "Q5936835"
     },
     {
@@ -1912,7 +1923,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073260829
+      "osmId": "node/8073260829"
     },
     {
       "id": "亮马桥",
@@ -1968,7 +1979,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448569279,
+      "osmId": "node/5448569279",
       "wikidata": "Q5937256"
     },
     {
@@ -2055,7 +2066,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7861046852,
+      "osmId": "node/7861046852",
       "wikidata": "Q5938338"
     },
     {
@@ -2092,7 +2103,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505993,
+      "osmId": "node/5305505993",
       "wikidata": "Q7496096"
     },
     {
@@ -2107,7 +2118,7 @@
         "lat": 39.9080422,
         "lng": 116.5488365
       },
-      "osmId": 5444680534,
+      "osmId": "node/5444680534",
       "wikidata": "Q5154119"
     },
     {
@@ -2131,7 +2142,7 @@
         "lat": 39.9750859,
         "lng": 116.3747659
       },
-      "osmId": 5447625351,
+      "osmId": "node/5447625351",
       "wikidata": "Q6119375"
     },
     {
@@ -2168,7 +2179,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12435251104
+      "osmId": "node/12435251104"
     },
     {
       "id": "八宝山",
@@ -2220,7 +2231,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849507,
+      "osmId": "node/6617849507",
       "wikidata": "Q842136"
     },
     {
@@ -2300,7 +2311,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5442190079,
+      "osmId": "node/5442190079",
       "wikidata": "Q4851007"
     },
     {
@@ -2326,7 +2337,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430421400,
+      "osmId": "node/5430421400",
       "wikidata": "Q5581824"
     },
     {
@@ -2406,7 +2417,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430444271,
+      "osmId": "node/5430444271",
       "wikidata": "Q5581810"
     },
     {
@@ -2416,7 +2427,7 @@
       "localName": "六道口",
       "lines": ["changping", "line-15"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending", "transfer"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9996659,
         "lng": 116.3466428
@@ -2511,7 +2522,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5687426566,
+      "osmId": "node/5687426566",
       "wikidata": "Q18651655"
     },
     {
@@ -2591,7 +2602,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430454140,
+      "osmId": "node/5430454140",
       "wikidata": "Q4392236"
     },
     {
@@ -2626,7 +2637,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7860304590,
+      "osmId": "node/7860304590",
       "wikidata": "Q4392166"
     },
     {
@@ -2673,7 +2684,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3379245685,
+      "osmId": "node/3379245685",
       "wikidata": "Q5613854"
     },
     {
@@ -2687,7 +2698,27 @@
       "coordinates": {
         "lat": 39.9079,
         "lng": 116.3167
-      }
+      },
+      "entrances": [
+        {
+          "id": "osm-node-1298058560",
+          "name": "A",
+          "coordinates": {
+            "lat": 39.9063471,
+            "lng": 116.3161112
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1298058630",
+          "name": "D",
+          "coordinates": {
+            "lat": 39.9058811,
+            "lng": 116.3159403
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "农业展览馆",
@@ -2723,7 +2754,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448567458
+      "osmId": "node/5448567458"
     },
     {
       "id": "农大南路",
@@ -2759,7 +2790,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112873,
+      "osmId": "node/4564112873",
       "wikidata": "Q25349546"
     },
     {
@@ -2816,7 +2847,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5372350033,
+      "osmId": "node/5372350033",
       "wikidata": "Q5443701"
     },
     {
@@ -2873,7 +2904,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441507804,
+      "osmId": "node/5441507804",
       "wikidata": "Q6123757"
     },
     {
@@ -2970,7 +3001,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6724644886,
+      "osmId": "node/6724644886",
       "wikidata": "Q847934"
     },
     {
@@ -3032,7 +3063,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 5429399341,
+      "osmId": "node/5429399341",
       "wikidata": "Q4881220"
     },
     {
@@ -3085,7 +3116,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430390389,
+      "osmId": "node/5430390389",
       "wikidata": "Q847852"
     },
     {
@@ -3132,7 +3163,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459831,
+      "osmId": "node/3369459831",
       "wikidata": "Q15942662"
     },
     {
@@ -3147,7 +3178,7 @@
         "lat": 39.8641006,
         "lng": 116.3733186
       },
-      "osmId": 8658952312
+      "osmId": "node/8658952312"
     },
     {
       "id": "北京大学东门",
@@ -3199,7 +3230,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 7861046850,
+      "osmId": "node/7861046850",
       "wikidata": "Q5328414"
     },
     {
@@ -3256,7 +3287,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4846712797
+      "osmId": "node/4846712797"
     },
     {
       "id": "北京西站",
@@ -3270,7 +3301,7 @@
         "lat": 39.8935411,
         "lng": 116.3151056
       },
-      "osmId": 5463450278,
+      "osmId": "node/5463450278",
       "wikidata": "Q105062204"
     },
     {
@@ -3347,7 +3378,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505997,
+      "osmId": "node/5305505997",
       "wikidata": "Q847653"
     },
     {
@@ -3374,7 +3405,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9385085646,
+      "osmId": "node/9385085646",
       "wikidata": "Q84249130"
     },
     {
@@ -3427,7 +3458,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564113110,
+      "osmId": "node/4564113110",
       "wikidata": "Q24699103"
     },
     {
@@ -3474,7 +3505,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 6497814374,
+      "osmId": "node/6497814374",
       "wikidata": "Q4881073"
     },
     {
@@ -3518,7 +3549,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369001433,
+      "osmId": "node/3369001433",
       "wikidata": "Q21850056"
     },
     {
@@ -3574,7 +3605,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5720933166,
+      "osmId": "node/5720933166",
       "wikidata": "Q4881506"
     },
     {
@@ -3631,7 +3662,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3379245686,
+      "osmId": "node/3379245686",
       "wikidata": "Q18699937"
     },
     {
@@ -3678,7 +3709,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 5441526453,
+      "osmId": "node/5441526453",
       "wikidata": "Q4881077"
     },
     {
@@ -3735,7 +3766,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9380291880
+      "osmId": "node/9380291880"
     },
     {
       "id": "北苑",
@@ -3761,7 +3792,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441502966,
+      "osmId": "node/5441502966",
       "wikidata": "Q5976495"
     },
     {
@@ -3776,7 +3807,7 @@
         "lat": 40.0290192,
         "lng": 116.4119016
       },
-      "osmId": 340262247,
+      "osmId": "node/340262247",
       "wikidata": "Q4881517"
     },
     {
@@ -3791,7 +3822,7 @@
         "lat": 39.9138827,
         "lng": 116.1585873
       },
-      "osmId": 9379477289,
+      "osmId": "node/9379477289",
       "wikidata": "Q102367263"
     },
     {
@@ -3838,7 +3869,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6713165204,
+      "osmId": "node/6713165204",
       "wikidata": "Q18651878"
     },
     {
@@ -3875,7 +3906,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430487507,
+      "osmId": "node/5430487507",
       "wikidata": "Q16928795"
     },
     {
@@ -3908,7 +3939,7 @@
         "lat": 39.8430584,
         "lng": 116.4898314
       },
-      "osmId": 9380291879
+      "osmId": "node/9380291879"
     },
     {
       "id": "十里堡",
@@ -3922,8 +3953,37 @@
         "lat": 39.9216269,
         "lng": 116.4960424
       },
-      "osmId": 5365586568,
-      "wikidata": "Q82802"
+      "osmId": "node/14142473063",
+      "wikidata": "Q82802",
+      "entrances": [
+        {
+          "id": "osm-node-14124123701",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9214964,
+            "lng": 116.4969512
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-14124123702",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9221025,
+            "lng": 116.4962607
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5365586568",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9214414,
+            "lng": 116.4951942
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "十里河",
@@ -4009,7 +4069,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 9147328748
+      "osmId": "node/9147328748"
     },
     {
       "id": "南楼梓庄",
@@ -4065,7 +4125,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459832,
+      "osmId": "node/3369459832",
       "wikidata": "Q15942316"
     },
     {
@@ -4136,7 +4196,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849502
+      "osmId": "node/6617849502"
     },
     {
       "id": "南邵",
@@ -4201,7 +4261,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6497773831,
+      "osmId": "node/6497773831",
       "wikidata": "Q10909164"
     },
     {
@@ -4248,7 +4308,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459833,
+      "osmId": "node/3369459833",
       "wikidata": "Q5936021"
     },
     {
@@ -4305,7 +4365,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459834,
+      "osmId": "node/3369459834",
       "wikidata": "Q17498770"
     },
     {
@@ -4342,7 +4402,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444677242
+      "osmId": "node/5444677242"
     },
     {
       "id": "古城",
@@ -4398,7 +4458,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448550393,
+      "osmId": "node/5448550393",
       "wikidata": "Q5614482"
     },
     {
@@ -4413,7 +4473,7 @@
         "lat": 39.7718151,
         "lng": 116.533948
       },
-      "osmId": 5430391237,
+      "osmId": "node/5430391237",
       "wikidata": "Q5937020"
     },
     {
@@ -4437,7 +4497,7 @@
         "lat": 39.855252,
         "lng": 116.4706068
       },
-      "osmId": 9384986215
+      "osmId": "node/9384986215"
     },
     {
       "id": "呼家楼",
@@ -4534,7 +4594,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430443221,
+      "osmId": "node/5430443221",
       "wikidata": "Q5935355"
     },
     {
@@ -4549,7 +4609,7 @@
         "lat": 39.8135634,
         "lng": 116.3958329
       },
-      "osmId": 6172173704,
+      "osmId": "node/6172173704",
       "wikidata": "Q57658896"
     },
     {
@@ -4646,7 +4706,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12435251103
+      "osmId": "node/12435251103"
     },
     {
       "id": "和平里北街",
@@ -4692,7 +4752,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 7896842489,
+      "osmId": "node/7896842489",
       "wikidata": "Q5976333"
     },
     {
@@ -4779,7 +4839,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5428312892,
+      "osmId": "node/5428312892",
       "wikidata": "Q5731938"
     },
     {
@@ -4836,7 +4896,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369356929
+      "osmId": "node/5448590861"
     },
     {
       "id": "嘉会湖",
@@ -4850,7 +4910,7 @@
         "lat": 39.7918725,
         "lng": 116.6052556
       },
-      "osmId": 9380291881
+      "osmId": "node/9380291881"
     },
     {
       "id": "四季青桥",
@@ -4859,7 +4919,7 @@
       "localName": "四季青桥",
       "lines": ["line-12"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9425119,
         "lng": 116.2682827
@@ -4896,7 +4956,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 12416948175,
+      "osmId": "node/12416948175",
       "wikidata": "Q103745656"
     },
     {
@@ -4949,7 +5009,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430493577,
+      "osmId": "node/5430493577",
       "wikidata": "Q1039435"
     },
     {
@@ -4995,7 +5055,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430491074,
+      "osmId": "node/5430491074",
       "wikidata": "Q1039422"
     },
     {
@@ -5048,7 +5108,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441470420,
+      "osmId": "node/5441470420",
       "wikidata": "Q5935100"
     },
     {
@@ -5105,7 +5165,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305506006,
+      "osmId": "node/5305506006",
       "wikidata": "Q5935093"
     },
     {
@@ -5120,7 +5180,7 @@
         "lat": 40.0772781,
         "lng": 116.3245924
       },
-      "osmId": 13410014898,
+      "osmId": "node/13410014898",
       "wikidata": "Q111812996"
     },
     {
@@ -5203,7 +5263,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 5448561568,
+      "osmId": "node/5448561568",
       "wikidata": "Q5935750"
     },
     {
@@ -5259,7 +5319,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5442227596,
+      "osmId": "node/5442227596",
       "wikidata": "Q9206315"
     },
     {
@@ -5326,7 +5386,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5429413631,
+      "osmId": "node/5429413631",
       "wikidata": "Q5937216"
     },
     {
@@ -5350,7 +5410,7 @@
         "lat": 40.068903,
         "lng": 116.5493705
       },
-      "osmId": 8073325252,
+      "osmId": "node/8073325252",
       "wikidata": "Q5099743"
     },
     {
@@ -5456,7 +5516,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430522453,
+      "osmId": "node/5430522453",
       "wikidata": "Q843217"
     },
     {
@@ -5500,7 +5560,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7861046849,
+      "osmId": "node/7861046849",
       "wikidata": "Q5938257"
     },
     {
@@ -5515,7 +5575,7 @@
         "lat": 39.8707455,
         "lng": 116.6802742
       },
-      "osmId": 6716238810,
+      "osmId": "node/6716238810",
       "wikidata": "Q1039412"
     },
     {
@@ -5552,7 +5612,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459835,
+      "osmId": "node/3369459835",
       "wikidata": "Q17498803"
     },
     {
@@ -5609,7 +5669,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430395013,
+      "osmId": "node/5430395013",
       "wikidata": "Q1037957"
     },
     {
@@ -5624,7 +5684,7 @@
         "lat": 39.864019,
         "lng": 116.2688628
       },
-      "osmId": 3365609789,
+      "osmId": "node/3365609789",
       "wikidata": "Q9206167"
     },
     {
@@ -5668,7 +5728,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6818020472
+      "osmId": "node/6818020472"
     },
     {
       "id": "大兴机场",
@@ -5682,7 +5742,7 @@
         "lat": 39.5124863,
         "lng": 116.4106758
       },
-      "osmId": 6818020471
+      "osmId": "node/6818020471"
     },
     {
       "id": "大屯路东",
@@ -5737,7 +5797,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5402687151,
+      "osmId": "node/5402687151",
       "wikidata": "Q5227793"
     },
     {
@@ -5826,7 +5886,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369001431,
+      "osmId": "node/3369001431",
       "wikidata": "Q5242277"
     },
     {
@@ -5873,7 +5933,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3365609790,
+      "osmId": "node/3365609790",
       "wikidata": "Q9206415"
     },
     {
@@ -5888,7 +5948,7 @@
         "lat": 39.7085836,
         "lng": 116.0339981
       },
-      "osmId": 9153343830,
+      "osmId": "node/9153343830",
       "wikidata": "Q43750525"
     },
     {
@@ -5962,7 +6022,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 13288528515,
+      "osmId": "node/13288528515",
       "wikidata": "Q75258"
     },
     {
@@ -5989,7 +6049,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173703,
+      "osmId": "node/6172173703",
       "wikidata": "Q57659078"
     },
     {
@@ -6024,7 +6084,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073272027,
+      "osmId": "node/8073272027",
       "wikidata": "Q5207411"
     },
     {
@@ -6071,7 +6131,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459836,
+      "osmId": "node/3369459836",
       "wikidata": "Q18652379"
     },
     {
@@ -6108,7 +6168,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12435287603,
+      "osmId": "node/12435287603",
       "wikidata": "Q5243679"
     },
     {
@@ -6155,7 +6215,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7896842490
+      "osmId": "node/7896842490"
     },
     {
       "id": "天安门东",
@@ -6209,7 +6269,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441520625,
+      "osmId": "node/5441520625",
       "wikidata": "Q6125611"
     },
     {
@@ -6265,7 +6325,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6447754030,
+      "osmId": "node/6447754030",
       "wikidata": "Q842095"
     },
     {
@@ -6318,7 +6378,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5428310397,
+      "osmId": "node/5428310397",
       "wikidata": "Q5936562"
     },
     {
@@ -6345,7 +6405,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6488102425,
+      "osmId": "node/6488102425",
       "wikidata": "Q19852289"
     },
     {
@@ -6360,7 +6420,7 @@
         "lat": 40.0726643,
         "lng": 116.4087263
       },
-      "osmId": 13410044002,
+      "osmId": "node/13410044002",
       "wikidata": "Q6124366"
     },
     {
@@ -6375,7 +6435,7 @@
         "lat": 40.0670514,
         "lng": 116.4378145
       },
-      "osmId": 13410044004,
+      "osmId": "node/13410044004",
       "wikidata": "Q107472104"
     },
     {
@@ -6390,7 +6450,7 @@
         "lat": 40.0820885,
         "lng": 116.4067673
       },
-      "osmId": 5687495579,
+      "osmId": "node/5687495579",
       "wikidata": "Q847741"
     },
     {
@@ -6423,7 +6483,7 @@
         "lat": 40.0727436,
         "lng": 116.4202773
       },
-      "osmId": 13410044003,
+      "osmId": "node/13410044003",
       "wikidata": "Q111823410"
     },
     {
@@ -6438,7 +6498,7 @@
         "lat": 39.9087765,
         "lng": 116.3571516
       },
-      "osmId": 9920410920,
+      "osmId": "node/9920410920",
       "wikidata": "Q102353186"
     },
     {
@@ -6495,7 +6555,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 11496710264,
+      "osmId": "node/11496710264",
       "wikidata": "Q5937094"
     },
     {
@@ -6552,7 +6612,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073325264,
+      "osmId": "node/8073325264",
       "wikidata": "Q6126685"
     },
     {
@@ -6562,7 +6622,7 @@
       "localName": "奥林匹克公园",
       "lines": ["line-15", "line-8"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending", "transfer"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0003857,
         "lng": 116.3867559
@@ -6652,7 +6712,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3379245688,
+      "osmId": "node/3379245688",
       "wikidata": "Q7089092"
     },
     {
@@ -6699,7 +6759,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 12430747508,
+      "osmId": "node/12430747508",
       "wikidata": "Q103819136"
     },
     {
@@ -6755,7 +6815,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 10605339566,
+      "osmId": "node/10605339566",
       "wikidata": "Q103745051"
     },
     {
@@ -6822,7 +6882,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 10605339565,
+      "osmId": "node/10605339565",
       "wikidata": "Q103745077"
     },
     {
@@ -6889,7 +6949,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505996,
+      "osmId": "node/5305505996",
       "wikidata": "Q4764370"
     },
     {
@@ -6926,7 +6986,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6724644889,
+      "osmId": "node/6724644889",
       "wikidata": "Q4754482"
     },
     {
@@ -6953,7 +7013,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448593092,
+      "osmId": "node/5448593092",
       "wikidata": "Q4753682"
     },
     {
@@ -6990,7 +7050,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441503035
+      "osmId": "node/5441503035"
     },
     {
       "id": "安立路",
@@ -7056,7 +7116,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3379245689,
+      "osmId": "node/3379245689",
       "wikidata": "Q18697398"
     },
     {
@@ -7071,7 +7131,7 @@
         "lat": 39.9675012,
         "lng": 116.4009974
       },
-      "osmId": 12430713735,
+      "osmId": "node/12430713735",
       "wikidata": "Q96632013"
     },
     {
@@ -7128,7 +7188,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448580676,
+      "osmId": "node/5448580676",
       "wikidata": "Q4778457"
     },
     {
@@ -7195,7 +7255,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441491000,
+      "osmId": "node/5441491000",
       "wikidata": "Q898095"
     },
     {
@@ -7250,7 +7310,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112633,
+      "osmId": "node/4564112633",
       "wikidata": "Q45859909"
     },
     {
@@ -7346,7 +7406,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430419547,
+      "osmId": "node/5430419547",
       "wikidata": "Q5976401"
     },
     {
@@ -7356,7 +7416,7 @@
       "localName": "富丰桥",
       "lines": ["line-16"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8349394,
         "lng": 116.2810932
@@ -7412,7 +7472,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 4564112660,
+      "osmId": "node/4564112660",
       "wikidata": "Q78872883"
     },
     {
@@ -7459,7 +7519,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369356930,
+      "osmId": "node/3369356930",
       "wikidata": "Q17024829"
     },
     {
@@ -7474,7 +7534,7 @@
         "lat": 39.9713939,
         "lng": 116.4739564
       },
-      "osmId": 12423657579,
+      "osmId": "node/12423657579",
       "wikidata": "Q102367414"
     },
     {
@@ -7530,7 +7590,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444690814
+      "osmId": "node/5444690814"
     },
     {
       "id": "屈庄",
@@ -7585,7 +7645,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564113101,
+      "osmId": "node/4564113101",
       "wikidata": "Q24835471"
     },
     {
@@ -7694,7 +7754,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430420858,
+      "osmId": "node/5430420858",
       "wikidata": "Q848288"
     },
     {
@@ -7740,7 +7800,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 11481744716,
+      "osmId": "node/11481744716",
       "wikidata": "Q84244521"
     },
     {
@@ -7750,7 +7810,7 @@
       "localName": "左家庄",
       "lines": ["line-17"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9485486,
         "lng": 116.4365482
@@ -7797,7 +7857,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 11481744738,
+      "osmId": "node/11481744738",
       "wikidata": "Q84262185"
     },
     {
@@ -7872,7 +7932,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430448102
+      "osmId": "node/5430448102"
     },
     {
       "id": "常营",
@@ -7927,7 +7987,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369001432,
+      "osmId": "node/3369001432",
       "wikidata": "Q46999367"
     },
     {
@@ -8014,7 +8074,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430502371,
+      "osmId": "node/5430502371",
       "wikidata": "Q5959534"
     },
     {
@@ -8071,7 +8131,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305506007,
+      "osmId": "node/5305506007",
       "wikidata": "Q15500795"
     },
     {
@@ -8081,7 +8141,7 @@
       "localName": "广安门内",
       "lines": ["line-7"],
       "status": "active",
-      "features": ["escalator", "fare-vending"],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8885681,
         "lng": 116.351727
@@ -8098,7 +8158,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459837
+      "osmId": "node/3369459837"
     },
     {
       "id": "广渠门内",
@@ -8112,7 +8172,7 @@
         "lat": 39.8922863,
         "lng": 116.4277207
       },
-      "osmId": 3369459840
+      "osmId": "node/3369459840"
     },
     {
       "id": "广渠门外",
@@ -8126,7 +8186,7 @@
         "lat": 39.8923066,
         "lng": 116.4430351
       },
-      "osmId": 3369459838,
+      "osmId": "node/3369459838",
       "wikidata": "Q18653130"
     },
     {
@@ -8141,7 +8201,7 @@
         "lat": 39.7465971,
         "lng": 116.1788414
       },
-      "osmId": 8073272030,
+      "osmId": "node/8073272030",
       "wikidata": "Q4392228"
     },
     {
@@ -8185,7 +8245,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173686,
+      "osmId": "node/6172173686",
       "wikidata": "Q42751307"
     },
     {
@@ -8232,7 +8292,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430497283,
+      "osmId": "node/5430497283",
       "wikidata": "Q843282"
     },
     {
@@ -8288,7 +8348,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444681481
+      "osmId": "node/5444681481"
     },
     {
       "id": "张郭庄",
@@ -8311,7 +8371,7 @@
         "lat": 39.7712874,
         "lng": 116.4355574
       },
-      "osmId": 6488102423,
+      "osmId": "node/6488102423",
       "wikidata": "Q57658585"
     },
     {
@@ -8358,7 +8418,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 5305505984,
+      "osmId": "node/5305505984",
       "wikidata": "Q5972925"
     },
     {
@@ -8411,7 +8471,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505985,
+      "osmId": "node/5305505985",
       "wikidata": "Q5966161"
     },
     {
@@ -8426,7 +8486,7 @@
         "lat": 39.9315586,
         "lng": 116.2888626
       },
-      "osmId": 5430509863,
+      "osmId": "node/5430509863",
       "wikidata": "Q9278249"
     },
     {
@@ -8441,7 +8501,7 @@
         "lat": 39.8445478,
         "lng": 116.4418815
       },
-      "osmId": 5448554757,
+      "osmId": "node/5448554757",
       "wikidata": "Q75393"
     },
     {
@@ -8467,7 +8527,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5402956432,
+      "osmId": "node/5402956432",
       "wikidata": "Q41695204"
     },
     {
@@ -8482,7 +8542,7 @@
         "lat": 40.0788401,
         "lng": 116.3356615
       },
-      "osmId": 13410014899,
+      "osmId": "node/13410014899",
       "wikidata": "Q111813013"
     },
     {
@@ -8509,7 +8569,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9379477293,
+      "osmId": "node/9379477293",
       "wikidata": "Q97172031"
     },
     {
@@ -8596,7 +8656,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9706596471,
+      "osmId": "node/9706596471",
       "wikidata": "Q5935686"
     },
     {
@@ -8653,7 +8713,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441512445,
+      "osmId": "node/5441512445",
       "wikidata": "Q5959491"
     },
     {
@@ -8698,7 +8758,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9379477290,
+      "osmId": "node/9379477290",
       "wikidata": "Q102367265"
     },
     {
@@ -8713,7 +8773,7 @@
         "lat": 39.8646354,
         "lng": 116.4339348
       },
-      "osmId": 3367977138,
+      "osmId": "node/3367977138",
       "wikidata": "Q21850054"
     },
     {
@@ -8728,7 +8788,7 @@
         "lat": 39.8056107,
         "lng": 116.4547308
       },
-      "osmId": 8073260825,
+      "osmId": "node/8073260825",
       "wikidata": "Q5935707"
     },
     {
@@ -8770,7 +8830,7 @@
         "lat": 39.7122214,
         "lng": 116.0551386
       },
-      "osmId": 9153343831,
+      "osmId": "node/9153343831",
       "wikidata": "Q46717114"
     },
     {
@@ -8807,7 +8867,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3367857703,
+      "osmId": "node/3367857703",
       "wikidata": "Q21245986"
     },
     {
@@ -8822,7 +8882,7 @@
         "lat": 39.8626316,
         "lng": 116.3580843
       },
-      "osmId": 9385116436,
+      "osmId": "node/9385116436",
       "wikidata": "Q27916010"
     },
     {
@@ -8879,7 +8939,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369356931,
+      "osmId": "node/3369356931",
       "wikidata": "Q6119178"
     },
     {
@@ -8926,7 +8986,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5447578126,
+      "osmId": "node/5447578126",
       "wikidata": "Q5940665"
     },
     {
@@ -8982,7 +9042,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5428305222,
+      "osmId": "node/5428305222",
       "wikidata": "Q6125577"
     },
     {
@@ -9039,7 +9099,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3363577821,
+      "osmId": "node/3363577821",
       "wikidata": "Q15931937"
     },
     {
@@ -9054,7 +9114,7 @@
         "lat": 39.9429982,
         "lng": 116.4998836
       },
-      "osmId": 12430747507
+      "osmId": "node/12430747507"
     },
     {
       "id": "朝阳门",
@@ -9120,7 +9180,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430525703,
+      "osmId": "node/5430525703",
       "wikidata": "Q5976481"
     },
     {
@@ -9135,7 +9195,7 @@
         "lat": 39.858181,
         "lng": 116.3932245
       },
-      "osmId": 6172173701,
+      "osmId": "node/6172173701",
       "wikidata": "Q57025115"
     },
     {
@@ -9224,7 +9284,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849501,
+      "osmId": "node/6617849501",
       "wikidata": "Q842107"
     },
     {
@@ -9257,7 +9317,7 @@
         "lat": 40.0347054,
         "lng": 116.3259094
       },
-      "osmId": 13161970243
+      "osmId": "node/13161970243"
     },
     {
       "id": "朱辛庄",
@@ -9322,7 +9382,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369356933,
+      "osmId": "node/3369356933",
       "wikidata": "Q18759603"
     },
     {
@@ -9358,7 +9418,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173584,
+      "osmId": "node/6172173584",
       "wikidata": "Q56683263"
     },
     {
@@ -9415,7 +9475,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305506002,
+      "osmId": "node/5305506002",
       "wikidata": "Q4392184"
     },
     {
@@ -9430,7 +9490,7 @@
         "lat": 39.8922857,
         "lng": 116.6407547
       },
-      "osmId": 8073325262,
+      "osmId": "node/8073325262",
       "wikidata": "Q5619690"
     },
     {
@@ -9483,7 +9543,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444440441,
+      "osmId": "node/5444440441",
       "wikidata": "Q5936756"
     },
     {
@@ -9520,7 +9580,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3363538820,
+      "osmId": "node/3363538820",
       "wikidata": "Q17028044"
     },
     {
@@ -9557,7 +9617,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617852358,
+      "osmId": "node/6617852358",
       "wikidata": "Q6124548"
     },
     {
@@ -9590,7 +9650,7 @@
         "lat": 39.8912849,
         "lng": 116.4022485
       },
-      "osmId": 3369459839,
+      "osmId": "node/3369459839",
       "wikidata": "Q18654011"
     },
     {
@@ -9656,7 +9716,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505998,
+      "osmId": "node/5305505998",
       "wikidata": "Q847787"
     },
     {
@@ -9671,7 +9731,7 @@
         "lat": 39.8375683,
         "lng": 116.2529824
       },
-      "osmId": 4564112640,
+      "osmId": "node/4564112640",
       "wikidata": "Q78872905"
     },
     {
@@ -9686,7 +9746,7 @@
         "lat": 39.9323418,
         "lng": 116.1498174
       },
-      "osmId": 9383939775,
+      "osmId": "node/9383939775",
       "wikidata": "Q102367262"
     },
     {
@@ -9733,7 +9793,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 9385028990,
+      "osmId": "node/9385028990",
       "wikidata": "Q5121332"
     },
     {
@@ -9748,7 +9808,7 @@
         "lat": 39.8085973,
         "lng": 116.5706243
       },
-      "osmId": 9385028991
+      "osmId": "node/9385028991"
     },
     {
       "id": "次渠南",
@@ -9766,7 +9826,7 @@
       "localName": "欢乐谷景区",
       "lines": ["line-7"],
       "status": "active",
-      "features": ["escalator", "fare-vending"],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8656674,
         "lng": 116.4930838
@@ -9793,7 +9853,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459841,
+      "osmId": "node/3369459841",
       "wikidata": "Q17499129"
     },
     {
@@ -9849,7 +9909,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112888,
+      "osmId": "node/4564112888",
       "wikidata": "Q24831566"
     },
     {
@@ -9926,7 +9986,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 13417518490,
+      "osmId": "node/13417518490",
       "wikidata": "Q843202"
     },
     {
@@ -9963,7 +10023,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173700,
+      "osmId": "node/6172173700",
       "wikidata": "Q21245988"
     },
     {
@@ -10000,7 +10060,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305506003,
+      "osmId": "node/5305506003",
       "wikidata": "Q4392290"
     },
     {
@@ -10033,7 +10093,7 @@
         "lat": 39.8573762,
         "lng": 116.2981946
       },
-      "osmId": 5453382713,
+      "osmId": "node/5453382713",
       "wikidata": "Q7041866"
     },
     {
@@ -10069,7 +10129,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 8278912792,
+      "osmId": "node/8278912792",
       "wikidata": "Q96649511"
     },
     {
@@ -10084,7 +10144,7 @@
         "lat": 39.8506537,
         "lng": 116.3940324
       },
-      "osmId": 6172173702,
+      "osmId": "node/6172173702",
       "wikidata": "Q57659234"
     },
     {
@@ -10160,7 +10220,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6606270273,
+      "osmId": "node/6606270273",
       "wikidata": "Q5639035"
     },
     {
@@ -10217,7 +10277,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3379245690,
+      "osmId": "node/3379245690",
       "wikidata": "Q15919571"
     },
     {
@@ -10227,7 +10287,7 @@
       "localName": "清河小营桥",
       "lines": ["changping"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0338705,
         "lng": 116.3367846
@@ -10322,7 +10382,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 10605339567,
+      "osmId": "node/10605339567",
       "wikidata": "Q102353068"
     },
     {
@@ -10337,7 +10397,7 @@
         "lat": 40.0397784,
         "lng": 116.3086826
       },
-      "osmId": 7116372189
+      "osmId": "node/7116372189"
     },
     {
       "id": "清河营",
@@ -10351,7 +10411,7 @@
         "lat": 40.0496531,
         "lng": 116.4360139
       },
-      "osmId": 11478723285,
+      "osmId": "node/11478723285",
       "wikidata": "Q107472049"
     },
     {
@@ -10395,7 +10455,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7860703073,
+      "osmId": "node/7860703073",
       "wikidata": "Q5938212"
     },
     {
@@ -10442,7 +10502,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564113107,
+      "osmId": "node/4564113107",
       "wikidata": "Q24327754"
     },
     {
@@ -10457,7 +10517,7 @@
         "lat": 39.8889326,
         "lng": 116.3213598
       },
-      "osmId": 6496364884
+      "osmId": "node/6496364884"
     },
     {
       "id": "潘家园",
@@ -10493,7 +10553,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5372350032,
+      "osmId": "node/5372350032",
       "wikidata": "Q7131255"
     },
     {
@@ -10508,7 +10568,7 @@
         "lat": 39.873824,
         "lng": 116.4446966
       },
-      "osmId": 13417518491,
+      "osmId": "node/13417518491",
       "wikidata": "Q102346922"
     },
     {
@@ -10545,7 +10605,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441513452,
+      "osmId": "node/5441513452",
       "wikidata": "Q1767779"
     },
     {
@@ -10560,8 +10620,37 @@
         "lat": 39.8888289,
         "lng": 116.7510869
       },
-      "osmId": 13367702388,
-      "wikidata": "Q113720157"
+      "osmId": "node/13367702388",
+      "wikidata": "Q113720157",
+      "entrances": [
+        {
+          "id": "osm-node-13735099667",
+          "name": "Exit B1",
+          "coordinates": {
+            "lat": 39.8878242,
+            "lng": 116.7502334
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13735099668",
+          "name": "Exit B2",
+          "coordinates": {
+            "lat": 39.8873664,
+            "lng": 116.7501219
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13735099669",
+          "name": "Exit A",
+          "coordinates": {
+            "lat": 39.888953,
+            "lng": 116.7509885
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "瀛海",
@@ -10575,7 +10664,7 @@
         "lat": 39.7593594,
         "lng": 116.4428265
       },
-      "osmId": 6488102424,
+      "osmId": "node/6488102424",
       "wikidata": "Q56882345"
     },
     {
@@ -10610,7 +10699,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444436956,
+      "osmId": "node/5444436956",
       "wikidata": "Q5946141"
     },
     {
@@ -10625,7 +10714,7 @@
         "lat": 39.797982,
         "lng": 116.4124409
       },
-      "osmId": 6172173706,
+      "osmId": "node/6172173706",
       "wikidata": "Q56882475"
     },
     {
@@ -10662,7 +10751,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505989,
+      "osmId": "node/5305505989",
       "wikidata": "Q5256961"
     },
     {
@@ -10728,7 +10817,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 5444439979,
+      "osmId": "node/5444439979",
       "wikidata": "Q5959844"
     },
     {
@@ -10785,7 +10874,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459843,
+      "osmId": "node/3369459843",
       "wikidata": "Q17499265"
     },
     {
@@ -10822,7 +10911,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5402957177,
+      "osmId": "node/5402957177",
       "wikidata": "Q41627671"
     },
     {
@@ -10846,7 +10935,7 @@
         "lat": 39.9750791,
         "lng": 116.3636148
       },
-      "osmId": 9385101461,
+      "osmId": "node/9385101461",
       "wikidata": "Q6124616"
     },
     {
@@ -10893,7 +10982,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073325258,
+      "osmId": "node/8073325258",
       "wikidata": "Q16928789"
     },
     {
@@ -10982,7 +11071,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849508
+      "osmId": "node/6617849508"
     },
     {
       "id": "玉渊潭东门",
@@ -10996,7 +11085,7 @@
         "lat": 39.9139393,
         "lng": 116.328872
       },
-      "osmId": 4564112816,
+      "osmId": "node/4564112816",
       "wikidata": "Q78144946"
     },
     {
@@ -11070,7 +11159,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6617849503,
+      "osmId": "node/6617849503",
       "wikidata": "Q843213"
     },
     {
@@ -11085,7 +11174,7 @@
         "lat": 39.8481659,
         "lng": 116.673529
       },
-      "osmId": 6930098800,
+      "osmId": "node/6930098800",
       "wikidata": "Q75161769"
     },
     {
@@ -11162,7 +11251,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173698
+      "osmId": "node/6172173698"
     },
     {
       "id": "瑞合庄",
@@ -11214,7 +11303,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112817,
+      "osmId": "node/4564112817",
       "wikidata": "Q28309040"
     },
     {
@@ -11224,13 +11313,33 @@
       "localName": "生命科学园",
       "lines": ["changping"],
       "status": "active",
-      "features": ["fare-vending"],
+      "features": ["elevator", "fare-vending"],
       "coordinates": {
         "lat": 40.093573,
         "lng": 116.288183
       },
-      "osmId": 8073325263,
-      "wikidata": "Q6119466"
+      "osmId": "node/8073325263",
+      "wikidata": "Q6119466",
+      "entrances": [
+        {
+          "id": "osm-node-13947737468",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 40.0934753,
+            "lng": 116.2884131
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13947737470",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 40.0927751,
+            "lng": 116.2886003
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "生物医药基地",
@@ -11244,7 +11353,7 @@
         "lat": 39.6851077,
         "lng": 116.3156802
       },
-      "osmId": 5441516142,
+      "osmId": "node/5441516142",
       "wikidata": "Q4915106"
     },
     {
@@ -11291,7 +11400,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173687,
+      "osmId": "node/6172173687",
       "wikidata": "Q56881426"
     },
     {
@@ -11326,7 +11435,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448545746,
+      "osmId": "node/5448545746",
       "wikidata": "Q4843191"
     },
     {
@@ -11341,7 +11450,7 @@
         "lat": 39.818274,
         "lng": 116.3067798
       },
-      "osmId": 7631365912
+      "osmId": "node/7631365912"
     },
     {
       "id": "白石桥南",
@@ -11407,7 +11516,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430545454,
+      "osmId": "node/5430545454",
       "wikidata": "Q4848682"
     },
     {
@@ -11454,7 +11563,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459845,
+      "osmId": "node/3369459845",
       "wikidata": "Q18657528"
     },
     {
@@ -11469,7 +11578,7 @@
         "lat": 39.8338003,
         "lng": 116.2666477
       },
-      "osmId": 10296512593,
+      "osmId": "node/10296512593",
       "wikidata": "Q78872939"
     },
     {
@@ -11536,7 +11645,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430403863
+      "osmId": "node/5430403863"
     },
     {
       "id": "知春里",
@@ -11579,7 +11688,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7896877681,
+      "osmId": "node/7896877681",
       "wikidata": "Q5936478"
     },
     {
@@ -11641,7 +11750,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12430747506,
+      "osmId": "node/12430747506",
       "wikidata": "Q97172525"
     },
     {
@@ -11665,7 +11774,7 @@
         "lat": 39.8444927,
         "lng": 116.4074126
       },
-      "osmId": 7896877682,
+      "osmId": "node/7896877682",
       "wikidata": "Q7496655"
     },
     {
@@ -11710,7 +11819,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459846,
+      "osmId": "node/3369459846",
       "wikidata": "Q5121330"
     },
     {
@@ -11720,7 +11829,7 @@
       "localName": "科怡路",
       "lines": ["line-9"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8308852,
         "lng": 116.2914302
@@ -11785,7 +11894,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5442237611,
+      "osmId": "node/5442237611",
       "wikidata": "Q4392249"
     },
     {
@@ -11862,7 +11971,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9385085643,
+      "osmId": "node/9385085643",
       "wikidata": "Q5976575"
     },
     {
@@ -11907,7 +12016,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12205156087,
+      "osmId": "node/12205156087",
       "wikidata": "Q6125740"
     },
     {
@@ -11954,7 +12063,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5442212133,
+      "osmId": "node/5442212133",
       "wikidata": "Q5972622"
     },
     {
@@ -12031,7 +12140,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441536712,
+      "osmId": "node/5441536712",
       "wikidata": "Q5613861"
     },
     {
@@ -12046,7 +12155,7 @@
         "lat": 39.759377,
         "lng": 116.1833797
       },
-      "osmId": 8073272029,
+      "osmId": "node/8073272029",
       "wikidata": "Q4392161"
     },
     {
@@ -12113,7 +12222,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 11478723290,
+      "osmId": "node/11478723290",
       "wikidata": "Q107471993"
     },
     {
@@ -12128,7 +12237,7 @@
         "lat": 39.8762703,
         "lng": 116.3307982
       },
-      "osmId": 4564112795,
+      "osmId": "node/4564112795",
       "wikidata": "Q45412676"
     },
     {
@@ -12175,7 +12284,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7896877679,
+      "osmId": "node/7896877679",
       "wikidata": "Q2043475"
     },
     {
@@ -12190,7 +12299,7 @@
         "lat": 39.723022,
         "lng": 116.0804553
       },
-      "osmId": 9153343832,
+      "osmId": "node/9153343832",
       "wikidata": "Q42748562"
     },
     {
@@ -12214,7 +12323,7 @@
         "lat": 39.7825504,
         "lng": 116.5564358
       },
-      "osmId": 5444695596,
+      "osmId": "node/5444695596",
       "wikidata": "Q6119390"
     },
     {
@@ -12259,7 +12368,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7278207455,
+      "osmId": "node/7278207455",
       "wikidata": "Q5936601"
     },
     {
@@ -12292,7 +12401,7 @@
         "lat": 39.7218824,
         "lng": 116.1342397
       },
-      "osmId": 5430390454,
+      "osmId": "node/5430390454",
       "wikidata": "Q6119094"
     },
     {
@@ -12307,7 +12416,7 @@
         "lat": 39.7219018,
         "lng": 116.1702973
       },
-      "osmId": 8073272032,
+      "osmId": "node/8073272032",
       "wikidata": "Q4392294"
     },
     {
@@ -12322,7 +12431,7 @@
         "lat": 39.728465,
         "lng": 116.1773354
       },
-      "osmId": 8073272031,
+      "osmId": "node/8073272031",
       "wikidata": "Q4392201"
     },
     {
@@ -12337,7 +12446,7 @@
         "lat": 39.7218688,
         "lng": 116.1500157
       },
-      "osmId": 8073272033,
+      "osmId": "node/8073272033",
       "wikidata": "Q4392300"
     },
     {
@@ -12372,7 +12481,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430392913,
+      "osmId": "node/5430392913",
       "wikidata": "Q6124150"
     },
     {
@@ -12448,7 +12557,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441522470,
+      "osmId": "node/5441522470",
       "wikidata": "Q130437"
     },
     {
@@ -12463,7 +12572,7 @@
         "lat": 39.8278468,
         "lng": 116.3139452
       },
-      "osmId": 7631365924
+      "osmId": "node/7631365924"
     },
     {
       "id": "花庄",
@@ -12519,7 +12628,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6930098785,
+      "osmId": "node/6930098785",
       "wikidata": "Q75161881"
     },
     {
@@ -12576,7 +12685,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073325253,
+      "osmId": "node/8073325253",
       "wikidata": "Q5937712"
     },
     {
@@ -12623,7 +12732,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12435287602,
+      "osmId": "node/12435287602",
       "wikidata": "Q28309051"
     },
     {
@@ -12728,7 +12837,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448587388,
+      "osmId": "node/5448587388",
       "wikidata": "Q5936074"
     },
     {
@@ -12743,7 +12852,7 @@
         "lat": 39.7218523,
         "lng": 116.1189698
       },
-      "osmId": 8073272034,
+      "osmId": "node/8073272034",
       "wikidata": "Q5936795"
     },
     {
@@ -12846,7 +12955,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9380332412,
+      "osmId": "node/9380332412",
       "wikidata": "Q1039443"
     },
     {
@@ -12912,7 +13021,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073325259,
+      "osmId": "node/8073325259",
       "wikidata": "Q82801"
     },
     {
@@ -12948,7 +13057,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9385116433,
+      "osmId": "node/9385116433",
       "wikidata": "Q2257617"
     },
     {
@@ -12963,7 +13072,7 @@
         "lat": 39.7920207,
         "lng": 116.507463
       },
-      "osmId": 8073260827,
+      "osmId": "node/8073260827",
       "wikidata": "Q5937809"
     },
     {
@@ -12978,7 +13087,7 @@
         "lat": 39.7816956,
         "lng": 116.515857
       },
-      "osmId": 8073260828,
+      "osmId": "node/8073260828",
       "wikidata": "Q5937661"
     },
     {
@@ -13025,7 +13134,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5453394777,
+      "osmId": "node/5453394777",
       "wikidata": "Q75398"
     },
     {
@@ -13102,7 +13211,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459847,
+      "osmId": "node/3369459847",
       "wikidata": "Q5017826"
     },
     {
@@ -13137,7 +13246,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3367069257,
+      "osmId": "node/3367069257",
       "wikidata": "Q105069699"
     },
     {
@@ -13194,7 +13303,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3367857705,
+      "osmId": "node/3367857705",
       "wikidata": "Q7258998"
     },
     {
@@ -13229,7 +13338,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12430714719,
+      "osmId": "node/12430714719",
       "wikidata": "Q103745773"
     },
     {
@@ -13239,7 +13348,7 @@
       "localName": "蓟门桥",
       "lines": ["changping", "line-12"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending", "transfer"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9663129,
         "lng": 116.3488274
@@ -13315,7 +13424,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12430713733,
+      "osmId": "node/12430713733",
       "wikidata": "Q84244808"
     },
     {
@@ -13359,7 +13468,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369459848,
+      "osmId": "node/3369459848",
       "wikidata": "Q15953285"
     },
     {
@@ -13415,7 +13524,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441499243,
+      "osmId": "node/5441499243",
       "wikidata": "Q5210947"
     },
     {
@@ -13459,7 +13568,7 @@
           "wheelchair": true
         }
       ],
-      "osmId": 5430533767,
+      "osmId": "node/5430533767",
       "wikidata": "Q4674479"
     },
     {
@@ -13506,7 +13615,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 4564112882,
+      "osmId": "node/4564112882",
       "wikidata": "Q26206379"
     },
     {
@@ -13598,7 +13707,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430540736,
+      "osmId": "node/5430540736",
       "wikidata": "Q842064"
     },
     {
@@ -13654,7 +13763,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7861046854,
+      "osmId": "node/7861046854",
       "wikidata": "Q6122274"
     },
     {
@@ -13731,7 +13840,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5448585739,
+      "osmId": "node/5448585739",
       "wikidata": "Q5937841"
     },
     {
@@ -13746,7 +13855,7 @@
         "lat": 39.9644089,
         "lng": 116.4360547
       },
-      "osmId": 12435251105
+      "osmId": "node/12435251105"
     },
     {
       "id": "西小口",
@@ -13755,7 +13864,7 @@
       "localName": "西小口",
       "lines": ["line-8"],
       "status": "active",
-      "features": ["accessible", "escalator", "fare-vending"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0460679,
         "lng": 116.3451639
@@ -13807,7 +13916,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305506004,
+      "osmId": "node/5305506004",
       "wikidata": "Q4392224"
     },
     {
@@ -13822,7 +13931,7 @@
         "lat": 39.8652242,
         "lng": 116.2978076
       },
-      "osmId": 3367044891,
+      "osmId": "node/3367044891",
       "wikidata": "Q75387"
     },
     {
@@ -13898,7 +14007,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430462574,
+      "osmId": "node/5430462574",
       "wikidata": "Q847791"
     },
     {
@@ -13913,7 +14022,7 @@
         "lat": 39.7883939,
         "lng": 116.322677
       },
-      "osmId": 7860703071,
+      "osmId": "node/7860703071",
       "wikidata": "Q5938103"
     },
     {
@@ -13966,7 +14075,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6580603898
+      "osmId": "node/6580603898"
     },
     {
       "id": "西钓鱼台",
@@ -14002,7 +14111,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5453388186,
+      "osmId": "node/5453388186",
       "wikidata": "Q8044360"
     },
     {
@@ -14017,7 +14126,7 @@
         "lat": 39.859977,
         "lng": 116.3497096
       },
-      "osmId": 9365006124,
+      "osmId": "node/9365006124",
       "wikidata": "Q105069700"
     },
     {
@@ -14064,7 +14173,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173685,
+      "osmId": "node/6172173685",
       "wikidata": "Q57777858"
     },
     {
@@ -14090,7 +14199,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430391236,
+      "osmId": "node/5430391236",
       "wikidata": "Q75262"
     },
     {
@@ -14147,7 +14256,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430507192,
+      "osmId": "node/5430507192",
       "wikidata": "Q5960800"
     },
     {
@@ -14194,7 +14303,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430505472,
+      "osmId": "node/5430505472",
       "wikidata": "Q5089563"
     },
     {
@@ -14209,7 +14318,7 @@
         "lat": 39.931061,
         "lng": 116.3379903
       },
-      "osmId": 7896877678,
+      "osmId": "node/7896877678",
       "wikidata": "Q130435"
     },
     {
@@ -14266,7 +14375,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5453371982
+      "osmId": "node/5453371982"
     },
     {
       "id": "达官营",
@@ -14280,7 +14389,7 @@
         "lat": 39.888892,
         "lng": 116.3293717
       },
-      "osmId": 3369459849,
+      "osmId": "node/3369459849",
       "wikidata": "Q15929607"
     },
     {
@@ -14327,7 +14436,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8073325257
+      "osmId": "node/8073325257"
     },
     {
       "id": "通州北苑",
@@ -14341,7 +14450,7 @@
         "lat": 39.9027423,
         "lng": 116.6314069
       },
-      "osmId": 5444674048,
+      "osmId": "node/5444674048",
       "wikidata": "Q5973079"
     },
     {
@@ -14365,7 +14474,7 @@
         "lat": 39.8555351,
         "lng": 116.5641046
       },
-      "osmId": 6930098568,
+      "osmId": "node/6930098568",
       "wikidata": "Q76063542"
     },
     {
@@ -14432,7 +14541,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441488835,
+      "osmId": "node/5441488835",
       "wikidata": "Q16928969"
     },
     {
@@ -14447,7 +14556,7 @@
         "lat": 39.8133778,
         "lng": 116.2960281
       },
-      "osmId": 5430450045,
+      "osmId": "node/5430450045",
       "wikidata": "Q5619660"
     },
     {
@@ -14500,7 +14609,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3365609791,
+      "osmId": "node/3365609791",
       "wikidata": "Q9206264"
     },
     {
@@ -14557,7 +14666,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5687481931,
+      "osmId": "node/5687481931",
       "wikidata": "Q5956448"
     },
     {
@@ -14634,7 +14743,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6606206479,
+      "osmId": "node/6606206479",
       "wikidata": "Q82796"
     },
     {
@@ -14691,7 +14800,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6172173583,
+      "osmId": "node/6172173583",
       "wikidata": "Q38679541"
     },
     {
@@ -14718,7 +14827,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9379477284
+      "osmId": "node/9379477284"
     },
     {
       "id": "长春桥",
@@ -14764,7 +14873,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444434450,
+      "osmId": "node/5444434450",
       "wikidata": "Q5071745"
     },
     {
@@ -14861,7 +14970,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6724644888
+      "osmId": "node/6724644888"
     },
     {
       "id": "长阳",
@@ -14875,7 +14984,7 @@
         "lat": 39.7625141,
         "lng": 116.2065044
       },
-      "osmId": 8073272028,
+      "osmId": "node/8073272028",
       "wikidata": "Q5072154"
     },
     {
@@ -14890,7 +14999,7 @@
         "lat": 39.715288,
         "lng": 116.0739687
       },
-      "osmId": 5402953665,
+      "osmId": "node/5402953665",
       "wikidata": "Q46716045"
     },
     {
@@ -14905,7 +15014,7 @@
         "lat": 39.7275574,
         "lng": 116.094557
       },
-      "osmId": 5779155490,
+      "osmId": "node/5779155490",
       "wikidata": "Q39085456"
     },
     {
@@ -14960,7 +15069,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 6724644887
+      "osmId": "node/6724644887"
     },
     {
       "id": "阜通",
@@ -15016,7 +15125,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 3369356934,
+      "osmId": "node/3369356934",
       "wikidata": "Q18759604"
     },
     {
@@ -15063,7 +15172,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7861046855,
+      "osmId": "node/7861046855",
       "wikidata": "Q5960410"
     },
     {
@@ -15078,7 +15187,7 @@
         "lat": 39.8675967,
         "lng": 116.3816795
       },
-      "osmId": 3367857706,
+      "osmId": "node/3367857706",
       "wikidata": "Q21246002"
     },
     {
@@ -15145,7 +15254,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505988,
+      "osmId": "node/5305505988",
       "wikidata": "Q5976347"
     },
     {
@@ -15190,7 +15299,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5430532540
+      "osmId": "node/5430532540"
     },
     {
       "id": "霍营东",
@@ -15204,7 +15313,7 @@
         "lat": 40.0805687,
         "lng": 116.3698028
       },
-      "osmId": 13410044001,
+      "osmId": "node/13410044001",
       "wikidata": "Q111813027"
     },
     {
@@ -15251,7 +15360,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5444431618,
+      "osmId": "node/5444431618",
       "wikidata": "Q7267855"
     },
     {
@@ -15284,7 +15393,7 @@
         "lat": 39.7002557,
         "lng": 116.000048
       },
-      "osmId": 7796853448,
+      "osmId": "node/7796853448",
       "wikidata": "Q45797647"
     },
     {
@@ -15340,7 +15449,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8277164621
+      "osmId": "node/8277164621"
     },
     {
       "id": "香山",
@@ -15363,7 +15472,7 @@
         "lat": 39.7037753,
         "lng": 116.0105495
       },
-      "osmId": 7796839024,
+      "osmId": "node/7796839024",
       "wikidata": "Q46999649"
     },
     {
@@ -15378,7 +15487,7 @@
         "lat": 39.8516352,
         "lng": 116.365207
       },
-      "osmId": 7861046856,
+      "osmId": "node/7861046856",
       "wikidata": "Q5959373"
     },
     {
@@ -15393,7 +15502,7 @@
         "lat": 40.0325513,
         "lng": 116.4983103
       },
-      "osmId": 5430450498,
+      "osmId": "node/5430450498",
       "wikidata": "Q5937635"
     },
     {
@@ -15403,7 +15512,7 @@
       "localName": "马甸桥",
       "lines": ["line-12"],
       "status": "active",
-      "features": ["escalator", "fare-vending"],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9668285,
         "lng": 116.3758342
@@ -15449,7 +15558,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 12430713734,
+      "osmId": "node/12430713734",
       "wikidata": "Q84251336"
     },
     {
@@ -15484,7 +15593,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 9669538693,
+      "osmId": "node/9669538693",
       "wikidata": "Q26261977"
     },
     {
@@ -15499,7 +15608,7 @@
         "lat": 39.9792261,
         "lng": 116.4994848
       },
-      "osmId": 12423657577,
+      "osmId": "node/12423657577",
       "wikidata": "Q103742571"
     },
     {
@@ -15514,7 +15623,7 @@
         "lat": 39.9791304,
         "lng": 116.4850346
       },
-      "osmId": 12423657578,
+      "osmId": "node/12423657578",
       "wikidata": "Q17034758"
     },
     {
@@ -15549,7 +15658,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7117305974
+      "osmId": "node/7117305974"
     },
     {
       "id": "高碑店",
@@ -15605,7 +15714,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 8978629464,
+      "osmId": "node/8978629464",
       "wikidata": "Q5521677"
     },
     {
@@ -15620,7 +15729,7 @@
         "lat": 39.7730301,
         "lng": 116.3244805
       },
-      "osmId": 7860703072,
+      "osmId": "node/7860703072",
       "wikidata": "Q5521693"
     },
     {
@@ -15673,7 +15782,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5441536634,
+      "osmId": "node/5441536634",
       "wikidata": "Q5521694"
     },
     {
@@ -15730,7 +15839,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7861046853,
+      "osmId": "node/7861046853",
       "wikidata": "Q5938302"
     },
     {
@@ -15754,7 +15863,7 @@
         "lat": 39.8479616,
         "lng": 116.5475285
       },
-      "osmId": 6930098566,
+      "osmId": "node/6930098566",
       "wikidata": "Q72328419"
     },
     {
@@ -15808,7 +15917,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7860703075
+      "osmId": "node/7860703075"
     },
     {
       "id": "黄村西大街",
@@ -15860,7 +15969,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7860703074,
+      "osmId": "node/7860703074",
       "wikidata": "Q6119338"
     },
     {
@@ -15917,7 +16026,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 7896877677,
+      "osmId": "node/7896877677",
       "wikidata": "Q11177956"
     },
     {
@@ -15932,7 +16041,7 @@
         "lat": 39.8577135,
         "lng": 116.5927827
       },
-      "osmId": 6930098569,
+      "osmId": "node/6930098569",
       "wikidata": "Q76063590"
     },
     {
@@ -16009,7 +16118,7 @@
           "wheelchair": false
         }
       ],
-      "osmId": 5305505994
+      "osmId": "node/5305505994"
     },
     {
       "id": "龙泽",
@@ -16023,7 +16132,7 @@
         "lat": 40.0695732,
         "lng": 116.3132033
       },
-      "osmId": 6617852360,
+      "osmId": "node/6617852360",
       "wikidata": "Q6126985"
     },
     {
@@ -16038,7 +16147,7 @@
         "lat": 40.0714794,
         "lng": 116.3040433
       },
-      "osmId": 13354529561,
+      "osmId": "node/13354529561",
       "wikidata": "Q111802872"
     }
   ]

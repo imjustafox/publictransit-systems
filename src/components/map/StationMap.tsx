@@ -20,15 +20,26 @@ const StationMapClient = dynamic(
 // Station with coordinates required for map rendering
 type StationWithCoordinates = Omit<Station, "coordinates"> & { coordinates: Coordinates };
 
+export interface GeometryOverlay {
+  lineId: string;
+  color: string;
+  shapes: [number, number][][];
+}
+
 interface StationMapProps {
   station: StationWithCoordinates;
   stationLines: Line[];
+  geometryOverlays?: GeometryOverlay[];
 }
 
-export function StationMap({ station, stationLines }: StationMapProps) {
+export function StationMap({ station, stationLines, geometryOverlays }: StationMapProps) {
   return (
     <div className="aspect-video overflow-hidden rounded-lg border border-border">
-      <StationMapClient station={station} stationLines={stationLines} />
+      <StationMapClient
+        station={station}
+        stationLines={stationLines}
+        geometryOverlays={geometryOverlays}
+      />
     </div>
   );
 }

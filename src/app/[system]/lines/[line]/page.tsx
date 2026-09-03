@@ -1,11 +1,19 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getSystem, getLine, getLines, getStationsByLine, formatDate } from "@/lib/data";
+import {
+  getSystem,
+  getLine,
+  getLines,
+  getStationsByLine,
+  getLineGeometry,
+  formatDate,
+} from "@/lib/data";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { StatusBadge } from "@/components/ui/Badge";
 import { StationCard } from "@/components/transit/StationCard";
 import { Badge } from "@/components/ui/Badge";
 import { LineStats } from "@/components/transit/LineStats";
+import { LineMap } from "@/components/map/LineMap";
 import { formatTermini } from "@/lib/utils";
 
 interface PageProps {
@@ -18,11 +26,12 @@ export default async function LineDetailPage({ params }: PageProps) {
   // Decode line ID if it's URL-encoded
   const decodedLineId = decodeURIComponent(lineId);
 
-  const [system, line, allLines, stations] = await Promise.all([
+  const [system, line, allLines, stations, geometry] = await Promise.all([
     getSystem(systemId),
     getLine(systemId, decodedLineId),
     getLines(systemId),
     getStationsByLine(systemId, decodedLineId),
+    getLineGeometry(systemId, decodedLineId),
   ]).catch(() => notFound());
 
   if (!line) {
@@ -103,6 +112,18 @@ export default async function LineDetailPage({ params }: PageProps) {
         status={line.status}
         colorHex={line.colorHex}
       />
+
+      {/* Route Map */}
+      {geometry && geometry.length > 0 && (
+        <Card>
+          <CardHeader>
+            <CardTitle>Route Map</CardTitle>
+          </CardHeader>
+          <CardContent>
+            <LineMap line={line} geometry={geometry} stations={stations} />
+          </CardContent>
+        </Card>
+      )}
 
       {/* Description */}
       <Card>

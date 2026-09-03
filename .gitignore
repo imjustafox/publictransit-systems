@@ -50,5 +50,8 @@ next-env.d.ts
 data/raw/
 data/.cache/
 
+# GTFS build diagnostic artifacts
+data/systems/*/topology_detected.json
+
 # accessibility test results
 test-results/

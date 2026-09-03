@@ -1,5 +1,6 @@
 {
   "id": "baltimore-metro",
+  "dataSource": "gtfs",
   "name": "Baltimore Metro SubwayLink",
   "shortName": "Metro SubwayLink",
   "location": "Baltimore, MD",

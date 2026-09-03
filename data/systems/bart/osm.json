@@ -1,0 +1,2126 @@
+{
+  "stations": {
+    "12th-street-oakland": {
+      "osmId": "node/2150077203",
+      "wikidata": "Q4548931",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1378045533",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8024006,
+            "lng": -122.2722645
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045536",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8047532,
+            "lng": -122.2713078
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045538",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8034088,
+            "lng": -122.2719278
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1378045539",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8033143,
+            "lng": -122.2716924
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045541",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8042536,
+            "lng": -122.2708098
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045542",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8038812,
+            "lng": -122.2713519
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045543",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8024798,
+            "lng": -122.2725136
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045545",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8037051,
+            "lng": -122.2718268
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2585950305",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8027542,
+            "lng": -122.2724204
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5308494184",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8045453,
+            "lng": -122.2713066
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "19th-street-oakland": {
+      "osmId": "node/2150077207",
+      "wikidata": "Q4595822",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1325354931",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.80756,
+            "lng": -122.2690614
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4194436461",
+          "name": "19th Street BART Street Elevator",
+          "coordinates": {
+            "lat": 37.8070716,
+            "lng": -122.2692724
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-430037155",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8084324,
+            "lng": -122.2685145
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-430037162",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8088614,
+            "lng": -122.268503
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-430561654",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8072762,
+            "lng": -122.2697886
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-430561655",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8069087,
+            "lng": -122.2694604
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-430561656",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8089767,
+            "lng": -122.267863
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "macarthur": {
+      "osmId": "node/9105999876",
+      "wikidata": "Q11690095",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5308494206",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8290804,
+            "lng": -122.2669676
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5308494214",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8291021,
+            "lng": -122.2671494
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5308494216",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8291243,
+            "lng": -122.2668565
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9868936106",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.829007,
+            "lng": -122.2668834
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "west-oakland": {
+      "osmId": "node/5783081359",
+      "wikidata": "Q7986108",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-11079931750",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8048761,
+            "lng": -122.2954033
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11079931751",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8050512,
+            "lng": -122.2952974
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "embarcadero": {
+      "osmId": "node/5318541582",
+      "wikidata": "Q3866549",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-309820436",
+          "name": "Exit A1",
+          "coordinates": {
+            "lat": 37.7936821,
+            "lng": -122.3960168
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-309820442",
+          "name": "Exit B1",
+          "coordinates": {
+            "lat": 37.7935283,
+            "lng": -122.3958502
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-386586392",
+          "name": "Exit A3",
+          "coordinates": {
+            "lat": 37.7922129,
+            "lng": -122.3978815
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-386587552",
+          "name": "Exit B3",
+          "coordinates": {
+            "lat": 37.7920695,
+            "lng": -122.397696
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4343738941",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7930688,
+            "lng": -122.3967924
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4343738965",
+          "name": "Exit B2",
+          "coordinates": {
+            "lat": 37.7928155,
+            "lng": -122.3967503
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4343738971",
+          "name": "Exit A2",
+          "coordinates": {
+            "lat": 37.7928883,
+            "lng": -122.397033
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7234376968",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7928507,
+            "lng": -122.3968917
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "montgomery-street": {
+      "osmId": "node/5015578938",
+      "wikidata": "Q5411429",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1419794065",
+          "name": "Market Street & Post Street",
+          "coordinates": {
+            "lat": 37.7888453,
+            "lng": -122.4023577
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1677860418",
+          "name": "Market Street & Montgomery Street",
+          "coordinates": {
+            "lat": 37.7891801,
+            "lng": -122.401769
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3063596865",
+          "name": "Market Street & New Montgomery Street",
+          "coordinates": {
+            "lat": 37.7885183,
+            "lng": -122.4022032
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3078438194",
+          "name": "Sansome Street & Sutter Street",
+          "coordinates": {
+            "lat": 37.7905006,
+            "lng": -122.4007055
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3570363393",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7900787,
+            "lng": -122.4005851
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5015578942",
+          "name": "Market Street & 2nd Street",
+          "coordinates": {
+            "lat": 37.7893882,
+            "lng": -122.4010875
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5015578962",
+          "name": "Market Street (500 Block)",
+          "coordinates": {
+            "lat": 37.7898128,
+            "lng": -122.4005446
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5015600019",
+          "name": "Market Street & Sutter Street",
+          "coordinates": {
+            "lat": 37.7899696,
+            "lng": -122.400716
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5015600236",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7898478,
+            "lng": -122.402024
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5015606875",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7898954,
+            "lng": -122.400629
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5015614749",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7903927,
+            "lng": -122.4011971
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "powell-street": {
+      "osmId": "node/5323877771",
+      "wikidata": "Q7236098",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1677844637",
+          "name": "Ellis Street & Stockton Street",
+          "coordinates": {
+            "lat": 37.7858018,
+            "lng": -122.406397
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1950609166",
+          "name": "Hallidie Plaza",
+          "coordinates": {
+            "lat": 37.7842947,
+            "lng": -122.4080149
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1950609210",
+          "name": "Hallidie Plaza",
+          "coordinates": {
+            "lat": 37.784393,
+            "lng": -122.4078906
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-4553249123",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7846412,
+            "lng": -122.4060832
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5318198799",
+          "name": "Market Street & 4th Street / Moscone Center",
+          "coordinates": {
+            "lat": 37.7859616,
+            "lng": -122.4054299
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5318198800",
+          "name": "Market Street & 4th Street",
+          "coordinates": {
+            "lat": 37.7852699,
+            "lng": -122.4063055
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5318198801",
+          "name": "Market Street & 5th Street",
+          "coordinates": {
+            "lat": 37.7837153,
+            "lng": -122.4082689
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5318198802",
+          "name": "Market Street & 5th Street",
+          "coordinates": {
+            "lat": 37.7843801,
+            "lng": -122.4074271
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5318198803",
+          "name": "Market Street & Ellis Street",
+          "coordinates": {
+            "lat": 37.7854406,
+            "lng": -122.4064619
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5318199023",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.784357,
+            "lng": -122.4080022
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5318199038",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7854849,
+            "lng": -122.4063828
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5318199047",
+          "name": "Market & 4th St",
+          "coordinates": {
+            "lat": 37.7861025,
+            "lng": -122.4056252
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5318218140",
+          "name": "San Francisco Centre",
+          "coordinates": {
+            "lat": 37.7840767,
+            "lng": -122.4076973
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5318218145",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7847872,
+            "lng": -122.406795
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7215416042",
+          "name": "Hallidie Plaza",
+          "coordinates": {
+            "lat": 37.784332,
+            "lng": -122.4079678
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9419289067",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7848011,
+            "lng": -122.4063648
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "civic-center": {
+      "osmId": "node/2150077196",
+      "wikidata": "Q5124283",
+      "entrances": [
+        {
+          "id": "osm-node-1420265514",
+          "name": "Market & 7th St",
+          "coordinates": {
+            "lat": 37.7801959,
+            "lng": -122.4127289
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1420265758",
+          "name": "Market & 7th St",
+          "coordinates": {
+            "lat": 37.7803412,
+            "lng": -122.4129154
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-307639379",
+          "name": "Market & 8th St",
+          "coordinates": {
+            "lat": 37.7788061,
+            "lng": -122.4144802
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-307639383",
+          "name": "Market & Hyde St",
+          "coordinates": {
+            "lat": 37.7789608,
+            "lng": -122.4146641
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-411095082",
+          "name": "United Nations Plaza",
+          "coordinates": {
+            "lat": 37.7797906,
+            "lng": -122.4139643
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7087461934",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7797281,
+            "lng": -122.4136971
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7237434096",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7801785,
+            "lng": -122.4128935
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-815235101",
+          "name": "Market Street (1100 Block)",
+          "coordinates": {
+            "lat": 37.7795362,
+            "lng": -122.4135681
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "16th-street-mission": {
+      "osmId": "node/2150077206",
+      "wikidata": "Q4552246",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-13565871495",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7657465,
+            "lng": -122.4197567
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-309821156",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7652756,
+            "lng": -122.4193274
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-309821157",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7647439,
+            "lng": -122.4200524
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-3570271795",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7653381,
+            "lng": -122.4195493
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "24th-street-mission": {
+      "osmId": "node/2150077208",
+      "wikidata": "Q4632033",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-318297867",
+          "name": "Exit A",
+          "coordinates": {
+            "lat": 37.7519435,
+            "lng": -122.4188358
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-318297918",
+          "name": "Exit B",
+          "coordinates": {
+            "lat": 37.7524837,
+            "lng": -122.4180954
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4081470905",
+          "name": "Exit B",
+          "coordinates": {
+            "lat": 37.7525705,
+            "lng": -122.418329
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "glen-park": {
+      "osmId": "node/6133371922",
+      "wikidata": "Q14682028",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12724399811",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7339212,
+            "lng": -122.4338868
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5316315197",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7331776,
+            "lng": -122.4338808
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "balboa-park": {
+      "osmId": "node/6133371923",
+      "wikidata": "Q3376646",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1718852442",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7213069,
+            "lng": -122.4473831
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1735975703",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7208138,
+            "lng": -122.4476153
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2542333096",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7212569,
+            "lng": -122.4475829
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-2678311839",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7211808,
+            "lng": -122.4473326
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4583437173",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7219835,
+            "lng": -122.4475001
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5338635540",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.72129,
+            "lng": -122.4472426
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "daly-city": {
+      "osmId": "node/6133371924",
+      "wikidata": "Q5211782",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-5314649504",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7059925,
+            "lng": -122.4691448
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5314650227",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7064831,
+            "lng": -122.4687955
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "lake-merritt": {
+      "osmId": "node/2150077199",
+      "wikidata": "Q5843043",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10575634462",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7973828,
+            "lng": -122.2654274
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-1325354928",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7971147,
+            "lng": -122.2655792
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1325354934",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.797596,
+            "lng": -122.265525
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1325354935",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7973829,
+            "lng": -122.2648268
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-1378045532",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7970797,
+            "lng": -122.2651832
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5308225378",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7970487,
+            "lng": -122.265121
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "fruitvale": {
+      "osmId": "node/6131716480",
+      "wikidata": "Q5506475",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-13174869635",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7750457,
+            "lng": -122.2244453
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "coliseum": {
+      "osmId": "node/6131716479",
+      "wikidata": "Q3095511",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3392794297",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7540085,
+            "lng": -122.1968028
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-3799977583",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7542703,
+            "lng": -122.1966856
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5308225365",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7538059,
+            "lng": -122.1971727
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5308225370",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7539604,
+            "lng": -122.1972889
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5308225373",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7539975,
+            "lng": -122.1973732
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5308225376",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.754012,
+            "lng": -122.1974197
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "san-leandro": {
+      "osmId": "node/6131716475",
+      "wikidata": "Q7414680",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-9704975820",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7216113,
+            "lng": -122.1606363
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "bay-fair": {
+      "osmId": "node/6131716474",
+      "wikidata": "Q4873998",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-12692528390",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6970021,
+            "lng": -122.1264718
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "hayward": {
+      "osmId": "node/6131716470",
+      "wikidata": "Q5687338",
+      "features": ["accessible"]
+    },
+    "south-hayward": {
+      "osmId": "node/6131716469",
+      "wikidata": "Q7567445",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12413798406",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6339892,
+            "lng": -122.0568021
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12413798411",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6339062,
+            "lng": -122.0569683
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-2388771570",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6344957,
+            "lng": -122.0568516
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "union-city": {
+      "osmId": "node/6131716468",
+      "wikidata": "Q7885541",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-2388768690",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5905707,
+            "lng": -122.0174855
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5306478414",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5908517,
+            "lng": -122.0171267
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "fremont": {
+      "osmId": "node/6131716481",
+      "wikidata": "Q5501550",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-14080814622",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5576758,
+            "lng": -121.9765771
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2388765287",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5574284,
+            "lng": -121.9766749
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2388765288",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.557625,
+            "lng": -121.9764454
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3570518506",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5575154,
+            "lng": -121.9764229
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "rockridge": {
+      "osmId": "node/53023702",
+      "wikidata": "Q7355549",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-2559450181",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.844603,
+            "lng": -122.2520561
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2559450182",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8444546,
+            "lng": -122.2515409
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "orinda": {
+      "osmId": "node/257087537",
+      "wikidata": "Q7102700",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12961417336",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8779648,
+            "lng": -122.1840799
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5310031755",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8781163,
+            "lng": -122.1840659
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "lafayette": {
+      "osmId": "node/257088282",
+      "wikidata": "Q6471331",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-4812925541",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8928468,
+            "lng": -122.1245184
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-4812925545",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8935225,
+            "lng": -122.1246628
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "walnut-creek": {
+      "osmId": "node/6129526877",
+      "wikidata": "Q7963571",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-5310031777",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9056317,
+            "lng": -122.0674372
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "pleasant-hill": {
+      "osmId": "node/6129526876",
+      "wikidata": "Q5695170",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-5310031785",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9283778,
+            "lng": -122.0560516
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "concord": {
+      "osmId": "node/57792672",
+      "wikidata": "Q5158764",
+      "features": ["accessible"]
+    },
+    "north-concord-martinez": {
+      "osmId": "node/6129526875",
+      "wikidata": "Q7054902",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-270136379",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.0027973,
+            "lng": -122.0242967
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "pittsburg-bay-point": {
+      "osmId": "node/6129526874",
+      "wikidata": "Q7199190",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-5313514244",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.018292,
+            "lng": -121.9453284
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "ashby": {
+      "osmId": "node/95327721",
+      "wikidata": "Q4804703",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-2086712236",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8527519,
+            "lng": -122.269559
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3200794175",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8523123,
+            "lng": -122.2697187
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4262478062",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.852823,
+            "lng": -122.2700818
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "downtown-berkeley": {
+      "osmId": "node/6129383336",
+      "wikidata": "Q5303372",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1928228258",
+          "name": "Exit B2",
+          "coordinates": {
+            "lat": 37.8704161,
+            "lng": -122.2682864
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-431022082",
+          "name": "Exit B4",
+          "coordinates": {
+            "lat": 37.8694754,
+            "lng": -122.2681931
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-431022094",
+          "name": "Exit B2",
+          "coordinates": {
+            "lat": 37.8696884,
+            "lng": -122.2677784
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-431022136",
+          "name": "Exit B2",
+          "coordinates": {
+            "lat": 37.8704762,
+            "lng": -122.2683065
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-431022312",
+          "name": "Exit A1",
+          "coordinates": {
+            "lat": 37.8710066,
+            "lng": -122.2681413
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-431022346",
+          "name": "Exit B1",
+          "coordinates": {
+            "lat": 37.870985,
+            "lng": -122.268377
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-431022401",
+          "name": "Exit B3",
+          "coordinates": {
+            "lat": 37.8700941,
+            "lng": -122.2682449
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-7151080177",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8710222,
+            "lng": -122.268263
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "north-berkeley": {
+      "osmId": "node/6129383335",
+      "wikidata": "Q5642442",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1633460502",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8740984,
+            "lng": -122.2834578
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5308494337",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.8735958,
+            "lng": -122.2825559
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-828422250",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.8740297,
+            "lng": -122.2832945
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "el-cerrito-plaza": {
+      "osmId": "node/6129383334",
+      "wikidata": "Q5350996",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12183514641",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.9027813,
+            "lng": -122.2991617
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12183514642",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.902841,
+            "lng": -122.2990285
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5308494339",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9023762,
+            "lng": -122.2987489
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5308494340",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9026841,
+            "lng": -122.2989936
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ]
+    },
+    "el-cerrito-del-norte": {
+      "osmId": "node/6129383333",
+      "wikidata": "Q5350999",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-11292071083",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.9249864,
+            "lng": -122.3166106
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11292071084",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.9248851,
+            "lng": -122.3168184
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-12774753339",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9247842,
+            "lng": -122.3165901
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6362136512",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9252624,
+            "lng": -122.3169669
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "richmond": {
+      "osmId": "node/6108521326",
+      "wikidata": "Q110908576",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-1352756450",
+          "name": "Marina Way / 16th Street",
+          "coordinates": {
+            "lat": 37.936899,
+            "lng": -122.3541632
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1352756679",
+          "name": "Exit B",
+          "coordinates": {
+            "lat": 37.9368361,
+            "lng": -122.3529771
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5309379301",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.93682,
+            "lng": -122.354016
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "castro-valley": {
+      "osmId": "node/6131716471",
+      "wikidata": "Q5050800",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-12339849154",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6911743,
+            "lng": -122.0758545
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12829819984",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6911636,
+            "lng": -122.0760038
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "west-dublin-pleasanton": {
+      "osmId": "node/6131716472",
+      "wikidata": "Q7984995",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-4339109798",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6989991,
+            "lng": -121.927673
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-4339109800",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.699015,
+            "lng": -121.9276781
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5306478430",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6992584,
+            "lng": -121.9279317
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5306478432",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7005209,
+            "lng": -121.9278364
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "dublin-pleasanton": {
+      "osmId": "node/6131716473",
+      "wikidata": "Q5310809",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-650133821",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7016413,
+            "lng": -121.8984038
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "colma": {
+      "osmId": "node/6133477873",
+      "wikidata": "Q5147717",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-1205166347",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6833143,
+            "lng": -122.4679496
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5314600804",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6846957,
+            "lng": -122.4661076
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "south-san-francisco": {
+      "osmId": "node/6133477844",
+      "wikidata": "Q7568372",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12359000739",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6641989,
+            "lng": -122.443939
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5314600708",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6640901,
+            "lng": -122.4440579
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5314600721",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6643105,
+            "lng": -122.4438499
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "san-bruno": {
+      "osmId": "node/6133477840",
+      "wikidata": "Q7413485",
+      "entrances": [
+        {
+          "id": "osm-node-3967653519",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6377154,
+            "lng": -122.4164919
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-3967681531",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6377971,
+            "lng": -122.4161372
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "millbrae": {
+      "osmId": "node/5317898423",
+      "wikidata": "Q6858585",
+      "entrances": [
+        {
+          "id": "osm-node-10930810639",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6000692,
+            "lng": -122.3868142
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-11115336492",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6003519,
+            "lng": -122.3864859
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12798707339",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6006958,
+            "lng": -122.3864558
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12798707343",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6000236,
+            "lng": -122.3865543
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-12798707349",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6001185,
+            "lng": -122.3868728
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1829554095",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5997776,
+            "lng": -122.3868131
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-1829554112",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6004617,
+            "lng": -122.3864348
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5317898448",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.6000295,
+            "lng": -122.387087
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5317898470",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6002739,
+            "lng": -122.3873477
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5317898500",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6006607,
+            "lng": -122.3865497
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "sfo-airport": {
+      "osmId": "node/6133643372",
+      "wikidata": "Q250113",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-5314599403",
+          "name": "San Francisco International Airport (SFO)",
+          "coordinates": {
+            "lat": 37.6164798,
+            "lng": -122.390452
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5314599404",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.6160162,
+            "lng": -122.392403
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "oakland-airport": {
+      "osmId": "node/6131716476",
+      "wikidata": "Q7074020",
+      "entrances": [
+        {
+          "id": "osm-node-3588193756",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.7129328,
+            "lng": -122.2124842
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-5308225324",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7130355,
+            "lng": -122.2124885
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "features": ["elevator"]
+    },
+    "pittsburg-center": {
+      "osmId": "node/6133703104",
+      "wikidata": "Q16978259",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-13715334090",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 38.016853,
+            "lng": -121.889095
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5898651722",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.016897,
+            "lng": -121.8892897
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "antioch": {
+      "osmId": "node/6133702995",
+      "wikidata": "Q4775000",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-12398624713",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.9958367,
+            "lng": -121.7803207
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-12398624716",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.9953912,
+            "lng": -121.7804441
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5898651721",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.9957969,
+            "lng": -121.7799963
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "warm-springs": {
+      "osmId": "node/6131304189",
+      "wikidata": "Q7969570",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3850502774",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.5021835,
+            "lng": -121.9386232
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-9472293897",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.5017962,
+            "lng": -121.9401368
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "milpitas": {
+      "osmId": "node/6955808073",
+      "wikidata": "Q6860706",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10568731274",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.4098167,
+            "lng": -121.8910999
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-10568731277",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.4101649,
+            "lng": -121.8908275
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5660717172",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.4101007,
+            "lng": -121.8910011
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5660717218",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.4091059,
+            "lng": -121.8917214
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6390510855",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.4089434,
+            "lng": -121.89141
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-6390510857",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 37.4099796,
+            "lng": -121.8909363
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
+    },
+    "berryessa": {
+      "osmId": "node/6955370556",
+      "wikidata": "Q4894857",
+      "features": ["accessible"]
+    }
+  }
+}

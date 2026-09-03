@@ -1,5 +1,6 @@
 {
   "id": "baltimore-light-rail",
+  "dataSource": "gtfs",
   "name": "Baltimore Light RailLink",
   "shortName": "Light RailLink",
   "location": "Baltimore, MD",

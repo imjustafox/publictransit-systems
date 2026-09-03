@@ -1,0 +1,904 @@
+{
+  "system": {
+    "overview": "The Washington Metro, operated by WMATA, is the rapid transit system serving the Washington metropolitan area. It is the second-busiest rapid transit system in the United States and serves the District of Columbia, along with portions of Maryland and Virginia.",
+    "history": [
+      {
+        "date": "1976-03-27",
+        "title": "System Opens",
+        "description": "Metro opens with the first segment of the Red Line between Rhode Island Avenue and Farragut North, comprising 4.6 miles and 5 stations."
+      },
+      {
+        "date": "1977-07-01",
+        "title": "Blue Line Opens",
+        "description": "Blue Line service begins between National Airport and Stadium-Armory."
+      },
+      {
+        "date": "1978-02-06",
+        "title": "Orange Line Opens",
+        "description": "Orange Line begins service between New Carrollton and Ballston."
+      },
+      {
+        "date": "1991-12-28",
+        "title": "Green Line Opens",
+        "description": "Green Line opens between U Street and Anacostia."
+      },
+      {
+        "date": "2001-01-13",
+        "title": "System Completed",
+        "description": "The original 103-mile Adopted Regional System is completed with the opening of the Green Line to Branch Avenue."
+      },
+      {
+        "date": "2014-07-26",
+        "title": "Silver Line Phase 1",
+        "description": "Silver Line Phase 1 opens, extending service to Tysons Corner and Reston."
+      },
+      {
+        "date": "2022-11-15",
+        "title": "Silver Line Phase 2",
+        "description": "Silver Line Phase 2 opens, extending service to Dulles International Airport and Loudoun County."
+      }
+    ],
+    "stats": {
+      "totalStations": 98,
+      "totalLines": 6,
+      "annualRidership": "186.5 million",
+      "trackMiles": 129,
+      "dailyRidership": "626,000",
+      "trackLength": 129,
+      "distanceUnit": "mi"
+    }
+  },
+  "lines": {
+    "red": {
+      "name": "Red Line",
+      "color": "red",
+      "colorHex": "#BF0D3E",
+      "opened": "1976-03-27",
+      "description": "The Red Line is the oldest and busiest line in the Metrorail system, connecting Shady Grove in Montgomery County, Maryland to Glenmont via downtown Washington, D.C.",
+      "abbreviation": "RD"
+    },
+    "blue": {
+      "name": "Blue Line",
+      "color": "blue",
+      "colorHex": "#009CDE",
+      "opened": "1977-07-01",
+      "description": "The Blue Line serves Fairfax County, Arlington County, and Prince George's County, passing through downtown D.C. and connecting to Reagan National Airport.",
+      "abbreviation": "BL"
+    },
+    "orange": {
+      "name": "Orange Line",
+      "color": "orange",
+      "colorHex": "#ED8B00",
+      "opened": "1978-02-06",
+      "description": "The Orange Line connects Fairfax County, Virginia to Prince George's County, Maryland, serving Vienna, Falls Church, Arlington, and downtown D.C.",
+      "abbreviation": "OR"
+    },
+    "green": {
+      "name": "Green Line",
+      "color": "green",
+      "colorHex": "#00B140",
+      "opened": "1991-12-28",
+      "description": "The Green Line runs from Greenbelt in Prince George's County to Branch Avenue, serving the U Street corridor and Anacostia neighborhoods.",
+      "abbreviation": "GR"
+    },
+    "yellow": {
+      "name": "Yellow Line",
+      "color": "yellow",
+      "colorHex": "#FFD200",
+      "opened": "1983-04-30",
+      "description": "The Yellow Line is the shortest line in the system, connecting Huntington in Fairfax County to Mt Vernon Square in D.C., serving Pentagon and Reagan National Airport.",
+      "abbreviation": "YL"
+    },
+    "silver": {
+      "name": "Silver Line",
+      "color": "silver",
+      "colorHex": "#A2A4A3",
+      "opened": "2014-07-26",
+      "description": "The Silver Line is the newest line in the system, connecting Loudoun County and Dulles International Airport to downtown D.C. and Prince George's County.",
+      "abbreviation": "SV",
+      "topology": {
+        "$replace": true,
+        "type": "linear",
+        "branches": [
+          {
+            "id": "new-carrollton",
+            "name": "New Carrollton Branch",
+            "termini": ["New Carrollton"],
+            "branchStation": "Stadium-Armory",
+            "servicePattern": "alternating",
+            "description": "Every other eastbound train"
+          },
+          {
+            "id": "largo",
+            "name": "Largo Branch",
+            "termini": ["Largo Town Center"],
+            "branchStation": "Stadium-Armory",
+            "servicePattern": "alternating",
+            "description": "Every other eastbound train"
+          }
+        ]
+      },
+      "termini": ["Ashburn", "New Carrollton", "Downtown Largo"]
+    }
+  },
+  "stations": {
+    "metro-center": {
+      "opened": "1976-03-27",
+      "address": "607 13th St NW, Washington, DC 20005",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Metro Center is the central hub of the Metrorail system, located at the intersection of G Street and 12th/13th Streets NW. It is one of the busiest stations in the system and serves as a transfer point between the Red, Blue, Orange, and Silver lines.",
+      "connections": ["gallery-place"]
+    },
+    "gallery-place": {
+      "opened": "1976-03-27",
+      "address": "630 H St NW, Washington, DC 20001",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Gallery Place-Chinatown serves the Penn Quarter and Chinatown neighborhoods. The station is adjacent to Capital One Arena and the National Portrait Gallery.",
+      "connections": ["metro-center"]
+    },
+    "union-station": {
+      "opened": "1976-03-27",
+      "address": "50 Massachusetts Ave NE, Washington, DC 20002",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection", "amtrak-connection"],
+      "description": "Union Station serves the historic Union Station, providing connections to Amtrak, MARC, and VRE commuter rail services, as well as intercity bus services."
+    },
+    "pentagon": {
+      "opened": "1977-07-01",
+      "address": "Pentagon, Arlington, VA",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Pentagon station serves the United States Department of Defense headquarters. It is one of the deepest stations in the system at 97 feet below ground."
+    },
+    "reagan-national-airport": {
+      "opened": "1977-07-01",
+      "address": "National Airport, Arlington, VA",
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
+      "description": "This station provides direct access to Reagan National Airport, serving as a major transportation hub for air travelers to the Washington area."
+    },
+    "dulles-airport": {
+      "opened": "2022-11-15",
+      "address": "Dulles International Airport, Dulles, VA",
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
+      "description": "The newest major station on the Silver Line, providing direct rail access to Dulles International Airport for the first time."
+    },
+    "farragut-north": {
+      "opened": "1976-03-27",
+      "address": "1001 Connecticut Ave NW, Washington, DC 20036",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Located in the central business district, Farragut North is one of the original five stations that opened with the system in 1976."
+    },
+    "farragut-west": {
+      "opened": "1977-07-01",
+      "address": "900 18th St NW, Washington, DC 20006",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Farragut West serves the western portion of downtown D.C. and is located near the White House and World Bank headquarters."
+    },
+    "shady-grove": {
+      "opened": "1984-12-15",
+      "address": "15903 Somerville Dr, Rockville, MD 20855",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Shady Grove is the northwestern terminus of the Red Line, located in Montgomery County, Maryland with extensive parking facilities."
+    },
+    "glenmont": {
+      "opened": "1998-07-25",
+      "address": "12501 Georgia Ave, Silver Spring, MD 20906",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Glenmont is the northeastern terminus of the Red Line and was the final Red Line station to open."
+    },
+    "l-enfant-plaza": {
+      "opened": "1977-07-01",
+      "address": "600 Maryland Ave SW, Washington, DC 20024",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "L'Enfant Plaza is one of the most important transfer stations in the system, serving all lines except the Red Line. It is adjacent to the Smithsonian museums."
+    },
+    "rosslyn": {
+      "opened": "1977-07-01",
+      "address": "1850 N Moore St, Arlington, VA 22209",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Rosslyn is the deepest station in the system at 97 feet below ground and serves as the gateway between D.C. and Northern Virginia."
+    },
+    "bethesda": {
+      "opened": "1984-08-25",
+      "address": "7450 Wisconsin Ave, Bethesda, MD 20814",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Bethesda station serves the downtown Bethesda business district in Montgomery County, Maryland."
+    },
+    "silver-spring": {
+      "opened": "1978-02-06",
+      "address": "8400 Colesville Rd, Silver Spring, MD 20910",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "marc-connection"
+      ],
+      "description": "Silver Spring is a major transit hub providing connections to MARC commuter rail and numerous bus routes."
+    },
+    "tysons-corner": {
+      "opened": "2014-07-26",
+      "address": "8300 Tysons Corner Center, Tysons, VA 22102",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Tysons Corner station serves the major commercial center and shopping destination in Fairfax County, Virginia."
+    },
+    "ashburn": {
+      "opened": "2022-11-15",
+      "address": "43360 Bahnhof Dr, Ashburn, VA 20147",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Ashburn is the western terminus of the Silver Line, serving Loudoun County's rapidly growing data center corridor."
+    },
+    "navy-yard": {
+      "opened": "1991-12-28",
+      "address": "200 M St SE, Washington, DC 20003",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Navy Yard-Ballpark serves the Capitol Riverfront neighborhood and Nationals Park, home of the Washington Nationals."
+    },
+    "u-street": {
+      "opened": "1991-05-11",
+      "address": "1240 U St NW, Washington, DC 20009",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "U Street serves the historic U Street Corridor, known for its jazz heritage and nightlife, and is near the African American Civil War Memorial."
+    },
+    "columbia-heights": {
+      "opened": "1999-09-18",
+      "address": "3030 14th St NW, Washington, DC 20009",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Columbia Heights station serves the Columbia Heights neighborhood and the DC USA shopping center."
+    },
+    "vienna": {
+      "opened": "1986-06-07",
+      "address": "9550 Saintsbury Dr, Fairfax, VA 22031",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Vienna is the western terminus of the Orange Line, serving Fairfax County and George Mason University."
+    },
+    "dupont-circle": {
+      "opened": "1977-01-17",
+      "address": "1525 20th St NW, Washington, DC 20036",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Dupont Circle serves the vibrant Dupont Circle neighborhood, known for its embassies, restaurants, and LGBTQ+ community."
+    },
+    "woodley-park": {
+      "opened": "1981-12-05",
+      "address": "2700 Connecticut Ave NW, Washington, DC 20008",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Woodley Park neighborhood and provides access to the Smithsonian National Zoo."
+    },
+    "cleveland-park": {
+      "opened": "1981-12-05",
+      "address": "3599 Connecticut Ave NW, Washington, DC 20008",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Cleveland Park station serves a residential neighborhood with historic homes and local shops."
+    },
+    "van-ness-udc": {
+      "opened": "1981-12-05",
+      "address": "4200 Connecticut Ave NW, Washington, DC 20008",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Van Ness neighborhood and the University of the District of Columbia."
+    },
+    "tenleytown-au": {
+      "opened": "1984-08-25",
+      "address": "4501 Wisconsin Ave NW, Washington, DC 20016",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves American University and the Tenleytown commercial district."
+    },
+    "friendship-heights": {
+      "opened": "1984-08-25",
+      "address": "5337 Wisconsin Ave NW, Washington, DC 20015",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Located on the D.C./Maryland border, serving a major retail district."
+    },
+    "medical-center": {
+      "opened": "1984-08-25",
+      "address": "8810 Rockville Pike, Bethesda, MD 20889",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the National Institutes of Health and Walter Reed National Military Medical Center."
+    },
+    "grosvenor-strathmore": {
+      "opened": "1984-08-25",
+      "address": "10300 Rockville Pike, North Bethesda, MD 20852",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Strathmore music center and surrounding residential areas."
+    },
+    "white-flint": {
+      "opened": "1984-08-25",
+      "address": "5500 Marinelli Rd, North Bethesda, MD 20852",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Pike District redevelopment area in North Bethesda."
+    },
+    "twinbrook": {
+      "opened": "1984-12-15",
+      "address": "1601 Chapman Ave, Rockville, MD 20852",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Twinbrook neighborhood and nearby commercial areas in Rockville."
+    },
+    "rockville": {
+      "opened": "1984-12-15",
+      "address": "150 Hungerford Dr, Rockville, MD 20850",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "marc-connection"
+      ],
+      "description": "Serves downtown Rockville with connections to MARC Brunswick Line commuter rail."
+    },
+    "wheaton": {
+      "opened": "1990-09-22",
+      "address": "2700 University Blvd, Wheaton, MD 20902",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Features one of the longest single-span escalators in the Western Hemisphere at 230 feet."
+    },
+    "forest-glen": {
+      "opened": "1990-09-22",
+      "address": "9850 Georgia Ave, Silver Spring, MD 20902",
+      "features": ["elevator", "fare-vending", "bus-connection"],
+      "description": "The deepest station in the system at 196 feet below ground, with no escalators—only elevators."
+    },
+    "takoma": {
+      "opened": "1978-02-06",
+      "address": "327 Cedar St NW, Washington, DC 20012",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Takoma neighborhood near the D.C./Maryland border."
+    },
+    "brookland-cua": {
+      "opened": "1978-02-06",
+      "address": "801 Michigan Ave NE, Washington, DC 20017",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves Catholic University of America and the Brookland neighborhood."
+    },
+    "rhode-island-ave": {
+      "opened": "1976-03-27",
+      "address": "919 Rhode Island Ave NE, Washington, DC 20018",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "One of the original five stations, serving the Brentwood and Woodridge neighborhoods."
+    },
+    "noma-gallaudet": {
+      "opened": "2004-11-20",
+      "address": "200 Florida Ave NE, Washington, DC 20002",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the NoMa business district and Gallaudet University, the only university for the deaf and hard of hearing."
+    },
+    "judiciary-square": {
+      "opened": "1976-03-27",
+      "address": "450 F St NW, Washington, DC 20001",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the D.C. courts, city offices, and the National Law Enforcement Officers Memorial."
+    },
+    "mcpherson-square": {
+      "opened": "1977-07-01",
+      "address": "1400 I St NW, Washington, DC 20005",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Located in the central business district, serving K Street and nearby office buildings."
+    },
+    "federal-triangle": {
+      "opened": "1977-07-01",
+      "address": "302 12th St NW, Washington, DC 20004",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Federal Triangle complex of government buildings including the IRS and EPA headquarters."
+    },
+    "smithsonian": {
+      "opened": "1977-07-01",
+      "address": "1200 Independence Ave SW, Washington, DC 20004",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Central access point for the National Mall and Smithsonian museums."
+    },
+    "federal-center-sw": {
+      "opened": "1977-07-01",
+      "address": "401 3rd St SW, Washington, DC 20024",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves federal office buildings and the U.S. Botanic Garden."
+    },
+    "capitol-south": {
+      "opened": "1977-07-01",
+      "address": "355 1st St SE, Washington, DC 20003",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Primary station for the U.S. Capitol and House office buildings."
+    },
+    "eastern-market": {
+      "opened": "1977-07-01",
+      "address": "701 Pennsylvania Ave SE, Washington, DC 20003",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Capitol Hill neighborhood and the historic Eastern Market."
+    },
+    "potomac-ave": {
+      "opened": "1977-07-01",
+      "address": "700 14th St SE, Washington, DC 20003",
+      "features": ["elevator", "escalator", "fare-vending", "parking"],
+      "description": "Serves the Hill East neighborhood near the Anacostia River."
+    },
+    "stadium-armory": {
+      "opened": "1977-11-20",
+      "address": "192 19th St SE, Washington, DC 20003",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the D.C. Armory and formerly served RFK Stadium. Major transfer point to Blue Line."
+    },
+    "benning-road": {
+      "opened": "1980-11-22",
+      "address": "4500 Benning Rd NE, Washington, DC 20019",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Benning neighborhood in Northeast D.C."
+    },
+    "capitol-heights": {
+      "opened": "1980-11-22",
+      "address": "601 Central Ave, Capitol Heights, MD 20743",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "First station in Prince George's County on the Blue Line."
+    },
+    "addison-road": {
+      "opened": "1980-11-22",
+      "address": "900 Addison Rd, Seat Pleasant, MD 20743",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Seat Pleasant community with large park-and-ride facilities."
+    },
+    "morgan-boulevard": {
+      "opened": "2004-12-18",
+      "address": "1001 Morgan Blvd, Landover, MD 20785",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves FedEx Field, home of the Washington Commanders."
+    },
+    "largo-town-center": {
+      "opened": "2004-12-18",
+      "address": "1100 Largo Center Dr, Largo, MD 20774",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Eastern terminus of the Blue and Silver Lines, serving Prince George's County."
+    },
+    "minnesota-ave": {
+      "opened": "1978-11-20",
+      "address": "4000 Minnesota Ave NE, Washington, DC 20019",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Minnesota Avenue corridor in Northeast D.C."
+    },
+    "deanwood": {
+      "opened": "1978-11-20",
+      "address": "4720 Sheriff Rd NE, Washington, DC 20019",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Deanwood neighborhood in Northeast D.C."
+    },
+    "cheverly": {
+      "opened": "1978-11-20",
+      "address": "5701 Columbia Park Rd, Landover Hills, MD 20784",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "First station in Prince George's County on the Orange Line."
+    },
+    "landover": {
+      "opened": "1978-11-20",
+      "address": "3401 Pennsy Dr, Landover, MD 20785",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Landover area with major park-and-ride facilities."
+    },
+    "new-carrollton": {
+      "opened": "1978-11-20",
+      "address": "4700 Garden City Dr, New Carrollton, MD 20784",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "amtrak-connection",
+        "marc-connection"
+      ],
+      "description": "Eastern terminus of the Orange Line with Amtrak and MARC connections."
+    },
+    "court-house": {
+      "opened": "1979-12-01",
+      "address": "2100 Wilson Blvd, Arlington, VA 22201",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Arlington County courthouse and government complex."
+    },
+    "clarendon": {
+      "opened": "1979-12-01",
+      "address": "3100 Wilson Blvd, Arlington, VA 22201",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Clarendon neighborhood, known for restaurants and nightlife."
+    },
+    "virginia-square": {
+      "opened": "1979-12-01",
+      "address": "3600 Fairfax Dr, Arlington, VA 22201",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves George Mason University's Arlington campus and Virginia Square."
+    },
+    "ballston-mu": {
+      "opened": "1979-12-01",
+      "address": "4230 Fairfax Dr, Arlington, VA 22203",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Ballston commercial district and Marymount University."
+    },
+    "east-falls-church": {
+      "opened": "1986-06-07",
+      "address": "2001 N Sycamore St, Falls Church, VA 22043",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Where Orange and Silver lines split; serves Falls Church area."
+    },
+    "west-falls-church": {
+      "opened": "1986-06-07",
+      "address": "7040 Haycock Rd, Falls Church, VA 22043",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the West Falls Church area with major bus connections."
+    },
+    "dunn-loring": {
+      "opened": "1986-06-07",
+      "address": "2700 Gallows Rd, Vienna, VA 22180",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Merrifield area and Mosaic District."
+    },
+    "crystal-city": {
+      "opened": "1977-07-01",
+      "address": "1750 S Clark St, Arlington, VA 22202",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection", "vre-connection"],
+      "description": "Serves the Crystal City business district with connection to VRE commuter rail."
+    },
+    "pentagon-city": {
+      "opened": "1977-07-01",
+      "address": "1250 S Hayes St, Arlington, VA 22202",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves Pentagon City mall and the surrounding residential area."
+    },
+    "braddock-road": {
+      "opened": "1983-04-30",
+      "address": "700 N West St, Alexandria, VA 22314",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Braddock Road neighborhood in Alexandria."
+    },
+    "king-street": {
+      "opened": "1983-04-30",
+      "address": "1900 King St, Alexandria, VA 22314",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "amtrak-connection",
+        "vre-connection"
+      ],
+      "description": "Major transit hub serving Old Town Alexandria with Amtrak and VRE connections."
+    },
+    "eisenhower-ave": {
+      "opened": "1983-04-30",
+      "address": "2425 Eisenhower Ave, Alexandria, VA 22314",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Eisenhower Valley commercial area."
+    },
+    "huntington": {
+      "opened": "1983-04-30",
+      "address": "2460 Huntington Ave, Alexandria, VA 22303",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Southern terminus of the Yellow Line with large parking facilities."
+    },
+    "van-dorn-street": {
+      "opened": "1991-06-15",
+      "address": "4799 Van Dorn St, Alexandria, VA 22304",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the west Alexandria/Van Dorn area."
+    },
+    "franconia-springfield": {
+      "opened": "1997-06-29",
+      "address": "6880 Frontier Dr, Springfield, VA 22150",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "amtrak-connection",
+        "vre-connection"
+      ],
+      "description": "Southern terminus of the Blue Line with Amtrak, VRE, and extensive bus connections."
+    },
+    "archives": {
+      "opened": "1991-12-28",
+      "address": "701 Pennsylvania Ave NW, Washington, DC 20004",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the National Archives, Navy Memorial, and Penn Quarter entertainment district."
+    },
+    "mt-vernon-sq": {
+      "opened": "1991-12-28",
+      "address": "700 M St NW, Washington, DC 20001",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Walter E. Washington Convention Center and historic Shaw neighborhood."
+    },
+    "shaw-howard": {
+      "opened": "1991-05-11",
+      "address": "1701 8th St NW, Washington, DC 20001",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Shaw neighborhood and Howard University."
+    },
+    "georgia-ave-petworth": {
+      "opened": "1999-09-18",
+      "address": "3700 Georgia Ave NW, Washington, DC 20010",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Petworth neighborhood and Georgia Avenue corridor."
+    },
+    "fort-totten": {
+      "opened": "1978-02-06",
+      "address": "550 Galloway St NE, Washington, DC 20011",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Major transfer point between Red and Green/Yellow lines."
+    },
+    "west-hyattsville": {
+      "opened": "1993-12-11",
+      "address": "2700 Hamilton St, Hyattsville, MD 20782",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves Hyattsville and the University of Maryland area."
+    },
+    "prince-georges-plaza": {
+      "opened": "1993-12-11",
+      "address": "3575 East West Hwy, Hyattsville, MD 20782",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Prince George's Plaza retail area."
+    },
+    "college-park": {
+      "opened": "1993-12-11",
+      "address": "4931 Calvert Rd, College Park, MD 20740",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "marc-connection"
+      ],
+      "description": "Serves the University of Maryland with MARC Camden Line connection."
+    },
+    "greenbelt": {
+      "opened": "1993-12-11",
+      "address": "5717 Greenbelt Metro Dr, Greenbelt, MD 20770",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "marc-connection"
+      ],
+      "description": "Northern terminus of the Green Line with MARC and extensive bus connections."
+    },
+    "waterfront": {
+      "opened": "1991-12-28",
+      "address": "399 M St SW, Washington, DC 20024",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Southwest Waterfront and The Wharf development."
+    },
+    "anacostia": {
+      "opened": "1991-12-28",
+      "address": "1101 Howard Rd SE, Washington, DC 20020",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the historic Anacostia neighborhood east of the Anacostia River."
+    },
+    "congress-heights": {
+      "opened": "2001-01-13",
+      "address": "1290 Alabama Ave SE, Washington, DC 20020",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves the Congress Heights neighborhood and St. Elizabeths campus."
+    },
+    "southern-avenue": {
+      "opened": "2001-01-13",
+      "address": "1411 Southern Ave, Oxon Hill, MD 20745",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Located on the D.C./Maryland border at Southern Avenue."
+    },
+    "naylor-road": {
+      "opened": "2001-01-13",
+      "address": "3101 Branch Ave, Temple Hills, MD 20748",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Naylor Road area in Prince George's County."
+    },
+    "suitland": {
+      "opened": "2001-01-13",
+      "address": "4500 Silver Hill Rd, Suitland, MD 20746",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves Suitland and the Census Bureau headquarters."
+    },
+    "branch-ave": {
+      "opened": "2001-01-13",
+      "address": "4704 Old Soper Rd, Suitland, MD 20746",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Southern terminus of the Green Line with extensive parking."
+    },
+    "reston-town-center": {
+      "opened": "2022-11-15",
+      "address": "12001 Sunrise Valley Dr, Reston, VA 20191",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves Reston Town Center's urban core and surrounding businesses."
+    },
+    "herndon": {
+      "opened": "2022-11-15",
+      "address": "475 Herndon Pkwy, Herndon, VA 20170",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves the Town of Herndon and surrounding residential areas."
+    },
+    "innovation-center": {
+      "opened": "2022-11-15",
+      "address": "4600 Brookfield Corporate Dr, Chantilly, VA 20151",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Serves Fairfax County's Innovation Center area and data center corridor."
+    },
+    "loudoun-gateway": {
+      "opened": "2022-11-15",
+      "address": "22900 Loudoun Gateway Dr, Sterling, VA 20166",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "First station in Loudoun County, serving the Route 606 corridor."
+    },
+    "mclean": {
+      "opened": "2014-07-26",
+      "address": "1823 Chain Bridge Rd, McLean, VA 22102",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Serves downtown McLean and Capital One headquarters."
+    },
+    "spring-hill": {
+      "opened": "2014-07-26",
+      "address": "1574 Spring Hill Rd, Tysons, VA 22102",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves the Spring Hill area of Tysons."
+    },
+    "greensboro": {
+      "opened": "2014-07-26",
+      "address": "8100 Greensboro Dr, Tysons, VA 22102",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves Tysons Galleria and surrounding office buildings."
+    },
+    "wiehle-reston-east": {
+      "opened": "2014-07-26",
+      "address": "11389 Reston Station Blvd, Reston, VA 20190",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Major park-and-ride station serving Reston with 2,300 parking spaces."
+    },
+    "foggy-bottom": {
+      "opened": "1977-07-01",
+      "address": "2301 I St NW, Washington, DC 20037",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves George Washington University, the State Department, and Kennedy Center."
+    },
+    "arlington-cemetery": {
+      "opened": "1977-07-01",
+      "address": "Arlington National Cemetery, Arlington, VA 22202",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Serves Arlington National Cemetery. No parking available; no Sunday service on Blue Line."
+    }
+  },
+  "railcars": [
+    {
+      "id": "1000-series",
+      "systemId": "wmata",
+      "name": "1000 Series",
+      "manufacturer": "Rohr Industries",
+      "introduced": 1976,
+      "retired": 2017,
+      "status": "retired",
+      "count": 300,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 80,
+        "maxSpeed": "75 mph",
+        "weight": "77,000 lbs",
+        "traction": "DC chopper"
+      },
+      "description": "The 1000 Series was the original fleet of Metrorail cars that opened with the system in 1976. These cars featured carpeted floors and cushioned seats, which were unique among American transit systems at the time. They were completely retired by 2017."
+    },
+    {
+      "id": "2000-series",
+      "systemId": "wmata",
+      "name": "2000 Series",
+      "manufacturer": "Breda",
+      "introduced": 1983,
+      "retired": 2018,
+      "status": "retired",
+      "count": 76,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 80,
+        "maxSpeed": "75 mph",
+        "weight": "78,000 lbs",
+        "traction": "DC chopper"
+      },
+      "description": "The 2000 Series were purchased to expand the fleet for the extension of the Orange Line. They were similar in design to the 1000 Series and were the first cars built by Breda for WMATA."
+    },
+    {
+      "id": "3000-series",
+      "systemId": "wmata",
+      "name": "3000 Series",
+      "manufacturer": "Breda",
+      "introduced": 1984,
+      "retired": 2019,
+      "status": "retired",
+      "count": 290,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 80,
+        "maxSpeed": "75 mph",
+        "weight": "78,500 lbs",
+        "traction": "DC chopper"
+      },
+      "description": "The 3000 Series continued the expansion of the Metrorail fleet and introduced minor improvements over earlier series. These cars served until 2019 and were among the last pre-rehabilitation cars."
+    },
+    {
+      "id": "4000-series",
+      "systemId": "wmata",
+      "name": "4000 Series",
+      "manufacturer": "Breda",
+      "introduced": 1992,
+      "retired": null,
+      "status": "retired",
+      "count": 100,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 80,
+        "maxSpeed": "75 mph",
+        "weight": "79,000 lbs",
+        "traction": "AC propulsion"
+      },
+      "description": "The 4000 Series were the first Metrorail cars to use AC propulsion systems. Only 100 were built as WMATA moved toward rehabilitating existing cars."
+    },
+    {
+      "id": "5000-series",
+      "systemId": "wmata",
+      "name": "5000 Series",
+      "manufacturer": "CAF USA",
+      "introduced": 2001,
+      "retired": null,
+      "status": "active",
+      "count": 192,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 64,
+        "maxSpeed": "75 mph",
+        "weight": "80,000 lbs",
+        "traction": "AC IGBT"
+      },
+      "description": "The 5000 Series represented a significant upgrade with modern electronics and improved reliability. They feature fabric-covered seats and improved lighting."
+    },
+    {
+      "id": "6000-series",
+      "systemId": "wmata",
+      "name": "6000 Series",
+      "manufacturer": "Alstom",
+      "introduced": 2006,
+      "retired": null,
+      "status": "active",
+      "count": 184,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 64,
+        "maxSpeed": "75 mph",
+        "weight": "81,000 lbs",
+        "traction": "AC IGBT"
+      },
+      "description": "The 6000 Series continued the modernization of the fleet with improved passenger amenities and environmental controls. They are currently in active service."
+    },
+    {
+      "id": "7000-series",
+      "systemId": "wmata",
+      "name": "7000 Series",
+      "manufacturer": "Kawasaki",
+      "introduced": 2014,
+      "retired": null,
+      "status": "active",
+      "count": 748,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 1 in",
+        "capacity": 175,
+        "seatedCapacity": 64,
+        "maxSpeed": "75 mph",
+        "weight": "82,000 lbs",
+        "traction": "AC IGBT"
+      },
+      "description": "The 7000 Series is the newest generation of Metrorail cars, featuring digital displays, LED lighting, and improved accessibility. They are designed to eventually replace all older railcar series and are the largest single order in WMATA history."
+    }
+  ]
+}

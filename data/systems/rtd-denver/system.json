@@ -1,5 +1,6 @@
 {
   "id": "rtd-denver",
+  "dataSource": "gtfs",
   "name": "Regional Transportation District",
   "shortName": "RTD",
   "location": "Denver, CO",

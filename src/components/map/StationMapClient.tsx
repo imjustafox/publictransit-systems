@@ -1,7 +1,15 @@
 "use client";
 
-import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { useEffect, useMemo, useState } from "react";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Popup,
+  Polyline,
+  useMap,
+  useMapEvents,
+} from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import type { Station, Line, Coordinates } from "@/lib/types";
 import {
@@ -11,13 +19,21 @@ import {
   DARK_TILE_URL,
   DARK_TILE_ATTRIBUTION,
 } from "./mapStyles";
+import { computeBundles, offsetPolylineVariable } from "./bundling";
 
 // Station with coordinates required for map rendering
 type StationWithCoordinates = Omit<Station, "coordinates"> & { coordinates: Coordinates };
 
+interface GeometryOverlay {
+  lineId: string;
+  color: string;
+  shapes: [number, number][][];
+}
+
 interface StationMapClientProps {
   station: StationWithCoordinates;
   stationLines: Line[];
+  geometryOverlays?: GeometryOverlay[];
 }
 
 // Component to fit map bounds to markers
@@ -43,7 +59,11 @@ function FitBounds({ station }: { station: StationWithCoordinates }) {
   return null;
 }
 
-export function StationMapClient({ station, stationLines }: StationMapClientProps) {
+export function StationMapClient({
+  station,
+  stationLines,
+  geometryOverlays,
+}: StationMapClientProps) {
   const primaryLineColor = stationLines[0]?.colorHex || "#00ff9d";
 
   return (
@@ -57,6 +77,12 @@ export function StationMapClient({ station, stationLines }: StationMapClientProp
       <TileLayer url={DARK_TILE_URL} attribution={DARK_TILE_ATTRIBUTION} />
 
       <FitBounds station={station} />
+
+      {/* Every line's track geometry in the system, drawn as context; the
+          view stays fitted to the station so only nearby track shows */}
+      {geometryOverlays && (
+        <GeometryOverlays overlays={geometryOverlays} centerLat={station.coordinates.lat} />
+      )}
 
       {/* Station marker */}
       <Marker
@@ -115,5 +141,57 @@ export function StationMapClient({ station, stationLines }: StationMapClientProp
         </Marker>
       ))}
     </MapContainer>
+  );
+}
+
+// Shared corridors render as parallel ribbons a fixed number of PIXELS
+// apart, bundled per segment: a line rides beside its neighbors only where
+// they actually share track, and returns to its true alignment where it
+// runs alone. Bundling is geometry-only and computed once; zoom rescales
+// the gap.
+const RIBBON_GAP_PX = 4;
+
+function metersPerPixel(zoom: number, lat: number): number {
+  return (156543.03392 * Math.cos((lat * Math.PI) / 180)) / 2 ** zoom;
+}
+
+function GeometryOverlays({
+  overlays,
+  centerLat,
+}: {
+  overlays: GeometryOverlay[];
+  centerLat: number;
+}) {
+  const map = useMap();
+  const [zoom, setZoom] = useState(map.getZoom());
+  useMapEvents({ zoomend: () => setZoom(map.getZoom()) });
+
+  const bundled = useMemo(
+    () => computeBundles(overlays.map((o) => ({ lineId: o.lineId, shapes: o.shapes }))),
+    [overlays]
+  );
+  const gapMeters = RIBBON_GAP_PX * metersPerPixel(zoom, centerLat);
+
+  return (
+    <>
+      {bundled.map((line, lineIndex) =>
+        line.shapes.map((shape, i) => (
+          <Polyline
+            key={`${line.lineId}-${i}-${zoom}`}
+            positions={offsetPolylineVariable(
+              shape.points,
+              shape.slots.map((slot) => slot * gapMeters)
+            )}
+            pathOptions={{
+              color: overlays[lineIndex].color,
+              weight: 3,
+              opacity: 0.75,
+              lineCap: "round",
+              lineJoin: "round",
+            }}
+          />
+        ))
+      )}
+    </>
   );
 }

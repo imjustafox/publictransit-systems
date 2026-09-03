@@ -1,0 +1,18 @@
+{
+  "static": {
+    "url_secret": "SOUND_TRANSIT_GTFS_URL",
+    "auth": {
+      "type": "none"
+    },
+    "filters": {
+      "route_types": [0, 1, 2]
+    },
+    "fields": {
+      "line_name_source": "route_long_name",
+      "line_color_fallback": "#28813F"
+    },
+    "route_groups": {
+      "n-line": ["SNDR_EV", "SNDR_TL"]
+    }
+  }
+}

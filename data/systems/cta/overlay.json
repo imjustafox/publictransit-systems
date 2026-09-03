@@ -1,0 +1,1140 @@
+{
+  "system": {
+    "overview": "The Chicago 'L' is the rapid transit system serving the city of Chicago and some of its surrounding suburbs. Operated by the CTA, it is the fourth-largest rapid transit system in the United States by ridership. The system's name comes from the elevated railways that make up much of the network, though portions also run in subway tunnels, at grade, and in highway medians.",
+    "history": [
+      {
+        "date": "1892-06-06",
+        "title": "First L Line Opens",
+        "description": "The Chicago and South Side Rapid Transit Railroad opens the first L line, running from Congress Street to 39th Street (now Pershing Road)."
+      },
+      {
+        "date": "1895-05-06",
+        "title": "Metropolitan West Side Elevated Opens",
+        "description": "The Metropolitan West Side Elevated Railroad begins service, becoming the second L company in Chicago."
+      },
+      {
+        "date": "1897-10-03",
+        "title": "Union Loop Opens",
+        "description": "The Union Elevated Railroad opens the Loop, the iconic downtown circuit connecting all L lines."
+      },
+      {
+        "date": "1900-05-12",
+        "title": "Northwestern Elevated Opens",
+        "description": "The Northwestern Elevated Railroad begins service on the north side, later becoming part of the Brown and Purple lines."
+      },
+      {
+        "date": "1943-10-17",
+        "title": "State Street Subway Opens",
+        "description": "The State Street subway opens as Chicago's first subway tunnel, carrying what would become Red Line service through downtown."
+      },
+      {
+        "date": "1947-10-01",
+        "title": "CTA Formed",
+        "description": "The Chicago Transit Authority is created by the Illinois state legislature, unifying the city's private transit companies under public operation."
+      },
+      {
+        "date": "1951-06-22",
+        "title": "Dearborn Street Subway Opens",
+        "description": "The Dearborn Street subway opens, carrying Blue Line service through the Loop. The Milwaukee-Dearborn-Congress corridor is completed."
+      },
+      {
+        "date": "1958-06-22",
+        "title": "Congress Expressway Line Opens",
+        "description": "The Congress Expressway median line opens, the first rapid transit line built in a highway median in the United States."
+      },
+      {
+        "date": "1969-12-01",
+        "title": "Dan Ryan Line Opens",
+        "description": "The Dan Ryan branch opens in the median of the Dan Ryan Expressway, extending South Side service to 95th Street."
+      },
+      {
+        "date": "1970-09-28",
+        "title": "Kennedy Expressway Line Opens",
+        "description": "Rapid transit service begins in the Kennedy Expressway median, connecting the Northwest Side to the Loop."
+      },
+      {
+        "date": "1984-09-03",
+        "title": "O'Hare Extension Opens",
+        "description": "The Blue Line extension to O'Hare International Airport opens, providing direct rail access to the airport."
+      },
+      {
+        "date": "1993-10-31",
+        "title": "Orange Line Opens",
+        "description": "The Orange Line opens, connecting Midway Airport to the Loop via the Southwest Side."
+      },
+      {
+        "date": "1994-02-21",
+        "title": "Lines Receive Color Names",
+        "description": "CTA adopts a color-based naming system for all L lines, replacing the legacy route names with Red, Blue, Green, Brown, Orange, Purple, and Yellow."
+      },
+      {
+        "date": "2006-06-25",
+        "title": "Pink Line Opens",
+        "description": "The Pink Line begins full-time service to the 54th/Cermak branch, previously a branch of the Blue Line with limited service."
+      },
+      {
+        "date": "2012-10-06",
+        "title": "Brown Line Capacity Expansion",
+        "description": "The $530 million Brown Line Capacity Expansion Project is completed, lengthening all 18 Brown Line stations to accommodate eight-car trains."
+      },
+      {
+        "date": "2015-12-01",
+        "title": "5000-Series Fleet Complete",
+        "description": "The final 5000-series railcar is delivered, completing the order of 714 cars built by Bombardier. They replace the entire 2200-series and 2400-series fleets."
+      },
+      {
+        "date": "2019-11-02",
+        "title": "Wilson Station Rebuilt",
+        "description": "The new $280 million Wilson station opens with a transfer between the Red and Purple lines, replacing the century-old structure."
+      },
+      {
+        "date": "2022-08-31",
+        "title": "7000-Series Enters Revenue Service",
+        "description": "The first CRRC Sifang America-built 7000-series railcars enter revenue service on the Blue Line, beginning the replacement of the 2600-series fleet."
+      },
+      {
+        "date": "2024-03-14",
+        "title": "Red Line Extension Groundbreaking",
+        "description": "Construction begins on the Red Line Extension, which will extend the line 5.6 miles south from 95th/Dan Ryan to 130th Street with four new stations."
+      }
+    ],
+    "stats": {
+      "totalStations": 146,
+      "totalLines": 8,
+      "annualRidership": "193.4 million",
+      "trackLength": 224.1,
+      "dailyRidership": "594,000",
+      "distanceUnit": "mi"
+    }
+  },
+  "lines": {
+    "red": {
+      "name": "Red Line",
+      "color": "red",
+      "colorHex": "#C60C30",
+      "opened": "1969-09-28",
+      "description": "The Red Line is the busiest L line, running north-south through the city from Howard on the far North Side to 95th/Dan Ryan on the South Side. It uses the State Street subway through downtown and is the backbone of the CTA rail system.",
+      "termini": ["Howard", "95th/Dan Ryan"]
+    },
+    "blue": {
+      "name": "Blue Line",
+      "color": "blue",
+      "colorHex": "#00A1DE",
+      "opened": "1895-05-06",
+      "description": "The Blue Line is the longest L line, connecting O'Hare International Airport on the Northwest Side to Forest Park on the West Side. It uses the Dearborn Street subway through the Loop and runs in the Kennedy and Eisenhower expressway medians.",
+      "termini": ["O'Hare", "Forest Park"]
+    },
+    "brown": {
+      "name": "Brown Line",
+      "color": "brown",
+      "colorHex": "#62361B",
+      "opened": "1907-05-18",
+      "description": "The Brown Line serves the North Side, running from Kimball in Albany Park to the Loop elevated. It is one of the most heavily used lines and underwent a major capacity expansion completed in 2012.",
+      "termini": ["Kimball", "Loop"],
+      "topology": {
+        "$replace": true,
+        "type": "lollipop",
+        "loopStation": "Clark/Lake"
+      },
+      "length": 11.4
+    },
+    "green": {
+      "name": "Green Line",
+      "color": "green",
+      "colorHex": "#009B3A",
+      "opened": "1892-06-06",
+      "description": "The Green Line is the oldest line in the system, tracing its origins to the first L line that opened in 1892. It runs east-west on the West Side via Lake Street and splits into two branches on the South Side at Ashland/63rd and Cottage Grove.",
+      "termini": ["Harlem/Lake", "Ashland/63rd", "Cottage Grove"],
+      "topology": {
+        "$replace": true,
+        "type": "linear",
+        "branches": [
+          {
+            "id": "ashland",
+            "name": "Ashland Branch",
+            "termini": ["Ashland/63rd"],
+            "branchStation": "Roosevelt",
+            "servicePattern": "alternating",
+            "description": "Alternating trains on the South Side"
+          },
+          {
+            "id": "cottage-grove",
+            "name": "Cottage Grove Branch",
+            "termini": ["Cottage Grove"],
+            "branchStation": "Roosevelt",
+            "servicePattern": "alternating",
+            "description": "Alternating trains on the South Side"
+          }
+        ]
+      },
+      "length": 21.8
+    },
+    "orange": {
+      "name": "Orange Line",
+      "color": "orange",
+      "colorHex": "#F9461C",
+      "opened": "1993-10-31",
+      "description": "The Orange Line connects Midway International Airport to the Loop elevated, serving the Southwest Side. It was the first new L line built since the 1970s when it opened in 1993.",
+      "termini": ["Midway", "Loop"],
+      "topology": {
+        "$replace": true,
+        "type": "lollipop",
+        "loopStation": "Clark/Lake"
+      },
+      "length": 11.1
+    },
+    "pink": {
+      "name": "Pink Line",
+      "color": "pink",
+      "colorHex": "#E27EA6",
+      "opened": "2006-06-25",
+      "description": "The Pink Line serves the near West and Southwest sides, running from 54th/Cermak to the Loop elevated. The branch formerly had limited Blue Line service before becoming the full-time Pink Line in 2006.",
+      "termini": ["54th/Cermak", "Loop"],
+      "topology": {
+        "$replace": true,
+        "type": "lollipop",
+        "loopStation": "Clark/Lake"
+      },
+      "length": 10.2
+    },
+    "purple": {
+      "name": "Purple Line",
+      "color": "purple",
+      "colorHex": "#522398",
+      "opened": "1908-05-16",
+      "description": "The Purple Line serves Evanston and Wilmette on the North Shore, running from Linden to Howard with weekday rush-hour express service to the Loop. It is one of the oldest segments of the L system.",
+      "termini": ["Linden", "Howard", "Loop"],
+      "topology": {
+        "$replace": true,
+        "type": "linear",
+        "branches": [
+          {
+            "id": "loop-express",
+            "name": "Loop Express",
+            "termini": ["Loop"],
+            "branchStation": "Howard",
+            "servicePattern": "rush-hour",
+            "description": "Weekday rush-hour express service to the Loop"
+          }
+        ]
+      },
+      "length": 14.6
+    },
+    "yellow": {
+      "name": "Yellow Line",
+      "color": "yellow",
+      "colorHex": "#F9E300",
+      "opened": "1964-04-20",
+      "description": "The Yellow Line, also known as the Skokie Swift, is the shortest L line. It provides a non-stop shuttle between Dempster-Skokie in Skokie and Howard, where it connects to the Red and Purple lines.",
+      "termini": ["Dempster-Skokie", "Howard"]
+    }
+  },
+  "stations": {
+    "18th": {
+      "name": "18th",
+      "features": ["wheelchair-accessible"],
+      "description": "18th is a station on the Pink Line in the Pilsen neighborhood."
+    },
+    "35th-bronzeville-iit": {
+      "name": "35th-Bronzeville-IIT",
+      "features": ["wheelchair-accessible"],
+      "description": "35th-Bronzeville-IIT is a station on the Green Line in the Bronzeville neighborhood."
+    },
+    "35th-archer": {
+      "name": "35th/Archer",
+      "features": ["wheelchair-accessible"],
+      "description": "35th/Archer is a station on the Orange Line in the Brighton Park neighborhood."
+    },
+    "43rd": {
+      "name": "43rd",
+      "features": ["wheelchair-accessible"],
+      "description": "43rd is a station on the Green Line in the Bronzeville neighborhood."
+    },
+    "47th-green": {
+      "name": "47th (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "47th is a station on the Green Line in the Grand Boulevard neighborhood."
+    },
+    "47th-red": {
+      "name": "47th (Red)",
+      "features": ["wheelchair-accessible"],
+      "description": "47th is a station on the Red Line in the Grand Boulevard neighborhood."
+    },
+    "51st": {
+      "name": "51st",
+      "features": ["wheelchair-accessible"],
+      "description": "51st is a station on the Green Line."
+    },
+    "54th-cermak": {
+      "name": "54th/Cermak",
+      "features": ["wheelchair-accessible"],
+      "description": "54th/Cermak is the southern terminus of the Pink Line in Archer Heights."
+    },
+    "63rd": {
+      "name": "63rd",
+      "features": ["wheelchair-accessible"],
+      "description": "63rd is a station on the Red Line in the Englewood neighborhood."
+    },
+    "69th": {
+      "name": "69th",
+      "features": ["wheelchair-accessible"],
+      "description": "69th is a station on the Red Line in the Greater Grand Crossing neighborhood."
+    },
+    "79th": {
+      "name": "79th",
+      "features": ["wheelchair-accessible"],
+      "description": "79th is a station on the Red Line in the Chatham neighborhood."
+    },
+    "87th": {
+      "name": "87th",
+      "features": ["wheelchair-accessible"],
+      "description": "87th is a station on the Red Line in the Auburn Gresham neighborhood."
+    },
+    "95th-dan-ryan": {
+      "name": "95th/Dan Ryan",
+      "features": ["wheelchair-accessible"],
+      "description": "95th/Dan Ryan is the southern terminus of the Red Line on the South Side, featuring a major bus terminal."
+    },
+    "adams-wabash": {
+      "name": "Adams/Wabash",
+      "features": [],
+      "description": "Adams/Wabash is a downtown Loop elevated station serving the Brown, Green, Orange, Pink, and Purple lines."
+    },
+    "addison-blue": {
+      "name": "Addison (Blue)",
+      "features": ["wheelchair-accessible"],
+      "description": "Addison is a station on the Blue Line in the Avondale neighborhood."
+    },
+    "addison-brown": {
+      "name": "Addison (Brown)",
+      "features": ["wheelchair-accessible"],
+      "description": "Addison is a station on the Brown Line in the Wrigleyville neighborhood."
+    },
+    "addison-red": {
+      "name": "Addison (Red)",
+      "features": ["wheelchair-accessible"],
+      "description": "Addison is a station on the Red Line in the Wrigleyville neighborhood."
+    },
+    "argyle": {
+      "name": "Argyle",
+      "features": ["wheelchair-accessible"],
+      "description": "Argyle is a station on the Red Line in the Uptown neighborhood."
+    },
+    "armitage-brown-purple": {
+      "name": "Armitage (Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Armitage is a station on the Brown and Purple lines in Lincoln Park."
+    },
+    "ashland-green-pink": {
+      "name": "Ashland (Green/Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Ashland is a station on the Green and Pink lines in Near West Side."
+    },
+    "ashland-orange": {
+      "name": "Ashland (Orange)",
+      "features": ["wheelchair-accessible"],
+      "description": "Ashland is a station on the Orange Line in the McKinley Park neighborhood."
+    },
+    "ashland-63rd": {
+      "name": "Ashland/63rd",
+      "features": ["wheelchair-accessible"],
+      "description": "Ashland/63rd is a station on the Green Line in the Englewood neighborhood."
+    },
+    "austin-blue": {
+      "name": "Austin (Blue)",
+      "features": [],
+      "description": "Austin is a station on the Blue Line in the Austin neighborhood."
+    },
+    "austin-green": {
+      "name": "Austin (Green)",
+      "features": [],
+      "description": "Austin is a station on the Green Line in the Austin neighborhood."
+    },
+    "belmont-blue": {
+      "name": "Belmont (Blue)",
+      "features": [],
+      "description": "Belmont is a station on the Blue Line in the Avondale neighborhood."
+    },
+    "belmont-red-brown-purple": {
+      "name": "Belmont (Red/Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Belmont is a major transfer station in Lakeview, serving the Red, Brown, and Purple lines."
+    },
+    "berwyn": {
+      "name": "Berwyn",
+      "features": ["wheelchair-accessible"],
+      "description": "Berwyn is a station on the Red Line in the Edgewater neighborhood."
+    },
+    "bryn-mawr": {
+      "name": "Bryn Mawr",
+      "features": ["wheelchair-accessible"],
+      "description": "Bryn Mawr is a station on the Red Line in the Edgewater neighborhood."
+    },
+    "california-blue": {
+      "name": "California (Blue)",
+      "features": [],
+      "description": "California is a station on the Blue Line in the Humboldt Park neighborhood."
+    },
+    "california-green": {
+      "name": "California (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "California is a station on the Green Line in the Humboldt Park neighborhood."
+    },
+    "california-pink": {
+      "name": "California (Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "California is a station on the Pink Line in the Brighton Park neighborhood."
+    },
+    "central-green": {
+      "name": "Central (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Central is a station on the Green Line in the Austin neighborhood."
+    },
+    "central-purple": {
+      "name": "Central (Purple)",
+      "features": [],
+      "description": "Central is a station on the Purple Line in the Evanston neighborhood."
+    },
+    "central-park": {
+      "name": "Central Park",
+      "features": ["wheelchair-accessible"],
+      "description": "Central Park is a station on the Pink Line in the Lawndale neighborhood."
+    },
+    "cermak-chinatown": {
+      "name": "Cermak-Chinatown",
+      "features": ["wheelchair-accessible"],
+      "description": "Cermak-Chinatown is a station on the Red Line in Chinatown, one of the few outdoor stations on the Red Line's South Side segment."
+    },
+    "cermak-mccormick-place": {
+      "name": "Cermak-McCormick Place",
+      "features": ["wheelchair-accessible"],
+      "description": "Cermak-McCormick Place is a station on the Green Line near McCormick Place convention center."
+    },
+    "chicago-blue": {
+      "name": "Chicago (Blue)",
+      "features": [],
+      "description": "Chicago is a station on the Blue Line in the Chicago Avenue commercial corridor."
+    },
+    "chicago-brown-purple": {
+      "name": "Chicago (Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Chicago is a station on the Brown and Purple lines at Chicago Avenue in River North."
+    },
+    "chicago-red": {
+      "name": "Chicago (Red)",
+      "features": ["wheelchair-accessible"],
+      "description": "Chicago is a station on the Red Line in the River North neighborhood."
+    },
+    "cicero-blue": {
+      "name": "Cicero (Blue)",
+      "features": [],
+      "description": "Cicero is a station on the Blue Line in the Austin neighborhood."
+    },
+    "cicero-green": {
+      "name": "Cicero (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Cicero is a station on the Green Line in the Austin neighborhood."
+    },
+    "cicero-pink": {
+      "name": "Cicero (Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Cicero is a station on the Pink Line in the Cicero neighborhood."
+    },
+    "clark-division": {
+      "name": "Clark/Division",
+      "features": ["wheelchair-accessible"],
+      "description": "Clark/Division is a station on the Red Line in the Gold Coast neighborhood near Rush Street."
+    },
+    "clark-lake": {
+      "name": "Clark/Lake",
+      "features": ["wheelchair-accessible"],
+      "description": "Clark/Lake is a major downtown hub in the Loop, serving six L lines with connections to all services."
+    },
+    "clinton-blue": {
+      "name": "Clinton (Blue)",
+      "features": [],
+      "description": "Clinton is a station on the Blue Line in the West Loop neighborhood."
+    },
+    "clinton-green-pink": {
+      "name": "Clinton (Green/Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Clinton is a station on the Green and Pink lines in West Loop."
+    },
+    "conservatory-central-park-drive": {
+      "name": "Conservatory-Central Park Drive",
+      "features": ["wheelchair-accessible"],
+      "description": "Conservatory-Central Park Drive is a station on the Green Line in the Garfield Park neighborhood."
+    },
+    "cottage-grove": {
+      "name": "Cottage Grove",
+      "features": ["wheelchair-accessible"],
+      "description": "Cottage Grove is the eastern terminus of the Green Line's Cottage Grove branch on the South Side."
+    },
+    "cumberland": {
+      "name": "Cumberland",
+      "features": ["wheelchair-accessible"],
+      "description": "Cumberland is a station on the Blue Line in the Cumberland neighborhood."
+    },
+    "damen-blue": {
+      "name": "Damen (Blue)",
+      "features": [],
+      "description": "Damen is a station on the Blue Line in the Wicker Park neighborhood."
+    },
+    "damen-brown": {
+      "name": "Damen (Brown)",
+      "features": ["wheelchair-accessible"],
+      "description": "Damen is a station on the Brown Line in the North Center neighborhood."
+    },
+    "damen-green": {
+      "name": "Damen (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Damen is a station on the Green Line in the Near West Side neighborhood."
+    },
+    "damen-pink": {
+      "name": "Damen (Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Damen is a station on the Pink Line in the McKinley Park neighborhood."
+    },
+    "davis": {
+      "name": "Davis",
+      "features": ["wheelchair-accessible"],
+      "description": "Davis is a station in downtown Evanston on the Purple Line, serving as the line's primary Evanston stop."
+    },
+    "dempster": {
+      "name": "Dempster",
+      "features": [],
+      "description": "Dempster is a station on the Purple Line in the Evanston neighborhood."
+    },
+    "dempster-skokie": {
+      "name": "Dempster-Skokie",
+      "features": ["wheelchair-accessible"],
+      "description": "Dempster-Skokie is the northern terminus of the Yellow Line in Skokie."
+    },
+    "diversey-brown-purple": {
+      "name": "Diversey (Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Diversey is a station on the Brown and Purple lines in Lakeview."
+    },
+    "division": {
+      "name": "Division",
+      "features": [],
+      "description": "Division is a station on the Blue Line in the Wicker Park neighborhood."
+    },
+    "forest-park": {
+      "name": "Forest Park",
+      "features": ["wheelchair-accessible"],
+      "description": "Forest Park is the western terminus of the Blue Line's Forest Park branch."
+    },
+    "foster": {
+      "name": "Foster",
+      "features": [],
+      "description": "Foster is a station on the Purple Line in the Evanston neighborhood."
+    },
+    "francisco": {
+      "name": "Francisco",
+      "features": ["wheelchair-accessible"],
+      "description": "Francisco is a station on the Brown Line in the North Center neighborhood."
+    },
+    "fullerton": {
+      "name": "Fullerton",
+      "features": ["wheelchair-accessible"],
+      "description": "Fullerton is a major transfer station in Lincoln Park, serving the Red, Brown, and Purple lines."
+    },
+    "garfield-green": {
+      "name": "Garfield (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Garfield is a station on the Green Line in the Washington Park neighborhood."
+    },
+    "garfield-red": {
+      "name": "Garfield (Red)",
+      "features": ["wheelchair-accessible"],
+      "description": "Garfield is a station on the Red Line in the Washington Park neighborhood."
+    },
+    "grand-blue": {
+      "name": "Grand (Blue)",
+      "features": [],
+      "description": "Grand is a station on the Blue Line in the River North neighborhood."
+    },
+    "grand-red": {
+      "name": "Grand (Red)",
+      "features": ["wheelchair-accessible"],
+      "description": "Grand is a station on the Red Line in the River North neighborhood."
+    },
+    "granville": {
+      "name": "Granville",
+      "features": ["wheelchair-accessible"],
+      "description": "Granville is a station on the Red Line in the Edgewater neighborhood."
+    },
+    "halsted-green": {
+      "name": "Halsted (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Halsted is a station on the Green Line in the Englewood neighborhood."
+    },
+    "halsted-orange": {
+      "name": "Halsted (Orange)",
+      "features": ["wheelchair-accessible"],
+      "description": "Halsted is a station on the Orange Line in the Pilsen neighborhood."
+    },
+    "harlem-blue-forest-park": {
+      "name": "Harlem (Blue - Forest Park Branch)",
+      "features": [],
+      "description": "Harlem is a station on the Blue Line in the Forest Park neighborhood."
+    },
+    "harlem-blue-ohare": {
+      "name": "Harlem (Blue - O'Hare Branch)",
+      "features": ["wheelchair-accessible"],
+      "description": "Harlem is a station on the Blue Line in the Norwood Park neighborhood."
+    },
+    "harlem-lake": {
+      "name": "Harlem/Lake",
+      "features": ["wheelchair-accessible"],
+      "description": "Harlem/Lake is the western terminus of the Green Line in Oak Park."
+    },
+    "harold-washington-library-state-van-buren": {
+      "name": "Harold Washington Library-State/Van Buren",
+      "features": ["wheelchair-accessible"],
+      "description": "Harold Washington Library-State/Van Buren is a downtown Loop station serving the Brown, Orange, Pink, and Purple lines, located near the Harold Washington Library."
+    },
+    "harrison": {
+      "name": "Harrison",
+      "features": [],
+      "description": "Harrison is a station on the Red Line."
+    },
+    "howard": {
+      "name": "Howard",
+      "features": ["wheelchair-accessible"],
+      "description": "Howard is a major transfer station on the North Side, serving as the northern terminus of the Red Line and connecting to Purple and Yellow line services."
+    },
+    "illinois-medical-district": {
+      "name": "Illinois Medical District",
+      "features": ["wheelchair-accessible"],
+      "description": "Illinois Medical District is a station on the Blue Line, serving the Illinois Medical District on the Near West Side."
+    },
+    "indiana": {
+      "name": "Indiana",
+      "features": ["wheelchair-accessible"],
+      "description": "Indiana is a station on the Green Line in the Bronzeville neighborhood."
+    },
+    "irving-park-blue": {
+      "name": "Irving Park (Blue)",
+      "features": [],
+      "description": "Irving Park is a station on the Blue Line in the Irving Park neighborhood."
+    },
+    "irving-park-brown": {
+      "name": "Irving Park (Brown)",
+      "features": ["wheelchair-accessible"],
+      "description": "Irving Park is a station on the Brown Line in the North Center neighborhood."
+    },
+    "jackson-blue": {
+      "name": "Jackson (Blue)",
+      "features": ["wheelchair-accessible"],
+      "description": "Jackson is a station on the Blue Line in the the Loop neighborhood."
+    },
+    "jackson-red": {
+      "name": "Jackson (Red)",
+      "features": ["wheelchair-accessible"],
+      "description": "Jackson is a station on the Red Line in the the Loop neighborhood."
+    },
+    "jarvis": {
+      "name": "Jarvis",
+      "features": [],
+      "description": "Jarvis is a station on the Red Line in the Rogers Park neighborhood."
+    },
+    "jefferson-park-transit-center": {
+      "name": "Jefferson Park Transit Center",
+      "features": ["wheelchair-accessible"],
+      "description": "Jefferson Park Transit Center is a major transit hub in Jefferson Park, connecting the Blue Line with Metra and CTA bus services."
+    },
+    "kedzie-brown": {
+      "name": "Kedzie (Brown)",
+      "features": ["wheelchair-accessible"],
+      "description": "Kedzie is a station on the Brown Line in the North Center neighborhood."
+    },
+    "kedzie-green": {
+      "name": "Kedzie (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Kedzie is a station on the Green Line in the East Garfield Park neighborhood."
+    },
+    "kedzie-orange": {
+      "name": "Kedzie (Orange)",
+      "features": ["wheelchair-accessible"],
+      "description": "Kedzie is a station on the Orange Line in the Marquette Park neighborhood."
+    },
+    "kedzie-pink": {
+      "name": "Kedzie (Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Kedzie is a station on the Pink Line in the South Lawndale neighborhood."
+    },
+    "kedzie-homan": {
+      "name": "Kedzie-Homan",
+      "features": ["wheelchair-accessible"],
+      "description": "Kedzie-Homan is a station on the Blue Line in the Lawndale neighborhood."
+    },
+    "kimball": {
+      "name": "Kimball",
+      "features": ["wheelchair-accessible"],
+      "description": "Kimball is the northwestern terminus of the Brown Line in Albany Park."
+    },
+    "king-drive": {
+      "name": "King Drive",
+      "features": ["wheelchair-accessible"],
+      "description": "King Drive is a station on the Green Line in the Bronzeville neighborhood."
+    },
+    "kostner": {
+      "name": "Kostner",
+      "features": ["wheelchair-accessible"],
+      "description": "Kostner is a station on the Pink Line in the South Lawndale neighborhood."
+    },
+    "lasalle": {
+      "name": "LaSalle",
+      "features": [],
+      "description": "LaSalle is a station on the Blue Line in the the Loop neighborhood."
+    },
+    "lasalle-van-buren": {
+      "name": "LaSalle/Van Buren",
+      "features": [],
+      "description": "LaSalle/Van Buren is a downtown Loop station on the Wells Street elevated, serving the Brown, Orange, Pink, and Purple lines."
+    },
+    "lake-subway": {
+      "name": "Lake (Subway)",
+      "features": ["wheelchair-accessible"],
+      "description": "Lake is a downtown Loop subway station serving the Red Line, located beneath State Street."
+    },
+    "laramie": {
+      "name": "Laramie",
+      "features": ["wheelchair-accessible"],
+      "description": "Laramie is a station on the Green Line in the Austin neighborhood."
+    },
+    "lawrence": {
+      "name": "Lawrence",
+      "features": ["wheelchair-accessible"],
+      "description": "Lawrence is a station on the Red Line in the Uptown neighborhood."
+    },
+    "linden": {
+      "name": "Linden",
+      "features": ["wheelchair-accessible"],
+      "description": "Linden is the northern terminus of the Purple Line in Wilmette, the northernmost station in the CTA system."
+    },
+    "logan-square": {
+      "name": "Logan Square",
+      "features": ["wheelchair-accessible"],
+      "description": "Logan Square is a major station on the Blue Line in Logan Square, one of the busiest stations on the O'Hare branch."
+    },
+    "loyola": {
+      "name": "Loyola",
+      "features": ["wheelchair-accessible"],
+      "description": "Loyola is a station on the Red Line in the Rogers Park neighborhood."
+    },
+    "main": {
+      "name": "Main",
+      "features": [],
+      "description": "Main is a station on the Purple Line in the Evanston neighborhood."
+    },
+    "merchandise-mart-brown-purple": {
+      "name": "Merchandise Mart (Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Merchandise Mart is a station on the Brown and Purple lines, located near the Merchandise Mart in River North."
+    },
+    "midway": {
+      "name": "Midway",
+      "features": ["wheelchair-accessible"],
+      "description": "Midway is the southern terminus of the Orange Line, providing direct rail access to Midway International Airport."
+    },
+    "monroe-blue": {
+      "name": "Monroe (Blue)",
+      "features": [],
+      "description": "Monroe is a station on the Blue Line in the the Loop neighborhood."
+    },
+    "monroe-red": {
+      "name": "Monroe (Red)",
+      "features": [],
+      "description": "Monroe is a station on the Red Line in the the Loop neighborhood."
+    },
+    "montrose-blue": {
+      "name": "Montrose (Blue)",
+      "features": [],
+      "description": "Montrose is a station on the Blue Line in the Old Irving Park neighborhood."
+    },
+    "montrose-brown": {
+      "name": "Montrose (Brown)",
+      "features": ["wheelchair-accessible"],
+      "description": "Montrose is a station on the Brown Line in the North Center neighborhood."
+    },
+    "morgan-green-pink": {
+      "name": "Morgan (Green/Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Morgan is a station on the Green and Pink lines in the West Loop, opened in 2012 as one of the newest stations in the system."
+    },
+    "morse": {
+      "name": "Morse",
+      "features": [],
+      "description": "Morse is a station on the Red Line in the Rogers Park neighborhood."
+    },
+    "north-clybourn": {
+      "name": "North/Clybourn",
+      "features": [],
+      "description": "North/Clybourn is a station on the Red Line in the Lincoln Park neighborhood."
+    },
+    "noyes": {
+      "name": "Noyes",
+      "features": [],
+      "description": "Noyes is a station on the Purple Line in the Evanston neighborhood."
+    },
+    "ohare": {
+      "name": "O'Hare",
+      "features": ["wheelchair-accessible"],
+      "description": "O'Hare is the northwestern terminus of the Blue Line, located inside O'Hare International Airport."
+    },
+    "oak-park-blue": {
+      "name": "Oak Park (Blue)",
+      "features": [],
+      "description": "Oak Park is a station on the Blue Line in the Oak Park neighborhood."
+    },
+    "oak-park-green": {
+      "name": "Oak Park (Green)",
+      "features": [],
+      "description": "Oak Park is a station on the Green Line in the Oak Park neighborhood."
+    },
+    "oakton-skokie": {
+      "name": "Oakton-Skokie",
+      "features": ["wheelchair-accessible"],
+      "description": "Oakton-Skokie is the only intermediate station on the Yellow Line in Skokie."
+    },
+    "paulina": {
+      "name": "Paulina",
+      "features": ["wheelchair-accessible"],
+      "description": "Paulina is a station on the Brown Line in the Lakeview neighborhood."
+    },
+    "polk": {
+      "name": "Polk",
+      "features": ["wheelchair-accessible"],
+      "description": "Polk is a station on the Pink Line in the Pilsen neighborhood."
+    },
+    "pulaski-blue": {
+      "name": "Pulaski (Blue)",
+      "features": [],
+      "description": "Pulaski is a station on the Blue Line in the Lawndale neighborhood."
+    },
+    "pulaski-green": {
+      "name": "Pulaski (Green)",
+      "features": ["wheelchair-accessible"],
+      "description": "Pulaski is a station on the Green Line in the West Garfield Park neighborhood."
+    },
+    "pulaski-orange": {
+      "name": "Pulaski (Orange)",
+      "features": ["wheelchair-accessible"],
+      "description": "Pulaski is a station on the Orange Line in the Marquette Park neighborhood."
+    },
+    "pulaski-pink": {
+      "name": "Pulaski (Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Pulaski is a station on the Pink Line in the South Lawndale neighborhood."
+    },
+    "quincy": {
+      "name": "Quincy",
+      "features": ["wheelchair-accessible"],
+      "description": "Quincy is a downtown Loop station on the Wells Street elevated, serving the Brown, Orange, Pink, and Purple lines."
+    },
+    "racine": {
+      "name": "Racine",
+      "features": ["wheelchair-accessible"],
+      "description": "Racine is a station on the Blue Line in the University Village neighborhood."
+    },
+    "ridgeland": {
+      "name": "Ridgeland",
+      "features": [],
+      "description": "Ridgeland is a station on the Green Line in the Austin neighborhood."
+    },
+    "rockwell": {
+      "name": "Rockwell",
+      "features": ["wheelchair-accessible"],
+      "description": "Rockwell is a station on the Brown Line in the North Center neighborhood."
+    },
+    "roosevelt": {
+      "name": "Roosevelt",
+      "features": ["wheelchair-accessible"],
+      "description": "Roosevelt is a major transfer station in the South Loop, connecting the Red, Orange, and Green lines with nearby access to Museum Campus."
+    },
+    "rosemont": {
+      "name": "Rosemont",
+      "features": ["wheelchair-accessible"],
+      "description": "Rosemont is a station on the Blue Line in the Rosemont neighborhood."
+    },
+    "sedgwick-brown-purple": {
+      "name": "Sedgwick (Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Sedgwick is a station on the Brown and Purple lines in Old Town."
+    },
+    "sheridan": {
+      "name": "Sheridan",
+      "features": [],
+      "description": "Sheridan is a station on the Red Line in the Lakeview neighborhood."
+    },
+    "south-boulevard": {
+      "name": "South Boulevard",
+      "features": [],
+      "description": "South Boulevard is a station on the Purple Line in the Evanston neighborhood."
+    },
+    "southport": {
+      "name": "Southport",
+      "features": ["wheelchair-accessible"],
+      "description": "Southport is a station on the Brown Line in the Lakeview neighborhood."
+    },
+    "sox-35th": {
+      "name": "Sox-35th",
+      "features": ["wheelchair-accessible"],
+      "description": "Sox-35th is a station on the Red Line near Guaranteed Rate Field, home of the Chicago White Sox."
+    },
+    "thorndale": {
+      "name": "Thorndale",
+      "features": [],
+      "description": "Thorndale is a station on the Red Line in the Edgewater neighborhood."
+    },
+    "uic-halsted": {
+      "name": "UIC-Halsted",
+      "features": ["wheelchair-accessible"],
+      "description": "UIC-Halsted is a station on the Blue Line in the University Village neighborhood."
+    },
+    "washington": {
+      "name": "Washington",
+      "features": [],
+      "description": "Washington is a station on the Blue Line in the the Loop neighborhood."
+    },
+    "washington-wabash": {
+      "name": "Washington/Wabash",
+      "features": ["wheelchair-accessible"],
+      "description": "Washington/Wabash is a downtown Loop station serving the Brown, Green, Orange, Pink, and Purple lines, replacing the old Randolph/Wabash and Madison/Wabash stations."
+    },
+    "washington-wells": {
+      "name": "Washington/Wells",
+      "features": ["wheelchair-accessible"],
+      "description": "Washington/Wells is a downtown Loop station serving the Brown, Orange, Pink, and Purple lines."
+    },
+    "wellington-brown-purple": {
+      "name": "Wellington (Brown/Purple)",
+      "features": ["wheelchair-accessible"],
+      "description": "Wellington is a station on the Brown and Purple lines in Lakeview."
+    },
+    "western-blue-forest-park": {
+      "name": "Western (Blue - Forest Park Branch)",
+      "features": [],
+      "description": "Western is a station on the Blue Line in the East Garfield Park neighborhood."
+    },
+    "western-blue-ohare": {
+      "name": "Western (Blue - O'Hare Branch)",
+      "features": ["wheelchair-accessible"],
+      "description": "Western is a station on the Blue Line in the Bucktown neighborhood."
+    },
+    "western-brown": {
+      "name": "Western (Brown)",
+      "features": ["wheelchair-accessible"],
+      "description": "Western is a station on the Brown Line in the Lincoln Square neighborhood."
+    },
+    "western-orange": {
+      "name": "Western (Orange)",
+      "features": ["wheelchair-accessible"],
+      "description": "Western is a station on the Orange Line in the Brighton Park neighborhood."
+    },
+    "western-pink": {
+      "name": "Western (Pink)",
+      "features": ["wheelchair-accessible"],
+      "description": "Western is a station on the Pink Line in the McKinley Park neighborhood."
+    },
+    "wilson": {
+      "name": "Wilson",
+      "features": ["wheelchair-accessible"],
+      "description": "Wilson is a major Red Line station in Uptown, rebuilt and reopened in 2024 as part of the Red-Purple Modernization program."
+    }
+  },
+  "railcars": [
+    {
+      "id": "4000-series",
+      "systemId": "cta",
+      "name": "4000 Series",
+      "manufacturer": "Cincinnati Car Company",
+      "introduced": 1914,
+      "retired": 1973,
+      "status": "retired",
+      "count": 455,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 100,
+        "seatedCapacity": 48,
+        "maxSpeed": "45 mph",
+        "traction": "DC, air brakes"
+      },
+      "description": "The 4000 Series were the first all-steel cars on the L system, built in multiple orders from 1914 to 1924. They came in two variants: 'Baldies' with metal roofs and six doors per car, and 'Plushies' with wooden roofs and green plush seats. They were the last CTA cars with air brakes."
+    },
+    {
+      "id": "6000-series",
+      "systemId": "cta",
+      "name": "6000 Series",
+      "manufacturer": "St. Louis Car Company",
+      "introduced": 1950,
+      "retired": 1992,
+      "status": "retired",
+      "count": 720,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 120,
+        "seatedCapacity": 47,
+        "maxSpeed": "55 mph",
+        "traction": "DC, PCC technology"
+      },
+      "description": "The 6000 Series was the largest single order in CTA history, with 720 cars built using PCC streetcar technology. They were the first L cars designed as permanently coupled married pairs and incorporated components salvaged from Chicago's retired PCC streetcar fleet."
+    },
+    {
+      "id": "1-50-series",
+      "systemId": "cta",
+      "name": "1-50 Series",
+      "manufacturer": "St. Louis Car Company",
+      "introduced": 1959,
+      "retired": 1998,
+      "status": "retired",
+      "count": 50,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 120,
+        "seatedCapacity": 47,
+        "maxSpeed": "55 mph",
+        "traction": "DC, PCC equipment"
+      },
+      "description": "The 1-50 Series were similar to the 6000 Series but built as double-ended single cars rather than married pairs. Some were equipped with trolley poles for overhead wire operation on the Evanston and Skokie lines. Ten cars were later converted to married-pair sets for Skokie Swift service."
+    },
+    {
+      "id": "2000-series",
+      "systemId": "cta",
+      "name": "2000 Series",
+      "manufacturer": "Pullman-Standard",
+      "introduced": 1964,
+      "retired": 1993,
+      "status": "retired",
+      "count": 180,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 140,
+        "seatedCapacity": 47,
+        "maxSpeed": "55 mph",
+        "traction": "DC"
+      },
+      "description": "The 2000 Series were the first of the 'High Performance Family' of L cars. They introduced air conditioning, fluorescent lighting, large picture windows, and sculpted fiberglass front ends to the L system. Built with aluminum car bodies by Pullman-Standard."
+    },
+    {
+      "id": "2200-series",
+      "systemId": "cta",
+      "name": "2200 Series",
+      "manufacturer": "Budd Company",
+      "introduced": 1969,
+      "retired": 2013,
+      "status": "retired",
+      "count": 150,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 140,
+        "seatedCapacity": 47,
+        "maxSpeed": "55 mph",
+        "traction": "DC"
+      },
+      "description": "The 2200 Series were the first stainless steel L cars, featuring unpainted fluted sides. They were the last cars with the blinker door configuration, which could not accommodate wheelchairs, requiring them to be paired with 2600-series cars on ADA-compliant lines."
+    },
+    {
+      "id": "2400-series",
+      "systemId": "cta",
+      "name": "2400 Series",
+      "manufacturer": "Boeing-Vertol",
+      "introduced": 1976,
+      "retired": 2014,
+      "status": "retired",
+      "count": 200,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 140,
+        "seatedCapacity": 47,
+        "maxSpeed": "55 mph",
+        "traction": "DC"
+      },
+      "description": "The 2400 Series were the first L cars with sliding doors, replacing the blinker door design. Originally delivered in a red, white, and blue bicentennial color scheme. They were the last cars to operate on the Orange Line before retirement."
+    },
+    {
+      "id": "2600-series",
+      "systemId": "cta",
+      "name": "2600 Series",
+      "manufacturer": "Budd Company",
+      "introduced": 1981,
+      "status": "active",
+      "count": 600,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 140,
+        "seatedCapacity": 46,
+        "maxSpeed": "55 mph",
+        "weight": "54,300 lbs",
+        "traction": "DC, GE 1262A1 motors"
+      },
+      "description": "The 2600 Series were built for the O'Hare extension of the Blue Line. With 600 cars, they are the largest active fleet on the L. Car 3200 was the final railcar ever built by the Budd Company. They are being replaced by the 7000-series."
+    },
+    {
+      "id": "3200-series",
+      "systemId": "cta",
+      "name": "3200 Series",
+      "manufacturer": "Morrison-Knudsen",
+      "introduced": 1992,
+      "status": "active",
+      "count": 257,
+      "specs": {
+        "length": "48 ft 3 in",
+        "width": "9 ft 4 in",
+        "capacity": 140,
+        "seatedCapacity": 39,
+        "maxSpeed": "55 mph",
+        "traction": "DC, GE 1262A4 motors"
+      },
+      "description": "The 3200 Series introduced computer-controlled cab functions and fluted steel siding to reduce graffiti. They were built for the opening of the Orange Line in 1993. A mid-life overhaul was completed in 2018, adding LED destination signs and rebuilt propulsion systems."
+    },
+    {
+      "id": "5000-series",
+      "systemId": "cta",
+      "name": "5000 Series",
+      "manufacturer": "Bombardier Transportation",
+      "introduced": 2011,
+      "status": "active",
+      "count": 714,
+      "specs": {
+        "length": "48 ft",
+        "width": "9 ft 4 in",
+        "capacity": 170,
+        "seatedCapacity": 40,
+        "maxSpeed": "55 mph",
+        "weight": "57,000 lbs",
+        "traction": "AC, IGBT-VVVF (Bombardier MITRAC)"
+      },
+      "description": "The 5000 Series were the first AC-motor cars on the L system. Built by Bombardier, they feature LED destination signs, security cameras, aisle-facing longitudinal seating, and interior LED information displays. They make up the entire Pink, Green, Yellow, Purple, and Red Line fleets."
+    },
+    {
+      "id": "7000-series",
+      "systemId": "cta",
+      "name": "7000 Series",
+      "manufacturer": "CRRC Sifang America",
+      "introduced": 2022,
+      "status": "active",
+      "count": 400,
+      "specs": {
+        "length": "48 ft",
+        "width": "9 ft 4 in",
+        "capacity": 170,
+        "seatedCapacity": 37,
+        "maxSpeed": "55 mph",
+        "weight": "56,600 lbs",
+        "traction": "AC, IGBT-VVVF (Siemens), regenerative braking"
+      },
+      "description": "The 7000 Series are the newest L cars, built by CRRC Sifang America at a factory in Chicago's Hegewisch neighborhood. They feature a hybrid seating configuration mixing forward-facing and aisle-facing seats, and are configured as semi-permanently coupled married pairs. Currently assigned to the Blue Line."
+    }
+  ]
+}

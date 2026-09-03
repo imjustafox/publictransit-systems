@@ -1,0 +1,8 @@
+stop_id,stop_name,stop_lat,stop_lon,location_type,parent_station,wheelchair_boarding
+S001,Alpha Station,47.6100,-122.3300,1,,1
+S002,Beta Station,47.6200,-122.3400,1,,1
+S003,Gamma Station,47.6300,-122.3500,1,,0
+S101,Loop North,47.6400,-122.3300,1,,1
+S102,Loop East,47.6400,-122.3200,1,,1
+S103,Loop South,47.6300,-122.3200,1,,1
+S104,Loop West,47.6300,-122.3300,1,,1

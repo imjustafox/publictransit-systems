@@ -1,0 +1,761 @@
+{
+  "stations": {
+    "16th-california": {
+      "osmId": "node/983926555",
+      "features": ["accessible"]
+    },
+    "16th-stout": {
+      "osmId": "node/983926553",
+      "features": ["accessible"]
+    },
+    "18th-california": {
+      "osmId": "node/983926564",
+      "features": ["accessible"]
+    },
+    "18th-stout": {
+      "osmId": "node/983926566",
+      "features": ["accessible"]
+    },
+    "30th-downing": {
+      "osmId": "node/461804741",
+      "wikidata": "Q4634566",
+      "features": ["accessible"]
+    },
+    "25th-welton": {
+      "osmId": "node/4498671735",
+      "wikidata": "Q4632215"
+    },
+    "20th-welton": {
+      "osmId": "node/647473261",
+      "wikidata": "Q4630641"
+    },
+    "27th-welton": {
+      "osmId": "node/4498687268",
+      "wikidata": "Q4632564"
+    },
+    "garrison": {
+      "osmId": "node/2375621013",
+      "wikidata": "Q16891541",
+      "features": ["accessible"]
+    },
+    "61st-pena": {
+      "osmId": "node/6777872314",
+      "wikidata": "Q24278813",
+      "features": ["accessible"]
+    },
+    "colfax-auraria": {
+      "osmId": "node/1362259730",
+      "wikidata": "Q5144757",
+      "features": ["accessible"]
+    },
+    "lamar": {
+      "osmId": "node/2375617610",
+      "wikidata": "Q16893934",
+      "features": ["accessible"]
+    },
+    "louisiana-pearl": {
+      "osmId": "node/1362259736",
+      "wikidata": "Q6689057",
+      "features": ["accessible"]
+    },
+    "perry": {
+      "osmId": "node/2376710288",
+      "wikidata": "Q16898221",
+      "features": ["accessible"]
+    },
+    "lincoln": {
+      "osmId": "node/6775358086",
+      "wikidata": "Q6550453",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-4197723570",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.546421,
+            "lng": -104.8699126
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9943391729",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.5465027,
+            "lng": -104.8689502
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "englewood": {
+      "osmId": "node/1362259732",
+      "wikidata": "Q5378117",
+      "features": ["accessible"]
+    },
+    "38th-blake": {
+      "osmId": "node/6777831125",
+      "wikidata": "Q20714314",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5106662168",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.7714196,
+            "lng": -104.9726484
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "lone-tree-city-center": {
+      "osmId": "node/6778189523",
+      "features": ["accessible"]
+    },
+    "colorado": {
+      "osmId": "node/1362259731",
+      "wikidata": "Q5148687",
+      "features": ["accessible"]
+    },
+    "orchard": {
+      "osmId": "node/6775305388",
+      "wikidata": "Q7100170",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-4666748852",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6139848,
+            "lng": -104.8955607
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-4666748861",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6136221,
+            "lng": -104.89636
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "belleview": {
+      "osmId": "node/6775354285",
+      "wikidata": "Q4883836",
+      "features": ["accessible"]
+    },
+    "knox": {
+      "osmId": "node/2376710233",
+      "wikidata": "Q16893539",
+      "features": ["accessible"]
+    },
+    "littleton-downtown": {
+      "osmId": "node/439983297",
+      "wikidata": "Q6653088",
+      "features": ["accessible"]
+    },
+    "theatre-district-convention-center": {
+      "osmId": "node/1362259738",
+      "wikidata": "Q7777369",
+      "features": ["accessible"]
+    },
+    "florida": {
+      "osmId": "node/3250421986",
+      "wikidata": "Q28864594",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3250422011",
+          "name": "Florida Station Elevator D",
+          "coordinates": {
+            "lat": 39.6897465,
+            "lng": -104.8293235
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-6311487934",
+          "name": "Exit A;B",
+          "coordinates": {
+            "lat": 39.6897483,
+            "lng": -104.8285096
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "sky-ridge": {
+      "osmId": "node/5963230798",
+      "features": ["accessible"]
+    },
+    "lakewood-wadsworth": {
+      "osmId": "node/2375622010",
+      "wikidata": "Q16893933",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7512848239",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.7366429,
+            "lng": -105.0809214
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7512850492",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.7366395,
+            "lng": -105.0819472
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "empower-field-at-mile-high": {
+      "osmId": "node/1362259734",
+      "wikidata": "Q7579687",
+      "features": ["accessible"]
+    },
+    "sheridan": {
+      "osmId": "node/2376710310",
+      "wikidata": "Q16900019",
+      "features": ["accessible"]
+    },
+    "university-of-denver": {
+      "osmId": "node/1362259740",
+      "wikidata": "Q7895330",
+      "features": ["accessible"]
+    },
+    "10th-osage": {
+      "osmId": "node/649985468",
+      "wikidata": "Q4546966",
+      "features": ["accessible"]
+    },
+    "yale": {
+      "osmId": "node/442726016",
+      "features": ["accessible"]
+    },
+    "evans": {
+      "osmId": "node/442756657",
+      "wikidata": "Q5415873",
+      "features": ["accessible"]
+    },
+    "northglenn-112th-ave": {
+      "osmId": "node/4459574193",
+      "wikidata": "Q85789781",
+      "features": ["accessible"]
+    },
+    "oak": {
+      "osmId": "node/2376710507",
+      "wikidata": "Q16896002",
+      "features": ["accessible"]
+    },
+    "ball-arena-elitch-gardens": {
+      "osmId": "node/3016608826",
+      "wikidata": "Q7166484",
+      "features": ["accessible"]
+    },
+    "2nd-ave-abilene": {
+      "osmId": "node/3250450281"
+    },
+    "alameda": {
+      "osmId": "node/1362259728",
+      "wikidata": "Q4705848",
+      "features": ["accessible"]
+    },
+    "original-thornton-88th-ave": {
+      "osmId": "node/4459574191",
+      "wikidata": "Q85791236",
+      "features": ["accessible"]
+    },
+    "oxford-city-of-sheridan": {
+      "osmId": "node/442756974",
+      "wikidata": "Q7115225",
+      "features": ["accessible"]
+    },
+    "auraria-west-campus": {
+      "osmId": "node/1362259729",
+      "wikidata": "Q4822143",
+      "features": ["accessible"]
+    },
+    "eastlake-124th-ave": {
+      "osmId": "node/4459574194",
+      "wikidata": "Q85758405",
+      "features": ["accessible"]
+    },
+    "commerce-city-72nd-ave": {
+      "osmId": "node/4459574190",
+      "wikidata": "Q28197686",
+      "features": ["accessible"]
+    },
+    "decatur-federal": {
+      "osmId": "node/2376710053",
+      "wikidata": "Q16954924",
+      "features": ["accessible"]
+    },
+    "iliff": {
+      "osmId": "node/6499091299",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7512634182",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6729603,
+            "lng": -104.8253723
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "48th-ave-brighton-blvd-nat-l-western-ctr": {
+      "osmId": "node/4459574189",
+      "wikidata": "Q28197686",
+      "features": ["accessible"]
+    },
+    "60th-sheridan-arvada-gold-strike": {
+      "osmId": "node/5601586822",
+      "wikidata": "Q48851872",
+      "features": ["accessible"]
+    },
+    "aurora-metro-center": {
+      "osmId": "node/3250422001",
+      "wikidata": "Q28841953"
+    },
+    "arvada-ridge": {
+      "osmId": "node/6778373834",
+      "wikidata": "Q54933091",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7555418575",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.7924422,
+            "lng": -105.1119918
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "colfax": {
+      "osmId": "node/3250450276",
+      "wikidata": "Q28864597"
+    },
+    "dayton": {
+      "osmId": "node/6778269474",
+      "wikidata": "Q5243497",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5267361850",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6434103,
+            "lng": -104.8781853
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5468747772",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6430023,
+            "lng": -104.8779286
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5468747795",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6433742,
+            "lng": -104.878259
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5468747803",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6430221,
+            "lng": -104.8778882
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "dry-creek": {
+      "osmId": "node/442751677",
+      "wikidata": "Q5309489",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3093499530",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.5794692,
+            "lng": -104.8772586
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "littleton-mineral": {
+      "osmId": "node/439647509",
+      "wikidata": "Q6653092",
+      "features": ["accessible"]
+    },
+    "nine-mile": {
+      "osmId": "node/6775305387",
+      "wikidata": "Q7038369",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5468641022",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6575699,
+            "lng": -104.845085
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5468641038",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6576111,
+            "lng": -104.845004
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-5468691702",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6582242,
+            "lng": -104.8456445
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "13th-ave": {
+      "osmId": "node/6778270832",
+      "wikidata": "Q28841956"
+    },
+    "federal-center": {
+      "osmId": "node/2376710603",
+      "wikidata": "Q16891234"
+    },
+    "southmoor": {
+      "osmId": "node/442726036",
+      "wikidata": "Q7570906",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-8494354144",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6485997,
+            "lng": -104.9162749
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-8494354145",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.648572,
+            "lng": -104.9162588
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "olde-town-arvada": {
+      "osmId": "node/7125062195",
+      "wikidata": "Q54933040",
+      "features": ["accessible"]
+    },
+    "denver-airport": {
+      "osmId": "node/6725337692",
+      "wikidata": "Q24211058",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10636932997",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8482561,
+            "lng": -104.674747
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-10636935781",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.848286,
+            "lng": -104.6729331
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970484",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.848264,
+            "lng": -104.6729346
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970485",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8482738,
+            "lng": -104.6729336
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970496",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8482557,
+            "lng": -104.6747316
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970512",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8475538,
+            "lng": -104.6734596
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970513",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8475538,
+            "lng": -104.6733758
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970518",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8475636,
+            "lng": -104.6741999
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11032970519",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8475641,
+            "lng": -104.6742462
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7519815841",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8482557,
+            "lng": -104.6747172
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "westminster": {
+      "osmId": "node/3129339535",
+      "wikidata": "Q27048806",
+      "features": ["accessible"]
+    },
+    "clear-creek-federal": {
+      "osmId": "node/5286898995",
+      "wikidata": "Q54933090",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7340397478",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.8039931,
+            "lng": -105.022804
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "thornton-crossroads-104th-ave": {
+      "osmId": "node/4459574192",
+      "wikidata": "Q85809372",
+      "features": ["accessible"]
+    },
+    "i-25-broadway": {
+      "osmId": "node/1362259733",
+      "wikidata": "Q5967528",
+      "features": ["accessible"]
+    },
+    "ridgegate-parkway": {
+      "osmId": "node/6778215204",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10891362457",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.5200575,
+            "lng": -104.865219
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ]
+    },
+    "union-station": {
+      "osmId": "node/3254826511",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-6704309678",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.7539719,
+            "lng": -105.0011947
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-6704473106",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.755118,
+            "lng": -105.0026476
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "jefferson-co-government-golden": {
+      "osmId": "node/2377305079",
+      "features": ["accessible"]
+    },
+    "41st-fox": {
+      "osmId": "node/3032349499",
+      "wikidata": "Q28449956",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-3030258332",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.7728313,
+            "lng": -104.9967543
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "arapahoe-at-village-center": {
+      "osmId": "node/6778250750",
+      "wikidata": "Q4784204",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-5444266281",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.6010304,
+            "lng": -104.8876606
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-8493354461",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.601069,
+            "lng": -104.8876809
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "pecos-junction": {
+      "osmId": "node/4345414465",
+      "wikidata": "Q25006759"
+    },
+    "central-park": {
+      "osmId": "node/3246853084",
+      "wikidata": "Q25197242",
+      "features": ["accessible"]
+    },
+    "county-line": {
+      "osmId": "node/442751762",
+      "wikidata": "Q5177703",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-9184198041",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.561895,
+            "lng": -104.8708168
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-9184198045",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.5619645,
+            "lng": -104.8708215
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "wheat-ridge-ward-road": {
+      "osmId": "node/6346234714",
+      "wikidata": "Q54933092",
+      "features": ["accessible"]
+    },
+    "red-rocks-college": {
+      "osmId": "node/2376710795",
+      "wikidata": "Q16899183"
+    },
+    "40th-colorado": {
+      "osmId": "node/3266584498",
+      "wikidata": "Q24514631",
+      "features": ["accessible"]
+    },
+    "40th-airport-gateway-park": {
+      "osmId": "node/6777853520",
+      "wikidata": "Q24514633"
+    },
+    "peoria": {
+      "osmId": "node/3250254374",
+      "wikidata": "Q24514632",
+      "features": ["accessible"]
+    }
+  }
+}
