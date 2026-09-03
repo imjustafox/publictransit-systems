@@ -9,9 +9,6 @@ export async function GET() {
       count: systems.length,
     });
   } catch {
-    return NextResponse.json(
-      { error: "Failed to fetch systems" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to fetch systems" }, { status: 500 });
   }
 }

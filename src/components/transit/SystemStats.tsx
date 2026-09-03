@@ -29,11 +29,7 @@ export function SystemStats({
       <StatGrid columns={4}>
         <StatBlock label="Stations" value={totalStations} />
         <StatBlock label="Lines" value={totalLines} />
-        <StatBlock
-          label="Track Length"
-          value={convertedLength.toFixed(1)}
-          unit={displayUnit}
-        />
+        <StatBlock label="Track Length" value={convertedLength.toFixed(1)} unit={displayUnit} />
         <StatBlock label="Daily Ridership" value={dailyRidership} />
       </StatGrid>
     </Card>

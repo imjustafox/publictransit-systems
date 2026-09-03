@@ -24,7 +24,11 @@ const endpoints: Endpoint[] = [
     path: "/api/systems/:systemId",
     description: "Get details for a specific transit system including history",
     params: [
-      { name: "systemId", type: "string", description: "System identifier (e.g., wmata, bart, sound-transit)" },
+      {
+        name: "systemId",
+        type: "string",
+        description: "System identifier (e.g., wmata, bart, sound-transit)",
+      },
     ],
     example: "/api/systems/wmata",
   },
@@ -32,9 +36,7 @@ const endpoints: Endpoint[] = [
     method: "GET",
     path: "/api/systems/:systemId/lines",
     description: "List all lines for a transit system",
-    params: [
-      { name: "systemId", type: "string", description: "System identifier" },
-    ],
+    params: [{ name: "systemId", type: "string", description: "System identifier" }],
     example: "/api/systems/bart/lines",
   },
   {
@@ -51,22 +53,29 @@ const endpoints: Endpoint[] = [
     method: "GET",
     path: "/api/systems/:systemId/stations",
     description: "List all stations for a transit system with optional filters",
-    params: [
-      { name: "systemId", type: "string", description: "System identifier" },
-    ],
+    params: [{ name: "systemId", type: "string", description: "System identifier" }],
     queryParams: [
       { name: "line", type: "string", description: "Filter by line ID" },
-      { name: "status", type: "string", description: "Filter by status (active, closed, under-construction)" },
+      {
+        name: "status",
+        type: "string",
+        description: "Filter by status (active, closed, under-construction)",
+      },
     ],
     example: "/api/systems/wmata/stations?line=red",
   },
   {
     method: "GET",
     path: "/api/systems/:systemId/stations/:stationId",
-    description: "Get details for a specific station including entrances, line details, and current outages",
+    description:
+      "Get details for a specific station including entrances, line details, and current outages",
     params: [
       { name: "systemId", type: "string", description: "System identifier" },
-      { name: "stationId", type: "string", description: "Station identifier (e.g., metro-center, embarcadero)" },
+      {
+        name: "stationId",
+        type: "string",
+        description: "Station identifier (e.g., metro-center, embarcadero)",
+      },
     ],
     example: "/api/systems/wmata/stations/metro-center",
   },
@@ -74,11 +83,13 @@ const endpoints: Endpoint[] = [
     method: "GET",
     path: "/api/systems/:systemId/railcars",
     description: "List all railcar generations for a transit system",
-    params: [
-      { name: "systemId", type: "string", description: "System identifier" },
-    ],
+    params: [{ name: "systemId", type: "string", description: "System identifier" }],
     queryParams: [
-      { name: "status", type: "string", description: "Filter by status (active, retired, testing)" },
+      {
+        name: "status",
+        type: "string",
+        description: "Filter by status (active, retired, testing)",
+      },
     ],
     example: "/api/systems/bart/railcars?status=active",
   },
@@ -96,9 +107,7 @@ const endpoints: Endpoint[] = [
     method: "GET",
     path: "/api/systems/:systemId/incidents",
     description: "Get current elevator/escalator outages for a system (WMATA only)",
-    params: [
-      { name: "systemId", type: "string", description: "System identifier" },
-    ],
+    params: [{ name: "systemId", type: "string", description: "System identifier" }],
     example: "/api/systems/wmata/incidents",
   },
 ];
@@ -108,12 +117,10 @@ function EndpointCard({ endpoint }: { endpoint: Endpoint }) {
     <Card className="overflow-hidden">
       <CardHeader className="pb-2">
         <div className="flex items-center gap-3">
-          <Badge variant="default" className="bg-status-active text-black font-mono">
+          <Badge variant="success" className="font-mono">
             {endpoint.method}
           </Badge>
-          <code className="text-accent-primary font-mono text-sm">
-            {endpoint.path}
-          </code>
+          <code className="text-accent-primary font-mono text-sm">{endpoint.path}</code>
         </div>
       </CardHeader>
       <CardContent className="space-y-4">
@@ -121,9 +128,9 @@ function EndpointCard({ endpoint }: { endpoint: Endpoint }) {
 
         {endpoint.params && endpoint.params.length > 0 && (
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">
+            <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">
               Path Parameters
-            </h4>
+            </h3>
             <div className="space-y-1">
               {endpoint.params.map((param) => (
                 <div key={param.name} className="flex items-start gap-2 text-sm">
@@ -138,9 +145,9 @@ function EndpointCard({ endpoint }: { endpoint: Endpoint }) {
 
         {endpoint.queryParams && endpoint.queryParams.length > 0 && (
           <div>
-            <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">
+            <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">
               Query Parameters
-            </h4>
+            </h3>
             <div className="space-y-1">
               {endpoint.queryParams.map((param) => (
                 <div key={param.name} className="flex items-start gap-2 text-sm">
@@ -154,9 +161,7 @@ function EndpointCard({ endpoint }: { endpoint: Endpoint }) {
         )}
 
         <div>
-          <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">
-            Example
-          </h4>
+          <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">Example</h3>
           <a
             href={endpoint.example}
             target="_blank"
@@ -178,12 +183,10 @@ export default async function APIDocumentationPage() {
     <div className="space-y-8">
       {/* Header */}
       <div>
-        <h1 className="text-3xl font-mono font-bold text-text-primary mb-2">
-          API Documentation
-        </h1>
+        <h1 className="text-3xl font-mono font-bold text-text-primary mb-2">API Documentation</h1>
         <p className="text-text-secondary">
-          Access transit system data programmatically via our REST API.
-          All endpoints return JSON and require no authentication.
+          Access transit system data programmatically via our REST API. All endpoints return JSON
+          and require no authentication.
         </p>
       </div>
 
@@ -193,7 +196,9 @@ export default async function APIDocumentationPage() {
         <TerminalOutput>
           {`{"data":[{"id":"wmata","name":"Washington Metropolitan Area Transit Authority",...}],"count":${systems.length}}`}
         </TerminalOutput>
-        <TerminalLine prompt="$">curl https://publictransit.systems/api/systems/wmata/stations/metro-center</TerminalLine>
+        <TerminalLine prompt="$">
+          curl https://publictransit.systems/api/systems/wmata/stations/metro-center
+        </TerminalLine>
         <TerminalOutput>
           {`{"data":{"id":"metro-center","name":"Metro Center","lines":["red","blue","orange","silver"],...}}`}
         </TerminalOutput>
@@ -225,22 +230,30 @@ export default async function APIDocumentationPage() {
           </p>
           <div className="grid md:grid-cols-2 gap-4">
             <div>
-              <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">
+              <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">
                 Success Response
-              </h4>
-              <pre className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto">
-{`{
+              </h3>
+              <pre
+                className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto"
+                tabIndex={0}
+                aria-label="Success response JSON example"
+              >
+                {`{
   "data": { ... },
   "count": 42  // for list endpoints
 }`}
               </pre>
             </div>
             <div>
-              <h4 className="text-xs uppercase tracking-wider text-text-muted mb-2">
+              <h3 className="text-xs uppercase tracking-wider text-text-muted mb-2">
                 Error Response
-              </h4>
-              <pre className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto">
-{`{
+              </h3>
+              <pre
+                className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto"
+                tabIndex={0}
+                aria-label="Error response JSON example"
+              >
+                {`{
   "error": "Resource not found"
 }`}
               </pre>
@@ -268,9 +281,7 @@ export default async function APIDocumentationPage() {
 
       {/* Endpoints */}
       <div>
-        <h2 className="text-xl font-mono font-bold text-text-primary mb-4">
-          Endpoints
-        </h2>
+        <h2 className="text-xl font-mono font-bold text-text-primary mb-4">Endpoints</h2>
         <div className="space-y-4">
           {endpoints.map((endpoint) => (
             <EndpointCard key={endpoint.path} endpoint={endpoint} />
@@ -285,9 +296,13 @@ export default async function APIDocumentationPage() {
         </CardHeader>
         <CardContent className="space-y-6">
           <div>
-            <h4 className="font-mono text-accent-secondary mb-2">Station</h4>
-            <pre className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto">
-{`{
+            <h3 className="font-mono text-accent-secondary mb-2">Station</h3>
+            <pre
+              className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto"
+              tabIndex={0}
+              aria-label="Station data type JSON example"
+            >
+              {`{
   "id": "metro-center",
   "systemId": "wmata",
   "name": "Metro Center",
@@ -311,9 +326,13 @@ export default async function APIDocumentationPage() {
           </div>
 
           <div>
-            <h4 className="font-mono text-accent-secondary mb-2">Line</h4>
-            <pre className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto">
-{`{
+            <h3 className="font-mono text-accent-secondary mb-2">Line</h3>
+            <pre
+              className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto"
+              tabIndex={0}
+              aria-label="Line data type JSON example"
+            >
+              {`{
   "id": "red",
   "systemId": "wmata",
   "name": "Red Line",
@@ -330,9 +349,13 @@ export default async function APIDocumentationPage() {
           </div>
 
           <div>
-            <h4 className="font-mono text-accent-secondary mb-2">Incident (Outage)</h4>
-            <pre className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto">
-{`{
+            <h3 className="font-mono text-accent-secondary mb-2">Incident (Outage)</h3>
+            <pre
+              className="bg-bg-tertiary p-3 rounded text-sm font-mono overflow-x-auto"
+              tabIndex={0}
+              aria-label="Incident outage data type JSON example"
+            >
+              {`{
   "unitName": "A01E05",
   "unitType": "escalator",
   "location": "Escalator between mezzanine and platform",

@@ -89,7 +89,11 @@ function parseLineId(rawId: string, lineName: string): string {
   if (nameLower.includes("大兴") || nameLower.includes("daxing")) {
     return "daxing";
   }
-  if (nameLower.includes("首都机场") || nameLower.includes("capital airport") || nameLower.includes("机场线")) {
+  if (
+    nameLower.includes("首都机场") ||
+    nameLower.includes("capital airport") ||
+    nameLower.includes("机场线")
+  ) {
     return "capital-airport-express";
   }
   if (nameLower.includes("西郊") || nameLower.includes("xijiao")) {
@@ -145,7 +149,10 @@ function parseXML(xml: string): MappingData {
       // Create or update station mapping
       if (!stationMap.has(stationName)) {
         stationMap.set(stationName, {
-          id: stationName.toLowerCase().replace(/\s+/g, "-").replace(/[()（）]/g, ""),
+          id: stationName
+            .toLowerCase()
+            .replace(/\s+/g, "-")
+            .replace(/[()（）]/g, ""),
           name: stationName, // Chinese name for now
           localName: stationName,
           lines: [],

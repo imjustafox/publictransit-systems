@@ -150,9 +150,7 @@ async function fetchOverpass(query: string): Promise<OSMResponse> {
     }
   }
 
-  throw new Error(
-    `All Overpass endpoints failed. Last error: ${lastError?.message}`
-  );
+  throw new Error(`All Overpass endpoints failed. Last error: ${lastError?.message}`);
 }
 
 function isNode(el: OSMNode | OSMRelation): el is OSMNode {
@@ -192,7 +190,10 @@ function extractLineId(tags: Record<string, string>): string | undefined {
  * stop-position nodes for the same station collapse into one entry.
  */
 function normalizeNameKey(name: string): string {
-  return name.replace(/\s*\([^)]*\)\s*/g, "").trim().toLowerCase();
+  return name
+    .replace(/\s*\([^)]*\)\s*/g, "")
+    .trim()
+    .toLowerCase();
 }
 
 /** Find entrance nodes within maxDist degrees of a station node. */
@@ -206,16 +207,14 @@ function findNearbyEntrances(
   for (const entrance of entrances) {
     if (seen.has(entrance.id)) continue; // deduplicate by OSM node ID
     const dist = Math.sqrt(
-      Math.pow(entrance.lat - station.lat, 2) +
-        Math.pow(entrance.lon - station.lon, 2)
+      Math.pow(entrance.lat - station.lat, 2) + Math.pow(entrance.lon - station.lon, 2)
     );
     if (dist <= maxDist) {
       seen.add(entrance.id);
       const t = entrance.tags || {};
       result.push({
         id: `osm-${entrance.id}`,
-        name:
-          t["ref"] || t["name"] || `Eingang ${result.length + 1}`,
+        name: t["ref"] || t["name"] || `Eingang ${result.length + 1}`,
         coordinates: { lat: entrance.lat, lng: entrance.lon },
         ref: t["ref"],
         wheelchair: t["wheelchair"] === "yes",
@@ -233,9 +232,7 @@ function hasNearbyElevator(
 ): boolean {
   return elevators.some(
     (el) =>
-      Math.sqrt(
-        Math.pow(el.lat - station.lat, 2) + Math.pow(el.lon - station.lon, 2)
-      ) <= maxDist
+      Math.sqrt(Math.pow(el.lat - station.lat, 2) + Math.pow(el.lon - station.lon, 2)) <= maxDist
   );
 }
 
@@ -255,8 +252,7 @@ function processOSMData(data: OSMResponse): {
   for (const el of data.elements) {
     if (isNode(el)) {
       const t = el.tags || {};
-      const isPlatform =
-        t["public_transport"] === "platform" || t["railway"] === "platform";
+      const isPlatform = t["public_transport"] === "platform" || t["railway"] === "platform";
       const isStopPosition =
         t["public_transport"] === "stop_position" ||
         t["railway"] === "tram_stop" ||
@@ -316,10 +312,7 @@ function processOSMData(data: OSMResponse): {
   // tram_stop).  We normalise the name (strip parenthetical suffixes) to
   // produce a merge key, then keep the shortest / simplest name variant as
   // the canonical display name.
-  const byName = new Map<
-    string,
-    { node: OSMNode; lines: Set<string>; canonicalName: string }
-  >();
+  const byName = new Map<string, { node: OSMNode; lines: Set<string>; canonicalName: string }>();
 
   let skipped = 0;
   for (const node of stopNodes) {
@@ -402,10 +395,7 @@ function processOSMData(data: OSMResponse): {
   }
 
   // Sort by importance: most lines served first, then alphabetically
-  stations.sort(
-    (a, b) =>
-      b.lines.length - a.lines.length || a.name.localeCompare(b.name, "de")
-  );
+  stations.sort((a, b) => b.lines.length - a.lines.length || a.name.localeCompare(b.name, "de"));
 
   return { stations, skipped };
 }
@@ -415,8 +405,7 @@ function processOSMData(data: OSMResponse): {
 function parseArgs() {
   const args = process.argv.slice(2);
   const result = {
-    output:
-      "data/systems/stuttgart-light-rail/stations.json",
+    output: "data/systems/stuttgart-light-rail/stations.json",
     dryRun: false,
     raw: false,
     fromCache: false,
@@ -443,13 +432,7 @@ async function main() {
   const projectRoot = path.resolve(__dirname, "..");
   const outputPath = path.join(projectRoot, args.output);
 
-  const rawPath = path.join(
-    projectRoot,
-    "data",
-    "raw",
-    "osm",
-    "stuttgart-light-rail.json"
-  );
+  const rawPath = path.join(projectRoot, "data", "raw", "osm", "stuttgart-light-rail.json");
 
   let data: OSMResponse;
   if (args.fromCache) {
@@ -471,15 +454,9 @@ async function main() {
   console.log("\nProcessing OSM data...");
   const { stations, skipped } = processOSMData(data);
 
-  const withEntrances = stations.filter(
-    (s) => s.entrances && s.entrances.length > 0
-  ).length;
-  const withElevator = stations.filter((s) =>
-    s.features.includes("elevator")
-  ).length;
-  const transfers = stations.filter((s) =>
-    s.features.includes("transfer")
-  ).length;
+  const withEntrances = stations.filter((s) => s.entrances && s.entrances.length > 0).length;
+  const withElevator = stations.filter((s) => s.features.includes("elevator")).length;
+  const transfers = stations.filter((s) => s.features.includes("transfer")).length;
 
   console.log("\nResults:");
   console.log(`  Stations processed: ${stations.length}`);
@@ -511,9 +488,7 @@ async function main() {
       }`
     );
     console.log(
-      `  Removed (${removedIds.length}):  ${
-        removedIds.length > 0 ? removedIds.join(", ") : "—"
-      }`
+      `  Removed (${removedIds.length}):  ${removedIds.length > 0 ? removedIds.join(", ") : "—"}`
     );
     console.log(`  Unchanged: ${unchanged}`);
   } else {

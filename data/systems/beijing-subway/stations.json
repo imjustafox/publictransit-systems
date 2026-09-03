@@ -5,42 +5,27 @@
       "systemId": "beijing-subway",
       "name": "2号航站楼",
       "localName": "2号航站楼",
-      "lines": [
-        "capital-airport-express"
-      ],
+      "lines": ["capital-airport-express"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "3号航站楼",
       "systemId": "beijing-subway",
       "name": "3号航站楼",
       "localName": "3号航站楼",
-      "lines": [
-        "capital-airport-express"
-      ],
+      "lines": ["capital-airport-express"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "七里庄",
       "systemId": "beijing-subway",
       "name": "七里庄",
       "localName": "七里庄",
-      "lines": [
-        "line-14",
-        "line-9"
-      ],
+      "lines": ["line-14", "line-9"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8652402,
         "lng": 116.2881665
@@ -109,28 +94,18 @@
       "systemId": "beijing-subway",
       "name": "万安",
       "localName": "万安",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "万寿寺",
       "systemId": "beijing-subway",
       "name": "万寿寺",
       "localName": "万寿寺",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9471407,
         "lng": 116.3032926
@@ -185,15 +160,9 @@
       "systemId": "beijing-subway",
       "name": "万寿路",
       "localName": "万寿路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9062159,
         "lng": 116.2887714
@@ -280,14 +249,9 @@
       "systemId": "beijing-subway",
       "name": "万泉河桥",
       "localName": "万泉河桥",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9839185,
         "lng": 116.2942646
@@ -332,13 +296,9 @@
       "systemId": "beijing-subway",
       "name": "万源街",
       "localName": "万源街",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8017615,
         "lng": 116.4995335
@@ -351,26 +311,18 @@
       "systemId": "beijing-subway",
       "name": "万盛东",
       "localName": "万盛东",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "万盛西",
       "systemId": "beijing-subway",
       "name": "万盛西",
       "localName": "万盛西",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8624408,
         "lng": 116.6267073
@@ -382,19 +334,9 @@
       "systemId": "beijing-subway",
       "name": "三元桥",
       "localName": "三元桥",
-      "lines": [
-        "capital-airport-express",
-        "line-10",
-        "line-12"
-      ],
+      "lines": ["capital-airport-express", "line-10", "line-12"],
       "status": "active",
-      "features": [
-        "airport-connection",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["airport-connection", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9597061,
         "lng": 116.4514799
@@ -457,14 +399,9 @@
       "systemId": "beijing-subway",
       "name": "上地",
       "localName": "上地",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0317646,
         "lng": 116.3140843
@@ -489,13 +426,9 @@
       "systemId": "beijing-subway",
       "name": "上地软件园",
       "localName": "上地软件园",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.043537,
         "lng": 116.2805664
@@ -508,26 +441,18 @@
       "systemId": "beijing-subway",
       "name": "上岸",
       "localName": "上岸",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "东北旺",
       "systemId": "beijing-subway",
       "name": "东北旺",
       "localName": "东北旺",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.051835,
         "lng": 116.2887219
@@ -540,17 +465,9 @@
       "systemId": "beijing-subway",
       "name": "东单",
       "localName": "东单",
-      "lines": [
-        "line-1",
-        "line-5"
-      ],
+      "lines": ["line-1", "line-5"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9068579,
         "lng": 116.412626
@@ -643,16 +560,9 @@
       "systemId": "beijing-subway",
       "name": "东四",
       "localName": "东四",
-      "lines": [
-        "line-5",
-        "line-6"
-      ],
+      "lines": ["line-5", "line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9229744,
         "lng": 116.4102477
@@ -716,18 +626,9 @@
       "systemId": "beijing-subway",
       "name": "东四十条",
       "localName": "东四十条",
-      "lines": [
-        "line-2",
-        "line-3"
-      ],
+      "lines": ["line-2", "line-3"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.932287,
         "lng": 116.4280068
@@ -791,13 +692,9 @@
       "systemId": "beijing-subway",
       "name": "东坝",
       "localName": "东坝",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.964645,
         "lng": 116.541359
@@ -810,15 +707,9 @@
       "systemId": "beijing-subway",
       "name": "东坝北",
       "localName": "东坝北",
-      "lines": [
-        "line-12",
-        "line-3"
-      ],
+      "lines": ["line-12", "line-3"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9746043,
         "lng": 116.5519702
@@ -831,13 +722,9 @@
       "systemId": "beijing-subway",
       "name": "东坝南",
       "localName": "东坝南",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9507876,
         "lng": 116.5411241
@@ -850,13 +737,9 @@
       "systemId": "beijing-subway",
       "name": "东坝西",
       "localName": "东坝西",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9733361,
         "lng": 116.5283562
@@ -869,14 +752,9 @@
       "systemId": "beijing-subway",
       "name": "东夏园",
       "localName": "东夏园",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9022116,
         "lng": 116.7272447
@@ -931,17 +809,9 @@
       "systemId": "beijing-subway",
       "name": "东大桥",
       "localName": "东大桥",
-      "lines": [
-        "line-17",
-        "line-6"
-      ],
+      "lines": ["line-17", "line-6"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.921482,
         "lng": 116.4455603
@@ -1014,14 +884,9 @@
       "systemId": "beijing-subway",
       "name": "东湖渠",
       "localName": "东湖渠",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0091272,
         "lng": 116.4611561
@@ -1063,11 +928,7 @@
       "systemId": "beijing-subway",
       "name": "东直门",
       "localName": "东直门",
-      "lines": [
-        "capital-airport-express",
-        "line-13",
-        "line-2"
-      ],
+      "lines": ["capital-airport-express", "line-13", "line-2"],
       "status": "active",
       "features": [
         "accessible",
@@ -1190,13 +1051,9 @@
       "systemId": "beijing-subway",
       "name": "东管头",
       "localName": "东管头",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8661164,
         "lng": 116.3144367
@@ -1209,16 +1066,9 @@
       "systemId": "beijing-subway",
       "name": "东管头南",
       "localName": "东管头南",
-      "lines": [
-        "fangshan",
-        "line-16"
-      ],
+      "lines": ["fangshan", "line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8535213,
         "lng": 116.3166795
@@ -1283,14 +1133,9 @@
       "systemId": "beijing-subway",
       "name": "东风北桥",
       "localName": "东风北桥",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9583029,
         "lng": 116.4789687
@@ -1335,13 +1180,9 @@
       "systemId": "beijing-subway",
       "name": "东高地",
       "localName": "东高地",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8037787,
         "lng": 116.4030681
@@ -1354,15 +1195,9 @@
       "systemId": "beijing-subway",
       "name": "丽泽商务区",
       "localName": "丽泽商务区",
-      "lines": [
-        "line-14",
-        "line-16"
-      ],
+      "lines": ["line-14", "line-16"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8662759,
         "lng": 116.3256029
@@ -1375,16 +1210,9 @@
       "systemId": "beijing-subway",
       "name": "中关村",
       "localName": "中关村",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9826574,
         "lng": 116.3103787
@@ -1444,14 +1272,9 @@
       "systemId": "beijing-subway",
       "name": "中国美术馆",
       "localName": "中国美术馆",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9236287,
         "lng": 116.4045447
@@ -1506,13 +1329,9 @@
       "systemId": "beijing-subway",
       "name": "丰台东大街",
       "localName": "丰台东大街",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8541721,
         "lng": 116.2877862
@@ -1525,15 +1344,9 @@
       "systemId": "beijing-subway",
       "name": "丰台南路",
       "localName": "丰台南路",
-      "lines": [
-        "line-16",
-        "line-9"
-      ],
+      "lines": ["line-16", "line-9"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8395949,
         "lng": 116.2906678
@@ -1546,15 +1359,9 @@
       "systemId": "beijing-subway",
       "name": "丰台科技园",
       "localName": "丰台科技园",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8239138,
         "lng": 116.2912488
@@ -1617,18 +1424,9 @@
       "systemId": "beijing-subway",
       "name": "丰台站",
       "localName": "丰台站",
-      "lines": [
-        "line-10",
-        "line-16"
-      ],
+      "lines": ["line-10", "line-16"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "rail-connection",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "rail-connection", "transfer"],
       "coordinates": {
         "lat": 39.8496396,
         "lng": 116.2975967
@@ -1641,13 +1439,9 @@
       "systemId": "beijing-subway",
       "name": "临河里",
       "localName": "临河里",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8742944,
         "lng": 116.6728594
@@ -1660,14 +1454,9 @@
       "systemId": "beijing-subway",
       "name": "义和庄",
       "localName": "义和庄",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7111046,
         "lng": 116.3130186
@@ -1718,26 +1507,18 @@
       "systemId": "beijing-subway",
       "name": "九号村",
       "localName": "九号村",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "九棵树",
       "systemId": "beijing-subway",
       "name": "九棵树",
       "localName": "九棵树",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.889165,
         "lng": 116.651623
@@ -1750,16 +1531,9 @@
       "systemId": "beijing-subway",
       "name": "九龙山",
       "localName": "九龙山",
-      "lines": [
-        "line-14",
-        "line-7"
-      ],
+      "lines": ["line-14", "line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8921089,
         "lng": 116.4716849
@@ -1824,17 +1598,9 @@
       "systemId": "beijing-subway",
       "name": "二里沟",
       "localName": "二里沟",
-      "lines": [
-        "line-16",
-        "line-6"
-      ],
+      "lines": ["line-16", "line-6"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9310721,
         "lng": 116.3275776
@@ -1908,16 +1674,9 @@
       "systemId": "beijing-subway",
       "name": "五棵松",
       "localName": "五棵松",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "bus-connection",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["bus-connection", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9062214,
         "lng": 116.2680336
@@ -2004,13 +1763,9 @@
       "systemId": "beijing-subway",
       "name": "五福堂",
       "localName": "五福堂",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7837675,
         "lng": 116.4174105
@@ -2023,14 +1778,9 @@
       "systemId": "beijing-subway",
       "name": "五道口",
       "localName": "五道口",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9914779,
         "lng": 116.3317017
@@ -2065,39 +1815,27 @@
       "systemId": "beijing-subway",
       "name": "亦创会展中心",
       "localName": "亦创会展中心",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "亦庄同仁",
       "systemId": "beijing-subway",
       "name": "亦庄同仁",
       "localName": "亦庄同仁",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "亦庄文化园",
       "systemId": "beijing-subway",
       "name": "亦庄文化园",
       "localName": "亦庄文化园",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8056285,
         "lng": 116.4846211
@@ -2110,13 +1848,9 @@
       "systemId": "beijing-subway",
       "name": "亦庄桥",
       "localName": "亦庄桥",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.801744,
         "lng": 116.4742673
@@ -2129,14 +1863,9 @@
       "systemId": "beijing-subway",
       "name": "亦庄火车站",
       "localName": "亦庄火车站",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8115669,
         "lng": 116.5960819
@@ -2190,15 +1919,9 @@
       "systemId": "beijing-subway",
       "name": "亮马桥",
       "localName": "亮马桥",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9482568,
         "lng": 116.4562709
@@ -2253,17 +1976,9 @@
       "systemId": "beijing-subway",
       "name": "人民大学",
       "localName": "人民大学",
-      "lines": [
-        "line-12",
-        "line-4"
-      ],
+      "lines": ["line-12", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.965744,
         "lng": 116.3157286
@@ -2348,14 +2063,9 @@
       "systemId": "beijing-subway",
       "name": "什刹海",
       "localName": "什刹海",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9359528,
         "lng": 116.3900647
@@ -2390,13 +2100,9 @@
       "systemId": "beijing-subway",
       "name": "传媒大学",
       "localName": "传媒大学",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9080422,
         "lng": 116.5488365
@@ -2409,28 +2115,18 @@
       "systemId": "beijing-subway",
       "name": "俸伯",
       "localName": "俸伯",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "健德门",
       "systemId": "beijing-subway",
       "name": "健德门",
       "localName": "健德门",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9750859,
         "lng": 116.3747659
@@ -2443,16 +2139,9 @@
       "systemId": "beijing-subway",
       "name": "光熙门",
       "localName": "光熙门",
-      "lines": [
-        "line-12",
-        "line-13"
-      ],
+      "lines": ["line-12", "line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9680699,
         "lng": 116.4242608
@@ -2486,15 +2175,9 @@
       "systemId": "beijing-subway",
       "name": "八宝山",
       "localName": "八宝山",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9061888,
         "lng": 116.2296796
@@ -2545,15 +2228,9 @@
       "systemId": "beijing-subway",
       "name": "八角游乐园",
       "localName": "八角游乐园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9052,
         "lng": 116.1983
@@ -2564,14 +2241,9 @@
       "systemId": "beijing-subway",
       "name": "八里桥",
       "localName": "八里桥",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9050518,
         "lng": 116.6127053
@@ -2636,17 +2308,9 @@
       "systemId": "beijing-subway",
       "name": "公主坟",
       "localName": "公主坟",
-      "lines": [
-        "line-1",
-        "line-10"
-      ],
+      "lines": ["line-1", "line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9061762,
         "lng": 116.3041253
@@ -2670,16 +2334,9 @@
       "systemId": "beijing-subway",
       "name": "公益西桥",
       "localName": "公益西桥",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8352632,
         "lng": 116.3646715
@@ -2757,17 +2414,9 @@
       "systemId": "beijing-subway",
       "name": "六道口",
       "localName": "六道口",
-      "lines": [
-        "changping",
-        "line-15"
-      ],
+      "lines": ["changping", "line-15"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9996659,
         "lng": 116.3466428
@@ -2870,18 +2519,9 @@
       "systemId": "beijing-subway",
       "name": "六里桥",
       "localName": "六里桥",
-      "lines": [
-        "line-10",
-        "line-9"
-      ],
+      "lines": ["line-10", "line-9"],
       "status": "active",
-      "features": [
-        "bus-connection",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["bus-connection", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8786861,
         "lng": 116.2968997
@@ -2959,14 +2599,9 @@
       "systemId": "beijing-subway",
       "name": "六里桥东",
       "localName": "六里桥东",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8857143,
         "lng": 116.308808
@@ -2999,14 +2634,9 @@
       "systemId": "beijing-subway",
       "name": "关庄",
       "localName": "关庄",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9997494,
         "lng": 116.4250584
@@ -3051,17 +2681,9 @@
       "systemId": "beijing-subway",
       "name": "军事博物馆",
       "localName": "军事博物馆",
-      "lines": [
-        "line-1",
-        "line-9"
-      ],
+      "lines": ["line-1", "line-9"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9079,
         "lng": 116.3167
@@ -3072,15 +2694,9 @@
       "systemId": "beijing-subway",
       "name": "农业展览馆",
       "localName": "农业展览馆",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.940129,
         "lng": 116.4562886
@@ -3114,15 +2730,9 @@
       "systemId": "beijing-subway",
       "name": "农大南路",
       "localName": "农大南路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0184431,
         "lng": 116.2770283
@@ -3157,15 +2767,9 @@
       "systemId": "beijing-subway",
       "name": "分钟寺",
       "localName": "分钟寺",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8506149,
         "lng": 116.447588
@@ -3220,14 +2824,9 @@
       "systemId": "beijing-subway",
       "name": "刘家窑",
       "localName": "刘家窑",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8560744,
         "lng": 116.4156074
@@ -3282,17 +2881,9 @@
       "systemId": "beijing-subway",
       "name": "前门",
       "localName": "前门",
-      "lines": [
-        "line-2",
-        "line-8"
-      ],
+      "lines": ["line-2", "line-8"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8982814,
         "lng": 116.3929416
@@ -3387,16 +2978,9 @@
       "systemId": "beijing-subway",
       "name": "动物园",
       "localName": "动物园",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9369392,
         "lng": 116.332733
@@ -3456,15 +3040,9 @@
       "systemId": "beijing-subway",
       "name": "劲松",
       "localName": "劲松",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8830661,
         "lng": 116.4551162
@@ -3515,14 +3093,9 @@
       "systemId": "beijing-subway",
       "name": "化工",
       "localName": "化工",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8840067,
         "lng": 116.4975172
@@ -3567,18 +3140,9 @@
       "systemId": "beijing-subway",
       "name": "北京南站",
       "localName": "北京南站",
-      "lines": [
-        "line-14",
-        "line-4"
-      ],
+      "lines": ["line-14", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "rail-connection",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "rail-connection", "transfer"],
       "coordinates": {
         "lat": 39.8641006,
         "lng": 116.3733186
@@ -3590,16 +3154,9 @@
       "systemId": "beijing-subway",
       "name": "北京大学东门",
       "localName": "北京大学东门",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9907813,
         "lng": 116.3097264
@@ -3650,16 +3207,9 @@
       "systemId": "beijing-subway",
       "name": "北京站",
       "localName": "北京站",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "rail-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "rail-connection"],
       "coordinates": {
         "lat": 39.9035987,
         "lng": 116.4209544
@@ -3713,18 +3263,9 @@
       "systemId": "beijing-subway",
       "name": "北京西站",
       "localName": "北京西站",
-      "lines": [
-        "line-7",
-        "line-9"
-      ],
+      "lines": ["line-7", "line-9"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "rail-connection",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "rail-connection", "transfer"],
       "coordinates": {
         "lat": 39.8935411,
         "lng": 116.3151056
@@ -3737,18 +3278,9 @@
       "systemId": "beijing-subway",
       "name": "北土城",
       "localName": "北土城",
-      "lines": [
-        "line-10",
-        "line-8"
-      ],
+      "lines": ["line-10", "line-8"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9763987,
         "lng": 116.3879263
@@ -3823,16 +3355,9 @@
       "systemId": "beijing-subway",
       "name": "北太平庄",
       "localName": "北太平庄",
-      "lines": [
-        "line-12",
-        "line-19"
-      ],
+      "lines": ["line-12", "line-19"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9667708,
         "lng": 116.364124
@@ -3857,14 +3382,9 @@
       "systemId": "beijing-subway",
       "name": "北安河",
       "localName": "北安河",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0668592,
         "lng": 116.1243785
@@ -3915,16 +3435,9 @@
       "systemId": "beijing-subway",
       "name": "北宫门",
       "localName": "北宫门",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0011928,
         "lng": 116.2713671
@@ -3969,14 +3482,9 @@
       "systemId": "beijing-subway",
       "name": "北工大西门",
       "localName": "北工大西门",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8736424,
         "lng": 116.4713573
@@ -4018,16 +3526,9 @@
       "systemId": "beijing-subway",
       "name": "北新桥",
       "localName": "北新桥",
-      "lines": [
-        "capital-airport-express",
-        "line-5"
-      ],
+      "lines": ["capital-airport-express", "line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9396965,
         "lng": 116.4119342
@@ -4081,14 +3582,9 @@
       "systemId": "beijing-subway",
       "name": "北沙滩",
       "localName": "北沙滩",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0001238,
         "lng": 116.3620432
@@ -4143,15 +3639,9 @@
       "systemId": "beijing-subway",
       "name": "北海北",
       "localName": "北海北",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9317985,
         "lng": 116.3800445
@@ -4196,15 +3686,9 @@
       "systemId": "beijing-subway",
       "name": "北神树",
       "localName": "北神树",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8175347,
         "lng": 116.547173
@@ -4258,14 +3742,9 @@
       "systemId": "beijing-subway",
       "name": "北苑",
       "localName": "北苑",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0416631,
         "lng": 116.428187
@@ -4290,13 +3769,9 @@
       "systemId": "beijing-subway",
       "name": "北苑路北",
       "localName": "北苑路北",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0290192,
         "lng": 116.4119016
@@ -4309,13 +3784,9 @@
       "systemId": "beijing-subway",
       "name": "北辛安",
       "localName": "北辛安",
-      "lines": [
-        "line-11"
-      ],
+      "lines": ["line-11"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9138827,
         "lng": 116.1585873
@@ -4328,14 +3799,9 @@
       "systemId": "beijing-subway",
       "name": "北运河东",
       "localName": "北运河东",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9021187,
         "lng": 116.7018094
@@ -4380,14 +3846,9 @@
       "systemId": "beijing-subway",
       "name": "北运河西",
       "localName": "北运河西",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9018256,
         "lng": 116.6819734
@@ -4422,39 +3883,27 @@
       "systemId": "beijing-subway",
       "name": "北邵洼",
       "localName": "北邵洼",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "十三陵景区",
       "systemId": "beijing-subway",
       "name": "十三陵景区",
       "localName": "十三陵景区",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "十八里店",
       "systemId": "beijing-subway",
       "name": "十八里店",
       "localName": "十八里店",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8430584,
         "lng": 116.4898314
@@ -4466,13 +3915,9 @@
       "systemId": "beijing-subway",
       "name": "十里堡",
       "localName": "十里堡",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9216269,
         "lng": 116.4960424
@@ -4485,19 +3930,9 @@
       "systemId": "beijing-subway",
       "name": "十里河",
       "localName": "十里河",
-      "lines": [
-        "line-10",
-        "line-14",
-        "line-17"
-      ],
+      "lines": ["line-10", "line-14", "line-17"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8635284,
         "lng": 116.4544834
@@ -4581,14 +4016,9 @@
       "systemId": "beijing-subway",
       "name": "南楼梓庄",
       "localName": "南楼梓庄",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8733935,
         "lng": 116.4954124
@@ -4643,28 +4073,18 @@
       "systemId": "beijing-subway",
       "name": "南法信",
       "localName": "南法信",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "南礼士路",
       "systemId": "beijing-subway",
       "name": "南礼士路",
       "localName": "南礼士路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9058662,
         "lng": 116.3465697
@@ -4723,29 +4143,18 @@
       "systemId": "beijing-subway",
       "name": "南邵",
       "localName": "南邵",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "南锣鼓巷",
       "systemId": "beijing-subway",
       "name": "南锣鼓巷",
       "localName": "南锣鼓巷",
-      "lines": [
-        "line-6",
-        "line-8"
-      ],
+      "lines": ["line-6", "line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9323094,
         "lng": 116.3976888
@@ -4800,17 +4209,9 @@
       "systemId": "beijing-subway",
       "name": "双井",
       "localName": "双井",
-      "lines": [
-        "line-10",
-        "line-7"
-      ],
+      "lines": ["line-10", "line-7"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8920933,
         "lng": 116.4552314
@@ -4855,14 +4256,9 @@
       "systemId": "beijing-subway",
       "name": "双合",
       "localName": "双合",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8581385,
         "lng": 116.5223453
@@ -4917,14 +4313,9 @@
       "systemId": "beijing-subway",
       "name": "双桥",
       "localName": "双桥",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9090728,
         "lng": 116.5709843
@@ -4958,15 +4349,9 @@
       "systemId": "beijing-subway",
       "name": "古城",
       "localName": "古城",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9061423,
         "lng": 116.1844475
@@ -5021,13 +4406,9 @@
       "systemId": "beijing-subway",
       "name": "同济南路",
       "localName": "同济南路",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7718151,
         "lng": 116.533948
@@ -5040,26 +4421,18 @@
       "systemId": "beijing-subway",
       "name": "后沙峪",
       "localName": "后沙峪",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "周家庄",
       "systemId": "beijing-subway",
       "name": "周家庄",
       "localName": "周家庄",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.855252,
         "lng": 116.4706068
@@ -5071,18 +4444,9 @@
       "systemId": "beijing-subway",
       "name": "呼家楼",
       "localName": "呼家楼",
-      "lines": [
-        "line-10",
-        "line-6"
-      ],
+      "lines": ["line-10", "line-6"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9220995,
         "lng": 116.4554956
@@ -5178,13 +4542,9 @@
       "systemId": "beijing-subway",
       "name": "和义",
       "localName": "和义",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8135634,
         "lng": 116.3958329
@@ -5197,17 +4557,9 @@
       "systemId": "beijing-subway",
       "name": "和平西桥",
       "localName": "和平西桥",
-      "lines": [
-        "line-12",
-        "line-5"
-      ],
+      "lines": ["line-12", "line-5"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9677829,
         "lng": 116.4118056
@@ -5301,15 +4653,9 @@
       "systemId": "beijing-subway",
       "name": "和平里北街",
       "localName": "和平里北街",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9573887,
         "lng": 116.4122352
@@ -5354,15 +4700,9 @@
       "systemId": "beijing-subway",
       "name": "和平门",
       "localName": "和平门",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8986925,
         "lng": 116.3777751
@@ -5447,15 +4787,9 @@
       "systemId": "beijing-subway",
       "name": "善各庄",
       "localName": "善各庄",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0265143,
         "lng": 116.4727698
@@ -5509,13 +4843,9 @@
       "systemId": "beijing-subway",
       "name": "嘉会湖",
       "localName": "嘉会湖",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7918725,
         "lng": 116.6052556
@@ -5527,15 +4857,9 @@
       "systemId": "beijing-subway",
       "name": "四季青桥",
       "localName": "四季青桥",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9425119,
         "lng": 116.2682827
@@ -5580,16 +4904,9 @@
       "systemId": "beijing-subway",
       "name": "四惠",
       "localName": "四惠",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "bus-connection",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["bus-connection", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9075722,
         "lng": 116.4893819
@@ -5640,16 +4957,9 @@
       "systemId": "beijing-subway",
       "name": "四惠东",
       "localName": "四惠东",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9073037,
         "lng": 116.5094811
@@ -5693,40 +5003,27 @@
       "systemId": "beijing-subway",
       "name": "四海庄",
       "localName": "四海庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "四道桥",
       "systemId": "beijing-subway",
       "name": "四道桥",
       "localName": "四道桥",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "回龙观",
       "systemId": "beijing-subway",
       "name": "回龙观",
       "localName": "回龙观",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.069525,
         "lng": 116.329755
@@ -5759,16 +5056,9 @@
       "systemId": "beijing-subway",
       "name": "回龙观东大街",
       "localName": "回龙观东大街",
-      "lines": [
-        "line-18",
-        "line-8"
-      ],
+      "lines": ["line-18", "line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0797507,
         "lng": 116.3571849
@@ -5823,13 +5113,9 @@
       "systemId": "beijing-subway",
       "name": "回龙观西大街",
       "localName": "回龙观西大街",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0772781,
         "lng": 116.3245924
@@ -5842,18 +5128,9 @@
       "systemId": "beijing-subway",
       "name": "团结湖",
       "localName": "团结湖",
-      "lines": [
-        "line-10",
-        "line-3"
-      ],
+      "lines": ["line-10", "line-3"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9322013,
         "lng": 116.4556066
@@ -5934,15 +5211,9 @@
       "systemId": "beijing-subway",
       "name": "园博园",
       "localName": "园博园",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8599934,
         "lng": 116.1956719
@@ -5996,18 +5267,9 @@
       "systemId": "beijing-subway",
       "name": "国家图书馆",
       "localName": "国家图书馆",
-      "lines": [
-        "line-16",
-        "line-4",
-        "line-9"
-      ],
+      "lines": ["line-16", "line-4", "line-9"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9412214,
         "lng": 116.3187284
@@ -6072,26 +5334,18 @@
       "systemId": "beijing-subway",
       "name": "国家植物园",
       "localName": "国家植物园",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "国展",
       "systemId": "beijing-subway",
       "name": "国展",
       "localName": "国展",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.068903,
         "lng": 116.5493705
@@ -6104,18 +5358,9 @@
       "systemId": "beijing-subway",
       "name": "国贸",
       "localName": "国贸",
-      "lines": [
-        "line-1",
-        "line-10"
-      ],
+      "lines": ["line-1", "line-10"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9070164,
         "lng": 116.4556474
@@ -6219,15 +5464,9 @@
       "systemId": "beijing-subway",
       "name": "圆明园",
       "localName": "圆明园",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9982949,
         "lng": 116.3036739
@@ -6269,13 +5508,9 @@
       "systemId": "beijing-subway",
       "name": "土桥",
       "localName": "土桥",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8707455,
         "lng": 116.6802742
@@ -6288,14 +5523,9 @@
       "systemId": "beijing-subway",
       "name": "垡头",
       "localName": "垡头",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.859574,
         "lng": 116.5057156
@@ -6330,17 +5560,9 @@
       "systemId": "beijing-subway",
       "name": "复兴门",
       "localName": "复兴门",
-      "lines": [
-        "line-1",
-        "line-2"
-      ],
+      "lines": ["line-1", "line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.905948,
         "lng": 116.3505107
@@ -6395,13 +5617,9 @@
       "systemId": "beijing-subway",
       "name": "大井",
       "localName": "大井",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.864019,
         "lng": 116.2688628
@@ -6414,14 +5632,9 @@
       "systemId": "beijing-subway",
       "name": "大兴新城",
       "localName": "大兴新城",
-      "lines": [
-        "daxing-airport"
-      ],
+      "lines": ["daxing-airport"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7340741,
         "lng": 116.3594824
@@ -6462,13 +5675,9 @@
       "systemId": "beijing-subway",
       "name": "大兴机场",
       "localName": "大兴机场",
-      "lines": [
-        "daxing-airport"
-      ],
+      "lines": ["daxing-airport"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.5124863,
         "lng": 116.4106758
@@ -6480,16 +5689,9 @@
       "systemId": "beijing-subway",
       "name": "大屯路东",
       "localName": "大屯路东",
-      "lines": [
-        "line-15",
-        "line-5"
-      ],
+      "lines": ["line-15", "line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0015358,
         "lng": 116.4121905
@@ -6543,17 +5745,9 @@
       "systemId": "beijing-subway",
       "name": "大望路",
       "localName": "大望路",
-      "lines": [
-        "line-1",
-        "line-14"
-      ],
+      "lines": ["line-1", "line-14"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9069399,
         "lng": 116.4712272
@@ -6640,14 +5834,9 @@
       "systemId": "beijing-subway",
       "name": "大瓦窑",
       "localName": "大瓦窑",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8583275,
         "lng": 116.2344523
@@ -6692,13 +5881,9 @@
       "systemId": "beijing-subway",
       "name": "大石河东",
       "localName": "大石河东",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7085836,
         "lng": 116.0339981
@@ -6711,17 +5896,9 @@
       "systemId": "beijing-subway",
       "name": "大红门",
       "localName": "大红门",
-      "lines": [
-        "line-10",
-        "line-8"
-      ],
+      "lines": ["line-10", "line-8"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8429511,
         "lng": 116.3944459
@@ -6793,14 +5970,9 @@
       "systemId": "beijing-subway",
       "name": "大红门南",
       "localName": "大红门南",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8355481,
         "lng": 116.3948539
@@ -6825,14 +5997,9 @@
       "systemId": "beijing-subway",
       "name": "大葆台",
       "localName": "大葆台",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8064524,
         "lng": 116.2854666
@@ -6865,14 +6032,9 @@
       "systemId": "beijing-subway",
       "name": "大郊亭",
       "localName": "大郊亭",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8921857,
         "lng": 116.4813499
@@ -6917,16 +6079,9 @@
       "systemId": "beijing-subway",
       "name": "大钟寺",
       "localName": "大钟寺",
-      "lines": [
-        "line-12",
-        "line-13"
-      ],
+      "lines": ["line-12", "line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9661057,
         "lng": 116.3378309
@@ -6961,14 +6116,9 @@
       "systemId": "beijing-subway",
       "name": "天坛东门",
       "localName": "天坛东门",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8822567,
         "lng": 116.4145694
@@ -7012,16 +6162,9 @@
       "systemId": "beijing-subway",
       "name": "天安门东",
       "localName": "天安门东",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9063337,
         "lng": 116.3949169
@@ -7074,15 +6217,9 @@
       "systemId": "beijing-subway",
       "name": "天安门西",
       "localName": "天安门西",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9059702,
         "lng": 116.3851622
@@ -7136,14 +6273,9 @@
       "systemId": "beijing-subway",
       "name": "天宫院",
       "localName": "天宫院",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.6689886,
         "lng": 116.3139055
@@ -7194,14 +6326,9 @@
       "systemId": "beijing-subway",
       "name": "天桥",
       "localName": "天桥",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8806517,
         "lng": 116.3925037
@@ -7226,15 +6353,9 @@
       "systemId": "beijing-subway",
       "name": "天通苑",
       "localName": "天通苑",
-      "lines": [
-        "line-18",
-        "line-5"
-      ],
+      "lines": ["line-18", "line-5"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0726643,
         "lng": 116.4087263
@@ -7247,16 +6368,9 @@
       "systemId": "beijing-subway",
       "name": "天通苑东",
       "localName": "天通苑东",
-      "lines": [
-        "line-17",
-        "line-18"
-      ],
+      "lines": ["line-17", "line-18"],
       "status": "active",
-      "features": [
-        "accessible",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0670514,
         "lng": 116.4378145
@@ -7269,13 +6383,9 @@
       "systemId": "beijing-subway",
       "name": "天通苑北",
       "localName": "天通苑北",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0820885,
         "lng": 116.4067673
@@ -7288,39 +6398,27 @@
       "systemId": "beijing-subway",
       "name": "天通苑南",
       "localName": "天通苑南",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "太和桥北",
       "systemId": "beijing-subway",
       "name": "太和桥北",
       "localName": "太和桥北",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "太平庄",
       "systemId": "beijing-subway",
       "name": "太平庄",
       "localName": "太平庄",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0727436,
         "lng": 116.4202773
@@ -7333,13 +6431,9 @@
       "systemId": "beijing-subway",
       "name": "太平桥",
       "localName": "太平桥",
-      "lines": [
-        "line-19"
-      ],
+      "lines": ["line-19"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9087765,
         "lng": 116.3571516
@@ -7352,17 +6446,9 @@
       "systemId": "beijing-subway",
       "name": "太阳宫",
       "localName": "太阳宫",
-      "lines": [
-        "line-10",
-        "line-17"
-      ],
+      "lines": ["line-10", "line-17"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9712918,
         "lng": 116.4411862
@@ -7417,14 +6503,9 @@
       "systemId": "beijing-subway",
       "name": "奥体中心",
       "localName": "奥体中心",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9841327,
         "lng": 116.387583
@@ -7479,17 +6560,9 @@
       "systemId": "beijing-subway",
       "name": "奥林匹克公园",
       "localName": "奥林匹克公园",
-      "lines": [
-        "line-15",
-        "line-8"
-      ],
+      "lines": ["line-15", "line-8"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0003857,
         "lng": 116.3867559
@@ -7587,15 +6660,9 @@
       "systemId": "beijing-subway",
       "name": "姚家园",
       "localName": "姚家园",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9465956,
         "lng": 116.5212923
@@ -7640,28 +6707,18 @@
       "systemId": "beijing-subway",
       "name": "孙河",
       "localName": "孙河",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "学知园",
       "systemId": "beijing-subway",
       "name": "学知园",
       "localName": "学知园",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0136302,
         "lng": 116.3457528
@@ -7706,14 +6763,9 @@
       "systemId": "beijing-subway",
       "name": "学院桥",
       "localName": "学院桥",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9868013,
         "lng": 116.3472515
@@ -7778,16 +6830,9 @@
       "systemId": "beijing-subway",
       "name": "安华桥",
       "localName": "安华桥",
-      "lines": [
-        "line-12",
-        "line-8"
-      ],
+      "lines": ["line-12", "line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9671117,
         "lng": 116.3883984
@@ -7852,16 +6897,9 @@
       "systemId": "beijing-subway",
       "name": "安定门",
       "localName": "安定门",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9476674,
         "lng": 116.4020676
@@ -7896,14 +6934,9 @@
       "systemId": "beijing-subway",
       "name": "安德里北街",
       "localName": "安德里北街",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9554944,
         "lng": 116.388548
@@ -7928,15 +6961,9 @@
       "systemId": "beijing-subway",
       "name": "安河桥北",
       "localName": "安河桥北",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0110618,
         "lng": 116.2639202
@@ -7970,14 +6997,9 @@
       "systemId": "beijing-subway",
       "name": "安立路",
       "localName": "安立路",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0011779,
         "lng": 116.4016216
@@ -8042,13 +7064,9 @@
       "systemId": "beijing-subway",
       "name": "安贞桥",
       "localName": "安贞桥",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9675012,
         "lng": 116.4009974
@@ -8061,16 +7079,9 @@
       "systemId": "beijing-subway",
       "name": "安贞门",
       "localName": "安贞门",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9758344,
         "lng": 116.3991828
@@ -8125,18 +7136,9 @@
       "systemId": "beijing-subway",
       "name": "宋家庄",
       "localName": "宋家庄",
-      "lines": [
-        "line-10",
-        "line-5",
-        "yizhuang"
-      ],
+      "lines": ["line-10", "line-5", "yizhuang"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8443821,
         "lng": 116.4219287
@@ -8201,41 +7203,27 @@
       "systemId": "beijing-subway",
       "name": "定海园",
       "localName": "定海园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "定海园西",
       "systemId": "beijing-subway",
       "name": "定海园西",
       "localName": "定海园西",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "宛平城",
       "systemId": "beijing-subway",
       "name": "宛平城",
       "localName": "宛平城",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8477313,
         "lng": 116.2233972
@@ -8270,17 +7258,9 @@
       "systemId": "beijing-subway",
       "name": "宣武门",
       "localName": "宣武门",
-      "lines": [
-        "line-2",
-        "line-4"
-      ],
+      "lines": ["line-2", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8983866,
         "lng": 116.3680141
@@ -8374,15 +7354,9 @@
       "systemId": "beijing-subway",
       "name": "富丰桥",
       "localName": "富丰桥",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8349394,
         "lng": 116.2810932
@@ -8446,14 +7420,9 @@
       "systemId": "beijing-subway",
       "name": "将台",
       "localName": "将台",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9694941,
         "lng": 116.4840447
@@ -8498,13 +7467,9 @@
       "systemId": "beijing-subway",
       "name": "将台西",
       "localName": "将台西",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9713939,
         "lng": 116.4739564
@@ -8517,27 +7482,18 @@
       "systemId": "beijing-subway",
       "name": "小园",
       "localName": "小园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "小红门",
       "systemId": "beijing-subway",
       "name": "小红门",
       "localName": "小红门",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8267264,
         "lng": 116.4532399
@@ -8581,27 +7537,18 @@
       "systemId": "beijing-subway",
       "name": "屈庄",
       "localName": "屈庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "屯佃",
       "systemId": "beijing-subway",
       "name": "屯佃",
       "localName": "屯佃",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0673089,
         "lng": 116.2093337
@@ -8646,17 +7593,9 @@
       "systemId": "beijing-subway",
       "name": "崇文门",
       "localName": "崇文门",
-      "lines": [
-        "line-2",
-        "line-5"
-      ],
+      "lines": ["line-2", "line-5"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8997371,
         "lng": 116.4119567
@@ -8763,30 +7702,18 @@
       "systemId": "beijing-subway",
       "name": "崔各庄",
       "localName": "崔各庄",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "工人体育场",
       "systemId": "beijing-subway",
       "name": "工人体育场",
       "localName": "工人体育场",
-      "lines": [
-        "line-17",
-        "line-3"
-      ],
+      "lines": ["line-17", "line-3"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9323548,
         "lng": 116.4442038
@@ -8821,15 +7748,9 @@
       "systemId": "beijing-subway",
       "name": "左家庄",
       "localName": "左家庄",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9485486,
         "lng": 116.4365482
@@ -8884,30 +7805,18 @@
       "systemId": "beijing-subway",
       "name": "巩华城",
       "localName": "巩华城",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "巴沟",
       "systemId": "beijing-subway",
       "name": "巴沟",
       "localName": "巴沟",
-      "lines": [
-        "line-10",
-        "xijiao"
-      ],
+      "lines": ["line-10", "xijiao"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9732969,
         "lng": 116.2874286
@@ -8970,27 +7879,18 @@
       "systemId": "beijing-subway",
       "name": "常营",
       "localName": "常营",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "平乐园",
       "systemId": "beijing-subway",
       "name": "平乐园",
       "localName": "平乐园",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8838514,
         "lng": 116.4713411
@@ -9035,18 +7935,9 @@
       "systemId": "beijing-subway",
       "name": "平安里",
       "localName": "平安里",
-      "lines": [
-        "line-19",
-        "line-4",
-        "line-6"
-      ],
+      "lines": ["line-19", "line-4", "line-6"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9323165,
         "lng": 116.3664868
@@ -9131,14 +8022,9 @@
       "systemId": "beijing-subway",
       "name": "平西府",
       "localName": "平西府",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0886607,
         "lng": 116.3441902
@@ -9193,14 +8079,9 @@
       "systemId": "beijing-subway",
       "name": "广安门内",
       "localName": "广安门内",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8885681,
         "lng": 116.351727
@@ -9224,13 +8105,9 @@
       "systemId": "beijing-subway",
       "name": "广渠门内",
       "localName": "广渠门内",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8922863,
         "lng": 116.4277207
@@ -9242,13 +8119,9 @@
       "systemId": "beijing-subway",
       "name": "广渠门外",
       "localName": "广渠门外",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8923066,
         "lng": 116.4430351
@@ -9261,13 +8134,9 @@
       "systemId": "beijing-subway",
       "name": "广阳城",
       "localName": "广阳城",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7465971,
         "lng": 116.1788414
@@ -9280,14 +8149,9 @@
       "systemId": "beijing-subway",
       "name": "廖公庄",
       "localName": "廖公庄",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9314101,
         "lng": 116.2208854
@@ -9329,17 +8193,9 @@
       "systemId": "beijing-subway",
       "name": "建国门",
       "localName": "建国门",
-      "lines": [
-        "line-1",
-        "line-2"
-      ],
+      "lines": ["line-1", "line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9071594,
         "lng": 116.4292321
@@ -9384,14 +8240,9 @@
       "systemId": "beijing-subway",
       "name": "张自忠路",
       "localName": "张自忠路",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9322844,
         "lng": 116.4112952
@@ -9444,26 +8295,18 @@
       "systemId": "beijing-subway",
       "name": "张郭庄",
       "localName": "张郭庄",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "德茂",
       "systemId": "beijing-subway",
       "name": "德茂",
       "localName": "德茂",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7712874,
         "lng": 116.4355574
@@ -9476,16 +8319,9 @@
       "systemId": "beijing-subway",
       "name": "惠新西街北口",
       "localName": "惠新西街北口",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9861781,
         "lng": 116.4109068
@@ -9530,17 +8366,9 @@
       "systemId": "beijing-subway",
       "name": "惠新西街南口",
       "localName": "惠新西街南口",
-      "lines": [
-        "line-10",
-        "line-5"
-      ],
+      "lines": ["line-10", "line-5"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9759588,
         "lng": 116.4113554
@@ -9591,15 +8419,9 @@
       "systemId": "beijing-subway",
       "name": "慈寿寺",
       "localName": "慈寿寺",
-      "lines": [
-        "line-10",
-        "line-6"
-      ],
+      "lines": ["line-10", "line-6"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9315586,
         "lng": 116.2888626
@@ -9612,15 +8434,9 @@
       "systemId": "beijing-subway",
       "name": "成寿寺",
       "localName": "成寿寺",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8445478,
         "lng": 116.4418815
@@ -9633,14 +8449,9 @@
       "systemId": "beijing-subway",
       "name": "房山城关",
       "localName": "房山城关",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7046285,
         "lng": 115.9835976
@@ -9664,13 +8475,9 @@
       "systemId": "beijing-subway",
       "name": "文华路",
       "localName": "文华路",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0788401,
         "lng": 116.3356615
@@ -9683,14 +8490,9 @@
       "systemId": "beijing-subway",
       "name": "新发地",
       "localName": "新发地",
-      "lines": [
-        "line-19"
-      ],
+      "lines": ["line-19"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8225567,
         "lng": 116.3402526
@@ -9715,16 +8517,9 @@
       "systemId": "beijing-subway",
       "name": "新宫",
       "localName": "新宫",
-      "lines": [
-        "line-19",
-        "line-4"
-      ],
+      "lines": ["line-19", "line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8110444,
         "lng": 116.359749
@@ -9809,15 +8604,9 @@
       "systemId": "beijing-subway",
       "name": "新街口",
       "localName": "新街口",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9394291,
         "lng": 116.3612739
@@ -9872,14 +8661,9 @@
       "systemId": "beijing-subway",
       "name": "新首钢",
       "localName": "新首钢",
-      "lines": [
-        "line-11"
-      ],
+      "lines": ["line-11"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9076653,
         "lng": 116.1586061
@@ -9922,13 +8706,9 @@
       "systemId": "beijing-subway",
       "name": "方庄",
       "localName": "方庄",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8646354,
         "lng": 116.4339348
@@ -9941,13 +8721,9 @@
       "systemId": "beijing-subway",
       "name": "旧宫",
       "localName": "旧宫",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8056107,
         "lng": 116.4547308
@@ -9960,52 +8736,36 @@
       "systemId": "beijing-subway",
       "name": "昌平",
       "localName": "昌平",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "昌平东关",
       "systemId": "beijing-subway",
       "name": "昌平东关",
       "localName": "昌平东关",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "昌平西山口",
       "systemId": "beijing-subway",
       "name": "昌平西山口",
       "localName": "昌平西山口",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "星城",
       "systemId": "beijing-subway",
       "name": "星城",
       "localName": "星城",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7122214,
         "lng": 116.0551386
@@ -10018,14 +8778,9 @@
       "systemId": "beijing-subway",
       "name": "景泰",
       "localName": "景泰",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8636494,
         "lng": 116.4049409
@@ -10060,15 +8815,9 @@
       "systemId": "beijing-subway",
       "name": "景风门",
       "localName": "景风门",
-      "lines": [
-        "line-14",
-        "line-19"
-      ],
+      "lines": ["line-14", "line-19"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8626316,
         "lng": 116.3580843
@@ -10081,16 +8830,9 @@
       "systemId": "beijing-subway",
       "name": "望京",
       "localName": "望京",
-      "lines": [
-        "line-14",
-        "line-15"
-      ],
+      "lines": ["line-14", "line-15"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9965663,
         "lng": 116.4624279
@@ -10145,14 +8887,9 @@
       "systemId": "beijing-subway",
       "name": "望京东",
       "localName": "望京东",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0020276,
         "lng": 116.4809035
@@ -10197,30 +8934,18 @@
       "systemId": "beijing-subway",
       "name": "望京南",
       "localName": "望京南",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "望京西",
       "systemId": "beijing-subway",
       "name": "望京西",
       "localName": "望京西",
-      "lines": [
-        "line-13",
-        "line-15",
-        "line-17"
-      ],
+      "lines": ["line-13", "line-15", "line-17"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9941582,
         "lng": 116.4417045
@@ -10265,16 +8990,9 @@
       "systemId": "beijing-subway",
       "name": "朝阳公园",
       "localName": "朝阳公园",
-      "lines": [
-        "line-14",
-        "line-3"
-      ],
+      "lines": ["line-14", "line-3"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9323096,
         "lng": 116.4725284
@@ -10329,13 +9047,9 @@
       "systemId": "beijing-subway",
       "name": "朝阳站",
       "localName": "朝阳站",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9429982,
         "lng": 116.4998836
@@ -10347,17 +9061,9 @@
       "systemId": "beijing-subway",
       "name": "朝阳门",
       "localName": "朝阳门",
-      "lines": [
-        "line-2",
-        "line-6"
-      ],
+      "lines": ["line-2", "line-6"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9230647,
         "lng": 116.4279504
@@ -10422,13 +9128,9 @@
       "systemId": "beijing-subway",
       "name": "木樨园",
       "localName": "木樨园",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.858181,
         "lng": 116.3932245
@@ -10441,17 +9143,9 @@
       "systemId": "beijing-subway",
       "name": "木樨地",
       "localName": "木樨地",
-      "lines": [
-        "line-1",
-        "line-16"
-      ],
+      "lines": ["line-1", "line-16"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9061161,
         "lng": 116.3315051
@@ -10538,39 +9232,27 @@
       "systemId": "beijing-subway",
       "name": "未来科学城",
       "localName": "未来科学城",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "未来科学城北",
       "systemId": "beijing-subway",
       "name": "未来科学城北",
       "localName": "未来科学城北",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "朱房北",
       "systemId": "beijing-subway",
       "name": "朱房北",
       "localName": "朱房北",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0347054,
         "lng": 116.3259094
@@ -10582,29 +9264,18 @@
       "systemId": "beijing-subway",
       "name": "朱辛庄",
       "localName": "朱辛庄",
-      "lines": [
-        "changping",
-        "line-8"
-      ],
+      "lines": ["changping", "line-8"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ]
+      "features": ["fare-vending", "transfer"]
     },
     {
       "id": "来广营",
       "systemId": "beijing-subway",
       "name": "来广营",
       "localName": "来广营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0191988,
         "lng": 116.4607871
@@ -10659,14 +9330,9 @@
       "systemId": "beijing-subway",
       "name": "杨庄",
       "localName": "杨庄",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9264588,
         "lng": 116.1795516
@@ -10700,14 +9366,9 @@
       "systemId": "beijing-subway",
       "name": "林萃桥",
       "localName": "林萃桥",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0206001,
         "lng": 116.3667905
@@ -10762,13 +9423,9 @@
       "systemId": "beijing-subway",
       "name": "果园",
       "localName": "果园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8922857,
         "lng": 116.6407547
@@ -10781,14 +9438,9 @@
       "systemId": "beijing-subway",
       "name": "枣园",
       "localName": "枣园",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7518055,
         "lng": 116.3260337
@@ -10839,14 +9491,9 @@
       "systemId": "beijing-subway",
       "name": "枣营",
       "localName": "枣营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.942932,
         "lng": 116.4690136
@@ -10881,14 +9528,9 @@
       "systemId": "beijing-subway",
       "name": "柳芳",
       "localName": "柳芳",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9568025,
         "lng": 116.4266211
@@ -10923,39 +9565,27 @@
       "systemId": "beijing-subway",
       "name": "栗园庄",
       "localName": "栗园庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "桥户营",
       "systemId": "beijing-subway",
       "name": "桥户营",
       "localName": "桥户营",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "桥湾",
       "systemId": "beijing-subway",
       "name": "桥湾",
       "localName": "桥湾",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8912849,
         "lng": 116.4022485
@@ -10968,27 +9598,18 @@
       "systemId": "beijing-subway",
       "name": "梨园",
       "localName": "梨园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "森林公园南门",
       "systemId": "beijing-subway",
       "name": "森林公园南门",
       "localName": "森林公园南门",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.009195,
         "lng": 116.3864002
@@ -11043,13 +9664,9 @@
       "systemId": "beijing-subway",
       "name": "榆树庄",
       "localName": "榆树庄",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8375683,
         "lng": 116.2529824
@@ -11062,13 +9679,9 @@
       "systemId": "beijing-subway",
       "name": "模式口",
       "localName": "模式口",
-      "lines": [
-        "line-11"
-      ],
+      "lines": ["line-11"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9323418,
         "lng": 116.1498174
@@ -11081,17 +9694,9 @@
       "systemId": "beijing-subway",
       "name": "次渠",
       "localName": "次渠",
-      "lines": [
-        "line-17",
-        "yizhuang"
-      ],
+      "lines": ["line-17", "yizhuang"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8025378,
         "lng": 116.5858895
@@ -11136,13 +9741,9 @@
       "systemId": "beijing-subway",
       "name": "次渠北",
       "localName": "次渠北",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8085973,
         "lng": 116.5706243
@@ -11154,27 +9755,18 @@
       "systemId": "beijing-subway",
       "name": "次渠南",
       "localName": "次渠南",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "欢乐谷景区",
       "systemId": "beijing-subway",
       "name": "欢乐谷景区",
       "localName": "欢乐谷景区",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8656674,
         "lng": 116.4930838
@@ -11209,27 +9801,18 @@
       "systemId": "beijing-subway",
       "name": "永丰",
       "localName": "永丰",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "永丰南",
       "systemId": "beijing-subway",
       "name": "永丰南",
       "localName": "永丰南",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0630145,
         "lng": 116.2435428
@@ -11274,18 +9857,9 @@
       "systemId": "beijing-subway",
       "name": "永安里",
       "localName": "永安里",
-      "lines": [
-        "line-1",
-        "line-17"
-      ],
+      "lines": ["line-1", "line-17"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9083452,
         "lng": 116.444194
@@ -11360,16 +9934,9 @@
       "systemId": "beijing-subway",
       "name": "永定门外",
       "localName": "永定门外",
-      "lines": [
-        "line-14",
-        "line-8"
-      ],
+      "lines": ["line-14", "line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8647562,
         "lng": 116.3930393
@@ -11404,14 +9971,9 @@
       "systemId": "beijing-subway",
       "name": "永泰庄",
       "localName": "永泰庄",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0366785,
         "lng": 116.3483302
@@ -11446,41 +10008,27 @@
       "systemId": "beijing-subway",
       "name": "沙河",
       "localName": "沙河",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "沙河高教园",
       "systemId": "beijing-subway",
       "name": "沙河高教园",
       "localName": "沙河高教园",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "泥洼",
       "systemId": "beijing-subway",
       "name": "泥洼",
       "localName": "泥洼",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8573762,
         "lng": 116.2981946
@@ -11493,28 +10041,18 @@
       "systemId": "beijing-subway",
       "name": "泰河路",
       "localName": "泰河路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "洪泰庄",
       "systemId": "beijing-subway",
       "name": "洪泰庄",
       "localName": "洪泰庄",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8472115,
         "lng": 116.2426141
@@ -11539,13 +10077,9 @@
       "systemId": "beijing-subway",
       "name": "海户屯",
       "localName": "海户屯",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8506537,
         "lng": 116.3940324
@@ -11558,30 +10092,18 @@
       "systemId": "beijing-subway",
       "name": "海淀五路居",
       "localName": "海淀五路居",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "海淀黄庄",
       "systemId": "beijing-subway",
       "name": "海淀黄庄",
       "localName": "海淀黄庄",
-      "lines": [
-        "line-10",
-        "line-4"
-      ],
+      "lines": ["line-10", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9747132,
         "lng": 116.3115201
@@ -11646,15 +10168,9 @@
       "systemId": "beijing-subway",
       "name": "清华东路西口",
       "localName": "清华东路西口",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9993038,
         "lng": 116.3336262
@@ -11709,15 +10225,9 @@
       "systemId": "beijing-subway",
       "name": "清河小营桥",
       "localName": "清河小营桥",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0338705,
         "lng": 116.3367846
@@ -11820,15 +10330,9 @@
       "systemId": "beijing-subway",
       "name": "清河站",
       "localName": "清河站",
-      "lines": [
-        "changping",
-        "line-13"
-      ],
+      "lines": ["changping", "line-13"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0397784,
         "lng": 116.3086826
@@ -11840,14 +10344,9 @@
       "systemId": "beijing-subway",
       "name": "清河营",
       "localName": "清河营",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "coordinates": {
         "lat": 40.0496531,
         "lng": 116.4360139
@@ -11860,14 +10359,9 @@
       "systemId": "beijing-subway",
       "name": "清源路",
       "localName": "清源路",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7417561,
         "lng": 116.3263162
@@ -11909,14 +10403,9 @@
       "systemId": "beijing-subway",
       "name": "温阳路",
       "localName": "温阳路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0675113,
         "lng": 116.1555687
@@ -11961,13 +10450,9 @@
       "systemId": "beijing-subway",
       "name": "湾子",
       "localName": "湾子",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8889326,
         "lng": 116.3213598
@@ -11979,15 +10464,9 @@
       "systemId": "beijing-subway",
       "name": "潘家园",
       "localName": "潘家园",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8748619,
         "lng": 116.4549705
@@ -12022,13 +10501,9 @@
       "systemId": "beijing-subway",
       "name": "潘家园西",
       "localName": "潘家园西",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.873824,
         "lng": 116.4446966
@@ -12041,14 +10516,9 @@
       "systemId": "beijing-subway",
       "name": "潞城",
       "localName": "潞城",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9016234,
         "lng": 116.7416309
@@ -12083,13 +10553,9 @@
       "systemId": "beijing-subway",
       "name": "潞阳",
       "localName": "潞阳",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8888289,
         "lng": 116.7510869
@@ -12102,13 +10568,9 @@
       "systemId": "beijing-subway",
       "name": "瀛海",
       "localName": "瀛海",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7593594,
         "lng": 116.4428265
@@ -12121,14 +10583,9 @@
       "systemId": "beijing-subway",
       "name": "火器营",
       "localName": "火器营",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9643309,
         "lng": 116.2834171
@@ -12161,13 +10618,9 @@
       "systemId": "beijing-subway",
       "name": "火箭万源",
       "localName": "火箭万源",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.797982,
         "lng": 116.4124409
@@ -12180,14 +10633,9 @@
       "systemId": "beijing-subway",
       "name": "灯市口",
       "localName": "灯市口",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9154103,
         "lng": 116.4118355
@@ -12222,16 +10670,9 @@
       "systemId": "beijing-subway",
       "name": "灵境胡同",
       "localName": "灵境胡同",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9147796,
         "lng": 116.3672738
@@ -12295,14 +10736,9 @@
       "systemId": "beijing-subway",
       "name": "焦化厂",
       "localName": "焦化厂",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8542896,
         "lng": 116.531614
@@ -12357,14 +10793,9 @@
       "systemId": "beijing-subway",
       "name": "燕山",
       "localName": "燕山",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7184583,
         "lng": 115.9674631
@@ -12399,30 +10830,18 @@
       "systemId": "beijing-subway",
       "name": "牛街",
       "localName": "牛街",
-      "lines": [
-        "line-19"
-      ],
+      "lines": ["line-19"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "牡丹园",
       "systemId": "beijing-subway",
       "name": "牡丹园",
       "localName": "牡丹园",
-      "lines": [
-        "line-10",
-        "line-19"
-      ],
+      "lines": ["line-10", "line-19"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9750791,
         "lng": 116.3636148
@@ -12435,14 +10854,9 @@
       "systemId": "beijing-subway",
       "name": "物资学院路",
       "localName": "物资学院路",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9259297,
         "lng": 116.6334973
@@ -12487,16 +10901,9 @@
       "systemId": "beijing-subway",
       "name": "玉泉路",
       "localName": "玉泉路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9061931,
         "lng": 116.2468996
@@ -12582,13 +10989,9 @@
       "systemId": "beijing-subway",
       "name": "玉渊潭东门",
       "localName": "玉渊潭东门",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9139393,
         "lng": 116.328872
@@ -12601,17 +11004,9 @@
       "systemId": "beijing-subway",
       "name": "王府井",
       "localName": "王府井",
-      "lines": [
-        "line-1",
-        "line-8"
-      ],
+      "lines": ["line-1", "line-8"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9069496,
         "lng": 116.4052789
@@ -12683,15 +11078,9 @@
       "systemId": "beijing-subway",
       "name": "环球度假区",
       "localName": "环球度假区",
-      "lines": [
-        "line-1",
-        "line-7"
-      ],
+      "lines": ["line-1", "line-7"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8481659,
         "lng": 116.673529
@@ -12704,16 +11093,9 @@
       "systemId": "beijing-subway",
       "name": "珠市口",
       "localName": "珠市口",
-      "lines": [
-        "line-7",
-        "line-8"
-      ],
+      "lines": ["line-7", "line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8893117,
         "lng": 116.3921937
@@ -12787,27 +11169,18 @@
       "systemId": "beijing-subway",
       "name": "瑞合庄",
       "localName": "瑞合庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "甘家口",
       "systemId": "beijing-subway",
       "name": "甘家口",
       "localName": "甘家口",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.922439,
         "lng": 116.3285052
@@ -12849,13 +11222,9 @@
       "systemId": "beijing-subway",
       "name": "生命科学园",
       "localName": "生命科学园",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.093573,
         "lng": 116.288183
@@ -12868,13 +11237,9 @@
       "systemId": "beijing-subway",
       "name": "生物医药基地",
       "localName": "生物医药基地",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.6851077,
         "lng": 116.3156802
@@ -12887,14 +11252,9 @@
       "systemId": "beijing-subway",
       "name": "田村",
       "localName": "田村",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9283896,
         "lng": 116.2468822
@@ -12939,14 +11299,9 @@
       "systemId": "beijing-subway",
       "name": "白堆子",
       "localName": "白堆子",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9225738,
         "lng": 116.3196813
@@ -12979,13 +11334,9 @@
       "systemId": "beijing-subway",
       "name": "白盆窑",
       "localName": "白盆窑",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.818274,
         "lng": 116.3067798
@@ -12997,16 +11348,9 @@
       "systemId": "beijing-subway",
       "name": "白石桥南",
       "localName": "白石桥南",
-      "lines": [
-        "line-6",
-        "line-9"
-      ],
+      "lines": ["line-6", "line-9"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9323878,
         "lng": 116.3193762
@@ -13071,14 +11415,9 @@
       "systemId": "beijing-subway",
       "name": "百子湾",
       "localName": "百子湾",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8913756,
         "lng": 116.4902447
@@ -13123,13 +11462,9 @@
       "systemId": "beijing-subway",
       "name": "看丹",
       "localName": "看丹",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8338003,
         "lng": 116.2666477
@@ -13142,17 +11477,9 @@
       "systemId": "beijing-subway",
       "name": "知春路",
       "localName": "知春路",
-      "lines": [
-        "line-10",
-        "line-13"
-      ],
+      "lines": ["line-10", "line-13"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9750927,
         "lng": 116.3343902
@@ -13216,15 +11543,9 @@
       "systemId": "beijing-subway",
       "name": "知春里",
       "localName": "知春里",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9749496,
         "lng": 116.3229284
@@ -13266,14 +11587,9 @@
       "systemId": "beijing-subway",
       "name": "石佛营",
       "localName": "石佛营",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9341652,
         "lng": 116.4934435
@@ -13333,26 +11649,18 @@
       "systemId": "beijing-subway",
       "name": "石厂",
       "localName": "石厂",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "石榴庄",
       "systemId": "beijing-subway",
       "name": "石榴庄",
       "localName": "石榴庄",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8444927,
         "lng": 116.4074126
@@ -13365,29 +11673,18 @@
       "systemId": "beijing-subway",
       "name": "石门",
       "localName": "石门",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "磁器口",
       "systemId": "beijing-subway",
       "name": "磁器口",
       "localName": "磁器口",
-      "lines": [
-        "line-5",
-        "line-7"
-      ],
+      "lines": ["line-5", "line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8917025,
         "lng": 116.4126199
@@ -13421,15 +11718,9 @@
       "systemId": "beijing-subway",
       "name": "科怡路",
       "localName": "科怡路",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8308852,
         "lng": 116.2914302
@@ -13502,17 +11793,9 @@
       "systemId": "beijing-subway",
       "name": "积水潭",
       "localName": "积水潭",
-      "lines": [
-        "line-19",
-        "line-2"
-      ],
+      "lines": ["line-19", "line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9462372,
         "lng": 116.3658244
@@ -13587,42 +11870,27 @@
       "systemId": "beijing-subway",
       "name": "稻田",
       "localName": "稻田",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "稻香湖路",
       "systemId": "beijing-subway",
       "name": "稻香湖路",
       "localName": "稻香湖路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "立水桥",
       "systemId": "beijing-subway",
       "name": "立水桥",
       "localName": "立水桥",
-      "lines": [
-        "line-13",
-        "line-5"
-      ],
+      "lines": ["line-13", "line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0515049,
         "lng": 116.4057013
@@ -13647,14 +11915,9 @@
       "systemId": "beijing-subway",
       "name": "立水桥南",
       "localName": "立水桥南",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0405075,
         "lng": 116.4082437
@@ -13699,14 +11962,9 @@
       "systemId": "beijing-subway",
       "name": "管庄",
       "localName": "管庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9080845,
         "lng": 116.5931678
@@ -13781,13 +12039,9 @@
       "systemId": "beijing-subway",
       "name": "篱笆房",
       "localName": "篱笆房",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.759377,
         "lng": 116.1833797
@@ -13800,15 +12054,9 @@
       "systemId": "beijing-subway",
       "name": "红军营",
       "localName": "红军营",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0330877,
         "lng": 116.4355362
@@ -13873,13 +12121,9 @@
       "systemId": "beijing-subway",
       "name": "红莲南路",
       "localName": "红莲南路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8762703,
         "lng": 116.3307982
@@ -13892,14 +12136,9 @@
       "systemId": "beijing-subway",
       "name": "纪家庙",
       "localName": "纪家庙",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8431736,
         "lng": 116.3273554
@@ -13944,13 +12183,9 @@
       "systemId": "beijing-subway",
       "name": "紫草坞",
       "localName": "紫草坞",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.723022,
         "lng": 116.0804553
@@ -13963,27 +12198,18 @@
       "systemId": "beijing-subway",
       "name": "经海一路",
       "localName": "经海一路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "经海路",
       "systemId": "beijing-subway",
       "name": "经海路",
       "localName": "经海路",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "coordinates": {
         "lat": 39.7825504,
         "lng": 116.5564358
@@ -13996,40 +12222,27 @@
       "systemId": "beijing-subway",
       "name": "群芳",
       "localName": "群芳",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "老观里",
       "systemId": "beijing-subway",
       "name": "老观里",
       "localName": "老观里",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "肖村",
       "systemId": "beijing-subway",
       "name": "肖村",
       "localName": "肖村",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8328015,
         "lng": 116.4427211
@@ -14054,39 +12267,27 @@
       "systemId": "beijing-subway",
       "name": "育新",
       "localName": "育新",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "育知路",
       "systemId": "beijing-subway",
       "name": "育知路",
       "localName": "育知路",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "良乡南关",
       "systemId": "beijing-subway",
       "name": "良乡南关",
       "localName": "良乡南关",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7218824,
         "lng": 116.1342397
@@ -14099,13 +12300,9 @@
       "systemId": "beijing-subway",
       "name": "良乡大学城",
       "localName": "良乡大学城",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7219018,
         "lng": 116.1702973
@@ -14118,13 +12315,9 @@
       "systemId": "beijing-subway",
       "name": "良乡大学城北",
       "localName": "良乡大学城北",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.728465,
         "lng": 116.1773354
@@ -14137,13 +12330,9 @@
       "systemId": "beijing-subway",
       "name": "良乡大学城西",
       "localName": "良乡大学城西",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7218688,
         "lng": 116.1500157
@@ -14156,17 +12345,9 @@
       "systemId": "beijing-subway",
       "name": "芍药居",
       "localName": "芍药居",
-      "lines": [
-        "line-10",
-        "line-13"
-      ],
+      "lines": ["line-10", "line-13"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9759527,
         "lng": 116.4297381
@@ -14199,15 +12380,9 @@
       "systemId": "beijing-subway",
       "name": "花园桥",
       "localName": "花园桥",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9312135,
         "lng": 116.3039811
@@ -14281,13 +12456,9 @@
       "systemId": "beijing-subway",
       "name": "花乡东桥",
       "localName": "花乡东桥",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8278468,
         "lng": 116.3139452
@@ -14299,16 +12470,9 @@
       "systemId": "beijing-subway",
       "name": "花庄",
       "localName": "花庄",
-      "lines": [
-        "line-1",
-        "line-7"
-      ],
+      "lines": ["line-1", "line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8553801,
         "lng": 116.6890142
@@ -14363,14 +12527,9 @@
       "systemId": "beijing-subway",
       "name": "花梨坎",
       "localName": "花梨坎",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0833437,
         "lng": 116.5518402
@@ -14425,16 +12584,9 @@
       "systemId": "beijing-subway",
       "name": "苏州桥",
       "localName": "苏州桥",
-      "lines": [
-        "line-12",
-        "line-16"
-      ],
+      "lines": ["line-12", "line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9607503,
         "lng": 116.3015966
@@ -14479,18 +12631,9 @@
       "systemId": "beijing-subway",
       "name": "苏州街",
       "localName": "苏州街",
-      "lines": [
-        "line-10",
-        "line-16"
-      ],
+      "lines": ["line-10", "line-16"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9743281,
         "lng": 116.2999736
@@ -14593,13 +12736,9 @@
       "systemId": "beijing-subway",
       "name": "苏庄",
       "localName": "苏庄",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7218523,
         "lng": 116.1189698
@@ -14612,17 +12751,9 @@
       "systemId": "beijing-subway",
       "name": "苹果园",
       "localName": "苹果园",
-      "lines": [
-        "line-1",
-        "line-6"
-      ],
+      "lines": ["line-1", "line-6"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9243597,
         "lng": 116.1713056
@@ -14723,27 +12854,18 @@
       "systemId": "beijing-subway",
       "name": "茶棚",
       "localName": "茶棚",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "草房",
       "systemId": "beijing-subway",
       "name": "草房",
       "localName": "草房",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9235091,
         "lng": 116.6103044
@@ -14798,17 +12920,9 @@
       "systemId": "beijing-subway",
       "name": "草桥",
       "localName": "草桥",
-      "lines": [
-        "daxing-airport",
-        "line-10",
-        "line-19"
-      ],
+      "lines": ["daxing-airport", "line-10", "line-19"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8461391,
         "lng": 116.3424361
@@ -14842,13 +12956,9 @@
       "systemId": "beijing-subway",
       "name": "荣京东街",
       "localName": "荣京东街",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7920207,
         "lng": 116.507463
@@ -14861,15 +12971,9 @@
       "systemId": "beijing-subway",
       "name": "荣昌东街",
       "localName": "荣昌东街",
-      "lines": [
-        "line-1",
-        "yizhuang"
-      ],
+      "lines": ["line-1", "yizhuang"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.7816956,
         "lng": 116.515857
@@ -14882,16 +12986,9 @@
       "systemId": "beijing-subway",
       "name": "莲花桥",
       "localName": "莲花桥",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8961589,
         "lng": 116.3043065
@@ -14936,17 +13033,9 @@
       "systemId": "beijing-subway",
       "name": "菜市口",
       "localName": "菜市口",
-      "lines": [
-        "line-4",
-        "line-7"
-      ],
+      "lines": ["line-4", "line-7"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.887991,
         "lng": 116.3682164
@@ -15021,14 +13110,9 @@
       "systemId": "beijing-subway",
       "name": "菜户营",
       "localName": "菜户营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8662594,
         "lng": 116.3366819
@@ -15061,16 +13145,9 @@
       "systemId": "beijing-subway",
       "name": "蒲黄榆",
       "localName": "蒲黄榆",
-      "lines": [
-        "line-14",
-        "line-5"
-      ],
+      "lines": ["line-14", "line-5"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8643287,
         "lng": 116.4154612
@@ -15125,14 +13202,9 @@
       "systemId": "beijing-subway",
       "name": "蓝靛厂",
       "localName": "蓝靛厂",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9558597,
         "lng": 116.2767052
@@ -15165,17 +13237,9 @@
       "systemId": "beijing-subway",
       "name": "蓟门桥",
       "localName": "蓟门桥",
-      "lines": [
-        "changping",
-        "line-12"
-      ],
+      "lines": ["changping", "line-12"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9663129,
         "lng": 116.3488274
@@ -15259,14 +13323,9 @@
       "systemId": "beijing-subway",
       "name": "虎坊桥",
       "localName": "虎坊桥",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8883975,
         "lng": 116.3774806
@@ -15308,27 +13367,18 @@
       "systemId": "beijing-subway",
       "name": "融兴街",
       "localName": "融兴街",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "褡裢坡",
       "systemId": "beijing-subway",
       "name": "褡裢坡",
       "localName": "褡裢坡",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9226731,
         "lng": 116.5581345
@@ -15373,17 +13423,9 @@
       "systemId": "beijing-subway",
       "name": "西二旗",
       "localName": "西二旗",
-      "lines": [
-        "changping",
-        "line-13"
-      ],
+      "lines": ["changping", "line-13"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0517165,
         "lng": 116.3001813
@@ -15425,14 +13467,9 @@
       "systemId": "beijing-subway",
       "name": "西北旺",
       "localName": "西北旺",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0478932,
         "lng": 116.2520781
@@ -15477,17 +13514,9 @@
       "systemId": "beijing-subway",
       "name": "西单",
       "localName": "西单",
-      "lines": [
-        "line-1",
-        "line-4"
-      ],
+      "lines": ["line-1", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9057386,
         "lng": 116.3682035
@@ -15577,15 +13606,9 @@
       "systemId": "beijing-subway",
       "name": "西四",
       "localName": "西四",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9225455,
         "lng": 116.3668145
@@ -15639,17 +13662,9 @@
       "systemId": "beijing-subway",
       "name": "西土城",
       "localName": "西土城",
-      "lines": [
-        "changping",
-        "line-10"
-      ],
+      "lines": ["changping", "line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9748659,
         "lng": 116.3477745
@@ -15724,15 +13739,9 @@
       "systemId": "beijing-subway",
       "name": "西坝河",
       "localName": "西坝河",
-      "lines": [
-        "line-12",
-        "line-17"
-      ],
+      "lines": ["line-12", "line-17"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9644089,
         "lng": 116.4360547
@@ -15744,15 +13753,9 @@
       "systemId": "beijing-subway",
       "name": "西小口",
       "localName": "西小口",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 40.0460679,
         "lng": 116.3451639
@@ -15812,17 +13815,9 @@
       "systemId": "beijing-subway",
       "name": "西局",
       "localName": "西局",
-      "lines": [
-        "line-10",
-        "line-14"
-      ],
+      "lines": ["line-10", "line-14"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8652242,
         "lng": 116.2978076
@@ -15835,19 +13830,9 @@
       "systemId": "beijing-subway",
       "name": "西直门",
       "localName": "西直门",
-      "lines": [
-        "line-13",
-        "line-2",
-        "line-4"
-      ],
+      "lines": ["line-13", "line-2", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "rail-connection",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "rail-connection", "transfer"],
       "coordinates": {
         "lat": 39.9392172,
         "lng": 116.3492348
@@ -15921,13 +13906,9 @@
       "systemId": "beijing-subway",
       "name": "西红门",
       "localName": "西红门",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7883939,
         "lng": 116.322677
@@ -15940,17 +13921,9 @@
       "systemId": "beijing-subway",
       "name": "西苑",
       "localName": "西苑",
-      "lines": [
-        "line-16",
-        "line-4"
-      ],
+      "lines": ["line-16", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9966984,
         "lng": 116.2855319
@@ -16000,14 +13973,9 @@
       "systemId": "beijing-subway",
       "name": "西钓鱼台",
       "localName": "西钓鱼台",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9218994,
         "lng": 116.2919093
@@ -16042,13 +14010,9 @@
       "systemId": "beijing-subway",
       "name": "西铁营",
       "localName": "西铁营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.859977,
         "lng": 116.3497096
@@ -16061,14 +14025,9 @@
       "systemId": "beijing-subway",
       "name": "西黄村",
       "localName": "西黄村",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9324935,
         "lng": 116.2005982
@@ -16113,15 +14072,9 @@
       "systemId": "beijing-subway",
       "name": "角门东",
       "localName": "角门东",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8438402,
         "lng": 116.3788076
@@ -16145,17 +14098,9 @@
       "systemId": "beijing-subway",
       "name": "角门西",
       "localName": "角门西",
-      "lines": [
-        "line-10",
-        "line-4"
-      ],
+      "lines": ["line-10", "line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8444824,
         "lng": 116.3647807
@@ -16210,17 +14155,9 @@
       "systemId": "beijing-subway",
       "name": "车公庄",
       "localName": "车公庄",
-      "lines": [
-        "line-2",
-        "line-6"
-      ],
+      "lines": ["line-2", "line-6"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9311554,
         "lng": 116.3493426
@@ -16265,13 +14202,9 @@
       "systemId": "beijing-subway",
       "name": "车公庄西",
       "localName": "车公庄西",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.931061,
         "lng": 116.3379903
@@ -16284,14 +14217,9 @@
       "systemId": "beijing-subway",
       "name": "车道沟",
       "localName": "车道沟",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9451275,
         "lng": 116.2878965
@@ -16345,15 +14273,9 @@
       "systemId": "beijing-subway",
       "name": "达官营",
       "localName": "达官营",
-      "lines": [
-        "line-16",
-        "line-7"
-      ],
+      "lines": ["line-16", "line-7"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.888892,
         "lng": 116.3293717
@@ -16366,14 +14288,9 @@
       "systemId": "beijing-subway",
       "name": "通州北关",
       "localName": "通州北关",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9174644,
         "lng": 116.6555297
@@ -16417,14 +14334,9 @@
       "systemId": "beijing-subway",
       "name": "通州北苑",
       "localName": "通州北苑",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "coordinates": {
         "lat": 39.9027423,
         "lng": 116.6314069
@@ -16437,26 +14349,18 @@
       "systemId": "beijing-subway",
       "name": "通运门",
       "localName": "通运门",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "郎辛庄",
       "systemId": "beijing-subway",
       "name": "郎辛庄",
       "localName": "郎辛庄",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8555351,
         "lng": 116.5641046
@@ -16469,14 +14373,9 @@
       "systemId": "beijing-subway",
       "name": "郝家府",
       "localName": "郝家府",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9021403,
         "lng": 116.7111595
@@ -16541,15 +14440,9 @@
       "systemId": "beijing-subway",
       "name": "郭公庄",
       "localName": "郭公庄",
-      "lines": [
-        "fangshan",
-        "line-9"
-      ],
+      "lines": ["fangshan", "line-9"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8133778,
         "lng": 116.2960281
@@ -16562,15 +14455,9 @@
       "systemId": "beijing-subway",
       "name": "郭庄子",
       "localName": "郭庄子",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8640535,
         "lng": 116.2483861
@@ -16621,16 +14508,9 @@
       "systemId": "beijing-subway",
       "name": "金台夕照",
       "localName": "金台夕照",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9159595,
         "lng": 116.4555255
@@ -16685,16 +14565,9 @@
       "systemId": "beijing-subway",
       "name": "金台路",
       "localName": "金台路",
-      "lines": [
-        "line-14",
-        "line-6"
-      ],
+      "lines": ["line-14", "line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9215918,
         "lng": 116.4723407
@@ -16769,17 +14642,9 @@
       "systemId": "beijing-subway",
       "name": "金安桥",
       "localName": "金安桥",
-      "lines": [
-        "line-1",
-        "line-11",
-        "line-6"
-      ],
+      "lines": ["line-1", "line-11", "line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9219237,
         "lng": 116.156827
@@ -16834,14 +14699,9 @@
       "systemId": "beijing-subway",
       "name": "金鱼胡同",
       "localName": "金鱼胡同",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9147047,
         "lng": 116.4049246
@@ -16865,16 +14725,9 @@
       "systemId": "beijing-subway",
       "name": "长春桥",
       "localName": "长春桥",
-      "lines": [
-        "line-10",
-        "line-12"
-      ],
+      "lines": ["line-10", "line-12"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9574108,
         "lng": 116.2880393
@@ -16919,15 +14772,9 @@
       "systemId": "beijing-subway",
       "name": "长椿街",
       "localName": "长椿街",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8980394,
         "lng": 116.3572147
@@ -17021,13 +14868,9 @@
       "systemId": "beijing-subway",
       "name": "长阳",
       "localName": "长阳",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7625141,
         "lng": 116.2065044
@@ -17040,13 +14883,9 @@
       "systemId": "beijing-subway",
       "name": "阎村",
       "localName": "阎村",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.715288,
         "lng": 116.0739687
@@ -17059,15 +14898,9 @@
       "systemId": "beijing-subway",
       "name": "阎村东",
       "localName": "阎村东",
-      "lines": [
-        "fangshan",
-        "yanfang"
-      ],
+      "lines": ["fangshan", "yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.7275574,
         "lng": 116.094557
@@ -17080,15 +14913,9 @@
       "systemId": "beijing-subway",
       "name": "阜成门",
       "localName": "阜成门",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.922313,
         "lng": 116.3500666
@@ -17140,15 +14967,9 @@
       "systemId": "beijing-subway",
       "name": "阜通",
       "localName": "阜通",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9906798,
         "lng": 116.4650632
@@ -17203,15 +15024,9 @@
       "systemId": "beijing-subway",
       "name": "陶然亭",
       "localName": "陶然亭",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8774369,
         "lng": 116.3682029
@@ -17256,13 +15071,9 @@
       "systemId": "beijing-subway",
       "name": "陶然桥",
       "localName": "陶然桥",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8675967,
         "lng": 116.3816795
@@ -17275,18 +15086,9 @@
       "systemId": "beijing-subway",
       "name": "雍和宫",
       "localName": "雍和宫",
-      "lines": [
-        "line-2",
-        "line-5"
-      ],
+      "lines": ["line-2", "line-5"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.9479275,
         "lng": 116.4115432
@@ -17351,16 +15153,9 @@
       "systemId": "beijing-subway",
       "name": "霍营",
       "localName": "霍营",
-      "lines": [
-        "line-13",
-        "line-8"
-      ],
+      "lines": ["line-13", "line-8"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0693567,
         "lng": 116.3544475
@@ -17402,13 +15197,9 @@
       "systemId": "beijing-subway",
       "name": "霍营东",
       "localName": "霍营东",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0805687,
         "lng": 116.3698028
@@ -17421,14 +15212,9 @@
       "systemId": "beijing-subway",
       "name": "青年路",
       "localName": "青年路",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9216819,
         "lng": 116.5108366
@@ -17473,39 +15259,27 @@
       "systemId": "beijing-subway",
       "name": "顺义",
       "localName": "顺义",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "颐和园西门",
       "systemId": "beijing-subway",
       "name": "颐和园西门",
       "localName": "颐和园西门",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "饶乐府",
       "systemId": "beijing-subway",
       "name": "饶乐府",
       "localName": "饶乐府",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7002557,
         "lng": 116.000048
@@ -17518,18 +15292,9 @@
       "systemId": "beijing-subway",
       "name": "首经贸",
       "localName": "首经贸",
-      "lines": [
-        "fangshan",
-        "line-10"
-      ],
+      "lines": ["fangshan", "line-10"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.8429666,
         "lng": 116.3138654
@@ -17582,26 +15347,18 @@
       "systemId": "beijing-subway",
       "name": "香山",
       "localName": "香山",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "马各庄",
       "systemId": "beijing-subway",
       "name": "马各庄",
       "localName": "马各庄",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7037753,
         "lng": 116.0105495
@@ -17614,15 +15371,9 @@
       "systemId": "beijing-subway",
       "name": "马家堡",
       "localName": "马家堡",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8516352,
         "lng": 116.365207
@@ -17635,13 +15386,9 @@
       "systemId": "beijing-subway",
       "name": "马泉营",
       "localName": "马泉营",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0325513,
         "lng": 116.4983103
@@ -17654,14 +15401,9 @@
       "systemId": "beijing-subway",
       "name": "马甸桥",
       "localName": "马甸桥",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9668285,
         "lng": 116.3758342
@@ -17715,16 +15457,9 @@
       "systemId": "beijing-subway",
       "name": "马连洼",
       "localName": "马连洼",
-      "lines": [
-        "line-16",
-        "line-18"
-      ],
+      "lines": ["line-16", "line-18"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 40.0313885,
         "lng": 116.2684248
@@ -17757,13 +15492,9 @@
       "systemId": "beijing-subway",
       "name": "驼房营",
       "localName": "驼房营",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9792261,
         "lng": 116.4994848
@@ -17776,13 +15507,9 @@
       "systemId": "beijing-subway",
       "name": "高家园",
       "localName": "高家园",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.9791304,
         "lng": 116.4850346
@@ -17795,14 +15522,9 @@
       "systemId": "beijing-subway",
       "name": "高楼金",
       "localName": "高楼金",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.8618619,
         "lng": 116.6795103
@@ -17834,15 +15556,9 @@
       "systemId": "beijing-subway",
       "name": "高碑店",
       "localName": "高碑店",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9082528,
         "lng": 116.5255476
@@ -17897,13 +15613,9 @@
       "systemId": "beijing-subway",
       "name": "高米店北",
       "localName": "高米店北",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.7730301,
         "lng": 116.3244805
@@ -17916,14 +15628,9 @@
       "systemId": "beijing-subway",
       "name": "高米店南",
       "localName": "高米店南",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7622885,
         "lng": 116.325694
@@ -17974,16 +15681,9 @@
       "systemId": "beijing-subway",
       "name": "魏公村",
       "localName": "魏公村",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "accessible",
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "elevator", "escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9563044,
         "lng": 116.3171815
@@ -18038,26 +15738,18 @@
       "systemId": "beijing-subway",
       "name": "鹿圈东",
       "localName": "鹿圈东",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "黄厂",
       "systemId": "beijing-subway",
       "name": "黄厂",
       "localName": "黄厂",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8479616,
         "lng": 116.5475285
@@ -18070,14 +15762,9 @@
       "systemId": "beijing-subway",
       "name": "黄村火车站",
       "localName": "黄村火车站",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.7215049,
         "lng": 116.3266541
@@ -18128,14 +15815,9 @@
       "systemId": "beijing-subway",
       "name": "黄村西大街",
       "localName": "黄村西大街",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.730422,
         "lng": 116.3265186
@@ -18186,14 +15868,9 @@
       "systemId": "beijing-subway",
       "name": "黄渠",
       "localName": "黄渠",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "status": "active",
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "coordinates": {
         "lat": 39.9228365,
         "lng": 116.5730712
@@ -18248,13 +15925,9 @@
       "systemId": "beijing-subway",
       "name": "黑庄户",
       "localName": "黑庄户",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 39.8577135,
         "lng": 116.5927827
@@ -18267,17 +15940,9 @@
       "systemId": "beijing-subway",
       "name": "鼓楼大街",
       "localName": "鼓楼大街",
-      "lines": [
-        "line-2",
-        "line-8"
-      ],
+      "lines": ["line-2", "line-8"],
       "status": "active",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "coordinates": {
         "lat": 39.947544,
         "lng": 116.3879183
@@ -18351,13 +16016,9 @@
       "systemId": "beijing-subway",
       "name": "龙泽",
       "localName": "龙泽",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0695732,
         "lng": 116.3132033
@@ -18370,13 +16031,9 @@
       "systemId": "beijing-subway",
       "name": "龙泽西",
       "localName": "龙泽西",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "status": "active",
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "coordinates": {
         "lat": 40.0714794,
         "lng": 116.3040433

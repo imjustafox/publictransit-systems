@@ -2,14 +2,20 @@
   "name": "publictransit-systems",
   "version": "0.1.0",
   "private": true,
+  "packageManager": "pnpm@11.9.0",
   "scripts": {
+    "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
     "lint": "eslint",
     "test": "vitest run",
     "test:watch": "vitest",
-    "build:gtfs": "tsx scripts/build-gtfs.ts"
+    "build:gtfs": "tsx scripts/build-gtfs.ts",
+    "test:accessibility": "pnpm run build && playwright test",
+    "test:ci": "pnpm run test:accessibility",
+    "format:check": "prettier --check .",
+    "format": "prettier --write ."
   },
   "dependencies": {
     "@radix-ui/react-dialog": "^1.1.15",
@@ -31,6 +37,8 @@
     "recharts": "^3.7.0"
   },
   "devDependencies": {
+    "@axe-core/playwright": "^4.11.0",
+    "@playwright/test": "^1.57.0",
     "@tailwindcss/postcss": "^4",
     "@types/leaflet": "^1.9.21",
     "@types/node": "^20",
@@ -39,6 +47,7 @@
     "@vitest/ui": "^4.1.5",
     "eslint": "^9",
     "eslint-config-next": "^16.1.6",
+    "prettier": "^3.6.2",
     "tailwindcss": "^4",
     "tsx": "^4.21.0",
     "typescript": "^5",

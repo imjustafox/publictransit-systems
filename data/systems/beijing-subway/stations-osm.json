@@ -12,10 +12,7 @@
         "lat": 39.940129,
         "lng": 116.4562886
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1762059571",
@@ -51,10 +48,7 @@
         "lat": 39.9554944,
         "lng": 116.388548
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10137803561",
@@ -82,11 +76,7 @@
         "lat": 39.9476674,
         "lng": 116.4020676
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696769",
@@ -124,10 +114,7 @@
         "lat": 40.0110618,
         "lng": 116.2639202
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10781912995",
@@ -163,10 +150,7 @@
         "lat": 39.9671117,
         "lng": 116.3883984
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2358646254",
@@ -233,10 +217,7 @@
         "lat": 40.0011779,
         "lng": 116.4016216
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4384983290",
@@ -303,9 +284,7 @@
         "lat": 39.9675012,
         "lng": 116.4009974
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q96632013",
       "wikipedia": "zh:安贞桥站"
     },
@@ -321,11 +300,7 @@
         "lat": 39.9758344,
         "lng": 116.3991828
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7902446518",
@@ -382,10 +357,7 @@
         "lat": 39.9061888,
         "lng": 116.2296796
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1296102332",
@@ -438,10 +410,7 @@
         "lat": 39.9732969,
         "lng": 116.2874286
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1350120248",
@@ -506,10 +475,7 @@
         "lat": 39.9225738,
         "lng": 116.3196813
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1654302294",
@@ -544,9 +510,7 @@
         "lat": 39.818274,
         "lng": 116.3067798
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "白石桥南",
@@ -560,10 +524,7 @@
         "lat": 39.9312548,
         "lng": 116.318448
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8675160717",
@@ -629,10 +590,7 @@
         "lat": 39.9323878,
         "lng": 116.3193762
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8675160717",
@@ -700,10 +658,7 @@
         "lat": 39.8913756,
         "lng": 116.4902447
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237706",
@@ -750,10 +705,7 @@
         "lat": 39.9050518,
         "lng": 116.6127053
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1405951601",
@@ -820,10 +772,7 @@
         "lat": 40.0668592,
         "lng": 116.1243785
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5277764660",
@@ -876,11 +825,7 @@
         "lat": 40.0011928,
         "lng": 116.2713671
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1362259058",
@@ -927,11 +872,7 @@
         "lat": 39.9317985,
         "lng": 116.3800445
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2433565023",
@@ -978,10 +919,7 @@
         "lat": 39.8656674,
         "lng": 116.4930838
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237756",
@@ -1018,10 +956,7 @@
         "lat": 39.9035987,
         "lng": 116.4209544
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1189531093",
@@ -1077,9 +1012,7 @@
         "lat": 39.8635548,
         "lng": 116.3727527
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "北京南站",
@@ -1093,9 +1026,7 @@
         "lat": 39.8641006,
         "lng": 116.3733186
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "北工大西门",
@@ -1109,10 +1040,7 @@
         "lat": 39.8736424,
         "lng": 116.4713573
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9379477294",
@@ -1156,9 +1084,7 @@
         "lat": 39.8935411,
         "lng": 116.3151056
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q105062204"
     },
     {
@@ -1173,11 +1099,7 @@
         "lat": 39.9369392,
         "lng": 116.332733
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-910168396",
@@ -1240,10 +1162,7 @@
         "lat": 40.0001238,
         "lng": 116.3620432
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7553495967",
@@ -1300,10 +1219,7 @@
         "lat": 39.9667708,
         "lng": 116.364124
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12424649487",
@@ -1331,11 +1247,7 @@
         "lat": 39.9763987,
         "lng": 116.3879263
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1718889797",
@@ -1412,9 +1324,7 @@
         "lat": 39.9138827,
         "lng": 116.1585873
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q102367263",
       "wikipedia": "zh:北辛安站"
     },
@@ -1430,10 +1340,7 @@
         "lat": 39.9393851,
         "lng": 116.4108894
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-294123645",
@@ -1489,10 +1396,7 @@
         "lat": 39.9396965,
         "lng": 116.4119342
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-294123645",
@@ -1548,10 +1452,7 @@
         "lat": 40.0416631,
         "lng": 116.428187
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4289789208",
@@ -1578,9 +1479,7 @@
         "lat": 40.0290192,
         "lng": 116.4119016
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4881517"
     },
     {
@@ -1595,10 +1494,7 @@
         "lat": 39.9021187,
         "lng": 116.7018094
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9209966170",
@@ -1646,10 +1542,7 @@
         "lat": 39.9018256,
         "lng": 116.6819734
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4417644117",
@@ -1686,9 +1579,7 @@
         "lat": 39.6851077,
         "lng": 116.3156802
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4915106"
     },
     {
@@ -1703,10 +1594,7 @@
         "lat": 39.8662594,
         "lng": 116.3366819
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9691077527",
@@ -1741,10 +1629,7 @@
         "lat": 39.887991,
         "lng": 116.3682164
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8830757627",
@@ -1822,10 +1707,7 @@
         "lat": 39.9235091,
         "lng": 116.6103044
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9209966180",
@@ -1882,10 +1764,7 @@
         "lat": 39.8445995,
         "lng": 116.3454124
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9122335000",
@@ -1931,10 +1810,7 @@
         "lat": 39.8460959,
         "lng": 116.3428438
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9122335000",
@@ -1971,10 +1847,7 @@
         "lat": 39.8461391,
         "lng": 116.3424361
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9122335000",
@@ -2005,18 +1878,13 @@
       "name": "Capital Airport Terminal 2",
       "localName": "首都机场2号航站楼",
       "osmId": 1351108938,
-      "lines": [
-        "l1"
-      ],
+      "lines": ["l1"],
       "status": "active",
       "coordinates": {
         "lat": 40.0780129,
         "lng": 116.5871343
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1356089824",
@@ -2041,10 +1909,7 @@
         "lat": 40.0780123,
         "lng": 116.5871495
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1356089824",
@@ -2069,9 +1934,7 @@
         "lat": 40.0515344,
         "lng": 116.6097731
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "首经贸",
@@ -2085,11 +1948,7 @@
         "lat": 39.8431792,
         "lng": 116.3140715
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11744202995",
@@ -2144,11 +2003,7 @@
         "lat": 39.8429666,
         "lng": 116.3138654
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11744202995",
@@ -2203,11 +2058,7 @@
         "lat": 40.0184431,
         "lng": 116.2770283
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9416797146",
@@ -2245,10 +2096,7 @@
         "lat": 39.8980394,
         "lng": 116.3572147
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696789",
@@ -2344,10 +2192,7 @@
         "lat": 39.9574108,
         "lng": 116.2880393
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5257335136",
@@ -2394,9 +2239,7 @@
         "lat": 39.7625141,
         "lng": 116.2065044
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5072154"
     },
     {
@@ -2411,10 +2254,7 @@
         "lat": 39.9323096,
         "lng": 116.4725284
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4832116910",
@@ -2471,9 +2311,7 @@
         "lat": 39.9429982,
         "lng": 116.4998836
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "朝阳门",
@@ -2487,10 +2325,7 @@
         "lat": 39.9230647,
         "lng": 116.4279504
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195697035",
@@ -2557,10 +2392,7 @@
         "lat": 39.9451275,
         "lng": 116.2878965
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2426893751",
@@ -2616,10 +2448,7 @@
         "lat": 39.9311554,
         "lng": 116.3493426
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696935",
@@ -2666,9 +2495,7 @@
         "lat": 39.931061,
         "lng": 116.3379903
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q130435"
     },
     {
@@ -2683,9 +2510,7 @@
         "lat": 39.8445478,
         "lng": 116.4418815
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q75393"
     },
     {
@@ -2700,9 +2525,7 @@
         "lat": 40.068903,
         "lng": 116.5493705
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5099743"
     },
     {
@@ -2717,10 +2540,7 @@
         "lat": 39.8997371,
         "lng": 116.4119567
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1300399159",
@@ -2829,10 +2649,7 @@
         "lat": 39.8917025,
         "lng": 116.4126199
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1359090002",
@@ -2868,11 +2685,7 @@
         "lat": 39.8025523,
         "lng": 116.5856212
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1074413522",
@@ -2919,11 +2732,7 @@
         "lat": 39.8025378,
         "lng": 116.5858895
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1074413522",
@@ -2970,9 +2779,7 @@
         "lat": 39.9315586,
         "lng": 116.2888626
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q9278249"
     },
     {
@@ -2987,9 +2794,7 @@
         "lat": 39.9080422,
         "lng": 116.5488365
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5154119"
     },
     {
@@ -3004,10 +2809,7 @@
         "lat": 39.8064524,
         "lng": 116.2854666
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1081987104",
@@ -3042,9 +2844,7 @@
         "lat": 39.888892,
         "lng": 116.3293717
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q15929607"
     },
     {
@@ -3059,10 +2859,7 @@
         "lat": 39.8440139,
         "lng": 116.3927722
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2866091101",
@@ -3127,10 +2924,7 @@
         "lat": 39.8429511,
         "lng": 116.3944459
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-13288528529",
@@ -3204,10 +2998,7 @@
         "lat": 39.8355481,
         "lng": 116.3948539
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10716199276",
@@ -3235,10 +3026,7 @@
         "lat": 39.8921857,
         "lng": 116.4813499
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237700",
@@ -3285,9 +3073,7 @@
         "lat": 39.864019,
         "lng": 116.2688628
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q9206167"
     },
     {
@@ -3302,10 +3088,7 @@
         "lat": 39.9226731,
         "lng": 116.5581345
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11542917161",
@@ -3352,9 +3135,7 @@
         "lat": 39.7085836,
         "lng": 116.0339981
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q43750525"
     },
     {
@@ -3369,10 +3150,7 @@
         "lat": 40.0021697,
         "lng": 116.4110688
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8589947907",
@@ -3429,10 +3207,7 @@
         "lat": 40.0015358,
         "lng": 116.4121905
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8589947907",
@@ -3489,10 +3264,7 @@
         "lat": 39.9069399,
         "lng": 116.4712272
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2299602091",
@@ -3582,10 +3354,7 @@
         "lat": 39.8583275,
         "lng": 116.2344523
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9258768097",
@@ -3632,9 +3401,7 @@
         "lat": 39.5124863,
         "lng": 116.4106758
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "大兴新城",
@@ -3648,10 +3415,7 @@
         "lat": 39.7340741,
         "lng": 116.3594824
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10680761581",
@@ -3694,10 +3458,7 @@
         "lat": 39.9652731,
         "lng": 116.3390137
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2039584329",
@@ -3734,10 +3495,7 @@
         "lat": 39.9661057,
         "lng": 116.3378309
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2039584329",
@@ -3774,9 +3532,7 @@
         "lat": 39.7712874,
         "lng": 116.4355574
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q57658585"
     },
     {
@@ -3791,10 +3547,7 @@
         "lat": 39.9154103,
         "lng": 116.4118355
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7591778833",
@@ -3831,9 +3584,7 @@
         "lat": 39.964645,
         "lng": 116.541359
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q103791191",
       "wikipedia": "zh:东坝站 (北京市)"
     },
@@ -3849,9 +3600,7 @@
         "lat": 39.9746043,
         "lng": 116.5519702
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q103742468"
     },
     {
@@ -3866,9 +3615,7 @@
         "lat": 39.9507876,
         "lng": 116.5411241
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q103819135",
       "wikipedia": "zh:东坝南站"
     },
@@ -3884,9 +3631,7 @@
         "lat": 39.9733361,
         "lng": 116.5283562
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q103745911",
       "wikipedia": "en:Dongbaxi station"
     },
@@ -3902,9 +3647,7 @@
         "lat": 40.051835,
         "lng": 116.2887219
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q111802257",
       "wikipedia": "zh:东北旺站"
     },
@@ -3920,10 +3663,7 @@
         "lat": 39.9068579,
         "lng": 116.412626
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1654257552",
@@ -4019,11 +3759,7 @@
         "lat": 39.9216405,
         "lng": 116.4442134
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7672184057",
@@ -4098,11 +3834,7 @@
         "lat": 39.921482,
         "lng": 116.4455603
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7672184057",
@@ -4177,10 +3909,7 @@
         "lat": 39.9583029,
         "lng": 116.4789687
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6782763350",
@@ -4227,9 +3956,7 @@
         "lat": 39.8037787,
         "lng": 116.4030681
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q56449093"
     },
     {
@@ -4244,9 +3971,7 @@
         "lat": 39.8661164,
         "lng": 116.3144367
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q105069698"
     },
     {
@@ -4261,10 +3986,7 @@
         "lat": 39.8535213,
         "lng": 116.3166795
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8283008282",
@@ -4332,10 +4054,7 @@
         "lat": 40.0091272,
         "lng": 116.4611561
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4371611986",
@@ -4379,10 +4098,7 @@
         "lat": 39.9229744,
         "lng": 116.4102477
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1990853188",
@@ -4448,11 +4164,7 @@
         "lat": 39.932287,
         "lng": 116.4280068
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-922948491",
@@ -4519,10 +4231,7 @@
         "lat": 39.9022116,
         "lng": 116.7272447
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6068627733",
@@ -4579,11 +4288,7 @@
         "lat": 39.9398861,
         "lng": 116.4281041
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696962",
@@ -4699,11 +4404,7 @@
         "lat": 39.9400378,
         "lng": 116.4294829
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696962",
@@ -4820,11 +4521,7 @@
         "lat": 39.941652,
         "lng": 116.4285738
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696997",
@@ -4922,11 +4619,7 @@
         "lat": 39.9907813,
         "lng": 116.3097264
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1362276488",
@@ -4979,10 +4672,7 @@
         "lat": 39.8822567,
         "lng": 116.4145694
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9116718003",
@@ -5028,9 +4718,7 @@
         "lat": 39.9139393,
         "lng": 116.328872
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q78144946",
       "wikipedia": "en:Yuyuantan Dongmen (Yuyuantan Park East Gate) station"
     },
@@ -5046,11 +4734,7 @@
         "lat": 39.9310721,
         "lng": 116.3275776
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11283748466",
@@ -5127,10 +4811,7 @@
         "lat": 39.7046285,
         "lng": 115.9835976
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10290625093",
@@ -5157,9 +4838,7 @@
         "lat": 39.8646354,
         "lng": 116.4339348
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q21850054",
       "wikipedia": "en:Fangzhuang station"
     },
@@ -5175,10 +4854,7 @@
         "lat": 39.859574,
         "lng": 116.5057156
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237739",
@@ -5215,9 +4891,7 @@
         "lat": 39.8541721,
         "lng": 116.2877862
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392154"
     },
     {
@@ -5232,9 +4906,7 @@
         "lat": 39.8496396,
         "lng": 116.2975967
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q105072002",
       "wikipedia": "zh:丰台站 (地铁)"
     },
@@ -5250,11 +4922,7 @@
         "lat": 39.8239138,
         "lng": 116.2912488
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10855359640",
@@ -5319,9 +4987,7 @@
         "lat": 39.8395949,
         "lng": 116.2906678
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392273"
     },
     {
@@ -5336,10 +5002,7 @@
         "lat": 39.8506149,
         "lng": 116.447588
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-13290916656",
@@ -5396,10 +5059,7 @@
         "lat": 39.922313,
         "lng": 116.3500666
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1349005694",
@@ -5453,11 +5113,7 @@
         "lat": 39.8349394,
         "lng": 116.2810932
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10297660164",
@@ -5524,10 +5180,7 @@
         "lat": 39.9385482,
         "lng": 116.1649357
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1296102348",
@@ -5562,11 +5215,7 @@
         "lat": 39.9906798,
         "lng": 116.4650632
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9189326036",
@@ -5623,10 +5272,7 @@
         "lat": 39.905948,
         "lng": 116.3505107
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4916794978",
@@ -5683,10 +5329,7 @@
         "lat": 39.922439,
         "lng": 116.3285052
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11821221328",
@@ -5731,11 +5374,7 @@
         "lat": 39.9082528,
         "lng": 116.5255476
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8571694066",
@@ -5793,9 +5432,7 @@
         "lat": 39.9791304,
         "lng": 116.4850346
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q17034758",
       "wikipedia": "en:Gaojiayuan station"
     },
@@ -5811,10 +5448,7 @@
         "lat": 39.8618619,
         "lng": 116.6795103
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8498013139",
@@ -5848,9 +5482,7 @@
         "lat": 39.7730301,
         "lng": 116.3244805
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5521693"
     },
     {
@@ -5865,10 +5497,7 @@
         "lat": 39.7622885,
         "lng": 116.325694
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2494634843",
@@ -5921,11 +5550,7 @@
         "lat": 39.8599934,
         "lng": 116.1956719
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4699114047",
@@ -5981,10 +5606,7 @@
         "lat": 39.8352632,
         "lng": 116.3646715
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1674674639",
@@ -6064,10 +5686,7 @@
         "lat": 39.9061762,
         "lng": 116.3041253
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298076031",
@@ -6093,10 +5712,7 @@
         "lat": 39.9669843,
         "lng": 116.425641
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9913965711",
@@ -6133,10 +5749,7 @@
         "lat": 39.9680699,
         "lng": 116.4242608
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9913965711",
@@ -6172,9 +5785,7 @@
         "lat": 39.7465971,
         "lng": 116.1788414
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392228"
     },
     {
@@ -6189,10 +5800,7 @@
         "lat": 39.9080845,
         "lng": 116.5931678
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2501838997",
@@ -6269,10 +5877,7 @@
         "lat": 39.9997494,
         "lng": 116.4250584
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7597561036",
@@ -6319,10 +5924,7 @@
         "lat": 39.9061423,
         "lng": 116.1844475
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1296102342",
@@ -6379,10 +5981,7 @@
         "lat": 39.9467307,
         "lng": 116.3876367
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4253043925",
@@ -6458,10 +6057,7 @@
         "lat": 39.947544,
         "lng": 116.3879183
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4253043925",
@@ -6537,9 +6133,7 @@
         "lat": 39.8133778,
         "lng": 116.2960281
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5619660"
     },
     {
@@ -6554,11 +6148,7 @@
         "lat": 39.9070164,
         "lng": 116.4556474
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-3450739378",
@@ -6664,9 +6254,7 @@
         "lat": 39.8922857,
         "lng": 116.6407547
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5619690"
     },
     {
@@ -6681,11 +6269,7 @@
         "lat": 39.8640535,
         "lng": 116.2483861
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9996425671",
@@ -6738,10 +6322,7 @@
         "lat": 39.9747132,
         "lng": 116.3115201
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1350216356",
@@ -6808,9 +6389,7 @@
         "lat": 39.8506537,
         "lng": 116.3940324
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q57659234"
     },
     {
@@ -6825,10 +6404,7 @@
         "lat": 39.9021403,
         "lng": 116.7111595
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6068627744",
@@ -6895,9 +6471,7 @@
         "lat": 39.8577135,
         "lng": 116.5927827
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q76063590"
     },
     {
@@ -6912,11 +6486,7 @@
         "lat": 39.9672289,
         "lng": 116.4117932
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6475573501",
@@ -7014,11 +6584,7 @@
         "lat": 39.9677829,
         "lng": 116.4118056
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6475573501",
@@ -7114,11 +6680,7 @@
         "lat": 39.9573887,
         "lng": 116.4122352
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11789311288",
@@ -7165,10 +6727,7 @@
         "lat": 39.8986925,
         "lng": 116.3777751
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696783",
@@ -7255,9 +6814,7 @@
         "lat": 39.8135634,
         "lng": 116.3958329
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q57658896"
     },
     {
@@ -7272,11 +6829,7 @@
         "lat": 40.0330877,
         "lng": 116.4355362
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-13065177973",
@@ -7344,9 +6897,7 @@
         "lat": 39.8762703,
         "lng": 116.3307982
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q45412676",
       "wikipedia": "en:Honglian Nanlu station"
     },
@@ -7362,11 +6913,7 @@
         "lat": 39.8472115,
         "lng": 116.2426141
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11477680860",
@@ -7394,10 +6941,7 @@
         "lat": 39.8840067,
         "lng": 116.4975172
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237723",
@@ -7444,10 +6988,7 @@
         "lat": 40.0833437,
         "lng": 116.5518402
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8737488124",
@@ -7504,9 +7045,7 @@
         "lat": 39.8479616,
         "lng": 116.5475285
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q72328419"
     },
     {
@@ -7521,10 +7060,7 @@
         "lat": 39.7215049,
         "lng": 116.3266541
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1081998188",
@@ -7577,10 +7113,7 @@
         "lat": 39.730422,
         "lng": 116.3265186
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1788337399",
@@ -7633,10 +7166,7 @@
         "lat": 39.9228365,
         "lng": 116.5730712
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11542805942",
@@ -7693,9 +7223,7 @@
         "lat": 39.8278468,
         "lng": 116.3139452
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "花园桥",
@@ -7709,11 +7237,7 @@
         "lat": 39.9312135,
         "lng": 116.3039811
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2144158429",
@@ -7789,10 +7313,7 @@
         "lat": 39.8553801,
         "lng": 116.6890142
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9039109138",
@@ -7849,10 +7370,7 @@
         "lat": 39.8883975,
         "lng": 116.3774806
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6732322957",
@@ -7896,10 +7414,7 @@
         "lat": 40.069525,
         "lng": 116.329755
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-274696962",
@@ -7934,10 +7449,7 @@
         "lat": 40.0797507,
         "lng": 116.3571849
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6781803087",
@@ -7995,9 +7507,7 @@
         "lat": 40.0772781,
         "lng": 116.3245924
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q111812996",
       "wikipedia": "zh:回龙观西大街站"
     },
@@ -8013,11 +7523,7 @@
         "lat": 39.9861781,
         "lng": 116.4109068
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10207414550",
@@ -8064,10 +7570,7 @@
         "lat": 39.9759588,
         "lng": 116.4113554
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2575677046",
@@ -8120,11 +7623,7 @@
         "lat": 39.9220995,
         "lng": 116.4554956
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-3450796156",
@@ -8222,9 +7721,7 @@
         "lat": 39.797982,
         "lng": 116.4124409
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q56882475"
     },
     {
@@ -8239,10 +7736,7 @@
         "lat": 39.9643309,
         "lng": 116.2834171
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5257338947",
@@ -8277,10 +7771,7 @@
         "lat": 40.0704794,
         "lng": 116.3538978
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1363471399",
@@ -8324,10 +7815,7 @@
         "lat": 40.0693567,
         "lng": 116.3544475
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1363471399",
@@ -8371,9 +7859,7 @@
         "lat": 40.0805687,
         "lng": 116.3698028
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q111813027",
       "wikipedia": "zh:霍营东站"
     },
@@ -8389,10 +7875,7 @@
         "lat": 39.8885681,
         "lng": 116.351727
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10862421887",
@@ -8418,9 +7901,7 @@
         "lat": 39.8922863,
         "lng": 116.4277207
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "健德门",
@@ -8434,9 +7915,7 @@
         "lat": 39.9750859,
         "lng": 116.3747659
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6119375"
     },
     {
@@ -8451,10 +7930,7 @@
         "lat": 39.9694941,
         "lng": 116.4840447
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-3374135645",
@@ -8501,9 +7977,7 @@
         "lat": 39.9713939,
         "lng": 116.4739564
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q102367414",
       "wikipedia": "zh:将台西站"
     },
@@ -8519,10 +7993,7 @@
         "lat": 39.9071594,
         "lng": 116.4292321
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1189531268",
@@ -8569,10 +8040,7 @@
         "lat": 39.8542896,
         "lng": 116.531614
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237696",
@@ -8629,10 +8097,7 @@
         "lat": 39.8438402,
         "lng": 116.3788076
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-3337810728",
@@ -8658,10 +8123,7 @@
         "lat": 39.8444824,
         "lng": 116.3647807
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-3337810729",
@@ -8718,10 +8180,7 @@
         "lat": 39.8431736,
         "lng": 116.3273554
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9104573475",
@@ -8769,11 +8228,7 @@
         "lat": 39.9663129,
         "lng": 116.3488274
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12430955702",
@@ -8860,10 +8315,7 @@
         "lat": 39.9209099,
         "lng": 116.1552373
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9635395505",
@@ -8921,10 +8373,7 @@
         "lat": 39.9219237,
         "lng": 116.156827
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9635395505",
@@ -8982,9 +8431,7 @@
         "lat": 39.8614067,
         "lng": 116.3600963
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q27916010",
       "wikipedia": "en:Jingfengmen station"
     },
@@ -9000,9 +8447,7 @@
         "lat": 39.8626316,
         "lng": 116.3580843
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q27916010",
       "wikipedia": "zh:景风门站"
     },
@@ -9018,10 +8463,7 @@
         "lat": 39.7825504,
         "lng": 116.5564358
       },
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "wikidata": "Q6119390",
       "wikipedia": "zh:经海路站"
     },
@@ -9037,10 +8479,7 @@
         "lat": 39.8636494,
         "lng": 116.4049409
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12345544439",
@@ -9077,10 +8516,7 @@
         "lat": 39.8830661,
         "lng": 116.4551162
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-385074709",
@@ -9133,10 +8569,7 @@
         "lat": 39.9215918,
         "lng": 116.4723407
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4832116904",
@@ -9214,11 +8647,7 @@
         "lat": 39.9159595,
         "lng": 116.4555255
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-3450695696",
@@ -9275,10 +8704,7 @@
         "lat": 39.9147047,
         "lng": 116.4049246
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10679111415",
@@ -9304,10 +8730,7 @@
         "lat": 39.947325,
         "lng": 116.3670609
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10150958828",
@@ -9385,10 +8808,7 @@
         "lat": 39.9462372,
         "lng": 116.3658244
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10150958828",
@@ -9466,9 +8886,7 @@
         "lat": 39.8056107,
         "lng": 116.4547308
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5935707"
     },
     {
@@ -9483,9 +8901,7 @@
         "lat": 39.889165,
         "lng": 116.651623
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5973051"
     },
     {
@@ -9500,10 +8916,7 @@
         "lat": 39.8921089,
         "lng": 116.4716849
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237763",
@@ -9570,9 +8983,7 @@
         "lat": 39.8338003,
         "lng": 116.2666477
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q78872939",
       "wikipedia": "en:Kandan station"
     },
@@ -9588,11 +8999,7 @@
         "lat": 39.8308852,
         "lng": 116.2914302
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10855438673",
@@ -9667,10 +9074,7 @@
         "lat": 40.0191988,
         "lng": 116.4607871
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9840133061",
@@ -9727,10 +9131,7 @@
         "lat": 39.9558597,
         "lng": 116.2767052
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12428545248",
@@ -9766,9 +9167,7 @@
         "lat": 39.8555351,
         "lng": 116.5641046
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q76063542"
     },
     {
@@ -9783,10 +9182,7 @@
         "lat": 39.9482568,
         "lng": 116.4562709
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1918652188",
@@ -9843,9 +9239,7 @@
         "lat": 39.7219018,
         "lng": 116.1702973
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392294"
     },
     {
@@ -9860,9 +9254,7 @@
         "lat": 39.728465,
         "lng": 116.1773354
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392201"
     },
     {
@@ -9877,9 +9269,7 @@
         "lat": 39.7218688,
         "lng": 116.1500157
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392300"
     },
     {
@@ -9894,9 +9284,7 @@
         "lat": 39.7218824,
         "lng": 116.1342397
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6119094"
     },
     {
@@ -9911,11 +9299,7 @@
         "lat": 39.8961589,
         "lng": 116.3043065
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11065310492",
@@ -9962,10 +9346,7 @@
         "lat": 39.9314101,
         "lng": 116.2208854
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6856770472",
@@ -10009,9 +9390,7 @@
         "lat": 39.759377,
         "lng": 116.1833797
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q4392161"
     },
     {
@@ -10026,9 +9405,7 @@
         "lat": 40.093573,
         "lng": 116.288183
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6119466"
     },
     {
@@ -10043,10 +9420,7 @@
         "lat": 40.0206001,
         "lng": 116.3667905
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7603978077",
@@ -10103,11 +9477,7 @@
         "lat": 39.9147796,
         "lng": 116.3672738
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-533643087",
@@ -10173,9 +9543,7 @@
         "lat": 39.8742944,
         "lng": 116.6728594
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5973022"
     },
     {
@@ -10190,10 +9558,7 @@
         "lat": 40.0515049,
         "lng": 116.4057013
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11335211396",
@@ -10220,10 +9585,7 @@
         "lat": 40.0405075,
         "lng": 116.4082437
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4289811357",
@@ -10270,11 +9632,7 @@
         "lat": 39.9996659,
         "lng": 116.3466428
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9471150030",
@@ -10380,10 +9738,7 @@
         "lat": 39.9568025,
         "lng": 116.4266211
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8018444478",
@@ -10420,10 +9775,7 @@
         "lat": 39.8560744,
         "lng": 116.4156074
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2524037290",
@@ -10480,10 +9832,7 @@
         "lat": 39.8786861,
         "lng": 116.2968997
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8345368881",
@@ -10563,10 +9912,7 @@
         "lat": 39.8857143,
         "lng": 116.308808
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12947578836",
@@ -10601,9 +9947,7 @@
         "lat": 39.8662759,
         "lng": 116.3256029
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q27949117",
       "wikipedia": "en:Lize Shangwuqu station"
     },
@@ -10619,9 +9963,7 @@
         "lat": 40.0695732,
         "lng": 116.3132033
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6126985"
     },
     {
@@ -10636,9 +9978,7 @@
         "lat": 40.0714794,
         "lng": 116.3040433
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q111802872",
       "wikipedia": "zh:龙泽西站 (北京地铁)"
     },
@@ -10654,10 +9994,7 @@
         "lat": 39.9016234,
         "lng": 116.7416309
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9209966174",
@@ -10695,9 +10032,7 @@
         "lat": 39.8888289,
         "lng": 116.7510869
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q113720157",
       "wikipedia": "zh:潞阳站"
     },
@@ -10713,10 +10048,7 @@
         "lat": 39.9668285,
         "lng": 116.3758342
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12433642005",
@@ -10773,9 +10105,7 @@
         "lat": 39.7037753,
         "lng": 116.0105495
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q46999649"
     },
     {
@@ -10790,9 +10120,7 @@
         "lat": 39.8516352,
         "lng": 116.365207
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5959373"
     },
     {
@@ -10807,10 +10135,7 @@
         "lat": 40.031445,
         "lng": 116.265829
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6355889086",
@@ -10846,10 +10171,7 @@
         "lat": 40.0313885,
         "lng": 116.2684248
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6355889086",
@@ -10885,9 +10207,7 @@
         "lat": 40.0325513,
         "lng": 116.4983103
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5937635"
     },
     {
@@ -10902,10 +10222,7 @@
         "lat": 39.9061218,
         "lng": 116.3178241
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298058540",
@@ -10968,9 +10285,7 @@
         "lat": 39.9323418,
         "lng": 116.1498174
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q102367262",
       "wikipedia": "zh:模式口站"
     },
@@ -10986,9 +10301,7 @@
         "lat": 39.9749126,
         "lng": 116.3630635
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6124616"
     },
     {
@@ -11003,9 +10316,7 @@
         "lat": 39.9750791,
         "lng": 116.3636148
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6124616"
     },
     {
@@ -11020,9 +10331,7 @@
         "lat": 39.858181,
         "lng": 116.3932245
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q57025115"
     },
     {
@@ -11037,10 +10346,7 @@
         "lat": 39.9077017,
         "lng": 116.3277725
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298058575",
@@ -11067,10 +10373,7 @@
         "lat": 39.9061161,
         "lng": 116.3315051
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298058529",
@@ -11160,10 +10463,7 @@
         "lat": 39.8733935,
         "lng": 116.4954124
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237701",
@@ -11220,10 +10520,7 @@
         "lat": 39.9236287,
         "lng": 116.4045447
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6784165939",
@@ -11281,10 +10578,7 @@
         "lat": 39.9412214,
         "lng": 116.3187284
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8285491031",
@@ -11351,9 +10645,7 @@
         "lat": 39.8573762,
         "lng": 116.2981946
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q7041866"
     },
     {
@@ -11368,11 +10660,7 @@
         "lat": 40.0008946,
         "lng": 116.3853355
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2819909701",
@@ -11473,11 +10761,7 @@
         "lat": 40.0003857,
         "lng": 116.3867559
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2819909701",
@@ -11578,10 +10862,7 @@
         "lat": 39.9841327,
         "lng": 116.387583
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5911158123",
@@ -11638,9 +10919,7 @@
         "lat": 39.8923066,
         "lng": 116.4430351
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q18653130"
     },
     {
@@ -11655,10 +10934,7 @@
         "lat": 39.8647562,
         "lng": 116.3930393
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12616109620",
@@ -11696,10 +10972,7 @@
         "lat": 39.8748619,
         "lng": 116.4549705
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1423628507",
@@ -11736,9 +11009,7 @@
         "lat": 39.873824,
         "lng": 116.4446966
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q102346922",
       "wikipedia": "en:Panjiayuanxi station"
     },
@@ -11754,10 +11025,7 @@
         "lat": 39.9320831,
         "lng": 116.3617483
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11992333185",
@@ -11833,10 +11101,7 @@
         "lat": 39.9313232,
         "lng": 116.3651624
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4917790491",
@@ -11952,10 +11217,7 @@
         "lat": 39.9323165,
         "lng": 116.3664868
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4917790491",
@@ -12042,10 +11304,7 @@
         "lat": 39.9243597,
         "lng": 116.1713056
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-280446928",
@@ -12149,10 +11408,7 @@
         "lat": 39.9248346,
         "lng": 116.1719509
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-280446928",
@@ -12255,10 +11511,7 @@
         "lat": 39.8838514,
         "lng": 116.4713411
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6781740693",
@@ -12305,10 +11558,7 @@
         "lat": 40.0886607,
         "lng": 116.3441902
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9212004780",
@@ -12365,10 +11615,7 @@
         "lat": 39.8643287,
         "lng": 116.4154612
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1359089967",
@@ -12425,10 +11672,7 @@
         "lat": 39.8982814,
         "lng": 116.3929416
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696786",
@@ -12525,9 +11769,7 @@
         "lat": 39.8912849,
         "lng": 116.4022485
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q18654011"
     },
     {
@@ -12542,10 +11784,7 @@
         "lat": 39.8652402,
         "lng": 116.2881665
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12218883503",
@@ -12616,9 +11855,7 @@
         "lat": 40.0397784,
         "lng": 116.3086826
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "清河小营桥",
@@ -12632,11 +11869,7 @@
         "lat": 40.0338705,
         "lng": 116.3367846
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10704498840",
@@ -12742,10 +11975,7 @@
         "lat": 40.0496531,
         "lng": 116.4360139
       },
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "wikidata": "Q107472049",
       "wikipedia": "en:Qingheying station"
     },
@@ -12761,11 +11991,7 @@
         "lat": 39.9993038,
         "lng": 116.3336262
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4703201229",
@@ -12822,10 +12048,7 @@
         "lat": 39.9216819,
         "lng": 116.5108366
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5257010481",
@@ -12873,10 +12096,7 @@
         "lat": 39.7417561,
         "lng": 116.3263162
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1788406174",
@@ -12920,9 +12140,7 @@
         "lat": 39.7002557,
         "lng": 116.000048
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q45797647"
     },
     {
@@ -12937,10 +12155,7 @@
         "lat": 39.965744,
         "lng": 116.3157286
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-586467392",
@@ -13028,9 +12243,7 @@
         "lat": 39.7816956,
         "lng": 116.515857
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5937661"
     },
     {
@@ -13045,9 +12258,7 @@
         "lat": 39.7920207,
         "lng": 116.507463
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5937809"
     },
     {
@@ -13062,10 +12273,7 @@
         "lat": 39.9597061,
         "lng": 116.4514799
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1974915214",
@@ -13130,11 +12338,7 @@
         "lat": 40.0263879,
         "lng": 116.4725535
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10797143823",
@@ -13190,11 +12394,7 @@
         "lat": 40.0265143,
         "lng": 116.4727698
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10797143823",
@@ -13250,10 +12450,7 @@
         "lat": 40.0317646,
         "lng": 116.3140843
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-290598524",
@@ -13280,9 +12477,7 @@
         "lat": 40.043537,
         "lng": 116.2805664
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q107870434",
       "wikipedia": "zh:上地软件园站"
     },
@@ -13298,10 +12493,7 @@
         "lat": 39.9759527,
         "lng": 116.4297381
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-862672246",
@@ -13336,10 +12528,7 @@
         "lat": 39.9359528,
         "lng": 116.3900647
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8805687980",
@@ -13376,10 +12565,7 @@
         "lat": 39.9341652,
         "lng": 116.4934435
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12435034363",
@@ -13442,11 +12628,7 @@
         "lat": 39.8647129,
         "lng": 116.4525595
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9147328732",
@@ -13553,9 +12735,7 @@
         "lat": 39.9216269,
         "lng": 116.4960424
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q82802"
     },
     {
@@ -13570,9 +12750,7 @@
         "lat": 39.8444927,
         "lng": 116.4074126
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q7496655"
     },
     {
@@ -13587,10 +12765,7 @@
         "lat": 39.9076653,
         "lng": 116.1586061
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9635360715",
@@ -13636,10 +12811,7 @@
         "lat": 39.8581385,
         "lng": 116.5223453
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237694",
@@ -13696,10 +12868,7 @@
         "lat": 39.8920933,
         "lng": 116.4552314
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6780237716",
@@ -13746,10 +12915,7 @@
         "lat": 39.9090728,
         "lng": 116.5709843
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5620149737",
@@ -13785,10 +12951,7 @@
         "lat": 39.9075722,
         "lng": 116.4893819
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1303502769",
@@ -13841,10 +13004,7 @@
         "lat": 39.9073037,
         "lng": 116.5094811
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1303502776",
@@ -13890,11 +13050,7 @@
         "lat": 39.9425119,
         "lng": 116.2682827
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12530871823",
@@ -13941,10 +13097,7 @@
         "lat": 39.8443821,
         "lng": 116.4219287
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6781735185",
@@ -14011,10 +13164,7 @@
         "lat": 40.009195,
         "lng": 116.3864002
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1346457340",
@@ -14071,10 +13221,7 @@
         "lat": 39.9058662,
         "lng": 116.3465697
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298143238",
@@ -14135,10 +13282,7 @@
         "lat": 39.9316439,
         "lng": 116.3966927
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4400766338",
@@ -14194,10 +13338,7 @@
         "lat": 39.9323094,
         "lng": 116.3976888
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-4400766338",
@@ -14255,10 +13396,7 @@
         "lat": 39.9612484,
         "lng": 116.3015319
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9841103929",
@@ -14306,10 +13444,7 @@
         "lat": 39.9607503,
         "lng": 116.3015966
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9841103929",
@@ -14357,11 +13492,7 @@
         "lat": 39.9743281,
         "lng": 116.2999736
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1350216317",
@@ -14467,9 +13598,7 @@
         "lat": 39.7218523,
         "lng": 116.1189698
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5936795"
     },
     {
@@ -14484,9 +13613,7 @@
         "lat": 39.9087765,
         "lng": 116.3571516
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q102353186",
       "wikipedia": "zh:太平桥站_(北京市)"
     },
@@ -14502,9 +13629,7 @@
         "lat": 40.0727436,
         "lng": 116.4202773
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q111823410",
       "wikipedia": "zh:太平庄站 (北京市)"
     },
@@ -14520,10 +13645,7 @@
         "lat": 39.9712918,
         "lng": 116.4411862
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2000746621",
@@ -14581,9 +13703,7 @@
         "lat": 39.8675967,
         "lng": 116.3816795
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q21246002",
       "wikipedia": "zh:陶然桥站"
     },
@@ -14599,10 +13719,7 @@
         "lat": 39.8774369,
         "lng": 116.3682029
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7164710655",
@@ -14649,10 +13766,7 @@
         "lat": 39.9283896,
         "lng": 116.2468822
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8667716853",
@@ -14699,10 +13813,7 @@
         "lat": 39.8806517,
         "lng": 116.3925037
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7149581578",
@@ -14729,11 +13840,7 @@
         "lat": 39.9063337,
         "lng": 116.3949169
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1024947212",
@@ -14788,10 +13895,7 @@
         "lat": 39.9059702,
         "lng": 116.3851622
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1301959208",
@@ -14847,10 +13951,7 @@
         "lat": 39.6689886,
         "lng": 116.3139055
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1831955382",
@@ -14903,9 +14004,7 @@
         "lat": 40.0737747,
         "lng": 116.4066402
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6124366",
       "wikipedia": "zh:天通苑站"
     },
@@ -14921,9 +14020,7 @@
         "lat": 40.0726643,
         "lng": 116.4087263
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q6124366",
       "wikipedia": "zh:天通苑站"
     },
@@ -14939,9 +14036,7 @@
         "lat": 40.0820885,
         "lng": 116.4067673
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q847741"
     },
     {
@@ -14956,10 +14051,7 @@
         "lat": 40.0671005,
         "lng": 116.4359844
       },
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "wikidata": "Q107472104",
       "wikipedia": "zh:天通苑东站"
     },
@@ -14975,10 +14067,7 @@
         "lat": 40.0670514,
         "lng": 116.4378145
       },
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "wikidata": "Q107472104",
       "wikipedia": "zh:天通苑东站"
     },
@@ -14994,9 +14083,7 @@
         "lat": 39.7718151,
         "lng": 116.533948
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5937020"
     },
     {
@@ -15011,10 +14098,7 @@
         "lat": 39.9174644,
         "lng": 116.6555297
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9209966177",
@@ -15060,10 +14144,7 @@
         "lat": 39.9027423,
         "lng": 116.6314069
       },
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "wikidata": "Q5973079"
     },
     {
@@ -15078,11 +14159,7 @@
         "lat": 39.9322013,
         "lng": 116.4556066
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1765106500",
@@ -15165,10 +14242,7 @@
         "lat": 40.0673089,
         "lng": 116.2093337
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5277764650",
@@ -15216,9 +14290,7 @@
         "lat": 39.9792261,
         "lng": 116.4994848
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q103742571",
       "wikipedia": "zh:驼房营站"
     },
@@ -15234,9 +14306,7 @@
         "lat": 39.8707455,
         "lng": 116.6802742
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q1039412",
       "wikipedia": "zh:土橋站 (中國)"
     },
@@ -15252,9 +14322,7 @@
         "lat": 39.8481659,
         "lng": 116.673529
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q75161769"
     },
     {
@@ -15269,10 +14337,7 @@
         "lat": 39.9069496,
         "lng": 116.4052789
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1302986764",
@@ -15346,10 +14411,7 @@
         "lat": 39.9965663,
         "lng": 116.4624279
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7920243597",
@@ -15406,10 +14468,7 @@
         "lat": 40.0020276,
         "lng": 116.4809035
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7886701309",
@@ -15456,10 +14515,7 @@
         "lat": 39.9941582,
         "lng": 116.4417045
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-13516609002",
@@ -15506,11 +14562,7 @@
         "lat": 39.8477313,
         "lng": 116.2233972
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11477680843",
@@ -15548,10 +14600,7 @@
         "lat": 39.9839185,
         "lng": 116.2942646
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-8263474199",
@@ -15599,9 +14648,7 @@
         "lat": 39.8624408,
         "lng": 116.6267073
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "万寿路",
@@ -15615,10 +14662,7 @@
         "lat": 39.9062159,
         "lng": 116.2887714
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298050521",
@@ -15707,11 +14751,7 @@
         "lat": 39.9471407,
         "lng": 116.3032926
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11243533319",
@@ -15769,9 +14809,7 @@
         "lat": 39.8017615,
         "lng": 116.4995335
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5936047",
       "wikipedia": "en:Wanyuan Jie station"
     },
@@ -15787,9 +14825,7 @@
         "lat": 39.8889326,
         "lng": 116.3213598
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "魏公村",
@@ -15803,11 +14839,7 @@
         "lat": 39.9563044,
         "lng": 116.3171815
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1364282677",
@@ -15864,9 +14896,7 @@
         "lat": 40.0788401,
         "lng": 116.3356615
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q111813013",
       "wikipedia": "zh:文华路站 (北京市)"
     },
@@ -15882,10 +14912,7 @@
         "lat": 40.0675113,
         "lng": 116.1555687
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5277764666",
@@ -15932,11 +14959,7 @@
         "lat": 39.9323548,
         "lng": 116.4442038
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12433727438",
@@ -15974,10 +14997,7 @@
         "lat": 39.9914779,
         "lng": 116.3317017
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-290601047",
@@ -16014,9 +15034,7 @@
         "lat": 39.7837675,
         "lng": 116.4174105
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q56683211",
       "wikipedia": "zh:五福堂站"
     },
@@ -16032,10 +15050,7 @@
         "lat": 39.9062214,
         "lng": 116.2680336
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298050591",
@@ -16124,10 +15139,7 @@
         "lat": 39.9470576,
         "lng": 116.1485756
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1296102373",
@@ -16153,10 +15165,7 @@
         "lat": 39.9259297,
         "lng": 116.6334973
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9174345649",
@@ -16203,11 +15212,7 @@
         "lat": 40.0517165,
         "lng": 116.3001813
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1305783007",
@@ -16251,10 +15256,7 @@
         "lat": 39.8328015,
         "lng": 116.4427211
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6781735200",
@@ -16281,10 +15283,7 @@
         "lat": 39.8267264,
         "lng": 116.4532399
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6781735187",
@@ -16330,10 +15329,7 @@
         "lat": 39.9644456,
         "lng": 116.4348149
       },
-      "features": [
-        "accessible",
-        "fare-vending"
-      ],
+      "features": ["accessible", "fare-vending"],
       "wikidata": "Q84244726",
       "wikipedia": "zh:西坝河站"
     },
@@ -16349,9 +15345,7 @@
         "lat": 39.9644089,
         "lng": 116.4360547
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "西北旺",
@@ -16365,10 +15359,7 @@
         "lat": 40.0478932,
         "lng": 116.2520781
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7602286453",
@@ -16415,10 +15406,7 @@
         "lat": 39.9057386,
         "lng": 116.3682035
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1301959229",
@@ -16510,10 +15498,7 @@
         "lat": 39.9218994,
         "lng": 116.2919093
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2381864553",
@@ -16550,9 +15535,7 @@
         "lat": 39.7883939,
         "lng": 116.322677
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5938103"
     },
     {
@@ -16567,10 +15550,7 @@
         "lat": 39.9324935,
         "lng": 116.2005982
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10554658680",
@@ -16617,9 +15597,7 @@
         "lat": 39.8652242,
         "lng": 116.2978076
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q75387"
     },
     {
@@ -16634,10 +15612,7 @@
         "lat": 39.8225567,
         "lng": 116.3402526
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11710510092",
@@ -16665,9 +15640,7 @@
         "lat": 39.7122214,
         "lng": 116.0551386
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q46717114"
     },
     {
@@ -16682,10 +15655,7 @@
         "lat": 39.8110444,
         "lng": 116.359749
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1081998172",
@@ -16773,10 +15743,7 @@
         "lat": 39.9394291,
         "lng": 116.3612739
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2504963303",
@@ -16833,10 +15800,7 @@
         "lat": 39.9225455,
         "lng": 116.3668145
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-533640038",
@@ -16892,9 +15856,7 @@
         "lat": 39.859977,
         "lng": 116.3497096
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q105069700",
       "wikipedia": "en:Xitieying station"
     },
@@ -16910,10 +15872,7 @@
         "lat": 39.9748659,
         "lng": 116.3477745
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10610542848",
@@ -16990,11 +15949,7 @@
         "lat": 40.0460679,
         "lng": 116.3451639
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9743653073",
@@ -17056,10 +16011,7 @@
         "lat": 39.9966984,
         "lng": 116.2855319
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1362259044",
@@ -17111,10 +16063,7 @@
         "lat": 39.9392172,
         "lng": 116.3492348
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1253535195",
@@ -17191,10 +16140,7 @@
         "lat": 39.8983866,
         "lng": 116.3680141
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696803",
@@ -17290,10 +16236,7 @@
         "lat": 39.9868013,
         "lng": 116.3472515
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10610542849",
@@ -17361,11 +16304,7 @@
         "lat": 40.0136302,
         "lng": 116.3457528
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11542962542",
@@ -17413,9 +16352,7 @@
         "lat": 39.715288,
         "lng": 116.0739687
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q46716045"
     },
     {
@@ -17430,9 +16367,7 @@
         "lat": 39.7275574,
         "lng": 116.094557
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q39085456"
     },
     {
@@ -17447,10 +16382,7 @@
         "lat": 39.9264588,
         "lng": 116.1795516
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10554658679",
@@ -17486,10 +16418,7 @@
         "lat": 39.7184583,
         "lng": 115.9674631
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-10316725279",
@@ -17526,11 +16455,7 @@
         "lat": 39.9465956,
         "lng": 116.5212923
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-13082034995",
@@ -17578,10 +16503,7 @@
         "lat": 39.7111046,
         "lng": 116.3130186
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1788317644",
@@ -17634,9 +16556,7 @@
         "lat": 39.7593594,
         "lng": 116.4428265
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q56882345"
     },
     {
@@ -17651,9 +16571,7 @@
         "lat": 39.8056285,
         "lng": 116.4846211
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5938025"
     },
     {
@@ -17668,10 +16586,7 @@
         "lat": 39.8115669,
         "lng": 116.5960819
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6781686654",
@@ -17727,9 +16642,7 @@
         "lat": 39.801744,
         "lng": 116.4742673
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q5936835"
     },
     {
@@ -17744,11 +16657,7 @@
         "lat": 39.9070982,
         "lng": 116.44415
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1647463797",
@@ -17825,11 +16734,7 @@
         "lat": 39.9083452,
         "lng": 116.444194
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1647463797",
@@ -17906,10 +16811,7 @@
         "lat": 40.0630145,
         "lng": 116.2435428
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7602288667",
@@ -17956,11 +16858,7 @@
         "lat": 39.9469713,
         "lng": 116.4101645
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2000101264",
@@ -18028,11 +16926,7 @@
         "lat": 39.9479275,
         "lng": 116.4115432
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-2000101264",
@@ -18100,10 +16994,7 @@
         "lat": 40.0366785,
         "lng": 116.3483302
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7606031905",
@@ -18140,10 +17031,7 @@
         "lat": 39.9982949,
         "lng": 116.3036739
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1362259050",
@@ -18188,11 +17076,7 @@
         "lat": 39.9061931,
         "lng": 116.2468996
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1296155049",
@@ -18280,9 +17164,7 @@
         "lat": 39.8375683,
         "lng": 116.2529824
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q78872905"
     },
     {
@@ -18297,10 +17179,7 @@
         "lat": 39.942932,
         "lng": 116.4690136
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-6374189559",
@@ -18337,10 +17216,7 @@
         "lat": 39.7518055,
         "lng": 116.3260337
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-5441990948",
@@ -18393,10 +17269,7 @@
         "lat": 39.9322844,
         "lng": 116.4112952
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1357810156",
@@ -18451,10 +17324,7 @@
         "lat": 39.9750927,
         "lng": 116.3343902
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1350216367",
@@ -18520,10 +17390,7 @@
         "lat": 39.9749496,
         "lng": 116.3229284
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1350216401",
@@ -18567,11 +17434,7 @@
         "lat": 39.9826574,
         "lng": 116.3103787
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1362276450",
@@ -18633,9 +17496,7 @@
         "lat": 40.0347054,
         "lng": 116.3259094
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "珠市口",
@@ -18649,10 +17510,7 @@
         "lat": 39.8893117,
         "lng": 116.3921937
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-7149581579",
@@ -18728,9 +17586,7 @@
         "lat": 39.723022,
         "lng": 116.0804553
       },
-      "features": [
-        "fare-vending"
-      ],
+      "features": ["fare-vending"],
       "wikidata": "Q42748562"
     },
     {
@@ -18745,11 +17601,7 @@
         "lat": 39.9485486,
         "lng": 116.4365482
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-11937408131",
@@ -18807,11 +17659,7 @@
         "lat": 39.9397031,
         "lng": 116.4276776
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1195696962",
@@ -18928,10 +17776,7 @@
         "lat": 39.9061612,
         "lng": 116.3152771
       },
-      "features": [
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-1298058560",
@@ -18967,11 +17812,7 @@
         "lat": 39.8175347,
         "lng": 116.547173
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-12137286583",
@@ -19027,9 +17868,7 @@
         "lat": 39.8430584,
         "lng": 116.4898314
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "十里河",
@@ -19043,11 +17882,7 @@
         "lat": 39.8635284,
         "lng": 116.4544834
       },
-      "features": [
-        "accessible",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["accessible", "escalator", "fare-vending"],
       "entrances": [
         {
           "id": "osm-9147328734",
@@ -19133,9 +17968,7 @@
         "lat": 39.855252,
         "lng": 116.4706068
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "嘉会湖",
@@ -19149,9 +17982,7 @@
         "lat": 39.7918725,
         "lng": 116.6052556
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "政务中心东",
@@ -19165,9 +17996,7 @@
         "lat": 39.9097035,
         "lng": 116.7327618
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "次渠北",
@@ -19181,9 +18010,7 @@
         "lat": 39.8085973,
         "lng": 116.5706243
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     },
     {
       "id": "衙门口",
@@ -19197,9 +18024,7 @@
         "lat": 39.8989948,
         "lng": 116.197616
       },
-      "features": [
-        "fare-vending"
-      ]
+      "features": ["fare-vending"]
     }
   ]
 }

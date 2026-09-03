@@ -6,13 +6,7 @@
       "id": "capital-airport-express",
       "name": "首都机场",
       "localName": "首都机场",
-      "stations": [
-        "北新桥",
-        "东直门",
-        "三元桥",
-        "3号航站楼",
-        "2号航站楼"
-      ]
+      "stations": ["北新桥", "东直门", "三元桥", "3号航站楼", "2号航站楼"]
     },
     {
       "id": "changping",
@@ -45,11 +39,7 @@
       "id": "daxing-airport",
       "name": "大兴机场",
       "localName": "大兴机场",
-      "stations": [
-        "草桥",
-        "大兴新城",
-        "大兴机场"
-      ]
+      "stations": ["草桥", "大兴新城", "大兴机场"]
     },
     {
       "id": "fangshan",
@@ -78,16 +68,7 @@
       "id": "line-1",
       "name": "S1",
       "localName": "S1",
-      "stations": [
-        "石厂",
-        "小园",
-        "栗园庄",
-        "上岸",
-        "桥户营",
-        "四道桥",
-        "金安桥",
-        "苹果园"
-      ]
+      "stations": ["石厂", "小园", "栗园庄", "上岸", "桥户营", "四道桥", "金安桥", "苹果园"]
     },
     {
       "id": "line-1",
@@ -210,12 +191,7 @@
       "id": "line-11",
       "name": "11",
       "localName": "11",
-      "stations": [
-        "模式口",
-        "金安桥",
-        "北辛安",
-        "新首钢"
-      ]
+      "stations": ["模式口", "金安桥", "北辛安", "新首钢"]
     },
     {
       "id": "line-12",
@@ -695,14 +671,7 @@
       "id": "xijiao",
       "name": "西郊",
       "localName": "西郊",
-      "stations": [
-        "香山",
-        "国家植物园",
-        "万安",
-        "茶棚",
-        "颐和园西门",
-        "巴沟"
-      ]
+      "stations": ["香山", "国家植物园", "万安", "茶棚", "颐和园西门", "巴沟"]
     },
     {
       "id": "yanfang",
@@ -747,3951 +716,2982 @@
       "id": "2号航站楼",
       "name": "2号航站楼",
       "localName": "2号航站楼",
-      "lines": [
-        "capital-airport-express"
-      ],
+      "lines": ["capital-airport-express"],
       "isTransfer": false
     },
     {
       "id": "3号航站楼",
       "name": "3号航站楼",
       "localName": "3号航站楼",
-      "lines": [
-        "capital-airport-express"
-      ],
+      "lines": ["capital-airport-express"],
       "isTransfer": false
     },
     {
       "id": "七里庄",
       "name": "七里庄",
       "localName": "七里庄",
-      "lines": [
-        "line-14",
-        "line-9"
-      ],
+      "lines": ["line-14", "line-9"],
       "isTransfer": true
     },
     {
       "id": "万安",
       "name": "万安",
       "localName": "万安",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "isTransfer": false
     },
     {
       "id": "万寿寺",
       "name": "万寿寺",
       "localName": "万寿寺",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "万寿路",
       "name": "万寿路",
       "localName": "万寿路",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "万泉河桥",
       "name": "万泉河桥",
       "localName": "万泉河桥",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "万源街",
       "name": "万源街",
       "localName": "万源街",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "万盛东",
       "name": "万盛东",
       "localName": "万盛东",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "万盛西",
       "name": "万盛西",
       "localName": "万盛西",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "三元桥",
       "name": "三元桥",
       "localName": "三元桥",
-      "lines": [
-        "capital-airport-express",
-        "line-10",
-        "line-12"
-      ],
+      "lines": ["capital-airport-express", "line-10", "line-12"],
       "isTransfer": true
     },
     {
       "id": "上地",
       "name": "上地",
       "localName": "上地",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "isTransfer": false
     },
     {
       "id": "上地软件园",
       "name": "上地软件园",
       "localName": "上地软件园",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     },
     {
       "id": "上岸",
       "name": "上岸",
       "localName": "上岸",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "东北旺",
       "name": "东北旺",
       "localName": "东北旺",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     },
     {
       "id": "东单",
       "name": "东单",
       "localName": "东单",
-      "lines": [
-        "line-1-batong",
-        "line-5"
-      ],
+      "lines": ["line-1-batong", "line-5"],
       "isTransfer": true
     },
     {
       "id": "东四",
       "name": "东四",
       "localName": "东四",
-      "lines": [
-        "line-5",
-        "line-6"
-      ],
+      "lines": ["line-5", "line-6"],
       "isTransfer": true
     },
     {
       "id": "东四十条",
       "name": "东四十条",
       "localName": "东四十条",
-      "lines": [
-        "line-2",
-        "line-3"
-      ],
+      "lines": ["line-2", "line-3"],
       "isTransfer": true
     },
     {
       "id": "东坝",
       "name": "东坝",
       "localName": "东坝",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "isTransfer": false
     },
     {
       "id": "东坝北",
       "name": "东坝北",
       "localName": "东坝北",
-      "lines": [
-        "line-12",
-        "line-3"
-      ],
+      "lines": ["line-12", "line-3"],
       "isTransfer": true
     },
     {
       "id": "东坝南",
       "name": "东坝南",
       "localName": "东坝南",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "isTransfer": false
     },
     {
       "id": "东坝西",
       "name": "东坝西",
       "localName": "东坝西",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "东夏园",
       "name": "东夏园",
       "localName": "东夏园",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "东大桥",
       "name": "东大桥",
       "localName": "东大桥",
-      "lines": [
-        "line-17",
-        "line-6"
-      ],
+      "lines": ["line-17", "line-6"],
       "isTransfer": true
     },
     {
       "id": "东湖渠",
       "name": "东湖渠",
       "localName": "东湖渠",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "东直门",
       "name": "东直门",
       "localName": "东直门",
-      "lines": [
-        "capital-airport-express",
-        "line-13",
-        "line-2"
-      ],
+      "lines": ["capital-airport-express", "line-13", "line-2"],
       "isTransfer": true
     },
     {
       "id": "东管头",
       "name": "东管头",
       "localName": "东管头",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "东管头南",
       "name": "东管头南",
       "localName": "东管头南",
-      "lines": [
-        "fangshan",
-        "line-16"
-      ],
+      "lines": ["fangshan", "line-16"],
       "isTransfer": true
     },
     {
       "id": "东风北桥",
       "name": "东风北桥",
       "localName": "东风北桥",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "东高地",
       "name": "东高地",
       "localName": "东高地",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "丽泽商务区",
       "name": "丽泽商务区",
       "localName": "丽泽商务区",
-      "lines": [
-        "line-14",
-        "line-16"
-      ],
+      "lines": ["line-14", "line-16"],
       "isTransfer": true
     },
     {
       "id": "中关村",
       "name": "中关村",
       "localName": "中关村",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "中国美术馆",
       "name": "中国美术馆",
       "localName": "中国美术馆",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "丰台东大街",
       "name": "丰台东大街",
       "localName": "丰台东大街",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "isTransfer": false
     },
     {
       "id": "丰台南路",
       "name": "丰台南路",
       "localName": "丰台南路",
-      "lines": [
-        "line-16",
-        "line-9"
-      ],
+      "lines": ["line-16", "line-9"],
       "isTransfer": true
     },
     {
       "id": "丰台科技园",
       "name": "丰台科技园",
       "localName": "丰台科技园",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "isTransfer": false
     },
     {
       "id": "丰台站",
       "name": "丰台站",
       "localName": "丰台站",
-      "lines": [
-        "line-10",
-        "line-16"
-      ],
+      "lines": ["line-10", "line-16"],
       "isTransfer": true
     },
     {
       "id": "临河里",
       "name": "临河里",
       "localName": "临河里",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "义和庄",
       "name": "义和庄",
       "localName": "义和庄",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "九号村",
       "name": "九号村",
       "localName": "九号村",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "九棵树",
       "name": "九棵树",
       "localName": "九棵树",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "九龙山",
       "name": "九龙山",
       "localName": "九龙山",
-      "lines": [
-        "line-14",
-        "line-7"
-      ],
+      "lines": ["line-14", "line-7"],
       "isTransfer": true
     },
     {
       "id": "二里沟",
       "name": "二里沟",
       "localName": "二里沟",
-      "lines": [
-        "line-16",
-        "line-6"
-      ],
+      "lines": ["line-16", "line-6"],
       "isTransfer": true
     },
     {
       "id": "五棵松",
       "name": "五棵松",
       "localName": "五棵松",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "五福堂",
       "name": "五福堂",
       "localName": "五福堂",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "五道口",
       "name": "五道口",
       "localName": "五道口",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "isTransfer": false
     },
     {
       "id": "亦创会展中心",
       "name": "亦创会展中心",
       "localName": "亦创会展中心",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "亦庄同仁",
       "name": "亦庄同仁",
       "localName": "亦庄同仁",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "亦庄文化园",
       "name": "亦庄文化园",
       "localName": "亦庄文化园",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "亦庄桥",
       "name": "亦庄桥",
       "localName": "亦庄桥",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "亦庄火车站",
       "name": "亦庄火车站",
       "localName": "亦庄火车站",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "亮马桥",
       "name": "亮马桥",
       "localName": "亮马桥",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "人民大学",
       "name": "人民大学",
       "localName": "人民大学",
-      "lines": [
-        "line-12",
-        "line-4"
-      ],
+      "lines": ["line-12", "line-4"],
       "isTransfer": true
     },
     {
       "id": "什刹海",
       "name": "什刹海",
       "localName": "什刹海",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "传媒大学",
       "name": "传媒大学",
       "localName": "传媒大学",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "俸伯",
       "name": "俸伯",
       "localName": "俸伯",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "健德门",
       "name": "健德门",
       "localName": "健德门",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "光熙门",
       "name": "光熙门",
       "localName": "光熙门",
-      "lines": [
-        "line-12",
-        "line-13"
-      ],
+      "lines": ["line-12", "line-13"],
       "isTransfer": true
     },
     {
       "id": "八宝山",
       "name": "八宝山",
       "localName": "八宝山",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "八角游乐园",
       "name": "八角游乐园",
       "localName": "八角游乐园",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "八里桥",
       "name": "八里桥",
       "localName": "八里桥",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "公主坟",
       "name": "公主坟",
       "localName": "公主坟",
-      "lines": [
-        "line-1-batong",
-        "line-10"
-      ],
+      "lines": ["line-1-batong", "line-10"],
       "isTransfer": true
     },
     {
       "id": "公益西桥",
       "name": "公益西桥",
       "localName": "公益西桥",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "六道口",
       "name": "六道口",
       "localName": "六道口",
-      "lines": [
-        "changping",
-        "line-15"
-      ],
+      "lines": ["changping", "line-15"],
       "isTransfer": true
     },
     {
       "id": "六里桥",
       "name": "六里桥",
       "localName": "六里桥",
-      "lines": [
-        "line-10",
-        "line-9"
-      ],
+      "lines": ["line-10", "line-9"],
       "isTransfer": true
     },
     {
       "id": "六里桥东",
       "name": "六里桥东",
       "localName": "六里桥东",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "isTransfer": false
     },
     {
       "id": "关庄",
       "name": "关庄",
       "localName": "关庄",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "军事博物馆",
       "name": "军事博物馆",
       "localName": "军事博物馆",
-      "lines": [
-        "line-1-batong",
-        "line-9"
-      ],
+      "lines": ["line-1-batong", "line-9"],
       "isTransfer": true
     },
     {
       "id": "农业展览馆",
       "name": "农业展览馆",
       "localName": "农业展览馆",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "农大南路",
       "name": "农大南路",
       "localName": "农大南路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "分钟寺",
       "name": "分钟寺",
       "localName": "分钟寺",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "刘家窑",
       "name": "刘家窑",
       "localName": "刘家窑",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "前门",
       "name": "前门",
       "localName": "前门",
-      "lines": [
-        "line-2",
-        "line-8"
-      ],
+      "lines": ["line-2", "line-8"],
       "isTransfer": true
     },
     {
       "id": "动物园",
       "name": "动物园",
       "localName": "动物园",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "劲松",
       "name": "劲松",
       "localName": "劲松",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "化工",
       "name": "化工",
       "localName": "化工",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "北京南站",
       "name": "北京南站",
       "localName": "北京南站",
-      "lines": [
-        "line-14",
-        "line-4"
-      ],
+      "lines": ["line-14", "line-4"],
       "isTransfer": true
     },
     {
       "id": "北京大学东门",
       "name": "北京大学东门",
       "localName": "北京大学东门",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "北京站",
       "name": "北京站",
       "localName": "北京站",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "isTransfer": false
     },
     {
       "id": "北京西站",
       "name": "北京西站",
       "localName": "北京西站",
-      "lines": [
-        "line-7",
-        "line-9"
-      ],
+      "lines": ["line-7", "line-9"],
       "isTransfer": true
     },
     {
       "id": "北土城",
       "name": "北土城",
       "localName": "北土城",
-      "lines": [
-        "line-10",
-        "line-8"
-      ],
+      "lines": ["line-10", "line-8"],
       "isTransfer": true
     },
     {
       "id": "北太平庄",
       "name": "北太平庄",
       "localName": "北太平庄",
-      "lines": [
-        "line-12",
-        "line-19"
-      ],
+      "lines": ["line-12", "line-19"],
       "isTransfer": true
     },
     {
       "id": "北安河",
       "name": "北安河",
       "localName": "北安河",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "北宫门",
       "name": "北宫门",
       "localName": "北宫门",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "北工大西门",
       "name": "北工大西门",
       "localName": "北工大西门",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "北新桥",
       "name": "北新桥",
       "localName": "北新桥",
-      "lines": [
-        "capital-airport-express",
-        "line-5"
-      ],
+      "lines": ["capital-airport-express", "line-5"],
       "isTransfer": true
     },
     {
       "id": "北沙滩",
       "name": "北沙滩",
       "localName": "北沙滩",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "北海北",
       "name": "北海北",
       "localName": "北海北",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "北神树",
       "name": "北神树",
       "localName": "北神树",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "北苑",
       "name": "北苑",
       "localName": "北苑",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "isTransfer": false
     },
     {
       "id": "北苑路北",
       "name": "北苑路北",
       "localName": "北苑路北",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "北辛安",
       "name": "北辛安",
       "localName": "北辛安",
-      "lines": [
-        "line-11"
-      ],
+      "lines": ["line-11"],
       "isTransfer": false
     },
     {
       "id": "北运河东",
       "name": "北运河东",
       "localName": "北运河东",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "北运河西",
       "name": "北运河西",
       "localName": "北运河西",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "北邵洼",
       "name": "北邵洼",
       "localName": "北邵洼",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "十三陵景区",
       "name": "十三陵景区",
       "localName": "十三陵景区",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "十八里店",
       "name": "十八里店",
       "localName": "十八里店",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "十里堡",
       "name": "十里堡",
       "localName": "十里堡",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "十里河",
       "name": "十里河",
       "localName": "十里河",
-      "lines": [
-        "line-10",
-        "line-14",
-        "line-17"
-      ],
+      "lines": ["line-10", "line-14", "line-17"],
       "isTransfer": true
     },
     {
       "id": "南楼梓庄",
       "name": "南楼梓庄",
       "localName": "南楼梓庄",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "南法信",
       "name": "南法信",
       "localName": "南法信",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "南礼士路",
       "name": "南礼士路",
       "localName": "南礼士路",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "南邵",
       "name": "南邵",
       "localName": "南邵",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "南锣鼓巷",
       "name": "南锣鼓巷",
       "localName": "南锣鼓巷",
-      "lines": [
-        "line-6",
-        "line-8"
-      ],
+      "lines": ["line-6", "line-8"],
       "isTransfer": true
     },
     {
       "id": "双井",
       "name": "双井",
       "localName": "双井",
-      "lines": [
-        "line-10",
-        "line-7"
-      ],
+      "lines": ["line-10", "line-7"],
       "isTransfer": true
     },
     {
       "id": "双合",
       "name": "双合",
       "localName": "双合",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "双桥",
       "name": "双桥",
       "localName": "双桥",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "古城",
       "name": "古城",
       "localName": "古城",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "同济南路",
       "name": "同济南路",
       "localName": "同济南路",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "后沙峪",
       "name": "后沙峪",
       "localName": "后沙峪",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "周家庄",
       "name": "周家庄",
       "localName": "周家庄",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "呼家楼",
       "name": "呼家楼",
       "localName": "呼家楼",
-      "lines": [
-        "line-10",
-        "line-6"
-      ],
+      "lines": ["line-10", "line-6"],
       "isTransfer": true
     },
     {
       "id": "和义",
       "name": "和义",
       "localName": "和义",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "和平西桥",
       "name": "和平西桥",
       "localName": "和平西桥",
-      "lines": [
-        "line-12",
-        "line-5"
-      ],
+      "lines": ["line-12", "line-5"],
       "isTransfer": true
     },
     {
       "id": "和平里北街",
       "name": "和平里北街",
       "localName": "和平里北街",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "和平门",
       "name": "和平门",
       "localName": "和平门",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "isTransfer": false
     },
     {
       "id": "善各庄",
       "name": "善各庄",
       "localName": "善各庄",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "嘉会湖",
       "name": "嘉会湖",
       "localName": "嘉会湖",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "四季青桥",
       "name": "四季青桥",
       "localName": "四季青桥",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "四惠",
       "name": "四惠",
       "localName": "四惠",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "四惠东",
       "name": "四惠东",
       "localName": "四惠东",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "四海庄",
       "name": "四海庄",
       "localName": "四海庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "四道桥",
       "name": "四道桥",
       "localName": "四道桥",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "回龙观",
       "name": "回龙观",
       "localName": "回龙观",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "isTransfer": false
     },
     {
       "id": "回龙观东大街",
       "name": "回龙观东大街",
       "localName": "回龙观东大街",
-      "lines": [
-        "line-18",
-        "line-8"
-      ],
+      "lines": ["line-18", "line-8"],
       "isTransfer": true
     },
     {
       "id": "回龙观西大街",
       "name": "回龙观西大街",
       "localName": "回龙观西大街",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     },
     {
       "id": "团结湖",
       "name": "团结湖",
       "localName": "团结湖",
-      "lines": [
-        "line-10",
-        "line-3"
-      ],
+      "lines": ["line-10", "line-3"],
       "isTransfer": true
     },
     {
       "id": "园博园",
       "name": "园博园",
       "localName": "园博园",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "国家图书馆",
       "name": "国家图书馆",
       "localName": "国家图书馆",
-      "lines": [
-        "line-16",
-        "line-4",
-        "line-9"
-      ],
+      "lines": ["line-16", "line-4", "line-9"],
       "isTransfer": true
     },
     {
       "id": "国家植物园",
       "name": "国家植物园",
       "localName": "国家植物园",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "isTransfer": false
     },
     {
       "id": "国展",
       "name": "国展",
       "localName": "国展",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "国贸",
       "name": "国贸",
       "localName": "国贸",
-      "lines": [
-        "line-1-batong",
-        "line-10"
-      ],
+      "lines": ["line-1-batong", "line-10"],
       "isTransfer": true
     },
     {
       "id": "圆明园",
       "name": "圆明园",
       "localName": "圆明园",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "土桥",
       "name": "土桥",
       "localName": "土桥",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "垡头",
       "name": "垡头",
       "localName": "垡头",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "复兴门",
       "name": "复兴门",
       "localName": "复兴门",
-      "lines": [
-        "line-1-batong",
-        "line-2"
-      ],
+      "lines": ["line-1-batong", "line-2"],
       "isTransfer": true
     },
     {
       "id": "大井",
       "name": "大井",
       "localName": "大井",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "大兴新城",
       "name": "大兴新城",
       "localName": "大兴新城",
-      "lines": [
-        "daxing-airport"
-      ],
+      "lines": ["daxing-airport"],
       "isTransfer": false
     },
     {
       "id": "大兴机场",
       "name": "大兴机场",
       "localName": "大兴机场",
-      "lines": [
-        "daxing-airport"
-      ],
+      "lines": ["daxing-airport"],
       "isTransfer": false
     },
     {
       "id": "大屯路东",
       "name": "大屯路东",
       "localName": "大屯路东",
-      "lines": [
-        "line-15",
-        "line-5"
-      ],
+      "lines": ["line-15", "line-5"],
       "isTransfer": true
     },
     {
       "id": "大望路",
       "name": "大望路",
       "localName": "大望路",
-      "lines": [
-        "line-1-batong",
-        "line-14"
-      ],
+      "lines": ["line-1-batong", "line-14"],
       "isTransfer": true
     },
     {
       "id": "大瓦窑",
       "name": "大瓦窑",
       "localName": "大瓦窑",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "大石河东",
       "name": "大石河东",
       "localName": "大石河东",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "大红门",
       "name": "大红门",
       "localName": "大红门",
-      "lines": [
-        "line-10",
-        "line-8"
-      ],
+      "lines": ["line-10", "line-8"],
       "isTransfer": true
     },
     {
       "id": "大红门南",
       "name": "大红门南",
       "localName": "大红门南",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "大葆台",
       "name": "大葆台",
       "localName": "大葆台",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "大郊亭",
       "name": "大郊亭",
       "localName": "大郊亭",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "大钟寺",
       "name": "大钟寺",
       "localName": "大钟寺",
-      "lines": [
-        "line-12",
-        "line-13"
-      ],
+      "lines": ["line-12", "line-13"],
       "isTransfer": true
     },
     {
       "id": "天坛东门",
       "name": "天坛东门",
       "localName": "天坛东门",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "天安门东",
       "name": "天安门东",
       "localName": "天安门东",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "天安门西",
       "name": "天安门西",
       "localName": "天安门西",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "天宫院",
       "name": "天宫院",
       "localName": "天宫院",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "天桥",
       "name": "天桥",
       "localName": "天桥",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "天通苑",
       "name": "天通苑",
       "localName": "天通苑",
-      "lines": [
-        "line-18",
-        "line-5"
-      ],
+      "lines": ["line-18", "line-5"],
       "isTransfer": true
     },
     {
       "id": "天通苑东",
       "name": "天通苑东",
       "localName": "天通苑东",
-      "lines": [
-        "line-17",
-        "line-18"
-      ],
+      "lines": ["line-17", "line-18"],
       "isTransfer": true
     },
     {
       "id": "天通苑北",
       "name": "天通苑北",
       "localName": "天通苑北",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "天通苑南",
       "name": "天通苑南",
       "localName": "天通苑南",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "太和桥北",
       "name": "太和桥北",
       "localName": "太和桥北",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "太平庄",
       "name": "太平庄",
       "localName": "太平庄",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     },
     {
       "id": "太平桥",
       "name": "太平桥",
       "localName": "太平桥",
-      "lines": [
-        "line-19"
-      ],
+      "lines": ["line-19"],
       "isTransfer": false
     },
     {
       "id": "太阳宫",
       "name": "太阳宫",
       "localName": "太阳宫",
-      "lines": [
-        "line-10",
-        "line-17"
-      ],
+      "lines": ["line-10", "line-17"],
       "isTransfer": true
     },
     {
       "id": "奥体中心",
       "name": "奥体中心",
       "localName": "奥体中心",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "奥林匹克公园",
       "name": "奥林匹克公园",
       "localName": "奥林匹克公园",
-      "lines": [
-        "line-15",
-        "line-8"
-      ],
+      "lines": ["line-15", "line-8"],
       "isTransfer": true
     },
     {
       "id": "姚家园",
       "name": "姚家园",
       "localName": "姚家园",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "isTransfer": false
     },
     {
       "id": "孙河",
       "name": "孙河",
       "localName": "孙河",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "学知园",
       "name": "学知园",
       "localName": "学知园",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "学院桥",
       "name": "学院桥",
       "localName": "学院桥",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "安华桥",
       "name": "安华桥",
       "localName": "安华桥",
-      "lines": [
-        "line-12",
-        "line-8"
-      ],
+      "lines": ["line-12", "line-8"],
       "isTransfer": true
     },
     {
       "id": "安定门",
       "name": "安定门",
       "localName": "安定门",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "isTransfer": false
     },
     {
       "id": "安德里北街",
       "name": "安德里北街",
       "localName": "安德里北街",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "安河桥北",
       "name": "安河桥北",
       "localName": "安河桥北",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "安立路",
       "name": "安立路",
       "localName": "安立路",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "安贞桥",
       "name": "安贞桥",
       "localName": "安贞桥",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "安贞门",
       "name": "安贞门",
       "localName": "安贞门",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "宋家庄",
       "name": "宋家庄",
       "localName": "宋家庄",
-      "lines": [
-        "line-10",
-        "line-5",
-        "yizhuang"
-      ],
+      "lines": ["line-10", "line-5", "yizhuang"],
       "isTransfer": true
     },
     {
       "id": "定海园",
       "name": "定海园",
       "localName": "定海园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "定海园西",
       "name": "定海园西",
       "localName": "定海园西",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "宛平城",
       "name": "宛平城",
       "localName": "宛平城",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "宣武门",
       "name": "宣武门",
       "localName": "宣武门",
-      "lines": [
-        "line-2",
-        "line-4"
-      ],
+      "lines": ["line-2", "line-4"],
       "isTransfer": true
     },
     {
       "id": "富丰桥",
       "name": "富丰桥",
       "localName": "富丰桥",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "将台",
       "name": "将台",
       "localName": "将台",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "将台西",
       "name": "将台西",
       "localName": "将台西",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "小园",
       "name": "小园",
       "localName": "小园",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "小红门",
       "name": "小红门",
       "localName": "小红门",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "屈庄",
       "name": "屈庄",
       "localName": "屈庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "屯佃",
       "name": "屯佃",
       "localName": "屯佃",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "崇文门",
       "name": "崇文门",
       "localName": "崇文门",
-      "lines": [
-        "line-2",
-        "line-5"
-      ],
+      "lines": ["line-2", "line-5"],
       "isTransfer": true
     },
     {
       "id": "崔各庄",
       "name": "崔各庄",
       "localName": "崔各庄",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "工人体育场",
       "name": "工人体育场",
       "localName": "工人体育场",
-      "lines": [
-        "line-17",
-        "line-3"
-      ],
+      "lines": ["line-17", "line-3"],
       "isTransfer": true
     },
     {
       "id": "左家庄",
       "name": "左家庄",
       "localName": "左家庄",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "巩华城",
       "name": "巩华城",
       "localName": "巩华城",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "巴沟",
       "name": "巴沟",
       "localName": "巴沟",
-      "lines": [
-        "line-10",
-        "xijiao"
-      ],
+      "lines": ["line-10", "xijiao"],
       "isTransfer": true
     },
     {
       "id": "常营",
       "name": "常营",
       "localName": "常营",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "平乐园",
       "name": "平乐园",
       "localName": "平乐园",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "平安里",
       "name": "平安里",
       "localName": "平安里",
-      "lines": [
-        "line-19",
-        "line-4",
-        "line-6"
-      ],
+      "lines": ["line-19", "line-4", "line-6"],
       "isTransfer": true
     },
     {
       "id": "平西府",
       "name": "平西府",
       "localName": "平西府",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "广安门内",
       "name": "广安门内",
       "localName": "广安门内",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "广渠门内",
       "name": "广渠门内",
       "localName": "广渠门内",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "广渠门外",
       "name": "广渠门外",
       "localName": "广渠门外",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "广阳城",
       "name": "广阳城",
       "localName": "广阳城",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "廖公庄",
       "name": "廖公庄",
       "localName": "廖公庄",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "建国门",
       "name": "建国门",
       "localName": "建国门",
-      "lines": [
-        "line-1-batong",
-        "line-2"
-      ],
+      "lines": ["line-1-batong", "line-2"],
       "isTransfer": true
     },
     {
       "id": "张自忠路",
       "name": "张自忠路",
       "localName": "张自忠路",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "张郭庄",
       "name": "张郭庄",
       "localName": "张郭庄",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "德茂",
       "name": "德茂",
       "localName": "德茂",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "惠新西街北口",
       "name": "惠新西街北口",
       "localName": "惠新西街北口",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "惠新西街南口",
       "name": "惠新西街南口",
       "localName": "惠新西街南口",
-      "lines": [
-        "line-10",
-        "line-5"
-      ],
+      "lines": ["line-10", "line-5"],
       "isTransfer": true
     },
     {
       "id": "慈寿寺",
       "name": "慈寿寺",
       "localName": "慈寿寺",
-      "lines": [
-        "line-10",
-        "line-6"
-      ],
+      "lines": ["line-10", "line-6"],
       "isTransfer": true
     },
     {
       "id": "成寿寺",
       "name": "成寿寺",
       "localName": "成寿寺",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "房山城关",
       "name": "房山城关",
       "localName": "房山城关",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "文华路",
       "name": "文华路",
       "localName": "文华路",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     },
     {
       "id": "新发地",
       "name": "新发地",
       "localName": "新发地",
-      "lines": [
-        "line-19"
-      ],
+      "lines": ["line-19"],
       "isTransfer": false
     },
     {
       "id": "新宫",
       "name": "新宫",
       "localName": "新宫",
-      "lines": [
-        "line-19",
-        "line-4"
-      ],
+      "lines": ["line-19", "line-4"],
       "isTransfer": true
     },
     {
       "id": "新街口",
       "name": "新街口",
       "localName": "新街口",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "新首钢",
       "name": "新首钢",
       "localName": "新首钢",
-      "lines": [
-        "line-11"
-      ],
+      "lines": ["line-11"],
       "isTransfer": false
     },
     {
       "id": "方庄",
       "name": "方庄",
       "localName": "方庄",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "旧宫",
       "name": "旧宫",
       "localName": "旧宫",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "昌平",
       "name": "昌平",
       "localName": "昌平",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "昌平东关",
       "name": "昌平东关",
       "localName": "昌平东关",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "昌平西山口",
       "name": "昌平西山口",
       "localName": "昌平西山口",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "星城",
       "name": "星城",
       "localName": "星城",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "景泰",
       "name": "景泰",
       "localName": "景泰",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "景风门",
       "name": "景风门",
       "localName": "景风门",
-      "lines": [
-        "line-14",
-        "line-19"
-      ],
+      "lines": ["line-14", "line-19"],
       "isTransfer": true
     },
     {
       "id": "望京",
       "name": "望京",
       "localName": "望京",
-      "lines": [
-        "line-14",
-        "line-15"
-      ],
+      "lines": ["line-14", "line-15"],
       "isTransfer": true
     },
     {
       "id": "望京东",
       "name": "望京东",
       "localName": "望京东",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "望京南",
       "name": "望京南",
       "localName": "望京南",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "望京西",
       "name": "望京西",
       "localName": "望京西",
-      "lines": [
-        "line-13",
-        "line-15",
-        "line-17"
-      ],
+      "lines": ["line-13", "line-15", "line-17"],
       "isTransfer": true
     },
     {
       "id": "朝阳公园",
       "name": "朝阳公园",
       "localName": "朝阳公园",
-      "lines": [
-        "line-14",
-        "line-3"
-      ],
+      "lines": ["line-14", "line-3"],
       "isTransfer": true
     },
     {
       "id": "朝阳站",
       "name": "朝阳站",
       "localName": "朝阳站",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "isTransfer": false
     },
     {
       "id": "朝阳门",
       "name": "朝阳门",
       "localName": "朝阳门",
-      "lines": [
-        "line-2",
-        "line-6"
-      ],
+      "lines": ["line-2", "line-6"],
       "isTransfer": true
     },
     {
       "id": "木樨园",
       "name": "木樨园",
       "localName": "木樨园",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "木樨地",
       "name": "木樨地",
       "localName": "木樨地",
-      "lines": [
-        "line-1-batong",
-        "line-16"
-      ],
+      "lines": ["line-1-batong", "line-16"],
       "isTransfer": true
     },
     {
       "id": "未来科学城",
       "name": "未来科学城",
       "localName": "未来科学城",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "未来科学城北",
       "name": "未来科学城北",
       "localName": "未来科学城北",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "朱房北",
       "name": "朱房北",
       "localName": "朱房北",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "朱辛庄",
       "name": "朱辛庄",
       "localName": "朱辛庄",
-      "lines": [
-        "changping",
-        "line-8"
-      ],
+      "lines": ["changping", "line-8"],
       "isTransfer": true
     },
     {
       "id": "来广营",
       "name": "来广营",
       "localName": "来广营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "杨庄",
       "name": "杨庄",
       "localName": "杨庄",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "林萃桥",
       "name": "林萃桥",
       "localName": "林萃桥",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "果园",
       "name": "果园",
       "localName": "果园",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "枣园",
       "name": "枣园",
       "localName": "枣园",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "枣营",
       "name": "枣营",
       "localName": "枣营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "柳芳",
       "name": "柳芳",
       "localName": "柳芳",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "isTransfer": false
     },
     {
       "id": "栗园庄",
       "name": "栗园庄",
       "localName": "栗园庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "桥户营",
       "name": "桥户营",
       "localName": "桥户营",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "桥湾",
       "name": "桥湾",
       "localName": "桥湾",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "梨园",
       "name": "梨园",
       "localName": "梨园",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "森林公园南门",
       "name": "森林公园南门",
       "localName": "森林公园南门",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "榆树庄",
       "name": "榆树庄",
       "localName": "榆树庄",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "模式口",
       "name": "模式口",
       "localName": "模式口",
-      "lines": [
-        "line-11"
-      ],
+      "lines": ["line-11"],
       "isTransfer": false
     },
     {
       "id": "次渠",
       "name": "次渠",
       "localName": "次渠",
-      "lines": [
-        "line-17",
-        "yizhuang"
-      ],
+      "lines": ["line-17", "yizhuang"],
       "isTransfer": true
     },
     {
       "id": "次渠北",
       "name": "次渠北",
       "localName": "次渠北",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "次渠南",
       "name": "次渠南",
       "localName": "次渠南",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "欢乐谷景区",
       "name": "欢乐谷景区",
       "localName": "欢乐谷景区",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "永丰",
       "name": "永丰",
       "localName": "永丰",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "永丰南",
       "name": "永丰南",
       "localName": "永丰南",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "永安里",
       "name": "永安里",
       "localName": "永安里",
-      "lines": [
-        "line-1-batong",
-        "line-17"
-      ],
+      "lines": ["line-1-batong", "line-17"],
       "isTransfer": true
     },
     {
       "id": "永定门外",
       "name": "永定门外",
       "localName": "永定门外",
-      "lines": [
-        "line-14",
-        "line-8"
-      ],
+      "lines": ["line-14", "line-8"],
       "isTransfer": true
     },
     {
       "id": "永泰庄",
       "name": "永泰庄",
       "localName": "永泰庄",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "沙河",
       "name": "沙河",
       "localName": "沙河",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "沙河高教园",
       "name": "沙河高教园",
       "localName": "沙河高教园",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "泥洼",
       "name": "泥洼",
       "localName": "泥洼",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "泰河路",
       "name": "泰河路",
       "localName": "泰河路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "洪泰庄",
       "name": "洪泰庄",
       "localName": "洪泰庄",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "海户屯",
       "name": "海户屯",
       "localName": "海户屯",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "海淀五路居",
       "name": "海淀五路居",
       "localName": "海淀五路居",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "海淀黄庄",
       "name": "海淀黄庄",
       "localName": "海淀黄庄",
-      "lines": [
-        "line-10",
-        "line-4"
-      ],
+      "lines": ["line-10", "line-4"],
       "isTransfer": true
     },
     {
       "id": "清华东路西口",
       "name": "清华东路西口",
       "localName": "清华东路西口",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "清河小营桥",
       "name": "清河小营桥",
       "localName": "清河小营桥",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "清河站",
       "name": "清河站",
       "localName": "清河站",
-      "lines": [
-        "changping",
-        "line-13"
-      ],
+      "lines": ["changping", "line-13"],
       "isTransfer": true
     },
     {
       "id": "清河营",
       "name": "清河营",
       "localName": "清河营",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "清源路",
       "name": "清源路",
       "localName": "清源路",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "温阳路",
       "name": "温阳路",
       "localName": "温阳路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "湾子",
       "name": "湾子",
       "localName": "湾子",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "潘家园",
       "name": "潘家园",
       "localName": "潘家园",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "潘家园西",
       "name": "潘家园西",
       "localName": "潘家园西",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "潞城",
       "name": "潞城",
       "localName": "潞城",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "潞阳",
       "name": "潞阳",
       "localName": "潞阳",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "瀛海",
       "name": "瀛海",
       "localName": "瀛海",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "火器营",
       "name": "火器营",
       "localName": "火器营",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "火箭万源",
       "name": "火箭万源",
       "localName": "火箭万源",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "灯市口",
       "name": "灯市口",
       "localName": "灯市口",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "灵境胡同",
       "name": "灵境胡同",
       "localName": "灵境胡同",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "焦化厂",
       "name": "焦化厂",
       "localName": "焦化厂",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "燕山",
       "name": "燕山",
       "localName": "燕山",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "牛街",
       "name": "牛街",
       "localName": "牛街",
-      "lines": [
-        "line-19"
-      ],
+      "lines": ["line-19"],
       "isTransfer": false
     },
     {
       "id": "牡丹园",
       "name": "牡丹园",
       "localName": "牡丹园",
-      "lines": [
-        "line-10",
-        "line-19"
-      ],
+      "lines": ["line-10", "line-19"],
       "isTransfer": true
     },
     {
       "id": "物资学院路",
       "name": "物资学院路",
       "localName": "物资学院路",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "玉泉路",
       "name": "玉泉路",
       "localName": "玉泉路",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "玉渊潭东门",
       "name": "玉渊潭东门",
       "localName": "玉渊潭东门",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "王府井",
       "name": "王府井",
       "localName": "王府井",
-      "lines": [
-        "line-1-batong",
-        "line-8"
-      ],
+      "lines": ["line-1-batong", "line-8"],
       "isTransfer": true
     },
     {
       "id": "环球度假区",
       "name": "环球度假区",
       "localName": "环球度假区",
-      "lines": [
-        "line-1-batong",
-        "line-7"
-      ],
+      "lines": ["line-1-batong", "line-7"],
       "isTransfer": true
     },
     {
       "id": "珠市口",
       "name": "珠市口",
       "localName": "珠市口",
-      "lines": [
-        "line-7",
-        "line-8"
-      ],
+      "lines": ["line-7", "line-8"],
       "isTransfer": true
     },
     {
       "id": "瑞合庄",
       "name": "瑞合庄",
       "localName": "瑞合庄",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "甘家口",
       "name": "甘家口",
       "localName": "甘家口",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "生命科学园",
       "name": "生命科学园",
       "localName": "生命科学园",
-      "lines": [
-        "changping"
-      ],
+      "lines": ["changping"],
       "isTransfer": false
     },
     {
       "id": "生物医药基地",
       "name": "生物医药基地",
       "localName": "生物医药基地",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "田村",
       "name": "田村",
       "localName": "田村",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "白堆子",
       "name": "白堆子",
       "localName": "白堆子",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "isTransfer": false
     },
     {
       "id": "白盆窑",
       "name": "白盆窑",
       "localName": "白盆窑",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "白石桥南",
       "name": "白石桥南",
       "localName": "白石桥南",
-      "lines": [
-        "line-6",
-        "line-9"
-      ],
+      "lines": ["line-6", "line-9"],
       "isTransfer": true
     },
     {
       "id": "百子湾",
       "name": "百子湾",
       "localName": "百子湾",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "看丹",
       "name": "看丹",
       "localName": "看丹",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "知春路",
       "name": "知春路",
       "localName": "知春路",
-      "lines": [
-        "line-10",
-        "line-13"
-      ],
+      "lines": ["line-10", "line-13"],
       "isTransfer": true
     },
     {
       "id": "知春里",
       "name": "知春里",
       "localName": "知春里",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "石佛营",
       "name": "石佛营",
       "localName": "石佛营",
-      "lines": [
-        "line-3"
-      ],
+      "lines": ["line-3"],
       "isTransfer": false
     },
     {
       "id": "石厂",
       "name": "石厂",
       "localName": "石厂",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "石榴庄",
       "name": "石榴庄",
       "localName": "石榴庄",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "石门",
       "name": "石门",
       "localName": "石门",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "磁器口",
       "name": "磁器口",
       "localName": "磁器口",
-      "lines": [
-        "line-5",
-        "line-7"
-      ],
+      "lines": ["line-5", "line-7"],
       "isTransfer": true
     },
     {
       "id": "科怡路",
       "name": "科怡路",
       "localName": "科怡路",
-      "lines": [
-        "line-9"
-      ],
+      "lines": ["line-9"],
       "isTransfer": false
     },
     {
       "id": "积水潭",
       "name": "积水潭",
       "localName": "积水潭",
-      "lines": [
-        "line-19",
-        "line-2"
-      ],
+      "lines": ["line-19", "line-2"],
       "isTransfer": true
     },
     {
       "id": "稻田",
       "name": "稻田",
       "localName": "稻田",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "稻香湖路",
       "name": "稻香湖路",
       "localName": "稻香湖路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "立水桥",
       "name": "立水桥",
       "localName": "立水桥",
-      "lines": [
-        "line-13",
-        "line-5"
-      ],
+      "lines": ["line-13", "line-5"],
       "isTransfer": true
     },
     {
       "id": "立水桥南",
       "name": "立水桥南",
       "localName": "立水桥南",
-      "lines": [
-        "line-5"
-      ],
+      "lines": ["line-5"],
       "isTransfer": false
     },
     {
       "id": "管庄",
       "name": "管庄",
       "localName": "管庄",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "篱笆房",
       "name": "篱笆房",
       "localName": "篱笆房",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "红军营",
       "name": "红军营",
       "localName": "红军营",
-      "lines": [
-        "line-17"
-      ],
+      "lines": ["line-17"],
       "isTransfer": false
     },
     {
       "id": "红莲南路",
       "name": "红莲南路",
       "localName": "红莲南路",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "纪家庙",
       "name": "纪家庙",
       "localName": "纪家庙",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "紫草坞",
       "name": "紫草坞",
       "localName": "紫草坞",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "经海一路",
       "name": "经海一路",
       "localName": "经海一路",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "经海路",
       "name": "经海路",
       "localName": "经海路",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "群芳",
       "name": "群芳",
       "localName": "群芳",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "老观里",
       "name": "老观里",
       "localName": "老观里",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "肖村",
       "name": "肖村",
       "localName": "肖村",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "育新",
       "name": "育新",
       "localName": "育新",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "育知路",
       "name": "育知路",
       "localName": "育知路",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "良乡南关",
       "name": "良乡南关",
       "localName": "良乡南关",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "良乡大学城",
       "name": "良乡大学城",
       "localName": "良乡大学城",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "良乡大学城北",
       "name": "良乡大学城北",
       "localName": "良乡大学城北",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "良乡大学城西",
       "name": "良乡大学城西",
       "localName": "良乡大学城西",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "芍药居",
       "name": "芍药居",
       "localName": "芍药居",
-      "lines": [
-        "line-10",
-        "line-13"
-      ],
+      "lines": ["line-10", "line-13"],
       "isTransfer": true
     },
     {
       "id": "花园桥",
       "name": "花园桥",
       "localName": "花园桥",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "花乡东桥",
       "name": "花乡东桥",
       "localName": "花乡东桥",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "花庄",
       "name": "花庄",
       "localName": "花庄",
-      "lines": [
-        "line-1-batong",
-        "line-7"
-      ],
+      "lines": ["line-1-batong", "line-7"],
       "isTransfer": true
     },
     {
       "id": "花梨坎",
       "name": "花梨坎",
       "localName": "花梨坎",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "苏州桥",
       "name": "苏州桥",
       "localName": "苏州桥",
-      "lines": [
-        "line-12",
-        "line-16"
-      ],
+      "lines": ["line-12", "line-16"],
       "isTransfer": true
     },
     {
       "id": "苏州街",
       "name": "苏州街",
       "localName": "苏州街",
-      "lines": [
-        "line-10",
-        "line-16"
-      ],
+      "lines": ["line-10", "line-16"],
       "isTransfer": true
     },
     {
       "id": "苏庄",
       "name": "苏庄",
       "localName": "苏庄",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "苹果园",
       "name": "苹果园",
       "localName": "苹果园",
-      "lines": [
-        "line-1",
-        "line-1-batong",
-        "line-6"
-      ],
+      "lines": ["line-1", "line-1-batong", "line-6"],
       "isTransfer": true
     },
     {
       "id": "茶棚",
       "name": "茶棚",
       "localName": "茶棚",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "isTransfer": false
     },
     {
       "id": "草房",
       "name": "草房",
       "localName": "草房",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "草桥",
       "name": "草桥",
       "localName": "草桥",
-      "lines": [
-        "daxing-airport",
-        "line-10",
-        "line-19"
-      ],
+      "lines": ["daxing-airport", "line-10", "line-19"],
       "isTransfer": true
     },
     {
       "id": "荣京东街",
       "name": "荣京东街",
       "localName": "荣京东街",
-      "lines": [
-        "yizhuang"
-      ],
+      "lines": ["yizhuang"],
       "isTransfer": false
     },
     {
       "id": "荣昌东街",
       "name": "荣昌东街",
       "localName": "荣昌东街",
-      "lines": [
-        "line-1",
-        "yizhuang"
-      ],
+      "lines": ["line-1", "yizhuang"],
       "isTransfer": true
     },
     {
       "id": "莲花桥",
       "name": "莲花桥",
       "localName": "莲花桥",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "菜市口",
       "name": "菜市口",
       "localName": "菜市口",
-      "lines": [
-        "line-4",
-        "line-7"
-      ],
+      "lines": ["line-4", "line-7"],
       "isTransfer": true
     },
     {
       "id": "菜户营",
       "name": "菜户营",
       "localName": "菜户营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "蒲黄榆",
       "name": "蒲黄榆",
       "localName": "蒲黄榆",
-      "lines": [
-        "line-14",
-        "line-5"
-      ],
+      "lines": ["line-14", "line-5"],
       "isTransfer": true
     },
     {
       "id": "蓝靛厂",
       "name": "蓝靛厂",
       "localName": "蓝靛厂",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "蓟门桥",
       "name": "蓟门桥",
       "localName": "蓟门桥",
-      "lines": [
-        "changping",
-        "line-12"
-      ],
+      "lines": ["changping", "line-12"],
       "isTransfer": true
     },
     {
       "id": "虎坊桥",
       "name": "虎坊桥",
       "localName": "虎坊桥",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "融兴街",
       "name": "融兴街",
       "localName": "融兴街",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "褡裢坡",
       "name": "褡裢坡",
       "localName": "褡裢坡",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "西二旗",
       "name": "西二旗",
       "localName": "西二旗",
-      "lines": [
-        "changping",
-        "line-13"
-      ],
+      "lines": ["changping", "line-13"],
       "isTransfer": true
     },
     {
       "id": "西北旺",
       "name": "西北旺",
       "localName": "西北旺",
-      "lines": [
-        "line-16"
-      ],
+      "lines": ["line-16"],
       "isTransfer": false
     },
     {
       "id": "西单",
       "name": "西单",
       "localName": "西单",
-      "lines": [
-        "line-1-batong",
-        "line-4"
-      ],
+      "lines": ["line-1-batong", "line-4"],
       "isTransfer": true
     },
     {
       "id": "西四",
       "name": "西四",
       "localName": "西四",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "西土城",
       "name": "西土城",
       "localName": "西土城",
-      "lines": [
-        "changping",
-        "line-10"
-      ],
+      "lines": ["changping", "line-10"],
       "isTransfer": true
     },
     {
       "id": "西坝河",
       "name": "西坝河",
       "localName": "西坝河",
-      "lines": [
-        "line-12",
-        "line-17"
-      ],
+      "lines": ["line-12", "line-17"],
       "isTransfer": true
     },
     {
       "id": "西小口",
       "name": "西小口",
       "localName": "西小口",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "西局",
       "name": "西局",
       "localName": "西局",
-      "lines": [
-        "line-10",
-        "line-14"
-      ],
+      "lines": ["line-10", "line-14"],
       "isTransfer": true
     },
     {
       "id": "西直门",
       "name": "西直门",
       "localName": "西直门",
-      "lines": [
-        "line-13",
-        "line-2",
-        "line-4"
-      ],
+      "lines": ["line-13", "line-2", "line-4"],
       "isTransfer": true
     },
     {
       "id": "西红门",
       "name": "西红门",
       "localName": "西红门",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "西苑",
       "name": "西苑",
       "localName": "西苑",
-      "lines": [
-        "line-16",
-        "line-4"
-      ],
+      "lines": ["line-16", "line-4"],
       "isTransfer": true
     },
     {
       "id": "西钓鱼台",
       "name": "西钓鱼台",
       "localName": "西钓鱼台",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "西铁营",
       "name": "西铁营",
       "localName": "西铁营",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "西黄村",
       "name": "西黄村",
       "localName": "西黄村",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "角门东",
       "name": "角门东",
       "localName": "角门东",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "角门西",
       "name": "角门西",
       "localName": "角门西",
-      "lines": [
-        "line-10",
-        "line-4"
-      ],
+      "lines": ["line-10", "line-4"],
       "isTransfer": true
     },
     {
       "id": "车公庄",
       "name": "车公庄",
       "localName": "车公庄",
-      "lines": [
-        "line-2",
-        "line-6"
-      ],
+      "lines": ["line-2", "line-6"],
       "isTransfer": true
     },
     {
       "id": "车公庄西",
       "name": "车公庄西",
       "localName": "车公庄西",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "车道沟",
       "name": "车道沟",
       "localName": "车道沟",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "达官营",
       "name": "达官营",
       "localName": "达官营",
-      "lines": [
-        "line-16",
-        "line-7"
-      ],
+      "lines": ["line-16", "line-7"],
       "isTransfer": true
     },
     {
       "id": "通州北关",
       "name": "通州北关",
       "localName": "通州北关",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "通州北苑",
       "name": "通州北苑",
       "localName": "通州北苑",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "通运门",
       "name": "通运门",
       "localName": "通运门",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "郎辛庄",
       "name": "郎辛庄",
       "localName": "郎辛庄",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "郝家府",
       "name": "郝家府",
       "localName": "郝家府",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "郭公庄",
       "name": "郭公庄",
       "localName": "郭公庄",
-      "lines": [
-        "fangshan",
-        "line-9"
-      ],
+      "lines": ["fangshan", "line-9"],
       "isTransfer": true
     },
     {
       "id": "郭庄子",
       "name": "郭庄子",
       "localName": "郭庄子",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "金台夕照",
       "name": "金台夕照",
       "localName": "金台夕照",
-      "lines": [
-        "line-10"
-      ],
+      "lines": ["line-10"],
       "isTransfer": false
     },
     {
       "id": "金台路",
       "name": "金台路",
       "localName": "金台路",
-      "lines": [
-        "line-14",
-        "line-6"
-      ],
+      "lines": ["line-14", "line-6"],
       "isTransfer": true
     },
     {
       "id": "金安桥",
       "name": "金安桥",
       "localName": "金安桥",
-      "lines": [
-        "line-1",
-        "line-11",
-        "line-6"
-      ],
+      "lines": ["line-1", "line-11", "line-6"],
       "isTransfer": true
     },
     {
       "id": "金鱼胡同",
       "name": "金鱼胡同",
       "localName": "金鱼胡同",
-      "lines": [
-        "line-8"
-      ],
+      "lines": ["line-8"],
       "isTransfer": false
     },
     {
       "id": "长春桥",
       "name": "长春桥",
       "localName": "长春桥",
-      "lines": [
-        "line-10",
-        "line-12"
-      ],
+      "lines": ["line-10", "line-12"],
       "isTransfer": true
     },
     {
       "id": "长椿街",
       "name": "长椿街",
       "localName": "长椿街",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "isTransfer": false
     },
     {
       "id": "长阳",
       "name": "长阳",
       "localName": "长阳",
-      "lines": [
-        "fangshan"
-      ],
+      "lines": ["fangshan"],
       "isTransfer": false
     },
     {
       "id": "阎村",
       "name": "阎村",
       "localName": "阎村",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "阎村东",
       "name": "阎村东",
       "localName": "阎村东",
-      "lines": [
-        "fangshan",
-        "yanfang"
-      ],
+      "lines": ["fangshan", "yanfang"],
       "isTransfer": true
     },
     {
       "id": "阜成门",
       "name": "阜成门",
       "localName": "阜成门",
-      "lines": [
-        "line-2"
-      ],
+      "lines": ["line-2"],
       "isTransfer": false
     },
     {
       "id": "阜通",
       "name": "阜通",
       "localName": "阜通",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "陶然亭",
       "name": "陶然亭",
       "localName": "陶然亭",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "陶然桥",
       "name": "陶然桥",
       "localName": "陶然桥",
-      "lines": [
-        "line-14"
-      ],
+      "lines": ["line-14"],
       "isTransfer": false
     },
     {
       "id": "雍和宫",
       "name": "雍和宫",
       "localName": "雍和宫",
-      "lines": [
-        "line-2",
-        "line-5"
-      ],
+      "lines": ["line-2", "line-5"],
       "isTransfer": true
     },
     {
       "id": "霍营",
       "name": "霍营",
       "localName": "霍营",
-      "lines": [
-        "line-13",
-        "line-8"
-      ],
+      "lines": ["line-13", "line-8"],
       "isTransfer": true
     },
     {
       "id": "霍营东",
       "name": "霍营东",
       "localName": "霍营东",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     },
     {
       "id": "青年路",
       "name": "青年路",
       "localName": "青年路",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "顺义",
       "name": "顺义",
       "localName": "顺义",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "颐和园西门",
       "name": "颐和园西门",
       "localName": "颐和园西门",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "isTransfer": false
     },
     {
       "id": "饶乐府",
       "name": "饶乐府",
       "localName": "饶乐府",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "首经贸",
       "name": "首经贸",
       "localName": "首经贸",
-      "lines": [
-        "fangshan",
-        "line-10"
-      ],
+      "lines": ["fangshan", "line-10"],
       "isTransfer": true
     },
     {
       "id": "香山",
       "name": "香山",
       "localName": "香山",
-      "lines": [
-        "xijiao"
-      ],
+      "lines": ["xijiao"],
       "isTransfer": false
     },
     {
       "id": "马各庄",
       "name": "马各庄",
       "localName": "马各庄",
-      "lines": [
-        "yanfang"
-      ],
+      "lines": ["yanfang"],
       "isTransfer": false
     },
     {
       "id": "马家堡",
       "name": "马家堡",
       "localName": "马家堡",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "马泉营",
       "name": "马泉营",
       "localName": "马泉营",
-      "lines": [
-        "line-15"
-      ],
+      "lines": ["line-15"],
       "isTransfer": false
     },
     {
       "id": "马甸桥",
       "name": "马甸桥",
       "localName": "马甸桥",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "马连洼",
       "name": "马连洼",
       "localName": "马连洼",
-      "lines": [
-        "line-16",
-        "line-18"
-      ],
+      "lines": ["line-16", "line-18"],
       "isTransfer": true
     },
     {
       "id": "驼房营",
       "name": "驼房营",
       "localName": "驼房营",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "高家园",
       "name": "高家园",
       "localName": "高家园",
-      "lines": [
-        "line-12"
-      ],
+      "lines": ["line-12"],
       "isTransfer": false
     },
     {
       "id": "高楼金",
       "name": "高楼金",
       "localName": "高楼金",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "高碑店",
       "name": "高碑店",
       "localName": "高碑店",
-      "lines": [
-        "line-1-batong"
-      ],
+      "lines": ["line-1-batong"],
       "isTransfer": false
     },
     {
       "id": "高米店北",
       "name": "高米店北",
       "localName": "高米店北",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "高米店南",
       "name": "高米店南",
       "localName": "高米店南",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "魏公村",
       "name": "魏公村",
       "localName": "魏公村",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "鹿圈东",
       "name": "鹿圈东",
       "localName": "鹿圈东",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "isTransfer": false
     },
     {
       "id": "黄厂",
       "name": "黄厂",
       "localName": "黄厂",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "黄村火车站",
       "name": "黄村火车站",
       "localName": "黄村火车站",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "黄村西大街",
       "name": "黄村西大街",
       "localName": "黄村西大街",
-      "lines": [
-        "line-4"
-      ],
+      "lines": ["line-4"],
       "isTransfer": false
     },
     {
       "id": "黄渠",
       "name": "黄渠",
       "localName": "黄渠",
-      "lines": [
-        "line-6"
-      ],
+      "lines": ["line-6"],
       "isTransfer": false
     },
     {
       "id": "黑庄户",
       "name": "黑庄户",
       "localName": "黑庄户",
-      "lines": [
-        "line-7"
-      ],
+      "lines": ["line-7"],
       "isTransfer": false
     },
     {
       "id": "鼓楼大街",
       "name": "鼓楼大街",
       "localName": "鼓楼大街",
-      "lines": [
-        "line-2",
-        "line-8"
-      ],
+      "lines": ["line-2", "line-8"],
       "isTransfer": true
     },
     {
       "id": "龙泽",
       "name": "龙泽",
       "localName": "龙泽",
-      "lines": [
-        "line-13"
-      ],
+      "lines": ["line-13"],
       "isTransfer": false
     },
     {
       "id": "龙泽西",
       "name": "龙泽西",
       "localName": "龙泽西",
-      "lines": [
-        "line-18"
-      ],
+      "lines": ["line-18"],
       "isTransfer": false
     }
   ]

@@ -4,234 +4,176 @@
       "id": "18th",
       "systemId": "cta",
       "name": "18th",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.857908,
         "lng": -87.669147
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "18th is a station on the Pink Line in the Pilsen neighborhood."
     },
     {
       "id": "35th-bronzeville-iit",
       "systemId": "cta",
       "name": "35th-Bronzeville-IIT",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.831677,
         "lng": -87.625826
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "35th-Bronzeville-IIT is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
       "id": "35th-archer",
       "systemId": "cta",
       "name": "35th/Archer",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.829353,
         "lng": -87.680622
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "35th/Archer is a station on the Orange Line in the Brighton Park neighborhood."
     },
     {
       "id": "43rd",
       "systemId": "cta",
       "name": "43rd",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.816462,
         "lng": -87.619021
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "43rd is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
       "id": "47th-green",
       "systemId": "cta",
       "name": "47th (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.809209,
         "lng": -87.618826
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "47th is a station on the Green Line in the Grand Boulevard neighborhood."
     },
     {
       "id": "47th-red",
       "systemId": "cta",
       "name": "47th (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.810318,
         "lng": -87.63094
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "47th is a station on the Red Line in the Grand Boulevard neighborhood."
     },
     {
       "id": "51st",
       "systemId": "cta",
       "name": "51st",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.80209,
         "lng": -87.618487
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "51st is a station on the Green Line."
     },
     {
       "id": "54th-cermak",
       "systemId": "cta",
       "name": "54th/Cermak",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.851773,
         "lng": -87.756692
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "54th/Cermak is the southern terminus of the Pink Line in Archer Heights."
     },
     {
       "id": "63rd",
       "systemId": "cta",
       "name": "63rd",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.780536,
         "lng": -87.630952
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "63rd is a station on the Red Line in the Englewood neighborhood."
     },
     {
       "id": "69th",
       "systemId": "cta",
       "name": "69th",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.768367,
         "lng": -87.625724
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "69th is a station on the Red Line in the Greater Grand Crossing neighborhood."
     },
     {
       "id": "79th",
       "systemId": "cta",
       "name": "79th",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.750419,
         "lng": -87.625112
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "79th is a station on the Red Line in the Chatham neighborhood."
     },
     {
       "id": "87th",
       "systemId": "cta",
       "name": "87th",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.735372,
         "lng": -87.624717
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "87th is a station on the Red Line in the Auburn Gresham neighborhood."
     },
     {
       "id": "95th-dan-ryan",
       "systemId": "cta",
       "name": "95th/Dan Ryan",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.722377,
         "lng": -87.624342
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "95th/Dan Ryan is the southern terminus of the Red Line on the South Side, featuring a major bus terminal."
     },
     {
       "id": "adams-wabash",
       "systemId": "cta",
       "name": "Adams/Wabash",
-      "lines": [
-        "brown",
-        "green",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["brown", "green", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.879507,
@@ -244,147 +186,111 @@
       "id": "addison-blue",
       "systemId": "cta",
       "name": "Addison (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.946604,
         "lng": -87.718458
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Addison is a station on the Blue Line in the Avondale neighborhood."
     },
     {
       "id": "addison-brown",
       "systemId": "cta",
       "name": "Addison (Brown)",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.947028,
         "lng": -87.674642
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Addison is a station on the Brown Line in the Wrigleyville neighborhood."
     },
     {
       "id": "addison-red",
       "systemId": "cta",
       "name": "Addison (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.947316,
         "lng": -87.653624
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Addison is a station on the Red Line in the Wrigleyville neighborhood."
     },
     {
       "id": "argyle",
       "systemId": "cta",
       "name": "Argyle",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.973322,
         "lng": -87.658528
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Argyle is a station on the Red Line in the Uptown neighborhood."
     },
     {
       "id": "armitage-brown-purple",
       "systemId": "cta",
       "name": "Armitage (Brown/Purple)",
-      "lines": [
-        "brown",
-        "purple"
-      ],
+      "lines": ["brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.918217,
         "lng": -87.652644
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Armitage is a station on the Brown and Purple lines in Lincoln Park."
     },
     {
       "id": "ashland-green-pink",
       "systemId": "cta",
       "name": "Ashland (Green/Pink)",
-      "lines": [
-        "green",
-        "pink"
-      ],
+      "lines": ["green", "pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.885269,
         "lng": -87.666969
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Ashland is a station on the Green and Pink lines in Near West Side."
     },
     {
       "id": "ashland-orange",
       "systemId": "cta",
       "name": "Ashland (Orange)",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.839234,
         "lng": -87.665317
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Ashland is a station on the Orange Line in the McKinley Park neighborhood."
     },
     {
       "id": "ashland-63rd",
       "systemId": "cta",
       "name": "Ashland/63rd",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.77886,
         "lng": -87.663766
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Ashland/63rd is a station on the Green Line in the Englewood neighborhood."
     },
     {
       "id": "austin-blue",
       "systemId": "cta",
       "name": "Austin (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.870851,
@@ -397,9 +303,7 @@
       "id": "austin-green",
       "systemId": "cta",
       "name": "Austin (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.887293,
@@ -412,9 +316,7 @@
       "id": "belmont-blue",
       "systemId": "cta",
       "name": "Belmont (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.939111,
@@ -427,62 +329,46 @@
       "id": "belmont-red-brown-purple",
       "systemId": "cta",
       "name": "Belmont (Red/Brown/Purple)",
-      "lines": [
-        "red",
-        "brown",
-        "purple"
-      ],
+      "lines": ["red", "brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.939751,
         "lng": -87.65338
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Belmont is a major transfer station in Lakeview, serving the Red, Brown, and Purple lines."
     },
     {
       "id": "berwyn",
       "systemId": "cta",
       "name": "Berwyn",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.977984,
         "lng": -87.658668
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Berwyn is a station on the Red Line in the Edgewater neighborhood."
     },
     {
       "id": "bryn-mawr",
       "systemId": "cta",
       "name": "Bryn Mawr",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.983504,
         "lng": -87.65884
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Bryn Mawr is a station on the Red Line in the Edgewater neighborhood."
     },
     {
       "id": "california-blue",
       "systemId": "cta",
       "name": "California (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.922158,
@@ -495,60 +381,46 @@
       "id": "california-green",
       "systemId": "cta",
       "name": "California (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.88422,
         "lng": -87.696234
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "California is a station on the Green Line in the Humboldt Park neighborhood."
     },
     {
       "id": "california-pink",
       "systemId": "cta",
       "name": "California (Pink)",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.854109,
         "lng": -87.694774
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "California is a station on the Pink Line in the Brighton Park neighborhood."
     },
     {
       "id": "central-green",
       "systemId": "cta",
       "name": "Central (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.887389,
         "lng": -87.76565
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Central is a station on the Green Line in the Austin neighborhood."
     },
     {
       "id": "central-purple",
       "systemId": "cta",
       "name": "Central (Purple)",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.063987,
@@ -561,60 +433,46 @@
       "id": "central-park",
       "systemId": "cta",
       "name": "Central Park",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.853839,
         "lng": -87.714842
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Central Park is a station on the Pink Line in the Lawndale neighborhood."
     },
     {
       "id": "cermak-chinatown",
       "systemId": "cta",
       "name": "Cermak-Chinatown",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.853206,
         "lng": -87.630968
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Cermak-Chinatown is a station on the Red Line in Chinatown, one of the few outdoor stations on the Red Line's South Side segment."
     },
     {
       "id": "cermak-mccormick-place",
       "systemId": "cta",
       "name": "Cermak-McCormick Place",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.853115,
         "lng": -87.626402
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Cermak-McCormick Place is a station on the Green Line near McCormick Place convention center."
     },
     {
       "id": "chicago-blue",
       "systemId": "cta",
       "name": "Chicago (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.896075,
@@ -627,44 +485,33 @@
       "id": "chicago-brown-purple",
       "systemId": "cta",
       "name": "Chicago (Brown/Purple)",
-      "lines": [
-        "brown",
-        "purple"
-      ],
+      "lines": ["brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.89681,
         "lng": -87.635924
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Chicago is a station on the Brown and Purple lines at Chicago Avenue in River North."
     },
     {
       "id": "chicago-red",
       "systemId": "cta",
       "name": "Chicago (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.896671,
         "lng": -87.628176
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Chicago is a station on the Red Line in the River North neighborhood."
     },
     {
       "id": "cicero-blue",
       "systemId": "cta",
       "name": "Cicero (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.871574,
@@ -677,82 +524,59 @@
       "id": "cicero-green",
       "systemId": "cta",
       "name": "Cicero (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.886519,
         "lng": -87.744698
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Cicero is a station on the Green Line in the Austin neighborhood."
     },
     {
       "id": "cicero-pink",
       "systemId": "cta",
       "name": "Cicero (Pink)",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.85182,
         "lng": -87.745336
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Cicero is a station on the Pink Line in the Cicero neighborhood."
     },
     {
       "id": "clark-division",
       "systemId": "cta",
       "name": "Clark/Division",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.90392,
         "lng": -87.631412
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Clark/Division is a station on the Red Line in the Gold Coast neighborhood near Rush Street."
     },
     {
       "id": "clark-lake",
       "systemId": "cta",
       "name": "Clark/Lake",
-      "lines": [
-        "blue",
-        "brown",
-        "green",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["blue", "brown", "green", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.885737,
         "lng": -87.630886
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Clark/Lake is a major downtown hub in the Loop, serving six L lines with connections to all services."
     },
     {
       "id": "clinton-blue",
       "systemId": "cta",
       "name": "Clinton (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.875539,
@@ -765,78 +589,59 @@
       "id": "clinton-green-pink",
       "systemId": "cta",
       "name": "Clinton (Green/Pink)",
-      "lines": [
-        "green",
-        "pink"
-      ],
+      "lines": ["green", "pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.885678,
         "lng": -87.641782
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Clinton is a station on the Green and Pink lines in West Loop."
     },
     {
       "id": "conservatory-central-park-drive",
       "systemId": "cta",
       "name": "Conservatory-Central Park Drive",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.884904,
         "lng": -87.716523
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Conservatory-Central Park Drive is a station on the Green Line in the Garfield Park neighborhood."
     },
     {
       "id": "cottage-grove",
       "systemId": "cta",
       "name": "Cottage Grove",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.780309,
         "lng": -87.605857
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Cottage Grove is the eastern terminus of the Green Line's Cottage Grove branch on the South Side."
     },
     {
       "id": "cumberland",
       "systemId": "cta",
       "name": "Cumberland",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.984246,
         "lng": -87.838028
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Cumberland is a station on the Blue Line in the Cumberland neighborhood."
     },
     {
       "id": "damen-blue",
       "systemId": "cta",
       "name": "Damen (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.909845,
@@ -849,77 +654,59 @@
       "id": "damen-brown",
       "systemId": "cta",
       "name": "Damen (Brown)",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.966286,
         "lng": -87.678639
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Damen is a station on the Brown Line in the North Center neighborhood."
     },
     {
       "id": "damen-green",
       "systemId": "cta",
       "name": "Damen (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.884974,
         "lng": -87.676891
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Damen is a station on the Green Line in the Near West Side neighborhood."
     },
     {
       "id": "damen-pink",
       "systemId": "cta",
       "name": "Damen (Pink)",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.854517,
         "lng": -87.675975
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Damen is a station on the Pink Line in the McKinley Park neighborhood."
     },
     {
       "id": "davis",
       "systemId": "cta",
       "name": "Davis",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.04771,
         "lng": -87.683543
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Davis is a station in downtown Evanston on the Purple Line, serving as the line's primary Evanston stop."
     },
     {
       "id": "dempster",
       "systemId": "cta",
       "name": "Dempster",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.041655,
@@ -932,44 +719,33 @@
       "id": "dempster-skokie",
       "systemId": "cta",
       "name": "Dempster-Skokie",
-      "lines": [
-        "yellow"
-      ],
+      "lines": ["yellow"],
       "status": "active",
       "coordinates": {
         "lat": 42.038951,
         "lng": -87.751919
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Dempster-Skokie is the northern terminus of the Yellow Line in Skokie."
     },
     {
       "id": "diversey-brown-purple",
       "systemId": "cta",
       "name": "Diversey (Brown/Purple)",
-      "lines": [
-        "brown",
-        "purple"
-      ],
+      "lines": ["brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.932732,
         "lng": -87.653131
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Diversey is a station on the Brown and Purple lines in Lakeview."
     },
     {
       "id": "division",
       "systemId": "cta",
       "name": "Division",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.903355,
@@ -982,26 +758,20 @@
       "id": "forest-park",
       "systemId": "cta",
       "name": "Forest Park",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.874257,
         "lng": -87.817318
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Forest Park is the western terminus of the Blue Line's Forest Park branch."
     },
     {
       "id": "foster",
       "systemId": "cta",
       "name": "Foster",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.05416,
@@ -1014,79 +784,59 @@
       "id": "francisco",
       "systemId": "cta",
       "name": "Francisco",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.966046,
         "lng": -87.701644
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Francisco is a station on the Brown Line in the North Center neighborhood."
     },
     {
       "id": "fullerton",
       "systemId": "cta",
       "name": "Fullerton",
-      "lines": [
-        "red",
-        "brown",
-        "purple"
-      ],
+      "lines": ["red", "brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.9253,
         "lng": -87.652868
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Fullerton is a major transfer station in Lincoln Park, serving the Red, Brown, and Purple lines."
     },
     {
       "id": "garfield-green",
       "systemId": "cta",
       "name": "Garfield (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.795172,
         "lng": -87.618327
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Garfield is a station on the Green Line in the Washington Park neighborhood."
     },
     {
       "id": "garfield-red",
       "systemId": "cta",
       "name": "Garfield (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.79542,
         "lng": -87.631157
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Garfield is a station on the Red Line in the Washington Park neighborhood."
     },
     {
       "id": "grand-blue",
       "systemId": "cta",
       "name": "Grand (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.891189,
@@ -1099,77 +849,59 @@
       "id": "grand-red",
       "systemId": "cta",
       "name": "Grand (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.891665,
         "lng": -87.628021
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Grand is a station on the Red Line in the River North neighborhood."
     },
     {
       "id": "granville",
       "systemId": "cta",
       "name": "Granville",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.994483,
         "lng": -87.659187
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Granville is a station on the Red Line in the Edgewater neighborhood."
     },
     {
       "id": "halsted-green",
       "systemId": "cta",
       "name": "Halsted (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.778943,
         "lng": -87.644244
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Halsted is a station on the Green Line in the Englewood neighborhood."
     },
     {
       "id": "halsted-orange",
       "systemId": "cta",
       "name": "Halsted (Orange)",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.84678,
         "lng": -87.648088
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Halsted is a station on the Orange Line in the Pilsen neighborhood."
     },
     {
       "id": "harlem-blue-forest-park",
       "systemId": "cta",
       "name": "Harlem (Blue - Forest Park Branch)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.87349,
@@ -1182,63 +914,46 @@
       "id": "harlem-blue-ohare",
       "systemId": "cta",
       "name": "Harlem (Blue - O'Hare Branch)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.98227,
         "lng": -87.8089
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Harlem is a station on the Blue Line in the Norwood Park neighborhood."
     },
     {
       "id": "harlem-lake",
       "systemId": "cta",
       "name": "Harlem/Lake",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.886848,
         "lng": -87.803176
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Harlem/Lake is the western terminus of the Green Line in Oak Park."
     },
     {
       "id": "harold-washington-library-state-van-buren",
       "systemId": "cta",
       "name": "Harold Washington Library-State/Van Buren",
-      "lines": [
-        "brown",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["brown", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.876862,
         "lng": -87.628196
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Harold Washington Library-State/Van Buren is a downtown Loop station serving the Brown, Orange, Pink, and Purple lines, located near the Harold Washington Library."
     },
     {
       "id": "harrison",
       "systemId": "cta",
       "name": "Harrison",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.874039,
@@ -1251,62 +966,46 @@
       "id": "howard",
       "systemId": "cta",
       "name": "Howard",
-      "lines": [
-        "red",
-        "purple",
-        "yellow"
-      ],
+      "lines": ["red", "purple", "yellow"],
       "status": "active",
       "coordinates": {
         "lat": 42.019063,
         "lng": -87.672892
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Howard is a major transfer station on the North Side, serving as the northern terminus of the Red Line and connecting to Purple and Yellow line services."
     },
     {
       "id": "illinois-medical-district",
       "systemId": "cta",
       "name": "Illinois Medical District",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.875706,
         "lng": -87.673932
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Illinois Medical District is a station on the Blue Line, serving the Illinois Medical District on the Near West Side."
     },
     {
       "id": "indiana",
       "systemId": "cta",
       "name": "Indiana",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.821732,
         "lng": -87.621371
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Indiana is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
       "id": "irving-park-blue",
       "systemId": "cta",
       "name": "Irving Park (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.952925,
@@ -1319,60 +1018,46 @@
       "id": "irving-park-brown",
       "systemId": "cta",
       "name": "Irving Park (Brown)",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.954521,
         "lng": -87.674868
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Irving Park is a station on the Brown Line in the North Center neighborhood."
     },
     {
       "id": "jackson-blue",
       "systemId": "cta",
       "name": "Jackson (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.878183,
         "lng": -87.629296
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Jackson is a station on the Blue Line in the the Loop neighborhood."
     },
     {
       "id": "jackson-red",
       "systemId": "cta",
       "name": "Jackson (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.878153,
         "lng": -87.627596
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Jackson is a station on the Red Line in the the Loop neighborhood."
     },
     {
       "id": "jarvis",
       "systemId": "cta",
       "name": "Jarvis",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 42.01602,
@@ -1385,162 +1070,124 @@
       "id": "jefferson-park-transit-center",
       "systemId": "cta",
       "name": "Jefferson Park Transit Center",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.970234,
         "lng": -87.761594
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Jefferson Park Transit Center is a major transit hub in Jefferson Park, connecting the Blue Line with Metra and CTA bus services."
     },
     {
       "id": "kedzie-brown",
       "systemId": "cta",
       "name": "Kedzie (Brown)",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.965996,
         "lng": -87.708821
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kedzie is a station on the Brown Line in the North Center neighborhood."
     },
     {
       "id": "kedzie-green",
       "systemId": "cta",
       "name": "Kedzie (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.884321,
         "lng": -87.706155
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kedzie is a station on the Green Line in the East Garfield Park neighborhood."
     },
     {
       "id": "kedzie-orange",
       "systemId": "cta",
       "name": "Kedzie (Orange)",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.804236,
         "lng": -87.704406
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kedzie is a station on the Orange Line in the Marquette Park neighborhood."
     },
     {
       "id": "kedzie-pink",
       "systemId": "cta",
       "name": "Kedzie (Pink)",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.853964,
         "lng": -87.705408
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kedzie is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
       "id": "kedzie-homan",
       "systemId": "cta",
       "name": "Kedzie-Homan",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.874341,
         "lng": -87.70604
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kedzie-Homan is a station on the Blue Line in the Lawndale neighborhood."
     },
     {
       "id": "kimball",
       "systemId": "cta",
       "name": "Kimball",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.967901,
         "lng": -87.713065
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kimball is the northwestern terminus of the Brown Line in Albany Park."
     },
     {
       "id": "king-drive",
       "systemId": "cta",
       "name": "King Drive",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.78013,
         "lng": -87.615546
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "King Drive is a station on the Green Line in the Bronzeville neighborhood."
     },
     {
       "id": "kostner",
       "systemId": "cta",
       "name": "Kostner",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.853751,
         "lng": -87.733258
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Kostner is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
       "id": "lasalle",
       "systemId": "cta",
       "name": "LaSalle",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.875568,
@@ -1553,12 +1200,7 @@
       "id": "lasalle-van-buren",
       "systemId": "cta",
       "name": "LaSalle/Van Buren",
-      "lines": [
-        "brown",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["brown", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.8768,
@@ -1571,111 +1213,85 @@
       "id": "lake-subway",
       "systemId": "cta",
       "name": "Lake (Subway)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.884809,
         "lng": -87.627813
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Lake is a downtown Loop subway station serving the Red Line, located beneath State Street."
     },
     {
       "id": "laramie",
       "systemId": "cta",
       "name": "Laramie",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.887163,
         "lng": -87.754986
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Laramie is a station on the Green Line in the Austin neighborhood."
     },
     {
       "id": "lawrence",
       "systemId": "cta",
       "name": "Lawrence",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.968976,
         "lng": -87.658487
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Lawrence is a station on the Red Line in the Uptown neighborhood."
     },
     {
       "id": "linden",
       "systemId": "cta",
       "name": "Linden",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.073153,
         "lng": -87.69073
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Linden is the northern terminus of the Purple Line in Wilmette, the northernmost station in the CTA system."
     },
     {
       "id": "logan-square",
       "systemId": "cta",
       "name": "Logan Square",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.929534,
         "lng": -87.707688
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Logan Square is a major station on the Blue Line in Logan Square, one of the busiest stations on the O'Hare branch."
     },
     {
       "id": "loyola",
       "systemId": "cta",
       "name": "Loyola",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 42.001073,
         "lng": -87.661061
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Loyola is a station on the Red Line in the Rogers Park neighborhood."
     },
     {
       "id": "main",
       "systemId": "cta",
       "name": "Main",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.033456,
@@ -1688,44 +1304,33 @@
       "id": "merchandise-mart-brown-purple",
       "systemId": "cta",
       "name": "Merchandise Mart (Brown/Purple)",
-      "lines": [
-        "brown",
-        "purple"
-      ],
+      "lines": ["brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.888969,
         "lng": -87.633924
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Merchandise Mart is a station on the Brown and Purple lines, located near the Merchandise Mart in River North."
     },
     {
       "id": "midway",
       "systemId": "cta",
       "name": "Midway",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.78661,
         "lng": -87.737875
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Midway is the southern terminus of the Orange Line, providing direct rail access to Midway International Airport."
     },
     {
       "id": "monroe-blue",
       "systemId": "cta",
       "name": "Monroe (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.880703,
@@ -1738,9 +1343,7 @@
       "id": "monroe-red",
       "systemId": "cta",
       "name": "Monroe (Red)",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.880745,
@@ -1753,9 +1356,7 @@
       "id": "montrose-blue",
       "systemId": "cta",
       "name": "Montrose (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.960901,
@@ -1768,44 +1369,33 @@
       "id": "montrose-brown",
       "systemId": "cta",
       "name": "Montrose (Brown)",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.961756,
         "lng": -87.675047
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Montrose is a station on the Brown Line in the North Center neighborhood."
     },
     {
       "id": "morgan-green-pink",
       "systemId": "cta",
       "name": "Morgan (Green/Pink)",
-      "lines": [
-        "green",
-        "pink"
-      ],
+      "lines": ["green", "pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.885577,
         "lng": -87.65213
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Morgan is a station on the Green and Pink lines in the West Loop, opened in 2012 as one of the newest stations in the system."
     },
     {
       "id": "morse",
       "systemId": "cta",
       "name": "Morse",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 42.008362,
@@ -1818,9 +1408,7 @@
       "id": "north-clybourn",
       "systemId": "cta",
       "name": "North/Clybourn",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.910655,
@@ -1833,9 +1421,7 @@
       "id": "noyes",
       "systemId": "cta",
       "name": "Noyes",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.058282,
@@ -1848,26 +1434,20 @@
       "id": "ohare",
       "systemId": "cta",
       "name": "O'Hare",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.977665,
         "lng": -87.904223
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "O'Hare is the northwestern terminus of the Blue Line, located inside O'Hare International Airport."
     },
     {
       "id": "oak-park-blue",
       "systemId": "cta",
       "name": "Oak Park (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.872108,
@@ -1880,9 +1460,7 @@
       "id": "oak-park-green",
       "systemId": "cta",
       "name": "Oak Park (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.886988,
@@ -1895,60 +1473,46 @@
       "id": "oakton-skokie",
       "systemId": "cta",
       "name": "Oakton-Skokie",
-      "lines": [
-        "yellow"
-      ],
+      "lines": ["yellow"],
       "status": "active",
       "coordinates": {
         "lat": 42.026243,
         "lng": -87.747221
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Oakton-Skokie is the only intermediate station on the Yellow Line in Skokie."
     },
     {
       "id": "paulina",
       "systemId": "cta",
       "name": "Paulina",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.943623,
         "lng": -87.670907
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Paulina is a station on the Brown Line in the Lakeview neighborhood."
     },
     {
       "id": "polk",
       "systemId": "cta",
       "name": "Polk",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.871551,
         "lng": -87.66953
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Polk is a station on the Pink Line in the Pilsen neighborhood."
     },
     {
       "id": "pulaski-blue",
       "systemId": "cta",
       "name": "Pulaski (Blue)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.873797,
@@ -1961,97 +1525,72 @@
       "id": "pulaski-green",
       "systemId": "cta",
       "name": "Pulaski (Green)",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.885412,
         "lng": -87.725404
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Pulaski is a station on the Green Line in the West Garfield Park neighborhood."
     },
     {
       "id": "pulaski-orange",
       "systemId": "cta",
       "name": "Pulaski (Orange)",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.799756,
         "lng": -87.724493
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Pulaski is a station on the Orange Line in the Marquette Park neighborhood."
     },
     {
       "id": "pulaski-pink",
       "systemId": "cta",
       "name": "Pulaski (Pink)",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.853732,
         "lng": -87.724311
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Pulaski is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
       "id": "quincy",
       "systemId": "cta",
       "name": "Quincy",
-      "lines": [
-        "brown",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["brown", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.878723,
         "lng": -87.63374
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Quincy is a downtown Loop station on the Wells Street elevated, serving the Brown, Orange, Pink, and Purple lines."
     },
     {
       "id": "racine",
       "systemId": "cta",
       "name": "Racine",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.87592,
         "lng": -87.659458
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Racine is a station on the Blue Line in the University Village neighborhood."
     },
     {
       "id": "ridgeland",
       "systemId": "cta",
       "name": "Ridgeland",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "status": "active",
       "coordinates": {
         "lat": 41.887159,
@@ -2064,80 +1603,59 @@
       "id": "rockwell",
       "systemId": "cta",
       "name": "Rockwell",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.966115,
         "lng": -87.6941
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Rockwell is a station on the Brown Line in the North Center neighborhood."
     },
     {
       "id": "roosevelt",
       "systemId": "cta",
       "name": "Roosevelt",
-      "lines": [
-        "red",
-        "green",
-        "orange"
-      ],
+      "lines": ["red", "green", "orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.867379,
         "lng": -87.627031
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Roosevelt is a major transfer station in the South Loop, connecting the Red, Orange, and Green lines with nearby access to Museum Campus."
     },
     {
       "id": "rosemont",
       "systemId": "cta",
       "name": "Rosemont",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.983507,
         "lng": -87.859388
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Rosemont is a station on the Blue Line in the Rosemont neighborhood."
     },
     {
       "id": "sedgwick-brown-purple",
       "systemId": "cta",
       "name": "Sedgwick (Brown/Purple)",
-      "lines": [
-        "brown",
-        "purple"
-      ],
+      "lines": ["brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.910409,
         "lng": -87.639302
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Sedgwick is a station on the Brown and Purple lines in Old Town."
     },
     {
       "id": "sheridan",
       "systemId": "cta",
       "name": "Sheridan",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.953905,
@@ -2150,9 +1668,7 @@
       "id": "south-boulevard",
       "systemId": "cta",
       "name": "South Boulevard",
-      "lines": [
-        "purple"
-      ],
+      "lines": ["purple"],
       "status": "active",
       "coordinates": {
         "lat": 42.027612,
@@ -2165,43 +1681,33 @@
       "id": "southport",
       "systemId": "cta",
       "name": "Southport",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.943744,
         "lng": -87.663619
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Southport is a station on the Brown Line in the Lakeview neighborhood."
     },
     {
       "id": "sox-35th",
       "systemId": "cta",
       "name": "Sox-35th",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.831191,
         "lng": -87.630636
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Sox-35th is a station on the Red Line near Guaranteed Rate Field, home of the Chicago White Sox."
     },
     {
       "id": "thorndale",
       "systemId": "cta",
       "name": "Thorndale",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "status": "active",
       "coordinates": {
         "lat": 41.990099,
@@ -2214,26 +1720,20 @@
       "id": "uic-halsted",
       "systemId": "cta",
       "name": "UIC-Halsted",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.875474,
         "lng": -87.649707
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "UIC-Halsted is a station on the Blue Line in the University Village neighborhood."
     },
     {
       "id": "washington",
       "systemId": "cta",
       "name": "Washington",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.883164,
@@ -2246,68 +1746,46 @@
       "id": "washington-wabash",
       "systemId": "cta",
       "name": "Washington/Wabash",
-      "lines": [
-        "brown",
-        "green",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["brown", "green", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.88322,
         "lng": -87.626189
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Washington/Wabash is a downtown Loop station serving the Brown, Green, Orange, Pink, and Purple lines, replacing the old Randolph/Wabash and Madison/Wabash stations."
     },
     {
       "id": "washington-wells",
       "systemId": "cta",
       "name": "Washington/Wells",
-      "lines": [
-        "brown",
-        "orange",
-        "pink",
-        "purple"
-      ],
+      "lines": ["brown", "orange", "pink", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.882695,
         "lng": -87.63378
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Washington/Wells is a downtown Loop station serving the Brown, Orange, Pink, and Purple lines."
     },
     {
       "id": "wellington-brown-purple",
       "systemId": "cta",
       "name": "Wellington (Brown/Purple)",
-      "lines": [
-        "brown",
-        "purple"
-      ],
+      "lines": ["brown", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.936033,
         "lng": -87.653266
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Wellington is a station on the Brown and Purple lines in Lakeview."
     },
     {
       "id": "western-blue-forest-park",
       "systemId": "cta",
       "name": "Western (Blue - Forest Park Branch)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.875478,
@@ -2320,86 +1798,65 @@
       "id": "western-blue-ohare",
       "systemId": "cta",
       "name": "Western (Blue - O'Hare Branch)",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
         "lat": 41.916157,
         "lng": -87.687364
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Western is a station on the Blue Line in the Bucktown neighborhood."
     },
     {
       "id": "western-brown",
       "systemId": "cta",
       "name": "Western (Brown)",
-      "lines": [
-        "brown"
-      ],
+      "lines": ["brown"],
       "status": "active",
       "coordinates": {
         "lat": 41.966163,
         "lng": -87.688502
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Western is a station on the Brown Line in the Lincoln Square neighborhood."
     },
     {
       "id": "western-orange",
       "systemId": "cta",
       "name": "Western (Orange)",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "status": "active",
       "coordinates": {
         "lat": 41.804546,
         "lng": -87.684019
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Western is a station on the Orange Line in the Brighton Park neighborhood."
     },
     {
       "id": "western-pink",
       "systemId": "cta",
       "name": "Western (Pink)",
-      "lines": [
-        "pink"
-      ],
+      "lines": ["pink"],
       "status": "active",
       "coordinates": {
         "lat": 41.854225,
         "lng": -87.685129
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Western is a station on the Pink Line in the McKinley Park neighborhood."
     },
     {
       "id": "wilson",
       "systemId": "cta",
       "name": "Wilson",
-      "lines": [
-        "red",
-        "purple"
-      ],
+      "lines": ["red", "purple"],
       "status": "active",
       "coordinates": {
         "lat": 41.965482,
         "lng": -87.657926
       },
-      "features": [
-        "wheelchair-accessible"
-      ],
+      "features": ["wheelchair-accessible"],
       "description": "Wilson is a major Red Line station in Uptown, rebuilt and reopened in 2024 as part of the Red-Purple Modernization program."
     }
   ]

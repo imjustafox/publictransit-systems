@@ -11,17 +11,11 @@ export async function GET(request: Request, { params }: RouteParams) {
     const railcar = await getRailcar(systemId, railcarId);
 
     if (!railcar) {
-      return NextResponse.json(
-        { error: "Railcar not found" },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: "Railcar not found" }, { status: 404 });
     }
 
     return NextResponse.json({ data: railcar });
   } catch {
-    return NextResponse.json(
-      { error: "Failed to fetch railcar" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to fetch railcar" }, { status: 500 });
   }
 }

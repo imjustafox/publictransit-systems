@@ -11,9 +11,6 @@ export async function GET(request: Request, { params }: RouteParams) {
     const system = await getSystem(systemId);
     return NextResponse.json({ data: system });
   } catch {
-    return NextResponse.json(
-      { error: "System not found" },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "System not found" }, { status: 404 });
   }
 }

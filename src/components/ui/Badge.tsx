@@ -9,12 +9,7 @@ interface BadgeProps {
   className?: string;
 }
 
-export function Badge({
-  children,
-  variant = "default",
-  size = "sm",
-  className
-}: BadgeProps) {
+export function Badge({ children, variant = "default", size = "sm", className }: BadgeProps) {
   const variantClasses = {
     default: "bg-bg-tertiary text-text-primary border-border",
     success: "bg-status-active/20 text-status-active border-status-active/30",
@@ -48,7 +43,10 @@ interface StatusBadgeProps {
   className?: string;
 }
 
-const statusConfig: Record<StationStatus | RailcarStatus, { label: string; variant: BadgeProps["variant"] }> = {
+const statusConfig: Record<
+  StationStatus | RailcarStatus,
+  { label: string; variant: BadgeProps["variant"] }
+> = {
   active: { label: "Active", variant: "success" },
   closed: { label: "Closed", variant: "error" },
   "under-construction": { label: "Under Construction", variant: "warning" },

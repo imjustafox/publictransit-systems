@@ -1,6 +1,6 @@
 "use client";
 
-import { createContext, useContext, useState, useEffect, ReactNode } from "react";
+import { createContext, useContext, useSyncExternalStore, ReactNode } from "react";
 import type { DistanceUnit } from "@/lib/types";
 
 interface DistanceUnitContextType {
@@ -12,36 +12,40 @@ interface DistanceUnitContextType {
 const DistanceUnitContext = createContext<DistanceUnitContextType | undefined>(undefined);
 
 const STORAGE_KEY = "distance-unit";
+const CHANGE_EVENT = "distance-unit-change";
+
+function subscribe(callback: () => void) {
+  window.addEventListener("storage", callback);
+  window.addEventListener(CHANGE_EVENT, callback);
+  return () => {
+    window.removeEventListener("storage", callback);
+    window.removeEventListener(CHANGE_EVENT, callback);
+  };
+}
+
+function getSnapshot(): DistanceUnit {
+  const stored = localStorage.getItem(STORAGE_KEY);
+  return stored === "km" || stored === "mi" ? stored : "mi";
+}
+
+// The server (and the client's hydration pass) always renders "mi"; the stored
+// preference applies right after hydration, so the first client render never
+// diverges from the server-rendered HTML.
+function getServerSnapshot(): DistanceUnit {
+  return "mi";
+}
 
 export function DistanceUnitProvider({ children }: { children: ReactNode }) {
-  const [unit, setUnitState] = useState<DistanceUnit>("mi");
-  const [mounted, setMounted] = useState(false);
-
-  useEffect(() => {
-    setMounted(true);
-    const stored = localStorage.getItem(STORAGE_KEY) as DistanceUnit | null;
-    if (stored === "km" || stored === "mi") {
-      setUnitState(stored);
-    }
-  }, []);
+  const unit = useSyncExternalStore(subscribe, getSnapshot, getServerSnapshot);
 
   const setUnit = (newUnit: DistanceUnit) => {
-    setUnitState(newUnit);
     localStorage.setItem(STORAGE_KEY, newUnit);
+    window.dispatchEvent(new Event(CHANGE_EVENT));
   };
 
   const toggleUnit = () => {
     setUnit(unit === "km" ? "mi" : "km");
   };
-
-  // Avoid hydration mismatch
-  if (!mounted) {
-    return (
-      <DistanceUnitContext.Provider value={{ unit: "mi", setUnit, toggleUnit }}>
-        {children}
-      </DistanceUnitContext.Provider>
-    );
-  }
 
   return (
     <DistanceUnitContext.Provider value={{ unit, setUnit, toggleUnit }}>

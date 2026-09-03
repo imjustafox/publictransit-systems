@@ -5,8 +5,9 @@ FROM base AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-COPY package.json package-lock.json* ./
-RUN npm ci
+RUN corepack enable
+COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
+RUN pnpm install --frozen-lockfile --prod=false --filter publictransit-systems
 
 # Rebuild the source code only when needed
 FROM base AS builder
@@ -14,7 +15,8 @@ WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
 
-RUN npm run build
+RUN corepack enable
+RUN pnpm run build
 
 # Production image, copy all the files and run next
 FROM base AS runner

@@ -6,23 +6,14 @@
       "name": "Shibuya",
       "localName": "渋谷",
       "code": "G01",
-      "lines": [
-        "ginza",
-        "hanzomon",
-        "fukutoshin"
-      ],
+      "lines": ["ginza", "hanzomon", "fukutoshin"],
       "opened": "1938-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.659097,
         "lng": 139.702673
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal station in Shibuya ward, serving as the western terminus of the Ginza Line and a key transfer point for multiple lines.",
       "dailyRidership": 191505
     },
@@ -32,23 +23,14 @@
       "name": "Omote-sando",
       "localName": "表参道",
       "code": "G02",
-      "lines": [
-        "ginza",
-        "chiyoda",
-        "hanzomon"
-      ],
+      "lines": ["ginza", "chiyoda", "hanzomon"],
       "opened": "1938-11-18",
       "status": "active",
       "coordinates": {
         "lat": 35.665042,
         "lng": 139.712473
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station located in the upscale Omotesando area, serving the Ginza, Chiyoda, and Hanzomon lines.",
       "dailyRidership": 176901
     },
@@ -58,20 +40,14 @@
       "name": "Gaiemmae",
       "localName": "外苑前",
       "code": "G03",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1938-11-18",
       "status": "active",
       "coordinates": {
         "lat": 35.670375,
         "lng": 139.717825
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Meiji Jingu Gaien, serving the National Stadium area.",
       "dailyRidership": 74637
     },
@@ -81,22 +57,14 @@
       "name": "Aoyama-itchome",
       "localName": "青山一丁目",
       "code": "G04",
-      "lines": [
-        "ginza",
-        "hanzomon"
-      ],
+      "lines": ["ginza", "hanzomon"],
       "opened": "1938-11-18",
       "status": "active",
       "coordinates": {
         "lat": 35.67279,
         "lng": 139.724145
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Transfer station in Minato ward connecting Ginza and Hanzomon lines with Toei Oedo Line.",
       "dailyRidership": 100057
     },
@@ -106,22 +74,14 @@
       "name": "Akasaka-mitsuke",
       "localName": "赤坂見附",
       "code": "G05",
-      "lines": [
-        "ginza",
-        "marunouchi"
-      ],
+      "lines": ["ginza", "marunouchi"],
       "opened": "1938-11-18",
       "status": "active",
       "coordinates": {
         "lat": 35.676845,
         "lng": 139.737347
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer station connecting Ginza and Marunouchi lines, located near the Akasaka district.",
       "dailyRidership": 89214
     },
@@ -131,22 +91,14 @@
       "name": "Tameike-sanno",
       "localName": "溜池山王",
       "code": "G06",
-      "lines": [
-        "ginza",
-        "namboku"
-      ],
+      "lines": ["ginza", "namboku"],
       "opened": "1997-09-30",
       "status": "active",
       "coordinates": {
         "lat": 35.6715,
         "lng": 139.7419
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station serving the government district, connecting Ginza and Namboku lines.",
       "dailyRidership": 123538
     },
@@ -156,20 +108,14 @@
       "name": "Toranomon",
       "localName": "虎ノ門",
       "code": "G07",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1938-11-18",
       "status": "active",
       "coordinates": {
         "lat": 35.6702,
         "lng": 139.7501
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the business district of Toranomon, near many corporate headquarters.",
       "dailyRidership": 96029
     },
@@ -179,21 +125,14 @@
       "name": "Shimbashi",
       "localName": "新橋",
       "code": "G08",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1934-06-21",
       "status": "active",
       "coordinates": {
         "lat": 35.667382,
         "lng": 139.758512
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major station connecting to JR lines and Toei Asakusa Line, known as a salaryman district.",
       "dailyRidership": 204567
     },
@@ -203,23 +142,14 @@
       "name": "Ginza",
       "localName": "銀座",
       "code": "G09",
-      "lines": [
-        "ginza",
-        "marunouchi",
-        "hibiya"
-      ],
+      "lines": ["ginza", "marunouchi", "hibiya"],
       "opened": "1934-03-03",
       "status": "active",
       "coordinates": {
         "lat": 35.6715,
         "lng": 139.765366
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Central station in the famous Ginza shopping district, connecting three Tokyo Metro lines.",
       "dailyRidership": 230271
     },
@@ -229,20 +159,14 @@
       "name": "Kyobashi",
       "localName": "京橋",
       "code": "G10",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1932-12-24",
       "status": "active",
       "coordinates": {
         "lat": 35.676704,
         "lng": 139.77011
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Kyobashi business district of Chuo ward.",
       "dailyRidership": 56104
     },
@@ -252,22 +176,14 @@
       "name": "Nihombashi",
       "localName": "日本橋",
       "code": "G11",
-      "lines": [
-        "ginza",
-        "tozai"
-      ],
+      "lines": ["ginza", "tozai"],
       "opened": "1932-12-24",
       "status": "active",
       "coordinates": {
         "lat": 35.681879,
         "lng": 139.773335
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Historic station near the Nihonbashi bridge, connecting Ginza and Tozai lines.",
       "dailyRidership": 175343
     },
@@ -277,22 +193,14 @@
       "name": "Mitsukoshimae",
       "localName": "三越前",
       "code": "G12",
-      "lines": [
-        "ginza",
-        "hanzomon"
-      ],
+      "lines": ["ginza", "hanzomon"],
       "opened": "1932-04-29",
       "status": "active",
       "coordinates": {
         "lat": 35.687173,
         "lng": 139.773582
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station named after the famous Mitsukoshi department store.",
       "dailyRidership": 117531
     },
@@ -302,20 +210,14 @@
       "name": "Kanda",
       "localName": "神田",
       "code": "G13",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1931-11-21",
       "status": "active",
       "coordinates": {
         "lat": 35.693715,
         "lng": 139.77089
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Kanda district, near many secondhand bookstores.",
       "dailyRidership": 56241
     },
@@ -325,20 +227,14 @@
       "name": "Suehirocho",
       "localName": "末広町",
       "code": "G14",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1930-01-01",
       "status": "active",
       "coordinates": {
         "lat": 35.7028,
         "lng": 139.7717
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Akihabara Electric Town, serving the electronics district.",
       "dailyRidership": 27833
     },
@@ -348,20 +244,14 @@
       "name": "Ueno-hirokoji",
       "localName": "上野広小路",
       "code": "G15",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1930-01-01",
       "status": "active",
       "coordinates": {
         "lat": 35.707765,
         "lng": 139.773011
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Ueno's Ameyoko shopping street.",
       "dailyRidership": 25666
     },
@@ -371,22 +261,14 @@
       "name": "Ueno",
       "localName": "上野",
       "code": "G16",
-      "lines": [
-        "ginza",
-        "hibiya"
-      ],
+      "lines": ["ginza", "hibiya"],
       "opened": "1927-12-30",
       "status": "active",
       "coordinates": {
         "lat": 35.711835,
         "lng": 139.775625
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major station near Ueno Park and museums, connecting Ginza and Hibiya lines.",
       "dailyRidership": 189373
     },
@@ -396,20 +278,14 @@
       "name": "Inaricho",
       "localName": "稲荷町",
       "code": "G17",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1927-12-30",
       "status": "active",
       "coordinates": {
         "lat": 35.711389,
         "lng": 139.78221
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the traditional Taito ward area.",
       "dailyRidership": 18891
     },
@@ -419,20 +295,14 @@
       "name": "Tawaramachi",
       "localName": "田原町",
       "code": "G18",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1927-12-30",
       "status": "active",
       "coordinates": {
         "lat": 35.709917,
         "lng": 139.790306
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Kappabashi Kitchen Town, famous for restaurant supplies.",
       "dailyRidership": 36681
     },
@@ -442,20 +312,14 @@
       "name": "Asakusa",
       "localName": "浅草",
       "code": "G19",
-      "lines": [
-        "ginza"
-      ],
+      "lines": ["ginza"],
       "opened": "1927-12-30",
       "status": "active",
       "coordinates": {
         "lat": 35.710746,
         "lng": 139.797774
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Eastern terminus of the Ginza Line, near Senso-ji Temple and traditional Asakusa district.",
       "dailyRidership": 108544
     },
@@ -465,20 +329,14 @@
       "name": "Ogikubo",
       "localName": "荻窪",
       "code": "M01",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1962-01-23",
       "status": "active",
       "coordinates": {
         "lat": 35.704175,
         "lng": 139.61976
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Western terminus of the Marunouchi Line, connecting to JR Chuo Line.",
       "dailyRidership": 85957
     },
@@ -488,20 +346,14 @@
       "name": "Minami-asagaya",
       "localName": "南阿佐ケ谷",
       "code": "M02",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1961-11-01",
       "status": "active",
       "coordinates": {
         "lat": 35.6994,
         "lng": 139.6356
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the residential Suginami ward area.",
       "dailyRidership": 27693
     },
@@ -511,20 +363,14 @@
       "name": "Shin-koenji",
       "localName": "新高円寺",
       "code": "M03",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1961-11-01",
       "status": "active",
       "coordinates": {
         "lat": 35.69786,
         "lng": 139.64851
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the Koenji shopping district.",
       "dailyRidership": 35288
     },
@@ -534,20 +380,14 @@
       "name": "Higashi-koenji",
       "localName": "東高円寺",
       "code": "M04",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1961-11-01",
       "status": "active",
       "coordinates": {
         "lat": 35.697965,
         "lng": 139.658295
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station serving the eastern part of Koenji area.",
       "dailyRidership": 33021
     },
@@ -557,20 +397,14 @@
       "name": "Shin-nakano",
       "localName": "新中野",
       "code": "M05",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1961-02-08",
       "status": "active",
       "coordinates": {
         "lat": 35.697475,
         "lng": 139.66951
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Nakano ward residential area.",
       "dailyRidership": 33550
     },
@@ -580,22 +414,14 @@
       "name": "Nakano-sakaue",
       "localName": "中野坂上",
       "code": "M06",
-      "lines": [
-        "marunouchi",
-        "marunouchi-branch"
-      ],
+      "lines": ["marunouchi", "marunouchi-branch"],
       "opened": "1961-02-08",
       "status": "active",
       "coordinates": {
         "lat": 35.697085,
         "lng": 139.682205
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Junction station where the Marunouchi Line branch to Honancho diverges.",
       "dailyRidership": 73237
     },
@@ -605,20 +431,14 @@
       "name": "Nishi-shinjuku",
       "localName": "西新宿",
       "code": "M07",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.694515,
         "lng": 139.69256
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the West Shinjuku skyscraper district.",
       "dailyRidership": 85481
     },
@@ -628,21 +448,14 @@
       "name": "Shinjuku",
       "localName": "新宿",
       "code": "M08",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.692452,
         "lng": 139.700548
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal station in the world's busiest station complex.",
       "dailyRidership": 199942
     },
@@ -652,22 +465,14 @@
       "name": "Shinjuku-sanchome",
       "localName": "新宿三丁目",
       "code": "M09",
-      "lines": [
-        "marunouchi",
-        "fukutoshin"
-      ],
+      "lines": ["marunouchi", "fukutoshin"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.69118,
         "lng": 139.70421
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Shinjuku department stores, connecting to Toei Shinjuku Line and Fukutoshin Line.",
       "dailyRidership": 152460
     },
@@ -677,20 +482,14 @@
       "name": "Shinjuku-gyoenmae",
       "localName": "新宿御苑前",
       "code": "M10",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.688525,
         "lng": 139.710915
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Shinjuku Gyoen National Garden.",
       "dailyRidership": 48832
     },
@@ -700,20 +499,14 @@
       "name": "Yotsuya-sanchome",
       "localName": "四谷三丁目",
       "code": "M11",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.687835,
         "lng": 139.719325
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Yotsuya district of Shinjuku ward.",
       "dailyRidership": 42890
     },
@@ -723,22 +516,14 @@
       "name": "Yotsuya",
       "localName": "四ツ谷",
       "code": "M12",
-      "lines": [
-        "marunouchi",
-        "namboku"
-      ],
+      "lines": ["marunouchi", "namboku"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.684197,
         "lng": 139.730047
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Transfer station connecting to JR Chuo and Sobu Lines and Namboku Line.",
       "dailyRidership": 117584
     },
@@ -748,22 +533,14 @@
       "name": "Akasaka-mitsuke",
       "localName": "赤坂見附",
       "code": "M13",
-      "lines": [
-        "marunouchi",
-        "ginza"
-      ],
+      "lines": ["marunouchi", "ginza"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.676845,
         "lng": 139.737347
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer station connecting Marunouchi and Ginza lines.",
       "dailyRidership": 89214
     },
@@ -773,22 +550,14 @@
       "name": "Kokkai-gijidomae",
       "localName": "国会議事堂前",
       "code": "M14",
-      "lines": [
-        "marunouchi",
-        "chiyoda"
-      ],
+      "lines": ["marunouchi", "chiyoda"],
       "opened": "1959-03-15",
       "status": "active",
       "coordinates": {
         "lat": 35.674926,
         "lng": 139.745473
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station serving the National Diet Building and government offices.",
       "dailyRidership": 123538
     },
@@ -798,23 +567,14 @@
       "name": "Kasumigaseki",
       "localName": "霞ケ関",
       "code": "M15",
-      "lines": [
-        "marunouchi",
-        "hibiya",
-        "chiyoda"
-      ],
+      "lines": ["marunouchi", "hibiya", "chiyoda"],
       "opened": "1958-10-15",
       "status": "active",
       "coordinates": {
         "lat": 35.674235,
         "lng": 139.75268
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer hub in the government ministry district, connecting three Metro lines.",
       "dailyRidership": 132884
     },
@@ -824,23 +584,14 @@
       "name": "Ginza",
       "localName": "銀座",
       "code": "M16",
-      "lines": [
-        "marunouchi",
-        "ginza",
-        "hibiya"
-      ],
+      "lines": ["marunouchi", "ginza", "hibiya"],
       "opened": "1957-12-15",
       "status": "active",
       "coordinates": {
         "lat": 35.673159,
         "lng": 139.763876
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Central station in Ginza shopping district connecting three lines.",
       "dailyRidership": 230271
     },
@@ -850,21 +601,14 @@
       "name": "Tokyo",
       "localName": "東京",
       "code": "M17",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1956-07-20",
       "status": "active",
       "coordinates": {
         "lat": 35.681935,
         "lng": 139.7648
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station at Tokyo Station, Japan's central railway hub.",
       "dailyRidership": 199232
     },
@@ -874,24 +618,14 @@
       "name": "Otemachi",
       "localName": "大手町",
       "code": "M18",
-      "lines": [
-        "marunouchi",
-        "tozai",
-        "chiyoda",
-        "hanzomon"
-      ],
+      "lines": ["marunouchi", "tozai", "chiyoda", "hanzomon"],
       "opened": "1956-07-20",
       "status": "active",
       "coordinates": {
         "lat": 35.686875,
         "lng": 139.766203
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major business district hub connecting four Tokyo Metro lines and Toei Mita Line.",
       "dailyRidership": 334541
     },
@@ -901,20 +635,14 @@
       "name": "Awajicho",
       "localName": "淡路町",
       "code": "M19",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1956-03-20",
       "status": "active",
       "coordinates": {
         "lat": 35.6949,
         "lng": 139.7675
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connected to Shin-Ochanomizu and Ogawamachi stations.",
       "dailyRidership": 57894
     },
@@ -924,20 +652,14 @@
       "name": "Ochanomizu",
       "localName": "御茶ノ水",
       "code": "M20",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1954-01-20",
       "status": "active",
       "coordinates": {
         "lat": 35.70043,
         "lng": 139.764405
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near many universities and musical instrument shops.",
       "dailyRidership": 54548
     },
@@ -947,20 +669,14 @@
       "name": "Hongo-sanchome",
       "localName": "本郷三丁目",
       "code": "M21",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1954-01-20",
       "status": "active",
       "coordinates": {
         "lat": 35.706726,
         "lng": 139.760154
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the University of Tokyo Hongo Campus.",
       "dailyRidership": 51198
     },
@@ -970,22 +686,14 @@
       "name": "Korakuen",
       "localName": "後楽園",
       "code": "M22",
-      "lines": [
-        "marunouchi",
-        "namboku"
-      ],
+      "lines": ["marunouchi", "namboku"],
       "opened": "1954-01-20",
       "status": "active",
       "coordinates": {
         "lat": 35.707307,
         "lng": 139.750861
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Tokyo Dome and Koishikawa Korakuen Garden.",
       "dailyRidership": 104894
     },
@@ -995,20 +703,14 @@
       "name": "Myogadani",
       "localName": "茗荷谷",
       "code": "M23",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1954-01-20",
       "status": "active",
       "coordinates": {
         "lat": 35.7172,
         "lng": 139.7369
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in a residential area of Bunkyo ward.",
       "dailyRidership": 78606
     },
@@ -1018,20 +720,14 @@
       "name": "Shin-otsuka",
       "localName": "新大塚",
       "code": "M24",
-      "lines": [
-        "marunouchi"
-      ],
+      "lines": ["marunouchi"],
       "opened": "1954-01-20",
       "status": "active",
       "coordinates": {
         "lat": 35.72613,
         "lng": 139.729354
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Otsuka area in Bunkyo ward.",
       "dailyRidership": 25769
     },
@@ -1041,23 +737,14 @@
       "name": "Ikebukuro",
       "localName": "池袋",
       "code": "M25",
-      "lines": [
-        "marunouchi",
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["marunouchi", "yurakucho", "fukutoshin"],
       "opened": "1954-01-20",
       "status": "active",
       "coordinates": {
         "lat": 35.730345,
         "lng": 139.71115
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal in northwest Tokyo, connecting multiple lines and railways.",
       "dailyRidership": 518135
     },
@@ -1067,20 +754,14 @@
       "name": "Nakano-fujimicho",
       "localName": "中野富士見町",
       "code": "Mb04",
-      "lines": [
-        "marunouchi-branch"
-      ],
+      "lines": ["marunouchi-branch"],
       "opened": "1961-02-08",
       "status": "active",
       "coordinates": {
         "lat": 35.69082,
         "lng": 139.668155
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station on the Marunouchi Line branch, near Nakano depot.",
       "dailyRidership": 19307
     },
@@ -1090,20 +771,14 @@
       "name": "Nakano-shimbashi",
       "localName": "中野新橋",
       "code": "Mb05",
-      "lines": [
-        "marunouchi-branch"
-      ],
+      "lines": ["marunouchi-branch"],
       "opened": "1961-02-08",
       "status": "active",
       "coordinates": {
         "lat": 35.691685,
         "lng": 139.674001
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station on the Marunouchi Line branch in Nakano ward.",
       "dailyRidership": 20570
     },
@@ -1113,20 +788,14 @@
       "name": "Honancho",
       "localName": "方南町",
       "code": "Mb03",
-      "lines": [
-        "marunouchi-branch"
-      ],
+      "lines": ["marunouchi-branch"],
       "opened": "1962-03-23",
       "status": "active",
       "coordinates": {
         "lat": 35.683515,
         "lng": 139.657935
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Western terminus of the Marunouchi Line branch.",
       "dailyRidership": 40171
     },
@@ -1136,20 +805,14 @@
       "name": "Naka-meguro",
       "localName": "中目黒",
       "code": "H01",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1964-08-29",
       "status": "active",
       "coordinates": {
         "lat": 35.644108,
         "lng": 139.698833
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Western terminus of Hibiya Line, famous for cherry blossoms along Meguro River.",
       "dailyRidership": 203229
     },
@@ -1159,20 +822,14 @@
       "name": "Ebisu",
       "localName": "恵比寿",
       "code": "H02",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1964-03-25",
       "status": "active",
       "coordinates": {
         "lat": 35.64704,
         "lng": 139.708701
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the upscale Ebisu district, near Yebisu Garden Place.",
       "dailyRidership": 104751
     },
@@ -1182,20 +839,14 @@
       "name": "Hiroo",
       "localName": "広尾",
       "code": "H03",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1964-03-25",
       "status": "active",
       "coordinates": {
         "lat": 35.651499,
         "lng": 139.722209
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the international Hiroo neighborhood with many embassies.",
       "dailyRidership": 58660
     },
@@ -1205,21 +856,14 @@
       "name": "Roppongi",
       "localName": "六本木",
       "code": "H04",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1964-03-25",
       "status": "active",
       "coordinates": {
         "lat": 35.6628,
         "lng": 139.731155
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station in the famous Roppongi entertainment and nightlife district.",
       "dailyRidership": 110298
     },
@@ -1229,20 +873,14 @@
       "name": "Kamiyacho",
       "localName": "神谷町",
       "code": "H05",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1964-03-25",
       "status": "active",
       "coordinates": {
         "lat": 35.662625,
         "lng": 139.744725
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Tokyo Tower and Atago Hills.",
       "dailyRidership": 107982
     },
@@ -1252,23 +890,14 @@
       "name": "Kasumigaseki",
       "localName": "虎ノ門ヒルズ",
       "code": "H06",
-      "lines": [
-        "hibiya",
-        "marunouchi",
-        "chiyoda"
-      ],
+      "lines": ["hibiya", "marunouchi", "chiyoda"],
       "opened": "1964-03-25",
       "status": "active",
       "coordinates": {
         "lat": 35.667309,
         "lng": 139.747738
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Government ministry district station connecting three Metro lines.",
       "dailyRidership": 56595
     },
@@ -1278,22 +907,14 @@
       "name": "Hibiya",
       "localName": "霞ケ関",
       "code": "H07",
-      "lines": [
-        "hibiya",
-        "chiyoda"
-      ],
+      "lines": ["hibiya", "chiyoda"],
       "opened": "1964-03-25",
       "status": "active",
       "coordinates": {
         "lat": 35.673875,
         "lng": 139.75106
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Hibiya Park and connected to Yurakucho Station.",
       "dailyRidership": 132884
     },
@@ -1303,23 +924,14 @@
       "name": "Ginza",
       "localName": "日比谷",
       "code": "H08",
-      "lines": [
-        "hibiya",
-        "ginza",
-        "marunouchi"
-      ],
+      "lines": ["hibiya", "ginza", "marunouchi"],
       "opened": "1964-08-29",
       "status": "active",
       "coordinates": {
         "lat": 35.674271,
         "lng": 139.7606
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Ginza shopping district station connecting three Metro lines.",
       "dailyRidership": 93712
     },
@@ -1329,20 +941,14 @@
       "name": "Higashi-ginza",
       "localName": "銀座",
       "code": "H09",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1963-02-28",
       "status": "active",
       "coordinates": {
         "lat": 35.671983,
         "lng": 139.764007
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Kabukiza Theatre, the home of Kabuki in Tokyo.",
       "dailyRidership": 230271
     },
@@ -1352,20 +958,14 @@
       "name": "Tsukiji",
       "localName": "東銀座",
       "code": "H10",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1963-02-28",
       "status": "active",
       "coordinates": {
         "lat": 35.669129,
         "lng": 139.767633
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station formerly serving the famous Tsukiji Fish Market area.",
       "dailyRidership": 82069
     },
@@ -1375,20 +975,14 @@
       "name": "Hatchobori",
       "localName": "築地",
       "code": "H11",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1963-02-28",
       "status": "active",
       "coordinates": {
         "lat": 35.667928,
         "lng": 139.772473
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connecting to JR Keiyo Line.",
       "dailyRidership": 59492
     },
@@ -1398,22 +992,14 @@
       "name": "Kayabacho",
       "localName": "八丁堀",
       "code": "H12",
-      "lines": [
-        "hibiya",
-        "tozai"
-      ],
+      "lines": ["hibiya", "tozai"],
       "opened": "1963-02-28",
       "status": "active",
       "coordinates": {
         "lat": 35.675368,
         "lng": 139.777334
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Transfer station connecting Hibiya and Tozai lines.",
       "dailyRidership": 102173
     },
@@ -1423,20 +1009,14 @@
       "name": "Ningyocho",
       "localName": "茅場町",
       "code": "H13",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1962-05-31",
       "status": "active",
       "coordinates": {
         "lat": 35.679078,
         "lng": 139.779619
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the traditional Ningyocho district.",
       "dailyRidership": 112343
     },
@@ -1446,20 +1026,14 @@
       "name": "Kodemmacho",
       "localName": "人形町",
       "code": "H14",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1962-05-31",
       "status": "active",
       "coordinates": {
         "lat": 35.686259,
         "lng": 139.782339
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Nihonbashi district of Chuo ward.",
       "dailyRidership": 65187
     },
@@ -1469,21 +1043,14 @@
       "name": "Akihabara",
       "localName": "小伝馬町",
       "code": "H15",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1962-05-31",
       "status": "active",
       "coordinates": {
         "lat": 35.690423,
         "lng": 139.778758
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station in the famous Akihabara electronics and anime district.",
       "dailyRidership": 36068
     },
@@ -1493,20 +1060,14 @@
       "name": "Naka-okachimachi",
       "localName": "秋葉原",
       "code": "H16",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1961-03-28",
       "status": "active",
       "coordinates": {
         "lat": 35.697965,
         "lng": 139.775529
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Ameyoko shopping street.",
       "dailyRidership": 111781
     },
@@ -1516,22 +1077,14 @@
       "name": "Ueno",
       "localName": "仲御徒町",
       "code": "H17",
-      "lines": [
-        "hibiya",
-        "ginza"
-      ],
+      "lines": ["hibiya", "ginza"],
       "opened": "1961-03-28",
       "status": "active",
       "coordinates": {
         "lat": 35.706655,
         "lng": 139.77619
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major station near Ueno Park connecting Hibiya and Ginza lines.",
       "dailyRidership": 41623
     },
@@ -1541,20 +1094,14 @@
       "name": "Iriya",
       "localName": "上野",
       "code": "H18",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1961-03-28",
       "status": "active",
       "coordinates": {
         "lat": 35.711558,
         "lng": 139.777061
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Taito ward, known for the Iriya Asagao Festival.",
       "dailyRidership": 189373
     },
@@ -1564,20 +1111,14 @@
       "name": "Minowa",
       "localName": "入谷",
       "code": "H19",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1961-03-28",
       "status": "active",
       "coordinates": {
         "lat": 35.720565,
         "lng": 139.784466
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connecting to Toei Streetcar Arakawa Line.",
       "dailyRidership": 38480
     },
@@ -1587,20 +1128,14 @@
       "name": "Minami-senju",
       "localName": "三ノ輪",
       "code": "H20",
-      "lines": [
-        "hibiya"
-      ],
+      "lines": ["hibiya"],
       "opened": "1961-03-28",
       "status": "active",
       "coordinates": {
         "lat": 35.729285,
         "lng": 139.791165
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connecting to JR Joban Line and TX Tsukuba Express.",
       "dailyRidership": 46924
     },
@@ -1610,22 +1145,14 @@
       "name": "Kita-senju",
       "localName": "南千住",
       "code": "H21",
-      "lines": [
-        "hibiya",
-        "chiyoda"
-      ],
+      "lines": ["hibiya", "chiyoda"],
       "opened": "1962-05-31",
       "status": "active",
       "coordinates": {
         "lat": 35.73231,
         "lng": 139.79878
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal connecting to multiple railway lines.",
       "dailyRidership": 32611
     },
@@ -1635,21 +1162,14 @@
       "name": "Nakano",
       "localName": "中野",
       "code": "T01",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1966-03-16",
       "status": "active",
       "coordinates": {
         "lat": 35.70574,
         "lng": 139.665605
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Western terminus of Tozai Line, connecting to JR Chuo Line.",
       "dailyRidership": 141680
     },
@@ -1659,20 +1179,14 @@
       "name": "Ochiai",
       "localName": "落合",
       "code": "T02",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1966-03-16",
       "status": "active",
       "coordinates": {
         "lat": 35.710635,
         "lng": 139.685965
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Shinjuku ward residential area.",
       "dailyRidership": 26664
     },
@@ -1682,21 +1196,14 @@
       "name": "Takadanobaba",
       "localName": "高田馬場",
       "code": "T03",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1964-12-23",
       "status": "active",
       "coordinates": {
         "lat": 35.71328,
         "lng": 139.705045
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major station connecting to JR Yamanote Line and Seibu Shinjuku Line.",
       "dailyRidership": 175766
     },
@@ -1706,20 +1213,14 @@
       "name": "Waseda",
       "localName": "早稲田",
       "code": "T04",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1964-12-23",
       "status": "active",
       "coordinates": {
         "lat": 35.7057,
         "lng": 139.7221
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Waseda University.",
       "dailyRidership": 79978
     },
@@ -1729,20 +1230,14 @@
       "name": "Kagurazaka",
       "localName": "神楽坂",
       "code": "T05",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1964-12-23",
       "status": "active",
       "coordinates": {
         "lat": 35.703865,
         "lng": 139.73452
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the traditional Kagurazaka geisha district.",
       "dailyRidership": 40020
     },
@@ -1752,23 +1247,14 @@
       "name": "Iidabashi",
       "localName": "飯田橋",
       "code": "T06",
-      "lines": [
-        "tozai",
-        "yurakucho",
-        "namboku"
-      ],
+      "lines": ["tozai", "yurakucho", "namboku"],
       "opened": "1964-12-23",
       "status": "active",
       "coordinates": {
         "lat": 35.701403,
         "lng": 139.746521
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer station connecting multiple Metro lines and JR lines.",
       "dailyRidership": 159807
     },
@@ -1778,22 +1264,14 @@
       "name": "Kudanshita",
       "localName": "九段下",
       "code": "T07",
-      "lines": [
-        "tozai",
-        "hanzomon"
-      ],
+      "lines": ["tozai", "hanzomon"],
       "opened": "1964-12-23",
       "status": "active",
       "coordinates": {
         "lat": 35.696091,
         "lng": 139.751265
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Yasukuni Shrine and Nippon Budokan.",
       "dailyRidership": 162102
     },
@@ -1803,20 +1281,14 @@
       "name": "Takebashi",
       "localName": "竹橋",
       "code": "T08",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1966-03-16",
       "status": "active",
       "coordinates": {
         "lat": 35.69044,
         "lng": 139.75767
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the Imperial Palace East Gardens and National Museum of Modern Art.",
       "dailyRidership": 42156
     },
@@ -1826,24 +1298,14 @@
       "name": "Otemachi",
       "localName": "大手町",
       "code": "T09",
-      "lines": [
-        "tozai",
-        "marunouchi",
-        "chiyoda",
-        "hanzomon"
-      ],
+      "lines": ["tozai", "marunouchi", "chiyoda", "hanzomon"],
       "opened": "1966-03-16",
       "status": "active",
       "coordinates": {
         "lat": 35.6847,
         "lng": 139.766
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major business district hub connecting four Metro lines.",
       "dailyRidership": 334541
     },
@@ -1853,22 +1315,14 @@
       "name": "Nihombashi",
       "localName": "日本橋",
       "code": "T10",
-      "lines": [
-        "tozai",
-        "ginza"
-      ],
+      "lines": ["tozai", "ginza"],
       "opened": "1966-03-16",
       "status": "active",
       "coordinates": {
         "lat": 35.682376,
         "lng": 139.774101
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Historic Nihonbashi district station connecting Tozai and Ginza lines.",
       "dailyRidership": 175343
     },
@@ -1878,22 +1332,14 @@
       "name": "Kayabacho",
       "localName": "茅場町",
       "code": "T11",
-      "lines": [
-        "tozai",
-        "hibiya"
-      ],
+      "lines": ["tozai", "hibiya"],
       "opened": "1967-09-14",
       "status": "active",
       "coordinates": {
         "lat": 35.680346,
         "lng": 139.77927
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Transfer station connecting Tozai and Hibiya lines.",
       "dailyRidership": 112343
     },
@@ -1903,20 +1349,14 @@
       "name": "Monzen-nakacho",
       "localName": "門前仲町",
       "code": "T12",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1967-09-14",
       "status": "active",
       "coordinates": {
         "lat": 35.671892,
         "lng": 139.796099
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Fukagawa Fudo Temple and Tomioka Hachimangu Shrine.",
       "dailyRidership": 108733
     },
@@ -1926,20 +1366,14 @@
       "name": "Kiba",
       "localName": "木場",
       "code": "T13",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1967-09-14",
       "status": "active",
       "coordinates": {
         "lat": 35.669356,
         "lng": 139.807115
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Kiba Park and former lumber district.",
       "dailyRidership": 72289
     },
@@ -1949,20 +1383,14 @@
       "name": "Toyocho",
       "localName": "東陽町",
       "code": "T14",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1967-09-14",
       "status": "active",
       "coordinates": {
         "lat": 35.66959,
         "lng": 139.81768
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Koto Ward Office.",
       "dailyRidership": 114708
     },
@@ -1972,20 +1400,14 @@
       "name": "Minami-sunamachi",
       "localName": "南砂町",
       "code": "T15",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1969-03-29",
       "status": "active",
       "coordinates": {
         "lat": 35.668415,
         "lng": 139.831695
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Sunamachi area of Koto ward.",
       "dailyRidership": 59562
     },
@@ -1995,20 +1417,14 @@
       "name": "Nishi-kasai",
       "localName": "西葛西",
       "code": "T16",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1979-10-01",
       "status": "active",
       "coordinates": {
         "lat": 35.664562,
         "lng": 139.8596
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station with large Indian community in Edogawa ward.",
       "dailyRidership": 96546
     },
@@ -2018,20 +1434,14 @@
       "name": "Kasai",
       "localName": "葛西",
       "code": "T17",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1969-03-29",
       "status": "active",
       "coordinates": {
         "lat": 35.6636,
         "lng": 139.8725
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Kasai Rinkai Park.",
       "dailyRidership": 99258
     },
@@ -2041,20 +1451,14 @@
       "name": "Urayasu",
       "localName": "浦安",
       "code": "T18",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1969-03-29",
       "status": "active",
       "coordinates": {
         "lat": 35.665903,
         "lng": 139.893236
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Urayasu city, Chiba Prefecture.",
       "dailyRidership": 78626
     },
@@ -2064,20 +1468,14 @@
       "name": "Minami-gyotoku",
       "localName": "南行徳",
       "code": "T19",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1981-03-27",
       "status": "active",
       "coordinates": {
         "lat": 35.672729,
         "lng": 139.902276
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Ichikawa city, Chiba Prefecture.",
       "dailyRidership": 50950
     },
@@ -2087,20 +1485,14 @@
       "name": "Gyotoku",
       "localName": "行徳",
       "code": "T20",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1969-03-29",
       "status": "active",
       "coordinates": {
         "lat": 35.68262,
         "lng": 139.914185
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Gyotoku district of Ichikawa city.",
       "dailyRidership": 54606
     },
@@ -2110,20 +1502,14 @@
       "name": "Myoden",
       "localName": "妙典",
       "code": "T21",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "2000-01-22",
       "status": "active",
       "coordinates": {
         "lat": 35.691014,
         "lng": 139.924286
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Myoden Station Shopping Mall.",
       "dailyRidership": 50244
     },
@@ -2133,20 +1519,14 @@
       "name": "Baraki-nakayama",
       "localName": "原木中山",
       "code": "T22",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1969-03-29",
       "status": "active",
       "coordinates": {
         "lat": 35.7033,
         "lng": 139.941915
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Funabashi city, Chiba Prefecture.",
       "dailyRidership": 27159
     },
@@ -2156,21 +1536,14 @@
       "name": "Nishi-funabashi",
       "localName": "西船橋",
       "code": "T23",
-      "lines": [
-        "tozai"
-      ],
+      "lines": ["tozai"],
       "opened": "1969-03-29",
       "status": "active",
       "coordinates": {
         "lat": 35.707174,
         "lng": 139.958767
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Eastern terminus of Tozai Line, connecting to JR and Toyo Rapid lines.",
       "dailyRidership": 265133
     },
@@ -2180,21 +1553,14 @@
       "name": "Yoyogi-uehara",
       "localName": "代々木上原",
       "code": "C01",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1978-03-31",
       "status": "active",
       "coordinates": {
         "lat": 35.669017,
         "lng": 139.679884
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Western terminus connecting to Odakyu Odawara Line.",
       "dailyRidership": 281306
     },
@@ -2204,20 +1570,14 @@
       "name": "Yoyogi-koen",
       "localName": "代々木公園",
       "code": "C02",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1972-10-20",
       "status": "active",
       "coordinates": {
         "lat": 35.669104,
         "lng": 139.689791
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Yoyogi Park.",
       "dailyRidership": 28862
     },
@@ -2227,22 +1587,14 @@
       "name": "Meiji-jingumae",
       "localName": "明治神宮前〈原宿〉",
       "code": "C03",
-      "lines": [
-        "chiyoda",
-        "fukutoshin"
-      ],
+      "lines": ["chiyoda", "fukutoshin"],
       "opened": "1972-10-20",
       "status": "active",
       "coordinates": {
         "lat": 35.669123,
         "lng": 139.703944
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Meiji Shrine and Harajuku, connecting to Fukutoshin Line.",
       "dailyRidership": 105665
     },
@@ -2252,23 +1604,14 @@
       "name": "Omote-sando",
       "localName": "表参道",
       "code": "C04",
-      "lines": [
-        "chiyoda",
-        "ginza",
-        "hanzomon"
-      ],
+      "lines": ["chiyoda", "ginza", "hanzomon"],
       "opened": "1972-10-20",
       "status": "active",
       "coordinates": {
         "lat": 35.665652,
         "lng": 139.711346
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer station connecting three Metro lines.",
       "dailyRidership": 176901
     },
@@ -2278,20 +1621,14 @@
       "name": "Nogizaka",
       "localName": "乃木坂",
       "code": "C05",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1972-10-20",
       "status": "active",
       "coordinates": {
         "lat": 35.666592,
         "lng": 139.726229
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the National Art Center Tokyo.",
       "dailyRidership": 39194
     },
@@ -2301,20 +1638,14 @@
       "name": "Akasaka",
       "localName": "赤坂",
       "code": "C06",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1972-10-20",
       "status": "active",
       "coordinates": {
         "lat": 35.672104,
         "lng": 139.736413
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Akasaka district.",
       "dailyRidership": 77718
     },
@@ -2324,22 +1655,14 @@
       "name": "Kokkai-gijidomae",
       "localName": "国会議事堂前",
       "code": "C07",
-      "lines": [
-        "chiyoda",
-        "marunouchi"
-      ],
+      "lines": ["chiyoda", "marunouchi"],
       "opened": "1972-10-20",
       "status": "active",
       "coordinates": {
         "lat": 35.673566,
         "lng": 139.743188
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station serving the National Diet Building.",
       "dailyRidership": 123538
     },
@@ -2349,23 +1672,14 @@
       "name": "Kasumigaseki",
       "localName": "霞ケ関",
       "code": "C08",
-      "lines": [
-        "chiyoda",
-        "marunouchi",
-        "hibiya"
-      ],
+      "lines": ["chiyoda", "marunouchi", "hibiya"],
       "opened": "1971-03-20",
       "status": "active",
       "coordinates": {
         "lat": 35.67256,
         "lng": 139.75177
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Government district hub connecting three Metro lines.",
       "dailyRidership": 132884
     },
@@ -2375,22 +1689,14 @@
       "name": "Hibiya",
       "localName": "日比谷",
       "code": "C09",
-      "lines": [
-        "chiyoda",
-        "hibiya"
-      ],
+      "lines": ["chiyoda", "hibiya"],
       "opened": "1971-03-20",
       "status": "active",
       "coordinates": {
         "lat": 35.673955,
         "lng": 139.758765
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Hibiya Park connecting Chiyoda and Hibiya lines.",
       "dailyRidership": 93712
     },
@@ -2400,20 +1706,14 @@
       "name": "Nijubashimae",
       "localName": "二重橋前〈丸の内〉",
       "code": "C10",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1971-03-20",
       "status": "active",
       "coordinates": {
         "lat": 35.680505,
         "lng": 139.76178
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the Imperial Palace and Nijubashi Bridge.",
       "dailyRidership": 35289
     },
@@ -2423,24 +1723,14 @@
       "name": "Otemachi",
       "localName": "大手町",
       "code": "C11",
-      "lines": [
-        "chiyoda",
-        "marunouchi",
-        "tozai",
-        "hanzomon"
-      ],
+      "lines": ["chiyoda", "marunouchi", "tozai", "hanzomon"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.68525,
         "lng": 139.763285
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major business district hub connecting four Metro lines.",
       "dailyRidership": 334541
     },
@@ -2450,20 +1740,14 @@
       "name": "Shin-ochanomizu",
       "localName": "新御茶ノ水",
       "code": "C12",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.696925,
         "lng": 139.76545
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connected to Ogawamachi and Awajicho stations.",
       "dailyRidership": 87057
     },
@@ -2473,20 +1757,14 @@
       "name": "Yushima",
       "localName": "湯島",
       "code": "C13",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.706805,
         "lng": 139.769981
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Yushima Tenjin Shrine.",
       "dailyRidership": 37913
     },
@@ -2496,20 +1774,14 @@
       "name": "Nezu",
       "localName": "根津",
       "code": "C14",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.717325,
         "lng": 139.76575
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Nezu Shrine and traditional neighborhood.",
       "dailyRidership": 27937
     },
@@ -2519,20 +1791,14 @@
       "name": "Sendagi",
       "localName": "千駄木",
       "code": "C15",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.725746,
         "lng": 139.763303
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the traditional Yanesen area.",
       "dailyRidership": 28507
     },
@@ -2542,21 +1808,14 @@
       "name": "Nishi-nippori",
       "localName": "西日暮里",
       "code": "C16",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.732355,
         "lng": 139.76689
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to JR Yamanote and Keihin-Tohoku lines.",
       "dailyRidership": 154330
     },
@@ -2566,20 +1825,14 @@
       "name": "Machiya",
       "localName": "町屋",
       "code": "C17",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.742068,
         "lng": 139.780047
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Arakawa ward connecting to Keisei Line.",
       "dailyRidership": 60574
     },
@@ -2589,22 +1842,14 @@
       "name": "Kita-senju",
       "localName": "北千住",
       "code": "C18",
-      "lines": [
-        "chiyoda",
-        "hibiya"
-      ],
+      "lines": ["chiyoda", "hibiya"],
       "opened": "1969-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.7492,
         "lng": 139.804403
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal connecting to multiple railway lines.",
       "dailyRidership": 241001
     },
@@ -2614,20 +1859,14 @@
       "name": "Ayase",
       "localName": "綾瀬",
       "code": "C19",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1979-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.762285,
         "lng": 139.82489
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connecting to JR Joban Line through-service.",
       "dailyRidership": 384554
     },
@@ -2637,20 +1876,14 @@
       "name": "Kita-ayase",
       "localName": "北綾瀬",
       "code": "C20",
-      "lines": [
-        "chiyoda"
-      ],
+      "lines": ["chiyoda"],
       "opened": "1979-12-20",
       "status": "active",
       "coordinates": {
         "lat": 35.7769,
         "lng": 139.8321
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Northern terminus of Chiyoda Line branch, near Ayase Rail Yard.",
       "dailyRidership": 43371
     },
@@ -2660,22 +1893,14 @@
       "name": "Wakoshi",
       "localName": "和光市",
       "code": "Y01",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1987-08-25",
       "status": "active",
       "coordinates": {
         "lat": 35.7884,
         "lng": 139.6129
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Northern terminus of Yurakucho and Fukutoshin lines in Saitama.",
       "dailyRidership": 176497
     },
@@ -2685,21 +1910,14 @@
       "name": "Chikatetsu-narimasu",
       "localName": "地下鉄成増",
       "code": "Y02",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.77674,
         "lng": 139.63117
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Tobu Narimasu Station.",
       "dailyRidership": 50698
     },
@@ -2709,21 +1927,14 @@
       "name": "Chikatetsu-akatsuka",
       "localName": "地下鉄赤塚",
       "code": "Y03",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.769981,
         "lng": 139.644
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Tobu Akatsuka Station.",
       "dailyRidership": 40077
     },
@@ -2733,21 +1944,14 @@
       "name": "Heiwadai",
       "localName": "平和台",
       "code": "Y04",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.757555,
         "lng": 139.6543
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in northern Nerima ward.",
       "dailyRidership": 42893
     },
@@ -2757,21 +1961,14 @@
       "name": "Hikawadai",
       "localName": "氷川台",
       "code": "Y05",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.74962,
         "lng": 139.66547
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Nerima ward residential area.",
       "dailyRidership": 37978
     },
@@ -2781,22 +1978,14 @@
       "name": "Kotake-mukaihara",
       "localName": "小竹向原",
       "code": "Y06",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.743395,
         "lng": 139.67952
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Junction station for Yurakucho and Fukutoshin lines, connecting to Seibu Yurakucho Line.",
       "dailyRidership": 179783
     },
@@ -2806,21 +1995,14 @@
       "name": "Senkawa",
       "localName": "千川",
       "code": "Y07",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.738175,
         "lng": 139.6894
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station serving Toshima ward residential area.",
       "dailyRidership": 39136
     },
@@ -2830,21 +2012,14 @@
       "name": "Kanamecho",
       "localName": "要町",
       "code": "Y08",
-      "lines": [
-        "yurakucho",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "fukutoshin"],
       "opened": "1983-06-24",
       "status": "active",
       "coordinates": {
         "lat": 35.733215,
         "lng": 139.69848
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Ikebukuro.",
       "dailyRidership": 40890
     },
@@ -2854,23 +2029,14 @@
       "name": "Ikebukuro",
       "localName": "池袋",
       "code": "Y09",
-      "lines": [
-        "yurakucho",
-        "marunouchi",
-        "fukutoshin"
-      ],
+      "lines": ["yurakucho", "marunouchi", "fukutoshin"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.729185,
         "lng": 139.710885
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal connecting multiple lines and railways.",
       "dailyRidership": 518135
     },
@@ -2880,20 +2046,14 @@
       "name": "Higashi-ikebukuro",
       "localName": "東池袋",
       "code": "Y10",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.72595,
         "lng": 139.718865
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Sunshine City complex.",
       "dailyRidership": 45348
     },
@@ -2903,20 +2063,14 @@
       "name": "Gokokuji",
       "localName": "護国寺",
       "code": "Y11",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.71918,
         "lng": 139.72745
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Gokokuji Temple.",
       "dailyRidership": 40640
     },
@@ -2926,20 +2080,14 @@
       "name": "Edogawabashi",
       "localName": "江戸川橋",
       "code": "Y12",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.709295,
         "lng": 139.73413
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Edogawabashi bridge in Bunkyo ward.",
       "dailyRidership": 49844
     },
@@ -2949,23 +2097,14 @@
       "name": "Iidabashi",
       "localName": "飯田橋",
       "code": "Y13",
-      "lines": [
-        "yurakucho",
-        "tozai",
-        "namboku"
-      ],
+      "lines": ["yurakucho", "tozai", "namboku"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.701342,
         "lng": 139.743207
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer station connecting multiple Metro lines.",
       "dailyRidership": 159807
     },
@@ -2975,22 +2114,14 @@
       "name": "Ichigaya",
       "localName": "市ケ谷",
       "code": "Y14",
-      "lines": [
-        "yurakucho",
-        "namboku"
-      ],
+      "lines": ["yurakucho", "namboku"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.692576,
         "lng": 139.736891
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to JR Chuo-Sobu Line.",
       "dailyRidership": 133367
     },
@@ -3000,20 +2131,14 @@
       "name": "Kojimachi",
       "localName": "麴町",
       "code": "Y15",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.684785,
         "lng": 139.73735
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the British Embassy.",
       "dailyRidership": 56238
     },
@@ -3023,23 +2148,14 @@
       "name": "Nagatacho",
       "localName": "永田町",
       "code": "Y16",
-      "lines": [
-        "yurakucho",
-        "hanzomon",
-        "namboku"
-      ],
+      "lines": ["yurakucho", "hanzomon", "namboku"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.677895,
         "lng": 139.741773
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station in the political heart of Japan near the National Diet.",
       "dailyRidership": 75272
     },
@@ -3049,20 +2165,14 @@
       "name": "Sakuradamon",
       "localName": "桜田門",
       "code": "Y17",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.677459,
         "lng": 139.751886
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near the historic Sakuradamon Gate of Edo Castle.",
       "dailyRidership": 13129
     },
@@ -3072,21 +2182,14 @@
       "name": "Yurakucho",
       "localName": "有楽町",
       "code": "Y18",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.675973,
         "lng": 139.762286
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to JR Yurakucho and near Ginza.",
       "dailyRidership": 139041
     },
@@ -3096,20 +2199,14 @@
       "name": "Ginza-itchome",
       "localName": "銀座一丁目",
       "code": "Y19",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1974-10-30",
       "status": "active",
       "coordinates": {
         "lat": 35.674519,
         "lng": 139.766786
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the northern Ginza district.",
       "dailyRidership": 33805
     },
@@ -3119,20 +2216,14 @@
       "name": "Shintomicho",
       "localName": "新富町",
       "code": "Y20",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1980-03-27",
       "status": "active",
       "coordinates": {
         "lat": 35.670529,
         "lng": 139.773594
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Chuo ward near Tsukiji.",
       "dailyRidership": 36625
     },
@@ -3142,20 +2233,14 @@
       "name": "Tsukishima",
       "localName": "月島",
       "code": "Y21",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1988-06-08",
       "status": "active",
       "coordinates": {
         "lat": 35.664711,
         "lng": 139.784405
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station famous for monja-yaki restaurants.",
       "dailyRidership": 70195
     },
@@ -3165,21 +2250,14 @@
       "name": "Toyosu",
       "localName": "豊洲",
       "code": "Y22",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1988-06-08",
       "status": "active",
       "coordinates": {
         "lat": 35.655153,
         "lng": 139.795994
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near the new Toyosu Market, connecting to Yurikamome.",
       "dailyRidership": 210782
     },
@@ -3189,20 +2267,14 @@
       "name": "Tatsumi",
       "localName": "辰巳",
       "code": "Y23",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1988-06-08",
       "status": "active",
       "coordinates": {
         "lat": 35.645775,
         "lng": 139.81033
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the Tatsumi area of Koto ward.",
       "dailyRidership": 27776
     },
@@ -3212,21 +2284,14 @@
       "name": "Shin-kiba",
       "localName": "新木場",
       "code": "Y24",
-      "lines": [
-        "yurakucho"
-      ],
+      "lines": ["yurakucho"],
       "opened": "1988-06-08",
       "status": "active",
       "coordinates": {
         "lat": 35.6458,
         "lng": 139.8267
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Southeastern terminus connecting to JR Keiyo and Rinkai lines.",
       "dailyRidership": 95764
     },
@@ -3236,23 +2301,14 @@
       "name": "Shibuya",
       "localName": "渋谷",
       "code": "Z01",
-      "lines": [
-        "hanzomon",
-        "ginza",
-        "fukutoshin"
-      ],
+      "lines": ["hanzomon", "ginza", "fukutoshin"],
       "opened": "1978-08-01",
       "status": "active",
       "coordinates": {
         "lat": 35.65945,
         "lng": 139.701035
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal connecting to Tokyu Den-en-toshi Line.",
       "dailyRidership": 751998
     },
@@ -3262,23 +2318,14 @@
       "name": "Omote-sando",
       "localName": "表参道",
       "code": "Z02",
-      "lines": [
-        "hanzomon",
-        "ginza",
-        "chiyoda"
-      ],
+      "lines": ["hanzomon", "ginza", "chiyoda"],
       "opened": "1978-08-01",
       "status": "active",
       "coordinates": {
         "lat": 35.665143,
         "lng": 139.712383
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Transfer station connecting three Metro lines.",
       "dailyRidership": 176901
     },
@@ -3288,22 +2335,14 @@
       "name": "Aoyama-itchome",
       "localName": "青山一丁目",
       "code": "Z03",
-      "lines": [
-        "hanzomon",
-        "ginza"
-      ],
+      "lines": ["hanzomon", "ginza"],
       "opened": "1978-08-01",
       "status": "active",
       "coordinates": {
         "lat": 35.672956,
         "lng": 139.724075
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Transfer station connecting to Toei Oedo Line.",
       "dailyRidership": 100057
     },
@@ -3313,23 +2352,14 @@
       "name": "Nagatacho",
       "localName": "永田町",
       "code": "Z04",
-      "lines": [
-        "hanzomon",
-        "yurakucho",
-        "namboku"
-      ],
+      "lines": ["hanzomon", "yurakucho", "namboku"],
       "opened": "1979-09-21",
       "status": "active",
       "coordinates": {
         "lat": 35.678407,
         "lng": 139.738865
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Government district station connecting three Metro lines.",
       "dailyRidership": 75272
     },
@@ -3339,20 +2369,14 @@
       "name": "Hanzomon",
       "localName": "半蔵門",
       "code": "Z05",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "1982-12-09",
       "status": "active",
       "coordinates": {
         "lat": 35.68538,
         "lng": 139.741695
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station named after the Hanzomon Gate of the Imperial Palace.",
       "dailyRidership": 73487
     },
@@ -3362,22 +2386,14 @@
       "name": "Kudanshita",
       "localName": "九段下",
       "code": "Z06",
-      "lines": [
-        "hanzomon",
-        "tozai"
-      ],
+      "lines": ["hanzomon", "tozai"],
       "opened": "1989-01-26",
       "status": "active",
       "coordinates": {
         "lat": 35.695501,
         "lng": 139.751117
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Yasukuni Shrine connecting two Metro lines.",
       "dailyRidership": 162102
     },
@@ -3387,20 +2403,14 @@
       "name": "Jimbocho",
       "localName": "神保町",
       "code": "Z07",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "1989-01-26",
       "status": "active",
       "coordinates": {
         "lat": 35.696021,
         "lng": 139.75756
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the famous bookstore district.",
       "dailyRidership": 85815
     },
@@ -3410,24 +2420,14 @@
       "name": "Otemachi",
       "localName": "大手町",
       "code": "Z08",
-      "lines": [
-        "hanzomon",
-        "marunouchi",
-        "tozai",
-        "chiyoda"
-      ],
+      "lines": ["hanzomon", "marunouchi", "tozai", "chiyoda"],
       "opened": "1989-01-26",
       "status": "active",
       "coordinates": {
         "lat": 35.686745,
         "lng": 139.764905
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major business district hub connecting four Metro lines.",
       "dailyRidership": 334541
     },
@@ -3437,22 +2437,14 @@
       "name": "Mitsukoshimae",
       "localName": "三越前",
       "code": "Z09",
-      "lines": [
-        "hanzomon",
-        "ginza"
-      ],
+      "lines": ["hanzomon", "ginza"],
       "opened": "1989-01-26",
       "status": "active",
       "coordinates": {
         "lat": 35.684928,
         "lng": 139.77308
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Mitsukoshi department store connecting two Metro lines.",
       "dailyRidership": 117531
     },
@@ -3462,20 +2454,14 @@
       "name": "Suitengumae",
       "localName": "水天宮前",
       "code": "Z10",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "1990-11-28",
       "status": "active",
       "coordinates": {
         "lat": 35.683,
         "lng": 139.785171
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Suitengu Shrine, popular for safe childbirth prayers.",
       "dailyRidership": 74355
     },
@@ -3485,20 +2471,14 @@
       "name": "Kiyosumi-shirakawa",
       "localName": "清澄白河",
       "code": "Z11",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "2003-03-19",
       "status": "active",
       "coordinates": {
         "lat": 35.682119,
         "lng": 139.799841
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in a trendy area known for coffee shops and art galleries.",
       "dailyRidership": 58792
     },
@@ -3508,20 +2488,14 @@
       "name": "Sumiyoshi",
       "localName": "住吉",
       "code": "Z12",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "2003-03-19",
       "status": "active",
       "coordinates": {
         "lat": 35.688704,
         "lng": 139.815667
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Koto ward residential area.",
       "dailyRidership": 54816
     },
@@ -3531,21 +2505,14 @@
       "name": "Kinshicho",
       "localName": "錦糸町",
       "code": "Z13",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "2003-03-19",
       "status": "active",
       "coordinates": {
         "lat": 35.697441,
         "lng": 139.814957
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to JR Sobu Line, near Tokyo Skytree.",
       "dailyRidership": 104930
     },
@@ -3555,21 +2522,14 @@
       "name": "Oshiage",
       "localName": "押上〈スカイツリー前〉",
       "code": "Z14",
-      "lines": [
-        "hanzomon"
-      ],
+      "lines": ["hanzomon"],
       "opened": "2003-03-19",
       "status": "active",
       "coordinates": {
         "lat": 35.708467,
         "lng": 139.813735
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Eastern terminus at Tokyo Skytree, connecting to Tobu and Keisei lines.",
       "dailyRidership": 183422
     },
@@ -3579,21 +2539,14 @@
       "name": "Meguro",
       "localName": "目黒",
       "code": "N01",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "2000-09-26",
       "status": "active",
       "coordinates": {
         "lat": 35.632485,
         "lng": 139.71566
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Southern terminus connecting to Tokyu Meguro Line and JR Yamanote Line.",
       "dailyRidership": 107777
     },
@@ -3603,20 +2556,14 @@
       "name": "Shirokanedai",
       "localName": "白金台",
       "code": "N02",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "2000-09-26",
       "status": "active",
       "coordinates": {
         "lat": 35.63777,
         "lng": 139.72586
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the upscale Shirokane area.",
       "dailyRidership": 16791
     },
@@ -3626,20 +2573,14 @@
       "name": "Shirokanetakanawa",
       "localName": "白金高輪",
       "code": "N03",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "2000-09-26",
       "status": "active",
       "coordinates": {
         "lat": 35.643145,
         "lng": 139.734285
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connecting to Toei Mita Line.",
       "dailyRidership": 36926
     },
@@ -3649,20 +2590,14 @@
       "name": "Azabu-juban",
       "localName": "麻布十番",
       "code": "N04",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "2000-09-26",
       "status": "active",
       "coordinates": {
         "lat": 35.65481,
         "lng": 139.737045
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in the international Azabu district.",
       "dailyRidership": 43260
     },
@@ -3672,20 +2607,14 @@
       "name": "Roppongi-itchome",
       "localName": "六本木一丁目",
       "code": "N05",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "2000-09-26",
       "status": "active",
       "coordinates": {
         "lat": 35.665075,
         "lng": 139.7389
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Ark Hills complex.",
       "dailyRidership": 74305
     },
@@ -3695,22 +2624,14 @@
       "name": "Tameike-sanno",
       "localName": "溜池山王",
       "code": "N06",
-      "lines": [
-        "namboku",
-        "ginza"
-      ],
+      "lines": ["namboku", "ginza"],
       "opened": "1997-09-30",
       "status": "active",
       "coordinates": {
         "lat": 35.673091,
         "lng": 139.741294
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Government district station connecting to Ginza Line.",
       "dailyRidership": 123538
     },
@@ -3720,23 +2641,14 @@
       "name": "Nagatacho",
       "localName": "永田町",
       "code": "N07",
-      "lines": [
-        "namboku",
-        "yurakucho",
-        "hanzomon"
-      ],
+      "lines": ["namboku", "yurakucho", "hanzomon"],
       "opened": "1997-09-30",
       "status": "active",
       "coordinates": {
         "lat": 35.678338,
         "lng": 139.739288
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Political district station connecting three Metro lines.",
       "dailyRidership": 75272
     },
@@ -3746,22 +2658,14 @@
       "name": "Yotsuya",
       "localName": "四ツ谷",
       "code": "N08",
-      "lines": [
-        "namboku",
-        "marunouchi"
-      ],
+      "lines": ["namboku", "marunouchi"],
       "opened": "1997-09-30",
       "status": "active",
       "coordinates": {
         "lat": 35.686082,
         "lng": 139.72968
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to Marunouchi Line and JR lines.",
       "dailyRidership": 117584
     },
@@ -3771,22 +2675,14 @@
       "name": "Ichigaya",
       "localName": "市ケ谷",
       "code": "N09",
-      "lines": [
-        "namboku",
-        "yurakucho"
-      ],
+      "lines": ["namboku", "yurakucho"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.692894,
         "lng": 139.736324
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Self-Defense Forces headquarters.",
       "dailyRidership": 133367
     },
@@ -3796,23 +2692,14 @@
       "name": "Iidabashi",
       "localName": "飯田橋",
       "code": "N10",
-      "lines": [
-        "namboku",
-        "yurakucho",
-        "tozai"
-      ],
+      "lines": ["namboku", "yurakucho", "tozai"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.701532,
         "lng": 139.743716
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major transfer station connecting multiple Metro lines.",
       "dailyRidership": 159807
     },
@@ -3822,22 +2709,14 @@
       "name": "Korakuen",
       "localName": "後楽園",
       "code": "N11",
-      "lines": [
-        "namboku",
-        "marunouchi"
-      ],
+      "lines": ["namboku", "marunouchi"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.70839,
         "lng": 139.751786
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station near Tokyo Dome connecting to Marunouchi Line.",
       "dailyRidership": 104894
     },
@@ -3847,20 +2726,14 @@
       "name": "Todaimae",
       "localName": "東大前",
       "code": "N12",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.718014,
         "lng": 139.75788
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station at the main entrance to the University of Tokyo.",
       "dailyRidership": 27311
     },
@@ -3870,20 +2743,14 @@
       "name": "Hon-komagome",
       "localName": "本駒込",
       "code": "N13",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.724365,
         "lng": 139.753812
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Bunkyo ward residential area.",
       "dailyRidership": 21070
     },
@@ -3893,21 +2760,14 @@
       "name": "Komagome",
       "localName": "駒込",
       "code": "N14",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1996-03-26",
       "status": "active",
       "coordinates": {
         "lat": 35.735913,
         "lng": 139.746909
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to JR Yamanote Line, near Rikugien Garden.",
       "dailyRidership": 37671
     },
@@ -3917,20 +2777,14 @@
       "name": "Nishi-sugamo",
       "localName": "西ケ原",
       "code": "N15",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1991-11-29",
       "status": "active",
       "coordinates": {
         "lat": 35.745945,
         "lng": 139.74226
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in Toshima ward.",
       "dailyRidership": 8976
     },
@@ -3940,20 +2794,14 @@
       "name": "Shin-itabashi",
       "localName": "王子",
       "code": "N16",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1991-11-29",
       "status": "active",
       "coordinates": {
         "lat": 35.75447,
         "lng": 139.737362
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near JR Itabashi Station.",
       "dailyRidership": 60412
     },
@@ -3963,20 +2811,14 @@
       "name": "Itabashikuyakushomae",
       "localName": "王子神谷",
       "code": "N17",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1991-11-29",
       "status": "active",
       "coordinates": {
         "lat": 35.765292,
         "lng": 139.735641
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station at Itabashi Ward Office.",
       "dailyRidership": 36275
     },
@@ -3986,20 +2828,14 @@
       "name": "Shimura-sakaue",
       "localName": "志茂",
       "code": "N18",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1991-11-29",
       "status": "active",
       "coordinates": {
         "lat": 35.778025,
         "lng": 139.7325
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station in northern Itabashi ward.",
       "dailyRidership": 15187
     },
@@ -4009,21 +2845,14 @@
       "name": "Akabane-iwabuchi",
       "localName": "赤羽岩淵",
       "code": "N19",
-      "lines": [
-        "namboku"
-      ],
+      "lines": ["namboku"],
       "opened": "1991-11-29",
       "status": "active",
       "coordinates": {
         "lat": 35.783355,
         "lng": 139.72211
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Northern terminus connecting to Saitama Railway Line.",
       "dailyRidership": 94035
     },
@@ -4033,22 +2862,14 @@
       "name": "Wakoshi",
       "localName": "和光市",
       "code": "F01",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.7884,
         "lng": 139.6129
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Northern terminus connecting to Tobu Tojo Line.",
       "dailyRidership": 176497
     },
@@ -4058,21 +2879,14 @@
       "name": "Chikatetsu-narimasu",
       "localName": "地下鉄成増",
       "code": "F02",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.77674,
         "lng": 139.63117
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station shared with Yurakucho Line.",
       "dailyRidership": 50698
     },
@@ -4082,21 +2896,14 @@
       "name": "Chikatetsu-akatsuka",
       "localName": "地下鉄赤塚",
       "code": "F03",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.76998,
         "lng": 139.644001
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station shared with Yurakucho Line.",
       "dailyRidership": 40077
     },
@@ -4106,21 +2913,14 @@
       "name": "Heiwadai",
       "localName": "平和台",
       "code": "F04",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.757555,
         "lng": 139.6543
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station shared with Yurakucho Line.",
       "dailyRidership": 42893
     },
@@ -4130,21 +2930,14 @@
       "name": "Hikawadai",
       "localName": "氷川台",
       "code": "F05",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.74962,
         "lng": 139.66547
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station shared with Yurakucho Line.",
       "dailyRidership": 37978
     },
@@ -4154,22 +2947,14 @@
       "name": "Kotake-mukaihara",
       "localName": "小竹向原",
       "code": "F06",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.743395,
         "lng": 139.67952
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Junction station connecting to Seibu Ikebukuro Line.",
       "dailyRidership": 179783
     },
@@ -4179,21 +2964,14 @@
       "name": "Senkawa",
       "localName": "千川",
       "code": "F07",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.738175,
         "lng": 139.6894
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station shared with Yurakucho Line.",
       "dailyRidership": 39136
     },
@@ -4203,21 +2981,14 @@
       "name": "Kanamecho",
       "localName": "要町",
       "code": "F08",
-      "lines": [
-        "fukutoshin",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.733215,
         "lng": 139.69848
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station shared with Yurakucho Line.",
       "dailyRidership": 40890
     },
@@ -4227,23 +2998,14 @@
       "name": "Ikebukuro",
       "localName": "池袋",
       "code": "F09",
-      "lines": [
-        "fukutoshin",
-        "marunouchi",
-        "yurakucho"
-      ],
+      "lines": ["fukutoshin", "marunouchi", "yurakucho"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.730345,
         "lng": 139.71115
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Major terminal connecting multiple Metro lines and railways.",
       "dailyRidership": 518135
     },
@@ -4253,20 +3015,14 @@
       "name": "Zoshigaya",
       "localName": "雑司が谷",
       "code": "F10",
-      "lines": [
-        "fukutoshin"
-      ],
+      "lines": ["fukutoshin"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.7202,
         "lng": 139.714715
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Zoshigaya Cemetery.",
       "dailyRidership": 19401
     },
@@ -4276,20 +3032,14 @@
       "name": "Nishi-waseda",
       "localName": "西早稲田",
       "code": "F11",
-      "lines": [
-        "fukutoshin"
-      ],
+      "lines": ["fukutoshin"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.707806,
         "lng": 139.70912
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Waseda University.",
       "dailyRidership": 37411
     },
@@ -4299,20 +3049,14 @@
       "name": "Higashi-shinjuku",
       "localName": "東新宿",
       "code": "F12",
-      "lines": [
-        "fukutoshin"
-      ],
+      "lines": ["fukutoshin"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.699829,
         "lng": 139.707846
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station connecting to Toei Oedo Line.",
       "dailyRidership": 40302
     },
@@ -4322,22 +3066,14 @@
       "name": "Shinjuku-sanchome",
       "localName": "新宿三丁目",
       "code": "F13",
-      "lines": [
-        "fukutoshin",
-        "marunouchi"
-      ],
+      "lines": ["fukutoshin", "marunouchi"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.690609,
         "lng": 139.704727
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to Marunouchi and Toei Shinjuku lines.",
       "dailyRidership": 152460
     },
@@ -4347,20 +3083,14 @@
       "name": "Kita-sando",
       "localName": "北参道",
       "code": "F14",
-      "lines": [
-        "fukutoshin"
-      ],
+      "lines": ["fukutoshin"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.678503,
         "lng": 139.705469
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Station near Meiji Shrine's north approach.",
       "dailyRidership": 23768
     },
@@ -4370,22 +3100,14 @@
       "name": "Meiji-jingumae",
       "localName": "明治神宮前〈原宿〉",
       "code": "F15",
-      "lines": [
-        "fukutoshin",
-        "chiyoda"
-      ],
+      "lines": ["fukutoshin", "chiyoda"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.668205,
         "lng": 139.70524
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Station connecting to Chiyoda Line near Harajuku.",
       "dailyRidership": 105665
     },
@@ -4395,23 +3117,14 @@
       "name": "Shibuya",
       "localName": "渋谷",
       "code": "F16",
-      "lines": [
-        "fukutoshin",
-        "ginza",
-        "hanzomon"
-      ],
+      "lines": ["fukutoshin", "ginza", "hanzomon"],
       "opened": "2008-06-14",
       "status": "active",
       "coordinates": {
         "lat": 35.659092,
         "lng": 139.70257
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "transfer"],
       "description": "Southern terminus connecting to Tokyu Toyoko Line.",
       "dailyRidership": 751998
     }

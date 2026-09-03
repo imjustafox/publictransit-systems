@@ -79,6 +79,7 @@ export function StationFilters({
         <div className="flex items-center gap-2">
           <span className="text-sm font-mono text-text-muted">Line:</span>
           <select
+            aria-label="Filter stations by line"
             value={currentLine || ""}
             onChange={(e) => updateFilter("line", e.target.value || null)}
             className="px-2 py-1 text-xs font-mono rounded border border-border bg-bg-tertiary text-text-primary focus:border-accent-primary outline-none"

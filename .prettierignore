@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+.pnp/
+.pnp.*
+.yarn/
+
+# Package manager / lockfiles
+package-lock.json
+pnpm-lock.yaml
+yarn.lock
+
+# Next.js / build output
+.next/
+out/
+build/
+coverage/
+*.tsbuildinfo
+next-env.d.ts
+
+# Cloudflare / worker output
+.wrangler/
+workers/**/.wrangler/
+workers/**/dist/
+
+# Generated or cached project data
+data/raw/
+data/.cache/
+
+# Deployment / local environment
+.vercel/
+.env*
+!.env.example
+
+# Miscellaneous
+.DS_Store
+*.pem

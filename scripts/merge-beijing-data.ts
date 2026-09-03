@@ -113,9 +113,7 @@ function mergeEntrances(base: Entrance[], overlay: Entrance[]): Entrance[] {
       }
       // Merge features
       if (e.features) {
-        existing.features = [
-          ...new Set([...(existing.features || []), ...e.features]),
-        ];
+        existing.features = [...new Set([...(existing.features || []), ...e.features])];
       }
     } else {
       byId.set(e.id, { ...e });
@@ -134,7 +132,7 @@ function mergeElevators(base: Elevator[], overlay: Elevator[]): Elevator[] {
       if (!existing.coordinates || !e.coordinates) return false;
       const dist = Math.sqrt(
         Math.pow(existing.coordinates.lat - e.coordinates.lat, 2) +
-        Math.pow(existing.coordinates.lng - e.coordinates.lng, 2)
+          Math.pow(existing.coordinates.lng - e.coordinates.lng, 2)
       );
       return dist < 0.0001; // ~10 meters
     });
@@ -145,143 +143,6 @@ function mergeElevators(base: Elevator[], overlay: Elevator[]): Elevator[] {
   }
 
   return result;
-}
-
-function mergeStations(
-  base: Station[],
-  bjsubway: Station[],
-  osm: Station[]
-): Station[] {
-  // Create lookup maps
-  const bjsubwayByName = new Map<string, Station>();
-  for (const s of bjsubway) {
-    const key = normalizeStationName(s.localName || s.name);
-    bjsubwayByName.set(key, s);
-  }
-
-  const osmByName = new Map<string, Station>();
-  for (const s of osm) {
-    const key = normalizeStationName(s.localName || s.name);
-    osmByName.set(key, s);
-  }
-
-  const merged: Station[] = [];
-
-  for (const station of base) {
-    const normalizedName = normalizeStationName(station.localName || station.name);
-    const result = { ...station };
-
-    // Merge bjsubway data
-    const bjStation = bjsubwayByName.get(normalizedName);
-    if (bjStation) {
-      // Use bjsubway coordinates if we don't have them or they're more precise
-      if (bjStation.coordinates && !result.coordinates) {
-        result.coordinates = bjStation.coordinates;
-      }
-
-      // Merge entrances
-      if (bjStation.entrances) {
-        result.entrances = mergeEntrances(
-          result.entrances || [],
-          bjStation.entrances
-        );
-      }
-
-      // Merge elevators
-      if (bjStation.elevators) {
-        result.elevators = mergeElevators(
-          result.elevators || [],
-          bjStation.elevators
-        );
-      }
-
-      // Merge escalator locations
-      if (bjStation.escalatorLocations) {
-        result.escalatorLocations = [
-          ...new Set([
-            ...(result.escalatorLocations || []),
-            ...bjStation.escalatorLocations,
-          ]),
-        ];
-      }
-
-      // Merge features
-      result.features = [
-        ...new Set([...result.features, ...bjStation.features]),
-      ].sort();
-
-      bjsubwayByName.delete(normalizedName);
-    }
-
-    // Merge OSM data
-    const osmStation = osmByName.get(normalizedName);
-    if (osmStation) {
-      // Use OSM coordinates as fallback
-      if (!result.coordinates && osmStation.coordinates) {
-        result.coordinates = osmStation.coordinates;
-      }
-
-      // Merge OSM entrances (they have coordinates!)
-      if (osmStation.entrances) {
-        result.entrances = mergeEntrances(
-          result.entrances || [],
-          osmStation.entrances
-        );
-      }
-
-      // Merge OSM elevators
-      if (osmStation.elevators) {
-        result.elevators = mergeElevators(
-          result.elevators || [],
-          osmStation.elevators
-        );
-      }
-
-      // Add OSM metadata
-      if (osmStation.osmId) {
-        result.osmId = osmStation.osmId;
-      }
-      if (osmStation.wikidata) {
-        result.wikidata = osmStation.wikidata;
-      }
-
-      // Merge features
-      result.features = [
-        ...new Set([...result.features, ...osmStation.features]),
-      ].sort();
-
-      osmByName.delete(normalizedName);
-    }
-
-    merged.push(result);
-  }
-
-  // Add any stations from bjsubway not in base
-  console.log(`  New stations from bjsubway: ${bjsubwayByName.size}`);
-  for (const station of bjsubwayByName.values()) {
-    // Check OSM for additional data
-    const osmStation = osmByName.get(
-      normalizeStationName(station.localName || station.name)
-    );
-    if (osmStation) {
-      if (osmStation.entrances) {
-        station.entrances = mergeEntrances(
-          station.entrances || [],
-          osmStation.entrances
-        );
-      }
-      if (osmStation.elevators) {
-        station.elevators = mergeElevators(
-          station.elevators || [],
-          osmStation.elevators
-        );
-      }
-      if (osmStation.osmId) station.osmId = osmStation.osmId;
-    }
-    merged.push(station);
-  }
-
-  return merged;
 }
 
 // Normalize line IDs to match our lines.json schema
@@ -374,7 +235,10 @@ async function main() {
 
     // Create base station
     const station: Station = {
-      id: mapping.localName.toLowerCase().replace(/\s+/g, "-").replace(/[()（）]/g, ""),
+      id: mapping.localName
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+        .replace(/[()（）]/g, ""),
       systemId: "beijing-subway",
       name: mapping.name,
       localName: mapping.localName,
@@ -433,18 +297,12 @@ async function main() {
 
       // Merge entrances
       if (baseStation.entrances && baseStation.entrances.length > 0) {
-        station.entrances = mergeEntrances(
-          station.entrances || [],
-          baseStation.entrances
-        );
+        station.entrances = mergeEntrances(station.entrances || [], baseStation.entrances);
       }
 
       // Merge elevators
       if (baseStation.elevators && baseStation.elevators.length > 0) {
-        station.elevators = mergeElevators(
-          station.elevators || [],
-          baseStation.elevators
-        );
+        station.elevators = mergeElevators(station.elevators || [], baseStation.elevators);
       }
 
       // Merge escalator locations
@@ -472,19 +330,12 @@ async function main() {
   const withCoords = merged.filter((s) => s.coordinates).length;
   const withEntrances = merged.filter((s) => s.entrances && s.entrances.length > 0).length;
   const entrancesWithCoords = merged.reduce(
-    (sum, s) =>
-      sum + (s.entrances?.filter((e) => e.coordinates).length || 0),
+    (sum, s) => sum + (s.entrances?.filter((e) => e.coordinates).length || 0),
     0
   );
-  const totalEntrances = merged.reduce(
-    (sum, s) => sum + (s.entrances?.length || 0),
-    0
-  );
+  const totalEntrances = merged.reduce((sum, s) => sum + (s.entrances?.length || 0), 0);
   const withElevators = merged.filter((s) => s.elevators && s.elevators.length > 0).length;
-  const totalElevators = merged.reduce(
-    (sum, s) => sum + (s.elevators?.length || 0),
-    0
-  );
+  const totalElevators = merged.reduce((sum, s) => sum + (s.elevators?.length || 0), 0);
   const transfers = merged.filter((s) => s.features.includes("transfer")).length;
 
   // Lines breakdown

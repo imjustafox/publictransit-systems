@@ -4,12 +4,7 @@
       "id": "metro-center",
       "systemId": "wmata",
       "name": "Metro Center",
-      "lines": [
-        "red",
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["red", "blue", "orange", "silver"],
       "opened": "1976-03-27",
       "status": "active",
       "coordinates": {
@@ -17,16 +12,9 @@
         "lng": -77.028
       },
       "address": "607 13th St NW, Washington, DC 20005",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Metro Center is the central hub of the Metrorail system, located at the intersection of G Street and 12th/13th Streets NW. It is one of the busiest stations in the system and serves as a transfer point between the Red, Blue, Orange, and Silver lines.",
-      "connections": [
-        "gallery-place"
-      ],
+      "connections": ["gallery-place"],
       "entrances": [
         {
           "id": "metro-center-1",
@@ -35,9 +23,7 @@
             "lat": 38.898073,
             "lng": -77.026789
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building Entrance from the southeast corner of 11th St NW and G St NW."
         },
         {
@@ -47,9 +33,7 @@
             "lat": 38.898026,
             "lng": -77.029379
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building Entrance from the southeast corner of 13th St NW and G St NW."
         },
         {
@@ -59,9 +43,7 @@
             "lat": 38.898433,
             "lng": -77.029402
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from west mezzanine to Macy's entrance."
         },
         {
@@ -71,9 +53,7 @@
             "lat": 38.898365,
             "lng": -77.026683
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from east mezzanine to Grand Hyatt Hotel entrance."
         },
         {
@@ -83,9 +63,7 @@
             "lat": 38.89892,
             "lng": -77.027914
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator at 12th St NW segment between G St NW and H St NW."
         },
         {
@@ -95,9 +73,7 @@
             "lat": 38.897147,
             "lng": -77.028567
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator to station from the building located at the southeast corner of 12th St NW and F St NW."
         },
         {
@@ -107,9 +83,7 @@
             "lat": 38.898498,
             "lng": -77.027903
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator to station from northeast corner of 12th St NW and G St NW."
         },
         {
@@ -119,9 +93,7 @@
             "lat": 38.898985,
             "lng": -77.028228
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from north mezzanine to Macy's entrance."
         }
       ]
@@ -130,11 +102,7 @@
       "id": "gallery-place",
       "systemId": "wmata",
       "name": "Gallery Place-Chinatown",
-      "lines": [
-        "red",
-        "green",
-        "yellow"
-      ],
+      "lines": ["red", "green", "yellow"],
       "opened": "1976-03-27",
       "status": "active",
       "coordinates": {
@@ -142,16 +110,9 @@
         "lng": -77.0219
       },
       "address": "630 H St NW, Washington, DC 20001",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Gallery Place-Chinatown serves the Penn Quarter and Chinatown neighborhoods. The station is adjacent to Capital One Arena and the National Portrait Gallery.",
-      "connections": [
-        "metro-center"
-      ],
+      "connections": ["metro-center"],
       "entrances": [
         {
           "id": "gallery-place-49",
@@ -160,9 +121,7 @@
             "lat": 38.898048,
             "lng": -77.023763
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance located at the southeast corner of 9th St NW and G St NW."
         },
         {
@@ -172,9 +131,7 @@
             "lat": 38.897574,
             "lng": -77.021681
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from Verizon center, located at the northeast corner of F St NW and 7th St NW."
         },
         {
@@ -184,9 +141,7 @@
             "lat": 38.897926,
             "lng": -77.021729
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator from Verizon Center, located at east of 7th St NW."
         },
         {
@@ -196,9 +151,7 @@
             "lat": 38.89963,
             "lng": -77.02156
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the southeast corner of 7th St NW and H St NW."
         }
       ]
@@ -207,9 +160,7 @@
       "id": "union-station",
       "systemId": "wmata",
       "name": "Union Station",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1976-03-27",
       "status": "active",
       "coordinates": {
@@ -217,13 +168,7 @@
         "lng": -77.0069
       },
       "address": "50 Massachusetts Ave NE, Washington, DC 20002",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection",
-        "amtrak-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection", "amtrak-connection"],
       "description": "Union Station serves the historic Union Station, providing connections to Amtrak, MARC, and VRE commuter rail services, as well as intercity bus services.",
       "entrances": [
         {
@@ -233,9 +178,7 @@
             "lat": 38.89845,
             "lng": -77.006995
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from the passageway to AMTRAK, MARC, VRE TRAINS"
         },
         {
@@ -245,9 +188,7 @@
             "lat": 38.898541,
             "lng": -77.006984
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance from the passageway to AMTRAK, MARC, VRE TRAINS"
         },
         {
@@ -257,9 +198,7 @@
             "lat": 38.897563,
             "lng": -77.007198
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from 1st St NE to southeast corner of the Union station building."
         },
         {
@@ -269,9 +208,7 @@
             "lat": 38.898393,
             "lng": -77.00726
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from northeast corner of Massachusetts Ave NE and 1st NE."
         }
       ]
@@ -280,10 +217,7 @@
       "id": "pentagon",
       "systemId": "wmata",
       "name": "Pentagon",
-      "lines": [
-        "blue",
-        "yellow"
-      ],
+      "lines": ["blue", "yellow"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -291,12 +225,7 @@
         "lng": -77.0538
       },
       "address": "Pentagon, Arlington, VA",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Pentagon station serves the United States Department of Defense headquarters. It is one of the deepest stations in the system at 97 feet below ground.",
       "entrances": [
         {
@@ -306,9 +235,7 @@
             "lat": 38.869591,
             "lng": -77.053838
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Steet level elevator to station is accessible from bus bay area sidewalks."
         },
         {
@@ -318,9 +245,7 @@
             "lat": 38.869857,
             "lng": -77.053649
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance at the north side of bus bay accessible from the bus bay area sidewalks."
         },
         {
@@ -330,9 +255,7 @@
             "lat": 38.869156,
             "lng": -77.054574
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance at the south side of bus bay accessible from the bus bay area sidewalks."
         }
       ]
@@ -341,10 +264,7 @@
       "id": "reagan-national-airport",
       "systemId": "wmata",
       "name": "Ronald Reagan Washington National Airport",
-      "lines": [
-        "blue",
-        "yellow"
-      ],
+      "lines": ["blue", "yellow"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -352,12 +272,7 @@
         "lng": -77.044
       },
       "address": "National Airport, Arlington, VA",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "airport-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
       "description": "This station provides direct access to Reagan National Airport, serving as a major transportation hub for air travelers to the Washington area.",
       "entrances": [
         {
@@ -367,9 +282,7 @@
             "lat": 38.853463,
             "lng": -77.044086
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator to station platform"
         },
         {
@@ -379,9 +292,7 @@
             "lat": 38.85463,
             "lng": -77.044507
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian bridge to station north entrance is accessible from parking garage - C and airport terminal -C"
         },
         {
@@ -391,9 +302,7 @@
             "lat": 38.85234,
             "lng": -77.043571
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian bridge to station south entrance is accessible from parking garage-B and airport terminal-B"
         }
       ]
@@ -402,9 +311,7 @@
       "id": "dulles-airport",
       "systemId": "wmata",
       "name": "Washington Dulles International Airport",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2022-11-15",
       "status": "active",
       "coordinates": {
@@ -412,21 +319,14 @@
         "lng": -77.4565
       },
       "address": "Dulles International Airport, Dulles, VA",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "airport-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
       "description": "The newest major station on the Silver Line, providing direct rail access to Dulles International Airport for the first time."
     },
     {
       "id": "farragut-north",
       "systemId": "wmata",
       "name": "Farragut North",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1976-03-27",
       "status": "active",
       "coordinates": {
@@ -434,11 +334,7 @@
         "lng": -77.0397
       },
       "address": "1001 Connecticut Ave NW, Washington, DC 20036",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Located in the central business district, Farragut North is one of the original five stations that opened with the system in 1976.",
       "entrances": [
         {
@@ -448,9 +344,7 @@
             "lat": 38.903021,
             "lng": -77.039314
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from Connecticut Ave NW"
         },
         {
@@ -460,9 +354,7 @@
             "lat": 38.902767,
             "lng": -77.039121
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the northeast corner of Connecticut Ave NW and K St NW."
         },
         {
@@ -472,9 +364,7 @@
             "lat": 38.903925,
             "lng": -77.039787
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the northeast corner of L St NW and Connecticut Ave NW. (Escalator Only)"
         },
         {
@@ -484,9 +374,7 @@
             "lat": 38.903525,
             "lng": -77.040186
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the southwest corner of L St NW and Connecticut Ave NW. (Escalator Only)"
         }
       ]
@@ -495,11 +383,7 @@
       "id": "farragut-west",
       "systemId": "wmata",
       "name": "Farragut West",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -507,11 +391,7 @@
         "lng": -77.0407
       },
       "address": "900 18th St NW, Washington, DC 20006",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Farragut West serves the western portion of downtown D.C. and is located near the White House and World Bank headquarters.",
       "entrances": [
         {
@@ -521,9 +401,7 @@
             "lat": 38.901502,
             "lng": -77.041888
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Entrance elevator is located at the northwest corner of 18th St NW and I St NW."
         },
         {
@@ -533,9 +411,7 @@
             "lat": 38.901169,
             "lng": -77.039164
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the southeast corner of 17th St NW and I St NW(Escalator only)."
         },
         {
@@ -545,9 +421,7 @@
             "lat": 38.901622,
             "lng": -77.041965
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance escalator is located in the building courtyard, at the northwest corner of 18 St NW and I St NW."
         },
         {
@@ -557,9 +431,7 @@
             "lat": 38.901386,
             "lng": -77.042054
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance escalator is located in the building (International Square) food court"
         }
       ]
@@ -568,9 +440,7 @@
       "id": "shady-grove",
       "systemId": "wmata",
       "name": "Shady Grove",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-12-15",
       "status": "active",
       "coordinates": {
@@ -578,13 +448,7 @@
         "lng": -77.1647
       },
       "address": "15903 Somerville Dr, Rockville, MD 20855",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Shady Grove is the northwestern terminus of the Red Line, located in Montgomery County, Maryland with extensive parking facilities.",
       "entrances": [
         {
@@ -594,10 +458,7 @@
             "lat": 39.120076,
             "lng": -77.165004
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Street level elevator to station is located next to west side escalator and is accessible from bus bay and parking lot."
         },
         {
@@ -607,9 +468,7 @@
             "lat": 39.119939,
             "lng": -77.16501
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "West side station entrance from bus bay and parking lot is located east of Somerville Dr."
         },
         {
@@ -619,9 +478,7 @@
             "lat": 39.120423,
             "lng": -77.164433
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway from east side of the station accessible from bus bay and parking garage located northwest corner of Crabbs Branch Way and Redland Rd."
         }
       ]
@@ -630,9 +487,7 @@
       "id": "glenmont",
       "systemId": "wmata",
       "name": "Glenmont",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1998-07-25",
       "status": "active",
       "coordinates": {
@@ -640,13 +495,7 @@
         "lng": -77.0536
       },
       "address": "12501 Georgia Ave, Silver Spring, MD 20906",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Glenmont is the northeastern terminus of the Red Line and was the final Red Line station to open.",
       "entrances": [
         {
@@ -656,9 +505,7 @@
             "lat": 39.062246,
             "lng": -77.053358
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator from east of Georgia Ave, and is accessible from Glenallan Ave to the metered parking space and parking garage."
         },
         {
@@ -668,9 +515,7 @@
             "lat": 39.061956,
             "lng": -77.05361
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator from west from Georgia Ave next to metered parking area."
         },
         {
@@ -680,9 +525,7 @@
             "lat": 39.062312,
             "lng": -77.053179
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from east side of Georgia Ave, and is accessible from parking garage and bus bay area."
         },
         {
@@ -692,9 +535,7 @@
             "lat": 39.061783,
             "lng": -77.053599
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from west of Georgia Ave and is accessible from Georgia Ave sidewalks and from Urbana Dr and Flack St walkway to the station."
         }
       ]
@@ -703,13 +544,7 @@
       "id": "l-enfant-plaza",
       "systemId": "wmata",
       "name": "L'Enfant Plaza",
-      "lines": [
-        "blue",
-        "orange",
-        "silver",
-        "green",
-        "yellow"
-      ],
+      "lines": ["blue", "orange", "silver", "green", "yellow"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -717,12 +552,7 @@
         "lng": -77.0219
       },
       "address": "600 Maryland Ave SW, Washington, DC 20024",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "L'Enfant Plaza is one of the most important transfer stations in the system, serving all lines except the Red Line. It is adjacent to the Smithsonian museums.",
       "entrances": [
         {
@@ -732,9 +562,7 @@
             "lat": 38.884483,
             "lng": -77.020865
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance(USDOT) from D St SW segment between 6th St SW and 7th St SW."
         },
         {
@@ -744,9 +572,7 @@
             "lat": 38.884449,
             "lng": -77.023542
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance(L'Enfant Plaza) from D St SW segment between 9th St SW and 7th St SW."
         },
         {
@@ -756,9 +582,7 @@
             "lat": 38.885982,
             "lng": -77.022093
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator located on 7th St SW segment between VRE tracks and C St SW/Maryland Ave SW intersection."
         },
         {
@@ -768,9 +592,7 @@
             "lat": 38.886265,
             "lng": -77.02148
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance located at Maryland Ave SW and the east of 7th St SW."
         }
       ]
@@ -779,11 +601,7 @@
       "id": "rosslyn",
       "systemId": "wmata",
       "name": "Rosslyn",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -791,12 +609,7 @@
         "lng": -77.0716
       },
       "address": "1850 N Moore St, Arlington, VA 22209",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Rosslyn is the deepest station in the system at 97 feet below ground and serves as the gateway between D.C. and Northern Virginia.",
       "entrances": [
         {
@@ -806,9 +619,7 @@
             "lat": 38.896143,
             "lng": -77.071377
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level high-speed elevator entrance, accessible from N. Lynn St and N.Moore St sidewalks."
         },
         {
@@ -818,9 +629,7 @@
             "lat": 38.895949,
             "lng": -77.071707
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station main entrance is accessible from bus bay area located on N.Moore St segment between 19th St.N and Wilson Blvd."
         },
         {
@@ -830,9 +639,7 @@
             "lat": 38.895807,
             "lng": -77.072105
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from N. Fort Myer Dr segment between N. Nash St and Wilson Blvd is accessible by N. Fort Myer Dr sidewalks."
         }
       ]
@@ -841,9 +648,7 @@
       "id": "bethesda",
       "systemId": "wmata",
       "name": "Bethesda",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-08-25",
       "status": "active",
       "coordinates": {
@@ -851,12 +656,7 @@
         "lng": -77.0944
       },
       "address": "7450 Wisconsin Ave, Bethesda, MD 20814",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Bethesda station serves the downtown Bethesda business district in Montgomery County, Maryland.",
       "entrances": [
         {
@@ -866,9 +666,7 @@
             "lat": 38.9836,
             "lng": -77.094155
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from northwest corner of Wisconsin Ave and Montgomery Ln."
         },
         {
@@ -878,9 +676,7 @@
             "lat": 38.984424,
             "lng": -77.094612
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from bus bay (intermediate level)"
         },
         {
@@ -890,9 +686,7 @@
             "lat": 38.984564,
             "lng": -77.094036
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance to tunnel to station located at southeast corner of Wisconsin Ave and East-West Hwy."
         },
         {
@@ -902,9 +696,7 @@
             "lat": 38.984693,
             "lng": -77.094645
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance from southwest corner of Wisconsin Ave and Old Georgetown Rd."
         }
       ]
@@ -913,9 +705,7 @@
       "id": "silver-spring",
       "systemId": "wmata",
       "name": "Silver Spring",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1978-02-06",
       "status": "active",
       "coordinates": {
@@ -940,9 +730,7 @@
             "lat": 38.994243,
             "lng": -77.031654
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from north of Colesville Road and west of 2nd Ave to station northeast side."
         },
         {
@@ -952,9 +740,7 @@
             "lat": 38.994093,
             "lng": -77.031854
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from north of Colesville Road and east of East-West Hwy to station northwest side."
         },
         {
@@ -964,9 +750,7 @@
             "lat": 38.993739,
             "lng": -77.031348
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from south of Colesville Road and east of East-West Hwy to station southwest side."
         },
         {
@@ -976,9 +760,7 @@
             "lat": 38.993832,
             "lng": -77.031116
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Walkway from Wayne Ave and Colesville Rd to south side of the station."
         }
       ]
@@ -987,9 +769,7 @@
       "id": "tysons-corner",
       "systemId": "wmata",
       "name": "Tysons Corner",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2014-07-26",
       "status": "active",
       "coordinates": {
@@ -997,12 +777,7 @@
         "lng": -77.2217
       },
       "address": "8300 Tysons Corner Center, Tysons, VA 22102",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Tysons Corner station serves the major commercial center and shopping destination in Fairfax County, Virginia.",
       "entrances": [
         {
@@ -1012,9 +787,7 @@
             "lat": 38.920654,
             "lng": -77.222564
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator to the station accessible from the bus bay and sidewalk located at the northwest corner of Tysons Blvd and Chain Bridge Rd intersection."
         },
         {
@@ -1024,9 +797,7 @@
             "lat": 38.919778,
             "lng": -77.222032
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator entrance from Fairfax Connector bus bay."
         },
         {
@@ -1036,9 +807,7 @@
             "lat": 38.920579,
             "lng": -77.222519
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the bus bay and sidewalk located at the northwest corner of Tysons Blvd and Chain Bridge Rd intersection."
         },
         {
@@ -1048,9 +817,7 @@
             "lat": 38.919767,
             "lng": -77.222444
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from station sideswalk and Fairfax Connector bus bay."
         },
         {
@@ -1060,9 +827,7 @@
             "lat": 38.919749,
             "lng": -77.221968
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Non WMATA maintained entrance from the Tysons mall Pedestrian bridge"
         }
       ]
@@ -1071,9 +836,7 @@
       "id": "ashburn",
       "systemId": "wmata",
       "name": "Ashburn",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2022-11-15",
       "status": "active",
       "coordinates": {
@@ -1081,13 +844,7 @@
         "lng": -77.4911
       },
       "address": "43360 Bahnhof Dr, Ashburn, VA 20147",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Ashburn is the western terminus of the Silver Line, serving Loudoun County's rapidly growing data center corridor.",
       "entrances": [
         {
@@ -1097,9 +854,7 @@
             "lat": 39.004355,
             "lng": -77.491733
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator entrance from south bus bay."
         },
         {
@@ -1109,9 +864,7 @@
             "lat": 39.004805,
             "lng": -77.490186
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "North pavilion elevator entrance from north bus bay."
         },
         {
@@ -1121,9 +874,7 @@
             "lat": 39.004563,
             "lng": -77.491941
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from south bus bay."
         },
         {
@@ -1133,9 +884,7 @@
             "lat": 39.004983,
             "lng": -77.489899
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "North pavilion entrance from north bus bay."
         }
       ]
@@ -1144,9 +893,7 @@
       "id": "navy-yard",
       "systemId": "wmata",
       "name": "Navy Yard-Ballpark",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1991-12-28",
       "status": "active",
       "coordinates": {
@@ -1154,11 +901,7 @@
         "lng": -77.005
       },
       "address": "200 M St SE, Washington, DC 20003",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Navy Yard-Ballpark serves the Capitol Riverfront neighborhood and Nationals Park, home of the Washington Nationals.",
       "entrances": [
         {
@@ -1168,9 +911,7 @@
             "lat": 38.876618,
             "lng": -77.004714
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator to station is located at M St SE segment between 1st St SE and New Jersey Ave SE."
         },
         {
@@ -1180,9 +921,7 @@
             "lat": 38.876667,
             "lng": -77.004456
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance from the northwest corner of New Jersey Ave SE and M St SE."
         },
         {
@@ -1192,9 +931,7 @@
             "lat": 38.876068,
             "lng": -77.007311
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the southeast corner Half St SE and M St SE to access station escalator."
         }
       ]
@@ -1203,10 +940,7 @@
       "id": "u-street",
       "systemId": "wmata",
       "name": "U Street/African-Amer Civil War Memorial/Cardozo",
-      "lines": [
-        "green",
-        "yellow"
-      ],
+      "lines": ["green", "yellow"],
       "opened": "1991-05-11",
       "status": "active",
       "coordinates": {
@@ -1214,11 +948,7 @@
         "lng": -77.0286
       },
       "address": "1240 U St NW, Washington, DC 20009",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "U Street serves the historic U Street Corridor, known for its jazz heritage and nightlife, and is near the African American Civil War Memorial.",
       "entrances": [
         {
@@ -1228,9 +958,7 @@
             "lat": 38.916778,
             "lng": -77.028917
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator from the building located at U St NW segment between 12th St NW and 13th St NW."
         },
         {
@@ -1240,9 +968,7 @@
             "lat": 38.916823,
             "lng": -77.029193
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from southeast corner of 13th Ave NW and U St NW."
         },
         {
@@ -1252,9 +978,7 @@
             "lat": 38.916714,
             "lng": -77.02597
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the south of 10th St and southwest corner of U St NW and Vermont Ave NW."
         }
       ]
@@ -1263,10 +987,7 @@
       "id": "columbia-heights",
       "systemId": "wmata",
       "name": "Columbia Heights",
-      "lines": [
-        "green",
-        "yellow"
-      ],
+      "lines": ["green", "yellow"],
       "opened": "1999-09-18",
       "status": "active",
       "coordinates": {
@@ -1274,12 +995,7 @@
         "lng": -77.0325
       },
       "address": "3030 14th St NW, Washington, DC 20009",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Columbia Heights station serves the Columbia Heights neighborhood and the DC USA shopping center.",
       "entrances": [
         {
@@ -1289,9 +1005,7 @@
             "lat": 38.928557,
             "lng": -77.032802
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from southwest corner of 14th St NW and Irving St NW."
         },
         {
@@ -1301,9 +1015,7 @@
             "lat": 38.928956,
             "lng": -77.032448
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator entrance from northeast corner of 14th St NW and Irving St NW."
         },
         {
@@ -1313,9 +1025,7 @@
             "lat": 38.928607,
             "lng": -77.033139
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator and stairway entrance from southwest corner of 14th St NW and Irving St NW."
         }
       ]
@@ -1324,9 +1034,7 @@
       "id": "vienna",
       "systemId": "wmata",
       "name": "Vienna/Fairfax-GMU",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1986-06-07",
       "status": "active",
       "coordinates": {
@@ -1334,13 +1042,7 @@
         "lng": -77.2714
       },
       "address": "9550 Saintsbury Dr, Fairfax, VA 22031",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Vienna is the western terminus of the Orange Line, serving Fairfax County and George Mason University.",
       "entrances": [
         {
@@ -1350,9 +1052,7 @@
             "lat": 38.877378,
             "lng": -77.271284
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian bridge to station from south side accessible by the sidewalks from south side parking lot, parking garage, bus bay and kiss&ride located on Saintsbury Dr."
         },
         {
@@ -1362,9 +1062,7 @@
             "lat": 38.878301,
             "lng": -77.271539
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian bridge to station from north side accessible by the sidewalks from north side parking lot, parking garage, bus bay and kiss&ride located off Virginia Center Blvd."
         }
       ]
@@ -1373,9 +1071,7 @@
       "id": "dupont-circle",
       "systemId": "wmata",
       "name": "Dupont Circle",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1977-01-17",
       "status": "active",
       "coordinates": {
@@ -1383,12 +1079,7 @@
         "lng": -77.0434
       },
       "address": "1525 20th St NW, Washington, DC 20036",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Dupont Circle serves the vibrant Dupont Circle neighborhood, known for its embassies, restaurants, and LGBTQ+ community.",
       "entrances": [
         {
@@ -1398,9 +1089,7 @@
             "lat": 38.910792,
             "lng": -77.044553
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator at north side of the station is accessible from Connecticut Ave NW, 20th NW and Q St NW."
         },
         {
@@ -1410,9 +1099,7 @@
             "lat": 38.908648,
             "lng": -77.043322
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance from 19th St NW and is also accessible from Connecticut Ave NW."
         },
         {
@@ -1422,9 +1109,7 @@
             "lat": 38.911001,
             "lng": -77.044746
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "North side station entrance is located at the southeast corner of 20th NW and Q St NW and accessible from Connecticut Ave NW."
         }
       ]
@@ -1433,9 +1118,7 @@
       "id": "woodley-park",
       "systemId": "wmata",
       "name": "Woodley Park-Zoo/Adams Morgan",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1981-12-05",
       "status": "active",
       "coordinates": {
@@ -1443,11 +1126,7 @@
         "lng": -77.0525
       },
       "address": "2700 Connecticut Ave NW, Washington, DC 20008",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Woodley Park neighborhood and provides access to the Smithsonian National Zoo.",
       "entrances": [
         {
@@ -1457,9 +1136,7 @@
             "lat": 38.925435,
             "lng": -77.052876
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator from the southwest corner of Woodley Rd NW and Connecticut Ave NW."
         },
         {
@@ -1469,9 +1146,7 @@
             "lat": 38.924461,
             "lng": -77.05236
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from southwest corner of Connecticut Ave NW and 24th St NW."
         }
       ]
@@ -1480,9 +1155,7 @@
       "id": "cleveland-park",
       "systemId": "wmata",
       "name": "Cleveland Park",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1981-12-05",
       "status": "active",
       "coordinates": {
@@ -1490,11 +1163,7 @@
         "lng": -77.0583
       },
       "address": "3599 Connecticut Ave NW, Washington, DC 20008",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Cleveland Park station serves a residential neighborhood with historic homes and local shops.",
       "entrances": [
         {
@@ -1504,9 +1173,7 @@
             "lat": 38.935771,
             "lng": -77.058431
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from northeast corner of Connecticut Ave NW and Ordway St NW."
         },
         {
@@ -1516,9 +1183,7 @@
             "lat": 38.935916,
             "lng": -77.05851
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator and stairway entrance on east side of Connecticut Ave NW, between Ordway St NW and Porter St NW."
         },
         {
@@ -1528,9 +1193,7 @@
             "lat": 38.936203,
             "lng": -77.059041
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator and stairway entrance on west side of Connecticut Ave NW, between Ordway St NW and Porter St NW."
         }
       ]
@@ -1539,9 +1202,7 @@
       "id": "van-ness-udc",
       "systemId": "wmata",
       "name": "Van Ness-UDC",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1981-12-05",
       "status": "active",
       "coordinates": {
@@ -1549,12 +1210,7 @@
         "lng": -77.0628
       },
       "address": "4200 Connecticut Ave NW, Washington, DC 20008",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Van Ness neighborhood and the University of the District of Columbia.",
       "entrances": [
         {
@@ -1564,9 +1220,7 @@
             "lat": 38.943969,
             "lng": -77.063576
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator at southwest corner of Connecticut Ave NW and Veazey Terrace NW."
         },
         {
@@ -1576,9 +1230,7 @@
             "lat": 38.944623,
             "lng": -77.063569
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the northeast corner of Connecticut Ave NW and Veazey Terrace NW."
         },
         {
@@ -1588,9 +1240,7 @@
             "lat": 38.944532,
             "lng": -77.064027
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the northwest corner of Connecticut Ave NW and Veazey Terrace NW."
         }
       ]
@@ -1599,9 +1249,7 @@
       "id": "tenleytown-au",
       "systemId": "wmata",
       "name": "Tenleytown-AU",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-08-25",
       "status": "active",
       "coordinates": {
@@ -1609,12 +1257,7 @@
         "lng": -77.0794
       },
       "address": "4501 Wisconsin Ave NW, Washington, DC 20016",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves American University and the Tenleytown commercial district.",
       "entrances": [
         {
@@ -1624,9 +1267,7 @@
             "lat": 38.948099,
             "lng": -77.07927
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator at the northeast corner of Albemarle St NW and Wisconsin Ave NW (next to Sears and Whole Foods)."
         },
         {
@@ -1636,9 +1277,7 @@
             "lat": 38.948078,
             "lng": -77.079358
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the northeast corner of Albemarle St NW and Wisconsin Ave NW."
         },
         {
@@ -1648,9 +1287,7 @@
             "lat": 38.948309,
             "lng": -77.080166
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from west side of Wisconsin Ave segment between River Rd NW and Albemarle St NW( Next to Best Buy)."
         }
       ]
@@ -1659,9 +1296,7 @@
       "id": "friendship-heights",
       "systemId": "wmata",
       "name": "Friendship Heights",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-08-25",
       "status": "active",
       "coordinates": {
@@ -1669,12 +1304,7 @@
         "lng": -77.0853
       },
       "address": "5337 Wisconsin Ave NW, Washington, DC 20015",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Located on the D.C./Maryland border, serving a major retail district.",
       "entrances": [
         {
@@ -1684,9 +1314,7 @@
             "lat": 38.958508,
             "lng": -77.085009
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance to station from southwest corner of Jenifer St NW and Wisconsin Ave NW."
         },
         {
@@ -1696,9 +1324,7 @@
             "lat": 38.960219,
             "lng": -77.085197
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance to station from east side of Wisconsin Ave NW."
         },
         {
@@ -1708,9 +1334,7 @@
             "lat": 38.960736,
             "lng": -77.085403
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from Chevy Chase Pavilion."
         },
         {
@@ -1720,9 +1344,7 @@
             "lat": 38.960777,
             "lng": -77.086223
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from Wisconsin Place parking garage."
         },
         {
@@ -1732,9 +1354,7 @@
             "lat": 38.960955,
             "lng": -77.086051
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance from the northwest corner of Western Ave and Wisconsin Ave NW."
         },
         {
@@ -1744,9 +1364,7 @@
             "lat": 38.961271,
             "lng": -77.085628
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the northeast corner of Western Ave and Wisconsin Ave (Entrance escalator accessible from bus terminal) ."
         },
         {
@@ -1756,9 +1374,7 @@
             "lat": 38.960516,
             "lng": -77.085815
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from Mazza Galleries (not WMATA)"
         }
       ]
@@ -1767,9 +1383,7 @@
       "id": "medical-center",
       "systemId": "wmata",
       "name": "Medical Center",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-08-25",
       "status": "active",
       "coordinates": {
@@ -1777,12 +1391,7 @@
         "lng": -77.0969
       },
       "address": "8810 Rockville Pike, Bethesda, MD 20889",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the National Institutes of Health and Walter Reed National Military Medical Center.",
       "entrances": [
         {
@@ -1792,9 +1401,7 @@
             "lat": 38.999176,
             "lng": -77.09711
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator is accessible by the sidewalks from Bethesda Trolley Trial and from bus bay area."
         },
         {
@@ -1804,9 +1411,7 @@
             "lat": 38.999205,
             "lng": -77.096638
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator is accessible by the sidewalks from Bethesda Trolley Trial and from walter reed medical center"
         },
         {
@@ -1816,9 +1421,7 @@
             "lat": 38.999059,
             "lng": -77.097887
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance from the south side of bus bay area located southwest corner of Bethesda Trolley Trial and South Dr."
         }
       ]
@@ -1827,9 +1430,7 @@
       "id": "grosvenor-strathmore",
       "systemId": "wmata",
       "name": "Grosvenor-Strathmore",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-08-25",
       "status": "active",
       "coordinates": {
@@ -1837,13 +1438,7 @@
         "lng": -77.1039
       },
       "address": "10300 Rockville Pike, North Bethesda, MD 20852",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Strathmore music center and surrounding residential areas.",
       "entrances": [
         {
@@ -1853,9 +1448,7 @@
             "lat": 39.028705,
             "lng": -77.104319
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway from east of Grosvenor Pl goes under Rockville pike to the escalator to the station."
         },
         {
@@ -1865,9 +1458,7 @@
             "lat": 39.028917,
             "lng": -77.103615
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Facility entrance by the walkway from bus bay, parking lot and kiss&ride area located at the northwest corner of Strathmore Park Ct and Tuckerman Ln."
         },
         {
@@ -1877,9 +1468,7 @@
             "lat": 39.028859,
             "lng": -77.10381
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance accessible by the sidewalks from Rockville Pike northbound."
         }
       ]
@@ -1888,9 +1477,7 @@
       "id": "white-flint",
       "systemId": "wmata",
       "name": "White Flint",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-08-25",
       "status": "active",
       "coordinates": {
@@ -1898,13 +1485,7 @@
         "lng": -77.1128
       },
       "address": "5500 Marinelli Rd, North Bethesda, MD 20852",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Pike District redevelopment area in North Bethesda.",
       "entrances": [
         {
@@ -1914,9 +1495,7 @@
             "lat": 39.047492,
             "lng": -77.112572
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the northeast corner of Rockville Pike and Marinelli Rd."
         }
       ]
@@ -1925,9 +1504,7 @@
       "id": "twinbrook",
       "systemId": "wmata",
       "name": "Twinbrook",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-12-15",
       "status": "active",
       "coordinates": {
@@ -1935,13 +1512,7 @@
         "lng": -77.1208
       },
       "address": "1601 Chapman Ave, Rockville, MD 20852",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Twinbrook neighborhood and nearby commercial areas in Rockville.",
       "entrances": [
         {
@@ -1951,9 +1522,7 @@
             "lat": 39.062126,
             "lng": -77.1207
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "West side entrance from bus bay, kiss&ride and parking lot located northeast corner of Chapman Ave and Bouic Ave."
         },
         {
@@ -1963,9 +1532,7 @@
             "lat": 39.062333,
             "lng": -77.120405
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway from east side of the station is accessible by bus bay, kiss&ride and parking lot located east of Parklawn Dr and Twinbrook Pkwy."
         }
       ]
@@ -1974,9 +1541,7 @@
       "id": "rockville",
       "systemId": "wmata",
       "name": "Rockville",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1984-12-15",
       "status": "active",
       "coordinates": {
@@ -2001,9 +1566,7 @@
             "lat": 39.084471,
             "lng": -77.146574
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station west side entrance is accessible from bus bay, metered parking located southeast of Park Rd/ Rockville Pike."
         },
         {
@@ -2013,9 +1576,7 @@
             "lat": 39.084086,
             "lng": -77.147888
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station west side entrance is accessible from the pedestrian bridge originates from the Montgomery County Office buildings and Monroe Street"
         },
         {
@@ -2025,9 +1586,7 @@
             "lat": 39.084676,
             "lng": -77.146276
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway to station east side is accessible from park&ride and bus bay located at the southwest corner of S.Stonestreet Ave/Park Rd and from the sidewalks from Park Road."
         }
       ]
@@ -2036,9 +1595,7 @@
       "id": "wheaton",
       "systemId": "wmata",
       "name": "Wheaton",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1990-09-22",
       "status": "active",
       "coordinates": {
@@ -2046,13 +1603,7 @@
         "lng": -77.0508
       },
       "address": "2700 University Blvd, Wheaton, MD 20902",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Features one of the longest single-span escalators in the Western Hemisphere at 230 feet.",
       "entrances": [
         {
@@ -2062,9 +1613,7 @@
             "lat": 39.038671,
             "lng": -77.050275
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the building located at the southeast corner of Georgia Ave and Reedie Dr."
         },
         {
@@ -2074,9 +1623,7 @@
             "lat": 39.038319,
             "lng": -77.051086
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway to station from the bus bay area located southwest corner of Georgia Ave and Reedie Dr and is also reachable by the pedestrian bridge over Veirs Mill Rd."
         }
       ]
@@ -2085,9 +1632,7 @@
       "id": "forest-glen",
       "systemId": "wmata",
       "name": "Forest Glen",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1990-09-22",
       "status": "active",
       "coordinates": {
@@ -2095,11 +1640,7 @@
         "lng": -77.0428
       },
       "address": "9850 Georgia Ave, Silver Spring, MD 20902",
-      "features": [
-        "elevator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "fare-vending", "bus-connection"],
       "description": "The deepest station in the system at 196 feet below ground, with no escalators—only elevators.",
       "entrances": [
         {
@@ -2109,9 +1650,7 @@
             "lat": 39.015326,
             "lng": -77.043647
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Stairway entrance into main entrance passageway from southeast corner of Coleridge Dr/Forest Glen Rd."
         },
         {
@@ -2121,9 +1660,7 @@
             "lat": 39.01582,
             "lng": -77.044327
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance by ramp from southeast corner of bus bay, kiss&ride area, and parking lot located at Kimball Pl/Forest Glen Rd(passageway goes under Forest Glen Rd to the station)."
         }
       ]
@@ -2132,9 +1669,7 @@
       "id": "takoma",
       "systemId": "wmata",
       "name": "Takoma",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1978-02-06",
       "status": "active",
       "coordinates": {
@@ -2142,12 +1677,7 @@
         "lng": -77.0178
       },
       "address": "327 Cedar St NW, Washington, DC 20012",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Takoma neighborhood near the D.C./Maryland border.",
       "entrances": [
         {
@@ -2157,9 +1687,7 @@
             "lat": 38.975839,
             "lng": -77.017831
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator to station is located inside the tunnel and is accessible from parking lot and bus bay."
         },
         {
@@ -2169,9 +1697,7 @@
             "lat": 38.975102,
             "lng": -77.017425
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South side station entrance located east of Cedar St NW and Eastern Ave NW, accessible from bus bay and the sidewalks from Cedar St NW."
         }
       ]
@@ -2180,9 +1706,7 @@
       "id": "brookland-cua",
       "systemId": "wmata",
       "name": "Brookland-CUA",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1978-02-06",
       "status": "active",
       "coordinates": {
@@ -2190,12 +1714,7 @@
         "lng": -76.9944
       },
       "address": "801 Michigan Ave NE, Washington, DC 20017",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves Catholic University of America and the Brookland neighborhood.",
       "entrances": [
         {
@@ -2205,9 +1724,7 @@
             "lat": 38.933748,
             "lng": -76.994427
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from northwest corner of bus bay and from Bunker Hill Rd NE."
         },
         {
@@ -2217,9 +1734,7 @@
             "lat": 38.933504,
             "lng": -76.994341
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator and stairway entrance from bus bay at 9th St NE between Bunker Hill Rd NE and Monroe St NE."
         },
         {
@@ -2229,9 +1744,7 @@
             "lat": 38.93383,
             "lng": -76.995024
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator and stairway entrance by walkway from John F. McCormick Rd NE, west of Michigan Ave NE."
         }
       ]
@@ -2240,9 +1753,7 @@
       "id": "rhode-island-ave",
       "systemId": "wmata",
       "name": "Rhode Island Ave-Brentwood",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1976-03-27",
       "status": "active",
       "coordinates": {
@@ -2250,13 +1761,7 @@
         "lng": -76.9958
       },
       "address": "919 Rhode Island Ave NE, Washington, DC 20018",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "One of the original five stations, serving the Brentwood and Woodridge neighborhoods.",
       "entrances": [
         {
@@ -2266,9 +1771,7 @@
             "lat": 38.920505,
             "lng": -76.996104
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible from bus bay,parking lot and kiss&ride area located south of Rhode Island Ave NE and Reed St NE."
         }
       ]
@@ -2277,9 +1780,7 @@
       "id": "noma-gallaudet",
       "systemId": "wmata",
       "name": "NoMa-Gallaudet U",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "2004-11-20",
       "status": "active",
       "coordinates": {
@@ -2287,11 +1788,7 @@
         "lng": -77.0028
       },
       "address": "200 Florida Ave NE, Washington, DC 20002",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the NoMa business district and Gallaudet University, the only university for the deaf and hard of hearing.",
       "entrances": [
         {
@@ -2301,9 +1798,7 @@
             "lat": 38.907336,
             "lng": -77.003302
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is located east of N St NE and 2nd St NE intersection ( Florida Ave exit )."
         },
         {
@@ -2313,9 +1808,7 @@
             "lat": 38.905774,
             "lng": -77.003629
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is located at the northwest corner of M St NE and 2nd St NE ( M St Exit)."
         }
       ]
@@ -2324,9 +1817,7 @@
       "id": "judiciary-square",
       "systemId": "wmata",
       "name": "Judiciary Square",
-      "lines": [
-        "red"
-      ],
+      "lines": ["red"],
       "opened": "1976-03-27",
       "status": "active",
       "coordinates": {
@@ -2334,11 +1825,7 @@
         "lng": -77.0164
       },
       "address": "450 F St NW, Washington, DC 20001",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the D.C. courts, city offices, and the National Law Enforcement Officers Memorial.",
       "entrances": [
         {
@@ -2348,9 +1835,7 @@
             "lat": 38.896824,
             "lng": -77.017453
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator to station platform( to Shady Grove) is located between F St NW and E St NW."
         },
         {
@@ -2360,9 +1845,7 @@
             "lat": 38.896652,
             "lng": -77.017649
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator to station platform( to Glenmont) is located between F St NW and E St NW."
         },
         {
@@ -2372,9 +1855,7 @@
             "lat": 38.895222,
             "lng": -77.016
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from 4th St NW segment between F St NW and E St NW."
         },
         {
@@ -2384,9 +1865,7 @@
             "lat": 38.897178,
             "lng": -77.017559
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from F St NW located across from national building museum."
         }
       ]
@@ -2395,11 +1874,7 @@
       "id": "mcpherson-square",
       "systemId": "wmata",
       "name": "McPherson Square",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2407,11 +1882,7 @@
         "lng": -77.0339
       },
       "address": "1400 I St NW, Washington, DC 20005",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Located in the central business district, serving K Street and nearby office buildings.",
       "entrances": [
         {
@@ -2421,9 +1892,7 @@
             "lat": 38.901142,
             "lng": -77.032318
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from east mezzanine to 1400 Eye St NW office building entrance."
         },
         {
@@ -2433,9 +1902,7 @@
             "lat": 38.901098,
             "lng": -77.032303
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Building entrance to elevator towards the station is located at the southwest corner of I St NW and 14th St NW."
         },
         {
@@ -2445,9 +1912,7 @@
             "lat": 38.900915,
             "lng": -77.032222
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the southwest corner of 14th St NW and I St NW to the station escalator."
         },
         {
@@ -2457,9 +1922,7 @@
             "lat": 38.90113,
             "lng": -77.034947
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from the southwest corner of I St NW,15th St NW and Vermont Ave NW."
         }
       ]
@@ -2468,11 +1931,7 @@
       "id": "federal-triangle",
       "systemId": "wmata",
       "name": "Federal Triangle",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2480,11 +1939,7 @@
         "lng": -77.0281
       },
       "address": "302 12th St NW, Washington, DC 20004",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Federal Triangle complex of government buildings including the IRS and EPA headquarters.",
       "entrances": [
         {
@@ -2494,9 +1949,7 @@
             "lat": 38.893757,
             "lng": -77.028722
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Connector entrance from Reagan Building and International Trade Center Atrium Corridor"
         },
         {
@@ -2506,9 +1959,7 @@
             "lat": 38.893773,
             "lng": -77.028318
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator located at 12th St NW segment between Pennsylvania Ave NW and Constitution Ave NW."
         },
         {
@@ -2518,9 +1969,7 @@
             "lat": 38.893827,
             "lng": -77.028988
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance from 12th St NW segment between Pennsylvania Ave NW and Constitution Ave NW."
         }
       ]
@@ -2529,11 +1978,7 @@
       "id": "smithsonian",
       "systemId": "wmata",
       "name": "Smithsonian",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2541,11 +1986,7 @@
         "lng": -77.0281
       },
       "address": "1200 Independence Ave SW, Washington, DC 20004",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Central access point for the National Mall and Smithsonian museums.",
       "entrances": [
         {
@@ -2555,9 +1996,7 @@
             "lat": 38.887739,
             "lng": -77.028544
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator located at the northwest corner of Independence Ave SW and 12th St SW."
         },
         {
@@ -2567,9 +2006,7 @@
             "lat": 38.889086,
             "lng": -77.028371
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from National Mall area at Jefferson Dr SW between 12th St NW and 13th St NW."
         },
         {
@@ -2579,9 +2016,7 @@
             "lat": 38.887364,
             "lng": -77.028604
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance adjacent to Department of Agriculture building located southwest corner of 12th St SW and Independence Ave SW."
         }
       ]
@@ -2590,11 +2025,7 @@
       "id": "federal-center-sw",
       "systemId": "wmata",
       "name": "Federal Center SW",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2602,11 +2033,7 @@
         "lng": -77.0158
       },
       "address": "401 3rd St SW, Washington, DC 20024",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves federal office buildings and the U.S. Botanic Garden.",
       "entrances": [
         {
@@ -2616,9 +2043,7 @@
             "lat": 38.884914,
             "lng": -77.016032
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Building entrance located in the D St SW segment between 3rd St SW and 4th St SW."
         },
         {
@@ -2628,9 +2053,7 @@
             "lat": 38.884875,
             "lng": -77.015405
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is at the southeast corner of 3rd St SW and D St SW."
         }
       ]
@@ -2639,11 +2062,7 @@
       "id": "capitol-south",
       "systemId": "wmata",
       "name": "Capitol South",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2651,11 +2070,7 @@
         "lng": -77.005
       },
       "address": "355 1st St SE, Washington, DC 20003",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Primary station for the U.S. Capitol and House office buildings.",
       "entrances": [
         {
@@ -2665,9 +2080,7 @@
             "lat": 38.885182,
             "lng": -77.006151
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from the northwest corner of D St SE and 1 St SE."
         },
         {
@@ -2677,9 +2090,7 @@
             "lat": 38.885665,
             "lng": -77.00606
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance from 1 St SE, between C St SE and D St SE."
         }
       ]
@@ -2688,11 +2099,7 @@
       "id": "eastern-market",
       "systemId": "wmata",
       "name": "Eastern Market",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2700,11 +2107,7 @@
         "lng": -76.9958
       },
       "address": "701 Pennsylvania Ave SE, Washington, DC 20003",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Capitol Hill neighborhood and the historic Eastern Market.",
       "entrances": [
         {
@@ -2714,9 +2117,7 @@
             "lat": 38.884246,
             "lng": -76.996024
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Entrance elevator located just east of D St SE/7th St SE intersection and adjacent to canopied entrance."
         },
         {
@@ -2726,9 +2127,7 @@
             "lat": 38.884213,
             "lng": -76.995736
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance located at the southeast corner of Pennsylvania Ave SE and 7th St SE, and it also accessible from 8th St SE and D St SE."
         }
       ]
@@ -2737,11 +2136,7 @@
       "id": "potomac-ave",
       "systemId": "wmata",
       "name": "Potomac Ave",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -2749,12 +2144,7 @@
         "lng": -76.9856
       },
       "address": "700 14th St SE, Washington, DC 20003",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking"],
       "description": "Serves the Hill East neighborhood near the Anacostia River.",
       "entrances": [
         {
@@ -2764,9 +2154,7 @@
             "lat": 38.881049,
             "lng": -76.985113
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator is accessible by the sidewalks from G St SE, 14th St SE and from bus bay."
         },
         {
@@ -2776,9 +2164,7 @@
             "lat": 38.880768,
             "lng": -76.985199
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is located north of bus bay and northeast corner of 14th St SE and Potomac Ave SE."
         }
       ]
@@ -2787,11 +2173,7 @@
       "id": "stadium-armory",
       "systemId": "wmata",
       "name": "Stadium-Armory",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-11-20",
       "status": "active",
       "coordinates": {
@@ -2799,13 +2181,7 @@
         "lng": -76.9769
       },
       "address": "192 19th St SE, Washington, DC 20003",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the D.C. Armory and formerly served RFK Stadium. Major transfer point to Blue Line.",
       "entrances": [
         {
@@ -2815,9 +2191,7 @@
             "lat": 38.885918,
             "lng": -76.977158
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator from 19th St SE segment between Burke St SE and C St SE."
         },
         {
@@ -2827,9 +2201,7 @@
             "lat": 38.885602,
             "lng": -76.977059
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance located at the northeast corner of 19th St SE and C St SE."
         },
         {
@@ -2839,9 +2211,7 @@
             "lat": 38.888355,
             "lng": -76.977098
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance at the northeast corner of 19th St SE and Independence Ave SE."
         }
       ]
@@ -2850,10 +2220,7 @@
       "id": "benning-road",
       "systemId": "wmata",
       "name": "Benning Road",
-      "lines": [
-        "blue",
-        "silver"
-      ],
+      "lines": ["blue", "silver"],
       "opened": "1980-11-22",
       "status": "active",
       "coordinates": {
@@ -2861,12 +2228,7 @@
         "lng": -76.9383
       },
       "address": "4500 Benning Rd NE, Washington, DC 20019",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Benning neighborhood in Northeast D.C.",
       "entrances": [
         {
@@ -2876,9 +2238,7 @@
             "lat": 38.890546,
             "lng": -76.937531
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator from northeast corner of Central Ave and Benning Road NE."
         },
         {
@@ -2888,9 +2248,7 @@
             "lat": 38.890343,
             "lng": -76.937376
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator entrance at northeast corner of Central Ave and Benning Road NE."
         }
       ]
@@ -2899,10 +2257,7 @@
       "id": "capitol-heights",
       "systemId": "wmata",
       "name": "Capitol Heights",
-      "lines": [
-        "blue",
-        "silver"
-      ],
+      "lines": ["blue", "silver"],
       "opened": "1980-11-22",
       "status": "active",
       "coordinates": {
@@ -2910,13 +2265,7 @@
         "lng": -76.9133
       },
       "address": "601 Central Ave, Capitol Heights, MD 20743",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "First station in Prince George's County on the Blue Line.",
       "entrances": [
         {
@@ -2926,9 +2275,7 @@
             "lat": 38.88924,
             "lng": -76.912991
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from parking lot, bus bay, and the sidewalks from E Capital St."
         },
         {
@@ -2938,9 +2285,7 @@
             "lat": 38.889225,
             "lng": -76.913268
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator entrance from bus bay, located at southeast corner of Southern Ave and E Capital St NE."
         }
       ]
@@ -2949,10 +2294,7 @@
       "id": "addison-road",
       "systemId": "wmata",
       "name": "Addison Road-Seat Pleasant",
-      "lines": [
-        "blue",
-        "silver"
-      ],
+      "lines": ["blue", "silver"],
       "opened": "1980-11-22",
       "status": "active",
       "coordinates": {
@@ -2960,13 +2302,7 @@
         "lng": -76.8939
       },
       "address": "900 Addison Rd, Seat Pleasant, MD 20743",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Seat Pleasant community with large park-and-ride facilities.",
       "entrances": [
         {
@@ -2976,9 +2312,7 @@
             "lat": 38.886716,
             "lng": -76.895749
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is reachable by the walkway from parking garage and the sidewalks from Central Ave."
         }
       ]
@@ -2987,10 +2321,7 @@
       "id": "morgan-boulevard",
       "systemId": "wmata",
       "name": "Morgan Boulevard",
-      "lines": [
-        "blue",
-        "silver"
-      ],
+      "lines": ["blue", "silver"],
       "opened": "2004-12-18",
       "status": "active",
       "coordinates": {
@@ -2998,13 +2329,7 @@
         "lng": -76.8681
       },
       "address": "1001 Morgan Blvd, Landover, MD 20785",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves FedEx Field, home of the Washington Commanders.",
       "entrances": [
         {
@@ -3014,9 +2339,7 @@
             "lat": 38.893551,
             "lng": -76.868402
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from bus bay and parking located west side of Garret A Morgan Blvd."
         },
         {
@@ -3026,9 +2349,7 @@
             "lat": 38.893764,
             "lng": -76.868543
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible from walkway at Garret A Morgan Blvd and SGT Hartman Ln."
         }
       ]
@@ -3037,10 +2358,7 @@
       "id": "largo-town-center",
       "systemId": "wmata",
       "name": "Largo Town Center",
-      "lines": [
-        "blue",
-        "silver"
-      ],
+      "lines": ["blue", "silver"],
       "opened": "2004-12-18",
       "status": "active",
       "coordinates": {
@@ -3048,13 +2366,7 @@
         "lng": -76.8422
       },
       "address": "1100 Largo Center Dr, Largo, MD 20774",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Eastern terminus of the Blue and Silver Lines, serving Prince George's County.",
       "entrances": [
         {
@@ -3064,9 +2376,7 @@
             "lat": 38.899867,
             "lng": -76.844918
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance located east side of the station and is reachable by the walkway from parking lot and south parking garage."
         },
         {
@@ -3076,9 +2386,7 @@
             "lat": 38.900147,
             "lng": -76.845257
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Facility entrance from west side of the station is accessible from bus bay and north side parking garage."
         }
       ]
@@ -3087,9 +2395,7 @@
       "id": "minnesota-ave",
       "systemId": "wmata",
       "name": "Minnesota Ave",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1978-11-20",
       "status": "active",
       "coordinates": {
@@ -3097,12 +2403,7 @@
         "lng": -76.9481
       },
       "address": "4000 Minnesota Ave NE, Washington, DC 20019",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Minnesota Avenue corridor in Northeast D.C.",
       "entrances": [
         {
@@ -3112,9 +2413,7 @@
             "lat": 38.898807,
             "lng": -76.946692
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator located west of Minnesota Ave NE is accessible by the sidewalks from Minnesota Ave, bus bay and parking lot."
         },
         {
@@ -3124,9 +2423,7 @@
             "lat": 38.898607,
             "lng": -76.946922
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is from the north end of the bus bay at Minnesota Ave. NE and Grant St. NE (Northwest side)."
         },
         {
@@ -3136,9 +2433,7 @@
             "lat": 38.899569,
             "lng": -76.946823
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian walkway from street level to station passageway is located at the east side of I-295 northbound and is accessible by the pedestrian bridge originates at the west side of I-295(Kenilworth Ave NE) at Hayes St NE."
         }
       ]
@@ -3147,9 +2442,7 @@
       "id": "deanwood",
       "systemId": "wmata",
       "name": "Deanwood",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1978-11-20",
       "status": "active",
       "coordinates": {
@@ -3157,13 +2450,7 @@
         "lng": -76.9353
       },
       "address": "4720 Sheriff Rd NE, Washington, DC 20019",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Deanwood neighborhood in Northeast D.C.",
       "entrances": [
         {
@@ -3173,9 +2460,7 @@
             "lat": 38.908191,
             "lng": -76.934833
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator from bus bay, kiss&ride area and parking lot located at the Minnesota Ave NE."
         },
         {
@@ -3185,9 +2470,7 @@
             "lat": 38.908341,
             "lng": -76.934626
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible from the bus bay, kiss&ride area and parking lot located at the Minnesota Ave NE."
         },
         {
@@ -3197,9 +2480,7 @@
             "lat": 38.908552,
             "lng": -76.935179
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Walkway from the intersection of Polk St NE and Olive St NE, passageway goes under CSX rail tracks to the station."
         }
       ]
@@ -3208,9 +2489,7 @@
       "id": "cheverly",
       "systemId": "wmata",
       "name": "Cheverly",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1978-11-20",
       "status": "active",
       "coordinates": {
@@ -3218,13 +2497,7 @@
         "lng": -76.9156
       },
       "address": "5701 Columbia Park Rd, Landover Hills, MD 20784",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "First station in Prince George's County on the Orange Line.",
       "entrances": [
         {
@@ -3234,9 +2507,7 @@
             "lat": 38.916174,
             "lng": -76.916766
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from northeast corner of parking lot, next to bus bay and kiss&ride."
         },
         {
@@ -3246,9 +2517,7 @@
             "lat": 38.916255,
             "lng": -76.916519
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance from bus bay, parking lot, and walkway from Columbia Park Rd."
         }
       ]
@@ -3257,9 +2526,7 @@
       "id": "landover",
       "systemId": "wmata",
       "name": "Landover",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1978-11-20",
       "status": "active",
       "coordinates": {
@@ -3267,13 +2534,7 @@
         "lng": -76.8906
       },
       "address": "3401 Pennsy Dr, Landover, MD 20785",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Landover area with major park-and-ride facilities.",
       "entrances": [
         {
@@ -3283,9 +2544,7 @@
             "lat": 38.933429,
             "lng": -76.891189
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible by the walkway from parking lot, bus bay and kiss&ride area located west of Pennsy Dr."
         }
       ]
@@ -3294,9 +2553,7 @@
       "id": "new-carrollton",
       "systemId": "wmata",
       "name": "New Carrollton",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1978-11-20",
       "status": "active",
       "coordinates": {
@@ -3322,10 +2579,7 @@
             "lat": 38.948423,
             "lng": -76.872176
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Entrance elevator( towards passageway to station) is adjacent to west side escalator and is accessible from IRS pedestrian bridge, parking lot and bus bay located southeast corner of Ellin Rd and Harkins Rd."
         },
         {
@@ -3335,9 +2589,7 @@
             "lat": 38.948458,
             "lng": -76.872344
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance (towards passageway to station) from west side of the station is accessible from pedestrian bridge from IRS building, bus bay and parking lot located southeast corner of Ellis Rd and Harkins Rd."
         },
         {
@@ -3347,9 +2599,7 @@
             "lat": 38.94824,
             "lng": -76.869336
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from station parking garage"
         },
         {
@@ -3359,9 +2609,7 @@
             "lat": 38.947915,
             "lng": -76.871785
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "East side station entrance is accessible from bus bay and parking lot located southwest corner of Garden City Dr and Corporate Dr."
         }
       ]
@@ -3370,10 +2618,7 @@
       "id": "court-house",
       "systemId": "wmata",
       "name": "Court House",
-      "lines": [
-        "orange",
-        "silver"
-      ],
+      "lines": ["orange", "silver"],
       "opened": "1979-12-01",
       "status": "active",
       "coordinates": {
@@ -3381,11 +2626,7 @@
         "lng": -77.0839
       },
       "address": "2100 Wilson Blvd, Arlington, VA 22201",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Arlington County courthouse and government complex.",
       "entrances": [
         {
@@ -3395,9 +2636,7 @@
             "lat": 38.890472,
             "lng": -77.086078
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance at Clarendon Blvd and 15th St N."
         },
         {
@@ -3407,9 +2646,7 @@
             "lat": 38.891183,
             "lng": -77.085011
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance at Strayer University building entrance at Clarendon Blvd and N Uhie St intersection."
         },
         {
@@ -3419,9 +2656,7 @@
             "lat": 38.890885,
             "lng": -77.084912
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "CONNECTOR entrance - Street level elevator located at the northwest corner of Wilson Blvd and N.Uhle St(Colonial Village Building)."
         },
         {
@@ -3431,10 +2666,7 @@
             "lat": 38.890821,
             "lng": -77.084964
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "CONNECTOR entrance - tunnel from Courthouse Plazza Buildings can access from street level elevator and escalator located in15th St N."
         }
       ]
@@ -3443,10 +2675,7 @@
       "id": "clarendon",
       "systemId": "wmata",
       "name": "Clarendon",
-      "lines": [
-        "orange",
-        "silver"
-      ],
+      "lines": ["orange", "silver"],
       "opened": "1979-12-01",
       "status": "active",
       "coordinates": {
@@ -3454,11 +2683,7 @@
         "lng": -77.0956
       },
       "address": "3100 Wilson Blvd, Arlington, VA 22201",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Clarendon neighborhood, known for restaurants and nightlife.",
       "entrances": [
         {
@@ -3468,9 +2693,7 @@
             "lat": 38.886756,
             "lng": -77.09567
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from Clarendon Central Park, between Wilson Blvd and Clarendon Blvd."
         },
         {
@@ -3480,9 +2703,7 @@
             "lat": 38.887002,
             "lng": -77.095287
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Government building entrance to intermediate passageway (only open during building hours)."
         },
         {
@@ -3492,9 +2713,7 @@
             "lat": 38.88718,
             "lng": -77.0951
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator and stairway entrance at southwest corner of Wilson Blvd and Highland St."
         }
       ]
@@ -3503,10 +2722,7 @@
       "id": "virginia-square",
       "systemId": "wmata",
       "name": "Virginia Square-GMU",
-      "lines": [
-        "orange",
-        "silver"
-      ],
+      "lines": ["orange", "silver"],
       "opened": "1979-12-01",
       "status": "active",
       "coordinates": {
@@ -3514,11 +2730,7 @@
         "lng": -77.1042
       },
       "address": "3600 Fairfax Dr, Arlington, VA 22201",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves George Mason University's Arlington campus and Virginia Square.",
       "entrances": [
         {
@@ -3528,10 +2740,7 @@
             "lat": 38.883017,
             "lng": -77.103295
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Street level elevator just north of escalator located west of North Monroe St."
         },
         {
@@ -3541,9 +2750,7 @@
             "lat": 38.88283,
             "lng": -77.103278
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the southwest corner of North Monroe St and N.Fairfax Dr."
         }
       ]
@@ -3552,10 +2759,7 @@
       "id": "ballston-mu",
       "systemId": "wmata",
       "name": "Ballston-MU",
-      "lines": [
-        "orange",
-        "silver"
-      ],
+      "lines": ["orange", "silver"],
       "opened": "1979-12-01",
       "status": "active",
       "coordinates": {
@@ -3563,12 +2767,7 @@
         "lng": -77.1117
       },
       "address": "4230 Fairfax Dr, Arlington, VA 22203",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Ballston commercial district and Marymount University.",
       "entrances": [
         {
@@ -3578,9 +2777,7 @@
             "lat": 38.882345,
             "lng": -77.112135
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Entrance elevators located at the northwest corner of N Fairfax Dr and N Stuart St."
         },
         {
@@ -3590,9 +2787,7 @@
             "lat": 38.882054,
             "lng": -77.112097
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Entrance elevators located at the southwest corner of N Fairfax Dr and N Stuart St."
         },
         {
@@ -3602,9 +2797,7 @@
             "lat": 38.881868,
             "lng": -77.111358
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator entrance at southeast corner of N Fairfax Dr and N Stuart St."
         }
       ]
@@ -3613,10 +2806,7 @@
       "id": "east-falls-church",
       "systemId": "wmata",
       "name": "East Falls Church",
-      "lines": [
-        "orange",
-        "silver"
-      ],
+      "lines": ["orange", "silver"],
       "opened": "1986-06-07",
       "status": "active",
       "coordinates": {
@@ -3624,13 +2814,7 @@
         "lng": -77.1569
       },
       "address": "2001 N Sycamore St, Falls Church, VA 22043",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Where Orange and Silver lines split; serves Falls Church area.",
       "entrances": [
         {
@@ -3640,9 +2824,7 @@
             "lat": 38.885893,
             "lng": -77.156571
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Street level station entrance located under I-66 is accessible by the walkway from bus bay and parking lot located at the north side and from kiss&ride area located at the south of the side station."
         }
       ]
@@ -3651,9 +2833,7 @@
       "id": "west-falls-church",
       "systemId": "wmata",
       "name": "West Falls Church",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1986-06-07",
       "status": "active",
       "coordinates": {
@@ -3661,13 +2841,7 @@
         "lng": -77.1892
       },
       "address": "7040 Haycock Rd, Falls Church, VA 22043",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the West Falls Church area with major bus connections.",
       "entrances": [
         {
@@ -3677,9 +2851,7 @@
             "lat": 38.9011,
             "lng": -77.188973
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from north side is accessible from bus bay located off Rt.267."
         },
         {
@@ -3689,9 +2861,7 @@
             "lat": 38.900319,
             "lng": -77.188878
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian bridge to station from south side is accessible from bus bay, kiss&ride, parking garage located north of Haycock Rd."
         }
       ]
@@ -3700,9 +2870,7 @@
       "id": "dunn-loring",
       "systemId": "wmata",
       "name": "Dunn Loring-Merrifield",
-      "lines": [
-        "orange"
-      ],
+      "lines": ["orange"],
       "opened": "1986-06-07",
       "status": "active",
       "coordinates": {
@@ -3710,13 +2878,7 @@
         "lng": -77.2289
       },
       "address": "2700 Gallows Rd, Vienna, VA 22180",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Merrifield area and Mosaic District.",
       "entrances": [
         {
@@ -3726,9 +2888,7 @@
             "lat": 38.882817,
             "lng": -77.228436
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible from bus bay, kiss&ride area and parking lot located at the northwest corner of Bellforest Dr and Gallows Rd."
         }
       ]
@@ -3737,10 +2897,7 @@
       "id": "crystal-city",
       "systemId": "wmata",
       "name": "Crystal City",
-      "lines": [
-        "blue",
-        "yellow"
-      ],
+      "lines": ["blue", "yellow"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -3748,13 +2905,7 @@
         "lng": -77.0508
       },
       "address": "1750 S Clark St, Arlington, VA 22202",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection",
-        "vre-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection", "vre-connection"],
       "description": "Serves the Crystal City business district with connection to VRE commuter rail.",
       "entrances": [
         {
@@ -3764,9 +2915,7 @@
             "lat": 38.857962,
             "lng": -77.050786
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Entrance elevator located at the right side of 18th St South segment between S. Bell St and Crystal Dr."
         },
         {
@@ -3776,9 +2925,7 @@
             "lat": 38.858038,
             "lng": -77.051472
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance is accessible from the sidewalks from 18th St South."
         },
         {
@@ -3788,9 +2935,7 @@
             "lat": 38.857982,
             "lng": -77.051164
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from Crystal City shops south side intermediate passageway to mezzanine"
         },
         {
@@ -3800,9 +2945,7 @@
             "lat": 38.858059,
             "lng": -77.051158
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from VRE north side intermediate passageway to mezzanine"
         }
       ]
@@ -3811,10 +2954,7 @@
       "id": "pentagon-city",
       "systemId": "wmata",
       "name": "Pentagon City",
-      "lines": [
-        "blue",
-        "yellow"
-      ],
+      "lines": ["blue", "yellow"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -3822,12 +2962,7 @@
         "lng": -77.0597
       },
       "address": "1250 S Hayes St, Arlington, VA 22202",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves Pentagon City mall and the surrounding residential area.",
       "entrances": [
         {
@@ -3837,10 +2972,7 @@
             "lat": 38.86281,
             "lng": -77.058964
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Street level elevator located at the southeast corner of Hayes St and 12th St next to escalator."
         },
         {
@@ -3850,9 +2982,7 @@
             "lat": 38.862548,
             "lng": -77.059105
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance in front of Pentagon Center(Borders Store) building located southeast corner of Hayes St and 12th St."
         },
         {
@@ -3862,9 +2992,7 @@
             "lat": 38.862615,
             "lng": -77.059909
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance between S.Hayes St and service road to the stores(Nordstrom, Macy's)."
         },
         {
@@ -3874,9 +3002,7 @@
             "lat": 38.863208,
             "lng": -77.058964
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Stairs from northeast corner of Hayes St and 12th Street"
         },
         {
@@ -3886,9 +3012,7 @@
             "lat": 38.862813,
             "lng": -77.059897
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from Fashion Centre at Pentagon City, accessed from the Mezzanine Concourse."
         }
       ]
@@ -3897,10 +3021,7 @@
       "id": "braddock-road",
       "systemId": "wmata",
       "name": "Braddock Road",
-      "lines": [
-        "blue",
-        "yellow"
-      ],
+      "lines": ["blue", "yellow"],
       "opened": "1983-04-30",
       "status": "active",
       "coordinates": {
@@ -3908,13 +3029,7 @@
         "lng": -77.0536
       },
       "address": "700 N West St, Alexandria, VA 22314",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Braddock Road neighborhood in Alexandria.",
       "entrances": [
         {
@@ -3924,9 +3039,7 @@
             "lat": 38.813735,
             "lng": -77.053876
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Mezzanine entrance from the bus bay and kiss&ride area off N West St."
         }
       ]
@@ -3935,10 +3048,7 @@
       "id": "king-street",
       "systemId": "wmata",
       "name": "King St-Old Town",
-      "lines": [
-        "blue",
-        "yellow"
-      ],
+      "lines": ["blue", "yellow"],
       "opened": "1983-04-30",
       "status": "active",
       "coordinates": {
@@ -3964,9 +3074,7 @@
             "lat": 38.807295,
             "lng": -77.059808
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance located under the platform and tracks accessible from the northeast corner of Cameron St and Commonwealth Ave intersection."
         },
         {
@@ -3976,9 +3084,7 @@
             "lat": 38.80629,
             "lng": -77.061299
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station main entrance by the walkway from bus bay and kiss&ride area located west of Diagonal Rd and from the sidewalks from Rt.7,( King Street)."
         }
       ]
@@ -3987,9 +3093,7 @@
       "id": "eisenhower-ave",
       "systemId": "wmata",
       "name": "Eisenhower Ave",
-      "lines": [
-        "yellow"
-      ],
+      "lines": ["yellow"],
       "opened": "1983-04-30",
       "status": "active",
       "coordinates": {
@@ -3997,13 +3101,7 @@
         "lng": -77.0711
       },
       "address": "2425 Eisenhower Ave, Alexandria, VA 22314",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Eisenhower Valley commercial area.",
       "entrances": [
         {
@@ -4013,10 +3111,7 @@
             "lat": 38.800566,
             "lng": -77.071001
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Facility entrance from busbay and west side of the station to access the elevator/escalator inside the station."
         }
       ]
@@ -4025,9 +3120,7 @@
       "id": "huntington",
       "systemId": "wmata",
       "name": "Huntington",
-      "lines": [
-        "yellow"
-      ],
+      "lines": ["yellow"],
       "opened": "1983-04-30",
       "status": "active",
       "coordinates": {
@@ -4035,13 +3128,7 @@
         "lng": -77.0753
       },
       "address": "2460 Huntington Ave, Alexandria, VA 22303",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Southern terminus of the Yellow Line with large parking facilities.",
       "entrances": [
         {
@@ -4051,9 +3138,7 @@
             "lat": 38.792475,
             "lng": -77.07591
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator to station mezzanine is located and accessible from metered parking, bus bay and parking garage (south end) sidewalks"
         },
         {
@@ -4063,9 +3148,7 @@
             "lat": 38.794613,
             "lng": -77.075168
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible by the walkway from kiss&ride, bus bay and parking garage located north end of station near Huntington Ave."
         }
       ]
@@ -4074,9 +3157,7 @@
       "id": "van-dorn-street",
       "systemId": "wmata",
       "name": "Van Dorn Street",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "opened": "1991-06-15",
       "status": "active",
       "coordinates": {
@@ -4084,13 +3165,7 @@
         "lng": -77.1292
       },
       "address": "4799 Van Dorn St, Alexandria, VA 22304",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the west Alexandria/Van Dorn area.",
       "entrances": [
         {
@@ -4100,9 +3175,7 @@
             "lat": 38.799535,
             "lng": -77.129222
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Facility entrance from bus bay located southeast corner of Eisenhower Ave."
         },
         {
@@ -4112,9 +3185,7 @@
             "lat": 38.799708,
             "lng": -77.129682
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway to station from parking lot and kiss&ride located northwest corner of Eisenhower Ave."
         }
       ]
@@ -4123,9 +3194,7 @@
       "id": "franconia-springfield",
       "systemId": "wmata",
       "name": "Franconia-Springfield",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "opened": "1997-06-29",
       "status": "active",
       "coordinates": {
@@ -4151,9 +3220,7 @@
             "lat": 38.766065,
             "lng": -77.168705
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Facility entrance by pedestrian bridge connecting WMATA station and VRE station located on the south side."
         },
         {
@@ -4163,9 +3230,7 @@
             "lat": 38.766676,
             "lng": -77.169126
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Pedestrian bridge to station is accessible from the bus bay, kiss&ride, parking garage."
         }
       ]
@@ -4174,10 +3239,7 @@
       "id": "archives",
       "systemId": "wmata",
       "name": "Archives-Navy Memorial-Penn Quarter",
-      "lines": [
-        "green",
-        "yellow"
-      ],
+      "lines": ["green", "yellow"],
       "opened": "1991-12-28",
       "status": "active",
       "coordinates": {
@@ -4185,11 +3247,7 @@
         "lng": -77.0219
       },
       "address": "701 Pennsylvania Ave NW, Washington, DC 20004",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the National Archives, Navy Memorial, and Penn Quarter entertainment district.",
       "entrances": [
         {
@@ -4199,9 +3257,7 @@
             "lat": 38.893879,
             "lng": -77.022073
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from 7th St and Indiana Ave NW."
         },
         {
@@ -4211,9 +3267,7 @@
             "lat": 38.893939,
             "lng": -77.022528
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance adjacent to Navy Memorial/west side of 7th and Indiana Ave NW."
         }
       ]
@@ -4222,10 +3276,7 @@
       "id": "mt-vernon-sq",
       "systemId": "wmata",
       "name": "Mt Vernon Sq/7th St-Convention Center",
-      "lines": [
-        "green",
-        "yellow"
-      ],
+      "lines": ["green", "yellow"],
       "opened": "1991-12-28",
       "status": "active",
       "coordinates": {
@@ -4233,11 +3284,7 @@
         "lng": -77.0219
       },
       "address": "700 M St NW, Washington, DC 20001",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Walter E. Washington Convention Center and historic Shaw neighborhood.",
       "entrances": [
         {
@@ -4247,9 +3294,7 @@
             "lat": 38.905933,
             "lng": -77.022122
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Station entrance from Convention Center building located at the northwest corner of M St NW and 7th St NW."
         },
         {
@@ -4259,9 +3304,7 @@
             "lat": 38.905514,
             "lng": -77.022348
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Station entrance from Convention Center building located at the southwest corner of M St NW and 7th St NW."
         },
         {
@@ -4271,9 +3314,7 @@
             "lat": 38.905288,
             "lng": -77.022252
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from Convention Center building located at the southwest corner of M St NW and 7th St NW"
         }
       ]
@@ -4282,10 +3323,7 @@
       "id": "shaw-howard",
       "systemId": "wmata",
       "name": "Shaw-Howard U",
-      "lines": [
-        "green",
-        "yellow"
-      ],
+      "lines": ["green", "yellow"],
       "opened": "1991-05-11",
       "status": "active",
       "coordinates": {
@@ -4293,11 +3331,7 @@
         "lng": -77.0219
       },
       "address": "1701 8th St NW, Washington, DC 20001",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Shaw neighborhood and Howard University.",
       "entrances": [
         {
@@ -4307,9 +3341,7 @@
             "lat": 38.914222,
             "lng": -77.021627
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator from northeast corner of S St NW and 7th St NW."
         },
         {
@@ -4319,9 +3351,7 @@
             "lat": 38.914572,
             "lng": -77.021672
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied Entrance from 7th St NW segment between S St NW and T St NW."
         },
         {
@@ -4331,9 +3361,7 @@
             "lat": 38.912779,
             "lng": -77.022723
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance from R St NW segment between 7th St NW and 8th St NW."
         }
       ]
@@ -4342,10 +3370,7 @@
       "id": "georgia-ave-petworth",
       "systemId": "wmata",
       "name": "Georgia Ave-Petworth",
-      "lines": [
-        "green",
-        "yellow"
-      ],
+      "lines": ["green", "yellow"],
       "opened": "1999-09-18",
       "status": "active",
       "coordinates": {
@@ -4353,12 +3378,7 @@
         "lng": -77.0244
       },
       "address": "3700 Georgia Ave NW, Washington, DC 20010",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Petworth neighborhood and Georgia Avenue corridor.",
       "entrances": [
         {
@@ -4368,9 +3388,7 @@
             "lat": 38.93681,
             "lng": -77.024663
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from west side of Georgia Ave NW and New Hampshire Ave NW."
         },
         {
@@ -4380,9 +3398,7 @@
             "lat": 38.93698,
             "lng": -77.024127
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied entrance from the west of New Hampshire Ave NW."
         },
         {
@@ -4392,9 +3408,7 @@
             "lat": 38.937192,
             "lng": -77.024721
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Building entrance located at the west side of Georgia Ave NW and New Hampshire Ave NW."
         }
       ]
@@ -4403,11 +3417,7 @@
       "id": "fort-totten",
       "systemId": "wmata",
       "name": "Fort Totten",
-      "lines": [
-        "red",
-        "green",
-        "yellow"
-      ],
+      "lines": ["red", "green", "yellow"],
       "opened": "1978-02-06",
       "status": "active",
       "coordinates": {
@@ -4415,13 +3425,7 @@
         "lng": -77.0022
       },
       "address": "550 Galloway St NE, Washington, DC 20011",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Major transfer point between Red and Green/Yellow lines.",
       "entrances": [
         {
@@ -4431,9 +3435,7 @@
             "lat": 38.952078,
             "lng": -77.002275
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Facility entrance from the Galloway St NE segment goes under the track, and also accessible from kiss&ride and bus bay area."
         }
       ]
@@ -4442,9 +3444,7 @@
       "id": "west-hyattsville",
       "systemId": "wmata",
       "name": "West Hyattsville",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1993-12-11",
       "status": "active",
       "coordinates": {
@@ -4452,13 +3452,7 @@
         "lng": -76.9694
       },
       "address": "2700 Hamilton St, Hyattsville, MD 20782",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves Hyattsville and the University of Maryland area.",
       "entrances": [
         {
@@ -4468,9 +3462,7 @@
             "lat": 38.955717,
             "lng": -76.9689
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance located west of Ager Rd is accessible by the sidewalks from bus bay, kiss&ride and parking lot and by the walkway from Lancer Dr located west of the station."
         }
       ]
@@ -4479,9 +3471,7 @@
       "id": "prince-georges-plaza",
       "systemId": "wmata",
       "name": "Prince George's Plaza",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1993-12-11",
       "status": "active",
       "coordinates": {
@@ -4489,13 +3479,7 @@
         "lng": -76.9561
       },
       "address": "3575 East West Hwy, Hyattsville, MD 20782",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Prince George's Plaza retail area.",
       "entrances": [
         {
@@ -4505,9 +3489,7 @@
             "lat": 38.965384,
             "lng": -76.955585
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from north side parking garage (bus bay E-H) located south of East-West Hwy and west of Belcrest Rd."
         },
         {
@@ -4517,9 +3499,7 @@
             "lat": 38.965174,
             "lng": -76.955588
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from south side parking garage (bus bay A-D) located south of East-West Hwy and west of Belcrest Rd."
         }
       ]
@@ -4528,9 +3508,7 @@
       "id": "college-park",
       "systemId": "wmata",
       "name": "College Park-U of Md",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1993-12-11",
       "status": "active",
       "coordinates": {
@@ -4555,9 +3533,7 @@
             "lat": 38.978133,
             "lng": -76.928016
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance by the walkway from parking lot, bus bay, and kiss&ride off of River Rd, located on east side of station."
         },
         {
@@ -4567,10 +3543,7 @@
             "lat": 38.97838,
             "lng": -76.929004
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Canopied Escalator and Elevator entrance from kiss&ride off Calvert Rd, located on east side of station."
         },
         {
@@ -4580,9 +3553,7 @@
             "lat": 38.978183,
             "lng": -76.927953
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator and stairway entrance by the walkway from parking lot, bus bay, and kiss&ride off of River Rd, located on east side of station."
         },
         {
@@ -4592,9 +3563,7 @@
             "lat": 38.979459,
             "lng": -76.927229
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Entrance from parking garage"
         }
       ]
@@ -4603,9 +3572,7 @@
       "id": "greenbelt",
       "systemId": "wmata",
       "name": "Greenbelt",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1993-12-11",
       "status": "active",
       "coordinates": {
@@ -4630,9 +3597,7 @@
             "lat": 39.010833,
             "lng": -76.911018
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible by the walkway from bus bay, Kiss&Ride, and parking lot located on the east side of the station."
         },
         {
@@ -4642,9 +3607,7 @@
             "lat": 39.010818,
             "lng": -76.911939
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Passageway from the intersection of Lackawanna St and 53rd Ave towards the station (tunnel goes under MARC train tracks)."
         }
       ]
@@ -4653,9 +3616,7 @@
       "id": "waterfront",
       "systemId": "wmata",
       "name": "Waterfront",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1991-12-28",
       "status": "active",
       "coordinates": {
@@ -4663,11 +3624,7 @@
         "lng": -77.0175
       },
       "address": "399 M St SW, Washington, DC 20024",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Southwest Waterfront and The Wharf development.",
       "entrances": [
         {
@@ -4677,9 +3634,7 @@
             "lat": 38.876619,
             "lng": -77.017352
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Street level elevator located at the northeast corner of M St SW and 4th St SW."
         },
         {
@@ -4689,9 +3644,7 @@
             "lat": 38.87702,
             "lng": -77.017558
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance located just north of M St SW and 4th St SW ( near Safeway)."
         }
       ]
@@ -4700,9 +3653,7 @@
       "id": "anacostia",
       "systemId": "wmata",
       "name": "Anacostia",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "1991-12-28",
       "status": "active",
       "coordinates": {
@@ -4710,13 +3661,7 @@
         "lng": -76.9953
       },
       "address": "1101 Howard Rd SE, Washington, DC 20020",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the historic Anacostia neighborhood east of the Anacostia River.",
       "entrances": [
         {
@@ -4726,9 +3671,7 @@
             "lat": 38.864603,
             "lng": -76.995959
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from west side of parking garage located at Howard St SE."
         },
         {
@@ -4738,9 +3681,7 @@
             "lat": 38.86208,
             "lng": -76.995178
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from south side of Howard St SE and Shannon Pl SE."
         }
       ]
@@ -4749,9 +3690,7 @@
       "id": "congress-heights",
       "systemId": "wmata",
       "name": "Congress Heights",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "2001-01-13",
       "status": "active",
       "coordinates": {
@@ -4759,12 +3698,7 @@
         "lng": -76.9878
       },
       "address": "1290 Alabama Ave SE, Washington, DC 20020",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves the Congress Heights neighborhood and St. Elizabeths campus.",
       "entrances": [
         {
@@ -4774,9 +3708,7 @@
             "lat": 38.845117,
             "lng": -76.98781
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from bus bay, located northeast of 13th St SE and Alabama Ave SE."
         },
         {
@@ -4786,9 +3718,7 @@
             "lat": 38.844606,
             "lng": -76.987591
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator entrance at southeast corner of Alabama Ave SE and 13th St SE."
         },
         {
@@ -4798,9 +3728,7 @@
             "lat": 38.845446,
             "lng": -76.987816
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Canopied escalator and stairway entrance from bus bay, kiss&ride and parking lot areas."
         }
       ]
@@ -4809,9 +3737,7 @@
       "id": "southern-avenue",
       "systemId": "wmata",
       "name": "Southern Avenue",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "2001-01-13",
       "status": "active",
       "coordinates": {
@@ -4819,13 +3745,7 @@
         "lng": -76.975
       },
       "address": "1411 Southern Ave, Oxon Hill, MD 20745",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Located on the D.C./Maryland border at Southern Avenue.",
       "entrances": [
         {
@@ -4835,9 +3755,7 @@
             "lat": 38.840268,
             "lng": -76.975566
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from parking garage is accessible from Southern Ave and Oxon Run Dr."
         },
         {
@@ -4847,9 +3765,7 @@
             "lat": 38.840592,
             "lng": -76.975797
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "West side station entrance from bus bay located east of Southern Ave."
         },
         {
@@ -4859,9 +3775,7 @@
             "lat": 38.840439,
             "lng": -76.975686
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from bus bay, and pedestrian bridge is accessible from Southern Ave and Oxon Run Dr."
         }
       ]
@@ -4870,9 +3784,7 @@
       "id": "naylor-road",
       "systemId": "wmata",
       "name": "Naylor Road",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "2001-01-13",
       "status": "active",
       "coordinates": {
@@ -4880,13 +3792,7 @@
         "lng": -76.9564
       },
       "address": "3101 Branch Ave, Temple Hills, MD 20748",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Naylor Road area in Prince George's County.",
       "entrances": [
         {
@@ -4896,9 +3802,7 @@
             "lat": 38.850953,
             "lng": -76.956822
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance located south of the station between bus bay,kiss&ride and parking lot area."
         }
       ]
@@ -4907,9 +3811,7 @@
       "id": "suitland",
       "systemId": "wmata",
       "name": "Suitland",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "2001-01-13",
       "status": "active",
       "coordinates": {
@@ -4917,13 +3819,7 @@
         "lng": -76.9319
       },
       "address": "4500 Silver Hill Rd, Suitland, MD 20746",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves Suitland and the Census Bureau headquarters.",
       "entrances": [
         {
@@ -4933,9 +3829,7 @@
             "lat": 38.844289,
             "lng": -76.932069
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible from parking garage and the sidewalks from Silver Hill Road."
         },
         {
@@ -4945,9 +3839,7 @@
             "lat": 38.844258,
             "lng": -76.932298
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance is accessible by bus bay, pedestrian bridge and the sidewalks from Silver Hill Road."
         }
       ]
@@ -4956,9 +3848,7 @@
       "id": "branch-ave",
       "systemId": "wmata",
       "name": "Branch Ave",
-      "lines": [
-        "green"
-      ],
+      "lines": ["green"],
       "opened": "2001-01-13",
       "status": "active",
       "coordinates": {
@@ -4966,13 +3856,7 @@
         "lng": -76.9125
       },
       "address": "4704 Old Soper Rd, Suitland, MD 20746",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Southern terminus of the Green Line with extensive parking.",
       "entrances": [
         {
@@ -4982,9 +3866,7 @@
             "lat": 38.827195,
             "lng": -76.912441
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Mezzanine entrance from the parking lot between north end of Auth Way and Capital Gateway Dr."
         },
         {
@@ -4994,9 +3876,7 @@
             "lat": 38.827079,
             "lng": -76.912557
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Mezzanine entrance from bus bays, kiss&ride, and Old Soper Rd."
         }
       ]
@@ -5005,9 +3885,7 @@
       "id": "reston-town-center",
       "systemId": "wmata",
       "name": "Reston Town Center",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2022-11-15",
       "status": "active",
       "coordinates": {
@@ -5015,21 +3893,14 @@
         "lng": -77.3386
       },
       "address": "12001 Sunrise Valley Dr, Reston, VA 20191",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves Reston Town Center's urban core and surrounding businesses."
     },
     {
       "id": "herndon",
       "systemId": "wmata",
       "name": "Herndon",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2022-11-15",
       "status": "active",
       "coordinates": {
@@ -5037,13 +3908,7 @@
         "lng": -77.3853
       },
       "address": "475 Herndon Pkwy, Herndon, VA 20170",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves the Town of Herndon and surrounding residential areas.",
       "entrances": [
         {
@@ -5053,9 +3918,7 @@
             "lat": 38.953549,
             "lng": -77.384897
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "North pavilion elevator entrance from Herndon Pkwy sidewalk."
         },
         {
@@ -5065,9 +3928,7 @@
             "lat": 38.95176,
             "lng": -77.384883
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator entrance from south bus bay."
         },
         {
@@ -5077,9 +3938,7 @@
             "lat": 38.953548,
             "lng": -77.384556
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "North pavilion entrance from Herndon Pkwy sidewalk."
         },
         {
@@ -5089,9 +3948,7 @@
             "lat": 38.951756,
             "lng": -77.384535
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from south bus bay."
         },
         {
@@ -5101,9 +3958,7 @@
             "lat": 38.951571,
             "lng": -77.384837
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrace from the Herdon-Monroe Park and Ride garage building"
         }
       ]
@@ -5112,9 +3967,7 @@
       "id": "innovation-center",
       "systemId": "wmata",
       "name": "Innovation Center",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2022-11-15",
       "status": "active",
       "coordinates": {
@@ -5122,13 +3975,7 @@
         "lng": -77.4175
       },
       "address": "4600 Brookfield Corporate Dr, Chantilly, VA 20151",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Serves Fairfax County's Innovation Center area and data center corridor.",
       "entrances": [
         {
@@ -5138,9 +3985,7 @@
             "lat": 38.960203,
             "lng": -77.417127
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator entrance from south bus bay."
         },
         {
@@ -5150,9 +3995,7 @@
             "lat": 38.959985,
             "lng": -77.417209
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from south bus bay."
         },
         {
@@ -5162,9 +4005,7 @@
             "lat": 38.961947,
             "lng": -77.416808
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "North pavilion entrance from north bus bay."
         }
       ]
@@ -5173,9 +4014,7 @@
       "id": "loudoun-gateway",
       "systemId": "wmata",
       "name": "Loudoun Gateway",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2022-11-15",
       "status": "active",
       "coordinates": {
@@ -5183,22 +4022,14 @@
         "lng": -77.4639
       },
       "address": "22900 Loudoun Gateway Dr, Sterling, VA 20166",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "First station in Loudoun County, serving the Route 606 corridor."
     },
     {
       "id": "mclean",
       "systemId": "wmata",
       "name": "McLean",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2014-07-26",
       "status": "active",
       "coordinates": {
@@ -5206,12 +4037,7 @@
         "lng": -77.2103
       },
       "address": "1823 Chain Bridge Rd, McLean, VA 22102",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Serves downtown McLean and Capital One headquarters.",
       "entrances": [
         {
@@ -5221,9 +4047,7 @@
             "lat": 38.924427,
             "lng": -77.208588
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator is accessible from south bus bay, south kiss & ride, and the sidewalk along the south west corner of Dolley Madison Blvd and Colshire Dr."
         },
         {
@@ -5233,9 +4057,7 @@
             "lat": 38.924802,
             "lng": -77.209491
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator inside the station is accessible from Dolley Madison, Capital One Dr. sidewalk, and Fairfax Connector bus bay."
         },
         {
@@ -5245,9 +4067,7 @@
             "lat": 38.924575,
             "lng": -77.208295
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance accessible from south bus bay, south kiss & ride, and the sidewalk along the south west corner of Dolley Madison Blvd and Colshire Dr."
         },
         {
@@ -5257,9 +4077,7 @@
             "lat": 38.924725,
             "lng": -77.209528
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from Dolley Madison, Capital One Dr sidewalk, and Fairfax Connector bus bay."
         }
       ]
@@ -5268,9 +4086,7 @@
       "id": "spring-hill",
       "systemId": "wmata",
       "name": "Spring Hill",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2014-07-26",
       "status": "active",
       "coordinates": {
@@ -5278,11 +4094,7 @@
         "lng": -77.2411
       },
       "address": "1574 Spring Hill Rd, Tysons, VA 22102",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves the Spring Hill area of Tysons.",
       "entrances": [
         {
@@ -5292,9 +4104,7 @@
             "lat": 38.92915,
             "lng": -77.241002
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "North pavilion elevator is accessible from north bus bay, north kiss & ride, and the short term parking lot located at the north east corner of Leesburg Pike and Spring Hill Rd."
         },
         {
@@ -5304,9 +4114,7 @@
             "lat": 38.928566,
             "lng": -77.241841
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator is accessible from the pavilion sidewalk along Leesburg Pike westbound."
         },
         {
@@ -5316,9 +4124,7 @@
             "lat": 38.929311,
             "lng": -77.240801
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "North pavilion entrance is accessible from north bus bay, north kiss & ride, and the short term parking lot located at the north east corner of Leesburg Pike and Spring Hill Rd."
         },
         {
@@ -5328,9 +4134,7 @@
             "lat": 38.92838,
             "lng": -77.241657
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from the west corner of Leesburg Pike and Spring Hill Road intersection."
         }
       ]
@@ -5339,9 +4143,7 @@
       "id": "greensboro",
       "systemId": "wmata",
       "name": "Greensboro",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2014-07-26",
       "status": "active",
       "coordinates": {
@@ -5349,11 +4151,7 @@
         "lng": -77.2344
       },
       "address": "8100 Greensboro Dr, Tysons, VA 22102",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves Tysons Galleria and surrounding office buildings.",
       "entrances": [
         {
@@ -5363,9 +4161,7 @@
             "lat": 38.920951,
             "lng": -77.233127
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "North pavilion elevator entrance from Pinnacle Dr and SAIC Dr sidewalk."
         },
         {
@@ -5375,9 +4171,7 @@
             "lat": 38.92047,
             "lng": -77.233959
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator entrance is accessible from pavilion sidewalk along Leesburg Pike west bound."
         },
         {
@@ -5387,9 +4181,7 @@
             "lat": 38.921123,
             "lng": -77.232932
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "North pavilion entrance from Pinnacle Dr and SAIC Dr sidewalk."
         },
         {
@@ -5399,9 +4191,7 @@
             "lat": 38.920691,
             "lng": -77.234169
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from the west corner of Leesburg Pike and Marshalls Dr."
         }
       ]
@@ -5410,9 +4200,7 @@
       "id": "wiehle-reston-east",
       "systemId": "wmata",
       "name": "Wiehle-Reston East",
-      "lines": [
-        "silver"
-      ],
+      "lines": ["silver"],
       "opened": "2014-07-26",
       "status": "active",
       "coordinates": {
@@ -5420,13 +4208,7 @@
         "lng": -77.3403
       },
       "address": "11389 Reston Station Blvd, Reston, VA 20190",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Major park-and-ride station serving Reston with 2,300 parking spaces.",
       "entrances": [
         {
@@ -5436,9 +4218,7 @@
             "lat": 38.946993,
             "lng": -77.340156
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "South pavilion elevator entrance from station south bus bay."
         },
         {
@@ -5448,9 +4228,7 @@
             "lat": 38.946866,
             "lng": -77.339887
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "South pavilion entrance from station south bus bay."
         },
         {
@@ -5460,9 +4238,7 @@
             "lat": 38.948302,
             "lng": -77.338911
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Walkway to station pedestrian bridge is accessible from parking garage and kiss & ride located at the north side of the station."
         }
       ]
@@ -5471,11 +4247,7 @@
       "id": "foggy-bottom",
       "systemId": "wmata",
       "name": "Foggy Bottom-GWU",
-      "lines": [
-        "blue",
-        "orange",
-        "silver"
-      ],
+      "lines": ["blue", "orange", "silver"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -5483,11 +4255,7 @@
         "lng": -77.0503
       },
       "address": "2301 I St NW, Washington, DC 20037",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves George Washington University, the State Department, and Kennedy Center.",
       "entrances": [
         {
@@ -5497,10 +4265,7 @@
             "lat": 38.900824,
             "lng": -77.050856
           },
-          "accessibility": [
-            "elevator",
-            "escalator"
-          ],
+          "accessibility": ["elevator", "escalator"],
           "description": "Station entrance form street level elevator facing I St NW, adjacent to station escalator (south end of George Washington University Hospital building)."
         },
         {
@@ -5510,9 +4275,7 @@
             "lat": 38.900866,
             "lng": -77.050371
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Station entrance from the northwest corner of 23rd St NW and I St NW (south end of George Washington University Hospital building)."
         }
       ]
@@ -5521,9 +4284,7 @@
       "id": "arlington-cemetery",
       "systemId": "wmata",
       "name": "Arlington Cemetery",
-      "lines": [
-        "blue"
-      ],
+      "lines": ["blue"],
       "opened": "1977-07-01",
       "status": "active",
       "coordinates": {
@@ -5531,11 +4292,7 @@
         "lng": -77.0636
       },
       "address": "Arlington National Cemetery, Arlington, VA 22202",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Serves Arlington National Cemetery. No parking available; no Sunday service on Blue Line.",
       "entrances": [
         {
@@ -5545,9 +4302,7 @@
             "lat": 38.88474,
             "lng": -77.063349
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from the west side of Memorial Dr where it crosses over Jefferson Davis Hwy."
         },
         {
@@ -5557,9 +4312,7 @@
             "lat": 38.884831,
             "lng": -77.063099
           },
-          "accessibility": [
-            "elevator"
-          ],
+          "accessibility": ["elevator"],
           "description": "Elevator entrance from Memorial Dr (between rail tracks and GW Pkwy)."
         },
         {
@@ -5569,9 +4322,7 @@
             "lat": 38.884545,
             "lng": -77.063751
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance from the west side of Memorial Dr where it crosses over Jefferson Davis Hwy."
         },
         {
@@ -5581,9 +4332,7 @@
             "lat": 38.884215,
             "lng": -77.063556
           },
-          "accessibility": [
-            "escalator"
-          ],
+          "accessibility": ["escalator"],
           "description": "Escalator entrance from the east side of Memorial Dr where it crosses over Jefferson Davis Hwy."
         }
       ]

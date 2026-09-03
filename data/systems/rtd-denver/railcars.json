@@ -1,0 +1,58 @@
+{
+  "generations": [
+    {
+      "id": "siemens-sd-100",
+      "systemId": "rtd-denver",
+      "name": "Siemens SD-100",
+      "manufacturer": "Siemens Duewag",
+      "introduced": 1994,
+      "status": "active",
+      "count": 49,
+      "specs": {
+        "length": "81 ft",
+        "width": "8 ft 8 in",
+        "capacity": 172,
+        "seatedCapacity": 64,
+        "maxSpeed": "55 mph",
+        "traction": "AC propulsion"
+      },
+      "description": "The Siemens SD-100 cars formed RTD's original light rail fleet when the Central Corridor opened in 1994. They continue to operate on the RTD light rail network."
+    },
+    {
+      "id": "siemens-sd-160",
+      "systemId": "rtd-denver",
+      "name": "Siemens SD-160",
+      "manufacturer": "Siemens Mobility",
+      "introduced": 2006,
+      "status": "active",
+      "count": 152,
+      "specs": {
+        "length": "81 ft",
+        "width": "8 ft 8 in",
+        "capacity": 236,
+        "seatedCapacity": 64,
+        "maxSpeed": "55 mph",
+        "traction": "AC propulsion"
+      },
+      "description": "The Siemens SD-160 fleet was acquired for RTD's FasTracks-era light rail expansion, including the Southeast and West corridors."
+    },
+    {
+      "id": "hyundai-rotem-silverliner-v",
+      "systemId": "rtd-denver",
+      "name": "Hyundai Rotem Silverliner V",
+      "manufacturer": "Hyundai Rotem",
+      "introduced": 2016,
+      "status": "active",
+      "count": 66,
+      "specs": {
+        "length": "85 ft",
+        "width": "10 ft",
+        "capacity": 230,
+        "seatedCapacity": 91,
+        "maxSpeed": "79 mph",
+        "traction": "Electric multiple unit"
+      },
+      "description": "The Hyundai Rotem Silverliner V electric multiple units operate RTD's commuter-rail services, including the A, B, and G Lines. The 66-car fleet was delivered for the Eagle P3 project."
+    }
+  ]
+}

@@ -18,7 +18,11 @@ export function Header() {
       <header className="sticky top-0 z-50 bg-bg-primary/95 backdrop-blur border-b border-border transition-theme">
         <div className="max-w-7xl mx-auto px-4 h-14 flex items-center justify-between gap-4">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-2 shrink-0 group">
+          <Link
+            href="/"
+            className="flex items-center gap-2 shrink-0 group"
+            aria-label="publictransit.systems home"
+          >
             <div className="w-8 h-8 bg-accent-primary/20 rounded flex items-center justify-center group-hover:bg-accent-primary/30 transition-colors scanline-container">
               <svg
                 className="w-5 h-5 text-accent-primary"
@@ -41,7 +45,7 @@ export function Header() {
           </Link>
 
           {/* Navigation */}
-          <nav className="hidden md:flex items-center gap-1">
+          <nav className="hidden md:flex items-center gap-1" aria-label="Primary navigation">
             <NavLink href="/" active={pathname === "/"}>
               Systems
             </NavLink>
@@ -64,6 +68,7 @@ export function Header() {
             <button
               onClick={() => setCommandOpen(true)}
               className="flex items-center gap-2 px-3 py-1.5 rounded border border-border bg-bg-secondary hover:bg-bg-tertiary hover:border-border-hover transition-all text-text-muted hover:text-text-primary group"
+              aria-label="Open search"
             >
               <Search className="w-4 h-4" />
               <span className="hidden sm:inline font-mono text-xs">Search</span>

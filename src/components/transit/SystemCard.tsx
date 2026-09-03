@@ -37,28 +37,13 @@ export function SystemCard({ system, className }: SystemCardProps) {
           />
         </div>
 
-        <p className="text-sm text-text-secondary mb-4 line-clamp-2">
-          {system.overview}
-        </p>
+        <p className="text-sm text-text-secondary mb-4 line-clamp-2">{system.overview}</p>
 
         <div className="grid grid-cols-2 gap-4 pt-4 border-t border-border">
-          <StatBlock
-            label="Stations"
-            value={system.stats.totalStations}
-          />
-          <StatBlock
-            label="Lines"
-            value={system.stats.totalLines}
-          />
-          <StatBlock
-            label="Track Length"
-            value={Math.round(trackLength)}
-            unit={displayUnit}
-          />
-          <StatBlock
-            label="Daily Riders"
-            value={system.stats.dailyRidership}
-          />
+          <StatBlock label="Stations" value={system.stats.totalStations} />
+          <StatBlock label="Lines" value={system.stats.totalLines} />
+          <StatBlock label="Track Length" value={Math.round(trackLength)} unit={displayUnit} />
+          <StatBlock label="Daily Riders" value={system.stats.dailyRidership} />
         </div>
       </Card>
     </Link>

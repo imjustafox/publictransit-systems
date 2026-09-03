@@ -89,9 +89,7 @@ function parseCsv(raw: string): CsvRow[] {
     const division = fields[0];
     const constituentStationName = fields[5];
     const gtfsStopId = fields[7];
-    const daytimeRoutes = fields[8]
-      .split(/\s+/)
-      .filter((r) => r.length > 0);
+    const daytimeRoutes = fields[8].split(/\s+/).filter((r) => r.length > 0);
     const entranceType = fields[9];
     const entryAllowed = fields[10] === "YES";
     const exitAllowed = fields[11] === "YES";
@@ -262,20 +260,13 @@ function lineOverlap(csvRoutes: string[], stationLines: string[]): number {
   return score;
 }
 
-function haversineMeters(
-  lat1: number,
-  lng1: number,
-  lat2: number,
-  lng2: number
-): number {
+function haversineMeters(lat1: number, lng1: number, lat2: number, lng2: number): number {
   const R = 6371000;
   const dLat = ((lat2 - lat1) * Math.PI) / 180;
   const dLng = ((lng2 - lng1) * Math.PI) / 180;
   const a =
     Math.sin(dLat / 2) ** 2 +
-    Math.cos((lat1 * Math.PI) / 180) *
-      Math.cos((lat2 * Math.PI) / 180) *
-      Math.sin(dLng / 2) ** 2;
+    Math.cos((lat1 * Math.PI) / 180) * Math.cos((lat2 * Math.PI) / 180) * Math.sin(dLng / 2) ** 2;
   return 2 * R * Math.asin(Math.sqrt(a));
 }
 
@@ -377,9 +368,7 @@ function main() {
       const maxOverlap = Math.max(...scored.map((s) => s.overlap));
 
       // Among candidates with best overlap (or within 1), pick the closest geographically
-      const topCandidates = scored.filter(
-        (s) => s.overlap >= maxOverlap - 1 && s.overlap >= 0
-      );
+      const topCandidates = scored.filter((s) => s.overlap >= maxOverlap - 1 && s.overlap >= 0);
       topCandidates.sort((a, b) => a.dist - b.dist);
       bestStation = topCandidates[0].station;
     }
@@ -395,9 +384,7 @@ function main() {
   console.log(`Unmatched CSV rows: ${unmatched.length}`);
 
   if (unmatched.length > 0) {
-    const uniqueUnmatched = [
-      ...new Set(unmatched.map((r) => r.constituentStationName)),
-    ];
+    const uniqueUnmatched = [...new Set(unmatched.map((r) => r.constituentStationName))];
     console.log("\nUnmatched station names:");
     for (const name of uniqueUnmatched.sort()) {
       const norm = normalizeName(name);
@@ -574,14 +561,12 @@ function main() {
       if (!hadEntrances) mergedCount++;
     }
   }
-  console.log(`Merged entrances across duplicate stations: ${mergedCount} stations gained entrances`);
+  console.log(
+    `Merged entrances across duplicate stations: ${mergedCount} stations gained entrances`
+  );
 
   // 10. Write updated stations.json
-  writeFileSync(
-    STATIONS_PATH,
-    JSON.stringify(stationsData, null, 2) + "\n",
-    "utf-8"
-  );
+  writeFileSync(STATIONS_PATH, JSON.stringify(stationsData, null, 2) + "\n", "utf-8");
   console.log(`\nWritten updated stations.json`);
 
   // 11. Summary stats

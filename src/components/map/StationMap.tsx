@@ -10,7 +10,7 @@ const StationMapClient = dynamic(
     loading: () => (
       <div className="flex h-full w-full items-center justify-center rounded-lg bg-bg-tertiary">
         <div className="text-center font-mono text-text-muted">
-          <div className="mb-2 animate-pulse">Loading map...</div>
+          <div className="mb-2">Loading map...</div>
         </div>
       </div>
     ),
@@ -18,7 +18,7 @@ const StationMapClient = dynamic(
 );
 
 // Station with coordinates required for map rendering
-type StationWithCoordinates = Omit<Station, 'coordinates'> & { coordinates: Coordinates };
+type StationWithCoordinates = Omit<Station, "coordinates"> & { coordinates: Coordinates };
 
 interface StationMapProps {
   station: StationWithCoordinates;

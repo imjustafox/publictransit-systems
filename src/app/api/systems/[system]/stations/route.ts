@@ -27,9 +27,6 @@ export async function GET(request: Request, { params }: RouteParams) {
       count: stations.length,
     });
   } catch {
-    return NextResponse.json(
-      { error: "Failed to fetch stations" },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "Failed to fetch stations" }, { status: 404 });
   }
 }

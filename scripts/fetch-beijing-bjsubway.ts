@@ -76,7 +76,7 @@ async function fetchHtml(url: string): Promise<string> {
   const response = await fetch(url, {
     headers: {
       "User-Agent": "Mozilla/5.0 (compatible; TransitDataBot/1.0)",
-      "Accept": "text/html,application/xhtml+xml",
+      Accept: "text/html,application/xhtml+xml",
       "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
     },
   });
@@ -183,11 +183,7 @@ function extractFacilities(html: string): {
   }
 
   // Check for accessible facilities
-  if (
-    html.includes("无障碍") ||
-    html.includes("轮椅") ||
-    html.includes("盲道")
-  ) {
+  if (html.includes("无障碍") || html.includes("轮椅") || html.includes("盲道")) {
     features.add("accessible");
   }
 
@@ -391,9 +387,7 @@ async function main() {
   const projectRoot = path.resolve(__dirname, "..");
   const outputPath = path.join(projectRoot, args.output);
 
-  const linesToFetch = args.line
-    ? { [args.line]: LINES[args.line] }
-    : LINES;
+  const linesToFetch = args.line ? { [args.line]: LINES[args.line] } : LINES;
 
   if (args.line && !LINES[args.line]) {
     console.error(`Unknown line: ${args.line}`);

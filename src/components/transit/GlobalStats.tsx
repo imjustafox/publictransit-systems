@@ -40,22 +40,14 @@ export function GlobalStats({ systems }: GlobalStatsProps) {
           value={totalStations}
           icon={<MapPin className="w-4 h-4" />}
         />
-        <StatBlock
-          label="Total Lines"
-          value={totalLines}
-          icon={<Train className="w-4 h-4" />}
-        />
+        <StatBlock label="Total Lines" value={totalLines} icon={<Train className="w-4 h-4" />} />
         <StatBlock
           label="Track Length"
           value={Math.round(totalTrackLength)}
           unit={displayUnit}
           icon={<Route className="w-4 h-4" />}
         />
-        <StatBlock
-          label="Systems"
-          value={systems.length}
-          icon={<Layers className="w-4 h-4" />}
-        />
+        <StatBlock label="Systems" value={systems.length} icon={<Layers className="w-4 h-4" />} />
       </StatGrid>
     </Card>
   );

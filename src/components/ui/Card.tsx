@@ -45,11 +45,7 @@ interface CardHeaderProps {
 }
 
 export function CardHeader({ children, className }: CardHeaderProps) {
-  return (
-    <div className={cn("mb-4", className)}>
-      {children}
-    </div>
-  );
+  return <div className={cn("mb-4", className)}>{children}</div>;
 }
 
 interface CardTitleProps {
@@ -66,13 +62,9 @@ export function CardTitle({ children, className, size = "md" }: CardTitleProps) 
   };
 
   return (
-    <h3 className={cn(
-      "font-mono font-semibold text-text-primary",
-      sizeClasses[size],
-      className
-    )}>
+    <h2 className={cn("font-mono font-semibold text-text-primary", sizeClasses[size], className)}>
       {children}
-    </h3>
+    </h2>
   );
 }
 
@@ -82,11 +74,7 @@ interface CardContentProps {
 }
 
 export function CardContent({ children, className }: CardContentProps) {
-  return (
-    <div className={cn("text-text-secondary", className)}>
-      {children}
-    </div>
-  );
+  return <div className={cn("text-text-secondary", className)}>{children}</div>;
 }
 
 interface CardFooterProps {
@@ -95,9 +83,5 @@ interface CardFooterProps {
 }
 
 export function CardFooter({ children, className }: CardFooterProps) {
-  return (
-    <div className={cn("mt-4 pt-4 border-t border-border", className)}>
-      {children}
-    </div>
-  );
+  return <div className={cn("mt-4 pt-4 border-t border-border", className)}>{children}</div>;
 }

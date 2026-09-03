@@ -11,10 +11,7 @@ export async function GET(request: Request, { params }: RouteParams) {
     const station = await getStation(systemId, stationId);
 
     if (!station) {
-      return NextResponse.json(
-        { error: "Station not found" },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: "Station not found" }, { status: 404 });
     }
 
     // Get line details for this station
@@ -37,9 +34,6 @@ export async function GET(request: Request, { params }: RouteParams) {
       },
     });
   } catch {
-    return NextResponse.json(
-      { error: "Failed to fetch station" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to fetch station" }, { status: 500 });
   }
 }

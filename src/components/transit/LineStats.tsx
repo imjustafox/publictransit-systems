@@ -14,24 +14,14 @@ interface LineStatsProps {
   colorHex: string;
 }
 
-export function LineStats({
-  length,
-  sourceUnit,
-  stationCount,
-  status,
-  colorHex,
-}: LineStatsProps) {
+export function LineStats({ length, sourceUnit, stationCount, status, colorHex }: LineStatsProps) {
   const { unit: displayUnit } = useDistanceUnit();
   const convertedLength = convertDistance(length, sourceUnit, displayUnit);
 
   return (
     <Card>
       <StatGrid columns={4}>
-        <StatBlock
-          label="Length"
-          value={convertedLength.toFixed(1)}
-          unit={displayUnit}
-        />
+        <StatBlock label="Length" value={convertedLength.toFixed(1)} unit={displayUnit} />
         <StatBlock label="Stations" value={stationCount} />
         <StatBlock label="Status" value={status.toUpperCase()} />
         <StatBlock label="Color Code" value={colorHex} />

@@ -1,0 +1,199 @@
+{
+  "lines": [
+    {
+      "id": "a-line",
+      "systemId": "rtd-denver",
+      "name": "A Line",
+      "color": "Sky Blue",
+      "colorHex": "#54C0E8",
+      "opened": "2016-04-22",
+      "status": "active",
+      "termini": ["Union Station", "Denver Airport"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 23.5,
+      "stationCount": 8,
+      "description": "The A Line is a commuter rail line that connects Downtown Denver to Denver Airport through Aurora."
+    },
+    {
+      "id": "b-line",
+      "systemId": "rtd-denver",
+      "name": "B Line",
+      "color": "Green",
+      "colorHex": "#4C9C2E",
+      "opened": "2016-07-25",
+      "status": "active",
+      "termini": ["Union Station", "Westminster"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 6.2,
+      "stationCount": 4,
+      "description": "The B Line is a commuter rail line that connects Union Station to Westminster Station. It is not fully complete, with the full journey taking only about 15 minutes and an additional six stations planned to serve Broomfield, Louisville, Boulder, and Longmont."
+    },
+    {
+      "id": "c-line",
+      "systemId": "rtd-denver",
+      "name": "C Line",
+      "color": "Orange",
+      "colorHex": "#F6871F",
+      "opened": "2026-06-07",
+      "status": "active",
+      "termini": ["Union Station", "Littleton-Mineral"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 11.3,
+      "stationCount": 12,
+      "description": "The C Line is a temporary line operating between Union Station and Littleton-Mineral Station in place of the D Line during the Downtown Rail Reconstruction Project. Historically, it operated between Union Station and I-25 / Broadway Station most of the time, with service to Littleton-Mineral Station during peak hours and sporting events. The C Line ceased operation in 2021."
+    },
+    {
+      "id": "d-line",
+      "systemId": "rtd-denver",
+      "name": "D Line",
+      "color": "Dark Green",
+      "colorHex": "#047835",
+      "opened": "1994-10-07",
+      "status": "under-construction",
+      "termini": ["Littleton-Mineral"],
+      "topology": {
+        "type": "lollipop",
+        "loopStation": "18th & California"
+      },
+      "length": 5.3,
+      "stationCount": 14,
+      "description": "The D Line, formerly known as Route 101, was the first and only line in the RTD rail system until 2002. Before its temporary suspension for the Downtown Rail Reconstruction Project, it operated between the 18th Street stations and Littleton-Mineral Station."
+    },
+    {
+      "id": "e-line",
+      "systemId": "rtd-denver",
+      "name": "E Line",
+      "color": "Dark Purple",
+      "colorHex": "#691F74",
+      "opened": "2006-11-17",
+      "status": "active",
+      "stationCount": 22,
+      "description": "The E Line runs south along I-25 through Denver, Greenwood Village, Centennial, and Lone Tree, from Union Station to RidgeGate Parkway. During the Downtown Rail Reconstruction Project, it shares the southeast corridor with the temporarily extended R Line from I-225 to RidgeGate Parkway.",
+      "termini": ["Union Station", "Ridgegate Parkway"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 19
+    },
+    {
+      "id": "g-line",
+      "systemId": "rtd-denver",
+      "name": "G Line",
+      "color": "Goldenrod",
+      "colorHex": "#F4B223",
+      "opened": "2019-04-26",
+      "status": "active",
+      "termini": ["Union Station", "Wheat Ridge / Ward"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 11.2,
+      "stationCount": 8,
+      "description": "The G Line, also known as the Gold Line, is a commuter rail line that runs between Union Station and Wheat Ridge / Ward Station, serving Arvada and Wheat Ridge."
+    },
+    {
+      "id": "h-line",
+      "systemId": "rtd-denver",
+      "name": "H Line",
+      "color": "Blue",
+      "colorHex": "#0055B8",
+      "opened": "2006-11-17",
+      "status": "under-construction",
+      "termini": ["Florida"],
+      "topology": {
+        "type": "lollipop",
+        "loopStation": "18th & California"
+      },
+      "length": 19,
+      "stationCount": 20,
+      "description": "The H Line was added through completion of the Southeast Corridor and extended to Florida Station in 2017. It is temporarily suspended during the Downtown Rail Reconstruction Project."
+    },
+    {
+      "id": "l-line",
+      "systemId": "rtd-denver",
+      "name": "L Line",
+      "color": "Yellow",
+      "colorHex": "#FFCD00",
+      "opened": "2018-01-14",
+      "status": "under-construction",
+      "termini": ["30th & Downing"],
+      "topology": {
+        "type": "lollipop",
+        "loopStation": "18th & California"
+      },
+      "length": 5.3,
+      "stationCount": 10,
+      "description": "The L Line is temporarily suspended during the Downtown Rail Reconstruction Project. When operating, it runs through downtown Denver in a loop from 30th & Downing via Welton Street, 19th Street, Stout Street, and California Street."
+    },
+    {
+      "id": "n-line",
+      "systemId": "rtd-denver",
+      "name": "N Line",
+      "color": "Purple",
+      "colorHex": "#904199",
+      "opened": "2020-9-21",
+      "status": "active",
+      "termini": ["Union Station", "Eastlake / 124th Ave"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 13,
+      "stationCount": 7,
+      "description": "The N Line, also known as the North Metro Rail Line, is a commuter rail line that runs from Union Station through Commerce City, Thornton, and Northglenn, terminating at Eastlake / 124th Ave. It has a proposed extension that would add two stations and 5.5 mi of track further into Thornton, terminating at North Thornton/Hwy 7 Station."
+    },
+    {
+      "id": "r-line",
+      "systemId": "rtd-denver",
+      "name": "R Line",
+      "color": "Light Green",
+      "colorHex": "#C1D32F",
+      "opened": "2017-02-24",
+      "status": "active",
+      "termini": ["Peoria", "Ridgegate Parkway"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 22,
+      "stationCount": 19,
+      "description": "The R Line, also called the Aurora Line or I-225 Rail, originally opened as the G Line in 2006. Due to low ridership, service was discontinued in 2009. As part of the voter-approved FasTracks program, new rail was installed along I-225 from Peoria Station to Nine Mile Station. The R Line was then created to run between Peoria Station, with a connection to the A Line, through Aurora to Lincoln Station. During the Downtown Rail Reconstruction Project, the R Line was temporarily extended to Ridgegate Parkway Station."
+    },
+    {
+      "id": "t-line",
+      "systemId": "rtd-denver",
+      "name": "T Line",
+      "color": "Yellow",
+      "colorHex": "#CE0E2D",
+      "opened": "2026-06-07",
+      "status": "active",
+      "termini": ["I-25 / Broadway", "Lincoln"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 8.5,
+      "stationCount": 12,
+      "description": "The T Line is a temporary light rail line operating between I-25 & Broadway Station and Lincoln Station during the Downtown Rail Reconstruction Project, while the D, H, and L Lines are suspended."
+    },
+    {
+      "id": "w-line",
+      "systemId": "rtd-denver",
+      "name": "W Line",
+      "color": "Teal",
+      "colorHex": "#0091B3",
+      "opened": "2013-04-26",
+      "status": "active",
+      "termini": ["Union Station", "Jefferson County Government Center/Golden"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 12.1,
+      "stationCount": 15,
+      "description": "The W Line, also called the West Line, serves the Central Platte Valley corridor, including west Denver, Lakewood, and Golden. Service on the corridor began in 1893 with the Denver, Lakewood and Golden Railroad, which ended in the 1950s. RTD began construction on the modern line in 2008; it opened eight months ahead of schedule in April 2013."
+    }
+  ]
+}

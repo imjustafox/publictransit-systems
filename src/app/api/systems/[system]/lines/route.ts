@@ -12,10 +12,7 @@ export async function GET(request: Request, { params }: RouteParams) {
   try {
     system = await getSystem(systemId);
   } catch {
-    return NextResponse.json(
-      { error: "System not found" },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "System not found" }, { status: 404 });
   }
 
   try {
@@ -26,9 +23,6 @@ export async function GET(request: Request, { params }: RouteParams) {
       distanceUnit: system.stats.distanceUnit,
     });
   } catch {
-    return NextResponse.json(
-      { error: "Failed to fetch lines" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to fetch lines" }, { status: 500 });
   }
 }

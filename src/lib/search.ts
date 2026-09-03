@@ -39,7 +39,9 @@ export function createSearchIndex(
       name: station.name,
       subtitle: station.lines.join(", "),
       description: station.description,
-      keywords: [station.address, station.localName, ...station.features].filter((k): k is string => !!k),
+      keywords: [station.address, station.localName, ...station.features].filter(
+        (k): k is string => !!k
+      ),
     })),
     // Lines
     ...lines.map((line) => ({
@@ -76,11 +78,7 @@ export function createSearchIndex(
   });
 }
 
-export function search(
-  index: Fuse<SearchableItem>,
-  query: string,
-  limit = 20
-): SearchResult[] {
+export function search(index: Fuse<SearchableItem>, query: string, limit = 20): SearchResult[] {
   const results = index.search(query, { limit });
 
   return results.map((result) => {

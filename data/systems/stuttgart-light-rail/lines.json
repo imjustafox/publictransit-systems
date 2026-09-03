@@ -8,10 +8,7 @@
       "colorHex": "#ca9461",
       "opened": "1986-04-19",
       "status": "active",
-      "termini": [
-        "Fellbach Lutherkirche",
-        "Heslach Vogelrain"
-      ],
+      "termini": ["Fellbach Lutherkirche", "Heslach Vogelrain"],
       "length": 22.1,
       "stationCount": 27,
       "topology": {
@@ -28,10 +25,7 @@
       "colorHex": "#f37014",
       "opened": "2002-06-22",
       "status": "active",
-      "termini": [
-        "Neugereut",
-        "Botnang"
-      ],
+      "termini": ["Neugereut", "Botnang"],
       "length": 20.8,
       "stationCount": 28,
       "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Rotebühlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
@@ -48,10 +42,7 @@
       "colorHex": "#8a5738",
       "opened": "1985-09-28",
       "status": "active",
-      "termini": [
-        "Plieningen",
-        "Vaihingen Bahnhof"
-      ],
+      "termini": ["Plieningen", "Vaihingen Bahnhof"],
       "length": 5.8,
       "stationCount": 11,
       "description": "The U3 is a short tangential line linking the southern suburb of Plieningen with the major interchange at Vaihingen Bahnhof via Möhringen. It runs entirely on the surface, does not serve the city-centre tunnel, and was the very first line to enter full Stadtbahn operation on 28 September 1985. It provides a direct connection to the S-Bahn at Vaihingen without requiring a city-centre change.",
@@ -68,10 +59,7 @@
       "colorHex": "#7559b0",
       "opened": "1994-09-24",
       "status": "active",
-      "termini": [
-        "Untertürkheim Bahnhof",
-        "Hölderlinplatz"
-      ],
+      "termini": ["Untertürkheim Bahnhof", "Hölderlinplatz"],
       "length": 14.7,
       "stationCount": 22,
       "description": "The U4 is a longitudinal valley line connecting Untertürkheim Bahnhof in the Neckar valley east with Hölderlinplatz in the north, via Ostendplatz, Neckartor, Charlottenplatz, and Rotebühlplatz. It provides S-Bahn interchange at Untertürkheim and runs through the Neckar valley on the surface before entering the city-centre tunnel.",
@@ -88,10 +76,7 @@
       "colorHex": "#33bdf0",
       "opened": "1990-11-03",
       "status": "active",
-      "termini": [
-        "Killesberg",
-        "Leinfelden Bahnhof"
-      ],
+      "termini": ["Killesberg", "Leinfelden Bahnhof"],
       "length": 18.1,
       "stationCount": 22,
       "description": "The U5 is a cross-valley line running from Killesberg in the north through Hauptbahnhof and the city-centre tunnel to Degerloch, Möhringen, and Leinfelden Bahnhof at the southern edge of the network, with S-Bahn interchange at Hauptbahnhof and Leinfelden. Unlike most other lines, the U5 operates every 20 minutes rather than the standard 10-minute headway.",
@@ -108,10 +93,7 @@
       "colorHex": "#eb008a",
       "opened": "1990-11-03",
       "status": "active",
-      "termini": [
-        "Gerlingen",
-        "Messe/Flughafen"
-      ],
+      "termini": ["Gerlingen", "Messe/Flughafen"],
       "length": 34.2,
       "stationCount": 43,
       "description": "The U6 is the longest line in the network, crossing the entire city from Gerlingen in the west via Giebel, Feuerbach, Pragsattel, Hauptbahnhof, Charlottenplatz, Degerloch, and Möhringen, continuing south through Fasanenhof to Stuttgart Airport and the trade fair (Messe/Flughafen), which it has served since December 2021. It operates as an 80 m double set during weekday daytime hours and is the principal Stadtbahn connection to the airport.",
@@ -128,10 +110,7 @@
       "colorHex": "#33b887",
       "opened": "1993-04-19",
       "status": "active",
-      "termini": [
-        "Mönchfeld",
-        "Ostfildern"
-      ],
+      "termini": ["Mönchfeld", "Ostfildern"],
       "length": 25.4,
       "stationCount": 36,
       "description": "The U7 is one of the longest lines, running from Mönchfeld in the northeast via Zuffenhausen and Pragsattel through the city-centre tunnel to Ruhbank (Fernsehturm), then southeast through Heumaden to Ostfildern. It operates as an 80 m double set during weekday daytime hours, providing high-capacity service on the busy Pragsattel–Hauptbahnhof corridor shared with several other lines.",
@@ -148,10 +127,7 @@
       "colorHex": "#bab361",
       "opened": "2000-09-09",
       "status": "active",
-      "termini": [
-        "Vaihingen Bahnhof",
-        "Ostfildern"
-      ],
+      "termini": ["Vaihingen Bahnhof", "Ostfildern"],
       "length": 19.5,
       "stationCount": 26,
       "description": "The U8 is a limited-hours cross-valley line running Monday to Friday (approximately 05:30–20:00) between Vaihingen Bahnhof in the southwest and Ostfildern in the southeast, via Möhringen, Degerloch, Ruhbank (Fernsehturm), and Heumaden. It supplements the U7 on the shared southeastern section and increases frequency on the Vaihingen–Möhringen corridor during afternoon peak hours.",
@@ -168,10 +144,7 @@
       "colorHex": "#fad105",
       "opened": "1989-09-30",
       "status": "active",
-      "termini": [
-        "Hedelfingen",
-        "Vogelsang"
-      ],
+      "termini": ["Hedelfingen", "Vogelsang"],
       "length": 14.5,
       "stationCount": 22,
       "description": "The U9 links Hedelfingen in the Neckar valley east with Vogelsang in the west, passing through Raitelsberg and the underground city-centre at Charlottenplatz. During school-day peak hours the line extends further west to Botnang. It provides interchange at multiple stops and serves the eastern Neckar valley neighbourhoods along its route.",
@@ -188,10 +161,7 @@
       "colorHex": "#8f8f8f",
       "opened": "1994-01-01",
       "status": "active",
-      "termini": [
-        "Hauptbahnhof",
-        "Neckarpark (Stadion)"
-      ],
+      "termini": ["Hauptbahnhof", "Neckarpark (Stadion)"],
       "length": 7.5,
       "stationCount": 13,
       "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Rotebühlplatz – Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
@@ -208,10 +178,7 @@
       "colorHex": "#8cbde8",
       "opened": "2013-09-14",
       "status": "active",
-      "termini": [
-        "Remseck am Neckar",
-        "Dürrlewang"
-      ],
+      "termini": ["Remseck am Neckar", "Dürrlewang"],
       "length": 30.8,
       "stationCount": 36,
       "description": "The U12 is one of the longest and most recently completed lines, running from Remseck am Neckar (Neckargröningen) in the northeast via Hallschlag, Nordbahnhof, Hauptbahnhof, and the Europaviertel tunnel south through the city centre to Charlottenplatz, Degerloch, Möhringen, and Dürrlewang. It operates as an 80 m double set during weekday daytime hours and was progressively extended between 2013 and 2017.",
@@ -228,10 +195,7 @@
       "colorHex": "#f587b3",
       "opened": "1997-09-13",
       "status": "active",
-      "termini": [
-        "Feuerbach",
-        "Hedelfingen"
-      ],
+      "termini": ["Feuerbach", "Hedelfingen"],
       "length": 17.6,
       "stationCount": 25,
       "description": "The U13 is a tangential line connecting Feuerbach in the northwest with Hedelfingen in the Neckar valley east, via Pragsattel, Löwentor, Wilhelma, Bad Cannstatt, and Untertürkheim. During school-day peak hours the service extends west from Feuerbach to Giebel. Since the introduction of U16 in 2018, the standard non-peak western terminus is Feuerbach Pfostenwäldle.",
@@ -248,10 +212,7 @@
       "colorHex": "#5ec23f",
       "opened": "1986-07-12",
       "status": "active",
-      "termini": [
-        "Mühlhausen",
-        "Vaihingen Bahnhof"
-      ],
+      "termini": ["Mühlhausen", "Vaihingen Bahnhof"],
       "length": 24.6,
       "stationCount": 33,
       "description": "The U14 is a long north-south line running from Mühlhausen in the far north via Münster and Charlottenplatz through the city-centre tunnel to Heslach Vogelrain and Vaihingen Bahnhof in the south. Since the December 2023 Network 2024 reshuffle, U14 uses the direct Charlottenplatz route (swapping the inner-city loop role with U1); the former Remseck branch is now served entirely by U12.",
@@ -268,10 +229,7 @@
       "colorHex": "#1e54ae",
       "opened": "2007-12-08",
       "status": "active",
-      "termini": [
-        "Stammheim",
-        "Ruhbank (Fernsehturm)"
-      ],
+      "termini": ["Stammheim", "Ruhbank (Fernsehturm)"],
       "length": 16.3,
       "stationCount": 27,
       "description": "The U15 was the last tram line in Stuttgart to be converted to Stadtbahn standard gauge, completed in phases between 2007 and December 2011 when the full current route from Stammheim to Ruhbank (Fernsehturm) was established. It passes through Zuffenhausen and Pragsattel, traverses the underground city-centre trunk, and climbs the Olgaeck–Ruhbank gradient — the steepest standard-gauge adhesion track in Europe used by regular public transport. Outside school hours the line runs only between Stammheim and Ruhbank.",
@@ -288,10 +246,7 @@
       "colorHex": "#babf17",
       "opened": "2018-12-09",
       "status": "active",
-      "termini": [
-        "Giebel",
-        "Fellbach Lutherkirche"
-      ],
+      "termini": ["Giebel", "Fellbach Lutherkirche"],
       "length": 21.3,
       "stationCount": 30,
       "description": "The U16 is a peak-hour reinforcement line operating Monday to Friday, running from Giebel in the west via Feuerbach, Pragsattel, Löwentor, Wilhelma, and Bad Cannstatt to Fellbach Lutherkirche in the east. Introduced in December 2018, it provides additional capacity on the heavily used Feuerbach–Bad Cannstatt–Fellbach corridor and relieved the U1 pending its ongoing platform-extension upgrades for 80 m trains.",
@@ -308,10 +263,7 @@
       "colorHex": "#f8b00a",
       "opened": "2017-10-16",
       "status": "active",
-      "termini": [
-        "Neugereut",
-        "Neckarpark (Stadion)"
-      ],
+      "termini": ["Neugereut", "Neckarpark (Stadion)"],
       "length": 7.2,
       "stationCount": 9,
       "description": "The U19 is a weekday supplementary line running between Neugereut and Neckarpark (Stadion) via Bad Cannstatt, reinforcing frequency on the busy U2 corridor to approximately every five minutes during operating hours. It runs Monday to Friday (with reduced service during school holidays) and also provides additional capacity during smaller events at the Neckarpark sports ground. It began scheduled operations on 16 October 2017.",

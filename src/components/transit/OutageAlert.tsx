@@ -15,9 +15,7 @@ export function OutageAlert({ outages }: OutageAlertProps) {
       <div className="flex items-start gap-3">
         <div className="text-status-construction text-xl">⚠</div>
         <div className="flex-1">
-          <h3 className="font-mono font-semibold text-status-construction">
-            Service Alert
-          </h3>
+          <h2 className="font-mono font-semibold text-status-construction">Service Alert</h2>
           <p className="text-sm text-text-secondary mt-1">
             {elevatorOutages.length > 0 && (
               <span>
@@ -36,16 +34,11 @@ export function OutageAlert({ outages }: OutageAlertProps) {
 
           <div className="mt-3 space-y-2">
             {outages.map((outage) => (
-              <div
-                key={outage.unitName}
-                className="text-sm bg-bg-tertiary rounded p-2"
-              >
+              <div key={outage.unitName} className="text-sm bg-bg-tertiary rounded p-2">
                 <div className="flex items-center gap-2">
                   <span
                     className={`inline-block w-2 h-2 rounded-full ${
-                      outage.unitType === "elevator"
-                        ? "bg-status-closed"
-                        : "bg-status-construction"
+                      outage.unitType === "elevator" ? "bg-status-closed" : "bg-status-construction"
                     }`}
                   />
                   <span className="font-mono text-text-primary">
@@ -54,13 +47,10 @@ export function OutageAlert({ outages }: OutageAlertProps) {
                   <span className="text-text-muted">·</span>
                   <span className="text-text-muted">{outage.unitName}</span>
                 </div>
-                <p className="text-text-secondary mt-1 ml-4">
-                  {outage.location}
-                </p>
+                <p className="text-text-secondary mt-1 ml-4">{outage.location}</p>
                 {outage.estimatedReturn && (
                   <p className="text-text-muted text-xs mt-1 ml-4">
-                    Est. return:{" "}
-                    {new Date(outage.estimatedReturn).toLocaleDateString()}
+                    Est. return: {new Date(outage.estimatedReturn).toLocaleDateString()}
                   </p>
                 )}
               </div>

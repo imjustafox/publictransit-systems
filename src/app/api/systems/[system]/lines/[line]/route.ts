@@ -12,20 +12,14 @@ export async function GET(request: Request, { params }: RouteParams) {
   try {
     system = await getSystem(systemId);
   } catch {
-    return NextResponse.json(
-      { error: "System not found" },
-      { status: 404 }
-    );
+    return NextResponse.json({ error: "System not found" }, { status: 404 });
   }
 
   try {
     const line = await getLine(systemId, lineId);
 
     if (!line) {
-      return NextResponse.json(
-        { error: "Line not found" },
-        { status: 404 }
-      );
+      return NextResponse.json({ error: "Line not found" }, { status: 404 });
     }
 
     const stations = await getStationsByLine(systemId, lineId);
@@ -42,9 +36,6 @@ export async function GET(request: Request, { params }: RouteParams) {
       distanceUnit: system.stats.distanceUnit,
     });
   } catch {
-    return NextResponse.json(
-      { error: "Failed to fetch line" },
-      { status: 500 }
-    );
+    return NextResponse.json({ error: "Failed to fetch line" }, { status: 500 });
   }
 }

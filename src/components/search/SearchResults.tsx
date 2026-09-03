@@ -103,23 +103,21 @@ export function SearchResults({
             Enter a search term to find stations, lines, and more
           </p>
           <div className="mt-4 flex flex-wrap justify-center gap-2">
-            {["Metro Center", "Red Line", "7000 Series", "Union Station"].map(
-              (suggestion) => (
-                <button
-                  key={suggestion}
-                  onClick={() => setQuery(suggestion)}
-                  className="px-3 py-1 text-sm font-mono bg-bg-tertiary border border-border rounded hover:border-border-hover transition-colors"
-                >
-                  {suggestion}
-                </button>
-              )
-            )}
+            {["Metro Center", "Red Line", "7000 Series", "Union Station"].map((suggestion) => (
+              <button
+                key={suggestion}
+                onClick={() => setQuery(suggestion)}
+                className="px-3 py-1 text-sm font-mono bg-bg-tertiary border border-border rounded hover:border-border-hover transition-colors"
+              >
+                {suggestion}
+              </button>
+            ))}
           </div>
         </div>
       ) : results && results.length > 0 ? (
         <div className="space-y-6">
           <p className="text-sm text-text-muted font-mono">
-            Found {results.length} result{results.length !== 1 ? "s" : ""} for "{query}"
+            Found {results.length} result{results.length !== 1 ? "s" : ""} for &quot;{query}&quot;
           </p>
 
           {grouped &&
@@ -127,7 +125,12 @@ export function SearchResults({
               ([type, items]) =>
                 items.length > 0 && (
                   <section key={type}>
-                    <h2 className={cn("text-lg font-mono font-semibold mb-3", typeColors[type as keyof typeof typeColors])}>
+                    <h2
+                      className={cn(
+                        "text-lg font-mono font-semibold mb-3",
+                        typeColors[type as keyof typeof typeColors]
+                      )}
+                    >
                       {typeLabels[type as keyof typeof typeLabels]} ({items.length})
                     </h2>
                     <div className="space-y-2">
@@ -160,9 +163,7 @@ export function SearchResults({
         </div>
       ) : (
         <div className="text-center py-12">
-          <p className="text-text-muted font-mono">
-            No results found for "{query}"
-          </p>
+          <p className="text-text-muted font-mono">No results found for &quot;{query}&quot;</p>
           <p className="text-sm text-text-muted mt-2">
             Try a different search term or check your spelling
           </p>

@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState, useCallback } from "react";
+import { useEffect, useState, useCallback, useMemo } from "react";
 import { Command } from "cmdk";
 import { useRouter } from "next/navigation";
 import { Search, MapPin, Train, CreditCard, TrendingUp } from "lucide-react";
@@ -15,16 +15,9 @@ interface CommandPaletteProps {
 export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
   const router = useRouter();
   const [search, setSearch] = useState("");
-  const [results, setResults] = useState<SearchResult[]>([]);
-
-  useEffect(() => {
-    if (search.length === 0) {
-      setResults([]);
-      return;
-    }
-
-    const searchResults = searchAll(search);
-    setResults(searchResults.slice(0, 20)); // Limit results
+  const results = useMemo<SearchResult[]>(() => {
+    if (search.length === 0) return [];
+    return searchAll(search).slice(0, 20);
   }, [search]);
 
   useEffect(() => {
@@ -39,11 +32,14 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
     return () => document.removeEventListener("keydown", down);
   }, [open, onOpenChange]);
 
-  const handleSelect = useCallback((value: string) => {
-    onOpenChange(false);
-    router.push(value);
-    setSearch("");
-  }, [router, onOpenChange]);
+  const handleSelect = useCallback(
+    (value: string) => {
+      onOpenChange(false);
+      router.push(value);
+      setSearch("");
+    },
+    [router, onOpenChange]
+  );
 
   const getIcon = (type: string) => {
     switch (type) {
@@ -60,18 +56,24 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
     }
   };
 
-  const groupedResults = results.reduce((acc, result) => {
-    if (!acc[result.type]) {
-      acc[result.type] = [];
-    }
-    acc[result.type].push(result);
-    return acc;
-  }, {} as Record<string, SearchResult[]>);
+  const groupedResults = results.reduce(
+    (acc, result) => {
+      if (!acc[result.type]) {
+        acc[result.type] = [];
+      }
+      acc[result.type].push(result);
+      return acc;
+    },
+    {} as Record<string, SearchResult[]>
+  );
 
   if (!open) return null;
 
   return (
-    <div className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm" onClick={() => onOpenChange(false)}>
+    <div
+      className="fixed inset-0 z-50 bg-black/80 backdrop-blur-sm"
+      onClick={() => onOpenChange(false)}
+    >
       <div
         className="fixed left-1/2 top-[20%] -translate-x-1/2 w-full max-w-2xl px-4"
         onClick={(e) => e.stopPropagation()}
@@ -112,23 +114,15 @@ export function CommandPalette({ open, onOpenChange }: CommandPaletteProps) {
                       "transition-colors"
                     )}
                   >
-                    <div className="text-text-muted">
-                      {getIcon(result.type)}
-                    </div>
+                    <div className="text-text-muted">{getIcon(result.type)}</div>
                     <div className="flex-1 min-w-0">
-                      <div className="font-medium text-text-primary truncate">
-                        {result.name}
-                      </div>
+                      <div className="font-medium text-text-primary truncate">{result.name}</div>
                       {result.subtitle && (
-                        <div className="text-xs text-text-muted truncate">
-                          {result.subtitle}
-                        </div>
+                        <div className="text-xs text-text-muted truncate">{result.subtitle}</div>
                       )}
                     </div>
                     {result.metadata && (
-                      <div className="text-xs text-text-muted shrink-0">
-                        {result.metadata}
-                      </div>
+                      <div className="text-xs text-text-muted shrink-0">{result.metadata}</div>
                     )}
                   </Command.Item>
                 ))}

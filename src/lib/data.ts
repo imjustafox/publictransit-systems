@@ -29,7 +29,9 @@ async function loadJSON<T>(filePath: string): Promise<T> {
 }
 
 // System data
-export async function getSystem(systemId: string): Promise<TransitSystem & { history: HistoryEvent[] }> {
+export async function getSystem(
+  systemId: string
+): Promise<TransitSystem & { history: HistoryEvent[] }> {
   return loadJSON(`${systemId}/system.json`);
 }
 
@@ -66,7 +68,10 @@ export async function getStations(systemId: string): Promise<Station[]> {
   return data.stations;
 }
 
-export async function getStation(systemId: string, stationId: string): Promise<Station | undefined> {
+export async function getStation(
+  systemId: string,
+  stationId: string
+): Promise<Station | undefined> {
   const stations = await getStations(systemId);
   return stations.find((station) => station.id === stationId);
 }
@@ -149,8 +154,10 @@ const SOUND_TRANSIT_ALERTS_URL = "https://s3.amazonaws.com/st-service-alerts-pro
 
 // MTA NYC Subway endpoints (public, no auth required)
 // Subway-only alerts in protobuf format; elevator/escalator outages remain JSON (no protobuf available)
-const NYC_SUBWAY_ALERTS_URL = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts";
-const NYC_SUBWAY_ENE_URL = "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fnyct_ene.json";
+const NYC_SUBWAY_ALERTS_URL =
+  "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/camsys%2Fsubway-alerts";
+const NYC_SUBWAY_ENE_URL =
+  "https://api-endpoint.mta.info/Dataservice/mtagtfsfeeds/nyct%2Fnyct_ene.json";
 
 // Simple in-memory cache for incident data (5 minute TTL)
 const incidentCache: Map<string, { data: IncidentData; fetchedAt: number }> = new Map();
@@ -175,52 +182,52 @@ const BART_STATION_CODES: Record<string, string> = {
   "16TH": "16th-street-mission",
   "19TH": "19th-street-oakland",
   "24TH": "24th-street-mission",
-  "ANTC": "antioch",
-  "ASHB": "ashby",
-  "BALB": "balboa-park",
-  "BAYF": "bay-fair",
-  "BERY": "berryessa",
-  "CAST": "castro-valley",
-  "CIVC": "civic-center",
-  "COLM": "colma",
-  "COLS": "coliseum",
-  "CONC": "concord",
-  "DALY": "daly-city",
-  "DBRK": "downtown-berkeley",
-  "DELN": "el-cerrito-del-norte",
-  "DUBL": "dublin-pleasanton",
-  "EMBR": "embarcadero",
-  "FRMT": "fremont",
-  "FTVL": "fruitvale",
-  "GLEN": "glen-park",
-  "HAYW": "hayward",
-  "LAFY": "lafayette",
-  "LAKE": "lake-merritt",
-  "MCAR": "macarthur",
-  "MLBR": "millbrae",
-  "MLPT": "milpitas",
-  "MONT": "montgomery-street",
-  "NBRK": "north-berkeley",
-  "NCON": "north-concord-martinez",
-  "OAKL": "oakland-airport",
-  "ORIN": "orinda",
-  "PCTR": "pittsburg-center",
-  "PHIL": "pleasant-hill",
-  "PITT": "pittsburg-bay-point",
-  "PLZA": "el-cerrito-plaza",
-  "POWL": "powell-street",
-  "RICH": "richmond",
-  "ROCK": "rockridge",
-  "SANL": "san-leandro",
-  "SBRN": "san-bruno",
-  "SFIA": "sfo-airport",
-  "SHAY": "south-hayward",
-  "SSAN": "south-san-francisco",
-  "UCTY": "union-city",
-  "WARM": "warm-springs",
-  "WCRK": "walnut-creek",
-  "WDUB": "west-dublin-pleasanton",
-  "WOAK": "west-oakland",
+  ANTC: "antioch",
+  ASHB: "ashby",
+  BALB: "balboa-park",
+  BAYF: "bay-fair",
+  BERY: "berryessa",
+  CAST: "castro-valley",
+  CIVC: "civic-center",
+  COLM: "colma",
+  COLS: "coliseum",
+  CONC: "concord",
+  DALY: "daly-city",
+  DBRK: "downtown-berkeley",
+  DELN: "el-cerrito-del-norte",
+  DUBL: "dublin-pleasanton",
+  EMBR: "embarcadero",
+  FRMT: "fremont",
+  FTVL: "fruitvale",
+  GLEN: "glen-park",
+  HAYW: "hayward",
+  LAFY: "lafayette",
+  LAKE: "lake-merritt",
+  MCAR: "macarthur",
+  MLBR: "millbrae",
+  MLPT: "milpitas",
+  MONT: "montgomery-street",
+  NBRK: "north-berkeley",
+  NCON: "north-concord-martinez",
+  OAKL: "oakland-airport",
+  ORIN: "orinda",
+  PCTR: "pittsburg-center",
+  PHIL: "pleasant-hill",
+  PITT: "pittsburg-bay-point",
+  PLZA: "el-cerrito-plaza",
+  POWL: "powell-street",
+  RICH: "richmond",
+  ROCK: "rockridge",
+  SANL: "san-leandro",
+  SBRN: "san-bruno",
+  SFIA: "sfo-airport",
+  SHAY: "south-hayward",
+  SSAN: "south-san-francisco",
+  UCTY: "union-city",
+  WARM: "warm-springs",
+  WCRK: "walnut-creek",
+  WDUB: "west-dublin-pleasanton",
+  WOAK: "west-oakland",
 };
 
 // CTA Customer Alerts API (public, no auth required)
@@ -275,7 +282,10 @@ interface CtaAlertsResponse {
 // Ordered from most specific to least specific
 const CTA_STATION_PATTERNS: Array<{ pattern: RegExp; stationId: string }> = [
   // Multi-word / compound stations (most specific first)
-  { pattern: /\bHarold Washington Library\b/i, stationId: "harold-washington-library-state-van-buren" },
+  {
+    pattern: /\bHarold Washington Library\b/i,
+    stationId: "harold-washington-library-state-van-buren",
+  },
   { pattern: /\bState\/Van Buren\b/i, stationId: "harold-washington-library-state-van-buren" },
   { pattern: /\bConservatory.Central Park Drive\b/i, stationId: "conservatory-central-park-drive" },
   { pattern: /\bJefferson Park\b/i, stationId: "jefferson-park-transit-center" },
@@ -562,9 +572,9 @@ const SOUND_TRANSIT_ROUTES: Record<string, string> = {
   "100479": "1-line",
   "1LINE": "1-line",
   "2LINE": "2-line",
-  "TLINE": "t-line",
-  "NLINE": "n-line",
-  "SLINE": "s-line",
+  TLINE: "t-line",
+  NLINE: "n-line",
+  SLINE: "s-line",
 };
 
 // Sound Transit station name patterns for text matching
@@ -573,7 +583,10 @@ const SOUND_TRANSIT_STATION_PATTERNS: Array<{ pattern: RegExp; stationId: string
   { pattern: /\bwestlake\b/i, stationId: "westlake" },
   { pattern: /\bsymphony\b|\buniversity street\b/i, stationId: "symphony" },
   { pattern: /\bpioneer square\b/i, stationId: "pioneer-square" },
-  { pattern: /\binternational district|chinatown|int'l dist/i, stationId: "international-district" },
+  {
+    pattern: /\binternational district|chinatown|int'l dist/i,
+    stationId: "international-district",
+  },
   { pattern: /\bstadium\b(?!\s*district)/i, stationId: "stadium" },
   { pattern: /\bsodo\b/i, stationId: "sodo" },
   { pattern: /\bbeacon hill\b/i, stationId: "beacon-hill" },
@@ -624,7 +637,9 @@ function findStationsInTextByPattern(
 }
 
 // Shared helper to fetch and decode a GTFS-RT protobuf feed
-async function fetchGtfsRtFeed(url: string): Promise<GtfsRealtimeBindings.transit_realtime.FeedMessage | null> {
+async function fetchGtfsRtFeed(
+  url: string
+): Promise<GtfsRealtimeBindings.transit_realtime.FeedMessage | null> {
   try {
     const response = await fetch(url, { next: { revalidate: 300 } });
     if (!response.ok) return null;
@@ -642,18 +657,24 @@ function detectEquipmentOutages(
   outagesByStation: Record<string, UnitOutage[]>,
   headerText: string,
   postedAt: string,
-  expiresAt: string | null,
+  expiresAt: string | null
 ): { elevatorOutages: number; escalatorOutages: number } {
   let elevatorOutages = 0;
   let escalatorOutages = 0;
 
   const lowerFullText = fullText.toLowerCase();
-  const hasElevatorOutage = lowerFullText.includes("elevator") &&
-    (lowerFullText.includes("out of service") || lowerFullText.includes("unavailable") ||
-     lowerFullText.includes("closed") || lowerFullText.includes("outage"));
-  const hasEscalatorOutage = lowerFullText.includes("escalator") &&
-    (lowerFullText.includes("out of service") || lowerFullText.includes("unavailable") ||
-     lowerFullText.includes("closed") || lowerFullText.includes("outage"));
+  const hasElevatorOutage =
+    lowerFullText.includes("elevator") &&
+    (lowerFullText.includes("out of service") ||
+      lowerFullText.includes("unavailable") ||
+      lowerFullText.includes("closed") ||
+      lowerFullText.includes("outage"));
+  const hasEscalatorOutage =
+    lowerFullText.includes("escalator") &&
+    (lowerFullText.includes("out of service") ||
+      lowerFullText.includes("unavailable") ||
+      lowerFullText.includes("closed") ||
+      lowerFullText.includes("outage"));
 
   if ((hasElevatorOutage || hasEscalatorOutage) && affectedStations.length > 0) {
     for (const stationId of affectedStations) {
@@ -834,11 +855,20 @@ async function fetchSoundTransitIncidents(): Promise<IncidentData | null> {
     // Convert timestamps
     const startTime = alert.activePeriod?.[0]?.start;
     const endTime = alert.activePeriod?.[0]?.end;
-    const postedAt = startTime ? new Date(Number(startTime) * 1000).toISOString() : new Date().toISOString();
+    const postedAt = startTime
+      ? new Date(Number(startTime) * 1000).toISOString()
+      : new Date().toISOString();
     const expiresAt = endTime ? new Date(Number(endTime) * 1000).toISOString() : null;
 
     // Detect elevator/escalator outages from alert text
-    const equipment = detectEquipmentOutages(fullText, affectedStations, outagesByStation, headerText, postedAt, expiresAt);
+    const equipment = detectEquipmentOutages(
+      fullText,
+      affectedStations,
+      outagesByStation,
+      headerText,
+      postedAt,
+      expiresAt
+    );
     elevatorOutages += equipment.elevatorOutages;
     escalatorOutages += equipment.escalatorOutages;
 
@@ -891,9 +921,7 @@ async function fetchNycSubwayIncidents(): Promise<IncidentData | null> {
         if (!alert) continue;
 
         // Filter to subway alerts only (skip SIR / Staten Island Railway)
-        const isSubway = (alert.informedEntity || []).some(
-          (ie) => ie.agencyId === "MTASBWY"
-        );
+        const isSubway = (alert.informedEntity || []).some((ie) => ie.agencyId === "MTASBWY");
         if (!isSubway) continue;
 
         const headerText = alert.headerText?.translation?.[0]?.text || "Service Alert";
@@ -916,9 +944,7 @@ async function fetchNycSubwayIncidents(): Promise<IncidentData | null> {
         const postedAt = startTime
           ? new Date(Number(startTime) * 1000).toISOString()
           : new Date().toISOString();
-        const expiresAt = endTime
-          ? new Date(Number(endTime) * 1000).toISOString()
-          : null;
+        const expiresAt = endTime ? new Date(Number(endTime) * 1000).toISOString() : null;
 
         alerts.push({
           id: entity.id,
@@ -958,9 +984,7 @@ async function fetchNycSubwayIncidents(): Promise<IncidentData | null> {
             ...c,
             overlap: c.lines.filter((l) => outageLines.includes(l)).length,
           }));
-          const best = scored.reduce((a, b) =>
-            b.overlap > a.overlap ? b : a
-          );
+          const best = scored.reduce((a, b) => (b.overlap > a.overlap ? b : a));
           if (best.overlap > 0) matchedStation = best;
         }
 
@@ -1105,7 +1129,10 @@ const BALTIMORE_LIGHT_RAIL_STATION_PATTERNS: Array<{ pattern: RegExp; stationId:
   { pattern: /\bcultural center\b/i, stationId: "cultural-center" },
   { pattern: /\bcentre st/i, stationId: "centre-street" },
   { pattern: /\blexington market\b/i, stationId: "lexington-market" },
-  { pattern: /\bbaltimore arena|university center\b/i, stationId: "university-center-baltimore-street" },
+  {
+    pattern: /\bbaltimore arena|university center\b/i,
+    stationId: "university-center-baltimore-street",
+  },
   { pattern: /\bconvention center\b/i, stationId: "convention-center" },
   { pattern: /\bcamden\b/i, stationId: "camden-yards" },
   { pattern: /\bstadium|federal hill|hamburg\b/i, stationId: "stadium-federal-hill" },
@@ -1124,11 +1151,17 @@ const BALTIMORE_LIGHT_RAIL_STATION_PATTERNS: Array<{ pattern: RegExp; stationId:
 ];
 
 // Shared parsed feed cache for MTA Maryland (both systems use the same feed)
-let mtaMarylandFeedCache: { data: GtfsRealtimeBindings.transit_realtime.FeedMessage; fetchedAt: number } | null = null;
+let mtaMarylandFeedCache: {
+  data: GtfsRealtimeBindings.transit_realtime.FeedMessage;
+  fetchedAt: number;
+} | null = null;
 const MTA_MARYLAND_FEED_CACHE_TTL = 5 * 60 * 1000;
 
 async function fetchMtaMarylandFeed(): Promise<GtfsRealtimeBindings.transit_realtime.FeedMessage | null> {
-  if (mtaMarylandFeedCache && Date.now() - mtaMarylandFeedCache.fetchedAt < MTA_MARYLAND_FEED_CACHE_TTL) {
+  if (
+    mtaMarylandFeedCache &&
+    Date.now() - mtaMarylandFeedCache.fetchedAt < MTA_MARYLAND_FEED_CACHE_TTL
+  ) {
     return mtaMarylandFeedCache.data;
   }
 
@@ -1152,7 +1185,7 @@ async function fetchBaltimoreIncidents(
   targetRouteId: string,
   stopMapping: Record<string, string>,
   stationPatterns: Array<{ pattern: RegExp; stationId: string }>,
-  lineId: string,
+  lineId: string
 ): Promise<IncidentData | null> {
   const feed = await fetchMtaMarylandFeed();
   if (!feed) return null;
@@ -1168,9 +1201,7 @@ async function fetchBaltimoreIncidents(
 
     // Check if this alert affects our target system
     const informedEntities = alert.informedEntity || [];
-    const isRelevant = informedEntities.some(
-      (ie) => ie.routeId === targetRouteId
-    );
+    const isRelevant = informedEntities.some((ie) => ie.routeId === targetRouteId);
     if (!isRelevant) continue;
 
     const headerText = alert.headerText?.translation?.[0]?.text || "Service Alert";
@@ -1184,9 +1215,7 @@ async function fetchBaltimoreIncidents(
     const postedAt = startTime
       ? new Date(Number(startTime) * 1000).toISOString()
       : new Date().toISOString();
-    const expiresAt = endTime
-      ? new Date(Number(endTime) * 1000).toISOString()
-      : null;
+    const expiresAt = endTime ? new Date(Number(endTime) * 1000).toISOString() : null;
 
     // Find affected stations from stop_ids in informed_entity
     const affectedStations: string[] = [];
@@ -1209,7 +1238,14 @@ async function fetchBaltimoreIncidents(
     }
 
     // Detect elevator/escalator outages from alert text
-    const equipment = detectEquipmentOutages(fullText, affectedStations, outagesByStation, headerText, postedAt, expiresAt);
+    const equipment = detectEquipmentOutages(
+      fullText,
+      affectedStations,
+      outagesByStation,
+      headerText,
+      postedAt,
+      expiresAt
+    );
     elevatorOutages += equipment.elevatorOutages;
     escalatorOutages += equipment.escalatorOutages;
 
@@ -1248,7 +1284,7 @@ async function fetchBaltimoreMetroIncidents(): Promise<IncidentData | null> {
     MTA_MARYLAND_METRO_ROUTE,
     BALTIMORE_METRO_STOPS,
     BALTIMORE_METRO_STATION_PATTERNS,
-    "metro",
+    "metro"
   );
 }
 
@@ -1258,7 +1294,7 @@ async function fetchBaltimoreLightRailIncidents(): Promise<IncidentData | null> 
     MTA_MARYLAND_LIGHT_RAIL_ROUTE,
     BALTIMORE_LIGHT_RAIL_STOPS,
     BALTIMORE_LIGHT_RAIL_STATION_PATTERNS,
-    "main-line",
+    "main-line"
   );
 }
 
@@ -1284,9 +1320,7 @@ async function fetchCtaIncidents(): Promise<IncidentData | null> {
       if (railServices.length === 0) continue;
 
       // Map CTA route IDs to our line IDs
-      const affectedLines = railServices
-        .map((s) => CTA_ROUTE_TO_LINE[s.ServiceId])
-        .filter(Boolean);
+      const affectedLines = railServices.map((s) => CTA_ROUTE_TO_LINE[s.ServiceId]).filter(Boolean);
 
       // Determine alert type
       let alertType: "delay" | "emergency" | "advisory" = "advisory";
@@ -1303,10 +1337,7 @@ async function fetchCtaIncidents(): Promise<IncidentData | null> {
       const fullText = `${alert.Headline} ${alert.ShortDescription}`;
 
       // Find affected stations from alert text
-      const affectedStations = findStationsInTextByPattern(
-        fullText,
-        CTA_STATION_PATTERNS,
-      );
+      const affectedStations = findStationsInTextByPattern(fullText, CTA_STATION_PATTERNS);
 
       // Detect elevator/escalator outages
       const equipment = detectEquipmentOutages(
@@ -1315,7 +1346,7 @@ async function fetchCtaIncidents(): Promise<IncidentData | null> {
         outagesByStation,
         alert.Headline,
         alert.EventStart,
-        alert.EventEnd,
+        alert.EventEnd
       );
       elevatorOutages += equipment.elevatorOutages;
       escalatorOutages += equipment.escalatorOutages;
@@ -1326,8 +1357,7 @@ async function fetchCtaIncidents(): Promise<IncidentData | null> {
         title: alert.Headline,
         description: alert.ShortDescription,
         affectedLines: affectedLines.length > 0 ? affectedLines : undefined,
-        affectedStations:
-          affectedStations.length > 0 ? affectedStations : undefined,
+        affectedStations: affectedStations.length > 0 ? affectedStations : undefined,
         postedAt: alert.EventStart,
         expiresAt: alert.EventEnd,
       });
@@ -1356,10 +1386,9 @@ async function fetchCtaIncidents(): Promise<IncidentData | null> {
 async function fetchTokyoMetroIncidents(): Promise<IncidentData | null> {
   if (!INCIDENTS_WORKER_URL) return null;
   try {
-    const response = await fetch(
-      `${INCIDENTS_WORKER_URL}/incidents/tokyo-metro`,
-      { next: { revalidate: 300 } },
-    );
+    const response = await fetch(`${INCIDENTS_WORKER_URL}/incidents/tokyo-metro`, {
+      next: { revalidate: 300 },
+    });
     if (response.ok) {
       return (await response.json()) as IncidentData;
     }
@@ -1386,7 +1415,16 @@ async function fetchWmataIncidents(): Promise<IncidentData | null> {
 
 export async function getIncidents(systemId: string): Promise<IncidentData | null> {
   // Check supported systems
-  const supportedSystems = ["wmata", "bart", "sound-transit", "nyc-subway", "baltimore-metro", "baltimore-light-rail", "tokyo-metro", "cta"];
+  const supportedSystems = [
+    "wmata",
+    "bart",
+    "sound-transit",
+    "nyc-subway",
+    "baltimore-metro",
+    "baltimore-light-rail",
+    "tokyo-metro",
+    "cta",
+  ];
   if (!supportedSystems.includes(systemId)) return null;
 
   // Check cache first

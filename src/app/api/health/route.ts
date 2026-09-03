@@ -78,6 +78,6 @@ export async function GET() {
         systems: workerSystems,
       },
     },
-    { status: appStatus === "error" ? 503 : 200 },
+    { status: appStatus === "error" ? 503 : 200 }
   );
 }

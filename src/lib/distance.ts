@@ -6,11 +6,7 @@ const MI_TO_KM = 1.60934;
 /**
  * Convert a distance value between units
  */
-export function convertDistance(
-  value: number,
-  from: DistanceUnit,
-  to: DistanceUnit
-): number {
+export function convertDistance(value: number, from: DistanceUnit, to: DistanceUnit): number {
   if (from === to) return value;
   if (from === "km" && to === "mi") return value * KM_TO_MI;
   if (from === "mi" && to === "km") return value * MI_TO_KM;

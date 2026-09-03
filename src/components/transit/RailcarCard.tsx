@@ -21,12 +21,8 @@ export function RailcarCard({ railcar, systemId, className }: RailcarCardProps) 
     <Link href={`/${systemId}/railcars/${railcar.id}`}>
       <Card hover className={cn("h-full", className)}>
         <div className="flex items-start justify-between gap-2 mb-2">
-          <h3 className="font-mono font-semibold text-text-primary">
-            {railcar.name}
-          </h3>
-          <Badge variant={statusVariant}>
-            {railcar.status.toUpperCase()}
-          </Badge>
+          <h2 className="font-mono font-semibold text-text-primary">{railcar.name}</h2>
+          <Badge variant={statusVariant}>{railcar.status.toUpperCase()}</Badge>
         </div>
 
         <p className="text-sm text-text-muted mb-3">
@@ -34,9 +30,7 @@ export function RailcarCard({ railcar, systemId, className }: RailcarCardProps) 
           {railcar.retired && ` - ${railcar.retired}`}
         </p>
 
-        <p className="text-sm text-text-secondary mb-4 line-clamp-2">
-          {railcar.description}
-        </p>
+        <p className="text-sm text-text-secondary mb-4 line-clamp-2">{railcar.description}</p>
 
         <div className="grid grid-cols-2 gap-2 text-xs font-mono pt-3 border-t border-border">
           <div>

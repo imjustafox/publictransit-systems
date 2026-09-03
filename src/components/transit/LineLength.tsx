@@ -24,7 +24,8 @@ export function LineLength({
 
   return (
     <span className={className}>
-      {converted.toFixed(decimals)}{showUnit ? ` ${displayUnit}` : ""}
+      {converted.toFixed(decimals)}
+      {showUnit ? ` ${displayUnit}` : ""}
     </span>
   );
 }

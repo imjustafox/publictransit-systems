@@ -176,11 +176,7 @@ function getLineId(railway: string): string {
 
 function parseEntrance(entrance: ODPTEntrance): Entrance {
   const result: Entrance = {
-    id: (entrance["owl:sameAs"] || "")
-      .split(":")
-      .pop()
-      ?.replace(/\./g, "-")
-      .toLowerCase() || "",
+    id: (entrance["owl:sameAs"] || "").split(":").pop()?.replace(/\./g, "-").toLowerCase() || "",
     name: entrance["dc:title"] || "",
   };
 
@@ -245,10 +241,7 @@ function parseEscalator(escalator: ODPTEscalator): Escalator {
   return result;
 }
 
-function buildStation(
-  stationData: ODPTStation,
-  facilitiesMap: Map<string, ODPTFacility>
-): Station {
+function buildStation(stationData: ODPTStation, facilitiesMap: Map<string, ODPTFacility>): Station {
   const stationCode = stationData["odpt:stationCode"] || "";
   const railway = stationData["odpt:railway"];
   const stationName = stationData["dc:title"].replace(/ /g, "-").toLowerCase();
@@ -433,10 +426,7 @@ async function main() {
     if (args.raw) {
       const rawDir = path.join(projectRoot, "data", "raw", "odpt");
       fs.mkdirSync(rawDir, { recursive: true });
-      fs.writeFileSync(
-        path.join(rawDir, "stations.json"),
-        JSON.stringify(stationsRaw, null, 2)
-      );
+      fs.writeFileSync(path.join(rawDir, "stations.json"), JSON.stringify(stationsRaw, null, 2));
       fs.writeFileSync(
         path.join(rawDir, "facilities.json"),
         JSON.stringify(facilitiesRaw, null, 2)
@@ -462,21 +452,10 @@ async function main() {
     stations.sort((a, b) => a.name.localeCompare(b.name));
 
     // Stats
-    const totalEntrances = stations.reduce(
-      (sum, s) => sum + (s.entrances?.length || 0),
-      0
-    );
-    const totalElevators = stations.reduce(
-      (sum, s) => sum + (s.elevators?.length || 0),
-      0
-    );
-    const totalEscalators = stations.reduce(
-      (sum, s) => sum + (s.escalators?.length || 0),
-      0
-    );
-    const transferStations = stations.filter((s) =>
-      s.features.includes("transfer")
-    ).length;
+    const totalEntrances = stations.reduce((sum, s) => sum + (s.entrances?.length || 0), 0);
+    const totalElevators = stations.reduce((sum, s) => sum + (s.elevators?.length || 0), 0);
+    const totalEscalators = stations.reduce((sum, s) => sum + (s.escalators?.length || 0), 0);
+    const transferStations = stations.filter((s) => s.features.includes("transfer")).length;
 
     console.log("\nResults:");
     console.log(`  Stations: ${stations.length}`);
@@ -493,10 +472,7 @@ async function main() {
       }
     } else {
       fs.mkdirSync(path.dirname(outputPath), { recursive: true });
-      fs.writeFileSync(
-        outputPath,
-        JSON.stringify({ stations }, null, 2)
-      );
+      fs.writeFileSync(outputPath, JSON.stringify({ stations }, null, 2));
       console.log(`\nWritten to: ${outputPath}`);
     }
   } catch (error) {

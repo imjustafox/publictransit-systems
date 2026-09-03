@@ -8,10 +8,7 @@
       "colorHex": "#BF0D3E",
       "opened": "1976-03-27",
       "status": "active",
-      "termini": [
-        "Shady Grove",
-        "Glenmont"
-      ],
+      "termini": ["Shady Grove", "Glenmont"],
       "topology": {
         "type": "linear"
       },
@@ -28,10 +25,7 @@
       "colorHex": "#009CDE",
       "opened": "1977-07-01",
       "status": "active",
-      "termini": [
-        "Franconia-Springfield",
-        "Largo Town Center"
-      ],
+      "termini": ["Franconia-Springfield", "Largo Town Center"],
       "topology": {
         "type": "linear"
       },
@@ -48,10 +42,7 @@
       "colorHex": "#ED8B00",
       "opened": "1978-02-06",
       "status": "active",
-      "termini": [
-        "Vienna/Fairfax-GMU",
-        "New Carrollton"
-      ],
+      "termini": ["Vienna/Fairfax-GMU", "New Carrollton"],
       "topology": {
         "type": "linear"
       },
@@ -68,10 +59,7 @@
       "colorHex": "#00B140",
       "opened": "1991-12-28",
       "status": "active",
-      "termini": [
-        "Greenbelt",
-        "Branch Avenue"
-      ],
+      "termini": ["Greenbelt", "Branch Avenue"],
       "topology": {
         "type": "linear"
       },
@@ -88,10 +76,7 @@
       "colorHex": "#FFD200",
       "opened": "1983-04-30",
       "status": "active",
-      "termini": [
-        "Huntington",
-        "Mt Vernon Sq"
-      ],
+      "termini": ["Huntington", "Mt Vernon Sq"],
       "topology": {
         "type": "linear"
       },
@@ -108,20 +93,14 @@
       "colorHex": "#A2A4A3",
       "opened": "2014-07-26",
       "status": "active",
-      "termini": [
-        "Ashburn",
-        "New Carrollton",
-        "Largo Town Center"
-      ],
+      "termini": ["Ashburn", "New Carrollton", "Largo Town Center"],
       "topology": {
         "type": "linear",
         "branches": [
           {
             "id": "new-carrollton",
             "name": "New Carrollton Branch",
-            "termini": [
-              "New Carrollton"
-            ],
+            "termini": ["New Carrollton"],
             "branchStation": "Stadium-Armory",
             "servicePattern": "alternating",
             "description": "Every other eastbound train"
@@ -129,9 +108,7 @@
           {
             "id": "largo",
             "name": "Largo Branch",
-            "termini": [
-              "Largo Town Center"
-            ],
+            "termini": ["Largo Town Center"],
             "branchStation": "Stadium-Armory",
             "servicePattern": "alternating",
             "description": "Every other eastbound train"

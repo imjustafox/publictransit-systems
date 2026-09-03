@@ -2,7 +2,7 @@ services:
   app:
     networks:
       - webserver_proxynet
-    image: ghcr.io/wafflethief123/publictransit-systems:main
+    image: ghcr.io/imjustafox/publictransit-systems:main
     container_name: publictransit-app
     environment:
       - INCIDENTS_WORKER_URL=https://transit-incidents.capitolhostingsolutions.workers.dev

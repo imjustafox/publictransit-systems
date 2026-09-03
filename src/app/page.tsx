@@ -17,9 +17,7 @@ export default async function HomePage() {
           <TerminalOutput success>
             Found {systems.length} transit system{systems.length !== 1 ? "s" : ""} in database
           </TerminalOutput>
-          <TerminalLine prompt=">">
-            Displaying public transit information...
-          </TerminalLine>
+          <TerminalLine prompt=">">Displaying public transit information...</TerminalLine>
         </Terminal>
 
         <div className="space-y-2">
@@ -27,9 +25,8 @@ export default async function HomePage() {
             Public Transit <span className="text-accent-primary">Systems</span>
           </h1>
           <p className="text-lg text-text-secondary max-w-3xl">
-            Comprehensive information about public transit systems worldwide.
-            Explore stations, lines, railcars, and historical data through a
-            terminal-inspired interface.
+            Comprehensive information about public transit systems worldwide. Explore stations,
+            lines, railcars, and historical data through a terminal-inspired interface.
           </p>
         </div>
       </section>
@@ -70,9 +67,7 @@ export default async function HomePage() {
             <div className="text-center py-12">
               <Terminal title="error">
                 <TerminalLine prompt="!">No transit systems found</TerminalLine>
-                <TerminalOutput error>
-                  Add system data to /data/systems/
-                </TerminalOutput>
+                <TerminalOutput error>Add system data to /data/systems/</TerminalOutput>
               </Terminal>
             </div>
           </Card>
@@ -88,7 +83,10 @@ export default async function HomePage() {
               <p className="text-sm text-text-secondary">
                 Side-by-side analysis of transit systems with detailed metrics and visualizations.
               </p>
-              <Link href="/compare" className="inline-block text-sm text-accent-secondary hover:underline font-mono">
+              <Link
+                href="/compare"
+                className="inline-block text-sm text-accent-secondary hover:underline font-mono"
+              >
                 Open Compare Tool →
               </Link>
             </div>
@@ -97,7 +95,10 @@ export default async function HomePage() {
               <p className="text-sm text-text-secondary">
                 Find stations, lines, and railcars across all systems with powerful filters.
               </p>
-              <Link href="/search" className="inline-block text-sm text-accent-secondary hover:underline font-mono">
+              <Link
+                href="/search"
+                className="inline-block text-sm text-accent-secondary hover:underline font-mono"
+              >
                 Press ⌘K to Search →
               </Link>
             </div>
@@ -106,7 +107,10 @@ export default async function HomePage() {
               <p className="text-sm text-text-secondary">
                 Learn about data sources, contribute information, and explore the API.
               </p>
-              <Link href="/docs/about" className="inline-block text-sm text-accent-secondary hover:underline font-mono">
+              <Link
+                href="/docs/about"
+                className="inline-block text-sm text-accent-secondary hover:underline font-mono"
+              >
                 View Documentation →
               </Link>
             </div>

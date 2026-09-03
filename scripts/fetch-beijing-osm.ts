@@ -156,8 +156,7 @@ function findNearbyEntrances(
 
   for (const entrance of entrances) {
     const distance = Math.sqrt(
-      Math.pow(entrance.lat - station.lat, 2) +
-      Math.pow(entrance.lon - station.lon, 2)
+      Math.pow(entrance.lat - station.lat, 2) + Math.pow(entrance.lon - station.lon, 2)
     );
 
     if (distance <= maxDistance) {
@@ -187,8 +186,7 @@ function findNearbyElevators(
 
   for (const elevator of elevators) {
     const distance = Math.sqrt(
-      Math.pow(elevator.lat - station.lat, 2) +
-      Math.pow(elevator.lon - station.lon, 2)
+      Math.pow(elevator.lat - station.lat, 2) + Math.pow(elevator.lon - station.lon, 2)
     );
 
     if (distance <= maxDistance) {
@@ -253,15 +251,9 @@ function processOSMData(data: OSMResponse): {
         tags["public_transport"] === "station"
       ) {
         stationNodes.push(element);
-      } else if (
-        tags["railway"] === "subway_entrance" ||
-        tags["entrance"] === "subway"
-      ) {
+      } else if (tags["railway"] === "subway_entrance" || tags["entrance"] === "subway") {
         entranceNodes.push(element);
-      } else if (
-        tags["highway"] === "elevator" ||
-        tags["elevator"] === "yes"
-      ) {
+      } else if (tags["highway"] === "elevator" || tags["elevator"] === "yes") {
         elevatorNodes.push(element);
       }
     } else if (isRelation(element)) {
@@ -336,7 +328,10 @@ function processOSMData(data: OSMResponse): {
     }
 
     const station: Station = {
-      id: localName.toLowerCase().replace(/\s+/g, "-").replace(/[()（）]/g, ""),
+      id: localName
+        .toLowerCase()
+        .replace(/\s+/g, "-")
+        .replace(/[()（）]/g, ""),
       systemId: "beijing-subway",
       name,
       localName,
@@ -410,10 +405,7 @@ async function main() {
     if (args.raw) {
       const rawDir = path.join(projectRoot, "data", "raw", "osm");
       fs.mkdirSync(rawDir, { recursive: true });
-      fs.writeFileSync(
-        path.join(rawDir, "beijing-subway.json"),
-        JSON.stringify(data, null, 2)
-      );
+      fs.writeFileSync(path.join(rawDir, "beijing-subway.json"), JSON.stringify(data, null, 2));
       console.log(`  Saved raw data to ${rawDir}/beijing-subway.json`);
     }
 

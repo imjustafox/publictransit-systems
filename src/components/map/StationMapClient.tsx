@@ -13,7 +13,7 @@ import {
 } from "./mapStyles";
 
 // Station with coordinates required for map rendering
-type StationWithCoordinates = Omit<Station, 'coordinates'> & { coordinates: Coordinates };
+type StationWithCoordinates = Omit<Station, "coordinates"> & { coordinates: Coordinates };
 
 interface StationMapClientProps {
   station: StationWithCoordinates;
@@ -25,9 +25,7 @@ function FitBounds({ station }: { station: StationWithCoordinates }) {
   const map = useMap();
 
   useEffect(() => {
-    const bounds: [number, number][] = [
-      [station.coordinates.lat, station.coordinates.lng],
-    ];
+    const bounds: [number, number][] = [[station.coordinates.lat, station.coordinates.lng]];
 
     if (station.entrances) {
       station.entrances.forEach((entrance) => {
@@ -45,10 +43,7 @@ function FitBounds({ station }: { station: StationWithCoordinates }) {
   return null;
 }
 
-export function StationMapClient({
-  station,
-  stationLines,
-}: StationMapClientProps) {
+export function StationMapClient({ station, stationLines }: StationMapClientProps) {
   const primaryLineColor = stationLines[0]?.colorHex || "#00ff9d";
 
   return (
@@ -67,6 +62,8 @@ export function StationMapClient({
       <Marker
         position={[station.coordinates.lat, station.coordinates.lng]}
         icon={createStationIcon(primaryLineColor)}
+        title={station.name}
+        alt={`${station.name} station marker`}
       >
         <Popup>
           <div className="font-mono text-sm">
@@ -82,13 +79,13 @@ export function StationMapClient({
           key={entrance.id}
           position={[entrance.coordinates.lat, entrance.coordinates.lng]}
           icon={createEntranceIcon(entrance.accessibility)}
+          title={entrance.name}
+          alt={`${entrance.name} entrance marker`}
         >
           <Popup>
             <div className="font-mono text-sm">
               <p className="font-bold">{entrance.name}</p>
-              {entrance.street && (
-                <p className="text-neutral-400">{entrance.street}</p>
-              )}
+              {entrance.street && <p className="text-neutral-400">{entrance.street}</p>}
               {entrance.accessibility && entrance.accessibility.length > 0 && (
                 <div className="mt-1 flex flex-wrap gap-1">
                   {entrance.accessibility.map((access) => (

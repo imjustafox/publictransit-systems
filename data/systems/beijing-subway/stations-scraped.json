@@ -19,12 +19,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.293357,
         "lat": 39.974414
@@ -50,12 +45,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.156032,
         "lat": 39.93349
@@ -81,12 +71,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.274193,
         "lat": 39.942414
@@ -112,12 +97,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.355426,
         "lat": 39.940474
@@ -143,12 +123,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.684732,
         "lat": 40.132573
@@ -160,16 +135,9 @@
       "systemId": "beijing-subway",
       "name": "18���� | ���������ٷ���վ",
       "localName": "18���� | ���������ٷ���վ",
-      "lines": [
-        "line-1"
-      ],
+      "lines": ["line-1"],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.27252,
         "lat": 40.032637
@@ -195,12 +163,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.190337,
         "lat": 39.90745
@@ -226,12 +189,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.355426,
         "lat": 39.940474
@@ -257,12 +215,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.434133,
         "lat": 39.933801
@@ -288,12 +241,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.428368,
         "lat": 39.845849
@@ -319,12 +267,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.162586,
         "lat": 39.923298
@@ -350,12 +293,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.321262,
         "lat": 39.894763
@@ -381,12 +319,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.313698,
         "lat": 40.104297
@@ -412,12 +345,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.301889,
         "lat": 39.814322
@@ -443,12 +371,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.178401,
         "lat": 39.925789
@@ -474,12 +397,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.416884,
         "lat": 39.940782
@@ -505,12 +423,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.531421,
         "lat": 39.909448
@@ -536,12 +449,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.323108,
         "lat": 39.855462
@@ -567,12 +475,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.195369,
         "lat": 40.244629
@@ -598,12 +501,7 @@
         "line-9"
       ],
       "status": "active",
-      "features": [
-        "aed",
-        "elevator",
-        "fare-vending",
-        "transfer"
-      ],
+      "features": ["aed", "elevator", "fare-vending", "transfer"],
       "coordinates": {
         "lng": 116.428368,
         "lat": 39.845849

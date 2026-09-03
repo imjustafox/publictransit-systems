@@ -29,22 +29,42 @@ const sizeClasses = {
   lg: "min-w-10 h-10 px-2 text-base",
 };
 
-// Helper to determine if text should be light or dark based on background
+// Choose black or white text based on WCAG contrast against the line color.
 function getContrastColor(hexColor: string): string {
   const rgb = hexToRgb(hexColor);
   if (!rgb) return "#ffffff";
 
-  const brightness = (rgb.r * 299 + rgb.g * 587 + rgb.b * 114) / 1000;
-  return brightness > 155 ? "#000000" : "#ffffff";
+  const backgroundLuminance = getRelativeLuminance(rgb);
+  const contrastWithBlack = getContrastRatio(backgroundLuminance, 0);
+  const contrastWithWhite = getContrastRatio(backgroundLuminance, 1);
+
+  return contrastWithBlack >= contrastWithWhite ? "#000000" : "#ffffff";
+}
+
+function getContrastRatio(luminanceA: number, luminanceB: number): number {
+  const lighter = Math.max(luminanceA, luminanceB);
+  const darker = Math.min(luminanceA, luminanceB);
+  return (lighter + 0.05) / (darker + 0.05);
+}
+
+function getRelativeLuminance({ r, g, b }: { r: number; g: number; b: number }): number {
+  const [red, green, blue] = [r, g, b].map((channel) => {
+    const value = channel / 255;
+    return value <= 0.03928 ? value / 12.92 : ((value + 0.055) / 1.055) ** 2.4;
+  });
+
+  return 0.2126 * red + 0.7152 * green + 0.0722 * blue;
 }
 
 function hexToRgb(hex: string): { r: number; g: number; b: number } | null {
   const result = /^#?([a-f\d]{2})([a-f\d]{2})([a-f\d]{2})$/i.exec(hex);
-  return result ? {
-    r: parseInt(result[1], 16),
-    g: parseInt(result[2], 16),
-    b: parseInt(result[3], 16)
-  } : null;
+  return result
+    ? {
+        r: parseInt(result[1], 16),
+        g: parseInt(result[2], 16),
+        b: parseInt(result[3], 16),
+      }
+    : null;
 }
 
 export function LineIndicator({
@@ -59,9 +79,12 @@ export function LineIndicator({
 }: LineIndicatorProps) {
   const isLineObject = typeof line === "object";
   const lineId = isLineObject ? line.id : line;
-  const lineName = isLineObject ? line.name : `${line.charAt(0).toUpperCase()}${line.slice(1)} Line`;
+  const lineName = isLineObject
+    ? line.name
+    : `${line.charAt(0).toUpperCase()}${line.slice(1)} Line`;
   const colorHex = isLineObject ? line.colorHex : lineColors[line] || "#666";
-  const shortName = isLineObject && line.abbreviation ? line.abbreviation : lineId.charAt(0).toUpperCase();
+  const shortName =
+    isLineObject && line.abbreviation ? line.abbreviation : lineId.charAt(0).toUpperCase();
 
   const badge = (
     <div
@@ -85,9 +108,7 @@ export function LineIndicator({
   const content = (
     <div className={cn("flex items-center gap-2", className)}>
       {badge}
-      {showName && (
-        <span className="text-sm font-mono text-text-primary">{lineName}</span>
-      )}
+      {showName && <span className="text-sm font-mono text-text-primary">{lineName}</span>}
     </div>
   );
 

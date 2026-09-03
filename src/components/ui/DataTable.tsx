@@ -54,11 +54,7 @@ export function DataTable<T extends Record<string, unknown>>({
   });
 
   if (data.length === 0) {
-    return (
-      <div className="text-center py-8 text-text-muted font-mono">
-        {emptyMessage}
-      </div>
-    );
+    return <div className="text-center py-8 text-text-muted font-mono">{emptyMessage}</div>;
   }
 
   return (
@@ -99,13 +95,8 @@ export function DataTable<T extends Record<string, unknown>>({
               onClick={() => onRowClick?.(item)}
             >
               {columns.map((column) => (
-                <td
-                  key={String(column.key)}
-                  className={cn("py-3 px-4", column.className)}
-                >
-                  {column.render
-                    ? column.render(item)
-                    : (item[column.key as keyof T] as ReactNode)}
+                <td key={String(column.key)} className={cn("py-3 px-4", column.className)}>
+                  {column.render ? column.render(item) : (item[column.key as keyof T] as ReactNode)}
                 </td>
               ))}
             </tr>

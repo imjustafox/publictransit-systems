@@ -4,23 +4,15 @@
       "id": "westlake",
       "systemId": "sound-transit",
       "name": "Westlake",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
+      "lines": ["1-line", "2-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
         "lat": 47.611572,
         "lng": -122.33672
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "4th Ave & Pine St, Seattle, WA 98101",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
       "description": "Westlake station is the central hub of Link light rail, located beneath Westlake Center in downtown Seattle. It provides connections to the Seattle Center Monorail and numerous bus routes.",
       "entrances": [
         {
@@ -30,9 +22,7 @@
             "lat": 47.6110112,
             "lng": -122.338384
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "westlake-2",
@@ -41,9 +31,7 @@
             "lat": 47.6108386,
             "lng": -122.338154
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "westlake-3",
@@ -52,9 +40,7 @@
             "lat": 47.6120598,
             "lng": -122.335908
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "westlake-4",
@@ -63,9 +49,7 @@
             "lat": 47.6119208,
             "lng": -122.3365408
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "westlake-5",
@@ -74,9 +58,7 @@
             "lat": 47.611882,
             "lng": -122.336838
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "westlake-6",
@@ -85,9 +67,7 @@
             "lat": 47.6117078,
             "lng": -122.337118
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "westlake-7",
@@ -96,9 +76,7 @@
             "lat": 47.611788,
             "lng": -122.336509
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "westlake-8",
@@ -107,9 +85,7 @@
             "lat": 47.610965,
             "lng": -122.337862
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -117,22 +93,15 @@
       "id": "symphony",
       "systemId": "sound-transit",
       "name": "Symphony",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
+      "lines": ["1-line", "2-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
         "lat": 47.60781,
         "lng": -122.33602
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
-      "opened": "2009-07-18",
       "address": "3rd Ave & Seneca St, Seattle, WA 98101",
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Symphony station (formerly University Street) serves the downtown Seattle financial district, providing access to Benaroya Hall, numerous office buildings, and the Seattle Art Museum.",
       "entrances": [
         {
@@ -142,9 +111,7 @@
             "lat": 47.6079287,
             "lng": -122.335861
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "symphony-2",
@@ -153,9 +120,7 @@
             "lat": 47.6071105,
             "lng": -122.335586
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "symphony-3",
@@ -164,9 +129,7 @@
             "lat": 47.6076285,
             "lng": -122.336907
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "symphony-4",
@@ -175,9 +138,7 @@
             "lat": 47.6078453,
             "lng": -122.336306
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -185,22 +146,15 @@
       "id": "pioneer-square",
       "systemId": "sound-transit",
       "name": "Pioneer Square",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
+      "lines": ["1-line", "2-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
         "lat": 47.60256,
         "lng": -122.331216
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
-      "opened": "2009-07-18",
       "address": "3rd Ave & James St, Seattle, WA 98104",
+      "features": ["elevator", "escalator", "fare-vending"],
       "description": "Pioneer Square station serves Seattle's historic Pioneer Square neighborhood, home to the original Seattle settlement and numerous art galleries.",
       "entrances": [
         {
@@ -210,9 +164,7 @@
             "lat": 47.6019941,
             "lng": -122.330893
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "pioneer-square-2",
@@ -221,9 +173,7 @@
             "lat": 47.6026486,
             "lng": -122.3319377
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "pioneer-square-3",
@@ -232,9 +182,7 @@
             "lat": 47.6033225,
             "lng": -122.3317086
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "pioneer-square-4",
@@ -243,9 +191,7 @@
             "lat": 47.6018749,
             "lng": -122.3311847
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "pioneer-square-5",
@@ -254,9 +200,7 @@
             "lat": 47.6030025,
             "lng": -122.3314431
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "pioneer-square-6",
@@ -265,9 +209,7 @@
             "lat": 47.6030664,
             "lng": -122.3314724
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -275,23 +217,15 @@
       "id": "international-district",
       "systemId": "sound-transit",
       "name": "International District/Chinatown",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
+      "lines": ["1-line", "2-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
         "lat": 47.598355,
         "lng": -122.327992
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "amtrak-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "5th Ave & S Jackson St, Seattle, WA 98104",
+      "features": ["elevator", "escalator", "fare-vending", "amtrak-connection"],
       "description": "This station serves Seattle's International District and provides connections to Amtrak and Sounder commuter rail at King Street Station.",
       "entrances": [
         {
@@ -301,9 +235,7 @@
             "lat": 47.5990012,
             "lng": -122.3279334
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "international-district-2",
@@ -312,9 +244,7 @@
             "lat": 47.5990014,
             "lng": -122.3281443
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "international-district-3",
@@ -323,9 +253,7 @@
             "lat": 47.5981785,
             "lng": -122.3278862
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "international-district-4",
@@ -334,9 +262,7 @@
             "lat": 47.5981755,
             "lng": -122.3281323
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "international-district-5",
@@ -345,9 +271,7 @@
             "lat": 47.5984155,
             "lng": -122.3301186
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "international-district-6",
@@ -356,9 +280,7 @@
             "lat": 47.5993099,
             "lng": -122.3294338
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "international-district-7",
@@ -367,9 +289,7 @@
             "lat": 47.597636,
             "lng": -122.3294626
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "international-district-8",
@@ -378,9 +298,7 @@
             "lat": 47.5986787,
             "lng": -122.3298268
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "international-district-9",
@@ -389,9 +307,7 @@
             "lat": 47.5975817,
             "lng": -122.3294165
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "international-district-10",
@@ -400,9 +316,7 @@
             "lat": 47.5983845,
             "lng": -122.3301374
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -410,20 +324,15 @@
       "id": "stadium",
       "systemId": "sound-transit",
       "name": "Stadium",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
         "lat": 47.591108,
         "lng": -122.327172
       },
-      "features": [
-        "elevator",
-        "fare-vending"
-      ],
-      "opened": "2009-07-18",
       "address": "501 S Royal Brougham Way, Seattle, WA 98134",
+      "features": ["elevator", "fare-vending"],
       "description": "Stadium station serves Lumen Field (Seahawks/Sounders) and T-Mobile Park (Mariners), making it a major destination for sporting events in Seattle.",
       "entrances": [
         {
@@ -433,9 +342,7 @@
             "lat": 47.5917045,
             "lng": -122.327188
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -443,21 +350,15 @@
       "id": "sodo",
       "systemId": "sound-transit",
       "name": "SODO",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
         "lat": 47.581074,
         "lng": -122.32739
       },
-      "features": [
-        "elevator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "500 S Lander St, Seattle, WA 98134",
+      "features": ["elevator", "fare-vending", "bus-connection"],
       "description": "SODO station serves Seattle's industrial SODO district, providing access to Starbucks headquarters and the busway with bus connections.",
       "entrances": [
         {
@@ -467,9 +368,7 @@
             "lat": 47.5806183,
             "lng": -122.3274654
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "sodo-2",
@@ -478,9 +377,7 @@
             "lat": 47.580619,
             "lng": -122.327348
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "sodo-3",
@@ -489,9 +386,7 @@
             "lat": 47.5800139,
             "lng": -122.3274656
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "sodo-4",
@@ -500,9 +395,7 @@
             "lat": 47.5800137,
             "lng": -122.3273469
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -510,20 +403,15 @@
       "id": "beacon-hill",
       "systemId": "sound-transit",
       "name": "Beacon Hill",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
-        "lat": 47.579328,
-        "lng": -122.311533
+        "lat": 47.579271,
+        "lng": -122.311783
       },
-      "features": [
-        "elevator",
-        "fare-vending"
-      ],
-      "opened": "2009-07-18",
       "address": "1515 S Forest St, Seattle, WA 98144",
+      "features": ["elevator", "fare-vending"],
       "description": "Beacon Hill station is located 160 feet underground in a deep-bore tunnel beneath Beacon Hill, making it one of the deepest stations in North America.",
       "entrances": [
         {
@@ -533,9 +421,7 @@
             "lat": 47.5792531,
             "lng": -122.3118619
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -543,21 +429,15 @@
       "id": "mount-baker",
       "systemId": "sound-transit",
       "name": "Mount Baker",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
-        "lat": 47.57655,
-        "lng": -122.297679
+        "lat": 47.576434,
+        "lng": -122.297677
       },
-      "features": [
-        "elevator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "2914 Rainier Ave S, Seattle, WA 98144",
+      "features": ["elevator", "fare-vending", "bus-connection"],
       "description": "Mount Baker station serves the Mount Baker neighborhood and provides major bus connections at the Mount Baker Transit Center.",
       "entrances": [
         {
@@ -567,9 +447,7 @@
             "lat": 47.576716,
             "lng": -122.297689
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "mount-baker-2",
@@ -578,9 +456,7 @@
             "lat": 47.57705,
             "lng": -122.298069
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "mount-baker-3",
@@ -589,9 +465,7 @@
             "lat": 47.576085,
             "lng": -122.297331
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "mount-baker-4",
@@ -600,9 +474,7 @@
             "lat": 47.576541,
             "lng": -122.297849
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -610,20 +482,15 @@
       "id": "columbia-city",
       "systemId": "sound-transit",
       "name": "Columbia City",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
-        "lat": 47.559733,
-        "lng": -122.292692
+        "lat": 47.559801,
+        "lng": -122.292826
       },
-      "features": [
-        "elevator",
-        "fare-vending"
-      ],
-      "opened": "2009-07-18",
       "address": "S Edmunds St & 37th Ave S, Seattle, WA 98118",
+      "features": ["elevator", "fare-vending"],
       "description": "Columbia City station serves the historic Columbia City neighborhood, known for its diverse dining, shops, and Rainier Valley Cultural Center.",
       "entrances": [
         {
@@ -633,9 +500,7 @@
             "lat": 47.5606761,
             "lng": -122.2933795
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "columbia-city-2",
@@ -644,9 +509,7 @@
             "lat": 47.5606688,
             "lng": -122.2932172
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "columbia-city-3",
@@ -655,9 +518,7 @@
             "lat": 47.5588085,
             "lng": -122.2922022
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "columbia-city-4",
@@ -666,9 +527,7 @@
             "lat": 47.5588122,
             "lng": -122.2920413
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -676,21 +535,15 @@
       "id": "othello",
       "systemId": "sound-transit",
       "name": "Othello",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
-        "lat": 47.537987,
-        "lng": -122.281563
+        "lat": 47.538014,
+        "lng": -122.281505
       },
-      "features": [
-        "elevator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "Martin Luther King Jr Way S & S Othello St, Seattle, WA 98118",
+      "features": ["elevator", "fare-vending", "bus-connection"],
       "description": "Othello station serves the Othello neighborhood in the Rainier Valley, near New Holly mixed-income housing community.",
       "entrances": [
         {
@@ -700,9 +553,7 @@
             "lat": 47.5387459,
             "lng": -122.2820518
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "othello-2",
@@ -711,9 +562,7 @@
             "lat": 47.5387503,
             "lng": -122.2818961
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "othello-3",
@@ -722,9 +571,7 @@
             "lat": 47.5372615,
             "lng": -122.2812821
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "othello-4",
@@ -733,9 +580,7 @@
             "lat": 47.5372549,
             "lng": -122.2811226
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -743,21 +588,15 @@
       "id": "rainier-beach",
       "systemId": "sound-transit",
       "name": "Rainier Beach",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
-        "lat": 47.522394,
-        "lng": -122.279391
+        "lat": 47.52317,
+        "lng": -122.279291
       },
-      "features": [
-        "elevator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "8798 Rainier Ave S, Seattle, WA 98118",
+      "features": ["elevator", "fare-vending", "bus-connection"],
       "description": "Rainier Beach station serves the Rainier Beach neighborhood, the southernmost Seattle neighborhood on the Link line.",
       "entrances": [
         {
@@ -767,9 +606,7 @@
             "lat": 47.5230912,
             "lng": -122.2792203
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -777,22 +614,15 @@
       "id": "tukwila-international-boulevard",
       "systemId": "sound-transit",
       "name": "Tukwila International Boulevard",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-07-18",
       "status": "active",
       "coordinates": {
-        "lat": 47.464031,
-        "lng": -122.287996
+        "lat": 47.464126,
+        "lng": -122.288246
       },
-      "features": [
-        "elevator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2009-07-18",
       "address": "15100 International Blvd, Tukwila, WA 98168",
+      "features": ["elevator", "fare-vending", "parking", "bus-connection"],
       "description": "Tukwila International Boulevard station serves the city of Tukwila with a 600-stall park-and-ride and connections to King County Metro.",
       "entrances": [
         {
@@ -802,9 +632,7 @@
             "lat": 47.4641777,
             "lng": -122.2878636
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -812,22 +640,15 @@
       "id": "sea-tac-airport",
       "systemId": "sound-transit",
       "name": "SeaTac/Airport",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2009-12-19",
       "status": "active",
       "coordinates": {
-        "lat": 47.445381,
-        "lng": -122.296898
+        "lat": 47.445465,
+        "lng": -122.296942
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "airport-connection"
-      ],
-      "opened": "2009-12-19",
       "address": "3040 S 176th St, SeaTac, WA 98188",
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
       "description": "This station provides direct access to Seattle-Tacoma International Airport, the largest airport in the Pacific Northwest.",
       "entrances": [
         {
@@ -837,9 +658,7 @@
             "lat": 47.445316,
             "lng": -122.297197
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "sea-tac-airport-2",
@@ -848,1177 +667,7 @@
             "lat": 47.445714,
             "lng": -122.296827
           },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "judkins-park",
-      "systemId": "sound-transit",
-      "name": "Judkins Park",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.590299,
-        "lng": -122.304508
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2026-03-28",
-      "address": "1485 Rainier Ave S, Seattle, WA 98144",
-      "description": "Judkins Park station serves the Judkins Park and Atlantic neighborhoods, providing the 2 Line's entrance to the I-90 tunnel crossing Lake Washington.",
-      "entrances": [
-        {
-          "id": "judkins-park-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.590321,
-            "lng": -122.302462
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "judkins-park-2",
-          "name": "Entrance B1",
-          "coordinates": {
-            "lat": 47.590392,
-            "lng": -122.307104
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "judkins-park-3",
-          "name": "Entrance B2",
-          "coordinates": {
-            "lat": 47.590428,
-            "lng": -122.307604
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mercer-island",
-      "systemId": "sound-transit",
-      "name": "Mercer Island",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.588198,
-        "lng": -122.233232
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2026-03-28",
-      "address": "2555 80th Ave SE, Mercer Island, WA 98040",
-      "description": "Mercer Island station is located in the center of I-90, serving the affluent island community with a park-and-ride and transit center.",
-      "entrances": [
-        {
-          "id": "mercer-island-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.588566,
-            "lng": -122.234429
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "mercer-island-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.587768,
-            "lng": -122.232097
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "south-bellevue",
-      "systemId": "sound-transit",
-      "name": "South Bellevue",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.586556,
-        "lng": -122.190396
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2024-03-30",
-      "address": "2654 Bellevue Way SE, Bellevue, WA 98004",
-      "description": "South Bellevue station features a 1,500-stall parking garage and serves as a major park-and-ride location for Eastside commuters.",
-      "entrances": [
-        {
-          "id": "south-bellevue-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.586996,
-            "lng": -122.190532
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "south-bellevue-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.585996,
-            "lng": -122.189886
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "east-main",
-      "systemId": "sound-transit",
-      "name": "East Main",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.608188,
-        "lng": -122.191147
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
-      "opened": "2024-03-30",
-      "address": "229 112th Ave SE, Bellevue, WA 98004",
-      "description": "East Main station serves the southeast edge of downtown Bellevue, near the Bellevue Club and Surrey Downs neighborhood.",
-      "entrances": [
-        {
-          "id": "east-main-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.608673,
-            "lng": -122.191096
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "east-main-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.607464,
-            "lng": -122.19102
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bellevue-downtown",
-      "systemId": "sound-transit",
-      "name": "Bellevue Downtown",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.615223,
-        "lng": -122.192084
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2024-03-30",
-      "address": "594 110th Ave NE, Bellevue, WA 98004",
-      "description": "Bellevue Downtown station serves the city center of Bellevue, the fifth largest city in Washington state and a major tech employment hub.",
-      "entrances": [
-        {
-          "id": "bellevue-downtown-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.615227,
-            "lng": -122.191039
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "bellevue-downtown-2",
-          "name": "Entrance B1",
-          "coordinates": {
-            "lat": 47.615303,
-            "lng": -122.192746
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "bellevue-downtown-3",
-          "name": "Entrance B2 Elevators",
-          "coordinates": {
-            "lat": 47.615414,
-            "lng": -122.192906
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "bellevue-downtown-4",
-          "name": "Entrance B2 Elevators",
-          "coordinates": {
-            "lat": 47.615183,
-            "lng": -122.1929
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "wilburton",
-      "systemId": "sound-transit",
-      "name": "Wilburton",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.617967,
-        "lng": -122.183762
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2024-03-30",
-      "address": "855 118th Ave NE, Bellevue, WA 98005",
-      "description": "Wilburton station serves the Wilburton area including the Bellevue Botanical Garden and Spring District development.",
-      "entrances": [
-        {
-          "id": "wilburton-1",
-          "name": "A",
-          "coordinates": {
-            "lat": 47.6177655,
-            "lng": -122.1837605
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "wilburton-2",
-          "name": "B",
-          "coordinates": {
-            "lat": 47.6175556,
-            "lng": -122.1837819
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "spring-district-120th",
-      "systemId": "sound-transit",
-      "name": "Spring District/120th",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.623773,
-        "lng": -122.178573
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2024-03-30",
-      "address": "12164 NE Spring Blvd, Bellevue, WA 98005",
-      "description": "Spring District/120th station serves the rapidly developing Spring District, home to Facebook/Meta's Bellevue campus and REI headquarters.",
-      "entrances": [
-        {
-          "id": "spring-district-120th-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.6242,
-            "lng": -122.1783
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "spring-district-120th-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.6234,
-            "lng": -122.1788
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bel-red-130th",
-      "systemId": "sound-transit",
-      "name": "Bel-Red/130th",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.624448,
-        "lng": -122.16564
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
-      "opened": "2024-03-30",
-      "address": "1500 130th Ave NE, Bellevue, WA 98005",
-      "description": "Bel-Red/130th station serves the Bel-Red corridor, an area transitioning from light industrial to mixed-use development.",
-      "entrances": [
-        {
-          "id": "bel-red-130th-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.6248,
-            "lng": -122.1653
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "bel-red-130th-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.6241,
-            "lng": -122.166
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "overlake-village",
-      "systemId": "sound-transit",
-      "name": "Overlake Village",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.63631,
-        "lng": -122.13892
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2024-03-30",
-      "address": "2989 152nd Ave NE, Redmond, WA 98052",
-      "description": "Overlake Village station serves the Overlake area and provides access to the Microsoft Connector shuttle system.",
-      "entrances": [
-        {
-          "id": "overlake-village-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.636713,
-            "lng": -122.138212
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "overlake-village-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.635823,
-            "lng": -122.139506
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "redmond-technology",
-      "systemId": "sound-transit",
-      "name": "Redmond Technology",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.644842,
-        "lng": -122.133628
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2024-03-30",
-      "address": "3925 152nd Ave NE, Redmond, WA 98052",
-      "description": "This station serves the Microsoft main campus and the broader Redmond tech corridor, home to numerous technology companies.",
-      "entrances": [
-        {
-          "id": "redmond-technology-1",
-          "name": "Entrance C",
-          "coordinates": {
-            "lat": 47.6440601,
-            "lng": -122.1333144
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "redmond-technology-2",
-          "name": "Entrance B2",
-          "coordinates": {
-            "lat": 47.6440078,
-            "lng": -122.1334741
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "redmond-technology-3",
-          "name": "Entrance B1",
-          "coordinates": {
-            "lat": 47.6441737,
-            "lng": -122.1335036
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "redmond-technology-4",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.6455249,
-            "lng": -122.1336644
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "marymoor-village",
-      "systemId": "sound-transit",
-      "name": "Marymoor Village",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.667263,
-        "lng": -122.1098
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2025-05-10",
-      "address": "17300 NE 70th St, Redmond, WA 98052",
-      "description": "Marymoor Village station serves the Marymoor neighborhood adjacent to Marymoor Park, one of King County's largest parks, with a 200-stall park-and-ride.",
-      "entrances": [
-        {
-          "id": "marymoor-village-1",
-          "name": "Marymoor Village Entrance",
-          "coordinates": {
-            "lat": 47.667444,
-            "lng": -122.108446
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "downtown-redmond",
-      "systemId": "sound-transit",
-      "name": "Downtown Redmond",
-      "lines": [
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.671645,
-        "lng": -122.11848
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2025-05-10",
-      "address": "16620 NE 76th St, Redmond, WA 98052",
-      "description": "Downtown Redmond is the eastern terminus of the 2 Line, serving Redmond's city center with a transit center and 1,400-stall park-and-ride garage.",
-      "entrances": [
-        {
-          "id": "downtown-redmond-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.671924,
-            "lng": -122.119619
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "downtown-redmond-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.671558,
-            "lng": -122.11808
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "capitol-hill",
-      "systemId": "sound-transit",
-      "name": "Capitol Hill",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.61906,
-        "lng": -122.320195
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending"
-      ],
-      "opened": "2016-03-19",
-      "address": "140 Broadway E, Seattle, WA 98102",
-      "description": "Capitol Hill station serves one of Seattle's most vibrant neighborhoods, known for its nightlife, restaurants, and diverse community.",
-      "entrances": [
-        {
-          "id": "capitol-hill-1",
-          "name": "East Denny Way & Broadway",
-          "coordinates": {
-            "lat": 47.6183926,
-            "lng": -122.321036
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "capitol-hill-2",
-          "name": "East Denny Way & Nagle Place",
-          "coordinates": {
-            "lat": 47.6186592,
-            "lng": -122.320289
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "capitol-hill-3",
-          "name": "Broadway East & East John Street",
-          "coordinates": {
-            "lat": 47.6197798,
-            "lng": -122.320598
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "university-of-washington",
-      "systemId": "sound-transit",
-      "name": "University of Washington",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.649815,
-        "lng": -122.303763
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2016-03-19",
-      "address": "3720 Montlake Blvd NE, Seattle, WA 98195",
-      "description": "This station serves the University of Washington campus, one of the largest universities on the West Coast with over 50,000 students.",
-      "entrances": [
-        {
-          "id": "university-of-washington-1",
-          "name": "University of Washington",
-          "coordinates": {
-            "lat": 47.6500586,
-            "lng": -122.3038674
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "university-of-washington-2",
-          "name": "University of Washington",
-          "coordinates": {
-            "lat": 47.6495518,
-            "lng": -122.303937
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "university-of-washington-3",
-          "name": "University of Washington",
-          "coordinates": {
-            "lat": 47.6499607,
-            "lng": -122.3039092
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "university-of-washington-4",
-          "name": "University of Washington",
-          "coordinates": {
-            "lat": 47.6498518,
-            "lng": -122.3037485
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "u-district",
-      "systemId": "sound-transit",
-      "name": "U District",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.660301,
-        "lng": -122.314132
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2021-10-02",
-      "address": "4300 Brooklyn Ave NE, Seattle, WA 98105",
-      "description": "U District station serves the University District neighborhood, located near the heart of the Ave (University Way NE) with its shops, restaurants, and proximity to the University of Washington.",
-      "entrances": [
-        {
-          "id": "u-district-1",
-          "name": "Brooklyn Avenue & 45th Street",
-          "coordinates": {
-            "lat": 47.6607975,
-            "lng": -122.3141867
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "u-district-2",
-          "name": "43rd Street & Brooklyn Avenue",
-          "coordinates": {
-            "lat": 47.6599983,
-            "lng": -122.3142078
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "u-district-3",
-          "name": "43rd Street & Brooklyn Avenue",
-          "coordinates": {
-            "lat": 47.659899,
-            "lng": -122.3140525
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "roosevelt",
-      "systemId": "sound-transit",
-      "name": "Roosevelt",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.676595,
-        "lng": -122.315976
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2021-10-02",
-      "address": "6501 12th Ave NE, Seattle, WA 98115",
-      "description": "Roosevelt station serves the Roosevelt neighborhood in northeast Seattle, providing access to Green Lake and the surrounding residential areas.",
-      "entrances": [
-        {
-          "id": "roosevelt-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.6772075,
-            "lng": -122.3158893
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "roosevelt-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.6759705,
-            "lng": -122.3158668
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "northgate",
-      "systemId": "sound-transit",
-      "name": "Northgate",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.703028,
-        "lng": -122.32829
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2021-10-02",
-      "address": "10200 1st Ave NE, Seattle, WA 98125",
-      "description": "Northgate station is a major transit hub serving the Northgate neighborhood, with extensive park-and-ride facilities and bus connections.",
-      "entrances": [
-        {
-          "id": "northgate-1",
-          "name": "Entrance C",
-          "coordinates": {
-            "lat": 47.7025446,
-            "lng": -122.3283563
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "northgate-2",
-          "name": "Entrance B2",
-          "coordinates": {
-            "lat": 47.702245,
-            "lng": -122.3281406
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "northgate-3",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.7033726,
-            "lng": -122.32821
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "northgate-4",
-          "name": "Entrance B1",
-          "coordinates": {
-            "lat": 47.7027919,
-            "lng": -122.3281969
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "northgate-5",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 47.702581,
-            "lng": -122.3283025
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "shoreline-south-148th",
-      "systemId": "sound-transit",
-      "name": "Shoreline South/148th",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.736095,
-        "lng": -122.325227
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2024-08-30",
-      "address": "14711 5th Ave NE, Shoreline, WA 98155",
-      "description": "Shoreline South/148th station serves the southern portion of Shoreline with a park-and-ride facility and bus connections.",
-      "entrances": [
-        {
-          "id": "shoreline-south-148th-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.736453,
-            "lng": -122.32547
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "shoreline-south-148th-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.735736,
-            "lng": -122.325016
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "shoreline-north-185th",
-      "systemId": "sound-transit",
-      "name": "Shoreline North/185th",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.764067,
-        "lng": -122.322889
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2024-08-30",
-      "address": "710 NE 185th St, Shoreline, WA 98155",
-      "description": "Shoreline North/185th station serves northern Shoreline with a 500-stall park-and-ride garage and extensive bus connections.",
-      "entrances": [
-        {
-          "id": "shoreline-north-185th-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.764844,
-            "lng": -122.322616
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "shoreline-north-185th-2",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.764843,
-            "lng": -122.322847
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "shoreline-north-185th-3",
-          "name": "Entrance A1",
-          "coordinates": {
-            "lat": 47.764796,
-            "lng": -122.322669
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "shoreline-north-185th-4",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.763482,
-            "lng": -122.322953
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "shoreline-north-185th-5",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.763499,
-            "lng": -122.323118
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "shoreline-north-185th-6",
-          "name": "Entrance B1",
-          "coordinates": {
-            "lat": 47.763605,
-            "lng": -122.322914
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "mountlake-terrace",
-      "systemId": "sound-transit",
-      "name": "Mountlake Terrace",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.785057,
-        "lng": -122.314788
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2024-08-30",
-      "address": "6001 236th St SW, Mountlake Terrace, WA 98043",
-      "description": "Mountlake Terrace station serves the city of Mountlake Terrace with a major transit center and 1,200-stall park-and-ride garage.",
-      "entrances": [
-        {
-          "id": "mountlake-terrace-1",
-          "name": "Entrance A",
-          "coordinates": {
-            "lat": 47.785316,
-            "lng": -122.3148
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        },
-        {
-          "id": "mountlake-terrace-2",
-          "name": "Entrance B",
-          "coordinates": {
-            "lat": 47.784626,
-            "lng": -122.314791
-          },
-          "accessibility": [
-            "elevator"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "lynnwood-city-center",
-      "systemId": "sound-transit",
-      "name": "Lynnwood City Center",
-      "lines": [
-        "1-line",
-        "2-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.815637,
-        "lng": -122.294779
-      },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2024-08-30",
-      "address": "20201 46th Ave W, Lynnwood, WA 98036",
-      "description": "Lynnwood City Center is the northern terminus of both the 1 Line and 2 Line, featuring a major transit center with 1,900-stall park-and-ride and connections to Community Transit and Sound Transit Express buses.",
-      "entrances": [
-        {
-          "id": "lynnwood-city-center-1",
-          "name": "B",
-          "coordinates": {
-            "lat": 47.8154052,
-            "lng": -122.2952663
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "lynnwood-city-center-2",
-          "name": "B",
-          "coordinates": {
-            "lat": 47.8153408,
-            "lng": -122.2951807
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "lynnwood-city-center-3",
-          "name": "A",
-          "coordinates": {
-            "lat": 47.8158118,
-            "lng": -122.294363
-          },
-          "accessibility": [
-            "escalator"
-          ]
-        },
-        {
-          "id": "lynnwood-city-center-4",
-          "name": "A",
-          "coordinates": {
-            "lat": 47.8158779,
-            "lng": -122.2944458
-          },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -2026,23 +675,15 @@
       "id": "angle-lake",
       "systemId": "sound-transit",
       "name": "Angle Lake",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2016-09-24",
       "status": "active",
       "coordinates": {
-        "lat": 47.422703,
-        "lng": -122.297714
+        "lat": 47.422665,
+        "lng": -122.297655
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2016-09-24",
       "address": "20001 28th Ave S, SeaTac, WA 98198",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "description": "Angle Lake station is the current southern terminus of the 1 Line, featuring a 1,100-stall parking garage and named after nearby Angle Lake Park.",
       "entrances": [
         {
@@ -2052,9 +693,7 @@
             "lat": 47.4230818,
             "lng": -122.2978699
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "angle-lake-2",
@@ -2063,9 +702,7 @@
             "lat": 47.423082,
             "lng": -122.2977424
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "angle-lake-3",
@@ -2074,9 +711,7 @@
             "lat": 47.4224817,
             "lng": -122.2977445
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         },
         {
           "id": "angle-lake-4",
@@ -2085,9 +720,7 @@
             "lat": 47.4225615,
             "lng": -122.2978402
           },
-          "accessibility": [
-            "escalator"
-          ]
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -2095,23 +728,15 @@
       "id": "kent-des-moines",
       "systemId": "sound-transit",
       "name": "Kent Des Moines",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2025-12-06",
       "status": "active",
       "coordinates": {
-        "lat": 47.389552,
-        "lng": -122.294399
+        "lat": 47.389491,
+        "lng": -122.29437
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2025-12-06",
       "address": "Kent Des Moines Station, Kent, WA",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "entrances": [
         {
           "id": "kent-des-moines-1",
@@ -2120,9 +745,7 @@
             "lat": 47.389912,
             "lng": -122.294243
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "kent-des-moines-2",
@@ -2131,9 +754,7 @@
             "lat": 47.389922,
             "lng": -122.29438
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "kent-des-moines-3",
@@ -2142,9 +763,7 @@
             "lat": 47.389129,
             "lng": -122.294575
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "kent-des-moines-4",
@@ -2153,9 +772,7 @@
             "lat": 47.389115,
             "lng": -122.294439
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -2163,23 +780,15 @@
       "id": "star-lake",
       "systemId": "sound-transit",
       "name": "Star Lake",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2025-12-06",
       "status": "active",
       "coordinates": {
-        "lat": 47.359388,
-        "lng": -122.297391
+        "lat": 47.359341,
+        "lng": -122.297334
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2025-12-06",
       "address": "Star Lake Station, Federal Way, WA",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "entrances": [
         {
           "id": "star-lake-1",
@@ -2188,9 +797,7 @@
             "lat": 47.358968,
             "lng": -122.297654
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "star-lake-2",
@@ -2199,9 +806,7 @@
             "lat": 47.358921,
             "lng": -122.297459
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "star-lake-3",
@@ -2210,9 +815,7 @@
             "lat": 47.359712,
             "lng": -122.297325
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "star-lake-4",
@@ -2221,9 +824,7 @@
             "lat": 47.359651,
             "lng": -122.297068
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
     },
@@ -2231,23 +832,15 @@
       "id": "federal-way-downtown",
       "systemId": "sound-transit",
       "name": "Federal Way Downtown",
-      "lines": [
-        "1-line"
-      ],
+      "lines": ["1-line"],
+      "opened": "2025-12-06",
       "status": "active",
       "coordinates": {
-        "lat": 47.315903,
-        "lng": -122.303829
+        "lat": 47.315866,
+        "lng": -122.303811
       },
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection"
-      ],
-      "opened": "2025-12-06",
       "address": "Federal Way Downtown Station, Federal Way, WA",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
       "entrances": [
         {
           "id": "federal-way-downtown-1",
@@ -2256,9 +849,7 @@
             "lat": 47.31623,
             "lng": -122.30353
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "federal-way-downtown-2",
@@ -2267,9 +858,7 @@
             "lat": 47.316273,
             "lng": -122.303678
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "federal-way-downtown-3",
@@ -2278,9 +867,7 @@
             "lat": 47.315485,
             "lng": -122.304001
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         },
         {
           "id": "federal-way-downtown-4",
@@ -2289,239 +876,1075 @@
             "lat": 47.315528,
             "lng": -122.304149
           },
-          "accessibility": [
-            "elevator"
-          ]
+          "accessibility": ["elevator"]
         }
       ]
+    },
+    {
+      "id": "capitol-hill",
+      "systemId": "sound-transit",
+      "name": "Capitol Hill",
+      "lines": ["1-line", "2-line"],
+      "opened": "2016-03-19",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.61906,
+        "lng": -122.320195
+      },
+      "address": "140 Broadway E, Seattle, WA 98102",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Capitol Hill station serves one of Seattle's most vibrant neighborhoods, known for its nightlife, restaurants, and diverse community.",
+      "entrances": [
+        {
+          "id": "capitol-hill-1",
+          "name": "East Denny Way & Broadway",
+          "coordinates": {
+            "lat": 47.6183926,
+            "lng": -122.321036
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "capitol-hill-2",
+          "name": "East Denny Way & Nagle Place",
+          "coordinates": {
+            "lat": 47.6186592,
+            "lng": -122.320289
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "capitol-hill-3",
+          "name": "Broadway East & East John Street",
+          "coordinates": {
+            "lat": 47.6197798,
+            "lng": -122.320598
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "university-of-washington",
+      "systemId": "sound-transit",
+      "name": "University of Washington",
+      "lines": ["1-line", "2-line"],
+      "opened": "2016-03-19",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.649815,
+        "lng": -122.303763
+      },
+      "address": "3720 Montlake Blvd NE, Seattle, WA 98195",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "This station serves the University of Washington campus, one of the largest universities on the West Coast with over 50,000 students.",
+      "entrances": [
+        {
+          "id": "university-of-washington-1",
+          "name": "University of Washington",
+          "coordinates": {
+            "lat": 47.6500586,
+            "lng": -122.3038674
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "university-of-washington-2",
+          "name": "University of Washington",
+          "coordinates": {
+            "lat": 47.6495518,
+            "lng": -122.303937
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "university-of-washington-3",
+          "name": "University of Washington",
+          "coordinates": {
+            "lat": 47.6499607,
+            "lng": -122.3039092
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "university-of-washington-4",
+          "name": "University of Washington",
+          "coordinates": {
+            "lat": 47.6498518,
+            "lng": -122.3037485
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "u-district",
+      "systemId": "sound-transit",
+      "name": "U District",
+      "lines": ["1-line", "2-line"],
+      "opened": "2021-10-02",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.660301,
+        "lng": -122.314132
+      },
+      "address": "4300 Brooklyn Ave NE, Seattle, WA 98105",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "U District station serves the University District neighborhood, located near the heart of the Ave (University Way NE) with its shops, restaurants, and proximity to the University of Washington.",
+      "entrances": [
+        {
+          "id": "u-district-1",
+          "name": "Brooklyn Avenue & 45th Street",
+          "coordinates": {
+            "lat": 47.6607975,
+            "lng": -122.3141867
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "u-district-2",
+          "name": "43rd Street & Brooklyn Avenue",
+          "coordinates": {
+            "lat": 47.6599983,
+            "lng": -122.3142078
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "u-district-3",
+          "name": "43rd Street & Brooklyn Avenue",
+          "coordinates": {
+            "lat": 47.659899,
+            "lng": -122.3140525
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "roosevelt",
+      "systemId": "sound-transit",
+      "name": "Roosevelt",
+      "lines": ["1-line", "2-line"],
+      "opened": "2021-10-02",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.676595,
+        "lng": -122.315976
+      },
+      "address": "6501 12th Ave NE, Seattle, WA 98115",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Roosevelt station serves the Roosevelt neighborhood in northeast Seattle, providing access to Green Lake and the surrounding residential areas.",
+      "entrances": [
+        {
+          "id": "roosevelt-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.6772075,
+            "lng": -122.3158893
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "roosevelt-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.6759705,
+            "lng": -122.3158668
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "northgate",
+      "systemId": "sound-transit",
+      "name": "Northgate",
+      "lines": ["1-line", "2-line"],
+      "opened": "2021-10-02",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.703028,
+        "lng": -122.32829
+      },
+      "address": "10200 1st Ave NE, Seattle, WA 98125",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Northgate station is a major transit hub serving the Northgate neighborhood, with extensive park-and-ride facilities and bus connections.",
+      "entrances": [
+        {
+          "id": "northgate-1",
+          "name": "Entrance C",
+          "coordinates": {
+            "lat": 47.7025446,
+            "lng": -122.3283563
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "northgate-2",
+          "name": "Entrance B2",
+          "coordinates": {
+            "lat": 47.702245,
+            "lng": -122.3281406
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "northgate-3",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.7033726,
+            "lng": -122.32821
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "northgate-4",
+          "name": "Entrance B1",
+          "coordinates": {
+            "lat": 47.7027919,
+            "lng": -122.3281969
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "northgate-5",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 47.702581,
+            "lng": -122.3283025
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "shoreline-south-148th",
+      "systemId": "sound-transit",
+      "name": "Shoreline South/148th",
+      "lines": ["1-line", "2-line"],
+      "opened": "2024-08-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.736095,
+        "lng": -122.325227
+      },
+      "address": "14711 5th Ave NE, Shoreline, WA 98155",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Shoreline South/148th station serves the southern portion of Shoreline with a park-and-ride facility and bus connections.",
+      "entrances": [
+        {
+          "id": "shoreline-south-148th-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.736453,
+            "lng": -122.32547
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "shoreline-south-148th-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.735736,
+            "lng": -122.325016
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "shoreline-north-185th",
+      "systemId": "sound-transit",
+      "name": "Shoreline North/185th",
+      "lines": ["1-line", "2-line"],
+      "opened": "2024-08-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.764067,
+        "lng": -122.322889
+      },
+      "address": "710 NE 185th St, Shoreline, WA 98155",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Shoreline North/185th station serves northern Shoreline with a 500-stall park-and-ride garage and extensive bus connections.",
+      "entrances": [
+        {
+          "id": "shoreline-north-185th-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.764844,
+            "lng": -122.322616
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "shoreline-north-185th-2",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.764843,
+            "lng": -122.322847
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "shoreline-north-185th-3",
+          "name": "Entrance A1",
+          "coordinates": {
+            "lat": 47.764796,
+            "lng": -122.322669
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "shoreline-north-185th-4",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.763482,
+            "lng": -122.322953
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "shoreline-north-185th-5",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.763499,
+            "lng": -122.323118
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "shoreline-north-185th-6",
+          "name": "Entrance B1",
+          "coordinates": {
+            "lat": 47.763605,
+            "lng": -122.322914
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "mountlake-terrace",
+      "systemId": "sound-transit",
+      "name": "Mountlake Terrace",
+      "lines": ["1-line", "2-line"],
+      "opened": "2024-08-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.785057,
+        "lng": -122.314788
+      },
+      "address": "6001 236th St SW, Mountlake Terrace, WA 98043",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Mountlake Terrace station serves the city of Mountlake Terrace with a major transit center and 1,200-stall park-and-ride garage.",
+      "entrances": [
+        {
+          "id": "mountlake-terrace-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.785316,
+            "lng": -122.3148
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "mountlake-terrace-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.784626,
+            "lng": -122.314791
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "lynnwood-city-center",
+      "systemId": "sound-transit",
+      "name": "Lynnwood City Center",
+      "lines": ["1-line", "2-line"],
+      "opened": "2024-08-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.815637,
+        "lng": -122.294779
+      },
+      "address": "20201 46th Ave W, Lynnwood, WA 98036",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "Lynnwood City Center is the northern terminus of both the 1 Line and 2 Line, featuring a major transit center with 1,900-stall park-and-ride and connections to Community Transit and Sound Transit Express buses.",
+      "entrances": [
+        {
+          "id": "lynnwood-city-center-1",
+          "name": "B",
+          "coordinates": {
+            "lat": 47.8154052,
+            "lng": -122.2952663
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lynnwood-city-center-2",
+          "name": "B",
+          "coordinates": {
+            "lat": 47.8153408,
+            "lng": -122.2951807
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lynnwood-city-center-3",
+          "name": "A",
+          "coordinates": {
+            "lat": 47.8158118,
+            "lng": -122.294363
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lynnwood-city-center-4",
+          "name": "A",
+          "coordinates": {
+            "lat": 47.8158779,
+            "lng": -122.2944458
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "judkins-park",
+      "systemId": "sound-transit",
+      "name": "Judkins Park",
+      "lines": ["2-line"],
+      "opened": "2026-03-28",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.590299,
+        "lng": -122.304508
+      },
+      "address": "1485 Rainier Ave S, Seattle, WA 98144",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "entrances": [
+        {
+          "id": "judkins-park-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.590321,
+            "lng": -122.302462
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "judkins-park-2",
+          "name": "Entrance B1",
+          "coordinates": {
+            "lat": 47.590392,
+            "lng": -122.307104
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "judkins-park-3",
+          "name": "Entrance B2",
+          "coordinates": {
+            "lat": 47.590428,
+            "lng": -122.307604
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "description": "Judkins Park station serves the Judkins Park and Atlantic neighborhoods, providing the 2 Line's entrance to the I-90 tunnel crossing Lake Washington."
+    },
+    {
+      "id": "mercer-island",
+      "systemId": "sound-transit",
+      "name": "Mercer Island",
+      "lines": ["2-line"],
+      "opened": "2026-03-28",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.588198,
+        "lng": -122.233232
+      },
+      "address": "2555 80th Ave SE, Mercer Island, WA 98040",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "entrances": [
+        {
+          "id": "mercer-island-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.588566,
+            "lng": -122.234429
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "mercer-island-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.587768,
+            "lng": -122.232097
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "description": "Mercer Island station is located in the center of I-90, serving the affluent island community with a park-and-ride and transit center."
+    },
+    {
+      "id": "south-bellevue",
+      "systemId": "sound-transit",
+      "name": "South Bellevue",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.586556,
+        "lng": -122.190396
+      },
+      "address": "2654 Bellevue Way SE, Bellevue, WA 98004",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "description": "South Bellevue station features a 1,500-stall parking garage and serves as a major park-and-ride location for Eastside commuters.",
+      "entrances": [
+        {
+          "id": "south-bellevue-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.586996,
+            "lng": -122.190532
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "south-bellevue-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.585996,
+            "lng": -122.189886
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "east-main",
+      "systemId": "sound-transit",
+      "name": "East Main",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.608188,
+        "lng": -122.191147
+      },
+      "address": "229 112th Ave SE, Bellevue, WA 98004",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "East Main station serves the southeast edge of downtown Bellevue, near the Bellevue Club and Surrey Downs neighborhood.",
+      "entrances": [
+        {
+          "id": "east-main-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.608673,
+            "lng": -122.191096
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "east-main-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.607464,
+            "lng": -122.19102
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "bellevue-downtown",
+      "systemId": "sound-transit",
+      "name": "Bellevue Downtown",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.615223,
+        "lng": -122.192084
+      },
+      "address": "594 110th Ave NE, Bellevue, WA 98004",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Bellevue Downtown station serves the city center of Bellevue, the fifth largest city in Washington state and a major tech employment hub.",
+      "entrances": [
+        {
+          "id": "bellevue-downtown-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.615227,
+            "lng": -122.191039
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "bellevue-downtown-2",
+          "name": "Entrance B1",
+          "coordinates": {
+            "lat": 47.615303,
+            "lng": -122.192746
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "bellevue-downtown-3",
+          "name": "Entrance B2 Elevators",
+          "coordinates": {
+            "lat": 47.615414,
+            "lng": -122.192906
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "bellevue-downtown-4",
+          "name": "Entrance B2 Elevators",
+          "coordinates": {
+            "lat": 47.615183,
+            "lng": -122.1929
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "wilburton",
+      "systemId": "sound-transit",
+      "name": "Wilburton",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.617967,
+        "lng": -122.183762
+      },
+      "address": "855 118th Ave NE, Bellevue, WA 98005",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Wilburton station serves the Wilburton area including the Bellevue Botanical Garden and Spring District development.",
+      "entrances": [
+        {
+          "id": "wilburton-1",
+          "name": "A",
+          "coordinates": {
+            "lat": 47.6177655,
+            "lng": -122.1837605
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "wilburton-2",
+          "name": "B",
+          "coordinates": {
+            "lat": 47.6175556,
+            "lng": -122.1837819
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "spring-district-120th",
+      "systemId": "sound-transit",
+      "name": "Spring District/120th",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.623773,
+        "lng": -122.178573
+      },
+      "address": "12164 NE Spring Blvd, Bellevue, WA 98005",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Spring District/120th station serves the rapidly developing Spring District, home to Facebook/Meta's Bellevue campus and REI headquarters.",
+      "entrances": [
+        {
+          "id": "spring-district-120th-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.6242,
+            "lng": -122.1783
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "spring-district-120th-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.6234,
+            "lng": -122.1788
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "bel-red-130th",
+      "systemId": "sound-transit",
+      "name": "Bel-Red/130th",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.624448,
+        "lng": -122.16564
+      },
+      "address": "1500 130th Ave NE, Bellevue, WA 98005",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "description": "Bel-Red/130th station serves the Bel-Red corridor, an area transitioning from light industrial to mixed-use development.",
+      "entrances": [
+        {
+          "id": "bel-red-130th-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.6248,
+            "lng": -122.1653
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "bel-red-130th-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.6241,
+            "lng": -122.166
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "overlake-village",
+      "systemId": "sound-transit",
+      "name": "Overlake Village",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.63631,
+        "lng": -122.13892
+      },
+      "address": "2989 152nd Ave NE, Redmond, WA 98052",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "Overlake Village station serves the Overlake area and provides access to the Microsoft Connector shuttle system.",
+      "entrances": [
+        {
+          "id": "overlake-village-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.636713,
+            "lng": -122.138212
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "overlake-village-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.635823,
+            "lng": -122.139506
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "redmond-technology",
+      "systemId": "sound-transit",
+      "name": "Redmond Technology",
+      "lines": ["2-line"],
+      "opened": "2024-03-30",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.644842,
+        "lng": -122.133628
+      },
+      "address": "3925 152nd Ave NE, Redmond, WA 98052",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "description": "This station serves the Microsoft main campus and the broader Redmond tech corridor, home to numerous technology companies.",
+      "entrances": [
+        {
+          "id": "redmond-technology-1",
+          "name": "Entrance C",
+          "coordinates": {
+            "lat": 47.6440601,
+            "lng": -122.1333144
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "redmond-technology-2",
+          "name": "Entrance B2",
+          "coordinates": {
+            "lat": 47.6440078,
+            "lng": -122.1334741
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "redmond-technology-3",
+          "name": "Entrance B1",
+          "coordinates": {
+            "lat": 47.6441737,
+            "lng": -122.1335036
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "redmond-technology-4",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.6455249,
+            "lng": -122.1336644
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "marymoor-village",
+      "systemId": "sound-transit",
+      "name": "Marymoor Village",
+      "lines": ["2-line"],
+      "opened": "2025-05-10",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.667263,
+        "lng": -122.1098
+      },
+      "address": "17300 NE 70th St, Redmond, WA 98052",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "entrances": [
+        {
+          "id": "marymoor-village-1",
+          "name": "Marymoor Village Entrance",
+          "coordinates": {
+            "lat": 47.667444,
+            "lng": -122.108446
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "description": "Marymoor Village station serves the Marymoor neighborhood adjacent to Marymoor Park, one of King County's largest parks, with a 200-stall park-and-ride."
+    },
+    {
+      "id": "downtown-redmond",
+      "systemId": "sound-transit",
+      "name": "Downtown Redmond",
+      "lines": ["2-line"],
+      "opened": "2025-05-10",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.671645,
+        "lng": -122.11848
+      },
+      "address": "16620 NE 76th St, Redmond, WA 98052",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "entrances": [
+        {
+          "id": "downtown-redmond-1",
+          "name": "Entrance A",
+          "coordinates": {
+            "lat": 47.671924,
+            "lng": -122.119619
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "downtown-redmond-2",
+          "name": "Entrance B",
+          "coordinates": {
+            "lat": 47.671558,
+            "lng": -122.11808
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "description": "Downtown Redmond is the eastern terminus of the 2 Line, serving Redmond's city center with a transit center and 1,400-stall park-and-ride garage."
     },
     {
       "id": "tacoma-dome-t",
       "systemId": "sound-transit",
       "name": "Tacoma Dome",
-      "lines": [
-        "t-line"
-      ],
+      "lines": ["t-line"],
+      "opened": "2003-08-22",
       "status": "active",
       "coordinates": {
         "lat": 47.239868,
         "lng": -122.428118
       },
-      "features": [
-        "fare-vending",
-        "bus-connection"
-      ],
-      "opened": "2003-08-22",
       "address": "Tacoma Dome Station, Tacoma, WA 98402",
+      "features": ["fare-vending", "bus-connection"],
       "description": "Tacoma Dome station is the southern terminus of the T Line, connecting to Sounder commuter rail and regional bus services at the Tacoma Dome transit hub."
-    },
-    {
-      "id": "s-25th-street",
-      "systemId": "sound-transit",
-      "name": "S 25th Street",
-      "lines": [
-        "t-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.239081,
-        "lng": -122.434202
-      },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2003-08-22",
-      "address": "S 25th St & Pacific Ave, Tacoma, WA 98402",
-      "description": "S 25th Street station serves the southern portion of downtown Tacoma near the University of Washington Tacoma campus."
-    },
-    {
-      "id": "tacoma-union-station",
-      "systemId": "sound-transit",
-      "name": "Union Station",
-      "lines": [
-        "t-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.244865,
-        "lng": -122.436623
-      },
-      "features": [
-        "fare-vending",
-        "amtrak-connection"
-      ],
-      "opened": "2003-08-22",
-      "address": "1717 Pacific Ave, Tacoma, WA 98402",
-      "description": "Union Station serves Tacoma's historic Union Station (now a federal courthouse) and provides connections to Amtrak and Sounder commuter rail."
-    },
-    {
-      "id": "convention-center",
-      "systemId": "sound-transit",
-      "name": "Convention Center",
-      "lines": [
-        "t-line"
-      ],
-      "status": "active",
-      "coordinates": {
-        "lat": 47.249496,
-        "lng": -122.438552
-      },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2003-08-22",
-      "address": "1550 Commerce St, Tacoma, WA 98402",
-      "description": "Convention Center station serves the Greater Tacoma Convention Center and is near the Tacoma Dome."
     },
     {
       "id": "theater-district",
       "systemId": "sound-transit",
       "name": "Theater District",
-      "lines": [
-        "t-line"
-      ],
+      "lines": ["t-line"],
+      "opened": "2003-08-22",
       "status": "active",
       "coordinates": {
         "lat": 47.252534,
         "lng": -122.439239
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2003-08-22",
       "address": "901 Broadway, Tacoma, WA 98402",
+      "features": ["fare-vending"],
       "description": "Theater District station serves downtown Tacoma's cultural core, near the Tacoma Art Museum, Museum of Glass, and Washington State History Museum."
     },
     {
-      "id": "old-city-hall",
+      "id": "convention-center",
       "systemId": "sound-transit",
-      "name": "Old City Hall",
-      "lines": [
-        "t-line"
-      ],
+      "name": "Convention Center",
+      "lines": ["t-line"],
+      "opened": "2003-08-22",
       "status": "active",
       "coordinates": {
-        "lat": 47.257746,
-        "lng": -122.440421
+        "lat": 47.249496,
+        "lng": -122.438552
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2023-09-16",
-      "address": "611 S 7th St, Tacoma, WA 98402",
-      "description": "Old City Hall station is named for the nearby historic Tacoma Old City Hall, an 1893 Romanesque building."
+      "address": "1550 Commerce St, Tacoma, WA 98402",
+      "features": ["fare-vending"],
+      "description": "Convention Center station serves the Greater Tacoma Convention Center and is near the Tacoma Dome."
     },
     {
-      "id": "s-4th",
+      "id": "tacoma-union-station",
       "systemId": "sound-transit",
-      "name": "S 4th",
-      "lines": [
-        "t-line"
-      ],
+      "name": "Union Station",
+      "lines": ["t-line"],
+      "opened": "2003-08-22",
       "status": "active",
       "coordinates": {
-        "lat": 47.261319,
-        "lng": -122.442723
+        "lat": 47.244865,
+        "lng": -122.436623
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2023-09-16",
-      "address": "S 4th St & Pacific Ave, Tacoma, WA 98402"
+      "address": "1717 Pacific Ave, Tacoma, WA 98402",
+      "features": ["fare-vending", "amtrak-connection"],
+      "description": "Union Station serves Tacoma's historic Union Station (now a federal courthouse) and provides connections to Amtrak and Sounder commuter rail."
+    },
+    {
+      "id": "s-25th-street",
+      "systemId": "sound-transit",
+      "name": "S 25th Street",
+      "lines": ["t-line"],
+      "opened": "2003-08-22",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.239081,
+        "lng": -122.434202
+      },
+      "address": "S 25th St & Pacific Ave, Tacoma, WA 98402",
+      "features": ["fare-vending"],
+      "description": "S 25th Street station serves the southern portion of downtown Tacoma near the University of Washington Tacoma campus."
     },
     {
       "id": "stadium-district-tacoma",
       "systemId": "sound-transit",
       "name": "Stadium District",
-      "lines": [
-        "t-line"
-      ],
+      "lines": ["t-line"],
+      "opened": "2023-09-16",
       "status": "active",
       "coordinates": {
         "lat": 47.263869,
         "lng": -122.448999
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2023-09-16",
       "address": "N Stadium Way & N 1st St, Tacoma, WA 98403",
+      "features": ["fare-vending"],
       "description": "Stadium District station serves the Stadium District neighborhood, home to the historic Stadium High School and Stadium Bowl."
     },
     {
-      "id": "tacoma-general-hospital",
+      "id": "s-4th",
       "systemId": "sound-transit",
-      "name": "Tacoma General Hospital",
-      "lines": [
-        "t-line"
-      ],
+      "name": "S 4th",
+      "lines": ["t-line"],
+      "opened": "2023-09-16",
       "status": "active",
       "coordinates": {
-        "lat": 47.260083,
-        "lng": -122.453564
+        "lat": 47.261319,
+        "lng": -122.442723
       },
-      "features": [
-        "fare-vending"
-      ],
+      "address": "S 4th St & Pacific Ave, Tacoma, WA 98402",
+      "features": ["fare-vending"]
+    },
+    {
+      "id": "old-city-hall",
+      "systemId": "sound-transit",
+      "name": "Old City Hall",
+      "lines": ["t-line"],
       "opened": "2023-09-16",
-      "address": "Martin Luther King Jr Way & S 5th St, Tacoma, WA 98405",
-      "description": "Tacoma General Hospital station provides access to MultiCare Tacoma General Hospital, one of the region's major medical centers."
+      "status": "active",
+      "coordinates": {
+        "lat": 47.257746,
+        "lng": -122.440421
+      },
+      "address": "611 S 7th St, Tacoma, WA 98402",
+      "features": ["fare-vending"],
+      "description": "Old City Hall station is named for the nearby historic Tacoma Old City Hall, an 1893 Romanesque building."
     },
     {
       "id": "6th-ave",
       "systemId": "sound-transit",
       "name": "6th Ave",
-      "lines": [
-        "t-line"
-      ],
+      "lines": ["t-line"],
+      "opened": "2023-09-16",
       "status": "active",
       "coordinates": {
-        "lat": 47.256925,
-        "lng": -122.452848
+        "lat": 47.2565,
+        "lng": -122.4546
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2023-09-16",
       "address": "Division Ave & S 6th Ave, Tacoma, WA 98402",
+      "features": ["fare-vending"],
       "description": "Wright Park station serves Wright Park, a historic 27-acre urban park featuring the W.W. Seymour Botanical Conservatory."
+    },
+    {
+      "id": "tacoma-general-hospital",
+      "systemId": "sound-transit",
+      "name": "Tacoma General Hospital",
+      "lines": ["t-line"],
+      "opened": "2023-09-16",
+      "status": "active",
+      "coordinates": {
+        "lat": 47.260083,
+        "lng": -122.453564
+      },
+      "address": "Martin Luther King Jr Way & S 5th St, Tacoma, WA 98405",
+      "features": ["fare-vending"],
+      "description": "Tacoma General Hospital station provides access to MultiCare Tacoma General Hospital, one of the region's major medical centers."
     },
     {
       "id": "hilltop-district",
       "systemId": "sound-transit",
       "name": "Hilltop District",
-      "lines": [
-        "t-line"
-      ],
+      "lines": ["t-line"],
+      "opened": "2023-09-16",
       "status": "active",
       "coordinates": {
         "lat": 47.251758,
         "lng": -122.451665
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2023-09-16",
       "address": "Martin Luther King Jr Way & S 1st St, Tacoma, WA 98405",
+      "features": ["fare-vending"],
       "description": "Hilltop District station is the western terminus of the T Line, serving Tacoma's historic Hilltop neighborhood."
     },
     {
       "id": "st-joseph",
       "systemId": "sound-transit",
       "name": "St Joseph",
-      "lines": [
-        "t-line"
-      ],
+      "lines": ["t-line"],
+      "opened": "2023-09-16",
       "status": "active",
       "coordinates": {
         "lat": 47.24528,
         "lng": -122.450187
       },
-      "features": [
-        "fare-vending"
-      ],
-      "opened": "2023-09-16",
       "address": "Martin Luther King Jr Way & S Yakima Ave, Tacoma, WA 98405",
+      "features": ["fare-vending"],
       "description": "St Joseph station is the western terminus of the T Line's Hilltop extension, serving the Providence St. Joseph Medical Center area."
     }
   ]
