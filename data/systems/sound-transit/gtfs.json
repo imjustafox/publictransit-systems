@@ -12,7 +12,8 @@
       "line_color_fallback": "#28813F"
     },
     "route_groups": {
-      "n-line": ["SNDR_EV", "SNDR_TL"]
+      "n-line": ["SNDR_EV"],
+      "s-line": ["SNDR_TL"]
     }
   }
 }

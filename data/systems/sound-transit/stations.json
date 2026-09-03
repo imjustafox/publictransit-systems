@@ -1878,7 +1878,7 @@
       "id": "king-street-station",
       "systemId": "sound-transit",
       "name": "King Street Station",
-      "lines": ["n-line"],
+      "lines": ["n-line", "s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.597702,
@@ -1890,7 +1890,7 @@
       "id": "tukwila-sounder-station",
       "systemId": "sound-transit",
       "name": "Tukwila Sounder Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.460199,
@@ -1902,7 +1902,7 @@
       "id": "kent-sounder-station",
       "systemId": "sound-transit",
       "name": "Kent Sounder Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.384154,
@@ -1914,7 +1914,7 @@
       "id": "auburn-station",
       "systemId": "sound-transit",
       "name": "Auburn Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.306411,
@@ -1926,7 +1926,7 @@
       "id": "sumner-station",
       "systemId": "sound-transit",
       "name": "Sumner Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.201287,
@@ -1938,7 +1938,7 @@
       "id": "puyallup-station",
       "systemId": "sound-transit",
       "name": "Puyallup Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.192717,
@@ -1950,7 +1950,7 @@
       "id": "tacoma-dome-station",
       "systemId": "sound-transit",
       "name": "Tacoma Dome Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.239571,
@@ -1962,7 +1962,7 @@
       "id": "south-tacoma-station",
       "systemId": "sound-transit",
       "name": "South Tacoma Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.203491,
@@ -1974,7 +1974,7 @@
       "id": "lakewood-station",
       "systemId": "sound-transit",
       "name": "Lakewood Station",
-      "lines": ["n-line"],
+      "lines": ["s-line"],
       "status": "active",
       "coordinates": {
         "lat": 47.153189,

@@ -69,8 +69,6 @@
   "lines": {
     "1-line": {
       "name": "1 Line",
-      "color": "green",
-      "colorHex": "#28813F",
       "opened": "2009-07-18",
       "description": "The 1 Line (formerly Central Link) is the primary light rail line serving Seattle, running from Lynnwood in the north through downtown Seattle and the University District to Federal Way Downtown in the south.",
       "topology": {
@@ -80,8 +78,6 @@
     },
     "2-line": {
       "name": "2 Line",
-      "color": "blue",
-      "colorHex": "#007CAD",
       "opened": "2024-03-30",
       "description": "The 2 Line (formerly East Link) runs from Lynnwood to Downtown Redmond, sharing the downtown Seattle tunnel with the 1 Line before crossing Lake Washington on the I-90 floating bridge via the Crosslake Connection. It serves the Eastside tech corridor including Bellevue and Redmond.",
       "topology": {
@@ -91,8 +87,6 @@
     },
     "t-line": {
       "name": "T Line (Tacoma Link)",
-      "color": "orange",
-      "colorHex": "#F38B00",
       "opened": "2003-08-22",
       "description": "The T Line (Tacoma Link) provides free streetcar service through downtown Tacoma, connecting the Tacoma Dome transit hub to St Joseph in the Hilltop neighborhood.",
       "topology": {
@@ -129,7 +123,13 @@
       "stationCount": 0,
       "description": "The 4 Line is a planned light rail line in the Sound Transit system."
     },
-    "s-line": {
+    "n-line": {
+      "name": "N Line (Sounder)",
+      "opened": "2003-12-21",
+      "description": "The N Line is Sounder's north commuter rail service, running along Puget Sound between Everett and King Street Station in Seattle with stops in Mukilteo and Edmonds.",
+      "termini": ["Everett", "Seattle"]
+    },
+    "stride": {
       "systemId": "sound-transit",
       "name": "Stride",
       "color": "yellow",
@@ -143,12 +143,11 @@
       "stationCount": 0,
       "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines."
     },
-    "n-line": {
-      "name": "Sounder",
-      "color": "lightblue",
-      "colorHex": "#9AB6D3",
-      "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines.",
-      "status": "disabled"
+    "s-line": {
+      "name": "S Line (Sounder)",
+      "opened": "2000-09-18",
+      "description": "The S Line is Sounder's south commuter rail service, connecting King Street Station in Seattle to Lakewood through the Green River valley cities and Tacoma.",
+      "termini": ["Seattle", "Lakewood"]
     }
   },
   "stations": {
