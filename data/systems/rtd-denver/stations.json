@@ -1,18 +1,1526 @@
 {
   "stations": [
     {
+      "id": "wheat-ridge-ward-road",
+      "systemId": "rtd-denver",
+      "name": "Wheat Ridge / Ward",
+      "lines": ["g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.789544,
+        "lng": -105.13327
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34504",
+      "wikipedia": "en:Wheat Ridge/Ward station",
+      "osmId": 7373797407,
+      "description": "Wheat Ridge / Ward Station serves the west side of Wheat Ridge. It is the proposed site of a major transit-oriented development."
+    },
+    {
+      "id": "60th-sheridan-arvada-gold-strike",
+      "systemId": "rtd-denver",
+      "name": "60th / Sheridan - Arvada Gold Strike",
+      "lines": ["g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.804374,
+        "lng": -105.049081
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34506",
+      "wikipedia": "en:List of Denver RTD rail stations",
+      "osmId": 7373760732,
+      "description": "TODO: Add station description."
+    },
+    {
+      "id": "clear-creek-federal",
+      "systemId": "rtd-denver",
+      "name": "Clear Creek / Federal",
+      "lines": ["g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.804819,
+        "lng": -105.022624
+      },
+      "features": ["accessible", "elevator", "fare-vending"],
+      "gtfsId": "34507",
+      "wikipedia": "en:Denver Federal Center",
+      "osmId": 7373783401,
+      "description": "Clear Creek / Federal Station serves the unincorporated community of Berkley. It has RTD's largest piece of public art, Addison Karl's mural Doradus."
+    },
+    {
+      "id": "westminster",
+      "systemId": "rtd-denver",
+      "name": "Westminster",
+      "lines": ["b-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.823124,
+        "lng": -105.027939
+      },
+      "features": ["accessible", "elevator", "fare-vending"],
+      "gtfsId": "34549",
+      "wikipedia": "en:Westminster station (RTD)",
+      "osmId": 7373820822,
+      "entrances": [
+        {
+          "id": "osm-7402907922",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.8238574,
+            "lng": -105.0271572
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Westminster Station serves Westminster and is the northern terminus of the B Line, though there are plans to extend the B Line to Boulder and Longmont. It has an art installation called Grotto by Brian W. Brush."
+    },
+    {
+      "id": "federal-center",
+      "systemId": "rtd-denver",
+      "name": "Federal Center",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.719005,
+        "lng": -105.129257
+      },
+      "features": ["accessible", "fare-vending"],
+      "gtfsId": "33741",
+      "wikipedia": "en:Federal Center station (RTD)",
+      "osmId": 2376710603,
+      "wikidata": "Q16891234",
+      "entrances": [
+        {
+          "id": "osm-4772015851",
+          "name": "OrthoColorado Main Entrance",
+          "coordinates": {
+            "lat": 39.7171411,
+            "lng": -105.1296223
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772015898",
+          "name": "Plaza 1 Main Entrance",
+          "coordinates": {
+            "lat": 39.7171404,
+            "lng": -105.1299531
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772015918",
+          "name": "OrthoColorado Main Entrance",
+          "coordinates": {
+            "lat": 39.7171061,
+            "lng": -105.1297578
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038344",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7168277,
+            "lng": -105.1301542
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038347",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.716816,
+            "lng": -105.1292331
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038362",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7167708,
+            "lng": -105.1291968
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038367",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.71704,
+            "lng": -105.1304106
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038371",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.7165905,
+            "lng": -105.1297252
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038375",
+          "name": "Entrance 9",
+          "coordinates": {
+            "lat": 39.7166594,
+            "lng": -105.1295911
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038403",
+          "name": "Entrance 10",
+          "coordinates": {
+            "lat": 39.7168495,
+            "lng": -105.1293873
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038409",
+          "name": "Entrance 11",
+          "coordinates": {
+            "lat": 39.7168494,
+            "lng": -105.1297246
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038411",
+          "name": "Entrance 12",
+          "coordinates": {
+            "lat": 39.7166656,
+            "lng": -105.1297664
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4772038414",
+          "name": "Entrance 13",
+          "coordinates": {
+            "lat": 39.7166336,
+            "lng": -105.1301229
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7352595856",
+          "name": "Disabled-Golden",
+          "coordinates": {
+            "lat": 39.7200523,
+            "lng": -105.12963
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-7352595879",
+          "name": "Entrance 15",
+          "coordinates": {
+            "lat": 39.7199089,
+            "lng": -105.128482
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4826231391",
+          "name": "Entrance 16",
+          "coordinates": {
+            "lat": 39.7189107,
+            "lng": -105.1258845
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Federal Center Station serves the nearby Federal Center and CommonSpirit St. Anthony Hospital, which is a level 1 trauma center. It is the last station of double track before the W Line switches to single track for the final stretch to Jefferson County Government Center/Golden Station."
+    },
+    {
+      "id": "belleview",
+      "systemId": "rtd-denver",
+      "name": "Belleview",
+      "lines": ["e-line", "t-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.627524,
+        "lng": -104.904746
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33706",
+      "wikipedia": "en:Belleview station",
+      "osmId": 6775354285,
+      "wikidata": "Q4883836",
+      "description": "Belleview Station serves the Denver Tech Center. It has an art installation called Thunder over the Rockies, created by Richard C. Elliott."
+    },
+    {
+      "id": "dayton",
+      "systemId": "rtd-denver",
+      "name": "Dayton",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.643677,
+        "lng": -104.878653
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33710",
+      "wikipedia": "en:Dayton station (RTD)",
+      "osmId": 7383433199,
+      "description": "Dayton Station is primarily interesting because it is located in the median of Interstate 225."
+    },
+    {
+      "id": "perry",
+      "systemId": "rtd-denver",
+      "name": "Perry",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.734568,
+        "lng": -105.040036
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34234",
+      "wikipedia": "en:Perry station",
+      "osmId": 2376710288,
+      "wikidata": "Q16898221",
+      "description": "Perry Station serves a suburban area of west Denver. It has some transit-oriented development."
+    },
+    {
+      "id": "peoria",
+      "systemId": "rtd-denver",
+      "name": "Peoria",
+      "lines": ["r-line", "a-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.766094,
+        "lng": -104.852057
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "34502",
+      "wikipedia": "en:Peoria station",
+      "osmId": 7383476199,
+      "entrances": [
+        {
+          "id": "osm-10832817222",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7636739,
+            "lng": -104.8508561
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10832737483",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7640458,
+            "lng": -104.8522678
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10832817207",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7639816,
+            "lng": -104.8521684
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10832817217",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7640902,
+            "lng": -104.8511542
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10832817237",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.7640877,
+            "lng": -104.8512231
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10798189681",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7645285,
+            "lng": -104.8494597
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Peoria Station is a junction on the A Line and serves as the northern terminus of the R Line. It is the first A Line connection to Aurora. It has an art installation named Biota by Blessing Hancock."
+    },
+    {
+      "id": "i-25-broadway",
+      "systemId": "rtd-denver",
+      "name": "I-25 / Broadway",
+      "lines": ["c-line", "e-line", "t-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.701235,
+        "lng": -104.98886
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33686",
+      "wikipedia": "en:I-25 & Broadway station",
+      "osmId": 1359644378,
+      "description": "I-25 / Broadway Station was originally the southern terminus of the RTD rail network. During the Downtown Rail Reconstruction Project, it is served by the C, E, and temporary T Lines. It has three sculptures collectively titled The Welcoming Committee, created by Elaine Calzolari."
+    },
+    {
+      "id": "oxford-city-of-sheridan",
+      "systemId": "rtd-denver",
+      "name": "Oxford-City of Sheridan",
+      "lines": ["c-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.643421,
+        "lng": -105.004535
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33726",
+      "wikipedia": "en:Oxford–City of Sheridan station",
+      "osmId": 7382036672,
+      "description": "Oxford-City of Sheridan Station serves the border of Sheridan and Englewood."
+    },
+    {
+      "id": "original-thornton-88th-ave",
+      "systemId": "rtd-denver",
+      "name": "Original Thornton / 88th Ave",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.858851,
+        "lng": -104.952449
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "35364",
+      "wikipedia": "en:Original Thornton/88th station",
+      "description": "Original Thornton / 88th Station serves the area of Thornton near 88th Avenue and Welby Road."
+    },
+    {
+      "id": "littleton-downtown",
+      "systemId": "rtd-denver",
+      "name": "Littleton-Downtown",
+      "lines": ["c-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.611904,
+        "lng": -105.01521
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33715",
+      "wikipedia": "en:Littleton–Downtown station",
+      "osmId": 7382036676,
+      "entrances": [
+        {
+          "id": "osm-7152979400",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6128113,
+            "lng": -105.0127719
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Littleton / Downtown Station serves downtown Littleton. It was historically a depot for the Denver & Rio Grande Railroad's Royal Gorge Route."
+    },
+    {
+      "id": "pecos-junction",
+      "systemId": "rtd-denver",
+      "name": "Pecos Junction",
+      "lines": ["b-line", "g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.805421,
+        "lng": -105.003505
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "34508",
+      "wikipedia": "en:Pecos Junction station",
+      "osmId": 7373783403,
+      "description": "Pecos Junction Station is the last station that the B and G Lines share and it is one of the least used stations in the RTD network."
+    },
+    {
+      "id": "commerce-city-72nd-ave",
+      "systemId": "rtd-denver",
+      "name": "Commerce City / 72nd Ave",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.826497,
+        "lng": -104.942292
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "35363",
+      "wikipedia": "en:Commerce City/72nd station",
+      "description": "Commerce City / 72nd Ave Station serves a primarily industrial area with some bus connections."
+    },
+    {
+      "id": "41st-fox",
+      "systemId": "rtd-denver",
+      "name": "41st / Fox",
+      "lines": ["b-line", "g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.772741,
+        "lng": -104.995362
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "34548",
+      "wikipedia": "en:41st & Fox station",
+      "osmId": 7373783405,
+      "entrances": [
+        {
+          "id": "osm-4138791728",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7726248,
+            "lng": -104.9934125
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7533654700",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7738461,
+            "lng": -104.9933357
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-8949893234",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7714793,
+            "lng": -104.9923438
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "41st / Fox Station serves the Globeville and Sunnyside neighborhoods of Denver."
+    },
+    {
+      "id": "jefferson-co-government-golden",
+      "systemId": "rtd-denver",
+      "name": "Jefferson County Government Center/Golden",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.726354,
+        "lng": -105.199734
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34241",
+      "wikipedia": "en:Jefferson County Government Center–Golden station",
+      "entrances": [
+        {
+          "id": "osm-13689828206",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7268151,
+            "lng": -105.2012239
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13689828207",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7272362,
+            "lng": -105.2000561
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Jefferson County Government Center/Golden Station serves the nearby community of Golden, including the Colorado School of Mines. In partnership with the City of Golden, Mines operates a transit shuttle called the Ore Cart that takes passengers from Jefferson County Government Center to downtown Golden and the Mines campus."
+    },
+    {
+      "id": "colfax",
+      "systemId": "rtd-denver",
+      "name": "Colfax",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.74083,
+        "lng": -104.826398
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34682",
+      "wikipedia": "en:Colfax station (RTD)",
+      "osmId": 7383472998,
+      "entrances": [
+        {
+          "id": "osm-6253162192",
+          "name": "Colfax Entrance",
+          "coordinates": {
+            "lat": 39.7405916,
+            "lng": -104.8294932
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688310",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7390922,
+            "lng": -104.8278687
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688312",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7391422,
+            "lng": -104.8278685
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688314",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7392328,
+            "lng": -104.8278682
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688319",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.7393364,
+            "lng": -104.8278948
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688321",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7394262,
+            "lng": -104.8278944
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688324",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.7394707,
+            "lng": -104.8278942
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-10814688327",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.739653,
+            "lng": -104.8279283
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Colfax Station serves the Anschutz health campus, including the UCHealth University of Colorado Hospital and Children's Hospital Colorado."
+    },
+    {
+      "id": "central-park",
+      "systemId": "rtd-denver",
+      "name": "Central Park",
+      "lines": ["a-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.769723,
+        "lng": -104.892912
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34501",
+      "wikipedia": "en:Central Park station (RTD)",
+      "osmId": 7373859142,
+      "description": "Denver's Central Park Station serves the Park Hill and Central Park neighborhoods of Denver. It is near the former location of Stapleton International Airport. It has an art installation named Balloon Man Running created by Sean O'Meallie."
+    },
+    {
+      "id": "fitzsimons",
+      "systemId": "rtd-denver",
+      "name": "Fitzsimons",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.755018,
+        "lng": -104.838018
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34683",
+      "wikipedia": "en:Fitzsimons station",
+      "osmId": 3250450286,
+      "entrances": [
+        {
+          "id": "osm-11685077040",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7539032,
+            "lng": -104.8394612
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Fitzsimons Station serves the University of Colorado Anschutz Medical Campus. It retains the name of the former Fitzsimons Army Medical Center."
+    },
+    {
+      "id": "florida",
+      "systemId": "rtd-denver",
+      "name": "Florida",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.689917,
+        "lng": -104.828099
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "34679",
+      "wikipedia": "en:Florida station (RTD)",
+      "osmId": 7383433204,
+      "entrances": [
+        {
+          "id": "osm-11016362066",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6899541,
+            "lng": -104.8315336
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Florida Station is served by the R Line. H Line service is suspended during the Downtown Rail Reconstruction Project."
+    },
+    {
+      "id": "arapahoe-at-village-center",
+      "systemId": "rtd-denver",
+      "name": "Arapahoe at Village Center",
+      "lines": ["e-line", "t-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.601315,
+        "lng": -104.887494
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33705",
+      "wikipedia": "en:Arapahoe at Village Center station",
+      "osmId": 7383367586,
+      "entrances": [
+        {
+          "id": "osm-13395296862",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.5992549,
+            "lng": -104.8865898
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Arapahoe at Village Center Station serves the Fiddler's Green Amphitheatre and has an art installation, Nucleus, by Michael Clapper."
+    },
+    {
+      "id": "littleton-mineral",
+      "systemId": "rtd-denver",
+      "name": "Littleton-Mineral",
+      "lines": ["c-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.58039,
+        "lng": -105.02611
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33716",
+      "wikipedia": "en:Littleton–Mineral station",
+      "osmId": 7382036678,
+      "description": "Littleton-Mineral Station serves as the southern terminus for the C Line, but RTD plans to extend the line south to Highlands Ranch."
+    },
+    {
+      "id": "2nd-ave-abilene",
+      "systemId": "rtd-denver",
+      "name": "2nd Ave & Abilene",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.719484,
+        "lng": -104.825073
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34680",
+      "wikipedia": "en:2nd Avenue & Abilene station",
+      "entrances": [
+        {
+          "id": "osm-11804818921",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.72118,
+            "lng": -104.8235747
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11821923547",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.720128,
+            "lng": -104.8247728
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11821923551",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7206653,
+            "lng": -104.8244223
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11821923554",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7206687,
+            "lng": -104.8243191
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11821923566",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.720173,
+            "lng": -104.824758
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11824647804",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7204832,
+            "lng": -104.8244686
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11824647821",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.7204432,
+            "lng": -104.8244676
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11824647845",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.7201813,
+            "lng": -104.824234
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11824647846",
+          "name": "Entrance 9",
+          "coordinates": {
+            "lat": 39.7201593,
+            "lng": -104.8242216
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11824647856",
+          "name": "Entrance 10",
+          "coordinates": {
+            "lat": 39.7204331,
+            "lng": -104.8242114
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "2nd Ave & Abilene Station serves a residential area along I-225."
+    },
+    {
+      "id": "colorado",
+      "systemId": "rtd-denver",
+      "name": "Colorado",
+      "lines": ["e-line", "t-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.679398,
+        "lng": -104.937673
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33708",
+      "wikipedia": "en:Colorado station",
+      "osmId": 1362259731,
+      "wikidata": "Q5148687",
+      "description": "Colorado Station serves the Colorado Center. It has an art installation named Big Boots created by Ries Niemi."
+    },
+    {
+      "id": "louisiana-pearl",
+      "systemId": "rtd-denver",
+      "name": "Louisiana-Pearl",
+      "lines": ["e-line", "t-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.692708,
+        "lng": -104.97812
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33725",
+      "wikipedia": "en:Louisiana–Pearl station",
+      "osmId": 7382727324,
+      "description": "Louisiana-Pearl Station serves the Platt Park neighborhood and is partially underground. It has a kinetic sculpture named Strange Machine created by Ira Sherman."
+    },
+    {
+      "id": "13th-ave",
+      "systemId": "rtd-denver",
+      "name": "13th Ave",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.734452,
+        "lng": -104.824601
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34681",
+      "wikipedia": "en:13th Avenue station (RTD)",
+      "description": "13th Ave Station serves Aurora and is planned to be the center of a future transit-oriented development."
+    },
+    {
+      "id": "38th-blake",
+      "systemId": "rtd-denver",
+      "name": "38th / Blake",
+      "lines": ["a-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.770729,
+        "lng": -104.9734
+      },
+      "features": ["accessible", "elevator", "fare-vending"],
+      "gtfsId": "34684",
+      "wikipedia": "en:38th & Blake station",
+      "osmId": 7373859138,
+      "entrances": [
+        {
+          "id": "osm-7534437369",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7696813,
+            "lng": -104.9764109
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11010424943",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.769418,
+            "lng": -104.9711625
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12022118681",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7695618,
+            "lng": -104.9737676
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12022880833",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.770441,
+            "lng": -104.9699504
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6698182645",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.7705912,
+            "lng": -104.9700668
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "38th / Blake Station serves the Five Points neighborhood of Denver, including RiNo. It has an art installation named Conflux/Redox by Kelton Osborn."
+    },
+    {
+      "id": "10th-osage",
+      "systemId": "rtd-denver",
+      "name": "10th / Osage",
+      "lines": ["c-line", "e-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.73215,
+        "lng": -105.0055
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "34109",
+      "wikipedia": "en:10th & Osage station",
+      "osmId": 649985468,
+      "wikidata": "Q4546966",
+      "entrances": [
+        {
+          "id": "osm-3500207889",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7312103,
+            "lng": -105.0042869
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3432375052",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7342592,
+            "lng": -105.004407
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3500204166",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7313927,
+            "lng": -105.0043662
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3500207867",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7312404,
+            "lng": -105.004586
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3500233233",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.73471,
+            "lng": -105.0057852
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3500233800",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7347073,
+            "lng": -105.0055774
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3501335094",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.7326751,
+            "lng": -105.0033054
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4133497503",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.7339848,
+            "lng": -105.0049551
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6691071125",
+          "name": "Entrance 9",
+          "coordinates": {
+            "lat": 39.7317979,
+            "lng": -105.003654
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6691071126",
+          "name": "Entrance 10",
+          "coordinates": {
+            "lat": 39.7314671,
+            "lng": -105.003654
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "10th / Osage Station serves a residential area of Denver and is the northernmost station of the Central Corridor."
+    },
+    {
+      "id": "lincoln",
+      "systemId": "rtd-denver",
+      "name": "Lincoln",
+      "lines": ["e-line", "t-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.546147,
+        "lng": -104.869738
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33714",
+      "wikipedia": "en:Lincoln station (RTD)",
+      "osmId": 7383362933,
+      "entrances": [
+        {
+          "id": "osm-5465996835",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.5449203,
+            "lng": -104.8702775
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12060174212",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.547402,
+            "lng": -104.8705998
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12060192567",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.5463784,
+            "lng": -104.8699484
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Lincoln Station serves some office buildings off of I-25, but primarily serves as a park and ride."
+    },
+    {
+      "id": "orchard",
+      "systemId": "rtd-denver",
+      "name": "Orchard",
+      "lines": ["e-line", "t-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.6134,
+        "lng": -104.89641
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33720",
+      "wikipedia": "en:Orchard station (RTD)",
+      "osmId": 6775305388,
+      "wikidata": "Q7100170",
+      "description": "Orchard Station serves Greenwood Village. It has an art installation of stamped concrete called Orchard Memory, created by Wopo Holup."
+    },
+    {
+      "id": "evans",
+      "systemId": "rtd-denver",
+      "name": "Evans",
+      "lines": ["c-line", "e-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.677962,
+        "lng": -104.992465
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33713",
+      "wikipedia": "en:Evans station (RTD)",
+      "osmId": 7381234663,
+      "description": "Evans Station serves the Overland neighborhood at US 85."
+    },
+    {
+      "id": "sheridan",
+      "systemId": "rtd-denver",
+      "name": "Sheridan",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.735028,
+        "lng": -105.053634
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34235",
+      "wikipedia": "en:Sheridan station (RTD)",
+      "osmId": 7377152065,
+      "entrances": [
+        {
+          "id": "osm-3310326966",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7342776,
+            "lng": -105.0541558
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3311016240",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7336192,
+            "lng": -105.0540957
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3311035961",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7335764,
+            "lng": -105.0535108
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Sheridan Station serves the border of Lakewood and Denver along Sheridan Blvd. It is near Sloan's Lake and has a large park and ride garage."
+    },
+    {
+      "id": "aurora-metro-center",
+      "systemId": "rtd-denver",
+      "name": "Aurora Metro Center",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.709069,
+        "lng": -104.818422
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34678",
+      "wikipedia": "en:Aurora Metro Center station",
+      "osmId": 7383433206,
+      "entrances": [
+        {
+          "id": "osm-6269021565",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7106011,
+            "lng": -104.8204053
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11771338226",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7105415,
+            "lng": -104.8212803
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-11771338230",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7106098,
+            "lng": -104.821242
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12198023772",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7106581,
+            "lng": -104.8211853
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12198023773",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.7106849,
+            "lng": -104.8211855
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12285238915",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7086543,
+            "lng": -104.8218612
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12285238917",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.708868,
+            "lng": -104.8215874
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12285238924",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.7094584,
+            "lng": -104.8216801
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12285238935",
+          "name": "Entrance 9",
+          "coordinates": {
+            "lat": 39.709105,
+            "lng": -104.8212836
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12285238943",
+          "name": "Entrance 10",
+          "coordinates": {
+            "lat": 39.7094393,
+            "lng": -104.8216548
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921721",
+          "name": "Entrance 11",
+          "coordinates": {
+            "lat": 39.7115125,
+            "lng": -104.8186678
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921731",
+          "name": "Entrance 12",
+          "coordinates": {
+            "lat": 39.7115118,
+            "lng": -104.8185465
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921734",
+          "name": "Entrance 13",
+          "coordinates": {
+            "lat": 39.7115105,
+            "lng": -104.8183369
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921756",
+          "name": "Entrance 14",
+          "coordinates": {
+            "lat": 39.7115113,
+            "lng": -104.8184581
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13391304249",
+          "name": "Entrance 15",
+          "coordinates": {
+            "lat": 39.7074722,
+            "lng": -104.8186597
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13391308141",
+          "name": "Entrance 16",
+          "coordinates": {
+            "lat": 39.7071825,
+            "lng": -104.8186658
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921741",
+          "name": "Entrance 17",
+          "coordinates": {
+            "lat": 39.7116173,
+            "lng": -104.8187837
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921743",
+          "name": "Entrance 18",
+          "coordinates": {
+            "lat": 39.7115525,
+            "lng": -104.8188132
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921752",
+          "name": "Entrance 19",
+          "coordinates": {
+            "lat": 39.7116728,
+            "lng": -104.8187844
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12455921758",
+          "name": "Entrance 20",
+          "coordinates": {
+            "lat": 39.7117472,
+            "lng": -104.8187837
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13391304233",
+          "name": "Entrance 21",
+          "coordinates": {
+            "lat": 39.7069458,
+            "lng": -104.8178752
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13391304242",
+          "name": "Entrance 22",
+          "coordinates": {
+            "lat": 39.707413,
+            "lng": -104.8174157
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13391308154",
+          "name": "Entrance 23",
+          "coordinates": {
+            "lat": 39.7072482,
+            "lng": -104.8178086
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Aurora Metro Center Station serves the Town Center at Aurora mall and the Aurora Municipal Center."
+    },
+    {
+      "id": "lamar",
+      "systemId": "rtd-denver",
+      "name": "Lamar",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.736672,
+        "lng": -105.066483
+      },
+      "features": ["accessible", "fare-vending"],
+      "gtfsId": "34236",
+      "wikipedia": "en:Lamar station (RTD)",
+      "osmId": 2375617610,
+      "wikidata": "Q16893934",
+      "entrances": [
+        {
+          "id": "osm-3647013696",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7387103,
+            "lng": -105.067745
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-8490294505",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7366862,
+            "lng": -105.0669185
+          },
+          "wheelchair": true
+        }
+      ],
+      "description": "Lamar Station serves a residential area of Lakewood, with some transit-oriented development nearby."
+    },
+    {
+      "id": "arvada-ridge",
+      "systemId": "rtd-denver",
+      "name": "Arvada Ridge",
+      "lines": ["g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.791993,
+        "lng": -105.110976
+      },
+      "features": ["accessible", "elevator", "fare-vending"],
+      "gtfsId": "34505",
+      "wikipedia": "en:Arvada Ridge station",
+      "osmId": 7373751379,
+      "description": "Arvada Ridge Station serves western Arvada, Colorado, with service to Red Rocks Community College's Arvada campus. It features an art installation called Chromatic Harvest."
+    },
+    {
+      "id": "dry-creek",
+      "systemId": "rtd-denver",
+      "name": "Dry Creek",
+      "lines": ["e-line", "t-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.579487,
+        "lng": -104.877416
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33711",
+      "wikipedia": "en:Dry Creek station",
+      "osmId": 7383363689,
+      "description": "Dry Creek Station serves a commercial-heavy area of Centennial. It has an art installation of a series of hourglasses containing pyrite that is named Fools Gold, created by John McEnroe."
+    },
+    {
+      "id": "lone-tree-city-center",
+      "systemId": "rtd-denver",
+      "name": "Lone Tree City Center",
+      "lines": ["e-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.527669,
+        "lng": -104.86294
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "35244",
+      "wikipedia": "en:List of Denver RTD rail stations",
+      "osmId": 7383401604,
+      "description": "Lone Tree City Center Station serves a field. It is by far the least used RTD station with an average of 20 passengers, zero parking spots, and nothing interesting nearby. It is planned to host transit-oriented development, but no such plans have been created since its opening in 2019."
+    },
+    {
       "id": "union-station",
       "systemId": "rtd-denver",
-      "gtfsId": "33727",
       "name": "Union Station",
-      "wikipedia": "en:Denver Union Station",
-      "lines": ["a-line", "b-line", "c-line", "e-line", "g-line", "n-line", "w-line"],
+      "lines": ["c-line", "e-line", "w-line", "b-line", "g-line", "n-line", "a-line"],
       "status": "active",
       "coordinates": {
         "lat": 39.754338,
         "lng": -105.00214
       },
       "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33727",
+      "wikipedia": "en:Denver Union Station",
       "osmId": 7373849586,
       "entrances": [
         {
@@ -1153,11 +2661,423 @@
       "description": "Union Station is the historical intercity rail station serving Denver. It was renovated in 1914 and 2014. The majority of RTD rail lines connect to Union Station."
     },
     {
+      "id": "olde-town-arvada",
+      "systemId": "rtd-denver",
+      "name": "Olde Town Arvada",
+      "lines": ["g-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.798974,
+        "lng": -105.078976
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "33833",
+      "wikipedia": "en:Olde Town Arvada station",
+      "osmId": 7373751380,
+      "entrances": [
+        {
+          "id": "osm-6872110806",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.8012951,
+            "lng": -105.0773168
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6872110812",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.8011771,
+            "lng": -105.0773328
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6872110911",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.800996,
+            "lng": -105.0773202
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6872110917",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.8008753,
+            "lng": -105.0773353
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Olde Town Arvada Station serves the Olde Town Arvada shopping area."
+    },
+    {
+      "id": "englewood",
+      "systemId": "rtd-denver",
+      "name": "Englewood",
+      "lines": ["c-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.655506,
+        "lng": -104.999664
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33712",
+      "wikipedia": "en:Englewood station (RTD)",
+      "osmId": 1362259732,
+      "wikidata": "Q5378117",
+      "entrances": [
+        {
+          "id": "osm-7246587816",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6544952,
+            "lng": -104.9994234
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Englewood Station serves the Englewood Civic Center and sits at the interchange between US 85 and US 285, both of which are suburban freeways."
+    },
+    {
+      "id": "ball-arena-elitch-gardens",
+      "systemId": "rtd-denver",
+      "name": "Ball Arena / Elitch Gardens",
+      "lines": ["c-line", "e-line", "w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.748691,
+        "lng": -105.009234
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "34110",
+      "wikipedia": "en:Ball Arena–Elitch Gardens station",
+      "osmId": 7377206479,
+      "entrances": [
+        {
+          "id": "osm-4105416774",
+          "name": "Elitch Gardens Entrance",
+          "coordinates": {
+            "lat": 39.7502753,
+            "lng": -105.0106653
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4105416777",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7502899,
+            "lng": -105.0104694
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4124962155",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.748292,
+            "lng": -105.0086747
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4569769208",
+          "name": "Altitude Athletics",
+          "coordinates": {
+            "lat": 39.7479765,
+            "lng": -105.007248
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5216416552",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.749323,
+            "lng": -105.007971
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5216424579",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.7491977,
+            "lng": -105.007099
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6649992756",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.7494707,
+            "lng": -105.0071049
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-6767730586",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.7469052,
+            "lng": -105.0074126
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7293059524",
+          "name": "Door 2",
+          "coordinates": {
+            "lat": 39.7479496,
+            "lng": -105.0078343
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7293059525",
+          "name": "VIP Entrance",
+          "coordinates": {
+            "lat": 39.7479964,
+            "lng": -105.007854
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7293059526",
+          "name": "Door 3",
+          "coordinates": {
+            "lat": 39.7478996,
+            "lng": -105.0078133
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7293059527",
+          "name": "Door 4",
+          "coordinates": {
+            "lat": 39.7478526,
+            "lng": -105.0077935
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7293059528",
+          "name": "Door 5",
+          "coordinates": {
+            "lat": 39.7478042,
+            "lng": -105.0077732
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-8493059490",
+          "name": "East Entrance",
+          "coordinates": {
+            "lat": 39.7490091,
+            "lng": -105.0068857
+          },
+          "ref": "East Entrance",
+          "wheelchair": false
+        }
+      ],
+      "description": "Ball Arena / Elitch Gardens Station serves the area directly west of Union Station, including Ball Arena and Elitch Gardens."
+    },
+    {
+      "id": "sky-ridge",
+      "systemId": "rtd-denver",
+      "name": "Sky Ridge",
+      "lines": ["e-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.532268,
+        "lng": -104.869854
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "35243",
+      "wikipedia": "en:Sky Ridge station",
+      "osmId": 7383401602,
+      "entrances": [
+        {
+          "id": "osm-11032921456",
+          "name": "Ambulance Entrance",
+          "coordinates": {
+            "lat": 39.530845,
+            "lng": -104.8709756
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-9943391811",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.531955,
+            "lng": -104.8688132
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Sky Ridge Station serves the Sky Ridge Medical Center."
+    },
+    {
+      "id": "northglenn-112th-ave",
+      "systemId": "rtd-denver",
+      "name": "Northglenn / 112th",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.902677,
+        "lng": -104.959583
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "35366",
+      "wikipedia": "en:Northglenn/112th station",
+      "description": "Northglenn / 112th Station serves Northglenn. During its construction, a trestle bridge from 1909 was discovered, but it was determined not to be of historical value and destroyed."
+    },
+    {
+      "id": "garrison",
+      "systemId": "rtd-denver",
+      "name": "Garrison",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.736531,
+        "lng": -105.099528
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34238",
+      "wikipedia": "en:Garrison station (RTD)",
+      "osmId": 2375621013,
+      "wikidata": "Q16891541",
+      "description": "Garrison Station serves a primarily residential area."
+    },
+    {
+      "id": "40th-colorado",
+      "systemId": "rtd-denver",
+      "name": "40th / Colorado",
+      "lines": ["a-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.775841,
+        "lng": -104.944754
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34500",
+      "wikipedia": "en:40th & Colorado station",
+      "osmId": 7373859141,
+      "description": "40th / Colorado Station serves the Elyria-Swansea neighborhood of Denver. It features an art installation named Hands On created by Erik Carlson."
+    },
+    {
+      "id": "iliff",
+      "systemId": "rtd-denver",
+      "name": "Iliff",
+      "lines": ["r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.673511,
+        "lng": -104.826044
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "34677",
+      "wikipedia": "en:Iliff station",
+      "osmId": 6301523061,
+      "description": "TODO: Add station description."
+    },
+    {
+      "id": "61st-pena",
+      "systemId": "rtd-denver",
+      "name": "61st / Pena",
+      "lines": ["a-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.806945,
+        "lng": -104.783907
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34685",
+      "wikipedia": "en:61st & Peña station",
+      "osmId": 6777872314,
+      "wikidata": "Q24278813",
+      "description": "61st / Peña Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
+    },
+    {
+      "id": "yale",
+      "systemId": "rtd-denver",
+      "name": "Yale",
+      "lines": ["e-line", "t-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.668779,
+        "lng": -104.927566
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33723",
+      "wikipedia": "en:Yale station (RTD)",
+      "osmId": 7382731006,
+      "entrances": [
+        {
+          "id": "osm-5532005699",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6677513,
+            "lng": -104.927347
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5532005704",
+          "name": "Corson Dentistry",
+          "coordinates": {
+            "lat": 39.6676456,
+            "lng": -104.9273545
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5532005709",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.6678752,
+            "lng": -104.9273467
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5539348971",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.6685963,
+            "lng": -104.9284879
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Yale Station serves the Holly Hills area of Denver."
+    },
+    {
+      "id": "red-rocks-college",
+      "systemId": "rtd-denver",
+      "name": "Red Rocks College",
+      "lines": ["w-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.724954,
+        "lng": -105.149955
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "34240",
+      "wikipedia": "en:Red Rocks College station",
+      "osmId": 7377355851,
+      "description": "Red Rocks College Station serves as a midpoint between Federal Center Station and Jefferson County Government Center/Golden Station. It serves the Red Rocks Community College Lakewood campus."
+    },
+    {
       "id": "denver-airport",
       "systemId": "rtd-denver",
-      "gtfsId": "34503",
       "name": "Denver Airport",
-      "wikipedia": "en:Denver Airport station",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
@@ -1165,6 +3085,8 @@
         "lng": -104.673943
       },
       "features": ["accessible", "elevator", "fare-vending"],
+      "gtfsId": "34503",
+      "wikipedia": "en:Denver Airport station",
       "osmId": 6725337692,
       "wikidata": "Q24211058",
       "entrances": [
@@ -1892,138 +3814,18 @@
       "description": "Denver Airport Station allows travelers to get to Denver Airport via transit. It has a special, higher fare zone specifically for travelers to and from the station. It has three art installations: Shadow Array by Patrick Marold, L’eau dans tous ses états by Yann Kersalé, and an informal installation of railroad ties in an unused area."
     },
     {
-      "id": "peoria",
-      "systemId": "rtd-denver",
-      "gtfsId": "34502",
-      "name": "Peoria",
-      "wikipedia": "en:Peoria station",
-      "lines": ["a-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.766094,
-        "lng": -104.852057
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383476199,
-      "entrances": [
-        {
-          "id": "osm-10832817222",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7636739,
-            "lng": -104.8508561
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10832737483",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7640458,
-            "lng": -104.8522678
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10832817207",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7639816,
-            "lng": -104.8521684
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10832817217",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7640902,
-            "lng": -104.8511542
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10832817237",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.7640877,
-            "lng": -104.8512231
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10798189681",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7645285,
-            "lng": -104.8494597
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Peoria Station is a junction on the A Line and serves as the northern terminus of the R Line. It is the first A Line connection to Aurora. It has an art installation named Biota by Blessing Hancock."
-    },
-    {
-      "id": "i-25-broadway",
-      "systemId": "rtd-denver",
-      "gtfsId": "33686",
-      "name": "I-25 / Broadway",
-      "wikipedia": "en:I-25 & Broadway station",
-      "lines": ["c-line", "d-line", "e-line", "h-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.701235,
-        "lng": -104.98886
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 1359644378,
-      "description": "I-25 / Broadway Station was originally the southern terminus of the RTD rail network. During the Downtown Rail Reconstruction Project, it is served by the C, E, and temporary T Lines. It has three sculptures collectively titled The Welcoming Committee, created by Elaine Calzolari."
-    },
-    {
-      "id": "40th-airport-gateway-park",
-      "systemId": "rtd-denver",
-      "gtfsId": "33740",
-      "name": "40th  / Airport - Gateway Park",
-      "wikipedia": "en:40th Ave & Airport Blvd–Gateway Park station",
-      "lines": ["a-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.76983,
-        "lng": -104.785452
-      },
-      "features": ["accessible", "elevator", "fare-vending"],
-      "osmId": 7373859146,
-      "description": "40th / Airport - Gateway Park Station serves Aurora. It has a large park-and-ride facility and an art installation, Time Present, by Molly Dilworth."
-    },
-    {
-      "id": "central-park",
-      "systemId": "rtd-denver",
-      "gtfsId": "34501",
-      "name": "Central Park",
-      "wikipedia": "en:Central Park station (RTD)",
-      "lines": ["a-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.769723,
-        "lng": -104.892912
-      },
-      "features": ["fare-vending"],
-      "osmId": 7373859142,
-      "description": "Denver's Central Park Station serves the Park Hill and Central Park neighborhoods of Denver. It is near the former location of Stapleton International Airport. It has an art installation named Balloon Man Running created by Sean O'Meallie."
-    },
-    {
       "id": "auraria-west-campus",
       "systemId": "rtd-denver",
-      "gtfsId": "34112",
       "name": "Auraria West Campus",
-      "wikipedia": "en:Auraria West station",
-      "lines": ["c-line", "d-line", "e-line", "h-line", "w-line"],
+      "lines": ["c-line", "e-line", "w-line"],
       "status": "active",
       "coordinates": {
         "lat": 39.742207,
         "lng": -105.011133
       },
       "features": ["accessible", "fare-vending", "transfer"],
+      "gtfsId": "34112",
+      "wikipedia": "en:Auraria West station",
       "osmId": 7377231740,
       "entrances": [
         {
@@ -2192,1684 +3994,25 @@
       "description": "Auraria West Campus Station serves the Auraria Campus, home to the Community College of Denver, Metropolitan State University of Denver, and the University of Colorado Denver."
     },
     {
-      "id": "16th-california",
+      "id": "40th-airport-gateway-park",
       "systemId": "rtd-denver",
-      "name": "16th & California",
-      "wikipedia": "en:16th & California and 16th & Stout stations",
-      "lines": ["d-line", "h-line", "l-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.744814,
-        "lng": -104.9925368
-      },
-      "features": ["accessible", "bus-connection", "transfer"],
-      "description": "16th & California Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
-    },
-    {
-      "id": "16th-stout",
-      "systemId": "rtd-denver",
-      "name": "16th & Stout",
-      "wikipedia": "en:16th & California and 16th & Stout stations",
-      "lines": ["d-line", "h-line", "l-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.7460624,
-        "lng": -104.9929136
-      },
-      "features": ["accessible", "bus-connection", "transfer"],
-      "description": "16th & Stout Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
-    },
-    {
-      "id": "alameda",
-      "systemId": "rtd-denver",
-      "gtfsId": "33704",
-      "name": "Alameda",
-      "wikipedia": "en:Alameda station (RTD)",
-      "lines": ["c-line", "d-line", "e-line", "h-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.70892,
-        "lng": -104.992883
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7380250034,
-      "entrances": [
-        {
-          "id": "osm-4624552743",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7067209,
-            "lng": -104.9938414
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4624552871",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7072929,
-            "lng": -104.9941524
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Alameda Station is near the Denver Design District and shops on Broadway St. It primarily serves a residential area."
-    },
-    {
-      "id": "18th-california",
-      "systemId": "rtd-denver",
-      "name": "18th & California",
-      "wikipedia": "en:18th & California and 18th & Stout stations",
-      "lines": ["d-line", "h-line", "l-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.7466706,
-        "lng": -104.990151
-      },
-      "features": ["accessible", "bus-connection", "transfer"],
-      "description": "18th & California Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
-    },
-    {
-      "id": "18th-stout",
-      "systemId": "rtd-denver",
-      "name": "18th & Stout",
-      "wikipedia": "en:18th & California and 18th & Stout stations",
-      "lines": ["d-line", "h-line", "l-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.7479431,
-        "lng": -104.9905011
-      },
-      "features": ["fare-vending", "transfer"],
-      "description": "18th & Stout Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
-    },
-    {
-      "id": "10th-osage",
-      "systemId": "rtd-denver",
-      "gtfsId": "34109",
-      "name": "10th / Osage",
-      "wikipedia": "en:10th & Osage station",
-      "lines": ["c-line", "d-line", "e-line", "h-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.73215,
-        "lng": -105.0055
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 649985468,
-      "wikidata": "Q4546966",
-      "entrances": [
-        {
-          "id": "osm-3500207889",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7312103,
-            "lng": -105.0042869
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3432375052",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7342592,
-            "lng": -105.004407
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3500204166",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7313927,
-            "lng": -105.0043662
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3500207867",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7312404,
-            "lng": -105.004586
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3500233233",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.73471,
-            "lng": -105.0057852
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3500233800",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7347073,
-            "lng": -105.0055774
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3501335094",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.7326751,
-            "lng": -105.0033054
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4133497503",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.7339848,
-            "lng": -105.0049551
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6691071125",
-          "name": "Entrance 9",
-          "coordinates": {
-            "lat": 39.7317979,
-            "lng": -105.003654
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6691071126",
-          "name": "Entrance 10",
-          "coordinates": {
-            "lat": 39.7314671,
-            "lng": -105.003654
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "10th / Osage Station serves a residential area of Denver and is the northernmost station of the Central Corridor."
-    },
-    {
-      "id": "littleton-mineral",
-      "systemId": "rtd-denver",
-      "gtfsId": "33716",
-      "name": "Littleton-Mineral",
-      "wikipedia": "en:Littleton–Mineral station",
-      "lines": ["c-line", "d-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.58039,
-        "lng": -105.02611
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7382036678,
-      "description": "Littleton-Mineral Station serves as the southern terminus for the C Line, but RTD plans to extend the line south to Highlands Ranch."
-    },
-    {
-      "id": "colfax-auraria",
-      "systemId": "rtd-denver",
-      "name": "Colfax at Auraria",
-      "wikipedia": "en:Colfax at Auraria station",
-      "lines": ["d-line", "h-line", "l-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.740319,
-        "lng": -105.001918
-      },
-      "features": ["accessible", "bus-connection", "transfer"],
-      "description": "Colfax at Auraria Station serves the east end of the Auraria Campus."
-    },
-    {
-      "id": "38th-blake",
-      "systemId": "rtd-denver",
-      "gtfsId": "34684",
-      "name": "38th / Blake",
-      "wikipedia": "en:38th & Blake station",
+      "name": "40th  / Airport - Gateway Park",
       "lines": ["a-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.770729,
-        "lng": -104.9734
+        "lat": 39.76983,
+        "lng": -104.785452
       },
       "features": ["accessible", "elevator", "fare-vending"],
-      "osmId": 7373859138,
-      "entrances": [
-        {
-          "id": "osm-7534437369",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7696813,
-            "lng": -104.9764109
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11010424943",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.769418,
-            "lng": -104.9711625
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12022118681",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7695618,
-            "lng": -104.9737676
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12022880833",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.770441,
-            "lng": -104.9699504
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6698182645",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.7705912,
-            "lng": -104.9700668
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "38th / Blake Station serves the Five Points neighborhood of Denver, including RiNo. It has an art installation named Conflux/Redox by Kelton Osborn."
-    },
-    {
-      "id": "61st-pena",
-      "systemId": "rtd-denver",
-      "gtfsId": "34685",
-      "name": "61st / Pena",
-      "wikipedia": "en:61st & Peña station",
-      "lines": ["a-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.806945,
-        "lng": -104.783907
-      },
-      "features": ["fare-vending"],
-      "osmId": 6777872314,
-      "wikidata": "Q24278813",
-      "description": "61st / Peña Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
-    },
-    {
-      "id": "40th-colorado",
-      "systemId": "rtd-denver",
-      "gtfsId": "34500",
-      "name": "40th / Colorado",
-      "wikipedia": "en:40th & Colorado station",
-      "lines": ["a-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.775841,
-        "lng": -104.944754
-      },
-      "features": ["fare-vending"],
-      "osmId": 7373859141,
-      "description": "40th / Colorado Station serves the Elyria-Swansea neighborhood of Denver. It features an art installation named Hands On created by Erik Carlson."
-    },
-    {
-      "id": "florida",
-      "systemId": "rtd-denver",
-      "gtfsId": "34679",
-      "name": "Florida",
-      "wikipedia": "en:Florida station (RTD)",
-      "lines": ["h-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.689917,
-        "lng": -104.828099
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383433204,
-      "entrances": [
-        {
-          "id": "osm-11016362066",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6899541,
-            "lng": -104.8315336
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Florida Station is served by the R Line. H Line service is suspended during the Downtown Rail Reconstruction Project."
-    },
-    {
-      "id": "arapahoe-at-village-center",
-      "systemId": "rtd-denver",
-      "gtfsId": "33705",
-      "name": "Arapahoe at Village Center",
-      "wikipedia": "en:Arapahoe at Village Center station",
-      "lines": ["e-line", "r-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.601315,
-        "lng": -104.887494
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383367586,
-      "entrances": [
-        {
-          "id": "osm-13395296862",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.5992549,
-            "lng": -104.8865898
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Arapahoe at Village Center Station serves the Fiddler's Green Amphitheatre and has an art installation, Nucleus, by Michael Clapper."
-    },
-    {
-      "id": "colorado",
-      "systemId": "rtd-denver",
-      "gtfsId": "33708",
-      "name": "Colorado",
-      "wikipedia": "en:Colorado station",
-      "lines": ["e-line", "h-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.679398,
-        "lng": -104.937673
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 1362259731,
-      "wikidata": "Q5148687",
-      "description": "Colorado Station serves the Colorado Center. It has an art installation named Big Boots created by Ries Niemi."
-    },
-    {
-      "id": "nine-mile",
-      "systemId": "rtd-denver",
-      "gtfsId": "33719",
-      "name": "Nine Mile",
-      "wikipedia": "en:Nine Mile station",
-      "lines": ["h-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.658414,
-        "lng": -104.845517
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 6775305387,
-      "wikidata": "Q7038369",
-      "entrances": [
-        {
-          "id": "osm-6743340079",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6608529,
-            "lng": -104.8448936
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Nine Mile Station serves as a transit hub for southeast Denver and south Aurora. There are buses that provide service to Denver International Airport that is often faster than the R Line."
-    },
-    {
-      "id": "lakewood-wadsworth",
-      "systemId": "rtd-denver",
-      "gtfsId": "34237",
-      "name": "Lakewood-Wadsworth",
-      "wikipedia": "en:Lakewood–Wadsworth station",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.736884,
-        "lng": -105.081096
-      },
-      "features": ["accessible", "elevator", "fare-vending"],
-      "osmId": 7377364581,
-      "entrances": [
-        {
-          "id": "osm-3646980681",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7369936,
-            "lng": -105.0809352
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3646980683",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7372938,
-            "lng": -105.0809752
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3646980649",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7381,
-            "lng": -105.0810231
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3646990869",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7375889,
-            "lng": -105.0803194
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Lakewood-Wadsworth Station is the primary light rail station serving Lakewood, Colorado. It is located on an overpass of Wadsworth Blvd, allowing pedestrians to exit and enter from either side of the road. Recently, it has spurred transit-oriented development, and is a popular park and ride for residents going to sports events and downtown Denver."
-    },
-    {
-      "id": "eastlake-124th-ave",
-      "systemId": "rtd-denver",
-      "gtfsId": "35367",
-      "name": "Eastlake / 124th Ave",
-      "wikipedia": "en:Eastlake/124th station",
-      "lines": ["n-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.922525,
-        "lng": -104.962657
-      },
-      "features": ["fare-vending"],
-      "description": "Eastlake / 124th Ave Station serves as the terminus for the N Line."
-    },
-    {
-      "id": "southmoor",
-      "systemId": "rtd-denver",
-      "gtfsId": "33721",
-      "name": "Southmoor",
-      "wikipedia": "en:Southmoor station",
-      "lines": ["e-line", "h-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.648898,
-        "lng": -104.915046
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 442726036,
-      "wikidata": "Q7570906",
-      "entrances": [
-        {
-          "id": "osm-2424886746",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6487776,
-            "lng": -104.9156174
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Southmoor Station serves South Denver and acts as the transfer point to the I-225 Corridor."
-    },
-    {
-      "id": "decatur-federal",
-      "systemId": "rtd-denver",
-      "gtfsId": "34232",
-      "name": "Decatur-Federal",
-      "wikipedia": "en:Decatur–Federal station",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.737418,
-        "lng": -105.024806
-      },
-      "features": ["fare-vending"],
-      "osmId": 7377352002,
-      "entrances": [
-        {
-          "id": "osm-3539134906",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7350926,
-            "lng": -105.0243504
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5535522372",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7376484,
-            "lng": -105.0273704
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5535523794",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.73762,
-            "lng": -105.0268098
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7517776377",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7361306,
-            "lng": -105.0232731
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5535522331",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.7384908,
-            "lng": -105.0277709
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Decatur-Federal Station serves a mixed commercial and residential area. The Colorado Department of Transportation is headquartered at Decatur-Federal, and the station serves Empower Field at Mile High and is a notable bus terminus."
-    },
-    {
-      "id": "theatre-district-convention-center",
-      "systemId": "rtd-denver",
-      "name": "Theatre District-Convention Center",
-      "wikipedia": "en:Theatre District–Convention Center station",
-      "lines": ["d-line", "h-line", "l-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.743727,
-        "lng": -104.996341
-      },
-      "features": ["accessible", "bus-connection", "transfer"],
-      "description": "Theatre District-Convention Center Station serves the Colorado Convention Center and the Denver Performing Arts Complex. It replaced the 14th & California and 14th & Stout stations."
-    },
-    {
-      "id": "englewood",
-      "systemId": "rtd-denver",
-      "gtfsId": "33712",
-      "name": "Englewood",
-      "wikipedia": "en:Englewood station (RTD)",
-      "lines": ["c-line", "d-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.655506,
-        "lng": -104.999664
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 1362259732,
-      "wikidata": "Q5378117",
-      "entrances": [
-        {
-          "id": "osm-7246587816",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6544952,
-            "lng": -104.9994234
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Englewood Station serves the Englewood Civic Center and sits at the interchange between US 85 and US 285, both of which are suburban freeways."
-    },
-    {
-      "id": "belleview",
-      "systemId": "rtd-denver",
-      "gtfsId": "33706",
-      "name": "Belleview",
-      "wikipedia": "en:Belleview station",
-      "lines": ["e-line", "r-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.627524,
-        "lng": -104.904746
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 6775354285,
-      "wikidata": "Q4883836",
-      "description": "Belleview Station serves the Denver Tech Center. It has an art installation called Thunder over the Rockies, created by Richard C. Elliott."
-    },
-    {
-      "id": "federal-center",
-      "systemId": "rtd-denver",
-      "gtfsId": "33741",
-      "name": "Federal Center",
-      "wikipedia": "en:Federal Center station (RTD)",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.719005,
-        "lng": -105.129257
-      },
-      "features": ["accessible", "fare-vending"],
-      "osmId": 2376710603,
-      "wikidata": "Q16891234",
-      "entrances": [
-        {
-          "id": "osm-4772015851",
-          "name": "OrthoColorado Main Entrance",
-          "coordinates": {
-            "lat": 39.7171411,
-            "lng": -105.1296223
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772015898",
-          "name": "Plaza 1 Main Entrance",
-          "coordinates": {
-            "lat": 39.7171404,
-            "lng": -105.1299531
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772015918",
-          "name": "OrthoColorado Main Entrance",
-          "coordinates": {
-            "lat": 39.7171061,
-            "lng": -105.1297578
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038344",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7168277,
-            "lng": -105.1301542
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038347",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.716816,
-            "lng": -105.1292331
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038362",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7167708,
-            "lng": -105.1291968
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038367",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.71704,
-            "lng": -105.1304106
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038371",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.7165905,
-            "lng": -105.1297252
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038375",
-          "name": "Entrance 9",
-          "coordinates": {
-            "lat": 39.7166594,
-            "lng": -105.1295911
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038403",
-          "name": "Entrance 10",
-          "coordinates": {
-            "lat": 39.7168495,
-            "lng": -105.1293873
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038409",
-          "name": "Entrance 11",
-          "coordinates": {
-            "lat": 39.7168494,
-            "lng": -105.1297246
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038411",
-          "name": "Entrance 12",
-          "coordinates": {
-            "lat": 39.7166656,
-            "lng": -105.1297664
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4772038414",
-          "name": "Entrance 13",
-          "coordinates": {
-            "lat": 39.7166336,
-            "lng": -105.1301229
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7352595856",
-          "name": "Disabled-Golden",
-          "coordinates": {
-            "lat": 39.7200523,
-            "lng": -105.12963
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-7352595879",
-          "name": "Entrance 15",
-          "coordinates": {
-            "lat": 39.7199089,
-            "lng": -105.128482
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4826231391",
-          "name": "Entrance 16",
-          "coordinates": {
-            "lat": 39.7189107,
-            "lng": -105.1258845
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Federal Center Station serves the nearby Federal Center and CommonSpirit St. Anthony Hospital, which is a level 1 trauma center. It is the last station of double track before the W Line switches to single track for the final stretch to Jefferson County Government Center/Golden Station."
-    },
-    {
-      "id": "lincoln",
-      "systemId": "rtd-denver",
-      "gtfsId": "33714",
-      "name": "Lincoln",
-      "wikipedia": "en:Lincoln station (RTD)",
-      "lines": ["e-line", "r-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.546147,
-        "lng": -104.869738
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383362933,
-      "entrances": [
-        {
-          "id": "osm-5465996835",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.5449203,
-            "lng": -104.8702775
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12060174212",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.547402,
-            "lng": -104.8705998
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12060192567",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.5463784,
-            "lng": -104.8699484
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Lincoln Station serves some office buildings off of I-25, but primarily serves as a park and ride."
-    },
-    {
-      "id": "jefferson-co-government-golden",
-      "systemId": "rtd-denver",
-      "gtfsId": "34241",
-      "name": "Jefferson County Government Center/Golden",
-      "wikipedia": "en:Jefferson County Government Center–Golden station",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.726354,
-        "lng": -105.199734
-      },
-      "features": ["fare-vending"],
-      "entrances": [
-        {
-          "id": "osm-13689828206",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7268151,
-            "lng": -105.2012239
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13689828207",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7272362,
-            "lng": -105.2000561
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Jefferson County Government Center/Golden Station serves the nearby community of Golden, including the Colorado School of Mines. In partnership with the City of Golden, Mines operates a transit shuttle called the Ore Cart that takes passengers from Jefferson County Government Center to downtown Golden and the Mines campus."
-    },
-    {
-      "id": "olde-town-arvada",
-      "systemId": "rtd-denver",
-      "gtfsId": "33833",
-      "name": "Olde Town Arvada",
-      "wikipedia": "en:Olde Town Arvada station",
-      "lines": ["g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.798974,
-        "lng": -105.078976
-      },
-      "features": ["fare-vending"],
-      "osmId": 7373751380,
-      "entrances": [
-        {
-          "id": "osm-6872110806",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.8012951,
-            "lng": -105.0773168
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6872110812",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.8011771,
-            "lng": -105.0773328
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6872110911",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.800996,
-            "lng": -105.0773202
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6872110917",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.8008753,
-            "lng": -105.0773353
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Olde Town Arvada Station serves the Olde Town Arvada shopping area."
-    },
-    {
-      "id": "ridgegate-parkway",
-      "systemId": "rtd-denver",
-      "gtfsId": "35245",
-      "name": "Ridgegate Parkway",
-      "wikipedia": "en:RidgeGate Parkway station",
-      "lines": ["e-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.51936,
-        "lng": -104.865365
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383401606,
-      "entrances": [
-        {
-          "id": "osm-7357063944",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.519127,
-            "lng": -104.8657148
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12125188582",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.5201017,
-            "lng": -104.8652255
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12127503578",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.5208662,
-            "lng": -104.8651863
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12127550530",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.5197788,
-            "lng": -104.8644596
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13811219373",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.5200649,
-            "lng": -104.8651833
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13811384120",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.5208673,
-            "lng": -104.8652037
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12127602605",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.5209056,
-            "lng": -104.8626914
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12127602607",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.5209178,
-            "lng": -104.8627237
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Ridgegate Parkway Station is planned to serve the Ridgegate development, a large mixed-use community spanning 3,500 acres."
-    },
-    {
-      "id": "littleton-downtown",
-      "systemId": "rtd-denver",
-      "gtfsId": "33715",
-      "name": "Littleton-Downtown",
-      "wikipedia": "en:Littleton–Downtown station",
-      "lines": ["c-line", "d-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.611904,
-        "lng": -105.01521
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7382036676,
-      "entrances": [
-        {
-          "id": "osm-7152979400",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6128113,
-            "lng": -105.0127719
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Littleton / Downtown Station serves downtown Littleton. It was historically a depot for the Denver & Rio Grande Railroad's Royal Gorge Route."
-    },
-    {
-      "id": "sheridan",
-      "systemId": "rtd-denver",
-      "gtfsId": "34235",
-      "name": "Sheridan",
-      "wikipedia": "en:Sheridan station (RTD)",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.735028,
-        "lng": -105.053634
-      },
-      "features": ["fare-vending"],
-      "osmId": 7377152065,
-      "entrances": [
-        {
-          "id": "osm-3310326966",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7342776,
-            "lng": -105.0541558
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3311016240",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7336192,
-            "lng": -105.0540957
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3311035961",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7335764,
-            "lng": -105.0535108
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Sheridan Station serves the border of Lakewood and Denver along Sheridan Blvd. It is near Sloan's Lake and has a large park and ride garage."
-    },
-    {
-      "id": "oak",
-      "systemId": "rtd-denver",
-      "gtfsId": "34239",
-      "name": "Oak",
-      "wikipedia": "en:Oak station (RTD)",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.737381,
-        "lng": -105.119365
-      },
-      "features": ["fare-vending"],
-      "osmId": 7377392085,
-      "entrances": [
-        {
-          "id": "osm-7278959377",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7396509,
-            "lng": -105.1176958
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7278962985",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7396938,
-            "lng": -105.1180364
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Oak Station serves a mixed commercial area of Lakewood, near the Lakewood Tech Center. It has spurred some transit-oriented development and serves as a bus transfer point."
-    },
-    {
-      "id": "university-of-denver",
-      "systemId": "rtd-denver",
-      "gtfsId": "33722",
-      "name": "University of Denver",
-      "wikipedia": "en:University of Denver station",
-      "lines": ["e-line", "h-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.684914,
-        "lng": -104.964677
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7382703641,
-      "entrances": [
-        {
-          "id": "osm-5549683230",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6839408,
-            "lng": -104.9650713
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5549683323",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.6839697,
-            "lng": -104.9642042
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-9825904246",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.6825561,
-            "lng": -104.9644004
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-9825904256",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.6823805,
-            "lng": -104.9647355
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-9825904260",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.6823166,
-            "lng": -104.9645647
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "University of Denver Station serves the University of Denver and the surrounding University Park neighborhood."
-    },
-    {
-      "id": "ball-arena-elitch-gardens",
-      "systemId": "rtd-denver",
-      "gtfsId": "34110",
-      "name": "Ball Arena / Elitch Gardens",
-      "wikipedia": "en:Ball Arena–Elitch Gardens station",
-      "lines": ["c-line", "e-line", "w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.748691,
-        "lng": -105.009234
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7377206479,
-      "entrances": [
-        {
-          "id": "osm-4105416774",
-          "name": "Elitch Gardens Entrance",
-          "coordinates": {
-            "lat": 39.7502753,
-            "lng": -105.0106653
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4105416777",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7502899,
-            "lng": -105.0104694
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4124962155",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.748292,
-            "lng": -105.0086747
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4569769208",
-          "name": "Altitude Athletics",
-          "coordinates": {
-            "lat": 39.7479765,
-            "lng": -105.007248
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5216416552",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.749323,
-            "lng": -105.007971
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5216424579",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7491977,
-            "lng": -105.007099
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6649992756",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.7494707,
-            "lng": -105.0071049
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-6767730586",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.7469052,
-            "lng": -105.0074126
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7293059524",
-          "name": "Door 2",
-          "coordinates": {
-            "lat": 39.7479496,
-            "lng": -105.0078343
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7293059525",
-          "name": "VIP Entrance",
-          "coordinates": {
-            "lat": 39.7479964,
-            "lng": -105.007854
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7293059526",
-          "name": "Door 3",
-          "coordinates": {
-            "lat": 39.7478996,
-            "lng": -105.0078133
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7293059527",
-          "name": "Door 4",
-          "coordinates": {
-            "lat": 39.7478526,
-            "lng": -105.0077935
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7293059528",
-          "name": "Door 5",
-          "coordinates": {
-            "lat": 39.7478042,
-            "lng": -105.0077732
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-8493059490",
-          "name": "East Entrance",
-          "coordinates": {
-            "lat": 39.7490091,
-            "lng": -105.0068857
-          },
-          "ref": "East Entrance",
-          "wheelchair": false
-        }
-      ],
-      "description": "Ball Arena / Elitch Gardens Station serves the area directly west of Union Station, including Ball Arena and Elitch Gardens."
-    },
-    {
-      "id": "thornton-crossroads-104th-ave",
-      "systemId": "rtd-denver",
-      "gtfsId": "35365",
-      "name": "Thornton Crossroads / 104th Ave",
-      "wikipedia": "en:Thornton Crossroads/104th station",
-      "lines": ["n-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.881986,
-        "lng": -104.940968
-      },
-      "features": ["fare-vending"],
-      "description": "Thornton Crossroads / 104th Ave Station serves Thornton at Colorado Boulevard and 104th Boulevard."
-    },
-    {
-      "id": "iliff",
-      "systemId": "rtd-denver",
-      "gtfsId": "34677",
-      "name": "Iliff",
-      "wikipedia": "en:Iliff station",
-      "lines": ["h-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.673511,
-        "lng": -104.826044
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 6301523061,
-      "description": "TODO: Add station description."
-    },
-    {
-      "id": "county-line",
-      "systemId": "rtd-denver",
-      "gtfsId": "33709",
-      "name": "County Line",
-      "wikipedia": "en:County Line station (RTD)",
-      "lines": ["e-line", "r-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.561964,
-        "lng": -104.870532
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383375126,
-      "description": "County Line Station serves the Park Meadows mall, though it did not have direct pedestrian access to the mall for 2 years after its construction. It features a sculpture named Plow created by Emmett Culligan."
-    },
-    {
-      "id": "aurora-metro-center",
-      "systemId": "rtd-denver",
-      "gtfsId": "34678",
-      "name": "Aurora Metro Center",
-      "wikipedia": "en:Aurora Metro Center station",
-      "lines": ["r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.709069,
-        "lng": -104.818422
-      },
-      "features": ["fare-vending"],
-      "osmId": 7383433206,
-      "entrances": [
-        {
-          "id": "osm-6269021565",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7106011,
-            "lng": -104.8204053
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11771338226",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7105415,
-            "lng": -104.8212803
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11771338230",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7106098,
-            "lng": -104.821242
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12198023772",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7106581,
-            "lng": -104.8211853
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12198023773",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.7106849,
-            "lng": -104.8211855
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12285238915",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7086543,
-            "lng": -104.8218612
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12285238917",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.708868,
-            "lng": -104.8215874
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12285238924",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.7094584,
-            "lng": -104.8216801
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12285238935",
-          "name": "Entrance 9",
-          "coordinates": {
-            "lat": 39.709105,
-            "lng": -104.8212836
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12285238943",
-          "name": "Entrance 10",
-          "coordinates": {
-            "lat": 39.7094393,
-            "lng": -104.8216548
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921721",
-          "name": "Entrance 11",
-          "coordinates": {
-            "lat": 39.7115125,
-            "lng": -104.8186678
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921731",
-          "name": "Entrance 12",
-          "coordinates": {
-            "lat": 39.7115118,
-            "lng": -104.8185465
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921734",
-          "name": "Entrance 13",
-          "coordinates": {
-            "lat": 39.7115105,
-            "lng": -104.8183369
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921756",
-          "name": "Entrance 14",
-          "coordinates": {
-            "lat": 39.7115113,
-            "lng": -104.8184581
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13391304249",
-          "name": "Entrance 15",
-          "coordinates": {
-            "lat": 39.7074722,
-            "lng": -104.8186597
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13391308141",
-          "name": "Entrance 16",
-          "coordinates": {
-            "lat": 39.7071825,
-            "lng": -104.8186658
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921741",
-          "name": "Entrance 17",
-          "coordinates": {
-            "lat": 39.7116173,
-            "lng": -104.8187837
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921743",
-          "name": "Entrance 18",
-          "coordinates": {
-            "lat": 39.7115525,
-            "lng": -104.8188132
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921752",
-          "name": "Entrance 19",
-          "coordinates": {
-            "lat": 39.7116728,
-            "lng": -104.8187844
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-12455921758",
-          "name": "Entrance 20",
-          "coordinates": {
-            "lat": 39.7117472,
-            "lng": -104.8187837
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13391304233",
-          "name": "Entrance 21",
-          "coordinates": {
-            "lat": 39.7069458,
-            "lng": -104.8178752
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13391304242",
-          "name": "Entrance 22",
-          "coordinates": {
-            "lat": 39.707413,
-            "lng": -104.8174157
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-13391308154",
-          "name": "Entrance 23",
-          "coordinates": {
-            "lat": 39.7072482,
-            "lng": -104.8178086
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Aurora Metro Center Station serves the Town Center at Aurora mall and the Aurora Municipal Center."
-    },
-    {
-      "id": "lamar",
-      "systemId": "rtd-denver",
-      "gtfsId": "34236",
-      "name": "Lamar",
-      "wikipedia": "en:Lamar station (RTD)",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.736672,
-        "lng": -105.066483
-      },
-      "features": ["accessible", "fare-vending"],
-      "osmId": 2375617610,
-      "wikidata": "Q16893934",
-      "entrances": [
-        {
-          "id": "osm-3647013696",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7387103,
-            "lng": -105.067745
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-8490294505",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7366862,
-            "lng": -105.0669185
-          },
-          "wheelchair": true
-        }
-      ],
-      "description": "Lamar Station serves a residential area of Lakewood, with some transit-oriented development nearby."
-    },
-    {
-      "id": "dry-creek",
-      "systemId": "rtd-denver",
-      "gtfsId": "33711",
-      "name": "Dry Creek",
-      "wikipedia": "en:Dry Creek station",
-      "lines": ["e-line", "r-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.579487,
-        "lng": -104.877416
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383363689,
-      "description": "Dry Creek Station serves a commercial-heavy area of Centennial. It has an art installation of a series of hourglasses containing pyrite that is named Fools Gold, created by John McEnroe."
+      "gtfsId": "33740",
+      "wikipedia": "en:40th Ave & Airport Blvd–Gateway Park station",
+      "osmId": 7373859146,
+      "description": "40th / Airport - Gateway Park Station serves Aurora. It has a large park-and-ride facility and an art installation, Time Present, by Molly Dilworth."
     },
     {
       "id": "empower-field-at-mile-high",
       "systemId": "rtd-denver",
-      "gtfsId": "34111",
       "name": "Empower Field at Mile High",
-      "wikipedia": "en:Empower Field at Mile High station",
       "lines": ["c-line", "e-line", "w-line"],
       "status": "active",
       "coordinates": {
@@ -3877,6 +4020,8 @@
         "lng": -105.013483
       },
       "features": ["accessible", "fare-vending", "transfer"],
+      "gtfsId": "34111",
+      "wikipedia": "en:Empower Field at Mile High station",
       "osmId": 7377206480,
       "entrances": [
         {
@@ -4045,60 +4190,256 @@
       "description": "Empower Field at Mile High Station serves the nearby stadium of the same name, which is home to the Denver Broncos."
     },
     {
-      "id": "wheat-ridge-ward-road",
+      "id": "oak",
       "systemId": "rtd-denver",
-      "gtfsId": "34504",
-      "name": "Wheat Ridge / Ward",
-      "wikipedia": "en:Wheat Ridge/Ward station",
-      "lines": ["g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.789544,
-        "lng": -105.13327
-      },
-      "features": ["fare-vending"],
-      "osmId": 7373797407,
-      "description": "Wheat Ridge / Ward Station serves the west side of Wheat Ridge. It is the proposed site of a major transit-oriented development."
-    },
-    {
-      "id": "garrison",
-      "systemId": "rtd-denver",
-      "gtfsId": "34238",
-      "name": "Garrison",
-      "wikipedia": "en:Garrison station (RTD)",
+      "name": "Oak",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.736531,
-        "lng": -105.099528
+        "lat": 39.737381,
+        "lng": -105.119365
       },
       "features": ["fare-vending"],
-      "osmId": 2375621013,
-      "wikidata": "Q16891541",
-      "description": "Garrison Station serves a primarily residential area."
+      "gtfsId": "34239",
+      "wikipedia": "en:Oak station (RTD)",
+      "osmId": 7377392085,
+      "entrances": [
+        {
+          "id": "osm-7278959377",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7396509,
+            "lng": -105.1176958
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7278962985",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7396938,
+            "lng": -105.1180364
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Oak Station serves a mixed commercial area of Lakewood, near the Lakewood Tech Center. It has spurred some transit-oriented development and serves as a bus transfer point."
     },
     {
-      "id": "louisiana-pearl",
+      "id": "nine-mile",
       "systemId": "rtd-denver",
-      "gtfsId": "33725",
-      "name": "Louisiana-Pearl",
-      "wikipedia": "en:Louisiana–Pearl station",
-      "lines": ["e-line", "h-line", "t-line"],
+      "name": "Nine Mile",
+      "lines": ["r-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.692708,
-        "lng": -104.97812
+        "lat": 39.658414,
+        "lng": -104.845517
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33719",
+      "wikipedia": "en:Nine Mile station",
+      "osmId": 6775305387,
+      "wikidata": "Q7038369",
+      "entrances": [
+        {
+          "id": "osm-6743340079",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6608529,
+            "lng": -104.8448936
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Nine Mile Station serves as a transit hub for southeast Denver and south Aurora. There are buses that provide service to Denver International Airport that is often faster than the R Line."
+    },
+    {
+      "id": "university-of-denver",
+      "systemId": "rtd-denver",
+      "name": "University of Denver",
+      "lines": ["e-line", "t-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.684914,
+        "lng": -104.964677
       },
       "features": ["fare-vending", "transfer"],
-      "osmId": 7382727324,
-      "description": "Louisiana-Pearl Station serves the Platt Park neighborhood and is partially underground. It has a kinetic sculpture named Strange Machine created by Ira Sherman."
+      "gtfsId": "33722",
+      "wikipedia": "en:University of Denver station",
+      "osmId": 7382703641,
+      "entrances": [
+        {
+          "id": "osm-5549683230",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6839408,
+            "lng": -104.9650713
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5549683323",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.6839697,
+            "lng": -104.9642042
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-9825904246",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.6825561,
+            "lng": -104.9644004
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-9825904256",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.6823805,
+            "lng": -104.9647355
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-9825904260",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.6823166,
+            "lng": -104.9645647
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "University of Denver Station serves the University of Denver and the surrounding University Park neighborhood."
+    },
+    {
+      "id": "48th-ave-brighton-blvd-nat-l-western-ctr",
+      "systemId": "rtd-denver",
+      "name": "48th Ave/Brighton Blvd @ Nat`L Western Ctr",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.784667,
+        "lng": -104.967472
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "35362",
+      "wikipedia": "en:48th & Brighton/National Western Center station",
+      "description": "TODO: Add station description."
+    },
+    {
+      "id": "ridgegate-parkway",
+      "systemId": "rtd-denver",
+      "name": "Ridgegate Parkway",
+      "lines": ["e-line", "r-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.51936,
+        "lng": -104.865365
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "35245",
+      "wikipedia": "en:RidgeGate Parkway station",
+      "osmId": 7383401606,
+      "entrances": [
+        {
+          "id": "osm-7357063944",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.519127,
+            "lng": -104.8657148
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12125188582",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.5201017,
+            "lng": -104.8652255
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12127503578",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.5208662,
+            "lng": -104.8651863
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12127550530",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.5197788,
+            "lng": -104.8644596
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13811219373",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.5200649,
+            "lng": -104.8651833
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-13811384120",
+          "name": "Entrance 6",
+          "coordinates": {
+            "lat": 39.5208673,
+            "lng": -104.8652037
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12127602605",
+          "name": "Entrance 7",
+          "coordinates": {
+            "lat": 39.5209056,
+            "lng": -104.8626914
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-12127602607",
+          "name": "Entrance 8",
+          "coordinates": {
+            "lat": 39.5209178,
+            "lng": -104.8627237
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Ridgegate Parkway Station is planned to serve the Ridgegate development, a large mixed-use community spanning 3,500 acres."
+    },
+    {
+      "id": "thornton-crossroads-104th-ave",
+      "systemId": "rtd-denver",
+      "name": "Thornton Crossroads / 104th Ave",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.881986,
+        "lng": -104.940968
+      },
+      "features": ["fare-vending"],
+      "gtfsId": "35365",
+      "wikipedia": "en:Thornton Crossroads/104th station",
+      "description": "Thornton Crossroads / 104th Ave Station serves Thornton at Colorado Boulevard and 104th Boulevard."
     },
     {
       "id": "knox",
       "systemId": "rtd-denver",
-      "gtfsId": "34233",
       "name": "Knox",
-      "wikipedia": "en:Knox station",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
@@ -4106,6 +4447,8 @@
         "lng": -105.03288
       },
       "features": ["fare-vending"],
+      "gtfsId": "34233",
+      "wikipedia": "en:Knox station",
       "osmId": 2376710233,
       "wikidata": "Q16893539",
       "entrances": [
@@ -4140,356 +4483,304 @@
       "description": "Knox Station serves a primarily residential area in Denver's Villa Park neighborhood, and has spurred transit-oriented development nearby."
     },
     {
-      "id": "colfax",
+      "id": "eastlake-124th-ave",
       "systemId": "rtd-denver",
-      "gtfsId": "34682",
-      "name": "Colfax",
-      "wikipedia": "en:Colfax station (RTD)",
-      "lines": ["r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.74083,
-        "lng": -104.826398
-      },
-      "features": ["fare-vending"],
-      "osmId": 7383472998,
-      "entrances": [
-        {
-          "id": "osm-6253162192",
-          "name": "Colfax Entrance",
-          "coordinates": {
-            "lat": 39.7405916,
-            "lng": -104.8294932
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688310",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7390922,
-            "lng": -104.8278687
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688312",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7391422,
-            "lng": -104.8278685
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688314",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7392328,
-            "lng": -104.8278682
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688319",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.7393364,
-            "lng": -104.8278948
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688321",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7394262,
-            "lng": -104.8278944
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688324",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.7394707,
-            "lng": -104.8278942
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-10814688327",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.739653,
-            "lng": -104.8279283
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Colfax Station serves the Anschutz health campus, including the UCHealth University of Colorado Hospital and Children's Hospital Colorado."
-    },
-    {
-      "id": "evans",
-      "systemId": "rtd-denver",
-      "gtfsId": "33713",
-      "name": "Evans",
-      "wikipedia": "en:Evans station (RTD)",
-      "lines": ["c-line", "e-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.677962,
-        "lng": -104.992465
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7381234663,
-      "description": "Evans Station serves the Overland neighborhood at US 85."
-    },
-    {
-      "id": "original-thornton-88th-ave",
-      "systemId": "rtd-denver",
-      "gtfsId": "35364",
-      "name": "Original Thornton / 88th Ave",
-      "wikipedia": "en:Original Thornton/88th station",
+      "name": "Eastlake / 124th Ave",
       "lines": ["n-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.858851,
-        "lng": -104.952449
+        "lat": 39.922525,
+        "lng": -104.962657
       },
       "features": ["fare-vending"],
-      "description": "Original Thornton / 88th Station serves the area of Thornton near 88th Avenue and Welby Road."
+      "gtfsId": "35367",
+      "wikipedia": "en:Eastlake/124th station",
+      "description": "Eastlake / 124th Ave Station serves as the terminus for the N Line."
     },
     {
-      "id": "commerce-city-72nd-ave",
+      "id": "county-line",
       "systemId": "rtd-denver",
-      "gtfsId": "35363",
-      "name": "Commerce City / 72nd Ave",
-      "wikipedia": "en:Commerce City/72nd station",
-      "lines": ["n-line"],
+      "name": "County Line",
+      "lines": ["e-line", "t-line", "r-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.826497,
-        "lng": -104.942292
-      },
-      "features": ["fare-vending"],
-      "description": "Commerce City / 72nd Ave Station serves a primarily industrial area with some bus connections."
-    },
-    {
-      "id": "northglenn-112th-ave",
-      "systemId": "rtd-denver",
-      "gtfsId": "35366",
-      "name": "Northglenn / 112th",
-      "wikipedia": "en:Northglenn/112th station",
-      "lines": ["n-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.902677,
-        "lng": -104.959583
-      },
-      "features": ["fare-vending"],
-      "description": "Northglenn / 112th Station serves Northglenn. During its construction, a trestle bridge from 1909 was discovered, but it was determined not to be of historical value and destroyed."
-    },
-    {
-      "id": "dayton",
-      "systemId": "rtd-denver",
-      "gtfsId": "33710",
-      "name": "Dayton",
-      "wikipedia": "en:Dayton station (RTD)",
-      "lines": ["h-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.643677,
-        "lng": -104.878653
+        "lat": 39.561964,
+        "lng": -104.870532
       },
       "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7383433199,
-      "description": "Dayton Station is primarily interesting because it is located in the median of Interstate 225."
+      "gtfsId": "33709",
+      "wikipedia": "en:County Line station (RTD)",
+      "osmId": 7383375126,
+      "description": "County Line Station serves the Park Meadows mall, though it did not have direct pedestrian access to the mall for 2 years after its construction. It features a sculpture named Plow created by Emmett Culligan."
     },
     {
-      "id": "arvada-ridge",
+      "id": "decatur-federal",
       "systemId": "rtd-denver",
-      "gtfsId": "34505",
-      "name": "Arvada Ridge",
-      "wikipedia": "en:Arvada Ridge station",
-      "lines": ["g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.791993,
-        "lng": -105.110976
-      },
-      "features": ["accessible", "elevator", "fare-vending"],
-      "osmId": 7373751379,
-      "description": "Arvada Ridge Station serves western Arvada, Colorado, with service to Red Rocks Community College's Arvada campus. It features an art installation called Chromatic Harvest."
-    },
-    {
-      "id": "41st-fox",
-      "systemId": "rtd-denver",
-      "gtfsId": "34548",
-      "name": "41st / Fox",
-      "wikipedia": "en:41st & Fox station",
-      "lines": ["b-line", "g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.772741,
-        "lng": -104.995362
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7373783405,
-      "entrances": [
-        {
-          "id": "osm-4138791728",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7726248,
-            "lng": -104.9934125
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-7533654700",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.7738461,
-            "lng": -104.9933357
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-8949893234",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7714793,
-            "lng": -104.9923438
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "41st / Fox Station serves the Globeville and Sunnyside neighborhoods of Denver."
-    },
-    {
-      "id": "yale",
-      "systemId": "rtd-denver",
-      "gtfsId": "33723",
-      "name": "Yale",
-      "wikipedia": "en:Yale station (RTD)",
-      "lines": ["e-line", "h-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.668779,
-        "lng": -104.927566
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7382731006,
-      "entrances": [
-        {
-          "id": "osm-5532005699",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.6677513,
-            "lng": -104.927347
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5532005704",
-          "name": "Corson Dentistry",
-          "coordinates": {
-            "lat": 39.6676456,
-            "lng": -104.9273545
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5532005709",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.6678752,
-            "lng": -104.9273467
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5539348971",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.6685963,
-            "lng": -104.9284879
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Yale Station serves the Holly Hills area of Denver."
-    },
-    {
-      "id": "orchard",
-      "systemId": "rtd-denver",
-      "gtfsId": "33720",
-      "name": "Orchard",
-      "wikipedia": "en:Orchard station (RTD)",
-      "lines": ["e-line", "h-line", "r-line", "t-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.6134,
-        "lng": -104.89641
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 6775305388,
-      "wikidata": "Q7100170",
-      "description": "Orchard Station serves Greenwood Village. It has an art installation of stamped concrete called Orchard Memory, created by Wopo Holup."
-    },
-    {
-      "id": "60th-sheridan-arvada-gold-strike",
-      "systemId": "rtd-denver",
-      "gtfsId": "34506",
-      "name": "60th / Sheridan - Arvada Gold Strike",
-      "wikipedia": "en:List of Denver RTD rail stations",
-      "lines": ["g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.804374,
-        "lng": -105.049081
-      },
-      "features": ["fare-vending"],
-      "osmId": 7373760732,
-      "description": "TODO: Add station description."
-    },
-    {
-      "id": "perry",
-      "systemId": "rtd-denver",
-      "gtfsId": "34234",
-      "name": "Perry",
-      "wikipedia": "en:Perry station",
+      "name": "Decatur-Federal",
       "lines": ["w-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.734568,
-        "lng": -105.040036
+        "lat": 39.737418,
+        "lng": -105.024806
       },
       "features": ["fare-vending"],
-      "osmId": 2376710288,
-      "wikidata": "Q16898221",
-      "description": "Perry Station serves a suburban area of west Denver. It has some transit-oriented development."
+      "gtfsId": "34232",
+      "wikipedia": "en:Decatur–Federal station",
+      "osmId": 7377352002,
+      "entrances": [
+        {
+          "id": "osm-3539134906",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7350926,
+            "lng": -105.0243504
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5535522372",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7376484,
+            "lng": -105.0273704
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5535523794",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.73762,
+            "lng": -105.0268098
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-7517776377",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7361306,
+            "lng": -105.0232731
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5535522331",
+          "name": "Entrance 5",
+          "coordinates": {
+            "lat": 39.7384908,
+            "lng": -105.0277709
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Decatur-Federal Station serves a mixed commercial and residential area. The Colorado Department of Transportation is headquartered at Decatur-Federal, and the station serves Empower Field at Mile High and is a notable bus terminus."
     },
     {
-      "id": "oxford-city-of-sheridan",
+      "id": "lakewood-wadsworth",
       "systemId": "rtd-denver",
-      "gtfsId": "33726",
-      "name": "Oxford-City of Sheridan",
-      "wikipedia": "en:Oxford–City of Sheridan station",
-      "lines": ["c-line", "d-line"],
+      "name": "Lakewood-Wadsworth",
+      "lines": ["w-line"],
       "status": "active",
       "coordinates": {
-        "lat": 39.643421,
-        "lng": -105.004535
+        "lat": 39.736884,
+        "lng": -105.081096
       },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7382036672,
-      "description": "Oxford-City of Sheridan Station serves the border of Sheridan and Englewood."
+      "features": ["accessible", "elevator", "fare-vending"],
+      "gtfsId": "34237",
+      "wikipedia": "en:Lakewood–Wadsworth station",
+      "osmId": 7377364581,
+      "entrances": [
+        {
+          "id": "osm-3646980681",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7369936,
+            "lng": -105.0809352
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3646980683",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7372938,
+            "lng": -105.0809752
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3646980649",
+          "name": "Entrance 3",
+          "coordinates": {
+            "lat": 39.7381,
+            "lng": -105.0810231
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3646990869",
+          "name": "Entrance 4",
+          "coordinates": {
+            "lat": 39.7375889,
+            "lng": -105.0803194
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Lakewood-Wadsworth Station is the primary light rail station serving Lakewood, Colorado. It is located on an overpass of Wadsworth Blvd, allowing pedestrians to exit and enter from either side of the road. Recently, it has spurred transit-oriented development, and is a popular park and ride for residents going to sports events and downtown Denver."
     },
     {
-      "id": "30th-downing",
+      "id": "alameda",
       "systemId": "rtd-denver",
+      "name": "Alameda",
+      "lines": ["c-line", "e-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.70892,
+        "lng": -104.992883
+      },
+      "features": ["fare-vending", "transfer"],
+      "gtfsId": "33704",
+      "wikipedia": "en:Alameda station (RTD)",
+      "osmId": 7380250034,
+      "entrances": [
+        {
+          "id": "osm-4624552743",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.7067209,
+            "lng": -104.9938414
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4624552871",
+          "name": "Entrance 2",
+          "coordinates": {
+            "lat": 39.7072929,
+            "lng": -104.9941524
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Alameda Station is near the Denver Design District and shops on Broadway St. It primarily serves a residential area."
+    },
+    {
+      "id": "southmoor",
+      "systemId": "rtd-denver",
+      "name": "Southmoor",
+      "lines": ["e-line", "t-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.648898,
+        "lng": -104.915046
+      },
+      "features": ["accessible", "elevator", "fare-vending", "transfer"],
+      "gtfsId": "33721",
+      "wikipedia": "en:Southmoor station",
+      "osmId": 442726036,
+      "wikidata": "Q7570906",
+      "entrances": [
+        {
+          "id": "osm-2424886746",
+          "name": "Entrance 1",
+          "coordinates": {
+            "lat": 39.6487776,
+            "lng": -104.9156174
+          },
+          "wheelchair": false
+        }
+      ],
+      "description": "Southmoor Station serves South Denver and acts as the transfer point to the I-225 Corridor."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "16th-california",
+      "name": "16th & California",
+      "wikipedia": "en:16th & California and 16th & Stout stations",
+      "lines": ["d-line", "h-line", "l-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.744814,
+        "lng": -104.9925368
+      },
+      "features": ["accessible", "bus-connection", "transfer"],
+      "description": "16th & California Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "16th-stout",
+      "name": "16th & Stout",
+      "wikipedia": "en:16th & California and 16th & Stout stations",
+      "lines": ["d-line", "h-line", "l-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.7460624,
+        "lng": -104.9929136
+      },
+      "features": ["accessible", "bus-connection", "transfer"],
+      "description": "16th & Stout Station is one of two stations along 16th Street. It has no active rail service while the D, H, and L Lines are suspended."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "18th-california",
+      "name": "18th & California",
+      "wikipedia": "en:18th & California and 18th & Stout stations",
+      "lines": ["d-line", "h-line", "l-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.7466706,
+        "lng": -104.990151
+      },
+      "features": ["accessible", "bus-connection", "transfer"],
+      "description": "18th & California Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "18th-stout",
+      "name": "18th & Stout",
+      "wikipedia": "en:18th & California and 18th & Stout stations",
+      "lines": ["d-line", "h-line", "l-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.7479431,
+        "lng": -104.9905011
+      },
+      "features": ["fare-vending", "transfer"],
+      "description": "18th & Stout Station is one of two stations along 18th Street. It has no active rail service while the D, H, and L Lines are suspended."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "colfax-auraria",
+      "name": "Colfax at Auraria",
+      "wikipedia": "en:Colfax at Auraria station",
+      "lines": ["d-line", "h-line", "l-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.740319,
+        "lng": -105.001918
+      },
+      "features": ["accessible", "bus-connection", "transfer"],
+      "description": "Colfax at Auraria Station serves the east end of the Auraria Campus."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "theatre-district-convention-center",
+      "name": "Theatre District-Convention Center",
+      "wikipedia": "en:Theatre District–Convention Center station",
+      "lines": ["d-line", "h-line", "l-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.743727,
+        "lng": -104.996341
+      },
+      "features": ["accessible", "bus-connection", "transfer"],
+      "description": "Theatre District-Convention Center Station serves the Colorado Convention Center and the Denver Performing Arts Complex. It replaced the 14th & California and 14th & Stout stations."
+    },
+    {
+      "systemId": "rtd-denver",
+      "id": "30th-downing",
       "name": "30th & Downing",
       "wikipedia": "en:30th & Downing station",
       "lines": ["l-line"],
@@ -4502,283 +4793,8 @@
       "description": "30th & Downing Station is a light rail station in Denver and the L Line terminus. It has no active rail service while the L Line is suspended."
     },
     {
-      "id": "48th-ave-brighton-blvd-nat-l-western-ctr",
       "systemId": "rtd-denver",
-      "gtfsId": "35362",
-      "name": "48th Ave/Brighton Blvd @ Nat`L Western Ctr",
-      "wikipedia": "en:48th & Brighton/National Western Center station",
-      "lines": ["n-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.784667,
-        "lng": -104.967472
-      },
-      "features": ["fare-vending"],
-      "description": "TODO: Add station description."
-    },
-    {
-      "id": "westminster",
-      "systemId": "rtd-denver",
-      "gtfsId": "34549",
-      "name": "Westminster",
-      "wikipedia": "en:Westminster station (RTD)",
-      "lines": ["b-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.823124,
-        "lng": -105.027939
-      },
-      "features": ["accessible", "elevator", "fare-vending"],
-      "osmId": 7373820822,
-      "entrances": [
-        {
-          "id": "osm-7402907922",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.8238574,
-            "lng": -105.0271572
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Westminster Station serves Westminster and is the northern terminus of the B Line, though there are plans to extend the B Line to Boulder and Longmont. It has an art installation called Grotto by Brian W. Brush."
-    },
-    {
-      "id": "clear-creek-federal",
-      "systemId": "rtd-denver",
-      "gtfsId": "34507",
-      "name": "Clear Creek / Federal",
-      "wikipedia": "en:Denver Federal Center",
-      "lines": ["g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.804819,
-        "lng": -105.022624
-      },
-      "features": ["accessible", "elevator", "fare-vending"],
-      "osmId": 7373783401,
-      "description": "Clear Creek / Federal Station serves the unincorporated community of Berkley. It has RTD's largest piece of public art, Addison Karl's mural Doradus."
-    },
-    {
-      "id": "2nd-ave-abilene",
-      "systemId": "rtd-denver",
-      "gtfsId": "34680",
-      "name": "2nd Ave & Abilene",
-      "wikipedia": "en:2nd Avenue & Abilene station",
-      "lines": ["r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.719484,
-        "lng": -104.825073
-      },
-      "features": ["fare-vending"],
-      "entrances": [
-        {
-          "id": "osm-11804818921",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.72118,
-            "lng": -104.8235747
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11821923547",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.720128,
-            "lng": -104.8247728
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11821923551",
-          "name": "Entrance 3",
-          "coordinates": {
-            "lat": 39.7206653,
-            "lng": -104.8244223
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11821923554",
-          "name": "Entrance 4",
-          "coordinates": {
-            "lat": 39.7206687,
-            "lng": -104.8243191
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11821923566",
-          "name": "Entrance 5",
-          "coordinates": {
-            "lat": 39.720173,
-            "lng": -104.824758
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11824647804",
-          "name": "Entrance 6",
-          "coordinates": {
-            "lat": 39.7204832,
-            "lng": -104.8244686
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11824647821",
-          "name": "Entrance 7",
-          "coordinates": {
-            "lat": 39.7204432,
-            "lng": -104.8244676
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11824647845",
-          "name": "Entrance 8",
-          "coordinates": {
-            "lat": 39.7201813,
-            "lng": -104.824234
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11824647846",
-          "name": "Entrance 9",
-          "coordinates": {
-            "lat": 39.7201593,
-            "lng": -104.8242216
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-11824647856",
-          "name": "Entrance 10",
-          "coordinates": {
-            "lat": 39.7204331,
-            "lng": -104.8242114
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "2nd Ave & Abilene Station serves a residential area along I-225."
-    },
-    {
-      "id": "sky-ridge",
-      "systemId": "rtd-denver",
-      "gtfsId": "35243",
-      "name": "Sky Ridge",
-      "wikipedia": "en:Sky Ridge station",
-      "lines": ["e-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.532268,
-        "lng": -104.869854
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7383401602,
-      "entrances": [
-        {
-          "id": "osm-11032921456",
-          "name": "Ambulance Entrance",
-          "coordinates": {
-            "lat": 39.530845,
-            "lng": -104.8709756
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-9943391811",
-          "name": "Entrance 2",
-          "coordinates": {
-            "lat": 39.531955,
-            "lng": -104.8688132
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Sky Ridge Station serves the Sky Ridge Medical Center."
-    },
-    {
-      "id": "pecos-junction",
-      "systemId": "rtd-denver",
-      "gtfsId": "34508",
-      "name": "Pecos Junction",
-      "wikipedia": "en:Pecos Junction station",
-      "lines": ["b-line", "g-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.805421,
-        "lng": -105.003505
-      },
-      "features": ["accessible", "elevator", "fare-vending", "transfer"],
-      "osmId": 7373783403,
-      "description": "Pecos Junction Station is the last station that the B and G Lines share and it is one of the least used stations in the RTD network."
-    },
-    {
-      "id": "red-rocks-college",
-      "systemId": "rtd-denver",
-      "gtfsId": "34240",
-      "name": "Red Rocks College",
-      "wikipedia": "en:Red Rocks College station",
-      "lines": ["w-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.724954,
-        "lng": -105.149955
-      },
-      "features": ["fare-vending"],
-      "osmId": 7377355851,
-      "description": "Red Rocks College Station serves as a midpoint between Federal Center Station and Jefferson County Government Center/Golden Station. It serves the Red Rocks Community College Lakewood campus."
-    },
-    {
-      "id": "13th-ave",
-      "systemId": "rtd-denver",
-      "gtfsId": "34681",
-      "name": "13th Ave",
-      "wikipedia": "en:13th Avenue station (RTD)",
-      "lines": ["r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.734452,
-        "lng": -104.824601
-      },
-      "features": ["fare-vending"],
-      "description": "13th Ave Station serves Aurora and is planned to be the center of a future transit-oriented development."
-    },
-    {
-      "id": "fitzsimons",
-      "systemId": "rtd-denver",
-      "gtfsId": "34683",
-      "name": "Fitzsimons",
-      "wikipedia": "en:Fitzsimons station",
-      "lines": ["r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.755018,
-        "lng": -104.838018
-      },
-      "features": ["fare-vending"],
-      "osmId": 3250450286,
-      "entrances": [
-        {
-          "id": "osm-11685077040",
-          "name": "Entrance 1",
-          "coordinates": {
-            "lat": 39.7539032,
-            "lng": -104.8394612
-          },
-          "wheelchair": false
-        }
-      ],
-      "description": "Fitzsimons Station serves the University of Colorado Anschutz Medical Campus. It retains the name of the former Fitzsimons Army Medical Center."
-    },
-    {
       "id": "25th-welton",
-      "systemId": "rtd-denver",
       "name": "25th & Welton",
       "wikipedia": "en:25th & Welton station",
       "lines": ["l-line"],
@@ -4791,8 +4807,8 @@
       "description": "25th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
     },
     {
-      "id": "20th-welton",
       "systemId": "rtd-denver",
+      "id": "20th-welton",
       "name": "20th & Welton",
       "wikipedia": "en:20th & Welton station",
       "lines": ["l-line"],
@@ -4805,8 +4821,8 @@
       "description": "20th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
     },
     {
-      "id": "27th-welton",
       "systemId": "rtd-denver",
+      "id": "27th-welton",
       "name": "27th & Welton",
       "wikipedia": "en:27th & Welton station",
       "lines": ["l-line"],
@@ -4817,22 +4833,6 @@
       },
       "features": ["fare-vending"],
       "description": "27th & Welton Station is a light rail station in downtown Denver, east of the Downtown loop."
-    },
-    {
-      "id": "lone-tree-city-center",
-      "systemId": "rtd-denver",
-      "gtfsId": "35244",
-      "name": "Lone Tree City Center",
-      "wikipedia": "en:List of Denver RTD rail stations",
-      "lines": ["e-line", "r-line"],
-      "status": "active",
-      "coordinates": {
-        "lat": 39.527669,
-        "lng": -104.86294
-      },
-      "features": ["fare-vending", "transfer"],
-      "osmId": 7383401604,
-      "description": "Lone Tree City Center Station serves a field. It is by far the least used RTD station with an average of 20 passengers, zero parking spots, and nothing interesting nearby. It is planned to host transit-oriented development, but no such plans have been created since its opening in 2019."
     }
   ]
 }

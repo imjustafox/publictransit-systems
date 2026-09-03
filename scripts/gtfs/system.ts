@@ -205,9 +205,13 @@ export async function processSystem(
       detected.topology.type === "linear" && detected.topology.branches ? "+branches" : "";
     topologyByLine[lineSlug] = detected.topology.type + branchTag;
 
-    const stationSlugs = detected.dominantStops
-      .map((sid) => idMap.stations[sid])
-      .filter((slug): slug is string => Boolean(slug));
+    const stationSlugs = [
+      ...new Set(
+        detected.dominantStops
+          .map((sid) => idMap.stations[sid])
+          .filter((slug): slug is string => Boolean(slug))
+      ),
+    ];
     for (const slug of stationSlugs) {
       let set = baseStationLines.get(slug);
       if (!set) {
@@ -284,21 +288,32 @@ export async function processSystem(
     baseLines.push(baseLine);
   }
 
-  // Build base stations
-  const baseStations: Plain[] = stops.map((s) => {
+  // Build base stations. Several feed parents can share one slug (station
+  // complexes like Times Sq have a parent per line); the first occurrence
+  // wins for name and coordinates, features union, lines are already
+  // unioned per slug in baseStationLines.
+  const baseBySlug = new Map<string, Plain>();
+  for (const s of stops) {
     const slug = idMap.stations[s.stop_id];
-    const features: string[] = [];
-    if (s.wheelchair_boarding === WHEELCHAIR_BOARDING.ACCESSIBLE) features.push("elevator");
-    return {
+    const accessible = s.wheelchair_boarding === WHEELCHAIR_BOARDING.ACCESSIBLE;
+    const existing = baseBySlug.get(slug);
+    if (existing) {
+      if (accessible && !(existing.features as string[]).includes("elevator")) {
+        (existing.features as string[]).push("elevator");
+      }
+      continue;
+    }
+    baseBySlug.set(slug, {
       id: slug,
       systemId,
       name: s.stop_name,
       lines: [...(baseStationLines.get(slug) ?? [])],
       status: "active",
       coordinates: { lat: s.stop_lat, lng: s.stop_lon },
-      features,
-    };
-  });
+      features: accessible ? ["elevator"] : [],
+    });
+  }
+  const baseStations: Plain[] = [...baseBySlug.values()];
 
   // Load + apply overlay
   const overlayPath = path.join(systemDir, "overlay.json");

@@ -1,0 +1,23 @@
+{
+  "static": {
+    "url_secret": "RTD_GTFS_URL",
+    "auth": { "type": "none" },
+    "route_groups": {
+      "c-line": ["101C"],
+      "e-line": ["101E"],
+      "t-line": ["101T"],
+      "w-line": ["103W"],
+      "r-line": ["107R"],
+      "b-line": ["113B"],
+      "g-line": ["113G"],
+      "n-line": ["117N"],
+      "a-line": ["A"]
+    },
+    "filters": {
+      "route_ids_exclude": ["101D"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name"
+    }
+  }
+}
