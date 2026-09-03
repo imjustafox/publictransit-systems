@@ -55,3 +55,6 @@ data/systems/*/topology_detected.json
 
 # accessibility test results
 test-results/
+
+# wrangler local dev cache
+.wrangler/

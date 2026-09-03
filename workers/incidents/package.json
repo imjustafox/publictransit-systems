@@ -13,5 +13,8 @@
     "@cloudflare/workers-types": "^4.20240117.0",
     "typescript": "^5.3.3",
     "wrangler": "^4"
+  },
+  "dependencies": {
+    "gtfs-realtime-bindings": "^1.1.1"
   }
 }

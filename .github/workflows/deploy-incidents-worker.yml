@@ -5,6 +5,10 @@ on:
     branches: [main]
     paths:
       - "workers/incidents/**"
+      # The worker bundles these at deploy time; redeploy when they change.
+      - "data/systems/rtd-denver/id_map.json"
+      - "data/systems/rtd-denver/stations.json"
+      - "data/systems/nyc-subway/stations.json"
   workflow_dispatch:
 
 jobs:
