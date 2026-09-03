@@ -57,8 +57,13 @@ export function createEntranceIcon(accessibility?: EntranceAccessibility[]): L.D
   });
 }
 
-// CARTO dark basemap tile URL
-export const DARK_TILE_URL = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png";
+// CARTO dark basemap tile URL. The raster service requires an API key (the
+// unkeyed tiles carry a watermark); it is inlined at build time, so builds
+// without the env var still work but show watermarked tiles.
+const cartoKey = process.env.NEXT_PUBLIC_CARTO_API_KEY;
+export const DARK_TILE_URL = `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png${
+  cartoKey ? `?key=${cartoKey}` : ""
+}`;
 
 export const DARK_TILE_ATTRIBUTION =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';

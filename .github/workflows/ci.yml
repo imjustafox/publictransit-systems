@@ -94,3 +94,5 @@ jobs:
           labels: ${{ steps.meta.outputs.labels }}
           cache-from: type=gha
           cache-to: type=gha,mode=max
+          build-args: |
+            NEXT_PUBLIC_CARTO_API_KEY=${{ secrets.NEXT_PUBLIC_CARTO_API_KEY }}
