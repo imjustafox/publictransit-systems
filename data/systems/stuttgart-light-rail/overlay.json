@@ -1,11 +1,11 @@
 {
   "system": {
-    "overview": "The Stadtbahn Stuttgart is the light rail network operated by Stuttgarter Straßenbahnen AG (SSB) serving the city of Stuttgart and surrounding municipalities in Baden-Württemberg, Germany. The network evolved from the city's historic metre-gauge tram system, with conversion to the standard-gauge (1,435 mm), high-platform Stadtbahn concept beginning on 28 September 1985 when the U3 (Plieningen–Vaihingen) became the first fully converted line. Operating partly underground through dedicated city-centre tunnels and on segregated surface alignments in the suburbs, the 16-line network extends as far west as Gerlingen, northeast to Remseck am Neckar, east to Fellbach, south to the airport (Messe/Flughafen via U6), and south-east to Ostfildern. Lines converge on a network of underground city-centre tunnels, with Hauptbahnhof and Charlottenplatz serving as the principal interchange hubs.",
+    "overview": "The Stadtbahn Stuttgart is the light rail network operated by Stuttgarter Stra\u00dfenbahnen AG (SSB) serving the city of Stuttgart and surrounding municipalities in Baden-W\u00fcrttemberg, Germany. The network evolved from the city's historic metre-gauge tram system, with conversion to the standard-gauge (1,435 mm), high-platform Stadtbahn concept beginning on 28 September 1985 when the U3 (Plieningen\u2013Vaihingen) became the first fully converted line. Operating partly underground through dedicated city-centre tunnels and on segregated surface alignments in the suburbs, the 16-line network extends as far west as Gerlingen, northeast to Remseck am Neckar, east to Fellbach, south to the airport (Messe/Flughafen via U6), and south-east to Ostfildern. Lines converge on a network of underground city-centre tunnels, with Hauptbahnhof and Charlottenplatz serving as the principal interchange hubs.",
     "history": [
       {
         "date": "1961-01-01",
         "title": "Decision to Build Underground Tunnels",
-        "description": "Stuttgart's city council resolves to relocate inner-city rail lines underground, convert the network to a more capable standard-gauge system, and separate tracks from road traffic wherever possible — laying the conceptual foundation for what would become the Stadtbahn."
+        "description": "Stuttgart's city council resolves to relocate inner-city rail lines underground, convert the network to a more capable standard-gauge system, and separate tracks from road traffic wherever possible \u2014 laying the conceptual foundation for what would become the Stadtbahn."
       },
       {
         "date": "1966-05-10",
@@ -20,12 +20,12 @@
       {
         "date": "1983-07-25",
         "title": "DT 8 Prototype Vehicles Enter Trial Service",
-        "description": "Three pre-production DT 8 double railcars — the newly developed Stuttgart-specific vehicle with all-axle drive — begin test runs on the Plieningen–Möhringen section of line 3, validating the new rolling stock before full conversion begins."
+        "description": "Three pre-production DT 8 double railcars \u2014 the newly developed Stuttgart-specific vehicle with all-axle drive \u2014 begin test runs on the Plieningen\u2013M\u00f6hringen section of line 3, validating the new rolling stock before full conversion begins."
       },
       {
         "date": "1985-09-28",
         "title": "First Stadtbahn Line Opens",
-        "description": "The U3 (Plieningen–Vaihingen Bahnhof) becomes the first line fully converted to standard-gauge Stadtbahn operation, marking the official birth of the Stadtbahn Stuttgart. It runs entirely on the surface and does not serve the city-centre tunnels."
+        "description": "The U3 (Plieningen\u2013Vaihingen Bahnhof) becomes the first line fully converted to standard-gauge Stadtbahn operation, marking the official birth of the Stadtbahn Stuttgart. It runs entirely on the surface and does not serve the city-centre tunnels."
       },
       {
         "date": "1986-04-19",
@@ -35,12 +35,12 @@
       {
         "date": "1986-07-12",
         "title": "U14 Converted",
-        "description": "The U14 is converted to Stadtbahn standard, extending Stadtbahn service to Mühlhausen in the north and adding the Berliner Platz and Österreichischer Platz sections through the city-centre loop."
+        "description": "The U14 is converted to Stadtbahn standard, extending Stadtbahn service to M\u00fchlhausen in the north and adding the Berliner Platz and \u00d6sterreichischer Platz sections through the city-centre loop."
       },
       {
         "date": "1988-09-24",
         "title": "Event Line to Cannstatter Wasen Inaugurated",
-        "description": "A special service (then known as the E-line) begins carrying Stadtbahn vehicles to the Cannstatter Wasen festival ground at Mercedesstraße, the predecessor to today's U11 event line."
+        "description": "A special service (then known as the E-line) begins carrying Stadtbahn vehicles to the Cannstatter Wasen festival ground at Mercedesstra\u00dfe, the predecessor to today's U11 event line."
       },
       {
         "date": "1989-09-30",
@@ -50,32 +50,32 @@
       {
         "date": "1990-11-03",
         "title": "U5 and U6 Open Simultaneously",
-        "description": "The first two entirely new Stadtbahn lines open on the same day: the U5 (cross-valley, Pragsattel–Leinfelden Bahnhof) and the U6 (Pragsattel–Möhringen), both traversing the city-centre tunnels and giving Stuttgart its first north–south and east–west Stadtbahn cross-links."
+        "description": "The first two entirely new Stadtbahn lines open on the same day: the U5 (cross-valley, Pragsattel\u2013Leinfelden Bahnhof) and the U6 (Pragsattel\u2013M\u00f6hringen), both traversing the city-centre tunnels and giving Stuttgart its first north\u2013south and east\u2013west Stadtbahn cross-links."
       },
       {
         "date": "1993-04-19",
         "title": "U7 Opens to Killesberg",
-        "description": "The U7 opens from Killesberg (site of the International Garden Exhibition 1993) south to Degerloch, and makes history as the first Stadtbahn line to operate in double traction — two 40-metre trainsets coupled together — a format that would become standard on the busiest corridors."
+        "description": "The U7 opens from Killesberg (site of the International Garden Exhibition 1993) south to Degerloch, and makes history as the first Stadtbahn line to operate in double traction \u2014 two 40-metre trainsets coupled together \u2014 a format that would become standard on the busiest corridors."
       },
       {
         "date": "1994-09-24",
         "title": "U4 Converted; U11 Established",
-        "description": "The U4 is converted to Stadtbahn operation linking Untertürkheim Bahnhof with Hölderlinplatz. Simultaneously the event service to the Cannstatter Wasen and Neckarstadion is formally designated the U11, Stuttgart's first official special-event line."
+        "description": "The U4 is converted to Stadtbahn operation linking Untert\u00fcrkheim Bahnhof with H\u00f6lderlinplatz. Simultaneously the event service to the Cannstatter Wasen and Neckarstadion is formally designated the U11, Stuttgart's first official special-event line."
       },
       {
         "date": "1999-05-22",
         "title": "First Network Expansion Beyond Old Tram Footprint",
-        "description": "The U14 is extended from Mühlhausen to Remseck-Neckargröningen, representing the first time the Stadtbahn reaches a destination that was never served by the predecessor metre-gauge tramway — a milestone in genuine network growth."
+        "description": "The U14 is extended from M\u00fchlhausen to Remseck-Neckargr\u00f6ningen, representing the first time the Stadtbahn reaches a destination that was never served by the predecessor metre-gauge tramway \u2014 a milestone in genuine network growth."
       },
       {
         "date": "2000-09-09",
         "title": "U7 and U8 Extended to Ostfildern-Nellingen",
-        "description": "A 6.3-kilometre new-build line opens from Heumaden to Nellingen (Ostfildern), served by both the U7 and the new peak-hours line U8 (Vaihingen Bahnhof–Nellingen). This marks the Stadtbahn's first reach into the neighbouring city of Ostfildern."
+        "description": "A 6.3-kilometre new-build line opens from Heumaden to Nellingen (Ostfildern), served by both the U7 and the new peak-hours line U8 (Vaihingen Bahnhof\u2013Nellingen). This marks the Stadtbahn's first reach into the neighbouring city of Ostfildern."
       },
       {
         "date": "2002-06-22",
         "title": "U2 Conversion Begins",
-        "description": "The U2 (Bad Cannstatt Wilhelmsplatz–Hauptfriedhof) is converted to Stadtbahn standard along its first section, covering one of the most complex alignments in the network due to mixed-traffic running and a new extension tunnel under the main cemetery."
+        "description": "The U2 (Bad Cannstatt Wilhelmsplatz\u2013Hauptfriedhof) is converted to Stadtbahn standard along its first section, covering one of the most complex alignments in the network due to mixed-traffic running and a new extension tunnel under the main cemetery."
       },
       {
         "date": "2005-07-16",
@@ -85,32 +85,32 @@
       {
         "date": "2007-12-08",
         "title": "U15 Conversion Begins",
-        "description": "Conversion of Stuttgart's last metre-gauge tram line (Line 15) to standard-gauge Stadtbahn starts. The first section from Olgaeck to Ruhbank and from Löwentor to Stadtbibliothek opens as U15, running the steepest standard-gauge adhesion track in Europe (up to 8.5% gradient) on the southern branch."
+        "description": "Conversion of Stuttgart's last metre-gauge tram line (Line 15) to standard-gauge Stadtbahn starts. The first section from Olgaeck to Ruhbank and from L\u00f6wentor to Stadtbibliothek opens as U15, running the steepest standard-gauge adhesion track in Europe (up to 8.5% gradient) on the southern branch."
       },
       {
         "date": "2011-12-10",
         "title": "U15 Reaches Stammheim; Metre-Gauge Era Ends",
-        "description": "The new tunnel through Zuffenhausen to Stammheim opens, completing the U15 on its full current route. With this, the last remnant of Stuttgart's historic metre-gauge tramway has been converted to Stadtbahn standard — ending 26 years of conversion work begun in 1985."
+        "description": "The new tunnel through Zuffenhausen to Stammheim opens, completing the U15 on its full current route. With this, the last remnant of Stuttgart's historic metre-gauge tramway has been converted to Stadtbahn standard \u2014 ending 26 years of conversion work begun in 1985."
       },
       {
         "date": "2013-09-14",
         "title": "U12 Opens; New Hallschlag Branch Inaugurated",
-        "description": "The first section of the entirely new U12 opens, extending rail service north from the Löwentorkreuzung to the Hallschlag district. Simultaneously the U15 is rerouted directly to Pragsattel, and the U12 takes over the Nordbahnhof corridor."
+        "description": "The first section of the entirely new U12 opens, extending rail service north from the L\u00f6wentorkreuzung to the Hallschlag district. Simultaneously the U15 is rerouted directly to Pragsattel, and the U12 takes over the Nordbahnhof corridor."
       },
       {
         "date": "2016-05-13",
-        "title": "U12 Extended to Dürrlewang",
-        "description": "The U12's southern branch opens from Wallgraben to Dürrlewang, giving the southern suburbs a direct connection to the Europaviertel and the city-centre tunnels. The new alignment is built as a triple-rail track to allow future heritage tram operation."
+        "title": "U12 Extended to D\u00fcrrlewang",
+        "description": "The U12's southern branch opens from Wallgraben to D\u00fcrrlewang, giving the southern suburbs a direct connection to the Europaviertel and the city-centre tunnels. The new alignment is built as a triple-rail track to allow future heritage tram operation."
       },
       {
         "date": "2017-12-09",
         "title": "U12 Completed; Reaches Remseck am Neckar",
-        "description": "The final link in the U12 opens, connecting Hallschlag through a new tunnel into the Neckar valley to join the former U14 route at Mühlhausen and onward to Remseck-Neckargröningen. The U12 now operates as a full double-set line spanning the network from south to northeast."
+        "description": "The final link in the U12 opens, connecting Hallschlag through a new tunnel into the Neckar valley to join the former U14 route at M\u00fchlhausen and onward to Remseck-Neckargr\u00f6ningen. The U12 now operates as a full double-set line spanning the network from south to northeast."
       },
       {
         "date": "2017-12-10",
         "title": "Netz 2018: New Staatsgalerie Tunnel Opens",
-        "description": "A relocated underground station and new tunnel section between Charlottenplatz and Staatsgalerie, built to accommodate the Stuttgart 21 mainline rail project underground, opens for Stadtbahn operation — the first major tunnel realignment since the system's founding."
+        "description": "A relocated underground station and new tunnel section between Charlottenplatz and Staatsgalerie, built to accommodate the Stuttgart 21 mainline rail project underground, opens for Stadtbahn operation \u2014 the first major tunnel realignment since the system's founding."
       },
       {
         "date": "2021-12-11",
@@ -120,7 +120,7 @@
       {
         "date": "2023-12-10",
         "title": "Netz 2024: Full Network Restored After Stuttgart 21 Works",
-        "description": "With the opening of the new Hauptbahnhof–Staatsgalerie tunnel — the final piece of Stadtbahn realignment required by the Stuttgart 21 high-speed rail project — the network returns to its pre-construction layout. Lines U1 and U14 swap inner-city routing, the supplementary lines U34 and U29 are retired, and the U11 resumes its original counter-clockwise loop direction."
+        "description": "With the opening of the new Hauptbahnhof\u2013Staatsgalerie tunnel \u2014 the final piece of Stadtbahn realignment required by the Stuttgart 21 high-speed rail project \u2014 the network returns to its pre-construction layout. Lines U1 and U14 swap inner-city routing, the supplementary lines U34 and U29 are retired, and the U11 resumes its original counter-clockwise loop direction."
       },
       {
         "date": "2024-10-18",
@@ -129,8 +129,6 @@
       }
     ],
     "stats": {
-      "totalStations": 202,
-      "totalLines": 16,
       "annualRidership": "182 million",
       "dailyRidership": "600,000",
       "trackLength": 136,
@@ -142,7 +140,7 @@
       "name": "U1",
       "color": "sandy-brown",
       "colorHex": "#ca9461",
-      "description": "One of the busiest longitudinal lines, the U1 runs from Fellbach Lutherkirche in the east via Bad Cannstatt through the inner-city loop (Charlottenplatz – Marienplatz – Rotebühlplatz) to Heslach Vogelrain in the south. Since the December 2023 Network 2024 reshuffle, it uses the loop rather than running directly via Hauptbahnhof, and is being progressively upgraded for 80 m double-set operation.",
+      "description": "One of the busiest longitudinal lines, the U1 runs from Fellbach Lutherkirche in the east via Bad Cannstatt through the inner-city loop (Charlottenplatz \u2013 Marienplatz \u2013 Roteb\u00fchlplatz) to Heslach Vogelrain in the south. Since the December 2023 Network 2024 reshuffle, it uses the loop rather than running directly via Hauptbahnhof, and is being progressively upgraded for 80 m double-set operation.",
       "opened": "1986-04-19",
       "abbreviation": "U1"
     },
@@ -150,7 +148,7 @@
       "name": "U12",
       "color": "light-blue",
       "colorHex": "#8cbde8",
-      "description": "The U12 is one of the longest and most recently completed lines, running from Remseck am Neckar (Neckargröningen) in the northeast via Hallschlag, Nordbahnhof, Hauptbahnhof, and the Europaviertel tunnel south through the city centre to Charlottenplatz, Degerloch, Möhringen, and Dürrlewang. It operates as an 80 m double set during weekday daytime hours and was progressively extended between 2013 and 2017.",
+      "description": "The U12 is one of the longest and most recently completed lines, running from Remseck am Neckar (Neckargr\u00f6ningen) in the northeast via Hallschlag, Nordbahnhof, Hauptbahnhof, and the Europaviertel tunnel south through the city centre to Charlottenplatz, Degerloch, M\u00f6hringen, and D\u00fcrrlewang. It operates as an 80 m double set during weekday daytime hours and was progressively extended between 2013 and 2017.",
       "opened": "2013-09-14",
       "abbreviation": "U12"
     },
@@ -158,7 +156,7 @@
       "name": "U13",
       "color": "light-pink",
       "colorHex": "#f587b3",
-      "description": "The U13 is a tangential line connecting Feuerbach in the northwest with Hedelfingen in the Neckar valley east, via Pragsattel, Löwentor, Wilhelma, Bad Cannstatt, and Untertürkheim. During school-day peak hours the service extends west from Feuerbach to Giebel. Since the introduction of U16 in 2018, the standard non-peak western terminus is Feuerbach Pfostenwäldle.",
+      "description": "The U13 is a tangential line connecting Feuerbach in the northwest with Hedelfingen in the Neckar valley east, via Pragsattel, L\u00f6wentor, Wilhelma, Bad Cannstatt, and Untert\u00fcrkheim. During school-day peak hours the service extends west from Feuerbach to Giebel. Since the introduction of U16 in 2018, the standard non-peak western terminus is Feuerbach Pfostenw\u00e4ldle.",
       "opened": "1997-09-13",
       "abbreviation": "U13"
     },
@@ -166,7 +164,7 @@
       "name": "U14",
       "color": "green",
       "colorHex": "#5ec23f",
-      "description": "The U14 is a long north-south line running from Mühlhausen in the far north via Münster and Charlottenplatz through the city-centre tunnel to Heslach Vogelrain and Vaihingen Bahnhof in the south. Since the December 2023 Network 2024 reshuffle, U14 uses the direct Charlottenplatz route (swapping the inner-city loop role with U1); the former Remseck branch is now served entirely by U12.",
+      "description": "The U14 is a long north-south line running from M\u00fchlhausen in the far north via M\u00fcnster and Charlottenplatz through the city-centre tunnel to Heslach Vogelrain and Vaihingen Bahnhof in the south. Since the December 2023 Network 2024 reshuffle, U14 uses the direct Charlottenplatz route (swapping the inner-city loop role with U1); the former Remseck branch is now served entirely by U12.",
       "opened": "1986-07-12",
       "abbreviation": "U14"
     },
@@ -174,7 +172,7 @@
       "name": "U15",
       "color": "dark-blue",
       "colorHex": "#1e54ae",
-      "description": "The U15 was the last tram line in Stuttgart to be converted to Stadtbahn standard gauge, completed in phases between 2007 and December 2011 when the full current route from Stammheim to Ruhbank (Fernsehturm) was established. It passes through Zuffenhausen and Pragsattel, traverses the underground city-centre trunk, and climbs the Olgaeck–Ruhbank gradient — the steepest standard-gauge adhesion track in Europe used by regular public transport. Outside school hours the line runs only between Stammheim and Ruhbank.",
+      "description": "The U15 was the last tram line in Stuttgart to be converted to Stadtbahn standard gauge, completed in phases between 2007 and December 2011 when the full current route from Stammheim to Ruhbank (Fernsehturm) was established. It passes through Zuffenhausen and Pragsattel, traverses the underground city-centre trunk, and climbs the Olgaeck\u2013Ruhbank gradient \u2014 the steepest standard-gauge adhesion track in Europe used by regular public transport. Outside school hours the line runs only between Stammheim and Ruhbank.",
       "opened": "2007-12-08",
       "abbreviation": "U15"
     },
@@ -182,7 +180,7 @@
       "name": "U16",
       "color": "yellow-green",
       "colorHex": "#babf17",
-      "description": "The U16 is a peak-hour reinforcement line operating Monday to Friday, running from Giebel in the west via Feuerbach, Pragsattel, Löwentor, Wilhelma, and Bad Cannstatt to Fellbach Lutherkirche in the east. Introduced in December 2018, it provides additional capacity on the heavily used Feuerbach–Bad Cannstatt–Fellbach corridor and relieved the U1 pending its ongoing platform-extension upgrades for 80 m trains.",
+      "description": "The U16 is a peak-hour reinforcement line operating Monday to Friday, running from Giebel in the west via Feuerbach, Pragsattel, L\u00f6wentor, Wilhelma, and Bad Cannstatt to Fellbach Lutherkirche in the east. Introduced in December 2018, it provides additional capacity on the heavily used Feuerbach\u2013Bad Cannstatt\u2013Fellbach corridor and relieved the U1 pending its ongoing platform-extension upgrades for 80 m trains.",
       "opened": "2018-12-09",
       "abbreviation": "U16"
     },
@@ -198,7 +196,7 @@
       "name": "U2",
       "color": "orange",
       "colorHex": "#f37014",
-      "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Rotebühlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
+      "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Roteb\u00fchlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
       "opened": "2002-06-22",
       "abbreviation": "U2"
     },
@@ -206,7 +204,7 @@
       "name": "U3",
       "color": "dark-brown",
       "colorHex": "#8a5738",
-      "description": "The U3 is a short tangential line linking the southern suburb of Plieningen with the major interchange at Vaihingen Bahnhof via Möhringen. It runs entirely on the surface, does not serve the city-centre tunnel, and was the very first line to enter full Stadtbahn operation on 28 September 1985. It provides a direct connection to the S-Bahn at Vaihingen without requiring a city-centre change.",
+      "description": "The U3 is a short tangential line linking the southern suburb of Plieningen with the major interchange at Vaihingen Bahnhof via M\u00f6hringen. It runs entirely on the surface, does not serve the city-centre tunnel, and was the very first line to enter full Stadtbahn operation on 28 September 1985. It provides a direct connection to the S-Bahn at Vaihingen without requiring a city-centre change.",
       "opened": "1985-09-28",
       "abbreviation": "U3"
     },
@@ -214,7 +212,7 @@
       "name": "U4",
       "color": "violet",
       "colorHex": "#7559b0",
-      "description": "The U4 is a longitudinal valley line connecting Untertürkheim Bahnhof in the Neckar valley east with Hölderlinplatz in the north, via Ostendplatz, Neckartor, Charlottenplatz, and Rotebühlplatz. It provides S-Bahn interchange at Untertürkheim and runs through the Neckar valley on the surface before entering the city-centre tunnel.",
+      "description": "The U4 is a longitudinal valley line connecting Untert\u00fcrkheim Bahnhof in the Neckar valley east with H\u00f6lderlinplatz in the north, via Ostendplatz, Neckartor, Charlottenplatz, and Roteb\u00fchlplatz. It provides S-Bahn interchange at Untert\u00fcrkheim and runs through the Neckar valley on the surface before entering the city-centre tunnel.",
       "opened": "1994-09-24",
       "abbreviation": "U4"
     },
@@ -222,7 +220,7 @@
       "name": "U5",
       "color": "sky-blue",
       "colorHex": "#33bdf0",
-      "description": "The U5 is a cross-valley line running from Killesberg in the north through Hauptbahnhof and the city-centre tunnel to Degerloch, Möhringen, and Leinfelden Bahnhof at the southern edge of the network, with S-Bahn interchange at Hauptbahnhof and Leinfelden. Unlike most other lines, the U5 operates every 20 minutes rather than the standard 10-minute headway.",
+      "description": "The U5 is a cross-valley line running from Killesberg in the north through Hauptbahnhof and the city-centre tunnel to Degerloch, M\u00f6hringen, and Leinfelden Bahnhof at the southern edge of the network, with S-Bahn interchange at Hauptbahnhof and Leinfelden. Unlike most other lines, the U5 operates every 20 minutes rather than the standard 10-minute headway.",
       "opened": "1990-11-03",
       "abbreviation": "U5"
     },
@@ -230,7 +228,7 @@
       "name": "U6",
       "color": "hot-pink",
       "colorHex": "#eb008a",
-      "description": "The U6 is the longest line in the network, crossing the entire city from Gerlingen in the west via Giebel, Feuerbach, Pragsattel, Hauptbahnhof, Charlottenplatz, Degerloch, and Möhringen, continuing south through Fasanenhof to Stuttgart Airport and the trade fair (Messe/Flughafen), which it has served since December 2021. It operates as an 80 m double set during weekday daytime hours and is the principal Stadtbahn connection to the airport.",
+      "description": "The U6 is the longest line in the network, crossing the entire city from Gerlingen in the west via Giebel, Feuerbach, Pragsattel, Hauptbahnhof, Charlottenplatz, Degerloch, and M\u00f6hringen, continuing south through Fasanenhof to Stuttgart Airport and the trade fair (Messe/Flughafen), which it has served since December 2021. It operates as an 80 m double set during weekday daytime hours and is the principal Stadtbahn connection to the airport.",
       "opened": "1990-11-03",
       "abbreviation": "U6"
     },
@@ -238,7 +236,7 @@
       "name": "U7",
       "color": "mint-green",
       "colorHex": "#33b887",
-      "description": "The U7 is one of the longest lines, running from Mönchfeld in the northeast via Zuffenhausen and Pragsattel through the city-centre tunnel to Ruhbank (Fernsehturm), then southeast through Heumaden to Ostfildern. It operates as an 80 m double set during weekday daytime hours, providing high-capacity service on the busy Pragsattel–Hauptbahnhof corridor shared with several other lines.",
+      "description": "The U7 is one of the longest lines, running from M\u00f6nchfeld in the northeast via Zuffenhausen and Pragsattel through the city-centre tunnel to Ruhbank (Fernsehturm), then southeast through Heumaden to Ostfildern. It operates as an 80 m double set during weekday daytime hours, providing high-capacity service on the busy Pragsattel\u2013Hauptbahnhof corridor shared with several other lines.",
       "opened": "1993-04-19",
       "abbreviation": "U7"
     },
@@ -246,7 +244,7 @@
       "name": "U8",
       "color": "khaki",
       "colorHex": "#bab361",
-      "description": "The U8 is a limited-hours cross-valley line running Monday to Friday (approximately 05:30–20:00) between Vaihingen Bahnhof in the southwest and Ostfildern in the southeast, via Möhringen, Degerloch, Ruhbank (Fernsehturm), and Heumaden. It supplements the U7 on the shared southeastern section and increases frequency on the Vaihingen–Möhringen corridor during afternoon peak hours.",
+      "description": "The U8 is a limited-hours cross-valley line running Monday to Friday (approximately 05:30\u201320:00) between Vaihingen Bahnhof in the southwest and Ostfildern in the southeast, via M\u00f6hringen, Degerloch, Ruhbank (Fernsehturm), and Heumaden. It supplements the U7 on the shared southeastern section and increases frequency on the Vaihingen\u2013M\u00f6hringen corridor during afternoon peak hours.",
       "opened": "2000-09-09",
       "abbreviation": "U8"
     },
@@ -263,13 +261,13 @@
       "color": "gray",
       "colorHex": "#8f8f8f",
       "opened": "1994-01-01",
-      "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Rotebühlplatz – Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
+      "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Roteb\u00fchlplatz \u2013 Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
       "abbreviation": "U11"
     }
   },
   "stations": {
     "gnesener-strasse": {
-      "name": "Gnesener Straße",
+      "name": "Gnesener Stra\u00dfe",
       "features": ["fare-vending", "transfer"],
       "osmId": 738900600
     },
@@ -284,7 +282,7 @@
       "osmId": 717575294
     },
     "borsigstrasse": {
-      "name": "Borsigstraße",
+      "name": "Borsigstra\u00dfe",
       "features": ["fare-vending", "transfer"],
       "osmId": 33327551
     },
@@ -304,7 +302,7 @@
       "osmId": 270599198
     },
     "brendle": {
-      "name": "Brendle (Großmarkt)",
+      "name": "Brendle (Gro\u00dfmarkt)",
       "features": ["fare-vending", "transfer"],
       "osmId": 26407020
     },
@@ -314,17 +312,17 @@
       "osmId": 94849768
     },
     "payerstrasse": {
-      "name": "Payerstraße",
+      "name": "Payerstra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 87388046
     },
     "eltinger-strasse": {
-      "name": "Eltinger Straße",
+      "name": "Eltinger Stra\u00dfe",
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 259711280
     },
     "schloss-johannesstrasse": {
-      "name": "Schloss-/Johannesstraße",
+      "name": "Schloss-/Johannesstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 31127214
     },
@@ -388,7 +386,7 @@
       "osmId": 26407025
     },
     "rastatter-strasse": {
-      "name": "Rastatter Straße",
+      "name": "Rastatter Stra\u00dfe",
       "features": ["fare-vending", "transfer"],
       "osmId": 26405805
     },
@@ -446,7 +444,7 @@
       "osmId": 137321726
     },
     "remseck-neckargroeningen": {
-      "name": "Remseck Neckargröningen",
+      "name": "Remseck Neckargr\u00f6ningen",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 18353190
     },
@@ -495,7 +493,7 @@
       "osmId": 1745866243
     },
     "degerloch-albstrasse": {
-      "name": "Degerloch Albstraße",
+      "name": "Degerloch Albstra\u00dfe",
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 439664668
     },
@@ -505,12 +503,12 @@
       "osmId": 21097477
     },
     "engelboldstrasse": {
-      "name": "Engelboldstraße",
+      "name": "Engelboldstra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 34578825
     },
     "fuerfelder-strasse": {
-      "name": "Fürfelder Straße",
+      "name": "F\u00fcrfelder Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 26407047
     },
@@ -520,17 +518,17 @@
       "osmId": 279898521
     },
     "nuernberger-strasse": {
-      "name": "Nürnberger Straße",
+      "name": "N\u00fcrnberger Stra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 600447956
     },
     "loewentorbruecke": {
-      "name": "Löwentorbrücke",
+      "name": "L\u00f6wentorbr\u00fccke",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 38901889
     },
     "antwerpener-strasse": {
-      "name": "Antwerpener Straße",
+      "name": "Antwerpener Stra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 10798221
     },
@@ -583,12 +581,12 @@
       "osmId": 34580092
     },
     "elbestrasse": {
-      "name": "Elbestraße",
+      "name": "Elbestra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 18353056
     },
     "wagrainaecker": {
-      "name": "Wagrainäcker",
+      "name": "Wagrain\u00e4cker",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 246282061
     },
@@ -598,7 +596,7 @@
       "osmId": 26407034
     },
     "korntaler-strasse": {
-      "name": "Korntaler Straße",
+      "name": "Korntaler Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 1541057204
     },
@@ -633,7 +631,7 @@
       "osmId": 9330061520
     },
     "salzaecker": {
-      "name": "Salzäcker",
+      "name": "Salz\u00e4cker",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 9936191
     },
@@ -643,13 +641,13 @@
       "osmId": 282943399
     },
     "rotebuehlplatz": {
-      "name": "Rotebühlplatz",
+      "name": "Roteb\u00fchlplatz",
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 78679799,
       "entrances": [
         {
           "id": "osm-647308536",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.7748116,
             "lng": 9.1710178
@@ -658,7 +656,7 @@
         },
         {
           "id": "osm-647308545",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.7751405,
             "lng": 9.1722068
@@ -667,7 +665,7 @@
         },
         {
           "id": "osm-1621863003",
-          "name": "Rotebühlplatz (Stadtmitte)",
+          "name": "Roteb\u00fchlplatz (Stadtmitte)",
           "coordinates": {
             "lat": 48.7738077,
             "lng": 9.1739115
@@ -676,7 +674,7 @@
         },
         {
           "id": "osm-1621899309",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.7749218,
             "lng": 9.1711164
@@ -685,7 +683,7 @@
         },
         {
           "id": "osm-1989724631",
-          "name": "Rotebühlplatz (Stadtmitte)",
+          "name": "Roteb\u00fchlplatz (Stadtmitte)",
           "coordinates": {
             "lat": 48.773813,
             "lng": 9.1745094
@@ -694,7 +692,7 @@
         },
         {
           "id": "osm-3034475420",
-          "name": "Rotebühlplatz (Stadtmitte)",
+          "name": "Roteb\u00fchlplatz (Stadtmitte)",
           "coordinates": {
             "lat": 48.7740125,
             "lng": 9.1741788
@@ -703,7 +701,7 @@
         },
         {
           "id": "osm-3034475421",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.7744821,
             "lng": 9.1717517
@@ -712,7 +710,7 @@
         },
         {
           "id": "osm-3034475422",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.7747041,
             "lng": 9.1720933
@@ -721,7 +719,7 @@
         },
         {
           "id": "osm-3034475423",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.774836,
             "lng": 9.1722584
@@ -730,7 +728,7 @@
         },
         {
           "id": "osm-3657852735",
-          "name": "Rotebühlplatz",
+          "name": "Roteb\u00fchlplatz",
           "coordinates": {
             "lat": 48.7755541,
             "lng": 9.1712823
@@ -750,27 +748,27 @@
       "osmId": 675756
     },
     "hoelderlinplatz": {
-      "name": "Hölderlinplatz",
+      "name": "H\u00f6lderlinplatz",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 278490359
     },
     "duerrlewang": {
-      "name": "Dürrlewang",
+      "name": "D\u00fcrrlewang",
       "features": ["fare-vending"],
       "osmId": 3510348490
     },
     "moehringen-bahnhof": {
-      "name": "Möhringen Bahnhof",
+      "name": "M\u00f6hringen Bahnhof",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 9936541
     },
     "aldingen-muehle": {
-      "name": "Aldingen Mühle",
+      "name": "Aldingen M\u00fchle",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 18353128
     },
     "suedheimer-platz": {
-      "name": "Südheimer Platz",
+      "name": "S\u00fcdheimer Platz",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 34580107
     },
@@ -795,7 +793,7 @@
       "osmId": 9995173
     },
     "lindpaintnerstrasse": {
-      "name": "Lindpaintnerstraße",
+      "name": "Lindpaintnerstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 21286549
     },
@@ -820,12 +818,12 @@
       "osmId": 498454608
     },
     "dobelstrasse": {
-      "name": "Dobelstraße",
+      "name": "Dobelstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 20968183
     },
     "metzstrasse": {
-      "name": "Metzstraße",
+      "name": "Metzstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 20982241
     },
@@ -835,13 +833,13 @@
       "osmId": 34580083
     },
     "boersenplatz": {
-      "name": "Börsenplatz",
+      "name": "B\u00f6rsenplatz",
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 2145685316,
       "entrances": [
         {
           "id": "osm-320286171",
-          "name": "Friedrichsbau (Börse)",
+          "name": "Friedrichsbau (B\u00f6rse)",
           "coordinates": {
             "lat": 48.7804733,
             "lng": 9.176067
@@ -850,7 +848,7 @@
         },
         {
           "id": "osm-418324761",
-          "name": "Börsenplatz (L-Bank)",
+          "name": "B\u00f6rsenplatz (L-Bank)",
           "coordinates": {
             "lat": 48.7801649,
             "lng": 9.1772162
@@ -877,7 +875,7 @@
         },
         {
           "id": "osm-444582347",
-          "name": "Friedrichsbau (Börse)",
+          "name": "Friedrichsbau (B\u00f6rse)",
           "coordinates": {
             "lat": 48.7809994,
             "lng": 9.1762302
@@ -886,7 +884,7 @@
         },
         {
           "id": "osm-2145685310",
-          "name": "Friedrichsbau (Börse)",
+          "name": "Friedrichsbau (B\u00f6rse)",
           "coordinates": {
             "lat": 48.7798416,
             "lng": 9.1758929
@@ -895,7 +893,7 @@
         },
         {
           "id": "osm-2145685315",
-          "name": "Friedrichsbau (Börse)",
+          "name": "Friedrichsbau (B\u00f6rse)",
           "coordinates": {
             "lat": 48.7799814,
             "lng": 9.1755273
@@ -905,7 +903,7 @@
       ]
     },
     "peregrinastrasse": {
-      "name": "Peregrinastraße",
+      "name": "Peregrinastra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 13355384
     },
@@ -915,7 +913,7 @@
       "osmId": 9330061530
     },
     "plieninger-strasse": {
-      "name": "Plieninger Straße",
+      "name": "Plieninger Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 9936195
     },
@@ -930,7 +928,7 @@
       "osmId": 662424904
     },
     "muehlsteg": {
-      "name": "Mühlsteg",
+      "name": "M\u00fchlsteg",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 26632799
     },
@@ -945,7 +943,7 @@
       "osmId": 9994979
     },
     "muenster-rathaus": {
-      "name": "Münster Rathaus",
+      "name": "M\u00fcnster Rathaus",
       "features": ["fare-vending"],
       "osmId": 743056123
     },
@@ -955,7 +953,7 @@
       "osmId": 280139053
     },
     "riethmuellerhaus": {
-      "name": "Riethmüllerhaus",
+      "name": "Riethm\u00fcllerhaus",
       "features": ["fare-vending"],
       "osmId": 1485637818
     },
@@ -965,22 +963,22 @@
       "osmId": 722970518
     },
     "tapachstrasse": {
-      "name": "Tapachstraße",
+      "name": "Tapachstra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 26407045
     },
     "salzwiesenstrasse": {
-      "name": "Salzwiesenstraße",
+      "name": "Salzwiesenstra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 1540266132
     },
     "mercedesstrasse": {
-      "name": "Mercedesstraße",
+      "name": "Mercedesstra\u00dfe",
       "features": ["fare-vending", "transfer"],
       "osmId": 21097466
     },
     "moenchfeld": {
-      "name": "Mönchfeld",
+      "name": "M\u00f6nchfeld",
       "features": ["fare-vending"],
       "osmId": 26407041
     },
@@ -1015,7 +1013,7 @@
       "osmId": 298691598
     },
     "stoeckach": {
-      "name": "Stöckach",
+      "name": "St\u00f6ckach",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 303028845
     },
@@ -1025,17 +1023,17 @@
       "osmId": 26632844
     },
     "kraftwerk-muenster": {
-      "name": "Kraftwerk Münster",
+      "name": "Kraftwerk M\u00fcnster",
       "features": ["fare-vending"],
       "osmId": 18353042
     },
     "vaihinger-strasse": {
-      "name": "Vaihinger Straße",
+      "name": "Vaihinger Stra\u00dfe",
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 9994951
     },
     "hoehenstrasse": {
-      "name": "Höhenstraße",
+      "name": "H\u00f6henstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 10798156
     },
@@ -1045,12 +1043,12 @@
       "osmId": 18353124
     },
     "fauststrasse": {
-      "name": "Fauststraße",
+      "name": "Fauststra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 34578810
     },
     "schemppstrasse": {
-      "name": "Schemppstraße",
+      "name": "Schemppstra\u00dfe",
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 274246540,
       "entrances": [
@@ -1080,7 +1078,7 @@
       "osmId": 21288478
     },
     "jurastrasse": {
-      "name": "Jurastraße",
+      "name": "Jurastra\u00dfe",
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 9995142
     },
@@ -1095,12 +1093,12 @@
       "osmId": 3224912063
     },
     "zuericher-strasse": {
-      "name": "Züricher Straße",
+      "name": "Z\u00fcricher Stra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 2457943479
     },
     "bottroper-strasse": {
-      "name": "Bottroper Straße",
+      "name": "Bottroper Stra\u00dfe",
       "features": ["elevator", "fare-vending"],
       "osmId": 2457964058
     },
@@ -1153,17 +1151,17 @@
       "osmId": 12250522542
     },
     "schlotterbeckstrasse": {
-      "name": "Schlotterbeckstraße",
+      "name": "Schlotterbeckstra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 26407033
     },
     "aldingen-brueckenstrasse": {
-      "name": "Aldingen Brückenstraße",
+      "name": "Aldingen Br\u00fcckenstra\u00dfe",
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
       "osmId": 267174590
     },
     "landauer-strasse": {
-      "name": "Landauer Straße",
+      "name": "Landauer Stra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26405931
     },
@@ -1173,12 +1171,12 @@
       "osmId": 662446225
     },
     "feuerbach-pfostenwaeldle": {
-      "name": "Feuerbach Pfostenwäldle",
+      "name": "Feuerbach Pfostenw\u00e4ldle",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26405936
     },
     "rosensteinbruecke": {
-      "name": "Rosensteinbrücke",
+      "name": "Rosensteinbr\u00fccke",
       "features": ["fare-vending", "transfer"],
       "osmId": 26782694
     },
@@ -1199,7 +1197,7 @@
       ]
     },
     "milloeckerstrasse": {
-      "name": "Millöckerstraße",
+      "name": "Mill\u00f6ckerstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 21281027
     },
@@ -1209,7 +1207,7 @@
       "osmId": 738900577
     },
     "oesterreichischer-platz": {
-      "name": "Österreichischer Platz",
+      "name": "\u00d6sterreichischer Platz",
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 281150040,
       "entrances": [
@@ -1257,12 +1255,12 @@
       "osmId": 9775743219
     },
     "stafflenbergstrasse": {
-      "name": "Stafflenbergstraße",
+      "name": "Stafflenbergstra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 3224912263
     },
     "bockelstrasse": {
-      "name": "Bockelstraße",
+      "name": "Bockelstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26407067
     },
@@ -1277,7 +1275,7 @@
       "osmId": 741569484
     },
     "kienbachstrasse": {
-      "name": "Kienbachstraße",
+      "name": "Kienbachstra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 26407038
     },
@@ -1302,7 +1300,7 @@
       "osmId": 26407066
     },
     "freibergstrasse": {
-      "name": "Freibergstraße",
+      "name": "Freibergstra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 18353052
     },
@@ -1322,12 +1320,12 @@
       "osmId": 26407042
     },
     "suttnerstrasse": {
-      "name": "Suttnerstraße",
+      "name": "Suttnerstra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 26407043
     },
     "inselstrasse": {
-      "name": "Inselstraße",
+      "name": "Inselstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26632845
     },
@@ -1337,7 +1335,7 @@
       "osmId": 5539414145
     },
     "untertuerkheim-bf": {
-      "name": "Untertürkheim Bf",
+      "name": "Untert\u00fcrkheim Bf",
       "features": ["elevator", "fare-vending", "transfer"],
       "osmId": 26407028
     },
@@ -1347,7 +1345,7 @@
       "osmId": 1381070326
     },
     "rosenberg-seidenstrasse": {
-      "name": "Rosenberg-/Seidenstraße",
+      "name": "Rosenberg-/Seidenstra\u00dfe",
       "features": ["elevator", "fare-vending", "wheelchair-accessible"],
       "osmId": 60399583
     },
@@ -1378,17 +1376,17 @@
       "osmId": 717575086
     },
     "arndt-spittastrasse": {
-      "name": "Arndt-/Spittastraße",
+      "name": "Arndt-/Spittastra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 31127640
     },
     "beskidenstrasse": {
-      "name": "Beskidenstraße",
+      "name": "Beskidenstra\u00dfe",
       "features": ["fare-vending", "transfer"],
       "osmId": 10798199
     },
     "muenster-viadukt": {
-      "name": "Münster Viadukt",
+      "name": "M\u00fcnster Viadukt",
       "features": ["fare-vending"],
       "osmId": 18353045
     },
@@ -1427,7 +1425,7 @@
       ]
     },
     "foehrich": {
-      "name": "Föhrich",
+      "name": "F\u00f6hrich",
       "features": ["fare-vending", "transfer"],
       "osmId": 26405948
     },
@@ -1447,17 +1445,17 @@
       "osmId": 417704314
     },
     "hohensteinstrasse": {
-      "name": "Hohensteinstraße",
+      "name": "Hohensteinstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26407049
     },
     "esslinger-strasse": {
-      "name": "Esslinger Straße",
+      "name": "Esslinger Stra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26632833
     },
     "kirchtalstrasse": {
-      "name": "Kirchtalstraße",
+      "name": "Kirchtalstra\u00dfe",
       "features": ["escalator", "fare-vending", "wheelchair-accessible"],
       "osmId": 1540261722,
       "entrances": [
@@ -1496,7 +1494,7 @@
       "osmId": 1541454118
     },
     "loewentor": {
-      "name": "Löwentor",
+      "name": "L\u00f6wentor",
       "features": ["fare-vending", "transfer"],
       "osmId": 26789969
     },
@@ -1526,12 +1524,12 @@
       "osmId": 34580121
     },
     "loewen-markt": {
-      "name": "Löwen-Markt",
+      "name": "L\u00f6wen-Markt",
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26405923
     },
     "stadionstrasse": {
-      "name": "Stadionstraße",
+      "name": "Stadionstra\u00dfe",
       "features": ["fare-vending"],
       "osmId": 9330052888
     },
@@ -1541,13 +1539,13 @@
       "osmId": 26632814
     },
     "maybachstrasse": {
-      "name": "Maybachstraße",
+      "name": "Maybachstra\u00dfe",
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26405960,
       "entrances": [
         {
           "id": "osm-268108171",
-          "name": "Maybachstraße",
+          "name": "Maybachstra\u00dfe",
           "coordinates": {
             "lat": 48.8108673,
             "lng": 9.1774808
@@ -1556,7 +1554,7 @@
         },
         {
           "id": "osm-1321831668",
-          "name": "Maybachstraße",
+          "name": "Maybachstra\u00dfe",
           "coordinates": {
             "lat": 48.8108293,
             "lng": 9.1768959
@@ -1565,7 +1563,7 @@
         },
         {
           "id": "osm-1750037105",
-          "name": "Maybachstraße",
+          "name": "Maybachstra\u00dfe",
           "coordinates": {
             "lat": 48.8110745,
             "lng": 9.177559
@@ -1575,7 +1573,7 @@
       ]
     },
     "schozacher-strasse": {
-      "name": "Schozacher Straße",
+      "name": "Schozacher Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 716887778
     },
@@ -1596,7 +1594,7 @@
       "entrances": [
         {
           "id": "osm-418324761",
-          "name": "Börsenplatz (L-Bank)",
+          "name": "B\u00f6rsenplatz (L-Bank)",
           "coordinates": {
             "lat": 48.7801649,
             "lng": 9.1772162
@@ -1634,7 +1632,7 @@
       "osmId": 338786820
     },
     "heutingsheimer-strasse": {
-      "name": "Heutingsheimer Straße",
+      "name": "Heutingsheimer Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 1540744965
     },
@@ -1644,7 +1642,7 @@
       "osmId": 722934089
     },
     "sigmaringer-strasse": {
-      "name": "Sigmaringer Straße",
+      "name": "Sigmaringer Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 9936394
     },
@@ -1659,12 +1657,12 @@
       "osmId": 26789306
     },
     "mineralbaeder": {
-      "name": "Mineralbäder (Naturkundemuseum)",
+      "name": "Mineralb\u00e4der (Naturkundemuseum)",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 10798229
     },
     "wasenstrasse": {
-      "name": "Wasenstraße",
+      "name": "Wasenstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 279915707
     },
@@ -1771,17 +1769,17 @@
       ]
     },
     "heidehofstrasse": {
-      "name": "Heidehofstraße",
+      "name": "Heidehofstra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 3224912067
     },
     "beethovenstrasse": {
-      "name": "Beethovenstraße",
+      "name": "Beethovenstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 21286538
     },
     "glockenstrasse": {
-      "name": "Glockenstraße (Mahle)",
+      "name": "Glockenstra\u00dfe (Mahle)",
       "features": ["fare-vending", "transfer"],
       "osmId": 26786753
     },
@@ -1801,7 +1799,7 @@
       "osmId": 306271971
     },
     "mittnachtstrasse": {
-      "name": "Mittnachtstraße",
+      "name": "Mittnachtstra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 726825698
     },
@@ -1972,7 +1970,7 @@
       ]
     },
     "sieglestrasse": {
-      "name": "Sieglestraße",
+      "name": "Sieglestra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26790152
     },
@@ -1982,7 +1980,7 @@
       "osmId": 255577460
     },
     "schwab-bebelstrasse": {
-      "name": "Schwab-/Bebelstraße",
+      "name": "Schwab-/Bebelstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 31127642
     },
@@ -2066,7 +2064,7 @@
       ]
     },
     "wangener-landhausstrasse": {
-      "name": "Wangener-/Landhausstraße",
+      "name": "Wangener-/Landhausstra\u00dfe",
       "features": ["fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 89414027
     },
@@ -2096,12 +2094,12 @@
       "osmId": 26632839
     },
     "muehlhausen": {
-      "name": "Mühlhausen",
+      "name": "M\u00fchlhausen",
       "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 18353108
     },
     "wimpfener-strasse": {
-      "name": "Wimpfener Straße",
+      "name": "Wimpfener Stra\u00dfe",
       "features": ["fare-vending", "wheelchair-accessible"],
       "osmId": 1540738738
     },
@@ -2111,7 +2109,7 @@
       "osmId": 270196725
     },
     "moehringen-freibad": {
-      "name": "Möhringen Freibad",
+      "name": "M\u00f6hringen Freibad",
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
       "osmId": 26240192,
       "entrances": [
@@ -2132,7 +2130,7 @@
       "id": "dt8-4",
       "systemId": "stuttgart-light-rail",
       "name": "DT8.4",
-      "manufacturer": "Duewag (Düwag)",
+      "manufacturer": "Duewag (D\u00fcwag)",
       "introduced": 1985,
       "retired": 2010,
       "status": "retired",
@@ -2146,7 +2144,7 @@
         "traction": "DC chopper control",
         "weight": "38,500 kg"
       },
-      "description": "The DT8.4 was the inaugural rolling stock of the Stadtbahn Stuttgart, entering service alongside the opening of the U15 in 1985. Built by Düsseldorf-based Düwag (Düsseldorfer Waggonfabrik), these articulated double-unit vehicles (Doppeltriebwagen) established the standard-gauge, high-floor design that defined the network. The cars operated as permanently coupled two-car sets and were progressively retired as newer low-floor and modernised vehicles entered the fleet."
+      "description": "The DT8.4 was the inaugural rolling stock of the Stadtbahn Stuttgart, entering service alongside the opening of the U15 in 1985. Built by D\u00fcsseldorf-based D\u00fcwag (D\u00fcsseldorfer Waggonfabrik), these articulated double-unit vehicles (Doppeltriebwagen) established the standard-gauge, high-floor design that defined the network. The cars operated as permanently coupled two-car sets and were progressively retired as newer low-floor and modernised vehicles entered the fleet."
     },
     {
       "id": "dt8-8",
@@ -2166,7 +2164,7 @@
         "traction": "AC IGBT",
         "weight": "39,000 kg"
       },
-      "description": "The DT8.8 series was delivered in the early 1990s as the Stadtbahn network expanded with new lines including the U1 and U4. Manufactured by Düwag under the Siemens brand following corporate restructuring, these vehicles introduced improved IGBT traction technology for greater energy efficiency. They remain in active service, having received mid-life refurbishments including updated interiors and improved passenger information systems."
+      "description": "The DT8.8 series was delivered in the early 1990s as the Stadtbahn network expanded with new lines including the U1 and U4. Manufactured by D\u00fcwag under the Siemens brand following corporate restructuring, these vehicles introduced improved IGBT traction technology for greater energy efficiency. They remain in active service, having received mid-life refurbishments including updated interiors and improved passenger information systems."
     },
     {
       "id": "dt8-10",
@@ -2206,7 +2204,7 @@
         "traction": "AC IGBT",
         "weight": "39,400 kg"
       },
-      "description": "The DT8.11 is a follow-on batch from Bombardier delivered in 2003–2004 to support further network extensions and increased service frequencies. The vehicles share the same platform as the DT8.10 but feature incremental improvements to the HVAC system and interior layout. Like other DT8 generations, they operate as permanently coupled two-car articulated sets."
+      "description": "The DT8.11 is a follow-on batch from Bombardier delivered in 2003\u20132004 to support further network extensions and increased service frequencies. The vehicles share the same platform as the DT8.10 but feature incremental improvements to the HVAC system and interior layout. Like other DT8 generations, they operate as permanently coupled two-car articulated sets."
     },
     {
       "id": "dt8-12",

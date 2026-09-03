@@ -372,6 +372,16 @@ export async function processSystem(
 
   const finalLines = applyOverlayCollection(baseLines, overlay.lines, { systemId });
   const finalStations = applyOverlayCollection(baseStations, overlay.stations, { systemId });
+
+  // Line and station counts are facts of the merged output, so compute them
+  // into the base on every refresh. The overlay still wins if a human pins an
+  // official figure that counts differently than our data does.
+  systemRaw.stats = {
+    ...((systemRaw.stats as Record<string, unknown> | undefined) ?? {}),
+    totalLines: finalLines.filter((l) => l.status === "active").length,
+    totalStations: finalStations.filter((s) => s.status === "active").length,
+  };
+
   const finalSystem = mergeOverlay(systemRaw, overlay.system);
   const finalRailcars = overlay.railcars ?? [];
 

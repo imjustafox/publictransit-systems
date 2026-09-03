@@ -59,8 +59,6 @@
       }
     ],
     "stats": {
-      "totalStations": 77,
-      "totalLines": 12,
       "annualRidership": "19.2 million",
       "dailyRidership": "74,900",
       "trackLength": 113.1,
@@ -2066,7 +2064,7 @@
           "wheelchair": false
         }
       ],
-      "description": "Denver Airport Station allows travelers to get to Denver Airport via transit. It has a special, higher fare zone specifically for travelers to and from the station. It has three art installations: Shadow Array by Patrick Marold, L’eau dans tous ses états by Yann Kersalé, and an informal installation of railroad ties in an unused area."
+      "description": "Denver Airport Station allows travelers to get to Denver Airport via transit. It has a special, higher fare zone specifically for travelers to and from the station. It has three art installations: Shadow Array by Patrick Marold, L\u2019eau dans tous ses \u00e9tats by Yann Kersal\u00e9, and an informal installation of railroad ties in an unused area."
     },
     "peoria": {
       "gtfsId": "34502",
@@ -2143,7 +2141,7 @@
     "40th-airport-gateway-park": {
       "gtfsId": "33740",
       "name": "40th  / Airport - Gateway Park",
-      "wikipedia": "en:40th Ave & Airport Blvd–Gateway Park station",
+      "wikipedia": "en:40th Ave & Airport Blvd\u2013Gateway Park station",
       "features": ["accessible", "elevator", "fare-vending"],
       "osmId": 7373859146,
       "description": "40th / Airport - Gateway Park Station serves Aurora. It has a large park-and-ride facility and an art installation, Time Present, by Molly Dilworth."
@@ -2512,7 +2510,7 @@
     "littleton-mineral": {
       "gtfsId": "33716",
       "name": "Littleton-Mineral",
-      "wikipedia": "en:Littleton–Mineral station",
+      "wikipedia": "en:Littleton\u2013Mineral station",
       "features": ["fare-vending", "transfer"],
       "osmId": 7382036678,
       "description": "Littleton-Mineral Station serves as the southern terminus for the C Line, but RTD plans to extend the line south to Highlands Ranch."
@@ -2588,11 +2586,11 @@
     "61st-pena": {
       "gtfsId": "34685",
       "name": "61st / Pena",
-      "wikipedia": "en:61st & Peña station",
+      "wikipedia": "en:61st & Pe\u00f1a station",
       "features": ["fare-vending"],
       "osmId": 6777872314,
       "wikidata": "Q24278813",
-      "description": "61st / Peña Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
+      "description": "61st / Pe\u00f1a Station is the final station before Denver Airport Station and the last station in the local fare zone. Its parking is managed by Denver International Airport."
     },
     "40th-colorado": {
       "gtfsId": "34500",
@@ -2672,7 +2670,7 @@
     "lakewood-wadsworth": {
       "gtfsId": "34237",
       "name": "Lakewood-Wadsworth",
-      "wikipedia": "en:Lakewood–Wadsworth station",
+      "wikipedia": "en:Lakewood\u2013Wadsworth station",
       "features": ["accessible", "elevator", "fare-vending"],
       "osmId": 7377364581,
       "entrances": [
@@ -2745,7 +2743,7 @@
     "decatur-federal": {
       "gtfsId": "34232",
       "name": "Decatur-Federal",
-      "wikipedia": "en:Decatur–Federal station",
+      "wikipedia": "en:Decatur\u2013Federal station",
       "features": ["fare-vending"],
       "osmId": 7377352002,
       "entrances": [
@@ -2800,7 +2798,7 @@
     "theatre-district-convention-center": {
       "systemId": "rtd-denver",
       "name": "Theatre District-Convention Center",
-      "wikipedia": "en:Theatre District–Convention Center station",
+      "wikipedia": "en:Theatre District\u2013Convention Center station",
       "lines": ["d-line", "h-line", "l-line"],
       "status": "active",
       "coordinates": {
@@ -3034,7 +3032,7 @@
     "jefferson-co-government-golden": {
       "gtfsId": "34241",
       "name": "Jefferson County Government Center/Golden",
-      "wikipedia": "en:Jefferson County Government Center–Golden station",
+      "wikipedia": "en:Jefferson County Government Center\u2013Golden station",
       "features": ["fare-vending"],
       "entrances": [
         {
@@ -3189,7 +3187,7 @@
     "littleton-downtown": {
       "gtfsId": "33715",
       "name": "Littleton-Downtown",
-      "wikipedia": "en:Littleton–Downtown station",
+      "wikipedia": "en:Littleton\u2013Downtown station",
       "features": ["fare-vending", "transfer"],
       "osmId": 7382036676,
       "entrances": [
@@ -3328,7 +3326,7 @@
     "ball-arena-elitch-gardens": {
       "gtfsId": "34110",
       "name": "Ball Arena / Elitch Gardens",
-      "wikipedia": "en:Ball Arena–Elitch Gardens station",
+      "wikipedia": "en:Ball Arena\u2013Elitch Gardens station",
       "features": ["fare-vending", "transfer"],
       "osmId": 7377206479,
       "entrances": [
@@ -3931,7 +3929,7 @@
     "louisiana-pearl": {
       "gtfsId": "33725",
       "name": "Louisiana-Pearl",
-      "wikipedia": "en:Louisiana–Pearl station",
+      "wikipedia": "en:Louisiana\u2013Pearl station",
       "features": ["fare-vending", "transfer"],
       "osmId": 7382727324,
       "description": "Louisiana-Pearl Station serves the Platt Park neighborhood and is partially underground. It has a kinetic sculpture named Strange Machine created by Ira Sherman."
@@ -4213,7 +4211,7 @@
     "oxford-city-of-sheridan": {
       "gtfsId": "33726",
       "name": "Oxford-City of Sheridan",
-      "wikipedia": "en:Oxford–City of Sheridan station",
+      "wikipedia": "en:Oxford\u2013City of Sheridan station",
       "features": ["fare-vending", "transfer"],
       "osmId": 7382036672,
       "description": "Oxford-City of Sheridan Station serves the border of Sheridan and Englewood."

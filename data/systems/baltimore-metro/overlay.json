@@ -44,8 +44,6 @@
       }
     ],
     "stats": {
-      "totalStations": 14,
-      "totalLines": 1,
       "annualRidership": "5.49 million",
       "trackLength": 15.4,
       "dailyRidership": "15,200",
@@ -168,7 +166,7 @@
         "weight": "76,000 lbs",
         "traction": "DC chopper"
       },
-      "description": "The Budd Universal Transit Vehicles were the last railcars ever built by the Budd Company. Cars 100–171 were delivered in 1983 from a joint order shared with Miami Metrorail, and cars 172–199 arrived in 1986 for the Owings Mills extension. The fleet was refurbished in 2002–2005 and is currently being phased out in favor of new Hitachi Rail cars."
+      "description": "The Budd Universal Transit Vehicles were the last railcars ever built by the Budd Company. Cars 100\u2013171 were delivered in 1983 from a joint order shared with Miami Metrorail, and cars 172\u2013199 arrived in 1986 for the Owings Mills extension. The fleet was refurbished in 2002\u20132005 and is currently being phased out in favor of new Hitachi Rail cars."
     },
     {
       "id": "hitachi-metro",

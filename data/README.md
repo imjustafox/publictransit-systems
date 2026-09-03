@@ -87,6 +87,12 @@ And when you need to replace a nested object instead of merging into it, set
 `"$replace": true` inside it. We use that to pin hand-modeled topology that
 the automatic detection gets wrong.
 
+The `totalLines` and `totalStations` numbers in `system.json` are counted
+from the merged output on every refresh, so they follow the data on their
+own. Pin them in the overlay only when the agency's official count differs
+from how we model the system. NYC is the example: the MTA counts 472
+stations, we model station complexes, so the overlay pins 472.
+
 ## Adding a new system
 
 If the agency publishes GTFS:

@@ -190,7 +190,6 @@
     ],
     "stats": {
       "totalStations": 472,
-      "totalLines": 25,
       "annualRidership": "1.65 billion",
       "trackMiles": 245,
       "dailyRidership": "3.6 million",
@@ -204,7 +203,7 @@
       "color": "red",
       "colorHex": "#EE352E",
       "opened": "1904-10-27",
-      "description": "The 1 train is a Broadway–Seventh Avenue local service and one of the original subway lines, having opened on the first day of New York City subway operations in 1904. It runs the full length of the Upper West Side from Van Cortlandt Park in the Bronx to the southern tip of Manhattan."
+      "description": "The 1 train is a Broadway\u2013Seventh Avenue local service and one of the original subway lines, having opened on the first day of New York City subway operations in 1904. It runs the full length of the Upper West Side from Van Cortlandt Park in the Bronx to the southern tip of Manhattan."
     },
     "2": {
       "name": "2 Train",
@@ -239,14 +238,14 @@
       "color": "green",
       "colorHex": "#00933C",
       "opened": "1904-10-27",
-      "description": "The 6 train is a Lexington Avenue local service running from Pelham Bay Park in the northeast Bronx to Brooklyn Bridge–City Hall in Lower Manhattan. It was part of the original 1904 subway and is consistently one of the system's busiest lines."
+      "description": "The 6 train is a Lexington Avenue local service running from Pelham Bay Park in the northeast Bronx to Brooklyn Bridge\u2013City Hall in Lower Manhattan. It was part of the original 1904 subway and is consistently one of the system's busiest lines."
     },
     "7": {
       "name": "7 Train",
       "color": "purple",
       "colorHex": "#B933AD",
       "opened": "1915-06-22",
-      "description": "The 7 train is the Flushing line, running from Main Street in Flushing, Queens to 34th Street–Hudson Yards in Manhattan. Known as the International Express for the diverse immigrant communities along its elevated route through Queens, it was extended to Hudson Yards in 2015."
+      "description": "The 7 train is the Flushing line, running from Main Street in Flushing, Queens to 34th Street\u2013Hudson Yards in Manhattan. Known as the International Express for the diverse immigrant communities along its elevated route through Queens, it was extended to Hudson Yards in 2015."
     },
     "N": {
       "name": "N Train",
@@ -309,21 +308,21 @@
       "color": "gray",
       "colorHex": "#A7A9AC",
       "opened": "1924",
-      "description": "The L train is the 14th Street–Canarsie local, the only service on its line and one of the few crosstown routes in the system. It connects Chelsea and the West Village in Manhattan to Williamsburg, Bushwick, and Canarsie in Brooklyn via the 14th Street Tunnel."
+      "description": "The L train is the 14th Street\u2013Canarsie local, the only service on its line and one of the few crosstown routes in the system. It connects Chelsea and the West Village in Manhattan to Williamsburg, Bushwick, and Canarsie in Brooklyn via the 14th Street Tunnel."
     },
     "M": {
       "name": "M Train",
       "color": "orange",
       "colorHex": "#FF6319",
       "opened": "1915",
-      "description": "The M train is a Sixth Avenue local service running from Forest Hills in Queens through Manhattan to Middle Village–Metropolitan Avenue via the Myrtle Avenue Line in Brooklyn. It follows an unusual looping route connecting central Queens to Bushwick and Ridgewood."
+      "description": "The M train is a Sixth Avenue local service running from Forest Hills in Queens through Manhattan to Middle Village\u2013Metropolitan Avenue via the Myrtle Avenue Line in Brooklyn. It follows an unusual looping route connecting central Queens to Bushwick and Ridgewood."
     },
     "A": {
       "name": "A Train",
       "color": "blue",
       "colorHex": "#0039A6",
       "opened": "1932-09-10",
-      "description": "The A train is the longest service in the New York City subway system, running over 31 miles from Inwood at the northern tip of Manhattan to Far Rockaway in Queens. Made famous by Billy Strayhorn's jazz standard, it also branches to Ozone Park–Lefferts Blvd and serves as the Eighth Avenue express."
+      "description": "The A train is the longest service in the New York City subway system, running over 31 miles from Inwood at the northern tip of Manhattan to Far Rockaway in Queens. Made famous by Billy Strayhorn's jazz standard, it also branches to Ozone Park\u2013Lefferts Blvd and serves as the Eighth Avenue express."
     },
     "C": {
       "name": "C Train",
@@ -337,7 +336,7 @@
       "color": "blue",
       "colorHex": "#0039A6",
       "opened": "1932",
-      "description": "The E train runs from Jamaica Center in Queens to the World Trade Center in Lower Manhattan via the Queens Boulevard and Eighth Avenue lines. It is one of the primary airport connections, linking to the AirTrain at Sutphin Blvd–Archer Av–JFK Airport station."
+      "description": "The E train runs from Jamaica Center in Queens to the World Trade Center in Lower Manhattan via the Queens Boulevard and Eighth Avenue lines. It is one of the primary airport connections, linking to the AirTrain at Sutphin Blvd\u2013Archer Av\u2013JFK Airport station."
     },
     "F": {
       "name": "F Train",
@@ -351,7 +350,7 @@
       "color": "lime",
       "colorHex": "#6CBE45",
       "opened": "1937",
-      "description": "The G train is the only subway service that does not enter Manhattan, running crosstown between Long Island City in Queens and Church Avenue in Brooklyn. Known as the Brooklyn–Queens Crosstown, it provides a vital link between the two boroughs through Greenpoint, Williamsburg, and Park Slope."
+      "description": "The G train is the only subway service that does not enter Manhattan, running crosstown between Long Island City in Queens and Church Avenue in Brooklyn. Known as the Brooklyn\u2013Queens Crosstown, it provides a vital link between the two boroughs through Greenpoint, Williamsburg, and Park Slope."
     },
     "S-42": {
       "name": "42 St Shuttle",
@@ -18749,7 +18748,7 @@
     "van-cortlandt-park-242-st": {
       "opened": "1908-08-01",
       "features": ["fare-vending", "bus-connection", "ada-accessible"],
-      "description": "Northern terminus of the 1 train on the IRT Broadway–Seventh Avenue Line, adjacent to Van Cortlandt Park.",
+      "description": "Northern terminus of the 1 train on the IRT Broadway\u2013Seventh Avenue Line, adjacent to Van Cortlandt Park.",
       "entrances": [
         {
           "id": "van-cortlandt-park-242-st-1",
@@ -18796,7 +18795,7 @@
     "238-st": {
       "opened": "1908-08-01",
       "features": ["fare-vending", "bus-connection"],
-      "description": "Elevated station on the IRT Broadway–Seventh Avenue Line serving the Kingsbridge neighborhood.",
+      "description": "Elevated station on the IRT Broadway\u2013Seventh Avenue Line serving the Kingsbridge neighborhood.",
       "entrances": [
         {
           "id": "238-st-1",
@@ -18833,7 +18832,7 @@
     "231-st": {
       "opened": "1908-08-01",
       "features": ["fare-vending", "bus-connection"],
-      "description": "Elevated station on the IRT Broadway–Seventh Avenue Line in the Kingsbridge section of the Bronx.",
+      "description": "Elevated station on the IRT Broadway\u2013Seventh Avenue Line in the Kingsbridge section of the Bronx.",
       "entrances": [
         {
           "id": "231-st-1",
@@ -18900,7 +18899,7 @@
     "marble-hill-225-st": {
       "opened": "1907-01-14",
       "features": ["fare-vending", "bus-connection"],
-      "description": "Elevated station on the IRT Broadway–Seventh Avenue Line serving the Marble Hill neighborhood near the Harlem River.",
+      "description": "Elevated station on the IRT Broadway\u2013Seventh Avenue Line serving the Marble Hill neighborhood near the Harlem River.",
       "entrances": [
         {
           "id": "marble-hill-225-st-1",
@@ -22138,7 +22137,7 @@
     "215-st": {
       "opened": "1907-01-14",
       "features": ["fare-vending"],
-      "description": "IRT Broadway–Seventh Avenue Line station in Inwood, Manhattan.",
+      "description": "IRT Broadway\u2013Seventh Avenue Line station in Inwood, Manhattan.",
       "entrances": [
         {
           "id": "215-st-1",
@@ -23258,7 +23257,7 @@
         "lng": -73.9753
       },
       "features": [],
-      "description": "Former IRT Broadway–Seventh Avenue local station on the Upper West Side, closed due to close proximity to 86th and 96th Street stations."
+      "description": "Former IRT Broadway\u2013Seventh Avenue local station on the Upper West Side, closed due to close proximity to 86th and 96th Street stations."
     },
     "south-ferry-outer-loop": {
       "systemId": "nyc-subway",
@@ -23597,7 +23596,7 @@
     {
       "id": "r1-r9",
       "systemId": "nyc-subway",
-      "name": "R1–R9",
+      "name": "R1\u2013R9",
       "manufacturer": "American Car and Foundry",
       "introduced": 1930,
       "retired": 1977,
@@ -23727,7 +23726,7 @@
     {
       "id": "r26-r29",
       "systemId": "nyc-subway",
-      "name": "R26–R29",
+      "name": "R26\u2013R29",
       "manufacturer": "American Car and Foundry",
       "introduced": 1959,
       "retired": 1994,

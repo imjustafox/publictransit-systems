@@ -35,7 +35,7 @@
       {
         "date": "2004-01-01",
         "title": "Double-Tracking Project Begins",
-        "description": "Major $205 million reconstruction project to double-track most of the system begins. Southern section closed through much of 2004; northern section closed January–October 2005."
+        "description": "Major $205 million reconstruction project to double-track most of the system begins. Southern section closed through much of 2004; northern section closed January\u2013October 2005."
       },
       {
         "date": "2006-02-26",
@@ -49,8 +49,6 @@
       }
     ],
     "stats": {
-      "totalStations": 33,
-      "totalLines": 3,
       "annualRidership": "5.0 million",
       "trackLength": 30,
       "dailyRidership": "14,500",
@@ -59,7 +57,7 @@
   },
   "lines": {
     "main-line": {
-      "name": "Hunt Valley – Cromwell/Glen Burnie",
+      "name": "Hunt Valley \u2013 Cromwell/Glen Burnie",
       "color": "blue",
       "colorHex": "#0072CE",
       "opened": "1992-04-02",
@@ -305,7 +303,7 @@
     {
       "id": "abb-lrv",
       "systemId": "baltimore-light-rail",
-      "name": "ABB LRV (5001–5035)",
+      "name": "ABB LRV (5001\u20135035)",
       "manufacturer": "ABB Traction",
       "introduced": 1992,
       "retired": null,
@@ -320,12 +318,12 @@
         "weight": "99,440 lbs",
         "traction": "AC propulsion"
       },
-      "description": "The original 35 articulated light rail vehicles, numbered 5001–5035, were the first transit vehicles in the United States to employ AC propulsion. Each three-section car is powered via pantograph from 750V DC overhead catenary. They were the widest LRVs in the US at delivery at 9 ft 6 in."
+      "description": "The original 35 articulated light rail vehicles, numbered 5001\u20135035, were the first transit vehicles in the United States to employ AC propulsion. Each three-section car is powered via pantograph from 750V DC overhead catenary. They were the widest LRVs in the US at delivery at 9 ft 6 in."
     },
     {
       "id": "adtranz-lrv",
       "systemId": "baltimore-light-rail",
-      "name": "ADtranz LRV (5036–5053)",
+      "name": "ADtranz LRV (5036\u20135053)",
       "manufacturer": "AAI Corporation / ADtranz",
       "introduced": 1997,
       "retired": null,
@@ -340,7 +338,7 @@
         "weight": "99,440 lbs",
         "traction": "AC propulsion"
       },
-      "description": "18 additional vehicles, numbered 5036–5053, were delivered in 1997–1999 to support the Hunt Valley extension and BWI Airport branch. Built by AAI Corporation under the ADtranz brand (successor to ABB Traction), they are functionally identical to the original fleet. The entire 53-car fleet is slated for replacement under the Light Rail Modernization Program."
+      "description": "18 additional vehicles, numbered 5036\u20135053, were delivered in 1997\u20131999 to support the Hunt Valley extension and BWI Airport branch. Built by AAI Corporation under the ADtranz brand (successor to ABB Traction), they are functionally identical to the original fleet. The entire 53-car fleet is slated for replacement under the Light Rail Modernization Program."
     }
   ]
 }

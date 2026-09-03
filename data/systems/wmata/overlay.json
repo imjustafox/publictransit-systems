@@ -39,8 +39,6 @@
       }
     ],
     "stats": {
-      "totalStations": 98,
-      "totalLines": 6,
       "annualRidership": "186.5 million",
       "trackMiles": 129,
       "dailyRidership": "626,000",
@@ -334,7 +332,7 @@
       "opened": "1990-09-22",
       "address": "9850 Georgia Ave, Silver Spring, MD 20902",
       "features": ["elevator", "fare-vending", "bus-connection"],
-      "description": "The deepest station in the system at 196 feet below ground, with no escalators—only elevators."
+      "description": "The deepest station in the system at 196 feet below ground, with no escalators\u2014only elevators."
     },
     "takoma": {
       "opened": "1978-02-06",
