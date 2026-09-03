@@ -1,5 +1,6 @@
 {
   "id": "cta",
+  "dataSource": "gtfs",
   "name": "Chicago Transit Authority",
   "shortName": "CTA",
   "location": "Chicago, Illinois",
