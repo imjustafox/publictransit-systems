@@ -1,0 +1,90 @@
+name: OSM Enrichment Refresh
+
+# Chained to the nightly GTFS refresh rather than carrying its own cron:
+# change that workflow's schedule and this one follows, and the two bots can
+# never race each other pushing to main.
+on:
+  workflow_run:
+    workflows: ["Nightly GTFS Refresh"]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    if: github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          ref: main
+
+      - name: Set up PNPM
+        uses: pnpm/setup@703c52620218391530e48b9e8870d5c0082e1b9b # v2.1.0
+        with:
+          cache: true
+          runtime: node@lts
+
+      - name: Enrich from OSM
+        run: pnpm run enrich:osm
+
+      - name: Fold the layer into generated systems
+        env:
+          SOUND_TRANSIT_GTFS_URL: ${{ secrets.SOUND_TRANSIT_GTFS_URL }}
+          BART_GTFS_URL: ${{ secrets.BART_GTFS_URL }}
+          CTA_GTFS_URL: ${{ secrets.CTA_GTFS_URL }}
+          BALTIMORE_LR_GTFS_URL: ${{ secrets.BALTIMORE_LR_GTFS_URL }}
+          BALTIMORE_METRO_GTFS_URL: ${{ secrets.BALTIMORE_METRO_GTFS_URL }}
+          RTD_GTFS_URL: ${{ secrets.RTD_GTFS_URL }}
+          WMATA_GTFS_URL: ${{ secrets.WMATA_GTFS_URL }}
+          WMATA_API_KEY: ${{ secrets.WMATA_API_KEY }}
+          NYC_SUBWAY_GTFS_URL: ${{ secrets.NYC_SUBWAY_GTFS_URL }}
+          STUTTGART_GTFS_URL: ${{ secrets.STUTTGART_GTFS_URL }}
+        run: pnpm run build:gtfs
+
+      - name: Format refreshed data
+        run: pnpm exec prettier --write "data/systems/**/*.json"
+
+      - name: Verify before publishing
+        env:
+          CI: "1"
+        run: |
+          pnpm run test
+          pnpm run test:ci
+
+      - name: Commit & push if changes
+        run: |
+          git config user.name "gtfs-bot"
+          git config user.email "gtfs-bot@users.noreply.github.com"
+          if [[ -n "$(git status --porcelain data/systems)" ]]; then
+            git add data/systems
+            git commit -m "chore(osm): enrichment refresh $(date -u +%Y-%m-%d)"
+            git push
+          else
+            echo "no data changes"
+          fi
+
+      - name: Open issue on failure
+        if: failure()
+        uses: actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd # v8.0.0
+        env:
+          GTFS_BOT_ASSIGNEES: ${{ vars.GTFS_BOT_ASSIGNEES }}
+        with:
+          script: |
+            const assignees = (process.env.GTFS_BOT_ASSIGNEES || "")
+              .split(",")
+              .map((s) => s.trim())
+              .filter(Boolean);
+            const today = new Date().toISOString().slice(0, 10);
+            await github.rest.issues.create({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              title: `[OSM bot] Enrichment refresh failed (${today})`,
+              body: `OSM enrichment workflow failed.\n\nRun: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
+              assignees,
+            });
