@@ -1,5 +1,11 @@
 import { describe, it, expect } from "vitest";
-import { dominantShapeForRoute, polylineLength, simplifyPolyline } from "./geometry";
+import {
+  dominantShapeForRoute,
+  selectShapesForRoute,
+  polylineLength,
+  simplifyPolyline,
+} from "./geometry";
+import type { GtfsShapePoint } from "./parser";
 import type { GtfsTrip } from "./parser";
 
 describe("dominantShapeForRoute", () => {
@@ -98,5 +104,42 @@ describe("simplifyPolyline (Douglas-Peucker)", () => {
     ]; // sharp peak
     const simplified = simplifyPolyline(pts, 0.1);
     expect(simplified.length).toBe(3); // peak must be preserved
+  });
+});
+
+describe("selectShapesForRoute", () => {
+  const line = (startLon: number): GtfsShapePoint[] =>
+    Array.from({ length: 50 }, (_, i) => ({
+      shape_id: "s",
+      shape_pt_lat: 40 + i * 0.005,
+      shape_pt_lon: startLon,
+      shape_pt_sequence: i,
+    }));
+  const trips = (shapeId: string, n: number) =>
+    Array.from({ length: n }, (_, i) => ({
+      trip_id: `${shapeId}-${i}`,
+      route_id: "A",
+      service_id: "wk",
+      shape_id: shapeId,
+    }));
+
+  it("keeps branches, drops mirrors of already-covered track", () => {
+    const shapes = new Map([
+      ["trunk", line(-75.0)],
+      ["trunk-reverse", [...line(-75.0)].reverse().map((p, i) => ({ ...p, shape_pt_sequence: i }))],
+      ["branch", line(-75.2)],
+    ]);
+    const all = [...trips("trunk", 100), ...trips("trunk-reverse", 90), ...trips("branch", 20)];
+    expect(selectShapesForRoute("A", all, shapes)).toEqual(["trunk", "branch"]);
+  });
+
+  it("respects maxShapes", () => {
+    const shapes = new Map(
+      Array.from({ length: 5 }, (_, i) => [`s${i}`, line(-75 - i * 0.3)] as const)
+    );
+    const all = Array.from({ length: 5 }, (_, i) => trips(`s${i}`, 50 - i)).flat();
+    expect(
+      selectShapesForRoute("A", all, shapes as Map<string, GtfsShapePoint[]>, { maxShapes: 3 })
+    ).toHaveLength(3);
   });
 });

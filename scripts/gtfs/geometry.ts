@@ -77,3 +77,45 @@ function perpendicularDistance(
   const tc = Math.max(0, Math.min(1, t));
   return Math.hypot(x - (x1 + tc * dx), y - (y1 + tc * dy));
 }
+
+// A route's dominant shape misses branches entirely (NYC's A runs 25 shape
+// variants; the most common covers 18% of trips). Select a covering set:
+// walk shapes by trip count and keep each one that adds meaningfully new
+// geometry, measured as the share of ~100m grid cells not touched by
+// already-kept shapes. Direction mirrors and short-turns contribute nothing
+// new and drop out; branches survive.
+export function selectShapesForRoute(
+  routeId: string,
+  trips: GtfsTrip[],
+  shapesById: Map<string, GtfsShapePoint[]>,
+  opts: { noveltyThreshold?: number; maxShapes?: number } = {}
+): string[] {
+  const noveltyThreshold = opts.noveltyThreshold ?? 0.05;
+  const maxShapes = opts.maxShapes ?? 8;
+
+  const counts = new Map<string, number>();
+  for (const t of trips) {
+    if (t.route_id !== routeId || !t.shape_id) continue;
+    counts.set(t.shape_id, (counts.get(t.shape_id) || 0) + 1);
+  }
+  const ordered = [...counts.entries()].sort((a, b) => b[1] - a[1]).map(([id]) => id);
+
+  const cellOf = (p: GtfsShapePoint) =>
+    `${Math.round(p.shape_pt_lat * 1000)}:${Math.round(p.shape_pt_lon * 1000)}`;
+
+  const covered = new Set<string>();
+  const kept: string[] = [];
+  for (const shapeId of ordered) {
+    if (kept.length >= maxShapes) break;
+    const points = shapesById.get(shapeId);
+    if (!points || points.length < 2) continue;
+    const cells = new Set(points.map(cellOf));
+    let novel = 0;
+    for (const c of cells) if (!covered.has(c)) novel++;
+    if (kept.length === 0 || novel / cells.size > noveltyThreshold) {
+      kept.push(shapeId);
+      for (const c of cells) covered.add(c);
+    }
+  }
+  return kept;
+}

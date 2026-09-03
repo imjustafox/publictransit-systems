@@ -5,7 +5,7 @@ import { resolveAuth, resolveUrl, MissingSecretError, type AuthConfig } from "./
 import { loadIdMap, saveIdMap, mergeIdMap, type IdMap } from "./id-map";
 import { detectTopology, extractTripPatterns } from "./topology";
 import {
-  dominantShapeForRoute,
+  selectShapesForRoute,
   shapeToPolyline,
   polylineLength,
   simplifyPolyline,
@@ -210,7 +210,10 @@ export async function processSystem(
   const topologyByLine: Record<string, string> = {};
   const baseLines: Plain[] = [];
   const baseStationLines = new Map<string, Set<string>>();
-  const baseGeometry: Record<string, { shapeId: string; coordinates: [number, number][] }> = {};
+  const baseGeometry: Record<
+    string,
+    { shapes: Array<{ shapeId: string; coordinates: [number, number][] }> }
+  > = {};
   const distanceUnit =
     (systemRaw.stats as { distanceUnit?: "mi" | "km" } | undefined)?.distanceUnit ?? "mi";
   const fallbackColor = (config.static.fields?.line_color_fallback || "#888888").replace(/^#/, "");
@@ -278,16 +281,19 @@ export async function processSystem(
     }
 
     // Geometry + length
-    const shapeId = dominantShapeForRoute(route.route_id, trips);
+    // Keep a covering set of shapes so branches render, not just the most
+    // common pattern; the line's length reports the longest variant.
+    const shapeIds = selectShapesForRoute(route.route_id, trips, gtfs.shapesByShapeId);
     let length = 0;
-    if (shapeId) {
+    const shapes: Array<{ shapeId: string; coordinates: [number, number][] }> = [];
+    for (const shapeId of shapeIds) {
       const shape = gtfs.shapesByShapeId.get(shapeId);
-      if (shape) {
-        const polyline = simplifyPolyline(shapeToPolyline(shape), 0.00005); // ~5m
-        length = +polylineLength(polyline, distanceUnit).toFixed(2);
-        baseGeometry[lineSlug] = { shapeId, coordinates: polyline };
-      }
+      if (!shape) continue;
+      const polyline = simplifyPolyline(shapeToPolyline(shape), 0.00005); // ~5m
+      shapes.push({ shapeId, coordinates: polyline });
+      length = Math.max(length, +polylineLength(polyline, distanceUnit).toFixed(2));
     }
+    if (shapes.length) baseGeometry[lineSlug] = { shapes };
 
     const colorHex = `#${(route.route_color || fallbackColor).replace(/^#/, "")}`;
     const baseLine: Plain = {
