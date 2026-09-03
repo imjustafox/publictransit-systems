@@ -10,7 +10,7 @@ import {
   polylineLength,
   simplifyPolyline,
 } from "./geometry";
-import { mergeOverlay } from "./merge";
+import { mergeOverlay, applyOverlayCollection } from "./merge";
 import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
 interface GtfsConfig {
@@ -294,12 +294,8 @@ export async function processSystem(
   const overlayPath = path.join(systemDir, "overlay.json");
   const overlay = await readOverlay(overlayPath);
 
-  const finalLines = baseLines.map((bl) =>
-    mergeOverlay(bl, overlay.lines?.[bl.id as string] as Plain | undefined)
-  );
-  const finalStations = baseStations.map((bs) =>
-    mergeOverlay(bs, overlay.stations?.[bs.id as string] as Plain | undefined)
-  );
+  const finalLines = applyOverlayCollection(baseLines, overlay.lines, { systemId });
+  const finalStations = applyOverlayCollection(baseStations, overlay.stations, { systemId });
   const finalSystem = mergeOverlay(systemRaw, overlay.system);
   const finalRailcars = overlay.railcars ?? [];
 

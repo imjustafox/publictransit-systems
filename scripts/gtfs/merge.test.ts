@@ -1,5 +1,5 @@
 import { describe, it, expect } from "vitest";
-import { mergeOverlay } from "./merge";
+import { mergeOverlay, applyOverlayCollection } from "./merge";
 
 describe("mergeOverlay", () => {
   it("returns base unchanged when overlay is undefined", () => {
@@ -60,5 +60,52 @@ describe("mergeOverlay", () => {
     const base = { description: "old" };
     const overlay = { description: undefined };
     expect(mergeOverlay(base, overlay)).toEqual({ description: "old" });
+  });
+});
+
+describe("applyOverlayCollection", () => {
+  const base = [
+    { id: "1-line", systemId: "st", name: "1 Line", status: "active" },
+    { id: "2-line", systemId: "st", name: "2 Line", status: "active" },
+  ];
+
+  it("decorates generated items that have overlay entries", () => {
+    const out = applyOverlayCollection(base, { "1-line": { description: "backbone" } });
+    expect(out[0]).toEqual({
+      id: "1-line",
+      systemId: "st",
+      name: "1 Line",
+      status: "active",
+      description: "backbone",
+    });
+    expect(out[1]).toEqual(base[1]);
+  });
+
+  it("passes hand-only overlay entries through whole, with defaults", () => {
+    const out = applyOverlayCollection(
+      base,
+      { "s-line": { name: "S Line", status: "disabled" } },
+      { systemId: "st" }
+    );
+    expect(out).toHaveLength(3);
+    expect(out[2]).toEqual({ id: "s-line", systemId: "st", name: "S Line", status: "disabled" });
+  });
+
+  it("hand-only entry fields win over defaults", () => {
+    const out = applyOverlayCollection(base, { x: { systemId: "other" } }, { systemId: "st" });
+    expect(out[2].systemId).toBe("other");
+  });
+
+  it("returns decorated base unchanged when overlay map is undefined", () => {
+    expect(applyOverlayCollection(base, undefined)).toEqual(base);
+  });
+
+  it("keeps generated items first and hand-only items after, in overlay order", () => {
+    const out = applyOverlayCollection(base, {
+      "b-extra": { name: "B" },
+      "1-line": { description: "d" },
+      "a-extra": { name: "A" },
+    });
+    expect(out.map((o) => o.id)).toEqual(["1-line", "2-line", "b-extra", "a-extra"]);
   });
 });
