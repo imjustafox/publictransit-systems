@@ -324,6 +324,24 @@ export async function processSystem(
   const finalSystem = mergeOverlay(systemRaw, overlay.system);
   const finalRailcars = overlay.railcars ?? [];
 
+  // Invariants - fail loud rather than write data the app will crash on.
+  for (const l of finalLines) {
+    if (!Array.isArray(l.termini) || typeof l.status !== "string" || !l.topology) {
+      throw new Error(
+        `line ${l.id} is incomplete after overlay merge (termini/status/topology); ` +
+          `hand-only overlay lines must be complete objects`
+      );
+    }
+  }
+  for (const s of finalStations) {
+    if (!Array.isArray(s.lines) || typeof s.status !== "string" || !s.coordinates) {
+      throw new Error(
+        `station ${s.id} is incomplete after overlay merge (lines/status/coordinates); ` +
+          `hand-only overlay stations must be complete objects`
+      );
+    }
+  }
+
   // Write artifacts
   await fs.writeFile(systemJsonPath, JSON.stringify(finalSystem, null, 2) + "\n");
   await fs.writeFile(
