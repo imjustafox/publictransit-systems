@@ -1,6 +1,13 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getSystem, getStation, getLines, getStationOutages, formatDate } from "@/lib/data";
+import {
+  getSystem,
+  getStation,
+  getLines,
+  getStationOutages,
+  getLineGeometries,
+  formatDate,
+} from "@/lib/data";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { StatBlock, StatGrid } from "@/components/ui/StatBlock";
 import { StatusBadge, Badge } from "@/components/ui/Badge";
@@ -30,6 +37,17 @@ export default async function StationDetailPage({ params }: PageProps) {
   if (!station) {
     notFound();
   }
+
+  // Track geometry for the whole system - disabled lines included, so
+  // hidden services like Sounder still draw - cropped to the station view.
+  const allLines = await getLines(systemId, true);
+  const allGeometries = await getLineGeometries(
+    systemId,
+    allLines.map((l) => l.id)
+  );
+  const geometryOverlays = allLines
+    .filter((l) => allGeometries[l.id])
+    .map((l) => ({ lineId: l.id, color: l.colorHex, shapes: allGeometries[l.id] }));
 
   const stationLines = lines.filter((line) => station.lines.includes(line.id));
 
@@ -187,6 +205,7 @@ export default async function StationDetailPage({ params }: PageProps) {
                 station as typeof station & { coordinates: NonNullable<typeof station.coordinates> }
               }
               stationLines={stationLines}
+              geometryOverlays={geometryOverlays}
             />
             <div className="mt-3 flex items-center justify-between text-sm">
               <div className="flex items-center gap-4 text-text-muted">

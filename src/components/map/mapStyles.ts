@@ -62,3 +62,26 @@ export const DARK_TILE_URL = "https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}
 
 export const DARK_TILE_ATTRIBUTION =
   '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors &copy; <a href="https://carto.com/attributions">CARTO</a>';
+
+// Offset a polyline perpendicular to its direction of travel by roughly
+// `meters`, so lines sharing a corridor render side by side instead of
+// overdrawing each other into an unreadable blend. Ground-relative, so
+// parallel ribbons merge naturally at low zoom and separate up close.
+export function offsetPolyline(points: [number, number][], meters: number): [number, number][] {
+  if (points.length < 2 || meters === 0) return points;
+  const mPerDegLat = 111320;
+  return points.map((p, i) => {
+    const prev = points[Math.max(0, i - 1)];
+    const next = points[Math.min(points.length - 1, i + 1)];
+    const mPerDegLng = mPerDegLat * Math.cos((p[0] * Math.PI) / 180);
+    // direction vector in meters
+    const dx = (next[1] - prev[1]) * mPerDegLng;
+    const dy = (next[0] - prev[0]) * mPerDegLat;
+    const len = Math.hypot(dx, dy);
+    if (len === 0) return p;
+    // left-hand normal, scaled to the requested offset
+    const ox = (-dy / len) * meters;
+    const oy = (dx / len) * meters;
+    return [p[0] + oy / mPerDegLat, p[1] + ox / mPerDegLng];
+  });
+}

@@ -52,9 +52,9 @@ export async function getAllSystems(): Promise<TransitSystem[]> {
 }
 
 // Lines data
-export async function getLines(systemId: string): Promise<Line[]> {
+export async function getLines(systemId: string, includeDisabled = false): Promise<Line[]> {
   const data = await loadJSON<{ lines: Line[] }>(`${systemId}/lines.json`);
-  return data.lines.filter((line) => line.status !== "disabled");
+  return includeDisabled ? data.lines : data.lines.filter((line) => line.status !== "disabled");
 }
 
 export async function getLine(systemId: string, lineId: string): Promise<Line | undefined> {
@@ -87,6 +87,36 @@ export async function getStationsByStatus(
 ): Promise<Station[]> {
   const stations = await getStations(systemId);
   return stations.filter((station) => station.status === status);
+}
+
+// Line geometry (shape-derived polylines written by the GTFS pipeline)
+export async function getLineGeometry(
+  systemId: string,
+  lineId: string
+): Promise<[number, number][][] | null> {
+  const all = await getLineGeometries(systemId, [lineId]);
+  return all[lineId] ?? null;
+}
+
+export async function getLineGeometries(
+  systemId: string,
+  lineIds: string[]
+): Promise<Record<string, [number, number][][]>> {
+  try {
+    const raw = await fs.readFile(path.join(DATA_DIR, systemId, "geometry.json"), "utf-8");
+    const geometry = JSON.parse(raw) as Record<
+      string,
+      { shapes?: Array<{ coordinates: [number, number][] }> }
+    >;
+    const out: Record<string, [number, number][][]> = {};
+    for (const id of lineIds) {
+      const shapes = geometry[id]?.shapes;
+      if (shapes?.length) out[id] = shapes.map((s) => s.coordinates);
+    }
+    return out;
+  } catch {
+    return {};
+  }
 }
 
 // Railcars data

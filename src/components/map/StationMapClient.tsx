@@ -1,13 +1,14 @@
 "use client";
 
 import { useEffect } from "react";
-import { MapContainer, TileLayer, Marker, Popup, useMap } from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Popup, Polyline, useMap } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import type { Station, Line, Coordinates } from "@/lib/types";
 import {
   createStationIcon,
   createEntranceIcon,
   getAccessibilityColor,
+  offsetPolyline,
   DARK_TILE_URL,
   DARK_TILE_ATTRIBUTION,
 } from "./mapStyles";
@@ -15,9 +16,16 @@ import {
 // Station with coordinates required for map rendering
 type StationWithCoordinates = Omit<Station, "coordinates"> & { coordinates: Coordinates };
 
+interface GeometryOverlay {
+  lineId: string;
+  color: string;
+  shapes: [number, number][][];
+}
+
 interface StationMapClientProps {
   station: StationWithCoordinates;
   stationLines: Line[];
+  geometryOverlays?: GeometryOverlay[];
 }
 
 // Component to fit map bounds to markers
@@ -43,7 +51,11 @@ function FitBounds({ station }: { station: StationWithCoordinates }) {
   return null;
 }
 
-export function StationMapClient({ station, stationLines }: StationMapClientProps) {
+export function StationMapClient({
+  station,
+  stationLines,
+  geometryOverlays,
+}: StationMapClientProps) {
   const primaryLineColor = stationLines[0]?.colorHex || "#00ff9d";
 
   return (
@@ -57,6 +69,24 @@ export function StationMapClient({ station, stationLines }: StationMapClientProp
       <TileLayer url={DARK_TILE_URL} attribution={DARK_TILE_ATTRIBUTION} />
 
       <FitBounds station={station} />
+
+      {/* Every line's track geometry in the system, drawn as context; the
+          view stays fitted to the station so only nearby track shows */}
+      {geometryOverlays?.map((overlay, lineIndex) =>
+        overlay.shapes.map((shape, i) => (
+          <Polyline
+            key={`${overlay.lineId}-${i}`}
+            positions={offsetPolyline(shape, (lineIndex - (geometryOverlays.length - 1) / 2) * 6)}
+            pathOptions={{
+              color: overlay.color,
+              weight: 3,
+              opacity: 0.7,
+              lineCap: "round",
+              lineJoin: "round",
+            }}
+          />
+        ))
+      )}
 
       {/* Station marker */}
       <Marker
