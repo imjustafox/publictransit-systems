@@ -34,6 +34,7 @@ describe("applyRouteGroups", () => {
     expect(ids).toContain("7"); // ungrouped passes through
     const yellow = out.routes.find((r) => r.route_id === "yellow")!;
     expect(yellow.route_short_name).toBe("yellow");
+    expect(yellow.route_long_name).toBe("yellow");
     expect(yellow.route_color).toBe("FFFF33"); // inherited from first member
   });
 

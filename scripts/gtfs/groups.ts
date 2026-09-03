@@ -31,11 +31,14 @@ export function applyRouteGroups(
     const present = members.filter((m) => byId.has(m));
     if (present.length === 0) continue; // no member in feed: group vanishes
     const first = byId.get(present[0])!;
+    // The group key IS the line id: override both name fields so the slug
+    // comes out as the key no matter which one line_name_source picks.
+    // Display names come from the overlay when the key is not presentable.
     groupedRoutes.push({
       ...first,
       route_id: groupId,
       route_short_name: groupId,
-      route_long_name: first.route_long_name,
+      route_long_name: groupId,
     });
   }
 
