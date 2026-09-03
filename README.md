@@ -80,7 +80,10 @@ themselves nightly, with hand-authored content kept in a per-system
 overlay that regeneration never touches. If the agency has no feed, the
 four JSON files can still be written by hand.
 
-See [data/README.md](data/README.md) for the full picture: the data
+See [CONTRIBUTING/CONTRIBUTING.md](CONTRIBUTING/CONTRIBUTING.md) for
+the contributor guide, with copy-ready samples of each hand-written
+file in [CONTRIBUTING/scaffold](CONTRIBUTING/scaffold), and
+[data/README.md](data/README.md) for the full picture: the data
 layers, the gtfs.json configuration reference, the onboarding seeder,
 and the refresh workflows. New systems appear on the home page
 automatically either way.

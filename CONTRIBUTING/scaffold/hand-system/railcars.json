@@ -1,0 +1,43 @@
+{
+  "generations": [
+    {
+      "id": "series-100",
+      "systemId": "example-tram",
+      "name": "Series 100",
+      "manufacturer": "Example Rolling Stock Co.",
+      "introduced": 1998,
+      "status": "active",
+      "count": 12,
+      "specs": {
+        "length": "27 m",
+        "width": "2.4 m",
+        "capacity": 180,
+        "seatedCapacity": 64,
+        "maxSpeed": "70 km/h",
+        "carsPerTrain": 1,
+        "traction": "750V DC overhead"
+      },
+      "description": "The Series 100 low-floor trams replaced the original PCC fleet during the 1998 modernization."
+    },
+    {
+      "id": "pcc",
+      "systemId": "example-tram",
+      "name": "PCC",
+      "manufacturer": "St. Louis Car Company",
+      "introduced": 1947,
+      "retired": 1998,
+      "status": "retired",
+      "count": 20,
+      "specs": {
+        "length": "14 m",
+        "width": "2.5 m",
+        "capacity": 90,
+        "seatedCapacity": 54,
+        "maxSpeed": "65 km/h",
+        "carsPerTrain": 1,
+        "traction": "600V DC overhead"
+      },
+      "description": "Secondhand PCC cars carried the line for five decades. One is preserved at the fairgrounds."
+    }
+  ]
+}

@@ -48,6 +48,13 @@ export default function AboutPage() {
             <ul className="space-y-2 text-text-secondary">
               <li className="flex items-start gap-2">
                 <span className="text-accent-primary mt-1">•</span>
+                <span>
+                  GTFS feeds published by transit agencies, which generate most system data, and
+                  GTFS-RT feeds, which drive live service alerts
+                </span>
+              </li>
+              <li className="flex items-start gap-2">
+                <span className="text-accent-primary mt-1">•</span>
                 <span>Official transit authority websites and published statistics</span>
               </li>
               <li className="flex items-start gap-2">
@@ -78,20 +85,85 @@ export default function AboutPage() {
               Help improve PublicTransit.Systems by contributing data, corrections, or code:
             </p>
 
-            <div>
-              <h3 className="font-mono text-sm text-accent-primary mb-2">Adding New Systems</h3>
+            <div className="space-y-3">
+              <h3 className="font-mono text-sm text-accent-primary">
+                Adding a New System from GTFS
+              </h3>
+              <p className="text-sm text-text-secondary">
+                If the agency publishes a GTFS feed, the system data is generated from it rather
+                than written by hand. Create a directory under{" "}
+                <code className="text-accent-secondary">data/systems/</code> containing a{" "}
+                <code className="text-accent-secondary">system.json</code> with{" "}
+                <code className="text-accent-secondary">
+                  &quot;dataSource&quot;: &quot;gtfs&quot;
+                </code>{" "}
+                and a <code className="text-accent-secondary">gtfs.json</code> that configures the
+                import: which secret holds the feed URL, any auth, which route types to keep, and
+                how feed routes group into lines. Then seed the system from a downloaded copy of the
+                feed and run the build:
+              </p>
               <Terminal>
-                <TerminalLine>mkdir -p data/systems/your-system-id</TerminalLine>
-                <TerminalLine>touch data/systems/your-system-id/system.json</TerminalLine>
-                <TerminalLine>touch data/systems/your-system-id/lines.json</TerminalLine>
-                <TerminalLine>touch data/systems/your-system-id/stations.json</TerminalLine>
-                <TerminalLine>touch data/systems/your-system-id/railcars.json</TerminalLine>
+                <TerminalLine>mkdir -p data/systems/your-system</TerminalLine>
+                <TerminalLine>
+                  pnpm exec tsx scripts/seed-gtfs.ts --system=your-system --zip=gtfs.zip
+                </TerminalLine>
+                <TerminalLine>
+                  YOUR_SYSTEM_GTFS_URL=... pnpm run build:gtfs -- --system=your-system
+                </TerminalLine>
               </Terminal>
+              <p className="text-sm text-text-secondary">
+                The seed script writes <code className="text-accent-secondary">id_map.json</code>,
+                which pins feed ids to our station and line slugs so URLs stay stable across
+                refreshes, and it reports anything it could not match. The build then generates{" "}
+                <code className="text-accent-secondary">lines.json</code>,{" "}
+                <code className="text-accent-secondary">stations.json</code>, and{" "}
+                <code className="text-accent-secondary">geometry.json</code>. Do not edit those by
+                hand: they are rebuilt nightly and your changes would be lost. Anything the feed
+                gets wrong, along with descriptions, history, ridership, railcars, and stations or
+                lines the feed does not know about, goes in{" "}
+                <code className="text-accent-secondary">overlay.json</code>. The overlay always wins
+                over generated data and no refresh can touch it. Once the output looks right, add
+                the feed URL as a repository secret and add the system to{" "}
+                <code className="text-accent-secondary">.github/workflows/gtfs-nightly.yml</code> so
+                it refreshes every night.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="font-mono text-sm text-accent-primary">Live Alerts from GTFS-RT</h3>
+              <p className="text-sm text-text-secondary">
+                Live service alerts and outages come from the incidents worker in{" "}
+                <code className="text-accent-secondary">workers/incidents</code>, which polls each
+                agency on a schedule so the app never talks to an agency directly. If the agency
+                publishes a GTFS-RT service alerts feed, add a fetcher in{" "}
+                <code className="text-accent-secondary">src/fetchers.ts</code> and register it in
+                the <code className="text-accent-secondary">FETCHERS</code> map in{" "}
+                <code className="text-accent-secondary">src/index.ts</code>. The fetcher decodes the
+                protobuf feed and maps the feed&apos;s route and stop ids to our line and station
+                slugs. The RTD Denver fetcher is a good template: it resolves stops through the
+                system&apos;s own <code className="text-accent-secondary">id_map.json</code>, so the
+                realtime side reuses the same id mappings as the static import.
+              </p>
+            </div>
+
+            <div className="space-y-3">
+              <h3 className="font-mono text-sm text-accent-primary">Systems Without a Feed</h3>
+              <p className="text-sm text-text-secondary">
+                A few agencies publish no GTFS at all. For those, build the JSON files by hand the
+                way <code className="text-accent-secondary">beijing-subway</code> does and leave{" "}
+                <code className="text-accent-secondary">dataSource</code> unset.
+              </p>
             </div>
 
             <p className="text-sm text-text-secondary">
-              Follow the schema defined in existing system files. Submit corrections or additions
-              via{" "}
+              The contributor guide lives at{" "}
+              <code className="text-accent-secondary">CONTRIBUTING/CONTRIBUTING.md</code>, with
+              copy-ready samples of every file you would write by hand in{" "}
+              <code className="text-accent-secondary">CONTRIBUTING/scaffold/</code>. The full
+              reference for the data layout, the{" "}
+              <code className="text-accent-secondary">gtfs.json</code> options, and the overlay
+              rules is in <code className="text-accent-secondary">data/README.md</code>. Submit
+              corrections or additions via{" "}
               <a
                 href="https://github.com/imjustafox/publictransit-systems/issues"
                 target="_blank"
