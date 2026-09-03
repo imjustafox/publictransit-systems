@@ -12,6 +12,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "build:gtfs": "tsx scripts/build-gtfs.ts",
+    "enrich:osm": "tsx scripts/enrich-osm.ts",
     "test:accessibility": "pnpm run build && playwright test",
     "test:ci": "pnpm run test:accessibility",
     "format:check": "prettier --check .",

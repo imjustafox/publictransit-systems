@@ -13,6 +13,7 @@ import {
 import { mergeOverlay, applyOverlayCollection } from "./merge";
 import { applyRouteGroups, ifoptStationId } from "./groups";
 import { extractEntrances } from "./entrances";
+import { applyOsmToStation, type OsmLayer } from "../osm/enrich";
 import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
 interface GtfsConfig {
@@ -345,7 +346,19 @@ export async function processSystem(
     }
   }
 
-  const baseStations: Plain[] = [...baseBySlug.values()];
+  // OSM enrichment layer: feed base < OSM < hand overlay.
+  let osmLayer: OsmLayer = { stations: {} };
+  try {
+    osmLayer = JSON.parse(await fs.readFile(path.join(systemDir, "osm.json"), "utf-8"));
+  } catch (err) {
+    if ((err as NodeJS.ErrnoException).code !== "ENOENT") throw err;
+  }
+  const baseStations: Plain[] = [...baseBySlug.values()].map((s) =>
+    applyOsmToStation(
+      s as Parameters<typeof applyOsmToStation>[0],
+      osmLayer.stations[s.id as string] ?? {}
+    )
+  );
 
   // Load + apply overlay
   const overlayPath = path.join(systemDir, "overlay.json");
