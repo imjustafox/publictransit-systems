@@ -4,15 +4,15 @@
       "id": "12th-street-oakland",
       "systemId": "bart",
       "name": "12th Street/Oakland City Center",
-      "lines": ["red", "yellow", "blue", "green", "orange"],
-      "opened": "1972-09-11",
+      "lines": ["yellow", "orange", "red"],
       "status": "active",
       "coordinates": {
-        "lat": 37.8035902,
-        "lng": -122.271676
+        "lat": 37.803482,
+        "lng": -122.27163
       },
-      "address": "1245 Broadway, Oakland, CA 94612",
       "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "1245 Broadway, Oakland, CA 94612",
       "description": "12th Street is a major transfer station in downtown Oakland, serving as a hub for multiple BART lines and AC Transit buses.",
       "entrances": [
         {
@@ -90,62 +90,18 @@
       ]
     },
     {
-      "id": "16th-street-mission",
-      "systemId": "bart",
-      "name": "16th Street Mission",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7650542,
-        "lng": -122.4197081
-      },
-      "address": "2000 Mission St, San Francisco, CA 94110",
-      "features": ["elevator", "escalator", "fare-vending"],
-      "description": "16th Street Mission serves San Francisco's vibrant Mission District, known for its Latino culture, murals, and restaurants.",
-      "entrances": [
-        {
-          "id": "16th-street-mission-1",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 37.7653537,
-            "lng": -122.4195536
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "16th-street-mission-2",
-          "name": "B 16TH & Mission NE",
-          "coordinates": {
-            "lat": 37.7652792,
-            "lng": -122.4193381
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "16th-street-mission-3",
-          "name": "A 16TH & Mission SW",
-          "coordinates": {
-            "lat": 37.7647421,
-            "lng": -122.4200446
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
       "id": "19th-street-oakland",
       "systemId": "bart",
       "name": "19th Street/Oakland",
-      "lines": ["red", "yellow", "blue", "green", "orange"],
-      "opened": "1972-09-11",
+      "lines": ["yellow", "orange", "red"],
       "status": "active",
       "coordinates": {
-        "lat": 37.8084933,
-        "lng": -122.268654
+        "lat": 37.808078,
+        "lng": -122.268758
       },
-      "address": "1900 Broadway, Oakland, CA 94612",
       "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "1900 Broadway, Oakland, CA 94612",
       "description": "19th Street serves the Uptown and Lake Merritt neighborhoods of Oakland, near the Paramount Theatre and Fox Oakland Theatre.",
       "entrances": [
         {
@@ -205,729 +161,61 @@
       ]
     },
     {
-      "id": "24th-street-mission",
+      "id": "macarthur",
       "systemId": "bart",
-      "name": "24th Street Mission",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
+      "name": "MacArthur",
+      "lines": ["yellow", "orange", "red"],
       "status": "active",
       "coordinates": {
-        "lat": 37.7522315,
-        "lng": -122.4184679
+        "lat": 37.828803,
+        "lng": -122.267105
       },
-      "address": "2800 Mission St, San Francisco, CA 94110",
-      "features": ["elevator", "escalator", "fare-vending"],
-      "description": "24th Street Mission is the southern end of BART service in the Mission District, near the historic Balmy Alley murals.",
-      "entrances": [
-        {
-          "id": "24th-street-mission-1",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 37.7525833,
-            "lng": -122.4183299
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "24th-street-mission-2",
-          "name": "B 24TH & Mission NE",
-          "coordinates": {
-            "lat": 37.7524837,
-            "lng": -122.4181116
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "24th-street-mission-3",
-          "name": "A 24TH & Mission SW",
-          "coordinates": {
-            "lat": 37.7519414,
-            "lng": -122.4188268
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "antioch",
-      "systemId": "bart",
-      "name": "Antioch",
-      "lines": ["yellow"],
-      "opened": "2018-05-26",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.9953927,
-        "lng": -121.7804334
-      },
-      "address": "1600 Slatten Ranch Rd, Antioch, CA 94509",
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Antioch is the eastern terminus of the Yellow Line, served by eBART diesel trains connecting to electric BART at Pittsburg/Bay Point.",
-      "entrances": [
-        {
-          "id": "antioch-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.9958077,
-            "lng": -121.7799827
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "ashby",
-      "systemId": "bart",
-      "name": "Ashby",
-      "lines": ["red", "orange"],
-      "opened": "1973-01-29",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.8525747,
-        "lng": -122.269994
-      },
-      "address": "3100 Adeline St, Berkeley, CA 94703",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Ashby station serves South Berkeley and is home to one of the Bay Area's largest weekend flea markets in its parking lot.",
-      "entrances": [
-        {
-          "id": "ashby-1",
-          "name": "Adeline Street East Elevator",
-          "coordinates": {
-            "lat": 37.8527572,
-            "lng": -122.2695656
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "ashby-2",
-          "name": "Adeline Street East Stairs",
-          "coordinates": {
-            "lat": 37.8523967,
-            "lng": -122.2696952
-          },
-          "accessibility": ["stairs-only"]
-        },
-        {
-          "id": "ashby-3",
-          "name": "Adeline Street West",
-          "coordinates": {
-            "lat": 37.8528099,
-            "lng": -122.2700392
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "balboa-park",
-      "systemId": "bart",
-      "name": "Balboa Park",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7213506,
-        "lng": -122.4475874
-      },
-      "address": "401 Geneva Ave, San Francisco, CA 94112",
-      "features": ["elevator", "escalator", "fare-vending", "muni-connection", "parking"],
-      "description": "Balboa Park is a major transfer point between BART and Muni Metro, with adjacent bus connections and a park-and-ride facility.",
-      "entrances": [
-        {
-          "id": "balboa-park-1",
-          "name": "A2 John F Foran Fwy (Ramp)",
-          "coordinates": {
-            "lat": 37.721979,
-            "lng": -122.4475126
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "balboa-park-2",
-          "name": "A1 Geneva Ave",
-          "coordinates": {
-            "lat": 37.7208189,
-            "lng": -122.4476262
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "balboa-park-3",
-          "name": "B1 Geneva Ave",
-          "coordinates": {
-            "lat": 37.7211821,
-            "lng": -122.4473426
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "balboa-park-4",
-          "name": "B3 Geneva Ave",
-          "coordinates": {
-            "lat": 37.7213286,
-            "lng": -122.4473897
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "balboa-park-5",
-          "name": "B2 (Elevator) Geneva Ave",
-          "coordinates": {
-            "lat": 37.7212396,
-            "lng": -122.4475837
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "balboa-park-6",
-          "name": "B4 John F Foran Fwy (Ramp)",
-          "coordinates": {
-            "lat": 37.7219589,
-            "lng": -122.4473271
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "bay-fair",
-      "systemId": "bart",
-      "name": "Bay Fair",
-      "lines": ["blue", "green", "orange"],
       "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.6969162,
-        "lng": -122.1264596
-      },
-      "address": "15242 Hesperian Blvd, San Leandro, CA 94578",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Bay Fair is a junction station where the Dublin/Pleasanton and Fremont lines diverge, named after the nearby Bayfair Center mall.",
+      "address": "555 40th St, Oakland, CA 94609",
+      "description": "MacArthur is a major transfer station where the Richmond and Pittsburg/Bay Point lines diverge, with transit-oriented development nearby.",
       "entrances": [
         {
-          "id": "bay-fair-1",
-          "name": "East",
-          "coordinates": {
-            "lat": 37.6970844,
-            "lng": -122.1264733
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "bay-fair-2",
-          "name": "West",
-          "coordinates": {
-            "lat": 37.6968732,
-            "lng": -122.1269896
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "berryessa",
-      "systemId": "bart",
-      "name": "Berryessa/North San Jose",
-      "lines": ["green", "orange"],
-      "opened": "2020-06-13",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.3684783,
-        "lng": -121.8746938
-      },
-      "address": "1601 N 10th St, San Jose, CA 95112",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Berryessa is the current southern terminus of BART's Silicon Valley extension, with plans to extend further to downtown San Jose.",
-      "entrances": [
-        {
-          "id": "berryessa-1",
+          "id": "macarthur-1",
           "name": "Main",
           "coordinates": {
-            "lat": 37.3684702,
-            "lng": -121.8745705
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "berryessa-2",
-          "name": "North",
-          "coordinates": {
-            "lat": 37.3687057,
-            "lng": -121.8747212
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "berryessa-3",
-          "name": "South",
-          "coordinates": {
-            "lat": 37.3682021,
-            "lng": -121.8745566
+            "lat": 37.8290747,
+            "lng": -122.2668635
           },
           "accessibility": ["escalator"]
         }
       ]
     },
     {
-      "id": "castro-valley",
+      "id": "west-oakland",
       "systemId": "bart",
-      "name": "Castro Valley",
-      "lines": ["blue"],
-      "opened": "1997-05-10",
+      "name": "West Oakland",
+      "lines": ["yellow", "green", "red", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.690748,
-        "lng": -122.0756067
+        "lat": 37.804888,
+        "lng": -122.295151
       },
-      "address": "3301 Norbridge Dr, Castro Valley, CA 94546",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Castro Valley station serves the unincorporated community of Castro Valley in the East Bay hills.",
-      "entrances": [
-        {
-          "id": "castro-valley-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.691309,
-            "lng": -122.0759345
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "civic-center",
-      "systemId": "bart",
-      "name": "Civic Center/UN Plaza",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7793939,
-        "lng": -122.4139364
-      },
-      "address": "1150 Market St, San Francisco, CA 94102",
-      "features": ["elevator", "escalator", "fare-vending", "muni-connection"],
-      "description": "This station serves San Francisco's Civic Center, City Hall, and numerous government buildings.",
-      "entrances": [
-        {
-          "id": "civic-center-1",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 37.7797141,
-            "lng": -122.4136988
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "civic-center-2",
-          "name": "A3 1150 Market Street - UN Plaza Stairs",
-          "coordinates": {
-            "lat": 37.7797598,
-            "lng": -122.4142508
-          },
-          "accessibility": ["stairs-only"]
-        },
-        {
-          "id": "civic-center-3",
-          "name": "B3 1150 Market Street",
-          "coordinates": {
-            "lat": 37.7795264,
-            "lng": -122.4135636
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "civic-center-4",
-          "name": "A4 Market Street & 7th Street (NW)",
-          "coordinates": {
-            "lat": 37.7803555,
-            "lng": -122.4129008
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "civic-center-5",
-          "name": "B4 Market Street & 7th Street (NE)",
-          "coordinates": {
-            "lat": 37.7801374,
-            "lng": -122.4128003
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "civic-center-6",
-          "name": "A2 Market Street & Hyde Street (SW)",
-          "coordinates": {
-            "lat": 37.7789582,
-            "lng": -122.4146697
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "civic-center-7",
-          "name": "B2 Market Street & 8th Street (SE)",
-          "coordinates": {
-            "lat": 37.7788155,
-            "lng": -122.4144769
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "coliseum",
-      "systemId": "bart",
-      "name": "Coliseum",
-      "lines": ["blue", "green", "orange", "beige"],
-      "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7536887,
-        "lng": -122.1968592
-      },
-      "address": "7200 San Leandro St, Oakland, CA 94621",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "airport-connector"],
-      "description": "Coliseum station serves the Oakland Coliseum complex and provides connections to the Oakland Airport via the Oakland Airport Connector.",
-      "entrances": [
-        {
-          "id": "coliseum-1",
-          "name": "Elevated Walkway to Amtrak Station, Coliseum Arena",
-          "coordinates": {
-            "lat": 37.7540409,
-            "lng": -122.1973959
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "coliseum-2",
-          "name": "OAK Connection",
-          "coordinates": {
-            "lat": 37.7539981,
-            "lng": -122.1973464
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "coliseum-3",
-          "name": "San Leandro Street",
-          "coordinates": {
-            "lat": 37.7539498,
-            "lng": -122.1972864
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "coliseum-4",
-          "name": "Snell St",
-          "coordinates": {
-            "lat": 37.7540025,
-            "lng": -122.1967903
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "coliseum-5",
-          "name": "71st Ave",
-          "coordinates": {
-            "lat": 37.7542688,
-            "lng": -122.1966931
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "coliseum-6",
-          "name": "Coliseum/Airport Connector",
-          "coordinates": {
-            "lat": 37.7528788,
-            "lng": -122.1958926
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "colma",
-      "systemId": "bart",
-      "name": "Colma",
-      "lines": ["red", "yellow"],
-      "opened": "1996-02-24",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.6846216,
-        "lng": -122.4662232
-      },
-      "address": "365 D St, Colma, CA 94014",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Colma station serves the town of Colma and nearby shopping centers, with large park-and-ride facilities.",
-      "entrances": [
-        {
-          "id": "colma-1",
-          "name": "West to Parking Garage",
-          "coordinates": {
-            "lat": 37.6844762,
-            "lng": -122.4663618
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "colma-2",
-          "name": "East",
-          "coordinates": {
-            "lat": 37.6847719,
-            "lng": -122.4660425
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "concord",
-      "systemId": "bart",
-      "name": "Concord",
-      "lines": ["yellow"],
-      "opened": "1973-05-21",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.973825,
-        "lng": -122.029062
-      },
-      "address": "1451 Oakland Ave, Concord, CA 94520",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Concord station serves the city of Concord with extensive parking and bus connections to surrounding communities.",
-      "entrances": [
-        {
-          "id": "concord-1",
-          "name": "West Concourse",
-          "coordinates": {
-            "lat": 37.9736057,
-            "lng": -122.0294061
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "concord-2",
-          "name": "East Concourse",
-          "coordinates": {
-            "lat": 37.9735043,
-            "lng": -122.029106
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "daly-city",
-      "systemId": "bart",
-      "name": "Daly City",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7063332,
-        "lng": -122.4689119
-      },
-      "address": "500 John Daly Blvd, Daly City, CA 94014",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Daly City is the terminus for Blue and Green lines and a major transfer point, with extensive parking facilities serving commuters from the Peninsula.",
-      "entrances": [
-        {
-          "id": "daly-city-1",
-          "name": "A John Daly, Junipero Serra Blvd",
-          "coordinates": {
-            "lat": 37.7061324,
-            "lng": -122.4690221
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "daly-city-2",
-          "name": "East Parking Lot",
-          "coordinates": {
-            "lat": 37.7058621,
-            "lng": -122.4687871
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "daly-city-3",
-          "name": "B De Long St, St Charles Ave",
-          "coordinates": {
-            "lat": 37.7065093,
-            "lng": -122.4687172
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "downtown-berkeley",
-      "systemId": "bart",
-      "name": "Downtown Berkeley",
-      "lines": ["red", "orange"],
-      "opened": "1973-01-29",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.8703161,
-        "lng": -122.2681588
-      },
-      "address": "2160 Shattuck Ave, Berkeley, CA 94704",
       "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
-      "description": "Downtown Berkeley station serves the city's vibrant downtown area and the University of California, Berkeley campus.",
+      "opened": "1974-09-16",
+      "address": "1451 7th St, Oakland, CA 94607",
+      "description": "West Oakland station is a key connection point for Transbay service, where trains heading to San Francisco converge before crossing the bay.",
       "entrances": [
         {
-          "id": "downtown-berkeley-1",
-          "name": "B4 Shattuck Ave & Allston Way (West)",
+          "id": "west-oakland-1",
+          "name": "North Station",
           "coordinates": {
-            "lat": 37.8694973,
-            "lng": -122.2681859
+            "lat": 37.8050292,
+            "lng": -122.2953018
           },
           "accessibility": ["escalator"]
         },
         {
-          "id": "downtown-berkeley-2",
-          "name": "A2 Shattuck Ave & Allston Way (East)",
+          "id": "west-oakland-2",
+          "name": "South Station",
           "coordinates": {
-            "lat": 37.8697081,
-            "lng": -122.2677677
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "downtown-berkeley-3",
-          "name": "B1 Shattuck Ave & Addison Street (West)",
-          "coordinates": {
-            "lat": 37.8710065,
-            "lng": -122.2683743
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "downtown-berkeley-4",
-          "name": "A1 Shattuck Ave & Addison Street (East)",
-          "coordinates": {
-            "lat": 37.8710137,
-            "lng": -122.2681421
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "downtown-berkeley-5",
-          "name": "B3 DBRK",
-          "coordinates": {
-            "lat": 37.8700978,
-            "lng": -122.2682197
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "dublin-pleasanton",
-      "systemId": "bart",
-      "name": "Dublin/Pleasanton",
-      "lines": ["blue"],
-      "opened": "1997-05-10",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7016818,
-        "lng": -121.899074
-      },
-      "address": "5801 Owens Dr, Pleasanton, CA 94588",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection",
-        "ace-connection"
-      ],
-      "description": "Dublin/Pleasanton is the eastern terminus of the Blue Line with extensive parking and connections to ACE commuter rail.",
-      "entrances": [
-        {
-          "id": "dublin-pleasanton-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.7016456,
-            "lng": -121.8981928
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "el-cerrito-del-norte",
-      "systemId": "bart",
-      "name": "El Cerrito del Norte",
-      "lines": ["red", "orange"],
-      "opened": "1973-01-29",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.9251924,
-        "lng": -122.3169151
-      },
-      "address": "6400 Cutting Blvd, El Cerrito, CA 94530",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "El Cerrito del Norte is a major bus transfer point with extensive parking, serving as a gateway for riders from western Contra Costa County.",
-      "entrances": [
-        {
-          "id": "el-cerrito-del-norte-1",
-          "name": "West Concourse",
-          "coordinates": {
-            "lat": 37.9252672,
-            "lng": -122.3171462
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "el-cerrito-del-norte-2",
-          "name": "East Concourse",
-          "coordinates": {
-            "lat": 37.9253428,
-            "lng": -122.3168825
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "el-cerrito-plaza",
-      "systemId": "bart",
-      "name": "El Cerrito Plaza",
-      "lines": ["red", "orange"],
-      "opened": "1973-01-29",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.9026352,
-        "lng": -122.2989484
-      },
-      "address": "6699 Fairmount Ave, El Cerrito, CA 94530",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "El Cerrito Plaza station is adjacent to the El Cerrito Plaza shopping center and serves central El Cerrito.",
-      "entrances": [
-        {
-          "id": "el-cerrito-plaza-1",
-          "name": "West Concourse Central",
-          "coordinates": {
-            "lat": 37.9026628,
-            "lng": -122.2991376
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "el-cerrito-plaza-2",
-          "name": "East Concourse Central",
-          "coordinates": {
-            "lat": 37.9027704,
-            "lng": -122.2989289
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "el-cerrito-plaza-3",
-          "name": "South Concourse Fairmont",
-          "coordinates": {
-            "lat": 37.9024856,
-            "lng": -122.2988444
+            "lat": 37.8048907,
+            "lng": -122.2953887
           },
           "accessibility": ["escalator"]
         }
@@ -937,15 +225,15 @@
       "id": "embarcadero",
       "systemId": "bart",
       "name": "Embarcadero",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1976-05-27",
+      "lines": ["yellow", "green", "red", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.7928539,
-        "lng": -122.396901
+        "lat": 37.792762,
+        "lng": -122.397037
       },
-      "address": "298 Market St, San Francisco, CA 94111",
       "features": ["elevator", "escalator", "fare-vending", "muni-connection"],
+      "opened": "1976-05-27",
+      "address": "298 Market St, San Francisco, CA 94111",
       "description": "Embarcadero is a major transit hub in San Francisco's Financial District, adjacent to the Ferry Building and providing connections to Muni Metro and buses.",
       "entrances": [
         {
@@ -1005,322 +293,18 @@
       ]
     },
     {
-      "id": "fremont",
-      "systemId": "bart",
-      "name": "Fremont",
-      "lines": ["green", "orange"],
-      "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.5574744,
-        "lng": -121.9766264
-      },
-      "address": "2000 BART Way, Fremont, CA 94536",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Fremont station is a major transit hub in the southern East Bay, with extensive park-and-ride facilities.",
-      "entrances": [
-        {
-          "id": "fremont-1",
-          "name": "East Plaza",
-          "coordinates": {
-            "lat": 37.5575129,
-            "lng": -121.9764251
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "fremont-2",
-          "name": "West Plaza",
-          "coordinates": {
-            "lat": 37.557402,
-            "lng": -121.9767141
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "fremont-3",
-          "name": "Station",
-          "coordinates": {
-            "lat": 37.5576326,
-            "lng": -121.9764599
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "fruitvale",
-      "systemId": "bart",
-      "name": "Fruitvale",
-      "lines": ["blue", "green", "orange"],
-      "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7748945,
-        "lng": -122.2241794
-      },
-      "address": "3401 E 12th St, Oakland, CA 94601",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Fruitvale station is known for its award-winning transit village development and serves the diverse Fruitvale neighborhood.",
-      "entrances": [
-        {
-          "id": "fruitvale-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.775085,
-            "lng": -122.2245116
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "glen-park",
-      "systemId": "bart",
-      "name": "Glen Park",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7331124,
-        "lng": -122.4337901
-      },
-      "address": "2901 Diamond St, San Francisco, CA 94131",
-      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
-      "description": "Glen Park station serves the Glen Park neighborhood and is the last underground station before BART emerges to the surface heading south.",
-      "entrances": [
-        {
-          "id": "glen-park-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.7331807,
-            "lng": -122.4338836
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "hayward",
-      "systemId": "bart",
-      "name": "Hayward",
-      "lines": ["green", "orange"],
-      "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.6696974,
-        "lng": -122.08696
-      },
-      "address": "699 B St, Hayward, CA 94541",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Hayward station serves downtown Hayward and is a major bus transfer point for AC Transit routes serving the East Bay.",
-      "entrances": [
-        {
-          "id": "hayward-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.6695806,
-            "lng": -122.0866005
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "lafayette",
-      "systemId": "bart",
-      "name": "Lafayette",
-      "lines": ["yellow"],
-      "opened": "1973-05-21",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.8931857,
-        "lng": -122.1246473
-      },
-      "address": "3601 Deer Hill Rd, Lafayette, CA 94549",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Lafayette station serves the suburban community of Lafayette with extensive park-and-ride facilities in the Lamorinda area.",
-      "entrances": [
-        {
-          "id": "lafayette-1",
-          "name": "A",
-          "coordinates": {
-            "lat": 37.8935355,
-            "lng": -122.1246527
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "lafayette-2",
-          "name": "B",
-          "coordinates": {
-            "lat": 37.8928491,
-            "lng": -122.1245266
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "lake-merritt",
-      "systemId": "bart",
-      "name": "Lake Merritt",
-      "lines": ["blue", "green", "orange"],
-      "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.797293,
-        "lng": -122.2652268
-      },
-      "address": "800 Madison St, Oakland, CA 94607",
-      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
-      "description": "Lake Merritt station serves Oakland's Chinatown, the Oakland Museum of California, and the scenic Lake Merritt area.",
-      "entrances": [
-        {
-          "id": "lake-merritt-1",
-          "name": "B1 NW 8th & Oak St Jack London Sq",
-          "coordinates": {
-            "lat": 37.7971135,
-            "lng": -122.265587
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "lake-merritt-2",
-          "name": "B2 SW 8th St, Laney College",
-          "coordinates": {
-            "lat": 37.7970717,
-            "lng": -122.265164
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "lake-merritt-3",
-          "name": "A2 SE 9th & Oak St",
-          "coordinates": {
-            "lat": 37.7973892,
-            "lng": -122.2648326
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "lake-merritt-4",
-          "name": "A1 NE Chinatown",
-          "coordinates": {
-            "lat": 37.7976,
-            "lng": -122.265533
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "macarthur",
-      "systemId": "bart",
-      "name": "MacArthur",
-      "lines": ["red", "yellow", "orange"],
-      "opened": "1972-09-11",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.8290833,
-        "lng": -122.2670635
-      },
-      "address": "555 40th St, Oakland, CA 94609",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "MacArthur is a major transfer station where the Richmond and Pittsburg/Bay Point lines diverge, with transit-oriented development nearby.",
-      "entrances": [
-        {
-          "id": "macarthur-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.8290747,
-            "lng": -122.2668635
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "millbrae",
-      "systemId": "bart",
-      "name": "Millbrae",
-      "lines": ["red", "yellow"],
-      "opened": "2003-06-22",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.6001941,
-        "lng": -122.3868505
-      },
-      "address": "200 Rollins Rd, Millbrae, CA 94030",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "caltrain-connection"],
-      "description": "Millbrae is an intermodal station providing connections to Caltrain commuter rail service to San Jose and the Peninsula.",
-      "entrances": [
-        {
-          "id": "millbrae-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.6004573,
-            "lng": -122.3864465
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "milpitas",
-      "systemId": "bart",
-      "name": "Milpitas",
-      "lines": ["green", "orange"],
-      "opened": "2020-06-13",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.4102824,
-        "lng": -121.8910941
-      },
-      "address": "1555 Capitol Ave, Milpitas, CA 95035",
-      "features": [
-        "elevator",
-        "escalator",
-        "fare-vending",
-        "parking",
-        "bus-connection",
-        "vta-connection"
-      ],
-      "description": "Milpitas station is part of BART's Silicon Valley extension, providing connections to VTA light rail and bus services.",
-      "entrances": [
-        {
-          "id": "milpitas-1",
-          "name": "West Station",
-          "coordinates": {
-            "lat": 37.4099563,
-            "lng": -121.8912231
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "milpitas-2",
-          "name": "East Station",
-          "coordinates": {
-            "lat": 37.4101439,
-            "lng": -121.8906885
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
       "id": "montgomery-street",
       "systemId": "bart",
       "name": "Montgomery Street",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
+      "lines": ["yellow", "green", "red", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.7894495,
-        "lng": -122.4011747
+        "lat": 37.789173,
+        "lng": -122.401587
       },
-      "address": "598 Market St, San Francisco, CA 94104",
       "features": ["elevator", "escalator", "fare-vending", "muni-connection"],
+      "opened": "1973-11-05",
+      "address": "598 Market St, San Francisco, CA 94104",
       "description": "Montgomery Street station serves the heart of San Francisco's Financial District and provides connections to Muni Metro.",
       "entrances": [
         {
@@ -1389,209 +373,18 @@
       ]
     },
     {
-      "id": "north-berkeley",
-      "systemId": "bart",
-      "name": "North Berkeley",
-      "lines": ["red", "orange"],
-      "opened": "1973-01-29",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.8739742,
-        "lng": -122.2834337
-      },
-      "address": "1750 Sacramento St, Berkeley, CA 94702",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "North Berkeley station serves the residential neighborhoods of northern Berkeley with substantial park-and-ride facilities.",
-      "entrances": [
-        {
-          "id": "north-berkeley-1",
-          "name": "North",
-          "coordinates": {
-            "lat": 37.8740881,
-            "lng": -122.283357
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "north-berkeley-2",
-          "name": "South",
-          "coordinates": {
-            "lat": 37.873851,
-            "lng": -122.283518
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "north-concord-martinez",
-      "systemId": "bart",
-      "name": "North Concord/Martinez",
-      "lines": ["yellow"],
-      "opened": "1995-12-16",
-      "status": "active",
-      "coordinates": {
-        "lat": 38.0033245,
-        "lng": -122.0245523
-      },
-      "address": "3700 Port Chicago Hwy, Concord, CA 94520",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "North Concord/Martinez station serves northern Concord and provides the closest BART access for Martinez residents.",
-      "entrances": [
-        {
-          "id": "north-concord-martinez-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 38.0031064,
-            "lng": -122.0243927
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "oakland-airport",
-      "systemId": "bart",
-      "name": "Oakland International Airport",
-      "lines": ["beige"],
-      "opened": "2014-11-22",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.7129718,
-        "lng": -122.2124402
-      },
-      "address": "1 Airport Dr, Oakland, CA 94621",
-      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
-      "description": "Oakland Airport station is the terminus of the automated Oakland Airport Connector, providing direct service to both airport terminals.",
-      "entrances": [
-        {
-          "id": "oakland-airport-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.7129349,
-            "lng": -122.2125403
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "orinda",
-      "systemId": "bart",
-      "name": "Orinda",
-      "lines": ["yellow"],
-      "opened": "1973-05-21",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.8784314,
-        "lng": -122.1837537
-      },
-      "address": "11 Camino Pablo, Orinda, CA 94563",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Orinda station serves the affluent Lamorinda communities and is the first station after the Berkeley Hills tunnel heading east.",
-      "entrances": [
-        {
-          "id": "orinda-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.8781168,
-            "lng": -122.1840791
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "pittsburg-center",
-      "systemId": "bart",
-      "name": "Pittsburg Center",
-      "lines": ["yellow"],
-      "opened": "2018-05-26",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.0169461,
-        "lng": -121.8894702
-      },
-      "address": "2099 Railroad Ave, Pittsburg, CA 94565",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Pittsburg Center is part of the eBART diesel multiple unit extension, serving downtown Pittsburg.",
-      "entrances": [
-        {
-          "id": "pittsburg-center-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 38.0169059,
-            "lng": -121.8892988
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "pittsburg-bay-point",
-      "systemId": "bart",
-      "name": "Pittsburg/Bay Point",
-      "lines": ["yellow"],
-      "opened": "1996-12-07",
-      "status": "active",
-      "coordinates": {
-        "lat": 38.0189142,
-        "lng": -121.9439801
-      },
-      "address": "1700 W Leland Rd, Pittsburg, CA 94565",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Pittsburg/Bay Point station serves eastern Contra Costa County with massive parking facilities and is the transfer point to eBART.",
-      "entrances": [
-        {
-          "id": "pittsburg-bay-point-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 38.0182445,
-            "lng": -121.945151
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
-      "id": "pleasant-hill",
-      "systemId": "bart",
-      "name": "Pleasant Hill/Contra Costa Centre",
-      "lines": ["yellow"],
-      "opened": "1973-05-21",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.9284418,
-        "lng": -122.0559784
-      },
-      "address": "1365 Treat Blvd, Walnut Creek, CA 94597",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Pleasant Hill station is surrounded by transit-oriented development and serves as a hub for central Contra Costa County commuters.",
-      "entrances": [
-        {
-          "id": "pleasant-hill-1",
-          "name": "Main",
-          "coordinates": {
-            "lat": 37.928408,
-            "lng": -122.0560262
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
       "id": "powell-street",
       "systemId": "bart",
       "name": "Powell Street",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1973-11-05",
+      "lines": ["yellow", "green", "red", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.7848709,
-        "lng": -122.4070177
+        "lat": 37.784606,
+        "lng": -122.407331
       },
-      "address": "899 Market St, San Francisco, CA 94102",
       "features": ["elevator", "escalator", "fare-vending", "muni-connection", "cable-car"],
+      "opened": "1973-11-05",
+      "address": "899 Market St, San Francisco, CA 94102",
       "description": "Powell Street is one of the busiest stations in the system, serving Union Square and providing connections to the famous San Francisco cable cars.",
       "entrances": [
         {
@@ -1669,131 +462,459 @@
       ]
     },
     {
-      "id": "richmond",
+      "id": "civic-center",
       "systemId": "bart",
-      "name": "Richmond",
-      "lines": ["red", "orange"],
-      "opened": "1973-01-29",
+      "name": "Civic Center/UN Plaza",
+      "lines": ["yellow", "green", "red", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.9367499,
-        "lng": -122.3530605
+        "lat": 37.779408,
+        "lng": -122.413826
       },
-      "address": "1700 Nevin Ave, Richmond, CA 94801",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "amtrak-connection"],
-      "description": "Richmond is the northern terminus of the Red and Orange lines, providing connections to Amtrak Capitol Corridor service.",
+      "features": ["elevator", "escalator", "fare-vending", "muni-connection"],
+      "opened": "1973-11-05",
+      "address": "1150 Market St, San Francisco, CA 94102",
+      "description": "This station serves San Francisco's Civic Center, City Hall, and numerous government buildings.",
       "entrances": [
         {
-          "id": "richmond-1",
-          "name": "B 19th Street / Civic Center",
+          "id": "civic-center-1",
+          "name": "Elevator",
           "coordinates": {
-            "lat": 37.936846,
-            "lng": -122.3530094
+            "lat": 37.7797141,
+            "lng": -122.4136988
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "civic-center-2",
+          "name": "A3 1150 Market Street - UN Plaza Stairs",
+          "coordinates": {
+            "lat": 37.7797598,
+            "lng": -122.4142508
+          },
+          "accessibility": ["stairs-only"]
+        },
+        {
+          "id": "civic-center-3",
+          "name": "B3 1150 Market Street",
+          "coordinates": {
+            "lat": 37.7795264,
+            "lng": -122.4135636
           },
           "accessibility": ["escalator"]
         },
         {
-          "id": "richmond-2",
-          "name": "A Marina Way / 16th St",
+          "id": "civic-center-4",
+          "name": "A4 Market Street & 7th Street (NW)",
           "coordinates": {
-            "lat": 37.9368631,
-            "lng": -122.3541695
+            "lat": 37.7803555,
+            "lng": -122.4129008
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "civic-center-5",
+          "name": "B4 Market Street & 7th Street (NE)",
+          "coordinates": {
+            "lat": 37.7801374,
+            "lng": -122.4128003
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "civic-center-6",
+          "name": "A2 Market Street & Hyde Street (SW)",
+          "coordinates": {
+            "lat": 37.7789582,
+            "lng": -122.4146697
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "civic-center-7",
+          "name": "B2 Market Street & 8th Street (SE)",
+          "coordinates": {
+            "lat": 37.7788155,
+            "lng": -122.4144769
           },
           "accessibility": ["escalator"]
         }
       ]
     },
     {
-      "id": "rockridge",
+      "id": "16th-street-mission",
       "systemId": "bart",
-      "name": "Rockridge",
-      "lines": ["yellow"],
-      "opened": "1973-05-21",
+      "name": "16th Street Mission",
+      "lines": ["yellow", "green", "red", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.8447393,
-        "lng": -122.2513146
+        "lat": 37.765173,
+        "lng": -122.419704
       },
-      "address": "5660 College Ave, Oakland, CA 94618",
+      "features": ["elevator", "escalator", "fare-vending"],
+      "opened": "1973-11-05",
+      "address": "2000 Mission St, San Francisco, CA 94110",
+      "description": "16th Street Mission serves San Francisco's vibrant Mission District, known for its Latino culture, murals, and restaurants.",
+      "entrances": [
+        {
+          "id": "16th-street-mission-1",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7653537,
+            "lng": -122.4195536
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "16th-street-mission-2",
+          "name": "B 16TH & Mission NE",
+          "coordinates": {
+            "lat": 37.7652792,
+            "lng": -122.4193381
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "16th-street-mission-3",
+          "name": "A 16TH & Mission SW",
+          "coordinates": {
+            "lat": 37.7647421,
+            "lng": -122.4200446
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "24th-street-mission",
+      "systemId": "bart",
+      "name": "24th Street Mission",
+      "lines": ["yellow", "green", "red", "blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.752419,
+        "lng": -122.418468
+      },
+      "features": ["elevator", "escalator", "fare-vending"],
+      "opened": "1973-11-05",
+      "address": "2800 Mission St, San Francisco, CA 94110",
+      "description": "24th Street Mission is the southern end of BART service in the Mission District, near the historic Balmy Alley murals.",
+      "entrances": [
+        {
+          "id": "24th-street-mission-1",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.7525833,
+            "lng": -122.4183299
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "24th-street-mission-2",
+          "name": "B 24TH & Mission NE",
+          "coordinates": {
+            "lat": 37.7524837,
+            "lng": -122.4181116
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "24th-street-mission-3",
+          "name": "A 24TH & Mission SW",
+          "coordinates": {
+            "lat": 37.7519414,
+            "lng": -122.4188268
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "glen-park",
+      "systemId": "bart",
+      "name": "Glen Park",
+      "lines": ["yellow", "green", "red", "blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.733235,
+        "lng": -122.433515
+      },
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "opened": "1973-11-05",
+      "address": "2901 Diamond St, San Francisco, CA 94131",
+      "description": "Glen Park station serves the Glen Park neighborhood and is the last underground station before BART emerges to the surface heading south.",
+      "entrances": [
+        {
+          "id": "glen-park-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.7331807,
+            "lng": -122.4338836
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "balboa-park",
+      "systemId": "bart",
+      "name": "Balboa Park",
+      "lines": ["yellow", "green", "red", "blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.721747,
+        "lng": -122.447457
+      },
+      "features": ["elevator", "escalator", "fare-vending", "muni-connection", "parking"],
+      "opened": "1973-11-05",
+      "address": "401 Geneva Ave, San Francisco, CA 94112",
+      "description": "Balboa Park is a major transfer point between BART and Muni Metro, with adjacent bus connections and a park-and-ride facility.",
+      "entrances": [
+        {
+          "id": "balboa-park-1",
+          "name": "A2 John F Foran Fwy (Ramp)",
+          "coordinates": {
+            "lat": 37.721979,
+            "lng": -122.4475126
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "balboa-park-2",
+          "name": "A1 Geneva Ave",
+          "coordinates": {
+            "lat": 37.7208189,
+            "lng": -122.4476262
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "balboa-park-3",
+          "name": "B1 Geneva Ave",
+          "coordinates": {
+            "lat": 37.7211821,
+            "lng": -122.4473426
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "balboa-park-4",
+          "name": "B3 Geneva Ave",
+          "coordinates": {
+            "lat": 37.7213286,
+            "lng": -122.4473897
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "balboa-park-5",
+          "name": "B2 (Elevator) Geneva Ave",
+          "coordinates": {
+            "lat": 37.7212396,
+            "lng": -122.4475837
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "balboa-park-6",
+          "name": "B4 John F Foran Fwy (Ramp)",
+          "coordinates": {
+            "lat": 37.7219589,
+            "lng": -122.4473271
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "daly-city",
+      "systemId": "bart",
+      "name": "Daly City",
+      "lines": ["yellow", "green", "red", "blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.706259,
+        "lng": -122.468908
+      },
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Rockridge station serves the upscale Rockridge neighborhood of Oakland, known for its restaurants and boutique shopping along College Avenue.",
+      "opened": "1973-11-05",
+      "address": "500 John Daly Blvd, Daly City, CA 94014",
+      "description": "Daly City is the terminus for Blue and Green lines and a major transfer point, with extensive parking facilities serving commuters from the Peninsula.",
       "entrances": [
         {
-          "id": "rockridge-1",
-          "name": "West Concourse",
+          "id": "daly-city-1",
+          "name": "A John Daly, Junipero Serra Blvd",
           "coordinates": {
-            "lat": 37.8444583,
-            "lng": -122.2520238
+            "lat": 37.7061324,
+            "lng": -122.4690221
           },
           "accessibility": ["escalator"]
         },
         {
-          "id": "rockridge-2",
-          "name": "Main (South)",
+          "id": "daly-city-2",
+          "name": "East Parking Lot",
           "coordinates": {
-            "lat": 37.8445015,
-            "lng": -122.2514363
+            "lat": 37.7058621,
+            "lng": -122.4687871
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "daly-city-3",
+          "name": "B De Long St, St Charles Ave",
+          "coordinates": {
+            "lat": 37.7065093,
+            "lng": -122.4687172
           },
           "accessibility": ["escalator"]
         }
       ]
     },
     {
-      "id": "san-bruno",
+      "id": "lake-merritt",
       "systemId": "bart",
-      "name": "San Bruno",
-      "lines": ["red", "yellow"],
-      "opened": "2003-06-22",
+      "name": "Lake Merritt",
+      "lines": ["orange", "green", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.6377037,
-        "lng": -122.4162667
+        "lat": 37.797322,
+        "lng": -122.265247
       },
-      "address": "1151 Huntington Ave, San Bruno, CA 94066",
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "800 Madison St, Oakland, CA 94607",
+      "description": "Lake Merritt station serves Oakland's Chinatown, the Oakland Museum of California, and the scenic Lake Merritt area.",
+      "entrances": [
+        {
+          "id": "lake-merritt-1",
+          "name": "B1 NW 8th & Oak St Jack London Sq",
+          "coordinates": {
+            "lat": 37.7971135,
+            "lng": -122.265587
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lake-merritt-2",
+          "name": "B2 SW 8th St, Laney College",
+          "coordinates": {
+            "lat": 37.7970717,
+            "lng": -122.265164
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lake-merritt-3",
+          "name": "A2 SE 9th & Oak St",
+          "coordinates": {
+            "lat": 37.7973892,
+            "lng": -122.2648326
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lake-merritt-4",
+          "name": "A1 NE Chinatown",
+          "coordinates": {
+            "lat": 37.7976,
+            "lng": -122.265533
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "fruitvale",
+      "systemId": "bart",
+      "name": "Fruitvale",
+      "lines": ["orange", "green", "blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.774841,
+        "lng": -122.224081
+      },
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "San Bruno station is a junction point where trains split between the SFO Airport branch and the Millbrae mainline.",
+      "opened": "1972-09-11",
+      "address": "3401 E 12th St, Oakland, CA 94601",
+      "description": "Fruitvale station is known for its award-winning transit village development and serves the diverse Fruitvale neighborhood.",
       "entrances": [
         {
-          "id": "san-bruno-1",
-          "name": "Huntington Ave",
+          "id": "fruitvale-1",
+          "name": "Main",
           "coordinates": {
-            "lat": 37.6377942,
-            "lng": -122.4161662
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "san-bruno-2",
-          "name": "Plaza, Shopping Center",
-          "coordinates": {
-            "lat": 37.6377442,
-            "lng": -122.4164136
+            "lat": 37.775085,
+            "lng": -122.2245116
           },
           "accessibility": ["escalator"]
         }
       ]
     },
     {
-      "id": "sfo-airport",
+      "id": "coliseum",
       "systemId": "bart",
-      "name": "San Francisco International Airport",
-      "lines": ["yellow"],
-      "opened": "2003-06-22",
+      "name": "Coliseum",
+      "lines": ["orange", "green", "blue", "beige"],
       "status": "active",
       "coordinates": {
-        "lat": 37.6159977,
-        "lng": -122.3924141
+        "lat": 37.753576,
+        "lng": -122.196716
       },
-      "address": "SFO International Terminal, San Francisco, CA 94128",
-      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
-      "description": "SFO Airport station provides direct rail access to San Francisco International Airport, the busiest airport in Northern California.",
+      "features": ["elevator", "escalator", "fare-vending", "parking", "airport-connector"],
+      "opened": "1972-09-11",
+      "address": "7200 San Leandro St, Oakland, CA 94621",
+      "description": "Coliseum station serves the Oakland Coliseum complex and provides connections to the Oakland Airport via the Oakland Airport Connector.",
       "entrances": [
         {
-          "id": "sfo-airport-1",
-          "name": "SFIA, International Terminal, Level 3",
+          "id": "coliseum-1",
+          "name": "Elevated Walkway to Amtrak Station, Coliseum Arena",
           "coordinates": {
-            "lat": 37.615916,
-            "lng": -122.3926778
+            "lat": 37.7540409,
+            "lng": -122.1973959
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "coliseum-2",
+          "name": "OAK Connection",
+          "coordinates": {
+            "lat": 37.7539981,
+            "lng": -122.1973464
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "coliseum-3",
+          "name": "San Leandro Street",
+          "coordinates": {
+            "lat": 37.7539498,
+            "lng": -122.1972864
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "coliseum-4",
+          "name": "Snell St",
+          "coordinates": {
+            "lat": 37.7540025,
+            "lng": -122.1967903
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "coliseum-5",
+          "name": "71st Ave",
+          "coordinates": {
+            "lat": 37.7542688,
+            "lng": -122.1966931
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "coliseum-6",
+          "name": "Coliseum/Airport Connector",
+          "coordinates": {
+            "lat": 37.7528788,
+            "lng": -122.1958926
           },
           "accessibility": ["escalator"]
         }
@@ -1803,15 +924,15 @@
       "id": "san-leandro",
       "systemId": "bart",
       "name": "San Leandro",
-      "lines": ["blue", "green", "orange"],
-      "opened": "1972-09-11",
+      "lines": ["orange", "green", "blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.7217854,
-        "lng": -122.1607507
+        "lat": 37.721784,
+        "lng": -122.16074
       },
-      "address": "1401 San Leandro Blvd, San Leandro, CA 94577",
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "1401 San Leandro Blvd, San Leandro, CA 94577",
       "description": "San Leandro station serves downtown San Leandro and the surrounding residential areas with extensive parking.",
       "entrances": [
         {
@@ -1835,18 +956,79 @@
       ]
     },
     {
+      "id": "bay-fair",
+      "systemId": "bart",
+      "name": "Bay Fair",
+      "lines": ["orange", "green", "blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.696908,
+        "lng": -122.126446
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "15242 Hesperian Blvd, San Leandro, CA 94578",
+      "description": "Bay Fair is a junction station where the Dublin/Pleasanton and Fremont lines diverge, named after the nearby Bayfair Center mall.",
+      "entrances": [
+        {
+          "id": "bay-fair-1",
+          "name": "East",
+          "coordinates": {
+            "lat": 37.6970844,
+            "lng": -122.1264733
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "bay-fair-2",
+          "name": "West",
+          "coordinates": {
+            "lat": 37.6968732,
+            "lng": -122.1269896
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "hayward",
+      "systemId": "bart",
+      "name": "Hayward",
+      "lines": ["orange", "green"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.669699,
+        "lng": -122.086958
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "699 B St, Hayward, CA 94541",
+      "description": "Hayward station serves downtown Hayward and is a major bus transfer point for AC Transit routes serving the East Bay.",
+      "entrances": [
+        {
+          "id": "hayward-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.6695806,
+            "lng": -122.0866005
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
       "id": "south-hayward",
       "systemId": "bart",
       "name": "South Hayward",
-      "lines": ["green", "orange"],
-      "opened": "1972-09-11",
+      "lines": ["orange", "green"],
       "status": "active",
       "coordinates": {
-        "lat": 37.6343506,
-        "lng": -122.0571973
+        "lat": 37.63434,
+        "lng": -122.057182
       },
-      "address": "28601 Dixon St, Hayward, CA 94544",
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "28601 Dixon St, Hayward, CA 94544",
       "description": "South Hayward station serves southern Hayward and Union City residents with substantial park-and-ride facilities.",
       "entrances": [
         {
@@ -1861,52 +1043,15 @@
       ]
     },
     {
-      "id": "south-san-francisco",
-      "systemId": "bart",
-      "name": "South San Francisco",
-      "lines": ["red", "yellow"],
-      "opened": "2003-06-22",
-      "status": "active",
-      "coordinates": {
-        "lat": 37.6642105,
-        "lng": -122.4439777
-      },
-      "address": "1333 Mission Rd, South San Francisco, CA 94080",
-      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "South San Francisco station serves the biotech corridor and provides access to the industrial heart of South San Francisco.",
-      "entrances": [
-        {
-          "id": "south-san-francisco-1",
-          "name": "East Concourse",
-          "coordinates": {
-            "lat": 37.664324,
-            "lng": -122.4438372
-          },
-          "accessibility": ["escalator"]
-        },
-        {
-          "id": "south-san-francisco-2",
-          "name": "West Concourse",
-          "coordinates": {
-            "lat": 37.664097,
-            "lng": -122.4440629
-          },
-          "accessibility": ["escalator"]
-        }
-      ]
-    },
-    {
       "id": "union-city",
       "systemId": "bart",
       "name": "Union City",
-      "lines": ["green", "orange"],
-      "opened": "1972-09-11",
+      "lines": ["orange", "green"],
       "status": "active",
       "coordinates": {
-        "lat": 37.5907343,
-        "lng": -122.017256
+        "lat": 37.590735,
+        "lng": -122.017248
       },
-      "address": "10 Union Square, Union City, CA 94587",
       "features": [
         "elevator",
         "escalator",
@@ -1915,6 +1060,8 @@
         "bus-connection",
         "ace-connection"
       ],
+      "opened": "1972-09-11",
+      "address": "10 Union Square, Union City, CA 94587",
       "description": "Union City station is an intermodal hub with connections to the Altamont Corridor Express (ACE) commuter rail to the Central Valley.",
       "entrances": [
         {
@@ -1929,18 +1076,158 @@
       ]
     },
     {
+      "id": "fremont",
+      "systemId": "bart",
+      "name": "Fremont",
+      "lines": ["orange", "green"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.55748,
+        "lng": -121.976619
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1972-09-11",
+      "address": "2000 BART Way, Fremont, CA 94536",
+      "description": "Fremont station is a major transit hub in the southern East Bay, with extensive park-and-ride facilities.",
+      "entrances": [
+        {
+          "id": "fremont-1",
+          "name": "East Plaza",
+          "coordinates": {
+            "lat": 37.5575129,
+            "lng": -121.9764251
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "fremont-2",
+          "name": "West Plaza",
+          "coordinates": {
+            "lat": 37.557402,
+            "lng": -121.9767141
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "fremont-3",
+          "name": "Station",
+          "coordinates": {
+            "lat": 37.5576326,
+            "lng": -121.9764599
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "rockridge",
+      "systemId": "bart",
+      "name": "Rockridge",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.844755,
+        "lng": -122.251235
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-05-21",
+      "address": "5660 College Ave, Oakland, CA 94618",
+      "description": "Rockridge station serves the upscale Rockridge neighborhood of Oakland, known for its restaurants and boutique shopping along College Avenue.",
+      "entrances": [
+        {
+          "id": "rockridge-1",
+          "name": "West Concourse",
+          "coordinates": {
+            "lat": 37.8444583,
+            "lng": -122.2520238
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "rockridge-2",
+          "name": "Main (South)",
+          "coordinates": {
+            "lat": 37.8445015,
+            "lng": -122.2514363
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "orinda",
+      "systemId": "bart",
+      "name": "Orinda",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.878481,
+        "lng": -122.183667
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-05-21",
+      "address": "11 Camino Pablo, Orinda, CA 94563",
+      "description": "Orinda station serves the affluent Lamorinda communities and is the first station after the Berkeley Hills tunnel heading east.",
+      "entrances": [
+        {
+          "id": "orinda-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.8781168,
+            "lng": -122.1840791
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "lafayette",
+      "systemId": "bart",
+      "name": "Lafayette",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.893183,
+        "lng": -122.12462
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-05-21",
+      "address": "3601 Deer Hill Rd, Lafayette, CA 94549",
+      "description": "Lafayette station serves the suburban community of Lafayette with extensive park-and-ride facilities in the Lamorinda area.",
+      "entrances": [
+        {
+          "id": "lafayette-1",
+          "name": "A",
+          "coordinates": {
+            "lat": 37.8935355,
+            "lng": -122.1246527
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "lafayette-2",
+          "name": "B",
+          "coordinates": {
+            "lat": 37.8928491,
+            "lng": -122.1245266
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
       "id": "walnut-creek",
       "systemId": "bart",
       "name": "Walnut Creek",
       "lines": ["yellow"],
-      "opened": "1973-05-21",
       "status": "active",
       "coordinates": {
-        "lat": 37.9058139,
-        "lng": -122.0673294
+        "lat": 37.905791,
+        "lng": -122.067327
       },
-      "address": "200 Ygnacio Valley Rd, Walnut Creek, CA 94596",
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-05-21",
+      "address": "200 Ygnacio Valley Rd, Walnut Creek, CA 94596",
       "description": "Walnut Creek station serves the major commercial center of central Contra Costa County with large parking structures.",
       "entrances": [
         {
@@ -1955,37 +1242,396 @@
       ]
     },
     {
-      "id": "warm-springs",
+      "id": "pleasant-hill",
       "systemId": "bart",
-      "name": "Warm Springs/South Fremont",
-      "lines": ["green", "orange"],
-      "opened": "2017-03-25",
+      "name": "Pleasant Hill/Contra Costa Centre",
+      "lines": ["yellow"],
       "status": "active",
       "coordinates": {
-        "lat": 37.502335,
-        "lng": -121.939433
+        "lat": 37.928434,
+        "lng": -122.055971
       },
-      "address": "45193 Warm Springs Blvd, Fremont, CA 94539",
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "description": "Warm Springs station serves southern Fremont and the growing tech employment centers near Tesla's factory.",
+      "opened": "1973-05-21",
+      "address": "1365 Treat Blvd, Walnut Creek, CA 94597",
+      "description": "Pleasant Hill station is surrounded by transit-oriented development and serves as a hub for central Contra Costa County commuters.",
       "entrances": [
         {
-          "id": "warm-springs-1",
-          "name": "Main (East)",
+          "id": "pleasant-hill-1",
+          "name": "Main",
           "coordinates": {
-            "lat": 37.5022465,
-            "lng": -121.9384292
+            "lat": 37.928408,
+            "lng": -122.0560262
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "concord",
+      "systemId": "bart",
+      "name": "Concord",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.973757,
+        "lng": -122.029072
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-05-21",
+      "address": "1451 Oakland Ave, Concord, CA 94520",
+      "description": "Concord station serves the city of Concord with extensive parking and bus connections to surrounding communities.",
+      "entrances": [
+        {
+          "id": "concord-1",
+          "name": "West Concourse",
+          "coordinates": {
+            "lat": 37.9736057,
+            "lng": -122.0294061
           },
           "accessibility": ["escalator"]
         },
         {
-          "id": "warm-springs-2",
-          "name": "Station Elevator",
+          "id": "concord-2",
+          "name": "East Concourse",
           "coordinates": {
-            "lat": 37.5020978,
-            "lng": -121.9388861
+            "lat": 37.9735043,
+            "lng": -122.029106
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "north-concord-martinez",
+      "systemId": "bart",
+      "name": "North Concord/Martinez",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 38.003383,
+        "lng": -122.024512
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1995-12-16",
+      "address": "3700 Port Chicago Hwy, Concord, CA 94520",
+      "description": "North Concord/Martinez station serves northern Concord and provides the closest BART access for Martinez residents.",
+      "entrances": [
+        {
+          "id": "north-concord-martinez-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 38.0031064,
+            "lng": -122.0243927
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "pittsburg-bay-point",
+      "systemId": "bart",
+      "name": "Pittsburg/Bay Point",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 38.01891,
+        "lng": -121.944236
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1996-12-07",
+      "address": "1700 W Leland Rd, Pittsburg, CA 94565",
+      "description": "Pittsburg/Bay Point station serves eastern Contra Costa County with massive parking facilities and is the transfer point to eBART.",
+      "entrances": [
+        {
+          "id": "pittsburg-bay-point-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 38.0182445,
+            "lng": -121.945151
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "ashby",
+      "systemId": "bart",
+      "name": "Ashby",
+      "lines": ["orange", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.853072,
+        "lng": -122.269771
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-01-29",
+      "address": "3100 Adeline St, Berkeley, CA 94703",
+      "description": "Ashby station serves South Berkeley and is home to one of the Bay Area's largest weekend flea markets in its parking lot.",
+      "entrances": [
+        {
+          "id": "ashby-1",
+          "name": "Adeline Street East Elevator",
+          "coordinates": {
+            "lat": 37.8527572,
+            "lng": -122.2695656
           },
           "accessibility": ["elevator"]
+        },
+        {
+          "id": "ashby-2",
+          "name": "Adeline Street East Stairs",
+          "coordinates": {
+            "lat": 37.8523967,
+            "lng": -122.2696952
+          },
+          "accessibility": ["stairs-only"]
+        },
+        {
+          "id": "ashby-3",
+          "name": "Adeline Street West",
+          "coordinates": {
+            "lat": 37.8528099,
+            "lng": -122.2700392
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "downtown-berkeley",
+      "systemId": "bart",
+      "name": "Downtown Berkeley",
+      "lines": ["orange", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.87011,
+        "lng": -122.268109
+      },
+      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
+      "opened": "1973-01-29",
+      "address": "2160 Shattuck Ave, Berkeley, CA 94704",
+      "description": "Downtown Berkeley station serves the city's vibrant downtown area and the University of California, Berkeley campus.",
+      "entrances": [
+        {
+          "id": "downtown-berkeley-1",
+          "name": "B4 Shattuck Ave & Allston Way (West)",
+          "coordinates": {
+            "lat": 37.8694973,
+            "lng": -122.2681859
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "downtown-berkeley-2",
+          "name": "A2 Shattuck Ave & Allston Way (East)",
+          "coordinates": {
+            "lat": 37.8697081,
+            "lng": -122.2677677
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "downtown-berkeley-3",
+          "name": "B1 Shattuck Ave & Addison Street (West)",
+          "coordinates": {
+            "lat": 37.8710065,
+            "lng": -122.2683743
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "downtown-berkeley-4",
+          "name": "A1 Shattuck Ave & Addison Street (East)",
+          "coordinates": {
+            "lat": 37.8710137,
+            "lng": -122.2681421
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "downtown-berkeley-5",
+          "name": "B3 DBRK",
+          "coordinates": {
+            "lat": 37.8700978,
+            "lng": -122.2682197
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "north-berkeley",
+      "systemId": "bart",
+      "name": "North Berkeley",
+      "lines": ["orange", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.874005,
+        "lng": -122.283523
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-01-29",
+      "address": "1750 Sacramento St, Berkeley, CA 94702",
+      "description": "North Berkeley station serves the residential neighborhoods of northern Berkeley with substantial park-and-ride facilities.",
+      "entrances": [
+        {
+          "id": "north-berkeley-1",
+          "name": "North",
+          "coordinates": {
+            "lat": 37.8740881,
+            "lng": -122.283357
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "north-berkeley-2",
+          "name": "South",
+          "coordinates": {
+            "lat": 37.873851,
+            "lng": -122.283518
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "el-cerrito-plaza",
+      "systemId": "bart",
+      "name": "El Cerrito Plaza",
+      "lines": ["orange", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.90261,
+        "lng": -122.29892
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-01-29",
+      "address": "6699 Fairmount Ave, El Cerrito, CA 94530",
+      "description": "El Cerrito Plaza station is adjacent to the El Cerrito Plaza shopping center and serves central El Cerrito.",
+      "entrances": [
+        {
+          "id": "el-cerrito-plaza-1",
+          "name": "West Concourse Central",
+          "coordinates": {
+            "lat": 37.9026628,
+            "lng": -122.2991376
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "el-cerrito-plaza-2",
+          "name": "East Concourse Central",
+          "coordinates": {
+            "lat": 37.9027704,
+            "lng": -122.2989289
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "el-cerrito-plaza-3",
+          "name": "South Concourse Fairmont",
+          "coordinates": {
+            "lat": 37.9024856,
+            "lng": -122.2988444
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "el-cerrito-del-norte",
+      "systemId": "bart",
+      "name": "El Cerrito del Norte",
+      "lines": ["orange", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.925184,
+        "lng": -122.316892
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1973-01-29",
+      "address": "6400 Cutting Blvd, El Cerrito, CA 94530",
+      "description": "El Cerrito del Norte is a major bus transfer point with extensive parking, serving as a gateway for riders from western Contra Costa County.",
+      "entrances": [
+        {
+          "id": "el-cerrito-del-norte-1",
+          "name": "West Concourse",
+          "coordinates": {
+            "lat": 37.9252672,
+            "lng": -122.3171462
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "el-cerrito-del-norte-2",
+          "name": "East Concourse",
+          "coordinates": {
+            "lat": 37.9253428,
+            "lng": -122.3168825
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "richmond",
+      "systemId": "bart",
+      "name": "Richmond",
+      "lines": ["orange", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.936758,
+        "lng": -122.353047
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "amtrak-connection"],
+      "opened": "1973-01-29",
+      "address": "1700 Nevin Ave, Richmond, CA 94801",
+      "description": "Richmond is the northern terminus of the Red and Orange lines, providing connections to Amtrak Capitol Corridor service.",
+      "entrances": [
+        {
+          "id": "richmond-1",
+          "name": "B 19th Street / Civic Center",
+          "coordinates": {
+            "lat": 37.936846,
+            "lng": -122.3530094
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "richmond-2",
+          "name": "A Marina Way / 16th St",
+          "coordinates": {
+            "lat": 37.9368631,
+            "lng": -122.3541695
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "castro-valley",
+      "systemId": "bart",
+      "name": "Castro Valley",
+      "lines": ["blue"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.690737,
+        "lng": -122.075601
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1997-05-10",
+      "address": "3301 Norbridge Dr, Castro Valley, CA 94546",
+      "description": "Castro Valley station serves the unincorporated community of Castro Valley in the East Bay hills.",
+      "entrances": [
+        {
+          "id": "castro-valley-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.691309,
+            "lng": -122.0759345
+          },
+          "accessibility": ["escalator"]
         }
       ]
     },
@@ -1994,14 +1640,14 @@
       "systemId": "bart",
       "name": "West Dublin/Pleasanton",
       "lines": ["blue"],
-      "opened": "2011-02-19",
       "status": "active",
       "coordinates": {
-        "lat": 37.6997507,
-        "lng": -121.9280771
+        "lat": 37.699721,
+        "lng": -121.928277
       },
-      "address": "6501 Golden Gate Dr, Dublin, CA 94568",
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2011-02-19",
+      "address": "6501 Golden Gate Dr, Dublin, CA 94568",
       "description": "West Dublin/Pleasanton station serves the commercial and residential growth areas between Dublin and Pleasanton.",
       "entrances": [
         {
@@ -2025,35 +1671,389 @@
       ]
     },
     {
-      "id": "west-oakland",
+      "id": "dublin-pleasanton",
       "systemId": "bart",
-      "name": "West Oakland",
-      "lines": ["red", "yellow", "blue", "green"],
-      "opened": "1974-09-16",
+      "name": "Dublin/Pleasanton",
+      "lines": ["blue"],
       "status": "active",
       "coordinates": {
-        "lat": 37.8048871,
-        "lng": -122.2951608
+        "lat": 37.701646,
+        "lng": -121.899229
       },
-      "address": "1451 7th St, Oakland, CA 94607",
-      "features": ["elevator", "escalator", "fare-vending", "bus-connection"],
-      "description": "West Oakland station is a key connection point for Transbay service, where trains heading to San Francisco converge before crossing the bay.",
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "ace-connection"
+      ],
+      "opened": "1997-05-10",
+      "address": "5801 Owens Dr, Pleasanton, CA 94588",
+      "description": "Dublin/Pleasanton is the eastern terminus of the Blue Line with extensive parking and connections to ACE commuter rail.",
       "entrances": [
         {
-          "id": "west-oakland-1",
-          "name": "North Station",
+          "id": "dublin-pleasanton-1",
+          "name": "Main",
           "coordinates": {
-            "lat": 37.8050292,
-            "lng": -122.2953018
+            "lat": 37.7016456,
+            "lng": -121.8981928
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "colma",
+      "systemId": "bart",
+      "name": "Colma",
+      "lines": ["yellow", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.684635,
+        "lng": -122.466157
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "1996-02-24",
+      "address": "365 D St, Colma, CA 94014",
+      "description": "Colma station serves the town of Colma and nearby shopping centers, with large park-and-ride facilities.",
+      "entrances": [
+        {
+          "id": "colma-1",
+          "name": "West to Parking Garage",
+          "coordinates": {
+            "lat": 37.6844762,
+            "lng": -122.4663618
           },
           "accessibility": ["escalator"]
         },
         {
-          "id": "west-oakland-2",
-          "name": "South Station",
+          "id": "colma-2",
+          "name": "East",
           "coordinates": {
-            "lat": 37.8048907,
-            "lng": -122.2953887
+            "lat": 37.6847719,
+            "lng": -122.4660425
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "south-san-francisco",
+      "systemId": "bart",
+      "name": "South San Francisco",
+      "lines": ["yellow", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.664462,
+        "lng": -122.444211
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2003-06-22",
+      "address": "1333 Mission Rd, South San Francisco, CA 94080",
+      "description": "South San Francisco station serves the biotech corridor and provides access to the industrial heart of South San Francisco.",
+      "entrances": [
+        {
+          "id": "south-san-francisco-1",
+          "name": "East Concourse",
+          "coordinates": {
+            "lat": 37.664324,
+            "lng": -122.4438372
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "south-san-francisco-2",
+          "name": "West Concourse",
+          "coordinates": {
+            "lat": 37.664097,
+            "lng": -122.4440629
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "san-bruno",
+      "systemId": "bart",
+      "name": "San Bruno",
+      "lines": ["yellow", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.63773,
+        "lng": -122.416326
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2003-06-22",
+      "address": "1151 Huntington Ave, San Bruno, CA 94066",
+      "description": "San Bruno station is a junction point where trains split between the SFO Airport branch and the Millbrae mainline.",
+      "entrances": [
+        {
+          "id": "san-bruno-1",
+          "name": "Huntington Ave",
+          "coordinates": {
+            "lat": 37.6377942,
+            "lng": -122.4161662
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "san-bruno-2",
+          "name": "Plaza, Shopping Center",
+          "coordinates": {
+            "lat": 37.6377442,
+            "lng": -122.4164136
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "millbrae",
+      "systemId": "bart",
+      "name": "Millbrae",
+      "lines": ["yellow", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.600237,
+        "lng": -122.386757
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "caltrain-connection"],
+      "opened": "2003-06-22",
+      "address": "200 Rollins Rd, Millbrae, CA 94030",
+      "description": "Millbrae is an intermodal station providing connections to Caltrain commuter rail service to San Jose and the Peninsula.",
+      "entrances": [
+        {
+          "id": "millbrae-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.6004573,
+            "lng": -122.3864465
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "sfo-airport",
+      "systemId": "bart",
+      "name": "San Francisco International Airport",
+      "lines": ["yellow", "red"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.616091,
+        "lng": -122.391954
+      },
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
+      "opened": "2003-06-22",
+      "address": "SFO International Terminal, San Francisco, CA 94128",
+      "description": "SFO Airport station provides direct rail access to San Francisco International Airport, the busiest airport in Northern California.",
+      "entrances": [
+        {
+          "id": "sfo-airport-1",
+          "name": "SFIA, International Terminal, Level 3",
+          "coordinates": {
+            "lat": 37.615916,
+            "lng": -122.3926778
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "oakland-airport",
+      "systemId": "bart",
+      "name": "Oakland International Airport",
+      "lines": ["beige"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.713256,
+        "lng": -122.212237
+      },
+      "features": ["elevator", "escalator", "fare-vending", "airport-connection"],
+      "opened": "2014-11-22",
+      "address": "1 Airport Dr, Oakland, CA 94621",
+      "description": "Oakland Airport station is the terminus of the automated Oakland Airport Connector, providing direct service to both airport terminals.",
+      "entrances": [
+        {
+          "id": "oakland-airport-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.7129349,
+            "lng": -122.2125403
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "pittsburg-center",
+      "systemId": "bart",
+      "name": "Pittsburg Center",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 38.016847,
+        "lng": -121.889062
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2018-05-26",
+      "address": "2099 Railroad Ave, Pittsburg, CA 94565",
+      "description": "Pittsburg Center is part of the eBART diesel multiple unit extension, serving downtown Pittsburg.",
+      "entrances": [
+        {
+          "id": "pittsburg-center-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 38.0169059,
+            "lng": -121.8892988
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "antioch",
+      "systemId": "bart",
+      "name": "Antioch",
+      "lines": ["yellow"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.995373,
+        "lng": -121.780346
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2018-05-26",
+      "address": "1600 Slatten Ranch Rd, Antioch, CA 94509",
+      "description": "Antioch is the eastern terminus of the Yellow Line, served by eBART diesel trains connecting to electric BART at Pittsburg/Bay Point.",
+      "entrances": [
+        {
+          "id": "antioch-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.9958077,
+            "lng": -121.7799827
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "warm-springs",
+      "systemId": "bart",
+      "name": "Warm Springs/South Fremont",
+      "lines": ["orange", "green"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.502285,
+        "lng": -121.939395
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2017-03-25",
+      "address": "45193 Warm Springs Blvd, Fremont, CA 94539",
+      "description": "Warm Springs station serves southern Fremont and the growing tech employment centers near Tesla's factory.",
+      "entrances": [
+        {
+          "id": "warm-springs-1",
+          "name": "Main (East)",
+          "coordinates": {
+            "lat": 37.5022465,
+            "lng": -121.9384292
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "warm-springs-2",
+          "name": "Station Elevator",
+          "coordinates": {
+            "lat": 37.5020978,
+            "lng": -121.9388861
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    {
+      "id": "milpitas",
+      "systemId": "bart",
+      "name": "Milpitas",
+      "lines": ["orange", "green"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.410277,
+        "lng": -121.891081
+      },
+      "features": [
+        "elevator",
+        "escalator",
+        "fare-vending",
+        "parking",
+        "bus-connection",
+        "vta-connection"
+      ],
+      "opened": "2020-06-13",
+      "address": "1555 Capitol Ave, Milpitas, CA 95035",
+      "description": "Milpitas station is part of BART's Silicon Valley extension, providing connections to VTA light rail and bus services.",
+      "entrances": [
+        {
+          "id": "milpitas-1",
+          "name": "West Station",
+          "coordinates": {
+            "lat": 37.4099563,
+            "lng": -121.8912231
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "milpitas-2",
+          "name": "East Station",
+          "coordinates": {
+            "lat": 37.4101439,
+            "lng": -121.8906885
+          },
+          "accessibility": ["escalator"]
+        }
+      ]
+    },
+    {
+      "id": "berryessa",
+      "systemId": "bart",
+      "name": "Berryessa/North San Jose",
+      "lines": ["orange", "green"],
+      "status": "active",
+      "coordinates": {
+        "lat": 37.368473,
+        "lng": -121.874681
+      },
+      "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
+      "opened": "2020-06-13",
+      "address": "1601 N 10th St, San Jose, CA 95112",
+      "description": "Berryessa is the current southern terminus of BART's Silicon Valley extension, with plans to extend further to downtown San Jose.",
+      "entrances": [
+        {
+          "id": "berryessa-1",
+          "name": "Main",
+          "coordinates": {
+            "lat": 37.3684702,
+            "lng": -121.8745705
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "berryessa-2",
+          "name": "North",
+          "coordinates": {
+            "lat": 37.3687057,
+            "lng": -121.8747212
+          },
+          "accessibility": ["escalator"]
+        },
+        {
+          "id": "berryessa-3",
+          "name": "South",
+          "coordinates": {
+            "lat": 37.3682021,
+            "lng": -121.8745566
           },
           "accessibility": ["escalator"]
         }

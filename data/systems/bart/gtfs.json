@@ -1,0 +1,17 @@
+{
+  "static": {
+    "url_secret": "BART_GTFS_URL",
+    "auth": { "type": "none" },
+    "route_groups": {
+      "yellow": ["1", "2"],
+      "orange": ["3", "4"],
+      "green": ["5", "6"],
+      "red": ["7", "8"],
+      "blue": ["11", "12"],
+      "beige": ["19", "20"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name"
+    }
+  }
+}

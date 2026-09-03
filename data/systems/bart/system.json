@@ -1,5 +1,6 @@
 {
   "id": "bart",
+  "dataSource": "gtfs",
   "name": "Bay Area Rapid Transit",
   "shortName": "BART",
   "location": "San Francisco Bay Area, CA",
