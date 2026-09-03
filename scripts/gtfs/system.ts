@@ -24,6 +24,7 @@ interface GtfsConfig {
       agency_ids?: string[] | null;
       route_ids_include?: string[] | null;
       route_ids_exclude?: string[];
+      stop_ids_exclude?: string[];
     };
     fields?: {
       line_name_source?: "route_short_name" | "route_long_name";
@@ -132,6 +133,7 @@ export async function processSystem(
 
   // Build canonical stop_id resolver: platform stops collapse to their parent_station.
   // Falls back to self when parent_station is missing or points to a non-existent stop.
+  const excludedStops = new Set(filters.stop_ids_exclude || []);
   const stopExists = new Set(gtfs.stops.map((s) => s.stop_id));
   const parentByStopId = new Map<string, string>();
   for (const stop of gtfs.stops) {
@@ -153,6 +155,7 @@ export async function processSystem(
     let prevCanonical: string | null = null;
     for (const st of stopTimes) {
       const c = canonical(st.stop_id);
+      if (excludedStops.has(c) || excludedStops.has(st.stop_id)) continue;
       if (c !== prevCanonical) {
         out.push({ ...st, stop_id: c });
         prevCanonical = c;

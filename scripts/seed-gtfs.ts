@@ -68,7 +68,9 @@ async function main() {
   const servedCanonical = new Set<string>();
   for (const [tripId, stopTimes] of gtfs.stopTimesByTrip) {
     if (!tripIds.has(tripId)) continue;
+    const excluded = new Set(filters.stop_ids_exclude || []);
     for (const st of stopTimes) {
+      if (excluded.has(st.stop_id)) continue;
       const stop = stopById.get(st.stop_id);
       if (!stop) continue;
       const canonical =

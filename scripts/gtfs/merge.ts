@@ -10,7 +10,13 @@ export function mergeOverlay<T extends Plain>(base: T, overlay: Plain | undefine
   for (const [k, v] of Object.entries(overlay)) {
     if (v === undefined) continue;
     const baseVal = (base as Plain)[k];
-    if (isPlainObject(v) && isPlainObject(baseVal)) {
+    if (isPlainObject(v) && v.$replace === true) {
+      // Escape hatch: deep-merging is wrong when the overlay means "exactly
+      // this object" (e.g. a topology whose generated fields must not leak
+      // through). { "$replace": true, ...rest } uses rest wholesale.
+      const { $replace, ...rest } = v;
+      out[k] = rest;
+    } else if (isPlainObject(v) && isPlainObject(baseVal)) {
       out[k] = mergeOverlay(baseVal, v);
     } else {
       out[k] = v; // scalars, arrays, null all replace wholesale

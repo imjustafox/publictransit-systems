@@ -109,3 +109,17 @@ describe("applyOverlayCollection", () => {
     expect(out.map((o) => o.id)).toEqual(["1-line", "2-line", "b-extra", "a-extra"]);
   });
 });
+
+describe("$replace marker", () => {
+  it("replaces the object wholesale instead of deep-merging", () => {
+    const base = { topology: { type: "loop", referenceStation: "kimball" } };
+    const overlay = { topology: { $replace: true, type: "lollipop", loopStation: "Clark/Lake" } };
+    expect(mergeOverlay(base, overlay)).toEqual({
+      topology: { type: "lollipop", loopStation: "Clark/Lake" },
+    });
+  });
+
+  it("marker works when base lacks the key", () => {
+    expect(mergeOverlay({}, { a: { $replace: true, x: 1 } })).toEqual({ a: { x: 1 } });
+  });
+});
