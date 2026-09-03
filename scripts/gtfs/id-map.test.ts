@@ -81,3 +81,18 @@ describe("mergeIdMap — subsequent runs", () => {
     expect(merged.stations["NEW"]).toBe("main-street-2");
   });
 });
+
+describe("reissued line route ids", () => {
+  it("a new gtfs id whose name slugs to an existing line adopts that slug", () => {
+    const existing = { stations: {}, lines: { "11693": "main-line" } };
+    const out = mergeIdMap(existing, [{ gtfs_id: "99999", name: "Main Line" }], "lines");
+    expect(out.lines["99999"]).toBe("main-line");
+    expect(out.lines["11693"]).toBe("main-line");
+  });
+
+  it("stations with colliding names still get suffixes", () => {
+    const existing = { stations: { a1: "18-av" }, lines: {} };
+    const out = mergeIdMap(existing, [{ gtfs_id: "b2", name: "18 Av" }], "stations");
+    expect(out.stations["b2"]).toBe("18-av-2");
+  });
+});

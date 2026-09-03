@@ -35,6 +35,17 @@ export function mergeIdMap(
     if (target[entry.gtfs_id]) continue; // preserved
 
     const base = kebabSlug(entry.name) || entry.gtfs_id.toLowerCase();
+
+    // Lines: a slug collision means the feed reissued the route id for a
+    // line we already know (aggregate feeds like gtfs.de renumber routes on
+    // every export), so the new id adopts the existing slug. Stations keep
+    // suffixing - same-name distinct stations are real (Brooklyn's three
+    // 18 Avs), and station identity is protected by the seeded id map.
+    if (scope === "lines" && usedSlugs.has(base)) {
+      target[entry.gtfs_id] = base;
+      continue;
+    }
+
     let candidate = base;
     let suffix = 2;
     while (usedSlugs.has(candidate)) {
