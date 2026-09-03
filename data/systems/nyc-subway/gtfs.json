@@ -1,0 +1,20 @@
+{
+  "static": {
+    "url_secret": "NYC_SUBWAY_GTFS_URL",
+    "auth": { "type": "none" },
+    "route_groups": {
+      "F": ["F", "FX"],
+      "6": ["6", "6X"],
+      "7": ["7", "7X"],
+      "S-42": ["GS"],
+      "S-franklin": ["FS"],
+      "S-rockaway": ["H"]
+    },
+    "filters": {
+      "route_ids_exclude": ["SI"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name"
+    }
+  }
+}
