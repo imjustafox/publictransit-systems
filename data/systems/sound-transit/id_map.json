@@ -38,6 +38,18 @@
     "S03": "kent-des-moines",
     "S05": "star-lake",
     "S07": "federal-way-downtown",
+    "SN02": "edmonds-station",
+    "SN03": "mukilteo-station",
+    "SN04": "everett-station",
+    "SS01": "king-street-station",
+    "SS02": "tukwila-sounder-station",
+    "SS03": "kent-sounder-station",
+    "SS04": "auburn-station",
+    "SS05": "sumner-station",
+    "SS06": "puyallup-station",
+    "SS07": "tacoma-dome-station",
+    "SS08": "south-tacoma-station",
+    "SS09": "lakewood-station",
     "T01": "tacoma-dome-t",
     "T03": "s-25th-street",
     "T05": "tacoma-union-station",
@@ -54,6 +66,8 @@
   "lines": {
     "100479": "1-line",
     "2LINE": "2-line",
-    "TLINE": "t-line"
+    "TLINE": "t-line",
+    "n-line": "n-line",
+    "s-line": "s-line"
   }
 }

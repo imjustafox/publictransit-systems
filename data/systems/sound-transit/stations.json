@@ -1839,6 +1839,150 @@
       "address": "Federal Way Downtown Station, Federal Way, WA"
     },
     {
+      "id": "edmonds-station",
+      "systemId": "sound-transit",
+      "name": "Edmonds Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.811152,
+        "lng": -122.384373
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "mukilteo-station",
+      "systemId": "sound-transit",
+      "name": "Mukilteo Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.94837,
+        "lng": -122.301052
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "everett-station",
+      "systemId": "sound-transit",
+      "name": "Everett Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.974947,
+        "lng": -122.197257
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "king-street-station",
+      "systemId": "sound-transit",
+      "name": "King Street Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.597702,
+        "lng": -122.329456
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "tukwila-sounder-station",
+      "systemId": "sound-transit",
+      "name": "Tukwila Sounder Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.460199,
+        "lng": -122.24043
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "kent-sounder-station",
+      "systemId": "sound-transit",
+      "name": "Kent Sounder Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.384154,
+        "lng": -122.233033
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "auburn-station",
+      "systemId": "sound-transit",
+      "name": "Auburn Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.306411,
+        "lng": -122.232257
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "sumner-station",
+      "systemId": "sound-transit",
+      "name": "Sumner Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.201287,
+        "lng": -122.244813
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "puyallup-station",
+      "systemId": "sound-transit",
+      "name": "Puyallup Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.192717,
+        "lng": -122.295675
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "tacoma-dome-station",
+      "systemId": "sound-transit",
+      "name": "Tacoma Dome Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.239571,
+        "lng": -122.427024
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "south-tacoma-station",
+      "systemId": "sound-transit",
+      "name": "South Tacoma Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.203491,
+        "lng": -122.485552
+      },
+      "features": ["elevator"]
+    },
+    {
+      "id": "lakewood-station",
+      "systemId": "sound-transit",
+      "name": "Lakewood Station",
+      "lines": ["n-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.153189,
+        "lng": -122.499103
+      },
+      "features": ["elevator"]
+    },
+    {
       "id": "tacoma-dome-t",
       "systemId": "sound-transit",
       "name": "Tacoma Dome",

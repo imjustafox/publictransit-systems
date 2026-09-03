@@ -130,7 +130,6 @@
       "description": "The 4 Line is a planned light rail line in the Sound Transit system."
     },
     "s-line": {
-      "id": "s-line",
       "systemId": "sound-transit",
       "name": "Stride",
       "color": "yellow",
@@ -145,19 +144,11 @@
       "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines."
     },
     "n-line": {
-      "id": "n-line",
-      "systemId": "sound-transit",
       "name": "Sounder",
       "color": "lightblue",
       "colorHex": "#9AB6D3",
-      "status": "disabled",
-      "termini": [],
-      "topology": {
-        "type": "linear"
-      },
-      "length": 0,
-      "stationCount": 0,
-      "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines."
+      "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines.",
+      "status": "disabled"
     }
   },
   "stations": {

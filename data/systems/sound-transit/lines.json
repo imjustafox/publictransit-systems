@@ -1,6 +1,35 @@
 {
   "lines": [
     {
+      "id": "n-line",
+      "systemId": "sound-transit",
+      "name": "Sounder",
+      "color": "lightblue",
+      "colorHex": "#9AB6D3",
+      "status": "disabled",
+      "stations": [
+        "lakewood-station",
+        "south-tacoma-station",
+        "tacoma-dome-station",
+        "puyallup-station",
+        "sumner-station",
+        "auburn-station",
+        "kent-sounder-station",
+        "tukwila-sounder-station",
+        "king-street-station",
+        "everett-station",
+        "mukilteo-station",
+        "edmonds-station"
+      ],
+      "stationCount": 12,
+      "termini": ["Lakewood Station", "King Street Station", "Everett Station"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 47.56,
+      "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines."
+    },
+    {
       "id": "1-line",
       "systemId": "sound-transit",
       "name": "1 Line",
@@ -161,21 +190,6 @@
       "length": 0,
       "stationCount": 0,
       "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines."
-    },
-    {
-      "systemId": "sound-transit",
-      "id": "n-line",
-      "name": "Sounder",
-      "color": "lightblue",
-      "colorHex": "#9AB6D3",
-      "status": "disabled",
-      "termini": [],
-      "topology": {
-        "type": "linear"
-      },
-      "length": 0,
-      "stationCount": 0,
-      "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines."
     }
   ]
 }
