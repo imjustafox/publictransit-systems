@@ -12,6 +12,7 @@ import {
 } from "./geometry";
 import { mergeOverlay, applyOverlayCollection } from "./merge";
 import { applyRouteGroups, ifoptStationId } from "./groups";
+import { extractEntrances } from "./entrances";
 import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
 interface GtfsConfig {
@@ -30,6 +31,7 @@ interface GtfsConfig {
       line_name_source?: "route_short_name" | "route_long_name";
       line_color_fallback?: string;
       stop_grouping?: "parent_station" | "ifopt";
+      entrances?: "gtfs";
     };
   };
 }
@@ -329,6 +331,20 @@ export async function processSystem(
       features: accessible ? ["elevator"] : [],
     });
   }
+  // Optional GTFS-sourced entrances (location_type 2 + pathways accessibility)
+  if (config.static.fields?.entrances === "gtfs") {
+    const nameByCanonical = new Map(stops.map((s) => [s.stop_id, s.stop_name]));
+    const entrancesByStation = extractEntrances(gtfs.stops, gtfs.pathways, canonical, (cid) =>
+      nameByCanonical.get(cid)
+    );
+    for (const [cid, entrances] of entrancesByStation) {
+      const slug = idMap.stations[cid];
+      if (!slug) continue;
+      const station = baseBySlug.get(slug);
+      if (station) station.entrances = entrances;
+    }
+  }
+
   const baseStations: Plain[] = [...baseBySlug.values()];
 
   // Load + apply overlay

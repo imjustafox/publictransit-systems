@@ -45,12 +45,20 @@ export interface GtfsShapePoint {
   shape_pt_sequence: number;
 }
 
+export interface GtfsPathway {
+  pathway_id: string;
+  from_stop_id: string;
+  to_stop_id: string;
+  pathway_mode: number;
+}
+
 export interface GtfsBundle {
   routes: GtfsRoute[];
   stops: GtfsStop[];
   trips: GtfsTrip[];
   stopTimesByTrip: Map<string, GtfsStopTime[]>;
   shapesByShapeId: Map<string, GtfsShapePoint[]>;
+  pathways: GtfsPathway[];
 }
 
 const REQUIRED_FILES = ["stops.txt", "routes.txt", "trips.txt", "stop_times.txt"];
@@ -86,6 +94,7 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
   const tripsCsv = await readFile(zip, "trips.txt", true);
   const stopTimesCsv = await readFile(zip, "stop_times.txt", true);
   const shapesCsv = await readFile(zip, "shapes.txt", false);
+  const pathwaysCsv = await readFile(zip, "pathways.txt", false);
 
   const routes: GtfsRoute[] = parseCsv(routesCsv!, (row) => ({
     route_id: row.route_id,
@@ -162,5 +171,19 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
     }
   }
 
-  return { routes, stops, trips, stopTimesByTrip, shapesByShapeId };
+  return {
+    routes,
+    stops,
+    trips,
+    stopTimesByTrip,
+    shapesByShapeId,
+    pathways: pathwaysCsv
+      ? parseCsv(pathwaysCsv, (row) => ({
+          pathway_id: row.pathway_id,
+          from_stop_id: row.from_stop_id,
+          to_stop_id: row.to_stop_id,
+          pathway_mode: parseInt(row.pathway_mode, 10),
+        }))
+      : [],
+  };
 }

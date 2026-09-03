@@ -1,7 +1,11 @@
 {
   "static": {
     "url_secret": "WMATA_GTFS_URL",
-    "auth": { "type": "header", "header": "api_key", "value_secret": "WMATA_API_KEY" },
+    "auth": {
+      "type": "header",
+      "header": "api_key",
+      "value_secret": "WMATA_API_KEY"
+    },
     "route_groups": {
       "red": ["RED"],
       "blue": ["BLUE"],
@@ -14,7 +18,8 @@
       "route_ids_exclude": ["SHUTTLE"]
     },
     "fields": {
-      "line_name_source": "route_short_name"
+      "line_name_source": "route_short_name",
+      "entrances": "gtfs"
     }
   }
 }
