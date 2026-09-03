@@ -95,6 +95,7 @@ export interface Station {
   status: StationStatus;
   closedDate?: string;
   coordinates?: Coordinates;
+  wikipedia?: string;
   address?: string;
   features: string[];
   description?: string;

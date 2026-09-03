@@ -1,0 +1,80 @@
+{
+  "id": "rtd-denver",
+  "name": "Regional Transportation District",
+  "shortName": "RTD",
+  "location": "Denver, CO",
+  "region": "Denver Metro Area",
+  "country": "United States",
+  "opened": "1994-10-07",
+  "website": "https://www.rtd-denver.com",
+  "overview": "The Regional Transportation District is a regional public transit agency operating bus, light rail, and commuter rail services across the Front Range from Lone Tree in the south to Longmont in the north.",
+  "stats": {
+    "totalStations": 77,
+    "totalLines": 12,
+    "annualRidership": "19.2 million",
+    "dailyRidership": "74,900",
+    "trackLength": 113.1,
+    "distanceUnit": "mi"
+  },
+  "colors": {
+    "primary": "#CE0E2D",
+    "secondary": "#F6871F"
+  },
+  "history": [
+    {
+      "date": "1969",
+      "title": "RTD Founded",
+      "description": "The Regional Transportation District was founded in 1969 and was entirely bus-focused."
+    },
+    {
+      "date": "1994-10-07",
+      "title": "Central Corridor Opens",
+      "description": "The Central Corridor, now the D Line, opened as RTD's first rail line, operating between 30th & Downing and I-25 / Broadway Stations."
+    },
+    {
+      "date": "2000-07-14",
+      "title": "Southwest Corridor Extension",
+      "description": "The Southwest Corridor Extension created a new line that stretched from I-25 / Broadway Station to Mineral Avenue Station."
+    },
+    {
+      "date": "2002-04-05",
+      "title": "Central Platte Valley Extension",
+      "description": "The Central Platte Valley extension created a new C Line that connected Union Station to I-25 / Broadway Station."
+    },
+    {
+      "date": "2006-11-17",
+      "title": "Southeast Corridor Extension",
+      "description": "The Southeast Corridor extension created a new E Line from Union Station to Lincoln Station, an F Line from 18th & California to Lincoln Station, and an H Line from 18th & California to Nine Mile Station."
+    },
+    {
+      "date": "2013-04-26",
+      "title": "West Rail Line Opens",
+      "description": "The West Line, now called the W Line, was a new rail line from Jefferson County Government Center/Golden Station to Auraria West Station, continuing along existing track to Union Station. It was the first line opened under RTD's FasTracks program, which voters approved in 2004."
+    },
+    {
+      "date": "2016-04-22",
+      "title": "A Line Opens",
+      "description": "The second part of the Eagle P3 program, the B Line is a commuter rail line that runs from Union Station north to Westminster Station."
+    },
+    {
+      "date": "2016-07-15",
+      "title": "B Line Opens",
+      "description": "The R Line runs from Peoria Station to Lincoln Station, completing a loop with the A and D Lines."
+    },
+    {
+      "date": "2017-02-24",
+      "title": "Downtown Loop Opens",
+      "description": "RTD opened the Downtown loop, beginning with the L Line, to serve downtown Denver. The loop runs from 16th Street to 30th & Downing Station."
+    },
+    {
+      "date": "2018-01",
+      "title": "Downtown Loop Opens",
+      "description": "RTD Opened the downtown loop, starting with the L Line, to serve an area downtown. The loop serves from 16th Street to 30th/Downing Station."
+    },
+    {
+      "date": "2019-04-26",
+      "title": "G Line Opens",
+      "description": "The G line is the final part of the Eagle P3 program, connecting Union Station to Arvada and Wheat Ridge, terminating at Wheat Ridge/Ward Station."
+    }
+  ]
+}
