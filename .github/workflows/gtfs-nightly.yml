@@ -35,11 +35,7 @@ jobs:
           WMATA_GTFS_URL: ${{ secrets.WMATA_GTFS_URL }}
           WMATA_API_KEY: ${{ secrets.WMATA_API_KEY }}
           NYC_SUBWAY_GTFS_URL: ${{ secrets.NYC_SUBWAY_GTFS_URL }}
-          # STUTTGART_GTFS_URL is deliberately absent: the gtfs.de source is a
-          # Germany-wide feed (2GB of stop_times) that the in-memory parser
-          # can't chew in CI. A missing secret makes the processor skip the
-          # system cleanly, so Stuttgart stays a manual local refresh until the
-          # parser streams or a pre-filtered feed exists.
+          STUTTGART_GTFS_URL: ${{ secrets.STUTTGART_GTFS_URL }}
         run: pnpm run build:gtfs
 
       - name: Format refreshed data

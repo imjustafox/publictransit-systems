@@ -142,174 +142,1541 @@
       "name": "U1",
       "color": "sandy-brown",
       "colorHex": "#ca9461",
-      "opened": "1986-04-19",
       "description": "One of the busiest longitudinal lines, the U1 runs from Fellbach Lutherkirche in the east via Bad Cannstatt through the inner-city loop (Charlottenplatz – Marienplatz – Rotebühlplatz) to Heslach Vogelrain in the south. Since the December 2023 Network 2024 reshuffle, it uses the loop rather than running directly via Hauptbahnhof, and is being progressively upgraded for 80 m double-set operation.",
-      "abbreviation": "U1",
-      "termini": ["Fellbach Lutherkirche", "Heslach Vogelrain"],
-      "length": 22.1
-    },
-    "u2": {
-      "name": "U2",
-      "color": "orange",
-      "colorHex": "#f37014",
-      "opened": "2002-06-22",
-      "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Rotebühlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
-      "abbreviation": "U2",
-      "termini": ["Neugereut", "Botnang"],
-      "length": 20.8
-    },
-    "u3": {
-      "name": "U3",
-      "color": "dark-brown",
-      "colorHex": "#8a5738",
-      "opened": "1985-09-28",
-      "description": "The U3 is a short tangential line linking the southern suburb of Plieningen with the major interchange at Vaihingen Bahnhof via Möhringen. It runs entirely on the surface, does not serve the city-centre tunnel, and was the very first line to enter full Stadtbahn operation on 28 September 1985. It provides a direct connection to the S-Bahn at Vaihingen without requiring a city-centre change.",
-      "abbreviation": "U3",
-      "termini": ["Plieningen", "Vaihingen Bahnhof"],
-      "length": 5.8
-    },
-    "u4": {
-      "name": "U4",
-      "color": "violet",
-      "colorHex": "#7559b0",
-      "opened": "1994-09-24",
-      "description": "The U4 is a longitudinal valley line connecting Untertürkheim Bahnhof in the Neckar valley east with Hölderlinplatz in the north, via Ostendplatz, Neckartor, Charlottenplatz, and Rotebühlplatz. It provides S-Bahn interchange at Untertürkheim and runs through the Neckar valley on the surface before entering the city-centre tunnel.",
-      "abbreviation": "U4",
-      "termini": ["Untertürkheim Bahnhof", "Hölderlinplatz"],
-      "length": 14.7
-    },
-    "u5": {
-      "name": "U5",
-      "color": "sky-blue",
-      "colorHex": "#33bdf0",
-      "opened": "1990-11-03",
-      "description": "The U5 is a cross-valley line running from Killesberg in the north through Hauptbahnhof and the city-centre tunnel to Degerloch, Möhringen, and Leinfelden Bahnhof at the southern edge of the network, with S-Bahn interchange at Hauptbahnhof and Leinfelden. Unlike most other lines, the U5 operates every 20 minutes rather than the standard 10-minute headway.",
-      "abbreviation": "U5",
-      "termini": ["Killesberg", "Leinfelden Bahnhof"],
-      "length": 18.1
-    },
-    "u6": {
-      "name": "U6",
-      "color": "hot-pink",
-      "colorHex": "#eb008a",
-      "opened": "1990-11-03",
-      "description": "The U6 is the longest line in the network, crossing the entire city from Gerlingen in the west via Giebel, Feuerbach, Pragsattel, Hauptbahnhof, Charlottenplatz, Degerloch, and Möhringen, continuing south through Fasanenhof to Stuttgart Airport and the trade fair (Messe/Flughafen), which it has served since December 2021. It operates as an 80 m double set during weekday daytime hours and is the principal Stadtbahn connection to the airport.",
-      "abbreviation": "U6",
-      "termini": ["Gerlingen", "Messe/Flughafen"],
-      "length": 34.2
-    },
-    "u7": {
-      "name": "U7",
-      "color": "mint-green",
-      "colorHex": "#33b887",
-      "opened": "1993-04-19",
-      "description": "The U7 is one of the longest lines, running from Mönchfeld in the northeast via Zuffenhausen and Pragsattel through the city-centre tunnel to Ruhbank (Fernsehturm), then southeast through Heumaden to Ostfildern. It operates as an 80 m double set during weekday daytime hours, providing high-capacity service on the busy Pragsattel–Hauptbahnhof corridor shared with several other lines.",
-      "abbreviation": "U7",
-      "termini": ["Mönchfeld", "Ostfildern"],
-      "length": 25.4
-    },
-    "u8": {
-      "name": "U8",
-      "color": "khaki",
-      "colorHex": "#bab361",
-      "opened": "2000-09-09",
-      "description": "The U8 is a limited-hours cross-valley line running Monday to Friday (approximately 05:30–20:00) between Vaihingen Bahnhof in the southwest and Ostfildern in the southeast, via Möhringen, Degerloch, Ruhbank (Fernsehturm), and Heumaden. It supplements the U7 on the shared southeastern section and increases frequency on the Vaihingen–Möhringen corridor during afternoon peak hours.",
-      "abbreviation": "U8",
-      "termini": ["Vaihingen Bahnhof", "Ostfildern"],
-      "length": 19.5
-    },
-    "u9": {
-      "name": "U9",
-      "color": "yellow",
-      "colorHex": "#fad105",
-      "opened": "1989-09-30",
-      "description": "The U9 links Hedelfingen in the Neckar valley east with Vogelsang in the west, passing through Raitelsberg and the underground city-centre at Charlottenplatz. During school-day peak hours the line extends further west to Botnang. It provides interchange at multiple stops and serves the eastern Neckar valley neighbourhoods along its route.",
-      "abbreviation": "U9",
-      "termini": ["Hedelfingen", "Vogelsang"],
-      "length": 14.5
-    },
-    "u11": {
-      "systemId": "stuttgart-light-rail",
-      "name": "U11",
-      "color": "gray",
-      "colorHex": "#8f8f8f",
-      "opened": "1994-01-01",
-      "status": "active",
-      "termini": ["Hauptbahnhof", "Neckarpark (Stadion)"],
-      "length": 7.5,
-      "stationCount": 13,
-      "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Rotebühlplatz – Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
-      "topology": {
-        "type": "linear"
-      },
-      "abbreviation": "U11"
+      "opened": "1986-04-19",
+      "abbreviation": "U1"
     },
     "u12": {
       "name": "U12",
       "color": "light-blue",
       "colorHex": "#8cbde8",
-      "opened": "2013-09-14",
       "description": "The U12 is one of the longest and most recently completed lines, running from Remseck am Neckar (Neckargröningen) in the northeast via Hallschlag, Nordbahnhof, Hauptbahnhof, and the Europaviertel tunnel south through the city centre to Charlottenplatz, Degerloch, Möhringen, and Dürrlewang. It operates as an 80 m double set during weekday daytime hours and was progressively extended between 2013 and 2017.",
-      "abbreviation": "U12",
-      "termini": ["Remseck am Neckar", "Dürrlewang"],
-      "length": 30.8
+      "opened": "2013-09-14",
+      "abbreviation": "U12"
     },
     "u13": {
       "name": "U13",
       "color": "light-pink",
       "colorHex": "#f587b3",
-      "opened": "1997-09-13",
       "description": "The U13 is a tangential line connecting Feuerbach in the northwest with Hedelfingen in the Neckar valley east, via Pragsattel, Löwentor, Wilhelma, Bad Cannstatt, and Untertürkheim. During school-day peak hours the service extends west from Feuerbach to Giebel. Since the introduction of U16 in 2018, the standard non-peak western terminus is Feuerbach Pfostenwäldle.",
-      "abbreviation": "U13",
-      "termini": ["Feuerbach", "Hedelfingen"],
-      "length": 17.6
+      "opened": "1997-09-13",
+      "abbreviation": "U13"
     },
     "u14": {
       "name": "U14",
       "color": "green",
       "colorHex": "#5ec23f",
-      "opened": "1986-07-12",
       "description": "The U14 is a long north-south line running from Mühlhausen in the far north via Münster and Charlottenplatz through the city-centre tunnel to Heslach Vogelrain and Vaihingen Bahnhof in the south. Since the December 2023 Network 2024 reshuffle, U14 uses the direct Charlottenplatz route (swapping the inner-city loop role with U1); the former Remseck branch is now served entirely by U12.",
-      "abbreviation": "U14",
-      "termini": ["Mühlhausen", "Vaihingen Bahnhof"],
-      "length": 24.6
+      "opened": "1986-07-12",
+      "abbreviation": "U14"
     },
     "u15": {
       "name": "U15",
       "color": "dark-blue",
       "colorHex": "#1e54ae",
-      "opened": "2007-12-08",
       "description": "The U15 was the last tram line in Stuttgart to be converted to Stadtbahn standard gauge, completed in phases between 2007 and December 2011 when the full current route from Stammheim to Ruhbank (Fernsehturm) was established. It passes through Zuffenhausen and Pragsattel, traverses the underground city-centre trunk, and climbs the Olgaeck–Ruhbank gradient — the steepest standard-gauge adhesion track in Europe used by regular public transport. Outside school hours the line runs only between Stammheim and Ruhbank.",
-      "abbreviation": "U15",
-      "termini": ["Stammheim", "Ruhbank (Fernsehturm)"],
-      "length": 16.3
+      "opened": "2007-12-08",
+      "abbreviation": "U15"
     },
     "u16": {
       "name": "U16",
       "color": "yellow-green",
       "colorHex": "#babf17",
-      "opened": "2018-12-09",
       "description": "The U16 is a peak-hour reinforcement line operating Monday to Friday, running from Giebel in the west via Feuerbach, Pragsattel, Löwentor, Wilhelma, and Bad Cannstatt to Fellbach Lutherkirche in the east. Introduced in December 2018, it provides additional capacity on the heavily used Feuerbach–Bad Cannstatt–Fellbach corridor and relieved the U1 pending its ongoing platform-extension upgrades for 80 m trains.",
-      "abbreviation": "U16",
-      "termini": ["Giebel", "Fellbach Lutherkirche"],
-      "length": 21.3
+      "opened": "2018-12-09",
+      "abbreviation": "U16"
     },
     "u19": {
       "name": "U19",
       "color": "amber",
       "colorHex": "#f8b00a",
-      "opened": "2017-10-16",
       "description": "The U19 is a weekday supplementary line running between Neugereut and Neckarpark (Stadion) via Bad Cannstatt, reinforcing frequency on the busy U2 corridor to approximately every five minutes during operating hours. It runs Monday to Friday (with reduced service during school holidays) and also provides additional capacity during smaller events at the Neckarpark sports ground. It began scheduled operations on 16 October 2017.",
-      "abbreviation": "U19",
-      "termini": ["Neugereut", "Neckarpark (Stadion)"],
-      "length": 7.2
+      "opened": "2017-10-16",
+      "abbreviation": "U19"
+    },
+    "u2": {
+      "name": "U2",
+      "color": "orange",
+      "colorHex": "#f37014",
+      "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Rotebühlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
+      "opened": "2002-06-22",
+      "abbreviation": "U2"
+    },
+    "u3": {
+      "name": "U3",
+      "color": "dark-brown",
+      "colorHex": "#8a5738",
+      "description": "The U3 is a short tangential line linking the southern suburb of Plieningen with the major interchange at Vaihingen Bahnhof via Möhringen. It runs entirely on the surface, does not serve the city-centre tunnel, and was the very first line to enter full Stadtbahn operation on 28 September 1985. It provides a direct connection to the S-Bahn at Vaihingen without requiring a city-centre change.",
+      "opened": "1985-09-28",
+      "abbreviation": "U3"
+    },
+    "u4": {
+      "name": "U4",
+      "color": "violet",
+      "colorHex": "#7559b0",
+      "description": "The U4 is a longitudinal valley line connecting Untertürkheim Bahnhof in the Neckar valley east with Hölderlinplatz in the north, via Ostendplatz, Neckartor, Charlottenplatz, and Rotebühlplatz. It provides S-Bahn interchange at Untertürkheim and runs through the Neckar valley on the surface before entering the city-centre tunnel.",
+      "opened": "1994-09-24",
+      "abbreviation": "U4"
+    },
+    "u5": {
+      "name": "U5",
+      "color": "sky-blue",
+      "colorHex": "#33bdf0",
+      "description": "The U5 is a cross-valley line running from Killesberg in the north through Hauptbahnhof and the city-centre tunnel to Degerloch, Möhringen, and Leinfelden Bahnhof at the southern edge of the network, with S-Bahn interchange at Hauptbahnhof and Leinfelden. Unlike most other lines, the U5 operates every 20 minutes rather than the standard 10-minute headway.",
+      "opened": "1990-11-03",
+      "abbreviation": "U5"
+    },
+    "u6": {
+      "name": "U6",
+      "color": "hot-pink",
+      "colorHex": "#eb008a",
+      "description": "The U6 is the longest line in the network, crossing the entire city from Gerlingen in the west via Giebel, Feuerbach, Pragsattel, Hauptbahnhof, Charlottenplatz, Degerloch, and Möhringen, continuing south through Fasanenhof to Stuttgart Airport and the trade fair (Messe/Flughafen), which it has served since December 2021. It operates as an 80 m double set during weekday daytime hours and is the principal Stadtbahn connection to the airport.",
+      "opened": "1990-11-03",
+      "abbreviation": "U6"
+    },
+    "u7": {
+      "name": "U7",
+      "color": "mint-green",
+      "colorHex": "#33b887",
+      "description": "The U7 is one of the longest lines, running from Mönchfeld in the northeast via Zuffenhausen and Pragsattel through the city-centre tunnel to Ruhbank (Fernsehturm), then southeast through Heumaden to Ostfildern. It operates as an 80 m double set during weekday daytime hours, providing high-capacity service on the busy Pragsattel–Hauptbahnhof corridor shared with several other lines.",
+      "opened": "1993-04-19",
+      "abbreviation": "U7"
+    },
+    "u8": {
+      "name": "U8",
+      "color": "khaki",
+      "colorHex": "#bab361",
+      "description": "The U8 is a limited-hours cross-valley line running Monday to Friday (approximately 05:30–20:00) between Vaihingen Bahnhof in the southwest and Ostfildern in the southeast, via Möhringen, Degerloch, Ruhbank (Fernsehturm), and Heumaden. It supplements the U7 on the shared southeastern section and increases frequency on the Vaihingen–Möhringen corridor during afternoon peak hours.",
+      "opened": "2000-09-09",
+      "abbreviation": "U8"
+    },
+    "u9": {
+      "name": "U9",
+      "color": "yellow",
+      "colorHex": "#fad105",
+      "description": "The U9 links Hedelfingen in the Neckar valley east with Vogelsang in the west, passing through Raitelsberg and the underground city-centre at Charlottenplatz. During school-day peak hours the line extends further west to Botnang. It provides interchange at multiple stops and serves the eastern Neckar valley neighbourhoods along its route.",
+      "opened": "1989-09-30",
+      "abbreviation": "U9"
+    },
+    "u11": {
+      "name": "U11",
+      "color": "gray",
+      "colorHex": "#8f8f8f",
+      "opened": "1994-01-01",
+      "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Rotebühlplatz – Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
+      "abbreviation": "U11"
     }
   },
   "stations": {
+    "gnesener-strasse": {
+      "name": "Gnesener Straße",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 738900600
+    },
+    "raitelsberg": {
+      "name": "Raitelsberg",
+      "features": ["fare-vending"],
+      "osmId": 89417460
+    },
+    "sportpark-feuerbach": {
+      "name": "Sportpark Feuerbach",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 717575294
+    },
+    "borsigstrasse": {
+      "name": "Borsigstraße",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 33327551
+    },
+    "sonnenberg": {
+      "name": "Sonnenberg",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 13355377
+    },
+    "fellbach-lutherkirche": {
+      "name": "Fellbach Lutherkirche",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632840
+    },
+    "ruit-zinsholz": {
+      "name": "Ruit Zinsholz",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 270599198
+    },
+    "brendle": {
+      "name": "Brendle (Großmarkt)",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26407020
+    },
+    "schlachthof": {
+      "name": "Schlachthof",
+      "features": ["fare-vending"],
+      "osmId": 94849768
+    },
+    "payerstrasse": {
+      "name": "Payerstraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 87388046
+    },
+    "eltinger-strasse": {
+      "name": "Eltinger Straße",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 259711280
+    },
+    "schloss-johannesstrasse": {
+      "name": "Schloss-/Johannesstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 31127214
+    },
+    "europaplatz": {
+      "name": "Europaplatz",
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 263250079
+    },
+    "gaisburg": {
+      "name": "Gaisburg",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 417674796
+    },
+    "marienplatz": {
+      "name": "Marienplatz",
+      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 69463507,
+      "entrances": [
+        {
+          "id": "osm-278819196",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.7643403,
+            "lng": 9.1684559
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3431207862",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.764413,
+            "lng": 9.1679957
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1286387402",
+          "name": "Marienplatz",
+          "coordinates": {
+            "lat": 48.7642452,
+            "lng": 9.1685214
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "leinfelden-bahnhof": {
+      "name": "Leinfelden Bahnhof",
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 3738199384
+    },
+    "bergheimer-hof": {
+      "name": "Bergheimer Hof",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 255030848
+    },
+    "stadtwerke-stuttgart": {
+      "name": "Stadtwerke Stuttgart",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26407025
+    },
+    "rastatter-strasse": {
+      "name": "Rastatter Straße",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26405805
+    },
+    "vaihingen-schillerplatz": {
+      "name": "Vaihingen Schillerplatz",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 332621606
+    },
+    "stadtbibliothek": {
+      "name": "Stadtbibliothek",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 33327666,
+      "entrances": [
+        {
+          "id": "osm-425530634",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.790829,
+            "lng": 9.1806633
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-443132352",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.790209,
+            "lng": 9.1807551
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2907106469",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7905392,
+            "lng": 9.180528
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3377834929",
+          "name": "Eingang 4",
+          "coordinates": {
+            "lat": 48.7907956,
+            "lng": 9.1808719
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "bad-cannstatt-wilhelmsplatz": {
+      "name": "Bad Cannstatt Wilhelmsplatz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 137321726
+    },
+    "remseck-neckargroeningen": {
+      "name": "Remseck Neckargröningen",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 18353190
+    },
+    "degerloch": {
+      "name": "Degerloch",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20970570,
+      "entrances": [
+        {
+          "id": "osm-405589625",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.748473,
+            "lng": 9.167888
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-247693903",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7490455,
+            "lng": 9.1694659
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-247693904",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7492646,
+            "lng": 9.1691988
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "russische-kirche": {
+      "name": "Russische Kirche",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 60399595
+    },
+    "plieningen": {
+      "name": "Plieningen",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1745866243
+    },
+    "degerloch-albstrasse": {
+      "name": "Degerloch Albstraße",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 439664668
+    },
+    "cannstatter-wasen": {
+      "name": "Cannstatter Wasen",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21097477
+    },
+    "engelboldstrasse": {
+      "name": "Engelboldstraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34578825
+    },
+    "fuerfelder-strasse": {
+      "name": "Fürfelder Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407047
+    },
+    "stelle": {
+      "name": "Stelle",
+      "features": ["fare-vending"],
+      "osmId": 279898521
+    },
+    "nuernberger-strasse": {
+      "name": "Nürnberger Straße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 600447956
+    },
+    "loewentorbruecke": {
+      "name": "Löwentorbrücke",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 38901889
+    },
+    "antwerpener-strasse": {
+      "name": "Antwerpener Straße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 10798221
+    },
+    "ruit": {
+      "name": "Ruit",
+      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 113591455,
+      "entrances": [
+        {
+          "id": "osm-263806052",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7310826,
+            "lng": 9.2535796
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-5541970271",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7312905,
+            "lng": 9.2532278
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4379712492",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7309663,
+            "lng": 9.253699
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-5541970270",
+          "name": "Ruit",
+          "coordinates": {
+            "lat": 48.7307237,
+            "lng": 9.2542174
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    "waldeck": {
+      "name": "Waldeck",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34580092
+    },
+    "elbestrasse": {
+      "name": "Elbestraße",
+      "features": ["fare-vending"],
+      "osmId": 18353056
+    },
+    "wagrainaecker": {
+      "name": "Wagrainäcker",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 246282061
+    },
+    "eszet": {
+      "name": "Eszet",
+      "features": ["fare-vending"],
+      "osmId": 26407034
+    },
+    "korntaler-strasse": {
+      "name": "Korntaler Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1541057204
+    },
+    "himmelsleiter": {
+      "name": "Himmelsleiter",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407044
+    },
+    "landhaus": {
+      "name": "Landhaus",
+      "features": ["fare-vending"],
+      "osmId": 9936190
+    },
+    "augsburger-platz": {
+      "name": "Augsburger Platz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 600573126
+    },
+    "berliner-platz": {
+      "name": "Berliner Platz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 273102152
+    },
+    "ruhbank": {
+      "name": "Ruhbank (Fernsehturm)",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 675759
+    },
+    "messe-west": {
+      "name": "Messe West",
+      "features": ["fare-vending"],
+      "osmId": 9330061520
+    },
+    "salzaecker": {
+      "name": "Salzäcker",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 9936191
+    },
+    "wolfbusch": {
+      "name": "Wolfbusch",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 282943399
+    },
+    "rotebuehlplatz": {
+      "name": "Rotebühlplatz",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 78679799,
+      "entrances": [
+        {
+          "id": "osm-647308536",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7748116,
+            "lng": 9.1710178
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-647308545",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7751405,
+            "lng": 9.1722068
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-1621863003",
+          "name": "Rotebühlplatz (Stadtmitte)",
+          "coordinates": {
+            "lat": 48.7738077,
+            "lng": 9.1739115
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1621899309",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7749218,
+            "lng": 9.1711164
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-1989724631",
+          "name": "Rotebühlplatz (Stadtmitte)",
+          "coordinates": {
+            "lat": 48.773813,
+            "lng": 9.1745094
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3034475420",
+          "name": "Rotebühlplatz (Stadtmitte)",
+          "coordinates": {
+            "lat": 48.7740125,
+            "lng": 9.1741788
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3034475421",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7744821,
+            "lng": 9.1717517
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3034475422",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7747041,
+            "lng": 9.1720933
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3034475423",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.774836,
+            "lng": 9.1722584
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-3657852735",
+          "name": "Rotebühlplatz",
+          "coordinates": {
+            "lat": 48.7755541,
+            "lng": 9.1712823
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "rosensteinpark": {
+      "name": "Rosensteinpark",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 726509486
+    },
+    "waldau": {
+      "name": "Waldau",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 675756
+    },
+    "hoelderlinplatz": {
+      "name": "Hölderlinplatz",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 278490359
+    },
+    "duerrlewang": {
+      "name": "Dürrlewang",
+      "features": ["fare-vending"],
+      "osmId": 3510348490
+    },
+    "moehringen-bahnhof": {
+      "name": "Möhringen Bahnhof",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9936541
+    },
+    "aldingen-muehle": {
+      "name": "Aldingen Mühle",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 18353128
+    },
+    "suedheimer-platz": {
+      "name": "Südheimer Platz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 34580107
+    },
+    "nellingen-ostfildern": {
+      "name": "Nellingen Ostfildern",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 253915614
+    },
+    "scharnhauser-park-kreuzbrunnen": {
+      "name": "Scharnhauser Park Kreuzbrunnen",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 66828113
+    },
+    "leinf-unteraichen": {
+      "name": "Leinf. Unteraichen",
+      "features": ["fare-vending"],
+      "osmId": 332616566
+    },
+    "vaihingen": {
+      "name": "Vaihingen",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9995173
+    },
+    "lindpaintnerstrasse": {
+      "name": "Lindpaintnerstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21286549
+    },
+    "wangen-marktplatz": {
+      "name": "Wangen Marktplatz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407024
+    },
+    "lapp-kabel": {
+      "name": "Lapp Kabel",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3512202176
+    },
+    "hallschlag": {
+      "name": "Hallschlag",
+      "features": ["fare-vending"],
+      "osmId": 2457943460
+    },
+    "weinsteige": {
+      "name": "Weinsteige",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 498454608
+    },
+    "dobelstrasse": {
+      "name": "Dobelstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20968183
+    },
+    "metzstrasse": {
+      "name": "Metzstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20982241
+    },
+    "kaltental": {
+      "name": "Kaltental",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34580083
+    },
+    "boersenplatz": {
+      "name": "Börsenplatz",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 2145685316,
+      "entrances": [
+        {
+          "id": "osm-320286171",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7804733,
+            "lng": 9.176067
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-418324761",
+          "name": "Börsenplatz (L-Bank)",
+          "coordinates": {
+            "lat": 48.7801649,
+            "lng": 9.1772162
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582340",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7785931,
+            "lng": 9.1783197
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582342",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7791984,
+            "lng": 9.1791684
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582347",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7809994,
+            "lng": 9.1762302
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2145685310",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7798416,
+            "lng": 9.1758929
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2145685315",
+          "name": "Friedrichsbau (Börse)",
+          "coordinates": {
+            "lat": 48.7799814,
+            "lng": 9.1755273
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "peregrinastrasse": {
+      "name": "Peregrinastraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 13355384
+    },
+    "flughafen-messe": {
+      "name": "Flughafen/Messe",
+      "features": ["elevator", "fare-vending"],
+      "osmId": 9330061530
+    },
+    "plieninger-strasse": {
+      "name": "Plieninger Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 9936195
+    },
+    "silberwald": {
+      "name": "Silberwald",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407070
+    },
+    "fasanenhof": {
+      "name": "Fasanenhof (Bonhoefferkirche)",
+      "features": ["fare-vending"],
+      "osmId": 662424904
+    },
+    "muehlsteg": {
+      "name": "Mühlsteg",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26632799
+    },
+    "zuffenhausen-rathaus": {
+      "name": "Zuffenhausen Rathaus",
+      "features": ["fare-vending"],
+      "osmId": 1540261524
+    },
+    "ssb-zentrum": {
+      "name": "SSB-Zentrum",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9994979
+    },
+    "muenster-rathaus": {
+      "name": "Münster Rathaus",
+      "features": ["fare-vending"],
+      "osmId": 743056123
+    },
+    "bopser": {
+      "name": "Bopser",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 280139053
+    },
+    "riethmuellerhaus": {
+      "name": "Riethmüllerhaus",
+      "features": ["fare-vending"],
+      "osmId": 1485637818
+    },
+    "uff-kirchhof": {
+      "name": "Uff-Kirchhof",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 722970518
+    },
+    "tapachstrasse": {
+      "name": "Tapachstraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407045
+    },
+    "salzwiesenstrasse": {
+      "name": "Salzwiesenstraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1540266132
+    },
+    "mercedesstrasse": {
+      "name": "Mercedesstraße",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 21097466
+    },
+    "moenchfeld": {
+      "name": "Mönchfeld",
+      "features": ["fare-vending"],
+      "osmId": 26407041
+    },
+    "bihlplatz": {
+      "name": "Bihlplatz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 443826010
+    },
+    "hedelfingen": {
+      "name": "Hedelfingen",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 279930071
+    },
+    "herderplatz": {
+      "name": "Herderplatz",
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 21288473
+    },
+    "max-eyth-see": {
+      "name": "Max-Eyth-See",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20283010
+    },
+    "rohrer-weg": {
+      "name": "Rohrer Weg",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26240181
+    },
+    "heslach-vogelrain": {
+      "name": "Heslach Vogelrain",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 298691598
+    },
+    "stoeckach": {
+      "name": "Stöckach",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 303028845
+    },
+    "im-degen": {
+      "name": "Im Degen",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632844
+    },
+    "kraftwerk-muenster": {
+      "name": "Kraftwerk Münster",
+      "features": ["fare-vending"],
+      "osmId": 18353042
+    },
+    "vaihinger-strasse": {
+      "name": "Vaihinger Straße",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9994951
+    },
+    "hoehenstrasse": {
+      "name": "Höhenstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 10798156
+    },
+    "aldingen-hornbach": {
+      "name": "Aldingen Hornbach",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 18353124
+    },
+    "fauststrasse": {
+      "name": "Fauststraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 34578810
+    },
+    "schemppstrasse": {
+      "name": "Schemppstraße",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 274246540,
+      "entrances": [
+        {
+          "id": "osm-792090137",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.7408961,
+            "lng": 9.2193112
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-879330331",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7415862,
+            "lng": 9.218247
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "vogelsang": {
+      "name": "Vogelsang",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21288478
+    },
+    "jurastrasse": {
+      "name": "Jurastraße",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9995142
+    },
+    "scharnhauser-park": {
+      "name": "Scharnhauser Park",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 66828122
+    },
+    "eugensplatz": {
+      "name": "Eugensplatz",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3224912063
+    },
+    "zuericher-strasse": {
+      "name": "Züricher Straße",
+      "features": ["fare-vending"],
+      "osmId": 2457943479
+    },
+    "bottroper-strasse": {
+      "name": "Bottroper Straße",
+      "features": ["elevator", "fare-vending"],
+      "osmId": 2457964058
+    },
+    "neckartor": {
+      "name": "Neckartor",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20956735,
+      "entrances": [
+        {
+          "id": "osm-255579046",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.7859808,
+            "lng": 9.1903802
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-255579107",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7863523,
+            "lng": 9.1903146
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-455444693",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7861728,
+            "lng": 9.1896239
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-10879795518",
+          "name": "Eingang 4",
+          "coordinates": {
+            "lat": 48.786353,
+            "lng": 9.1901404
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    "leinfelden-neuer-markt": {
+      "name": "Leinfelden Neuer Markt (EUCHNER)",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 12250522542
+    },
+    "schlotterbeckstrasse": {
+      "name": "Schlotterbeckstraße",
+      "features": ["fare-vending"],
+      "osmId": 26407033
+    },
+    "aldingen-brueckenstrasse": {
+      "name": "Aldingen Brückenstraße",
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 267174590
+    },
+    "landauer-strasse": {
+      "name": "Landauer Straße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405931
+    },
+    "schelmenwasen": {
+      "name": "Schelmenwasen",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 662446225
+    },
+    "feuerbach-pfostenwaeldle": {
+      "name": "Feuerbach Pfostenwäldle",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405936
+    },
+    "rosensteinbruecke": {
+      "name": "Rosensteinbrücke",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26782694
+    },
+    "olgaeck": {
+      "name": "Olgaeck",
+      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 662855510,
+      "entrances": [
+        {
+          "id": "osm-482498154",
+          "name": "Charlottenplatz",
+          "coordinates": {
+            "lat": 48.7752732,
+            "lng": 9.1833534
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    "milloeckerstrasse": {
+      "name": "Millöckerstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21281027
+    },
+    "neugereut": {
+      "name": "Neugereut",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 738900577
+    },
+    "oesterreichischer-platz": {
+      "name": "Österreichischer Platz",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 281150040,
+      "entrances": [
+        {
+          "id": "osm-303808198",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.7702457,
+            "lng": 9.1747018
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1686344723",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.7697675,
+            "lng": 9.1751287
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-4291725891",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.7699804,
+            "lng": 9.1754545
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-5728713298",
+          "name": "Eingang 4",
+          "coordinates": {
+            "lat": 48.7711414,
+            "lng": 9.1764985
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    "staatsgalerie": {
+      "name": "Staatsgalerie",
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 9775743219
+    },
+    "stafflenbergstrasse": {
+      "name": "Stafflenbergstraße",
+      "features": ["fare-vending"],
+      "osmId": 3224912263
+    },
+    "bockelstrasse": {
+      "name": "Bockelstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407067
+    },
+    "gerlingen-siedlung": {
+      "name": "Gerlingen Siedlung",
+      "features": ["fare-vending"],
+      "osmId": 243460938
+    },
+    "bergfriedhof": {
+      "name": "Bergfriedhof",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 741569484
+    },
+    "kienbachstrasse": {
+      "name": "Kienbachstraße",
+      "features": ["fare-vending"],
+      "osmId": 26407038
+    },
+    "milchhof": {
+      "name": "Milchhof",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 726825811
+    },
+    "kursaal": {
+      "name": "Kursaal",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 738900576
+    },
+    "hofen": {
+      "name": "Hofen",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 18353086
+    },
+    "heumaden": {
+      "name": "Heumaden",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407066
+    },
+    "freibergstrasse": {
+      "name": "Freibergstraße",
+      "features": ["fare-vending"],
+      "osmId": 18353052
+    },
+    "breitwiesen": {
+      "name": "Breitwiesen",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 266035343
+    },
+    "wilhelm-geiger-platz": {
+      "name": "Wilhelm-Geiger-Platz",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 3800106789
+    },
+    "freiberg": {
+      "name": "Freiberg",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407042
+    },
+    "suttnerstrasse": {
+      "name": "Suttnerstraße",
+      "features": ["fare-vending"],
+      "osmId": 26407043
+    },
+    "inselstrasse": {
+      "name": "Inselstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632845
+    },
+    "pragfriedhof": {
+      "name": "Pragfriedhof",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 5539414145
+    },
+    "untertuerkheim-bf": {
+      "name": "Untertürkheim Bf",
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 26407028
+    },
+    "salamanderweg": {
+      "name": "Salamanderweg",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 1381070326
+    },
+    "rosenberg-seidenstrasse": {
+      "name": "Rosenberg-/Seidenstraße",
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 60399583
+    },
+    "riedsee": {
+      "name": "Riedsee",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 9936645
+    },
+    "sillenbuch": {
+      "name": "Sillenbuch",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407069,
+      "entrances": [
+        {
+          "id": "osm-2131448756",
+          "name": "Sillenbuch",
+          "coordinates": {
+            "lat": 48.7445102,
+            "lng": 9.2131869
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "feuerbach-bahnhof": {
+      "name": "Feuerbach Bahnhof",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 717575086
+    },
+    "arndt-spittastrasse": {
+      "name": "Arndt-/Spittastraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 31127640
+    },
+    "beskidenstrasse": {
+      "name": "Beskidenstraße",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 10798199
+    },
+    "muenster-viadukt": {
+      "name": "Münster Viadukt",
+      "features": ["fare-vending"],
+      "osmId": 18353045
+    },
+    "killesberg": {
+      "name": "Killesberg",
+      "features": ["elevator", "escalator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 18241005,
+      "entrances": [
+        {
+          "id": "osm-1668699397",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7993022,
+            "lng": 9.1704395
+          },
+          "wheelchair": false
+        },
+        {
+          "id": "osm-1750009450",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7994543,
+            "lng": 9.1708939
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-3503840957",
+          "name": "Killesberg",
+          "coordinates": {
+            "lat": 48.7994956,
+            "lng": 9.1728447
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    "foehrich": {
+      "name": "Föhrich",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26405948
+    },
+    "friedrichswahl": {
+      "name": "Friedrichswahl",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26407051
+    },
+    "geroksruhe": {
+      "name": "Geroksruhe",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 726825677
+    },
+    "ostendplatz": {
+      "name": "Ostendplatz",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 417704314
+    },
+    "hohensteinstrasse": {
+      "name": "Hohensteinstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26407049
+    },
+    "esslinger-strasse": {
+      "name": "Esslinger Straße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632833
+    },
+    "kirchtalstrasse": {
+      "name": "Kirchtalstraße",
+      "features": ["escalator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 1540261722,
+      "entrances": [
+        {
+          "id": "osm-2210339438",
+          "name": "Eingang 1",
+          "coordinates": {
+            "lat": 48.8321247,
+            "lng": 9.171266
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2210339449",
+          "name": "Eingang 2",
+          "coordinates": {
+            "lat": 48.8322673,
+            "lng": 9.1702915
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-2305288059",
+          "name": "Eingang 3",
+          "coordinates": {
+            "lat": 48.8322288,
+            "lng": 9.1705762
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "stammheim": {
+      "name": "Stammheim",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1541454118
+    },
+    "loewentor": {
+      "name": "Löwentor",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26789969
+    },
+    "kelterplatz": {
+      "name": "Kelterplatz",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 26407048
+    },
+    "steinhaldenfeld": {
+      "name": "Steinhaldenfeld",
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 26632815
+    },
+    "auwiesen": {
+      "name": "Auwiesen",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 18353111
+    },
+    "leinfelden-frank": {
+      "name": "Leinfelden Frank",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 265768595
+    },
+    "erwin-schoettle-platz": {
+      "name": "Erwin-Schoettle-Platz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 34580121
+    },
+    "loewen-markt": {
+      "name": "Löwen-Markt",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405923
+    },
+    "stadionstrasse": {
+      "name": "Stadionstraße",
+      "features": ["fare-vending"],
+      "osmId": 9330052888
+    },
+    "hauptfriedhof": {
+      "name": "Hauptfriedhof",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26632814
+    },
+    "maybachstrasse": {
+      "name": "Maybachstraße",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26405960,
+      "entrances": [
+        {
+          "id": "osm-268108171",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8108673,
+            "lng": 9.1774808
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1321831668",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8108293,
+            "lng": 9.1768959
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-1750037105",
+          "name": "Maybachstraße",
+          "coordinates": {
+            "lat": 48.8110745,
+            "lng": 9.177559
+          },
+          "wheelchair": false
+        }
+      ]
+    },
+    "schozacher-strasse": {
+      "name": "Schozacher Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 716887778
+    },
+    "gerlingen": {
+      "name": "Gerlingen",
+      "features": ["elevator", "fare-vending"],
+      "osmId": 243460932
+    },
+    "vaihingen-viadukt": {
+      "name": "Vaihingen Viadukt",
+      "features": ["fare-vending"],
+      "osmId": 34578813
+    },
+    "schlossplatz": {
+      "name": "Schlossplatz",
+      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 265921689,
+      "entrances": [
+        {
+          "id": "osm-418324761",
+          "name": "Börsenplatz (L-Bank)",
+          "coordinates": {
+            "lat": 48.7801649,
+            "lng": 9.1772162
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582340",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7785931,
+            "lng": 9.1783197
+          },
+          "wheelchair": true
+        },
+        {
+          "id": "osm-444582342",
+          "name": "Schlossplatz",
+          "coordinates": {
+            "lat": 48.7791984,
+            "lng": 9.1791684
+          },
+          "wheelchair": true
+        }
+      ]
+    },
+    "daimlerplatz": {
+      "name": "Daimlerplatz",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 738900597
+    },
+    "wallgraben": {
+      "name": "Wallgraben",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 338786820
+    },
+    "heutingsheimer-strasse": {
+      "name": "Heutingsheimer Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1540744965
+    },
+    "neckarpark": {
+      "name": "NeckarPark (Stadion)",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 722934089
+    },
+    "sigmaringer-strasse": {
+      "name": "Sigmaringer Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 9936394
+    },
+    "wilhelma": {
+      "name": "Wilhelma",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 3895357042
+    },
+    "pragsattel": {
+      "name": "Pragsattel",
+      "features": ["elevator", "fare-vending", "transfer"],
+      "osmId": 26789306
+    },
+    "mineralbaeder": {
+      "name": "Mineralbäder (Naturkundemuseum)",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 10798229
+    },
+    "wasenstrasse": {
+      "name": "Wasenstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 279915707
+    },
+    "nellingen-technische-akademie": {
+      "name": "Nellingen Technische Akademie",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 271464257
+    },
     "charlottenplatz": {
       "name": "Charlottenplatz",
-      "osmId": 20276002,
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20276002,
       "entrances": [
         {
           "id": "osm-3028124071",
@@ -403,10 +1770,60 @@
         }
       ]
     },
+    "heidehofstrasse": {
+      "name": "Heidehofstraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3224912067
+    },
+    "beethovenstrasse": {
+      "name": "Beethovenstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21286538
+    },
+    "glockenstrasse": {
+      "name": "Glockenstraße (Mahle)",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26786753
+    },
+    "bubenbad": {
+      "name": "Bubenbad",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 279898615
+    },
+    "obere-ziegelei": {
+      "name": "Obere Ziegelei",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26632811
+    },
+    "blick": {
+      "name": "Blick",
+      "features": ["elevator", "fare-vending"],
+      "osmId": 306271971
+    },
+    "mittnachtstrasse": {
+      "name": "Mittnachtstraße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 726825698
+    },
+    "enbw-city": {
+      "name": "EnBW City",
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 662437120
+    },
+    "ebitzweg": {
+      "name": "Ebitzweg",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1086549974
+    },
+    "giebel": {
+      "name": "Giebel",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 2375852755
+    },
     "hauptbahnhof": {
       "name": "Hauptbahnhof (Arnulf-Klett-Platz)",
-      "osmId": 20968427,
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20968427,
       "entrances": [
         {
           "id": "osm-440975038",
@@ -554,212 +1971,25 @@
         }
       ]
     },
-    "neckartor": {
-      "name": "Neckartor",
-      "osmId": 20956735,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-255579046",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.7859808,
-            "lng": 9.1903802
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-255579107",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7863523,
-            "lng": 9.1903146
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-455444693",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7861728,
-            "lng": 9.1896239
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-10879795518",
-          "name": "Eingang 4",
-          "coordinates": {
-            "lat": 48.786353,
-            "lng": 9.1901404
-          },
-          "wheelchair": false
-        }
-      ]
+    "sieglestrasse": {
+      "name": "Sieglestraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26790152
     },
-    "staatsgalerie": {
-      "name": "Staatsgalerie",
-      "osmId": 9775743219,
-      "features": ["elevator", "fare-vending", "transfer"]
+    "nordbahnhof": {
+      "name": "Nordbahnhof",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 255577460
     },
-    "stoeckach": {
-      "name": "Stöckach",
-      "osmId": 303028845,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "bad-cannstatt-wilhelmsplatz": {
-      "name": "Bad Cannstatt Wilhelmsplatz",
-      "osmId": 137321726,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "berliner-platz": {
-      "name": "Berliner Platz",
-      "osmId": 273102152,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "mercedesstrasse": {
-      "name": "Mercedesstraße",
-      "osmId": 21097466,
-      "features": ["fare-vending", "transfer"]
-    },
-    "moehringen-bahnhof": {
-      "name": "Möhringen Bahnhof",
-      "osmId": 9936541,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "olgaeck": {
-      "name": "Olgaeck",
-      "osmId": 662855510,
-      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-482498154",
-          "name": "Charlottenplatz",
-          "coordinates": {
-            "lat": 48.7752732,
-            "lng": 9.1833534
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    "pragsattel": {
-      "name": "Pragsattel",
-      "osmId": 26789306,
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    "schlossplatz": {
-      "name": "Schlossplatz",
-      "osmId": 265921689,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-418324761",
-          "name": "Börsenplatz (L-Bank)",
-          "coordinates": {
-            "lat": 48.7801649,
-            "lng": 9.1772162
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582340",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7785931,
-            "lng": 9.1783197
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582342",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7791984,
-            "lng": 9.1791684
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "vaihinger-strasse": {
-      "name": "Vaihinger Straße",
-      "osmId": 9994951,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "bopser": {
-      "name": "Bopser",
-      "osmId": 280139053,
-      "features": ["fare-vending", "transfer"]
-    },
-    "degerloch": {
-      "name": "Degerloch",
-      "osmId": 20970570,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-405589625",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.748473,
-            "lng": 9.167888
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-247693903",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7490455,
-            "lng": 9.1694659
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-247693904",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7492646,
-            "lng": 9.1691988
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "degerloch-albstrasse": {
-      "name": "Degerloch Albstraße",
-      "osmId": 439664668,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "dobelstrasse": {
-      "name": "Dobelstraße",
-      "osmId": 20968183,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "metzstrasse": {
-      "name": "Metzstraße",
-      "osmId": 20982241,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "mineralbaeder": {
-      "name": "Mineralbäder (Naturkundemuseum)",
-      "osmId": 10798229,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "peregrinastrasse": {
-      "name": "Peregrinastraße",
-      "osmId": 13355384,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "pragfriedhof": {
-      "name": "Pragfriedhof",
-      "osmId": 5539414145,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+    "schwab-bebelstrasse": {
+      "name": "Schwab-/Bebelstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 31127642
     },
     "rathaus": {
       "name": "Rathaus",
-      "osmId": 20957377,
       "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 20957377,
       "entrances": [
         {
           "id": "osm-303808186",
@@ -835,629 +2065,55 @@
         }
       ]
     },
-    "riedsee": {
-      "name": "Riedsee",
-      "osmId": 9936645,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+    "wangener-landhausstrasse": {
+      "name": "Wangener-/Landhausstraße",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 89414027
     },
-    "rotebuehlplatz": {
-      "name": "Rotebühlplatz",
-      "osmId": 78679799,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-647308536",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7748116,
-            "lng": 9.1710178
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-647308545",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7751405,
-            "lng": 9.1722068
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-1621863003",
-          "name": "Rotebühlplatz (Stadtmitte)",
-          "coordinates": {
-            "lat": 48.7738077,
-            "lng": 9.1739115
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1621899309",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7749218,
-            "lng": 9.1711164
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-1989724631",
-          "name": "Rotebühlplatz (Stadtmitte)",
-          "coordinates": {
-            "lat": 48.773813,
-            "lng": 9.1745094
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3034475420",
-          "name": "Rotebühlplatz (Stadtmitte)",
-          "coordinates": {
-            "lat": 48.7740125,
-            "lng": 9.1741788
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3034475421",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7744821,
-            "lng": 9.1717517
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3034475422",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7747041,
-            "lng": 9.1720933
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3034475423",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.774836,
-            "lng": 9.1722584
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3657852735",
-          "name": "Rotebühlplatz",
-          "coordinates": {
-            "lat": 48.7755541,
-            "lng": 9.1712823
-          },
-          "wheelchair": true
-        }
-      ]
+    "ostheim-leo-vetter-bad": {
+      "name": "Ostheim Leo-Vetter-Bad",
+      "features": ["elevator", "fare-vending", "wheelchair-accessible"],
+      "osmId": 3420680494
     },
-    "sonnenberg": {
-      "name": "Sonnenberg",
-      "osmId": 13355377,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "stadtbibliothek": {
-      "name": "Stadtbibliothek",
-      "osmId": 33327666,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-425530634",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.790829,
-            "lng": 9.1806633
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-443132352",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.790209,
-            "lng": 9.1807551
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2907106469",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7905392,
-            "lng": 9.180528
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-3377834929",
-          "name": "Eingang 4",
-          "coordinates": {
-            "lat": 48.7907956,
-            "lng": 9.1808719
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "weinsteige": {
-      "name": "Weinsteige",
-      "osmId": 498454608,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "bockelstrasse": {
-      "name": "Bockelstraße",
-      "osmId": 26407067,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "boersenplatz": {
-      "name": "Börsenplatz",
-      "osmId": 2145685316,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-320286171",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7804733,
-            "lng": 9.176067
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-418324761",
-          "name": "Börsenplatz (L-Bank)",
-          "coordinates": {
-            "lat": 48.7801649,
-            "lng": 9.1772162
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582340",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7785931,
-            "lng": 9.1783197
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582342",
-          "name": "Schlossplatz",
-          "coordinates": {
-            "lat": 48.7791984,
-            "lng": 9.1791684
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-444582347",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7809994,
-            "lng": 9.1762302
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2145685310",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7798416,
-            "lng": 9.1758929
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2145685315",
-          "name": "Friedrichsbau (Börse)",
-          "coordinates": {
-            "lat": 48.7799814,
-            "lng": 9.1755273
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "feuerbach-bahnhof": {
-      "name": "Feuerbach Bahnhof",
-      "osmId": 717575086,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "feuerbach-pfostenwaeldle": {
-      "name": "Feuerbach Pfostenwäldle",
-      "osmId": 26405936,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "foehrich": {
-      "name": "Föhrich",
-      "osmId": 26405948,
-      "features": ["fare-vending", "transfer"]
-    },
-    "heumaden": {
-      "name": "Heumaden",
-      "osmId": 26407066,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "loewentor": {
-      "name": "Löwentor",
-      "osmId": 26789969,
-      "features": ["fare-vending", "transfer"]
-    },
-    "loewentorbruecke": {
-      "name": "Löwentorbrücke",
-      "osmId": 38901889,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "maybachstrasse": {
-      "name": "Maybachstraße",
-      "osmId": 26405960,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-268108171",
-          "name": "Maybachstraße",
-          "coordinates": {
-            "lat": 48.8108673,
-            "lng": 9.1774808
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1321831668",
-          "name": "Maybachstraße",
-          "coordinates": {
-            "lat": 48.8108293,
-            "lng": 9.1768959
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1750037105",
-          "name": "Maybachstraße",
-          "coordinates": {
-            "lat": 48.8110745,
-            "lng": 9.177559
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    "rosensteinbruecke": {
-      "name": "Rosensteinbrücke",
-      "osmId": 26782694,
-      "features": ["fare-vending", "transfer"]
-    },
-    "ruhbank": {
-      "name": "Ruhbank (Fernsehturm)",
-      "osmId": 675759,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "schemppstrasse": {
-      "name": "Schemppstraße",
-      "osmId": 274246540,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-792090137",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.7408961,
-            "lng": 9.2193112
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-879330331",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7415862,
-            "lng": 9.218247
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "silberwald": {
-      "name": "Silberwald",
-      "osmId": 26407070,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "sillenbuch": {
-      "name": "Sillenbuch",
-      "osmId": 26407069,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-2131448756",
-          "name": "Sillenbuch",
-          "coordinates": {
-            "lat": 48.7445102,
-            "lng": 9.2131869
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "sportpark-feuerbach": {
-      "name": "Sportpark Feuerbach",
-      "osmId": 717575294,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "ssb-zentrum": {
-      "name": "SSB-Zentrum",
-      "osmId": 9994979,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "uff-kirchhof": {
-      "name": "Uff-Kirchhof",
-      "osmId": 722970518,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "vaihingen": {
-      "name": "Vaihingen",
-      "osmId": 9995173,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wallgraben": {
-      "name": "Wallgraben",
-      "osmId": 338786820,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wasenstrasse": {
-      "name": "Wasenstraße",
-      "osmId": 279915707,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wilhelm-geiger-platz": {
-      "name": "Wilhelm-Geiger-Platz",
-      "osmId": 3800106789,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wilhelma": {
-      "name": "Wilhelma",
-      "osmId": 3895357042,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "antwerpener-strasse": {
-      "name": "Antwerpener Straße",
-      "osmId": 10798221,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "arndt-spittastrasse": {
-      "name": "Arndt-/Spittastraße",
-      "osmId": 31127640,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "augsburger-platz": {
-      "name": "Augsburger Platz",
-      "osmId": 600573126,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "auwiesen": {
-      "name": "Auwiesen",
-      "osmId": 18353111,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "beethovenstrasse": {
-      "name": "Beethovenstraße",
-      "osmId": 21286538,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "bergfriedhof": {
-      "name": "Bergfriedhof",
-      "osmId": 741569484,
-      "features": ["fare-vending", "transfer"]
-    },
-    "bergheimer-hof": {
-      "name": "Bergheimer Hof",
-      "osmId": 255030848,
-      "features": ["fare-vending", "transfer"]
-    },
-    "beskidenstrasse": {
-      "name": "Beskidenstraße",
-      "osmId": 10798199,
-      "features": ["fare-vending", "transfer"]
-    },
-    "bihlplatz": {
-      "name": "Bihlplatz",
-      "osmId": 443826010,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "borsigstrasse": {
-      "name": "Borsigstraße",
-      "osmId": 33327551,
-      "features": ["fare-vending", "transfer"]
-    },
-    "botnang": {
-      "name": "Botnang",
-      "osmId": 21281018,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "brendle": {
-      "name": "Brendle (Großmarkt)",
-      "osmId": 26407020,
-      "features": ["fare-vending", "transfer"]
-    },
-    "cannstatter-wasen": {
-      "name": "Cannstatter Wasen",
-      "osmId": 21097477,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "daimlerplatz": {
-      "name": "Daimlerplatz",
-      "osmId": 738900597,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "eltinger-strasse": {
-      "name": "Eltinger Straße",
-      "osmId": 259711280,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "erwin-schoettle-platz": {
-      "name": "Erwin-Schoettle-Platz",
-      "osmId": 34580121,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "esslinger-strasse": {
-      "name": "Esslinger Straße",
-      "osmId": 26632833,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "fellbach-lutherkirche": {
-      "name": "Fellbach Lutherkirche",
-      "osmId": 26632840,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "friedrichswahl": {
-      "name": "Friedrichswahl",
-      "osmId": 26407051,
-      "features": ["fare-vending", "transfer"]
-    },
-    "giebel": {
-      "name": "Giebel",
-      "osmId": 2375852755,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "glockenstrasse": {
-      "name": "Glockenstraße (Mahle)",
-      "osmId": 26786753,
-      "features": ["fare-vending", "transfer"]
-    },
-    "gnesener-strasse": {
-      "name": "Gnesener Straße",
-      "osmId": 738900600,
-      "features": ["fare-vending", "transfer"]
-    },
-    "hauptfriedhof": {
-      "name": "Hauptfriedhof",
-      "osmId": 26632814,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "hedelfingen": {
-      "name": "Hedelfingen",
-      "osmId": 279930071,
-      "features": ["fare-vending", "transfer"]
-    },
-    "herderplatz": {
-      "name": "Herderplatz",
-      "osmId": 21288473,
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    "heslach-vogelrain": {
-      "name": "Heslach Vogelrain",
-      "osmId": 298691598,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "hofen": {
-      "name": "Hofen",
-      "osmId": 18353086,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "hohensteinstrasse": {
-      "name": "Hohensteinstraße",
-      "osmId": 26407049,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "hoehenstrasse": {
-      "name": "Höhenstraße",
-      "osmId": 10798156,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "im-degen": {
-      "name": "Im Degen",
-      "osmId": 26632844,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "inselstrasse": {
-      "name": "Inselstraße",
-      "osmId": 26632845,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "jurastrasse": {
-      "name": "Jurastraße",
-      "osmId": 9995142,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
+    "budapester-platz": {
+      "name": "Budapester Platz",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 3736798282
     },
     "karl-olga-krankenhaus": {
       "name": "Karl-Olga-Krankenhaus",
-      "osmId": 741569470,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 741569470
     },
-    "kursaal": {
-      "name": "Kursaal",
-      "osmId": 738900576,
-      "features": ["fare-vending", "transfer"]
+    "botnang": {
+      "name": "Botnang",
+      "features": ["fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 21281018
     },
-    "landauer-strasse": {
-      "name": "Landauer Straße",
-      "osmId": 26405931,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+    "schwabenlandhalle": {
+      "name": "Schwabenlandhalle",
+      "features": ["fare-vending", "transfer"],
+      "osmId": 26632839
     },
-    "lindpaintnerstrasse": {
-      "name": "Lindpaintnerstraße",
-      "osmId": 21286549,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+    "muehlhausen": {
+      "name": "Mühlhausen",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 18353108
     },
-    "loewen-markt": {
-      "name": "Löwen-Markt",
-      "osmId": 26405923,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
+    "wimpfener-strasse": {
+      "name": "Wimpfener Straße",
+      "features": ["fare-vending", "wheelchair-accessible"],
+      "osmId": 1540738738
     },
-    "marienplatz": {
-      "name": "Marienplatz",
-      "osmId": 69463507,
-      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-278819196",
-          "name": "Marienplatz",
-          "coordinates": {
-            "lat": 48.7643403,
-            "lng": 9.1684559
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3431207862",
-          "name": "Marienplatz",
-          "coordinates": {
-            "lat": 48.764413,
-            "lng": 9.1679957
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1286387402",
-          "name": "Marienplatz",
-          "coordinates": {
-            "lat": 48.7642452,
-            "lng": 9.1685214
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "max-eyth-see": {
-      "name": "Max-Eyth-See",
-      "osmId": 20283010,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "milloeckerstrasse": {
-      "name": "Millöckerstraße",
-      "osmId": 21281027,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
+    "parksiedlung": {
+      "name": "Parksiedlung",
+      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 270196725
     },
     "moehringen-freibad": {
       "name": "Möhringen Freibad",
-      "osmId": 26240192,
       "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
+      "osmId": 26240192,
       "entrances": [
         {
           "id": "osm-4980152699",
@@ -1469,700 +2125,6 @@
           "wheelchair": true
         }
       ]
-    },
-    "muehlhausen": {
-      "name": "Mühlhausen",
-      "osmId": 18353108,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "neckarpark": {
-      "name": "NeckarPark (Stadion)",
-      "osmId": 722934089,
-      "features": ["fare-vending", "transfer"]
-    },
-    "nellingen-ostfildern": {
-      "name": "Nellingen Ostfildern",
-      "osmId": 253915614,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "nellingen-technische-akademie": {
-      "name": "Nellingen Technische Akademie",
-      "osmId": 271464257,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "neugereut": {
-      "name": "Neugereut",
-      "osmId": 738900577,
-      "features": ["fare-vending", "transfer"]
-    },
-    "nuernberger-strasse": {
-      "name": "Nürnberger Straße",
-      "osmId": 600447956,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "obere-ziegelei": {
-      "name": "Obere Ziegelei",
-      "osmId": 26632811,
-      "features": ["fare-vending", "transfer"]
-    },
-    "oesterreichischer-platz": {
-      "name": "Österreichischer Platz",
-      "osmId": 281150040,
-      "features": ["elevator", "escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-303808198",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.7702457,
-            "lng": 9.1747018
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-1686344723",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.7697675,
-            "lng": 9.1751287
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4291725891",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.7699804,
-            "lng": 9.1754545
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-5728713298",
-          "name": "Eingang 4",
-          "coordinates": {
-            "lat": 48.7711414,
-            "lng": 9.1764985
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    "parksiedlung": {
-      "name": "Parksiedlung",
-      "osmId": 270196725,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "rastatter-strasse": {
-      "name": "Rastatter Straße",
-      "osmId": 26405805,
-      "features": ["fare-vending", "transfer"]
-    },
-    "rohrer-weg": {
-      "name": "Rohrer Weg",
-      "osmId": 26240181,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "rosensteinpark": {
-      "name": "Rosensteinpark",
-      "osmId": 726509486,
-      "features": ["fare-vending", "transfer"]
-    },
-    "ruit": {
-      "name": "Ruit",
-      "osmId": 113591455,
-      "features": ["escalator", "fare-vending", "transfer", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-263806052",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7310826,
-            "lng": 9.2535796
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-5541970271",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7312905,
-            "lng": 9.2532278
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-4379712492",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7309663,
-            "lng": 9.253699
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-5541970270",
-          "name": "Ruit",
-          "coordinates": {
-            "lat": 48.7307237,
-            "lng": 9.2542174
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    "ruit-zinsholz": {
-      "name": "Ruit Zinsholz",
-      "osmId": 270599198,
-      "features": ["fare-vending", "transfer"]
-    },
-    "salamanderweg": {
-      "name": "Salamanderweg",
-      "osmId": 1381070326,
-      "features": ["fare-vending", "transfer"]
-    },
-    "scharnhauser-park": {
-      "name": "Scharnhauser Park",
-      "osmId": 66828122,
-      "features": ["fare-vending", "transfer"]
-    },
-    "scharnhauser-park-kreuzbrunnen": {
-      "name": "Scharnhauser Park Kreuzbrunnen",
-      "osmId": 66828113,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "schloss-johannesstrasse": {
-      "name": "Schloss-/Johannesstraße",
-      "osmId": 31127214,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "schwab-bebelstrasse": {
-      "name": "Schwab-/Bebelstraße",
-      "osmId": 31127642,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "schwabenlandhalle": {
-      "name": "Schwabenlandhalle",
-      "osmId": 26632839,
-      "features": ["fare-vending", "transfer"]
-    },
-    "sieglestrasse": {
-      "name": "Sieglestraße",
-      "osmId": 26790152,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "stadtwerke-stuttgart": {
-      "name": "Stadtwerke Stuttgart",
-      "osmId": 26407025,
-      "features": ["fare-vending", "transfer"]
-    },
-    "steinhaldenfeld": {
-      "name": "Steinhaldenfeld",
-      "osmId": 26632815,
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    "suedheimer-platz": {
-      "name": "Südheimer Platz",
-      "osmId": 34580107,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "untertuerkheim-bf": {
-      "name": "Untertürkheim Bf",
-      "osmId": 26407028,
-      "features": ["elevator", "fare-vending", "transfer"]
-    },
-    "vogelsang": {
-      "name": "Vogelsang",
-      "osmId": 21288478,
-      "features": ["elevator", "fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wagrainaecker": {
-      "name": "Wagrainäcker",
-      "osmId": 246282061,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "waldau": {
-      "name": "Waldau",
-      "osmId": 675756,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wangen-marktplatz": {
-      "name": "Wangen Marktplatz",
-      "osmId": 26407024,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wangener-landhausstrasse": {
-      "name": "Wangener-/Landhausstraße",
-      "osmId": 89414027,
-      "features": ["fare-vending", "transfer", "wheelchair-accessible"]
-    },
-    "wolfbusch": {
-      "name": "Wolfbusch",
-      "osmId": 282943399,
-      "features": ["fare-vending", "transfer"]
-    },
-    "aldingen-brueckenstrasse": {
-      "name": "Aldingen Brückenstraße",
-      "osmId": 267174590,
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    "aldingen-hornbach": {
-      "name": "Aldingen Hornbach",
-      "osmId": 18353124,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "aldingen-muehle": {
-      "name": "Aldingen Mühle",
-      "osmId": 18353128,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "blick": {
-      "name": "Blick",
-      "osmId": 306271971,
-      "features": ["elevator", "fare-vending"]
-    },
-    "bottroper-strasse": {
-      "name": "Bottroper Straße",
-      "osmId": 2457964058,
-      "features": ["elevator", "fare-vending"]
-    },
-    "breitwiesen": {
-      "name": "Breitwiesen",
-      "osmId": 266035343,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "bubenbad": {
-      "name": "Bubenbad",
-      "osmId": 279898615,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "budapester-platz": {
-      "name": "Budapester Platz",
-      "osmId": 3736798282,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "duerrlewang": {
-      "name": "Dürrlewang",
-      "osmId": 3510348490,
-      "features": ["fare-vending"]
-    },
-    "ebitzweg": {
-      "name": "Ebitzweg",
-      "osmId": 1086549974,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "elbestrasse": {
-      "name": "Elbestraße",
-      "osmId": 18353056,
-      "features": ["fare-vending"]
-    },
-    "enbw-city": {
-      "name": "EnBW City",
-      "osmId": 662437120,
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    "engelboldstrasse": {
-      "name": "Engelboldstraße",
-      "osmId": 34578825,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "eszet": {
-      "name": "Eszet",
-      "osmId": 26407034,
-      "features": ["fare-vending"]
-    },
-    "eugensplatz": {
-      "name": "Eugensplatz",
-      "osmId": 3224912063,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "europaplatz": {
-      "name": "Europaplatz",
-      "osmId": 263250079,
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    "fasanenhof": {
-      "name": "Fasanenhof (Bonhoefferkirche)",
-      "osmId": 662424904,
-      "features": ["fare-vending"]
-    },
-    "fauststrasse": {
-      "name": "Fauststraße",
-      "osmId": 34578810,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "flughafen-messe": {
-      "name": "Flughafen/Messe",
-      "osmId": 9330061530,
-      "features": ["elevator", "fare-vending"]
-    },
-    "freiberg": {
-      "name": "Freiberg",
-      "osmId": 26407042,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "freibergstrasse": {
-      "name": "Freibergstraße",
-      "osmId": 18353052,
-      "features": ["fare-vending"]
-    },
-    "fuerfelder-strasse": {
-      "name": "Fürfelder Straße",
-      "osmId": 26407047,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "gaisburg": {
-      "name": "Gaisburg",
-      "osmId": 417674796,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "gerlingen": {
-      "name": "Gerlingen",
-      "osmId": 243460932,
-      "features": ["elevator", "fare-vending"]
-    },
-    "gerlingen-siedlung": {
-      "name": "Gerlingen Siedlung",
-      "osmId": 243460938,
-      "features": ["fare-vending"]
-    },
-    "geroksruhe": {
-      "name": "Geroksruhe",
-      "osmId": 726825677,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "hallschlag": {
-      "name": "Hallschlag",
-      "osmId": 2457943460,
-      "features": ["fare-vending"]
-    },
-    "heidehofstrasse": {
-      "name": "Heidehofstraße",
-      "osmId": 3224912067,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "heutingsheimer-strasse": {
-      "name": "Heutingsheimer Straße",
-      "osmId": 1540744965,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "himmelsleiter": {
-      "name": "Himmelsleiter",
-      "osmId": 26407044,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "hoelderlinplatz": {
-      "name": "Hölderlinplatz",
-      "osmId": 278490359,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "kaltental": {
-      "name": "Kaltental",
-      "osmId": 34580083,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "kelterplatz": {
-      "name": "Kelterplatz",
-      "osmId": 26407048,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "kienbachstrasse": {
-      "name": "Kienbachstraße",
-      "osmId": 26407038,
-      "features": ["fare-vending"]
-    },
-    "killesberg": {
-      "name": "Killesberg",
-      "osmId": 18241005,
-      "features": ["elevator", "escalator", "fare-vending", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-1668699397",
-          "name": "Killesberg",
-          "coordinates": {
-            "lat": 48.7993022,
-            "lng": 9.1704395
-          },
-          "wheelchair": false
-        },
-        {
-          "id": "osm-1750009450",
-          "name": "Killesberg",
-          "coordinates": {
-            "lat": 48.7994543,
-            "lng": 9.1708939
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-3503840957",
-          "name": "Killesberg",
-          "coordinates": {
-            "lat": 48.7994956,
-            "lng": 9.1728447
-          },
-          "wheelchair": false
-        }
-      ]
-    },
-    "kirchtalstrasse": {
-      "name": "Kirchtalstraße",
-      "osmId": 1540261722,
-      "features": ["escalator", "fare-vending", "wheelchair-accessible"],
-      "entrances": [
-        {
-          "id": "osm-2210339438",
-          "name": "Eingang 1",
-          "coordinates": {
-            "lat": 48.8321247,
-            "lng": 9.171266
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2210339449",
-          "name": "Eingang 2",
-          "coordinates": {
-            "lat": 48.8322673,
-            "lng": 9.1702915
-          },
-          "wheelchair": true
-        },
-        {
-          "id": "osm-2305288059",
-          "name": "Eingang 3",
-          "coordinates": {
-            "lat": 48.8322288,
-            "lng": 9.1705762
-          },
-          "wheelchair": true
-        }
-      ]
-    },
-    "korntaler-strasse": {
-      "name": "Korntaler Straße",
-      "osmId": 1541057204,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "kraftwerk-muenster": {
-      "name": "Kraftwerk Münster",
-      "osmId": 18353042,
-      "features": ["fare-vending"]
-    },
-    "landhaus": {
-      "name": "Landhaus",
-      "osmId": 9936190,
-      "features": ["fare-vending"]
-    },
-    "lapp-kabel": {
-      "name": "Lapp Kabel",
-      "osmId": 3512202176,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "leinf-unteraichen": {
-      "name": "Leinf. Unteraichen",
-      "osmId": 332616566,
-      "features": ["fare-vending"]
-    },
-    "leinfelden-bahnhof": {
-      "name": "Leinfelden Bahnhof",
-      "osmId": 3738199384,
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    "leinfelden-frank": {
-      "name": "Leinfelden Frank",
-      "osmId": 265768595,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "leinfelden-neuer-markt": {
-      "name": "Leinfelden Neuer Markt (EUCHNER)",
-      "osmId": 12250522542,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "messe-west": {
-      "name": "Messe West",
-      "osmId": 9330061520,
-      "features": ["fare-vending"]
-    },
-    "milchhof": {
-      "name": "Milchhof",
-      "osmId": 726825811,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "mittnachtstrasse": {
-      "name": "Mittnachtstraße",
-      "osmId": 726825698,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "moenchfeld": {
-      "name": "Mönchfeld",
-      "osmId": 26407041,
-      "features": ["fare-vending"]
-    },
-    "muehlsteg": {
-      "name": "Mühlsteg",
-      "osmId": 26632799,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "muenster-rathaus": {
-      "name": "Münster Rathaus",
-      "osmId": 743056123,
-      "features": ["fare-vending"]
-    },
-    "muenster-viadukt": {
-      "name": "Münster Viadukt",
-      "osmId": 18353045,
-      "features": ["fare-vending"]
-    },
-    "nordbahnhof": {
-      "name": "Nordbahnhof",
-      "osmId": 255577460,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "ostendplatz": {
-      "name": "Ostendplatz",
-      "osmId": 417704314,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "ostheim-leo-vetter-bad": {
-      "name": "Ostheim Leo-Vetter-Bad",
-      "osmId": 3420680494,
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    "payerstrasse": {
-      "name": "Payerstraße",
-      "osmId": 87388046,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "plieningen": {
-      "name": "Plieningen",
-      "osmId": 1745866243,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "plieninger-strasse": {
-      "name": "Plieninger Straße",
-      "osmId": 9936195,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "raitelsberg": {
-      "name": "Raitelsberg",
-      "osmId": 89417460,
-      "features": ["fare-vending"]
-    },
-    "remseck-neckargroeningen": {
-      "name": "Remseck Neckargröningen",
-      "osmId": 18353190,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "riethmuellerhaus": {
-      "name": "Riethmüllerhaus",
-      "osmId": 1485637818,
-      "features": ["fare-vending"]
-    },
-    "rosenberg-seidenstrasse": {
-      "name": "Rosenberg-/Seidenstraße",
-      "osmId": 60399583,
-      "features": ["elevator", "fare-vending", "wheelchair-accessible"]
-    },
-    "russische-kirche": {
-      "name": "Russische Kirche",
-      "osmId": 60399595,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "salzaecker": {
-      "name": "Salzäcker",
-      "osmId": 9936191,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "salzwiesenstrasse": {
-      "name": "Salzwiesenstraße",
-      "osmId": 1540266132,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "schelmenwasen": {
-      "name": "Schelmenwasen",
-      "osmId": 662446225,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "schlachthof": {
-      "name": "Schlachthof",
-      "osmId": 94849768,
-      "features": ["fare-vending"]
-    },
-    "schlotterbeckstrasse": {
-      "name": "Schlotterbeckstraße",
-      "osmId": 26407033,
-      "features": ["fare-vending"]
-    },
-    "schozacher-strasse": {
-      "name": "Schozacher Straße",
-      "osmId": 716887778,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "sigmaringer-strasse": {
-      "name": "Sigmaringer Straße",
-      "osmId": 9936394,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "stadionstrasse": {
-      "name": "Stadionstraße",
-      "osmId": 9330052888,
-      "features": ["fare-vending"]
-    },
-    "stafflenbergstrasse": {
-      "name": "Stafflenbergstraße",
-      "osmId": 3224912263,
-      "features": ["fare-vending"]
-    },
-    "stammheim": {
-      "name": "Stammheim",
-      "osmId": 1541454118,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "stelle": {
-      "name": "Stelle",
-      "osmId": 279898521,
-      "features": ["fare-vending"]
-    },
-    "suttnerstrasse": {
-      "name": "Suttnerstraße",
-      "osmId": 26407043,
-      "features": ["fare-vending"]
-    },
-    "tapachstrasse": {
-      "name": "Tapachstraße",
-      "osmId": 26407045,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "vaihingen-schillerplatz": {
-      "name": "Vaihingen Schillerplatz",
-      "osmId": 332621606,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "vaihingen-viadukt": {
-      "name": "Vaihingen Viadukt",
-      "osmId": 34578813,
-      "features": ["fare-vending"]
-    },
-    "waldeck": {
-      "name": "Waldeck",
-      "osmId": 34580092,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "wimpfener-strasse": {
-      "name": "Wimpfener Straße",
-      "osmId": 1540738738,
-      "features": ["fare-vending", "wheelchair-accessible"]
-    },
-    "zuffenhausen-rathaus": {
-      "name": "Zuffenhausen Rathaus",
-      "osmId": 1540261524,
-      "features": ["fare-vending"]
-    },
-    "zuericher-strasse": {
-      "name": "Züricher Straße",
-      "osmId": 2457943479,
-      "features": ["fare-vending"]
     }
   },
   "railcars": [
