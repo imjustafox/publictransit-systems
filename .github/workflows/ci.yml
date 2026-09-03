@@ -1,30 +1,63 @@
-name: Build Container Image
+name: CI
 
 on:
   push:
     branches: [main]
     tags: ["v*"]
-    paths-ignore:
-      - "workers/**"
-      - ".github/workflows/deploy-worker.yml"
   pull_request:
-    branches: [main]
-    paths-ignore:
-      - "workers/**"
-      - ".github/workflows/deploy-worker.yml"
   workflow_dispatch:
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: ${{ github.event_name == 'pull_request' }}
 
 env:
   REGISTRY: ghcr.io
   IMAGE_NAME: ${{ github.repository }}
 
 jobs:
-  build:
+  check:
+    name: ${{ matrix.task }}
     runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        task: ["format:check", lint]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up PNPM
+        uses: pnpm/setup@703c52620218391530e48b9e8870d5c0082e1b9b # v2.1.0
+        with:
+          cache: true
+          runtime: node@lts
+      - run: pnpm run ${{ matrix.task }}
+
+  test:
+    name: Accessibility
+    runs-on: ubuntu-latest
+    env:
+      FORCE_COLOR: 1
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - name: Set up PNPM
+        uses: pnpm/setup@703c52620218391530e48b9e8870d5c0082e1b9b # v2.1.0
+        with:
+          cache: true
+          runtime: node@lts
+      - name: Install Playwright Browser
+        run: pnpm exec playwright install chromium
+      - name: Run Accessibility Audit
+        run: pnpm run test:ci
+
+  build:
+    name: Build Container Image
+    runs-on: ubuntu-latest
+    # Publishing waits on every other check, so the registry only ever
+    # receives images that passed the full suite.
+    needs: [check, test]
     permissions:
       contents: read
       packages: write
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
