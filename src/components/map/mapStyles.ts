@@ -57,11 +57,12 @@ export function createEntranceIcon(accessibility?: EntranceAccessibility[]): L.D
   });
 }
 
-// CARTO dark basemap tile URL. The raster service requires an API key (the
-// unkeyed tiles carry a watermark); it is inlined at build time, so builds
-// without the env var still work but show watermarked tiles.
+// CARTO dark vector basemap style, rendered by MapLibre GL (see
+// VectorBasemap.tsx). The API key is not enforced for vector yet but CARTO
+// says it will be; it is inlined at build time, and the style loads without
+// it either way for now.
 const cartoKey = process.env.NEXT_PUBLIC_CARTO_API_KEY;
-export const DARK_TILE_URL = `https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png${
+export const DARK_VECTOR_STYLE_URL = `https://basemaps.cartocdn.com/gl/dark-matter-gl-style/style.json${
   cartoKey ? `?key=${cartoKey}` : ""
 }`;
 

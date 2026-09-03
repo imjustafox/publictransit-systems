@@ -1,11 +1,11 @@
 "use client";
 
 import { useEffect } from "react";
-import { MapContainer, TileLayer, Polyline, CircleMarker, Popup, useMap } from "react-leaflet";
+import { MapContainer, Polyline, CircleMarker, Popup, useMap } from "react-leaflet";
 import Link from "next/link";
 import "leaflet/dist/leaflet.css";
 import type { Station, Line } from "@/lib/types";
-import { DARK_TILE_URL, DARK_TILE_ATTRIBUTION } from "./mapStyles";
+import { VectorBasemap } from "./VectorBasemap";
 
 interface LineMapClientProps {
   line: Line;
@@ -41,7 +41,7 @@ export function LineMapClient({ line, geometry, stations }: LineMapClientProps) 
       className="h-full w-full rounded-lg"
       style={{ background: "#0a0a0a" }}
     >
-      <TileLayer url={DARK_TILE_URL} attribution={DARK_TILE_ATTRIBUTION} />
+      <VectorBasemap />
 
       <FitBounds geometry={geometry} />
 

@@ -1,24 +1,11 @@
 "use client";
 
 import { useEffect, useMemo, useState } from "react";
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Popup,
-  Polyline,
-  useMap,
-  useMapEvents,
-} from "react-leaflet";
+import { MapContainer, Marker, Popup, Polyline, useMap, useMapEvents } from "react-leaflet";
 import "leaflet/dist/leaflet.css";
 import type { Station, Line, Coordinates } from "@/lib/types";
-import {
-  createStationIcon,
-  createEntranceIcon,
-  getAccessibilityColor,
-  DARK_TILE_URL,
-  DARK_TILE_ATTRIBUTION,
-} from "./mapStyles";
+import { createStationIcon, createEntranceIcon, getAccessibilityColor } from "./mapStyles";
+import { VectorBasemap } from "./VectorBasemap";
 import { computeBundles, offsetPolylineVariable } from "./bundling";
 
 // Station with coordinates required for map rendering
@@ -74,7 +61,7 @@ export function StationMapClient({
       className="h-full w-full rounded-lg"
       style={{ background: "#0a0a0a" }}
     >
-      <TileLayer url={DARK_TILE_URL} attribution={DARK_TILE_ATTRIBUTION} />
+      <VectorBasemap />
 
       <FitBounds station={station} />
 
