@@ -6,13 +6,43 @@
       "name": "1 Line",
       "color": "green",
       "colorHex": "#28813F",
-      "opened": "2009-07-18",
       "status": "active",
+      "stations": [
+        "lynnwood-city-center",
+        "mountlake-terrace",
+        "shoreline-north-185th",
+        "shoreline-south-148th",
+        "northgate",
+        "roosevelt",
+        "u-district",
+        "university-of-washington",
+        "capitol-hill",
+        "westlake",
+        "symphony",
+        "pioneer-square",
+        "international-district",
+        "stadium",
+        "sodo",
+        "beacon-hill",
+        "mount-baker",
+        "columbia-city",
+        "othello",
+        "rainier-beach",
+        "tukwila-international-boulevard",
+        "sea-tac-airport",
+        "angle-lake",
+        "kent-des-moines",
+        "star-lake",
+        "federal-way-downtown"
+      ],
+      "stationCount": 26,
       "termini": ["Lynnwood", "Federal Way Downtown"],
-      "topology": { "type": "linear" },
-      "length": 31.2,
-      "stationCount": 25,
-      "description": "The 1 Line (formerly Central Link) is the primary light rail line serving Seattle, running from Lynnwood in the north through downtown Seattle and the University District to Federal Way Downtown in the south."
+      "topology": {
+        "type": "linear"
+      },
+      "length": 40.51,
+      "description": "The 1 Line (formerly Central Link) is the primary light rail line serving Seattle, running from Lynnwood in the north through downtown Seattle and the University District to Federal Way Downtown in the south.",
+      "opened": "2009-07-18"
     },
     {
       "id": "2-line",
@@ -20,13 +50,42 @@
       "name": "2 Line",
       "color": "blue",
       "colorHex": "#007CAD",
-      "opened": "2024-03-30",
       "status": "active",
-      "termini": ["Lynnwood", "Downtown Redmond"],
-      "topology": { "type": "linear" },
-      "length": 35.3,
+      "stations": [
+        "lynnwood-city-center",
+        "mountlake-terrace",
+        "shoreline-north-185th",
+        "shoreline-south-148th",
+        "northgate",
+        "roosevelt",
+        "u-district",
+        "university-of-washington",
+        "capitol-hill",
+        "westlake",
+        "symphony",
+        "pioneer-square",
+        "international-district",
+        "judkins-park",
+        "mercer-island",
+        "south-bellevue",
+        "east-main",
+        "bellevue-downtown",
+        "wilburton",
+        "spring-district-120th",
+        "bel-red-130th",
+        "overlake-village",
+        "redmond-technology",
+        "marymoor-village",
+        "downtown-redmond"
+      ],
       "stationCount": 25,
-      "description": "The 2 Line (formerly East Link) runs from Lynnwood to Downtown Redmond, sharing the downtown Seattle tunnel with the 1 Line before crossing Lake Washington on the I-90 floating bridge via the Crosslake Connection. It serves the Eastside tech corridor including Bellevue and Redmond."
+      "termini": ["Lynnwood", "Downtown Redmond"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 34.33,
+      "description": "The 2 Line (formerly East Link) runs from Lynnwood to Downtown Redmond, sharing the downtown Seattle tunnel with the 1 Line before crossing Lake Washington on the I-90 floating bridge via the Crosslake Connection. It serves the Eastside tech corridor including Bellevue and Redmond.",
+      "opened": "2024-03-30"
     },
     {
       "id": "t-line",
@@ -34,62 +93,86 @@
       "name": "T Line (Tacoma Link)",
       "color": "orange",
       "colorHex": "#F38B00",
-      "opened": "2003-08-22",
       "status": "active",
-      "termini": ["Tacoma Dome", "St Joseph"],
-      "topology": { "type": "linear" },
-      "length": 5.5,
+      "stations": [
+        "tacoma-dome-t",
+        "s-25th-street",
+        "tacoma-union-station",
+        "convention-center",
+        "theater-district",
+        "old-city-hall",
+        "s-4th",
+        "stadium-district-tacoma",
+        "tacoma-general-hospital",
+        "6th-ave",
+        "hilltop-district",
+        "st-joseph"
+      ],
       "stationCount": 12,
-      "description": "The T Line (Tacoma Link) provides free streetcar service through downtown Tacoma, connecting the Tacoma Dome transit hub to St Joseph in the Hilltop neighborhood."
+      "termini": ["Tacoma Dome", "St Joseph"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 3.87,
+      "description": "The T Line (Tacoma Link) provides free streetcar service through downtown Tacoma, connecting the Tacoma Dome transit hub to St Joseph in the Hilltop neighborhood.",
+      "opened": "2003-08-22"
     },
     {
-      "id": "3-line",
       "systemId": "sound-transit",
+      "id": "3-line",
       "name": "3 Line",
       "color": "pink",
       "colorHex": "#D6078E",
       "status": "disabled",
       "termini": [],
-      "topology": { "type": "linear" },
+      "topology": {
+        "type": "linear"
+      },
       "length": 0,
       "stationCount": 0,
       "description": "The 3 Line is a planned light rail line in the Sound Transit system."
     },
     {
-      "id": "4-line",
       "systemId": "sound-transit",
+      "id": "4-line",
       "name": "4 Line",
       "color": "purple",
       "colorHex": "#A74FC4",
       "status": "disabled",
       "termini": [],
-      "topology": { "type": "linear" },
+      "topology": {
+        "type": "linear"
+      },
       "length": 0,
       "stationCount": 0,
       "description": "The 4 Line is a planned light rail line in the Sound Transit system."
     },
     {
-      "id": "s-line",
       "systemId": "sound-transit",
+      "id": "s-line",
       "name": "Stride",
       "color": "yellow",
       "colorHex": "#F5A623",
       "status": "disabled",
       "termini": [],
-      "topology": { "type": "linear" },
+      "topology": {
+        "type": "linear"
+      },
       "length": 0,
       "stationCount": 0,
       "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines."
     },
     {
-      "id": "n-line",
       "systemId": "sound-transit",
+      "id": "n-line",
       "name": "Sounder",
       "color": "lightblue",
       "colorHex": "#9AB6D3",
       "status": "disabled",
       "termini": [],
-      "topology": { "type": "linear" },
+      "topology": {
+        "type": "linear"
+      },
       "length": 0,
       "stationCount": 0,
       "description": "Sounder is Sound Transit's commuter rail service, operating North and South lines."
