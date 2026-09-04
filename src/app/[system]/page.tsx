@@ -249,12 +249,14 @@ export default async function SystemPage({ params }: PageProps) {
       <section>
         <div className="flex items-center justify-between mb-4">
           <h2 className="text-xl font-mono font-semibold text-text-primary">Lines</h2>
-          <Link
-            href={`/${systemId}/lines`}
-            className="text-sm text-accent-secondary hover:underline"
-          >
-            View all →
-          </Link>
+          {networks.length === 0 && (
+            <Link
+              href={`/${systemId}/lines`}
+              className="text-sm text-accent-secondary hover:underline"
+            >
+              View all →
+            </Link>
+          )}
         </div>
         {networks.length > 0 ? (
           <div className="space-y-6">

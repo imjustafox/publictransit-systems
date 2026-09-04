@@ -2,7 +2,7 @@
   "generations": [
     {
       "id": "budd-utv",
-      "systemId": "baltimore-metro",
+      "systemId": "mta-maryland",
       "name": "Budd UTV",
       "manufacturer": "Budd Company",
       "introduced": 1983,
@@ -22,7 +22,7 @@
     },
     {
       "id": "hitachi-metro",
-      "systemId": "baltimore-metro",
+      "systemId": "mta-maryland",
       "name": "Hitachi Rail Metro",
       "manufacturer": "Hitachi Rail",
       "introduced": 2026,
@@ -41,7 +41,7 @@
     },
     {
       "id": "abb-lrv",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "ABB LRV (5001–5035)",
       "manufacturer": "ABB Traction",
       "introduced": 1992,
@@ -61,7 +61,7 @@
     },
     {
       "id": "adtranz-lrv",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "ADtranz LRV (5036–5053)",
       "manufacturer": "AAI Corporation / ADtranz",
       "introduced": 1997,

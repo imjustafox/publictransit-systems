@@ -306,7 +306,7 @@
         }
       ],
       "opened": "1983-11-21",
-      "connections": ["baltimore-light-rail:lexington-market"],
+      "connections": ["lexington-market-light-rail"],
       "description": "Underground station adjacent to the historic Lexington Market. Transfer point to the Light RailLink system via a short walk to the Lexington Market light rail stop on Howard Street."
     },
     {
@@ -747,7 +747,7 @@
         }
       ],
       "opened": "1992-04-02",
-      "connections": ["baltimore-metro:lexington-market"],
+      "connections": ["lexington-market"],
       "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station."
     },
     {

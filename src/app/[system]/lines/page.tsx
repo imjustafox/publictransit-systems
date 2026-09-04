@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import Link from "next/link";
 import { getSystem, getLines } from "@/lib/data";
 import { Card } from "@/components/ui/Card";
@@ -17,6 +17,12 @@ export default async function LinesPage({ params }: PageProps) {
   const [system, lines] = await Promise.all([getSystem(systemId), getLines(systemId)]).catch(() =>
     notFound()
   );
+
+  // Networked systems list their lines grouped by network on the system page;
+  // the flat listing would be a duplicate surface.
+  if (system.networks && system.networks.length > 0) {
+    permanentRedirect(`/${systemId}`);
+  }
 
   return (
     <div className="space-y-6">

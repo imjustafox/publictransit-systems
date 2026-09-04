@@ -1,4 +1,4 @@
-import { notFound } from "next/navigation";
+import { notFound, permanentRedirect } from "next/navigation";
 import {
   getAllSystems,
   getStations,
@@ -50,6 +50,12 @@ export default async function NetworkStationDetailPage({ params }: PageProps) {
   const stationNetworkIds = await getStationNetworkIds(systemId, station);
   if (!stationNetworkIds.includes(network.id)) {
     notFound();
+  }
+
+  // One canonical URL per station: other serving networks redirect to it.
+  const canonical = await getStationCanonicalNetworkId(systemId, station);
+  if (canonical && canonical !== network.id) {
+    permanentRedirect(`/${systemId}/${canonical}/stations/${station.id}`);
   }
 
   return (

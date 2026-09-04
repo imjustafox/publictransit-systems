@@ -350,7 +350,12 @@ export async function getIncidents(systemId: string): Promise<IncidentData | nul
     }
   }
   merged.summary.stationsAffected = Object.keys(merged.outagesByStation).length;
-  incidentCache.set(systemId, { data: merged, fetchedAt: Date.now() });
+  // A partial merge (one feed down) is served but never cached, so the next
+  // request retries the missing feed instead of pinning partial data for the
+  // full TTL.
+  if (present.length === aliases.length) {
+    incidentCache.set(systemId, { data: merged, fetchedAt: Date.now() });
+  }
   return merged;
 }
 

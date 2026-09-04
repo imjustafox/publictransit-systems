@@ -44,8 +44,12 @@ its two static feeds stay separate downloads. `sources` and the single
   serving several networks canonicalizes to the network of its first line.
 - Next static-over-dynamic priority keeps `/{system}/lines` etc. winning
   over `/{system}/[network]`, so flat systems are byte-identical to today.
-- For networked systems the flat routes become `permanentRedirect()`
-  handlers into the canonical network URL.
+- For networked systems the flat detail routes become `permanentRedirect()`
+  handlers into the canonical network URL, and the flat lines listing
+  redirects to the system page, which lists lines grouped by network. The
+  flat stations listing stays live as the all-network station index; the
+  network-scoped listings are subsets of it. Non-canonical network station
+  URLs redirect to the canonical one.
 - System page for networked systems lists network cards and groups the
   line listing by network. `/{system}/{network}` 404s for undeclared ids.
 

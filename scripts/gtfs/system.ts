@@ -132,6 +132,21 @@ export async function processSystem(
         }
         bundles.push(bundle);
       }
+      // Independent sources have independent id namespaces. A stop_id owned
+      // by two sources with different names is a collision the first-wins
+      // dedup would silently paper over; fail loud instead.
+      const stopNames = new Map<string, string>();
+      for (const bundle of bundles) {
+        for (const stop of bundle.stops) {
+          const seen = stopNames.get(stop.stop_id);
+          if (seen !== undefined && seen !== stop.stop_name) {
+            throw new Error(
+              `sources stop_id collision: ${stop.stop_id} is "${seen}" in one feed and "${stop.stop_name}" in another; sources need disjoint or consistent stop ids`
+            );
+          }
+          stopNames.set(stop.stop_id, stop.stop_name);
+        }
+      }
       gtfs = mergeGtfsBundles(bundles);
     } else {
       const fetched = await fetchFeed(
@@ -204,11 +219,15 @@ export async function processSystem(
   // the same name (Yarra Trams: "Spencer St #122" once per direction). Falls
   // back to parent_station when one exists so mixed subfeeds behave.
   const useNameGrouping = config.static.fields?.stop_grouping === "name";
+  // The canonical member is the lexicographically smallest stop_id, not file
+  // order: feed row order churns between drops, and an order-dependent pick
+  // would re-key stations and grow the append-only id map with duplicates.
   const firstStopIdByName = new Map<string, string>();
   if (useNameGrouping) {
     for (const stop of gtfs.stops) {
       if (stop.parent_station) continue;
-      if (!firstStopIdByName.has(stop.stop_name)) {
+      const current = firstStopIdByName.get(stop.stop_name);
+      if (current === undefined || stop.stop_id < current) {
         firstStopIdByName.set(stop.stop_name, stop.stop_id);
       }
     }

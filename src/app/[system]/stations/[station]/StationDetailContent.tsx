@@ -170,7 +170,11 @@ export async function StationDetailContent({
             {stationLines.map((line) => (
               <Link
                 key={line.id}
-                href={`/${systemId}/lines/${line.id}`}
+                href={
+                  line.network
+                    ? `/${systemId}/${line.network}/lines/${line.id}`
+                    : `/${systemId}/lines/${line.id}`
+                }
                 className="flex items-center gap-3 p-2 -mx-2 rounded hover:bg-bg-tertiary transition-colors"
               >
                 <div
