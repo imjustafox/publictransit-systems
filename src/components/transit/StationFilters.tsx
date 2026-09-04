@@ -6,6 +6,8 @@ import type { Line } from "@/lib/types";
 
 interface StationFiltersProps {
   systemId: string;
+  // Listing path the filters navigate within; defaults to the flat stations page.
+  basePath?: string;
   lines: Line[];
   currentStatus?: string;
   currentLine?: string;
@@ -15,6 +17,7 @@ interface StationFiltersProps {
 
 export function StationFilters({
   systemId,
+  basePath,
   lines,
   currentStatus,
   currentLine,
@@ -31,7 +34,7 @@ export function StationFilters({
     } else {
       params.delete(key);
     }
-    router.push(`/${systemId}/stations?${params.toString()}`);
+    router.push(`${basePath ?? `/${systemId}/stations`}?${params.toString()}`);
   };
 
   const statuses = [

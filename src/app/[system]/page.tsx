@@ -37,6 +37,7 @@ export default async function SystemPage({ params }: PageProps) {
   const activeRailcars = railcars.filter((r) => r.status === "active");
   const alerts = incidents?.alerts || [];
   const hasOutages = incidents && incidents.summary.totalOutages > 0;
+  const networks = system.networks ?? [];
 
   return (
     <div className="space-y-8">
@@ -218,6 +219,31 @@ export default async function SystemPage({ params }: PageProps) {
         </Card>
       </section>
 
+      {/* Networks */}
+      {networks.length > 0 && (
+        <section>
+          <h2 className="text-xl font-mono font-semibold text-text-primary mb-4">Networks</h2>
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {networks.map((network) => {
+              const networkLines = lines.filter((line) => line.network === network.id);
+              return (
+                <Link key={network.id} href={`/${systemId}/${network.id}`}>
+                  <Card hover>
+                    <p className="font-mono font-medium text-text-primary truncate">
+                      {network.name}
+                    </p>
+                    <p className="text-xs text-text-muted mt-1">
+                      {network.type.replace(/-/g, " ")} • {networkLines.length} line
+                      {networkLines.length !== 1 ? "s" : ""}
+                    </p>
+                  </Card>
+                </Link>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
       {/* Lines */}
       <section>
         <div className="flex items-center justify-between mb-4">
@@ -229,27 +255,74 @@ export default async function SystemPage({ params }: PageProps) {
             View all →
           </Link>
         </div>
-        <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-          {lines.map((line) => (
-            <Link key={line.id} href={`/${systemId}/lines/${line.id}`}>
-              <Card hover className="flex items-center gap-3">
-                <LineIndicator
-                  line={line}
-                  size="lg"
-                  shape={system.lineIndicatorShape}
-                  linkable={false}
-                />
-                <div className="flex-1 min-w-0">
-                  <p className="font-mono font-medium text-text-primary truncate">{line.name}</p>
-                  <p className="text-xs text-text-muted truncate">{formatTermini(line)}</p>
+        {networks.length > 0 ? (
+          <div className="space-y-6">
+            {networks.map((network) => {
+              const networkLines = lines.filter((line) => line.network === network.id);
+              if (networkLines.length === 0) return null;
+              return (
+                <div key={network.id}>
+                  <Link
+                    href={`/${systemId}/${network.id}`}
+                    className="text-sm font-mono text-text-muted hover:text-accent-secondary"
+                  >
+                    {network.name}
+                  </Link>
+                  <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3 mt-2">
+                    {networkLines.map((line) => (
+                      <Link key={line.id} href={`/${systemId}/${network.id}/lines/${line.id}`}>
+                        <Card hover className="flex items-center gap-3">
+                          <LineIndicator
+                            line={line}
+                            size="lg"
+                            shape={system.lineIndicatorShape}
+                            linkable={false}
+                          />
+                          <div className="flex-1 min-w-0">
+                            <p className="font-mono font-medium text-text-primary truncate">
+                              {line.name}
+                            </p>
+                            <p className="text-xs text-text-muted truncate">
+                              {formatTermini(line)}
+                            </p>
+                          </div>
+                          <span className="text-xs font-mono text-text-muted shrink-0">
+                            <LineLength
+                              length={line.length}
+                              sourceUnit={system.stats.distanceUnit}
+                            />
+                          </span>
+                        </Card>
+                      </Link>
+                    ))}
+                  </div>
                 </div>
-                <span className="text-xs font-mono text-text-muted shrink-0">
-                  <LineLength length={line.length} sourceUnit={system.stats.distanceUnit} />
-                </span>
-              </Card>
-            </Link>
-          ))}
-        </div>
+              );
+            })}
+          </div>
+        ) : (
+          <div className="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
+            {lines.map((line) => (
+              <Link key={line.id} href={`/${systemId}/lines/${line.id}`}>
+                <Card hover className="flex items-center gap-3">
+                  <LineIndicator
+                    line={line}
+                    size="lg"
+                    shape={system.lineIndicatorShape}
+                    linkable={false}
+                  />
+                  <div className="flex-1 min-w-0">
+                    <p className="font-mono font-medium text-text-primary truncate">{line.name}</p>
+                    <p className="text-xs text-text-muted truncate">{formatTermini(line)}</p>
+                  </div>
+                  <span className="text-xs font-mono text-text-muted shrink-0">
+                    <LineLength length={line.length} sourceUnit={system.stats.distanceUnit} />
+                  </span>
+                </Card>
+              </Link>
+            ))}
+          </div>
+        )}
       </section>
 
       {/* Featured Stations */}

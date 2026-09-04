@@ -25,6 +25,13 @@ export interface Coordinates {
   lng: number;
 }
 
+export interface TransitNetwork {
+  id: string;
+  name: string;
+  // Free mode label, e.g. "light-rail", "commuter-rail", "metro", "tram".
+  type: string;
+}
+
 export interface TransitSystem {
   id: string;
   name: string;
@@ -44,6 +51,8 @@ export interface TransitSystem {
   dataSource?: DataSource;
   // OSM enrichment runs for every system unless a system opts out.
   osmEnrichment?: boolean;
+  // Declared networks for multi-mode systems; absent for single-mode systems.
+  networks?: TransitNetwork[];
 }
 
 export interface SystemStats {
@@ -78,6 +87,8 @@ export interface Line {
   name: string;
   color: string;
   colorHex: string;
+  // Declared network id; present on every line of a system that declares networks.
+  network?: string;
   abbreviation?: string;
   opened?: string;
   status: StationStatus;
