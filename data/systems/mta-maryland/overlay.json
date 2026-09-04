@@ -131,7 +131,8 @@
       "length": 2.7,
       "stationCount": 3,
       "description": "A 2.7-mile branch diverging from the main line near Linthicum, serving the BWI Business District and BWI Thurgood Marshall Airport terminal. Partially single-tracked.",
-      "network": "light-rail"
+      "network": "light-rail",
+      "stations": ["linthicum", "bwi-business-district", "bwi-airport"]
     },
     "penn-camden-shuttle": {
       "id": "penn-camden-shuttle",
@@ -148,7 +149,17 @@
       "length": 1.8,
       "stationCount": 9,
       "description": "A shuttle service running between Penn Station and Camden Yards via the downtown Howard Street corridor. Penn Station is connected via a 0.3-mile single-track spur from the main line near University of Baltimore/Mt Royal. Operates every 30 minutes with single-car trains.",
-      "network": "light-rail"
+      "network": "light-rail",
+      "stations": [
+        "camden-yards",
+        "convention-center",
+        "university-center-baltimore-street",
+        "lexington-market-light-rail",
+        "centre-street",
+        "cultural-center",
+        "university-of-baltimore-mt-royal",
+        "penn-station"
+      ]
     }
   },
   "stations": {
@@ -319,44 +330,51 @@
       "name": "University of Baltimore/Mt Royal",
       "opened": "1992-04-02",
       "features": ["accessible"],
-      "description": "Street-running station on Howard Street near the University of Baltimore and Maryland Institute College of Art. The Penn Station spur diverges near this station."
+      "description": "Street-running station on Howard Street near the University of Baltimore and Maryland Institute College of Art. The Penn Station spur diverges near this station.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "cultural-center": {
       "name": "Cultural Center",
       "opened": "1992-04-02",
       "features": ["accessible"],
-      "description": "Street-running station on Howard Street near the Lyric Opera House and Joseph Meyerhoff Symphony Hall. Walking distance to the Metro SubwayLink State Center station."
+      "description": "Street-running station on Howard Street near the Lyric Opera House and Joseph Meyerhoff Symphony Hall. Walking distance to the Metro SubwayLink State Center station.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "centre-street": {
       "name": "Centre Street",
       "opened": "1992-04-02",
       "features": ["accessible"],
-      "description": "Street-running station on Howard Street at Centre Street in downtown Baltimore."
+      "description": "Street-running station on Howard Street at Centre Street in downtown Baltimore.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "lexington-market-light-rail": {
       "name": "Lexington Market",
       "opened": "1992-04-02",
       "features": ["accessible", "bus-connection"],
       "connections": ["baltimore-metro:lexington-market"],
-      "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station."
+      "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "university-center-baltimore-street": {
       "name": "University Center/Baltimore Street",
       "opened": "1992-04-02",
       "features": ["accessible"],
-      "description": "Street-running station on Howard Street at Baltimore Street, near the University of Maryland, Baltimore campus."
+      "description": "Street-running station on Howard Street at Baltimore Street, near the University of Maryland, Baltimore campus.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "convention-center": {
       "name": "Convention Center",
       "opened": "1992-04-02",
       "features": ["accessible"],
-      "description": "Street-running station on Howard Street near the Baltimore Convention Center."
+      "description": "Street-running station on Howard Street near the Baltimore Convention Center.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "camden-yards": {
       "name": "Camden Yards",
       "opened": "1992-04-02",
       "features": ["accessible", "amtrak-connection"],
-      "description": "Street-running station near Oriole Park at Camden Yards and the historic Camden Station. Southern terminus of the Penn-Camden shuttle. Adjacent to the Camden MARC station for Amtrak and MARC Camden Line service."
+      "description": "Street-running station near Oriole Park at Camden Yards and the historic Camden Station. Southern terminus of the Penn-Camden shuttle. Adjacent to the Camden MARC station for Amtrak and MARC Camden Line service.",
+      "lines": ["main-line", "penn-camden-shuttle"]
     },
     "stadium-federal-hill": {
       "name": "Stadium/Federal Hill",
@@ -404,7 +422,8 @@
       "name": "Linthicum",
       "opened": "1993-04-02",
       "features": ["park-and-ride", "accessible"],
-      "description": "Junction station where the BWI Airport branch diverges from the main line. Park-and-ride facility available."
+      "description": "Junction station where the BWI Airport branch diverges from the main line. Park-and-ride facility available.",
+      "lines": ["main-line", "bwi-branch"]
     },
     "ferndale": {
       "name": "Ferndale",
@@ -422,19 +441,22 @@
       "name": "BWI Business District",
       "opened": "1997-12-06",
       "features": ["park-and-ride", "accessible"],
-      "description": "Surface station serving the BWI Business District office park area near the airport."
+      "description": "Surface station serving the BWI Business District office park area near the airport.",
+      "lines": ["bwi-branch"]
     },
     "bwi-airport": {
       "name": "BWI Airport",
       "opened": "1997-12-06",
       "features": ["accessible", "airport-connection"],
-      "description": "Terminus of the BWI Airport branch, providing direct rail access to BWI Thurgood Marshall Airport. Connected to the airport terminal via a covered walkway."
+      "description": "Terminus of the BWI Airport branch, providing direct rail access to BWI Thurgood Marshall Airport. Connected to the airport terminal via a covered walkway.",
+      "lines": ["bwi-branch"]
     },
     "penn-station": {
       "name": "Penn Station",
       "opened": "1997-12-06",
       "features": ["accessible", "amtrak-connection"],
-      "description": "Northern terminus of the Penn-Camden shuttle, located adjacent to Baltimore Penn Station. Provides connections to Amtrak Northeast Corridor and MARC Penn Line commuter rail services."
+      "description": "Northern terminus of the Penn-Camden shuttle, located adjacent to Baltimore Penn Station. Provides connections to Amtrak Northeast Corridor and MARC Penn Line commuter rail services.",
+      "lines": ["penn-camden-shuttle"]
     }
   },
   "railcars": [
