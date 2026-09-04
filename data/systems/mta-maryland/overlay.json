@@ -118,7 +118,7 @@
     },
     "bwi-branch": {
       "id": "bwi-branch",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "BWI Airport Branch",
       "color": "blue",
       "colorHex": "#0072CE",
@@ -136,7 +136,7 @@
     },
     "penn-camden-shuttle": {
       "id": "penn-camden-shuttle",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Penn-Camden Shuttle",
       "color": "blue",
       "colorHex": "#0072CE",
@@ -227,7 +227,7 @@
       "name": "Lexington Market",
       "opened": "1983-11-21",
       "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
-      "connections": ["baltimore-light-rail:lexington-market"],
+      "connections": ["lexington-market-light-rail"],
       "description": "Underground station adjacent to the historic Lexington Market. Transfer point to the Light RailLink system via a short walk to the Lexington Market light rail stop on Howard Street."
     },
     "charles-center": {
@@ -351,7 +351,7 @@
       "name": "Lexington Market",
       "opened": "1992-04-02",
       "features": ["accessible", "bus-connection"],
-      "connections": ["baltimore-metro:lexington-market"],
+      "connections": ["lexington-market"],
       "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station.",
       "lines": ["main-line", "penn-camden-shuttle"]
     },
@@ -462,7 +462,7 @@
   "railcars": [
     {
       "id": "budd-utv",
-      "systemId": "baltimore-metro",
+      "systemId": "mta-maryland",
       "name": "Budd UTV",
       "manufacturer": "Budd Company",
       "introduced": 1983,
@@ -482,7 +482,7 @@
     },
     {
       "id": "hitachi-metro",
-      "systemId": "baltimore-metro",
+      "systemId": "mta-maryland",
       "name": "Hitachi Rail Metro",
       "manufacturer": "Hitachi Rail",
       "introduced": 2026,
@@ -501,7 +501,7 @@
     },
     {
       "id": "abb-lrv",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "ABB LRV (5001\u20135035)",
       "manufacturer": "ABB Traction",
       "introduced": 1992,
@@ -521,7 +521,7 @@
     },
     {
       "id": "adtranz-lrv",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "ADtranz LRV (5036\u20135053)",
       "manufacturer": "AAI Corporation / ADtranz",
       "introduced": 1997,

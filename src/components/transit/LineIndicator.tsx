@@ -113,11 +113,14 @@ export function LineIndicator({
   );
 
   if (linkable && systemId) {
+    // A line that belongs to a network links to its canonical URL; the flat
+    // form stays for string ids and flat systems (it redirects if needed).
+    const lineNetwork = isLineObject ? line.network : undefined;
+    const href = lineNetwork
+      ? `/${systemId}/${lineNetwork}/lines/${lineId}`
+      : `/${systemId}/lines/${lineId}`;
     return (
-      <Link
-        href={`/${systemId}/lines/${lineId}`}
-        className="hover:scale-110 transition-transform inline-block"
-      >
+      <Link href={href} className="hover:scale-110 transition-transform inline-block">
         {content}
       </Link>
     );

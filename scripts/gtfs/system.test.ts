@@ -42,7 +42,7 @@ const alphaFeed = feedFiles("RA", "Alpha Line", [
   ["SHARED", "Central", 47.61, -122.31],
 ]);
 const betaFeed = feedFiles("RB", "Beta Line", [
-  ["SHARED", "Central Duplicate", 47.61, -122.31],
+  ["SHARED", "Central", 47.61, -122.31],
   ["SB1", "Second", 47.62, -122.32],
 ]);
 
@@ -267,13 +267,12 @@ describe("processSystem multi-source feeds", () => {
     expect(lines.find((l) => l.id === "alpha-line")?.network).toBe("metro");
     expect(lines.find((l) => l.id === "beta-line")?.network).toBe("light-rail");
 
-    // SHARED appears in both feeds: first source wins the stop row, and the
-    // deduped station serves both lines.
+    // SHARED appears in both feeds with a consistent name: the stop dedups
+    // and the station serves both lines.
     const stations = JSON.parse(await fs.readFile(path.join(dir, "stations.json"), "utf-8"))
       .stations as Plain[];
     const central = stations.find((s) => s.id === "central");
     expect(central?.name).toBe("Central");
-    expect(stations.some((s) => s.name === "Central Duplicate")).toBe(false);
     expect([...(central?.lines as string[])].sort()).toEqual(["alpha-line", "beta-line"]);
   });
 
@@ -297,5 +296,25 @@ describe("processSystem multi-source feeds", () => {
     const result = await processSystem(dir, "testville", {});
     expect(result.status).toBe("skipped");
     expect(result.reason).toBe("missing secret: UNSET_FEED_URL");
+  });
+
+  it("fails loud when sources reuse a stop id for different stops", async () => {
+    const conflicting = feedFiles("RB", "Beta Line", [
+      ["SHARED", "Somewhere Else", 47.9, -122.9],
+      ["SB1", "Second", 47.62, -122.32],
+    ]);
+    stubFetch({
+      [env.FEED_A_URL]: await buildZip(alphaFeed),
+      [env.FEED_B_URL]: await buildZip(conflicting),
+    });
+    const dir = await makeSystemDir(systemJson([{ id: "metro", name: "Metro", type: "metro" }]), {
+      static: {
+        sources: [
+          { url_secret: "FEED_A_URL", network: "metro" },
+          { url_secret: "FEED_B_URL", network: "metro" },
+        ],
+      },
+    });
+    await expect(processSystem(dir, "testville", env)).rejects.toThrow(/stop_id collision/);
   });
 });

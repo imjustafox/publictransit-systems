@@ -1,5 +1,5 @@
 import { notFound } from "next/navigation";
-import { getAllSystems, getNetwork } from "@/lib/data";
+import { getAllSystems, getLinesByNetwork, getNetwork } from "@/lib/data";
 import { StationsListContent } from "@/app/[system]/stations/StationsListContent";
 
 interface PageProps {
@@ -21,6 +21,12 @@ export default async function NetworkStationsPage({ params, searchParams }: Page
   const network = await getNetwork(systemId, networkId).catch(() => notFound());
 
   if (!network) {
+    notFound();
+  }
+
+  // All-disabled placeholder networks render nothing anywhere.
+  const activeNetworkLines = await getLinesByNetwork(systemId, networkId);
+  if (activeNetworkLines.length === 0) {
     notFound();
   }
 

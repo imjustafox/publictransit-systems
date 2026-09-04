@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
+  getVisibleNetworks,
   getAllSystems,
   getSystem,
   getNetwork,
@@ -19,9 +20,13 @@ interface PageProps {
 
 export async function generateStaticParams() {
   const systems = await getAllSystems();
-  return systems.flatMap((system) =>
-    (system.networks ?? []).map((network) => ({ system: system.id, network: network.id }))
-  );
+  const params: Array<{ system: string; network: string }> = [];
+  for (const system of systems) {
+    for (const network of await getVisibleNetworks(system.id)) {
+      params.push({ system: system.id, network: network.id });
+    }
+  }
+  return params;
 }
 
 export default async function NetworkPage({ params }: PageProps) {
