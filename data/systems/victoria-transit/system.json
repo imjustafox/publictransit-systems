@@ -1,0 +1,51 @@
+{
+  "id": "victoria-transit",
+  "dataSource": "gtfs",
+  "osmEnrichment": false,
+  "name": "Public Transport Victoria",
+  "shortName": "PTV",
+  "location": "Melbourne, VIC",
+  "region": "Victoria",
+  "country": "Australia",
+  "opened": "1854-09-12",
+  "website": "https://www.ptv.vic.gov.au",
+  "overview": "Public Transport Victoria coordinates Melbourne's rail-based public transport: the metropolitan train network run by Metro Trains Melbourne, the world's largest tram network run by Yarra Trams, and V/Line's regional rail corridors reaching across the state.",
+  "stats": {
+    "distanceUnit": "km",
+    "totalLines": 47,
+    "totalStations": 1307,
+    "annualRidership": "198 million train station entries (FY24-25)",
+    "dailyRidership": "543,000"
+  },
+  "colors": {
+    "primary": "#5F249F",
+    "secondary": "#0072CE"
+  },
+  "history": [
+    {
+      "date": "1854-09-12",
+      "title": "First Steam Railway in Australia",
+      "description": "The Melbourne and Hobson's Bay Railway Company opens the Flinders Street to Sandridge line, the first steam railway in Australia."
+    },
+    {
+      "date": "1885-11-11",
+      "title": "Cable Tram Era Begins",
+      "description": "Melbourne's first cable tram runs from Spencer Street to Richmond, the start of what becomes the world's largest tram network."
+    },
+    {
+      "date": "1919-05-28",
+      "title": "Suburban Electrification",
+      "description": "Melbourne's first electric suburban train service runs between Essendon and Sandringham, beginning the electrification of the metropolitan network."
+    },
+    {
+      "date": "1981-01-24",
+      "title": "City Loop Opens",
+      "description": "The underground City Loop opens, threading suburban services through the Melbourne CBD."
+    },
+    {
+      "date": "2025-11-30",
+      "title": "Metro Tunnel",
+      "description": "The Metro Tunnel opens to passengers, taking the Sunbury, Cranbourne and Pakenham lines through a new tunnel under the CBD with five new underground stations."
+    }
+  ]
+}
