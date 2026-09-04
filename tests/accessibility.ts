@@ -77,14 +77,15 @@ export function getRoutes(): string[] {
       if (!network.id) {
         continue;
       }
-      routes.add(`/${systemId}/${network.id}`);
-
       const firstNetworkLine = lines?.lines?.find(
         (line) => line.id && line.status !== "disabled" && line.network === network.id
       );
-      if (firstNetworkLine?.id) {
-        routes.add(`/${systemId}/${network.id}/lines/${firstNetworkLine.id}`);
+      if (!firstNetworkLine?.id) {
+        // All-disabled placeholder networks (Stride) render nothing.
+        continue;
       }
+      routes.add(`/${systemId}/${network.id}`);
+      routes.add(`/${systemId}/${network.id}/lines/${firstNetworkLine.id}`);
 
       const networkLineIds = new Set(
         lines?.lines?.filter((line) => line.network === network.id).map((line) => line.id) ?? []

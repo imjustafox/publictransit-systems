@@ -1,6 +1,7 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
 import {
+  getVisibleNetworks,
   getSystem,
   getLines,
   getStations,
@@ -37,7 +38,7 @@ export default async function SystemPage({ params }: PageProps) {
   const activeRailcars = railcars.filter((r) => r.status === "active");
   const alerts = incidents?.alerts || [];
   const hasOutages = incidents && incidents.summary.totalOutages > 0;
-  const networks = system.networks ?? [];
+  const networks = await getVisibleNetworks(systemId);
 
   return (
     <div className="space-y-8">
