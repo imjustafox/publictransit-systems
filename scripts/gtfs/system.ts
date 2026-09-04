@@ -1,6 +1,6 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { parseGtfsBundle, type GtfsRoute, type GtfsStopTime } from "./parser";
+import { parseGtfsBundle, parseGtfsSubfeeds, type GtfsRoute, type GtfsStopTime } from "./parser";
 import { resolveAuth, resolveUrl, MissingSecretError, type AuthConfig } from "./secrets";
 import { loadIdMap, saveIdMap, mergeIdMap, type IdMap } from "./id-map";
 import { detectTopology, extractTripPatterns } from "./topology";
@@ -20,6 +20,9 @@ interface GtfsConfig {
   static: {
     url_secret: string;
     auth: AuthConfig;
+    // Inner zip paths for feeds that nest one bundle per branch in the
+    // downloaded zip (e.g. Victoria's "2/google_transit.zip").
+    subfeeds?: string[];
     route_groups?: Record<string, string[]>;
     filters?: {
       route_types?: number[];
@@ -31,7 +34,7 @@ interface GtfsConfig {
     fields?: {
       line_name_source?: "route_short_name" | "route_long_name";
       line_color_fallback?: string;
-      stop_grouping?: "parent_station" | "ifopt";
+      stop_grouping?: "parent_station" | "ifopt" | "name";
       entrances?: "gtfs";
     };
   };
@@ -105,7 +108,9 @@ export async function processSystem(
   }
 
   // Parse — malformed = fail loud
-  const gtfs = await parseGtfsBundle(bundleBuffer);
+  const gtfs = config.static.subfeeds?.length
+    ? await parseGtfsSubfeeds(bundleBuffer, config.static.subfeeds)
+    : await parseGtfsBundle(bundleBuffer);
 
   // Filter routes
   const filters = config.static.filters || {};
@@ -149,8 +154,30 @@ export async function processSystem(
     }
   }
   const useIfopt = config.static.fields?.stop_grouping === "ifopt";
-  const canonical = (sid: string): string =>
-    useIfopt ? ifoptStationId(sid) : (parentByStopId.get(sid) ?? sid);
+  // "name" grouping: stops sharing an exact name collapse to one station.
+  // For feeds with no parent stations where a platform pair is two stops with
+  // the same name (Yarra Trams: "Spencer St #122" once per direction). Falls
+  // back to parent_station when one exists so mixed subfeeds behave.
+  const useNameGrouping = config.static.fields?.stop_grouping === "name";
+  const firstStopIdByName = new Map<string, string>();
+  if (useNameGrouping) {
+    for (const stop of gtfs.stops) {
+      if (stop.parent_station) continue;
+      if (!firstStopIdByName.has(stop.stop_name)) {
+        firstStopIdByName.set(stop.stop_name, stop.stop_id);
+      }
+    }
+  }
+  const nameByStopId = new Map(gtfs.stops.map((s) => [s.stop_id, s.stop_name]));
+  const canonical = (sid: string): string => {
+    if (useIfopt) return ifoptStationId(sid);
+    const parent = parentByStopId.get(sid) ?? sid;
+    if (useNameGrouping && parent === sid) {
+      const name = nameByStopId.get(sid);
+      if (name) return firstStopIdByName.get(name) ?? sid;
+    }
+    return parent;
+  };
 
   // Build canonical stop_times per trip with consecutive-duplicate compression.
   // Two consecutive platforms of the same parent station collapse to a single visit

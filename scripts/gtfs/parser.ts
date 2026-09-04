@@ -187,3 +187,50 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
       : [],
   };
 }
+
+// Some publishers (Victoria's PTV) ship one outer zip holding a zip per
+// operational branch. Parse the named inner bundles and merge them into one.
+// Ids are trusted to be globally unique across branches except stops, which
+// deliberately reuse ids for stations served by several branches (Footscray
+// is vic:rail:FSY in both the V/Line and metro feeds); first occurrence wins
+// so shared stations merge instead of duplicating.
+export async function parseGtfsSubfeeds(
+  outerBuffer: Buffer,
+  subfeedPaths: string[]
+): Promise<GtfsBundle> {
+  const outer = await JSZip.loadAsync(outerBuffer);
+
+  const merged: GtfsBundle = {
+    routes: [],
+    stops: [],
+    trips: [],
+    stopTimesByTrip: new Map(),
+    shapesByShapeId: new Map(),
+    pathways: [],
+  };
+  const seenStops = new Set<string>();
+
+  for (const path of subfeedPaths) {
+    const file = outer.file(path);
+    if (!file) throw new Error(`Outer GTFS bundle missing subfeed: ${path}`);
+    const bundle = await parseGtfsBundle(Buffer.from(await file.async("nodebuffer")));
+
+    merged.routes.push(...bundle.routes);
+    merged.trips.push(...bundle.trips);
+    merged.pathways.push(...bundle.pathways);
+    for (const stop of bundle.stops) {
+      if (!seenStops.has(stop.stop_id)) {
+        seenStops.add(stop.stop_id);
+        merged.stops.push(stop);
+      }
+    }
+    for (const [tripId, stopTimes] of bundle.stopTimesByTrip) {
+      merged.stopTimesByTrip.set(tripId, stopTimes);
+    }
+    for (const [shapeId, points] of bundle.shapesByShapeId) {
+      merged.shapesByShapeId.set(shapeId, points);
+    }
+  }
+
+  return merged;
+}
