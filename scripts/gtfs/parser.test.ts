@@ -109,4 +109,24 @@ describe("parseGtfsSubfeeds", () => {
       parseGtfsSubfeeds(await buildOuterZip(), ["9/google_transit.zip"])
     ).rejects.toThrow(/missing subfeed/);
   });
+
+  it("tags every route with its subfeed's network for object entries", async () => {
+    const gtfs = await parseGtfsSubfeeds(await buildOuterZip(), [
+      { path: "1/google_transit.zip", network: "metro" },
+      { path: "2/google_transit.zip", network: "trams" },
+    ]);
+    expect(gtfs.networkByRouteId.get("R001")).toBe("metro");
+    expect(gtfs.networkByRouteId.get("R002")).toBe("metro");
+    expect(gtfs.networkByRouteId.get("X900")).toBe("trams");
+  });
+
+  it("mixes string and object entries, leaving untagged routes unmapped", async () => {
+    const gtfs = await parseGtfsSubfeeds(await buildOuterZip(), [
+      "1/google_transit.zip",
+      { path: "2/google_transit.zip", network: "trams" },
+    ]);
+    expect(gtfs.networkByRouteId.has("R001")).toBe(false);
+    expect(gtfs.networkByRouteId.get("X900")).toBe("trams");
+    expect(gtfs.routes.map((r) => r.route_id)).toContain("R001");
+  });
 });
