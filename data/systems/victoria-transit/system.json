@@ -47,5 +47,22 @@
       "title": "Metro Tunnel",
       "description": "The Metro Tunnel opens to passengers, taking the Sunbury, Cranbourne and Pakenham lines through a new tunnel under the CBD with five new underground stations."
     }
+  ],
+  "networks": [
+    {
+      "id": "metro-trains",
+      "name": "Metro Trains",
+      "type": "metro"
+    },
+    {
+      "id": "trams",
+      "name": "Yarra Trams",
+      "type": "tram"
+    },
+    {
+      "id": "vline",
+      "name": "V/Line",
+      "type": "regional-rail"
+    }
   ]
 }

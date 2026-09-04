@@ -4,7 +4,20 @@
     "auth": {
       "type": "none"
     },
-    "subfeeds": ["1/google_transit.zip", "2/google_transit.zip", "3/google_transit.zip"],
+    "subfeeds": [
+      {
+        "path": "1/google_transit.zip",
+        "network": "vline"
+      },
+      {
+        "path": "2/google_transit.zip",
+        "network": "metro-trains"
+      },
+      {
+        "path": "3/google_transit.zip",
+        "network": "trams"
+      }
+    ],
     "filters": {
       "route_types": [0, 2, 400],
       "route_ids_exclude": [
