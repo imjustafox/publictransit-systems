@@ -1,17 +1,31 @@
 "use client";
 
+import { useSyncExternalStore } from "react";
 import { useTheme } from "next-themes";
+
+// Never changes after the first client render, so the subscription is a no-op.
+const subscribeToNothing = () => () => {};
 
 export function ThemeToggle() {
   const { resolvedTheme, setTheme } = useTheme();
-  const isDark = resolvedTheme === "dark";
+
+  // The server cannot know the theme, so the server render and the client's
+  // hydration pass both assume the layout's dark default and the real theme
+  // applies right after, the same way DistanceUnitProvider handles the unit.
+  // suppressHydrationWarning cannot cover this: it only reaches one level
+  // deep, and the icon differs on a path several levels inside the svg.
+  const hydrated = useSyncExternalStore(
+    subscribeToNothing,
+    () => true,
+    () => false
+  );
+  const isDark = !hydrated || resolvedTheme === "dark";
 
   return (
     <button
       onClick={() => setTheme(isDark ? "light" : "dark")}
       className="p-2 rounded-md bg-bg-tertiary border border-border hover:border-border-hover transition-colors"
       aria-label={`Switch to ${isDark ? "light" : "dark"} mode`}
-      suppressHydrationWarning
     >
       {isDark ? (
         <svg
