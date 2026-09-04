@@ -36,6 +36,12 @@ export default async function NetworkPage({ params }: PageProps) {
     notFound();
   }
 
+  const activeLines = await getLinesByNetwork(systemId, networkId);
+  if (activeLines.length === 0) {
+    // Declared but all-disabled networks (placeholders) do not render.
+    notFound();
+  }
+
   const [lines, stations] = await Promise.all([
     getLinesByNetwork(systemId, networkId),
     getStationsByNetwork(systemId, networkId),

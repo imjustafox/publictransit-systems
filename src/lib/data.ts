@@ -67,6 +67,14 @@ export async function getNetworks(systemId: string): Promise<TransitNetwork[]> {
   return system.networks ?? [];
 }
 
+// A declared network is visible only when it has at least one active line.
+// Placeholder networks whose lines are all disabled (Stride) stay declared
+// for data completeness but never render.
+export async function getVisibleNetworks(systemId: string): Promise<TransitNetwork[]> {
+  const [networks, lines] = await Promise.all([getNetworks(systemId), getLines(systemId)]);
+  return networks.filter((network) => lines.some((line) => line.network === network.id));
+}
+
 export async function getNetwork(
   systemId: string,
   networkId: string
