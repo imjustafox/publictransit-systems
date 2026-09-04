@@ -25,7 +25,9 @@ export default function AboutPage() {
             PublicTransit.Systems is a comprehensive information platform for public transit systems
             worldwide. Built with a terminal-inspired aesthetic, it provides detailed data about
             metro systems, light rail, and rapid transit networks including stations, lines,
-            railcars, and historical information.
+            railcars, and historical information. Multi-mode systems are organized into
+            networks, so commuter rail, light rail, and trams each get their own view
+            within one system.
           </p>
           <p className="text-text-secondary leading-relaxed">
             The platform emphasizes data density, technical precision, and a unique visual style
