@@ -106,7 +106,8 @@
       },
       "length": 0,
       "stationCount": 0,
-      "description": "The 3 Line is a planned light rail line in the Sound Transit system."
+      "description": "The 3 Line is a planned light rail line in the Sound Transit system.",
+      "network": "link-light-rail"
     },
     "4-line": {
       "id": "4-line",
@@ -121,7 +122,8 @@
       },
       "length": 0,
       "stationCount": 0,
-      "description": "The 4 Line is a planned light rail line in the Sound Transit system."
+      "description": "The 4 Line is a planned light rail line in the Sound Transit system.",
+      "network": "link-light-rail"
     },
     "n-line": {
       "name": "N Line (Sounder)",
@@ -141,7 +143,8 @@
       },
       "length": 0,
       "stationCount": 0,
-      "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines."
+      "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines.",
+      "network": "stride"
     },
     "s-line": {
       "name": "S Line (Sounder)",

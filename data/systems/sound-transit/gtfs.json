@@ -14,6 +14,10 @@
     "route_groups": {
       "n-line": ["SNDR_EV"],
       "s-line": ["SNDR_TL"]
+    },
+    "networks": {
+      "link-light-rail": ["1-line", "2-line", "t-line"],
+      "sounder": ["n-line", "s-line"]
     }
   }
 }

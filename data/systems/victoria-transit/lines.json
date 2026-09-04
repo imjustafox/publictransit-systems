@@ -3,6 +3,7 @@
     {
       "id": "geelong-line",
       "systemId": "victoria-transit",
+      "network": "vline",
       "name": "Geelong Line",
       "color": "8F1A95",
       "colorHex": "#8F1A95",
@@ -43,6 +44,7 @@
     {
       "id": "ballarat-line",
       "systemId": "victoria-transit",
+      "network": "vline",
       "name": "Ballarat Line",
       "color": "8F1A95",
       "colorHex": "#8F1A95",
@@ -83,6 +85,7 @@
     {
       "id": "bendigo-line",
       "systemId": "victoria-transit",
+      "network": "vline",
       "name": "Bendigo Line",
       "color": "8F1A95",
       "colorHex": "#8F1A95",
@@ -130,6 +133,7 @@
     {
       "id": "seymour-line",
       "systemId": "victoria-transit",
+      "network": "vline",
       "name": "Seymour Line",
       "color": "8F1A95",
       "colorHex": "#8F1A95",
@@ -177,6 +181,7 @@
     {
       "id": "gippsland-line",
       "systemId": "victoria-transit",
+      "network": "vline",
       "name": "Gippsland Line",
       "color": "8F1A95",
       "colorHex": "#8F1A95",
@@ -218,6 +223,7 @@
     {
       "id": "tram-1",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 1",
       "color": "B5BD00",
       "colorHex": "#B5BD00",
@@ -287,6 +293,7 @@
     {
       "id": "tram-3",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 3",
       "color": "8DC8E8",
       "colorHex": "#8DC8E8",
@@ -368,6 +375,7 @@
     {
       "id": "tram-5",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 5",
       "color": "D50032",
       "colorHex": "#D50032",
@@ -434,6 +442,7 @@
     {
       "id": "tram-6",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 6",
       "color": "01426A",
       "colorHex": "#01426A",
@@ -525,6 +534,7 @@
     {
       "id": "tram-11",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 11",
       "color": "6ECEB2",
       "colorHex": "#6ECEB2",
@@ -597,6 +607,7 @@
     {
       "id": "tram-12",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 12",
       "color": "007E92",
       "colorHex": "#007E92",
@@ -668,6 +679,7 @@
     {
       "id": "tram-16",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 16",
       "color": "FBD872",
       "colorHex": "#FBD872",
@@ -783,6 +795,7 @@
     {
       "id": "tram-19",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 19",
       "color": "8A1B61",
       "colorHex": "#8A1B61",
@@ -846,6 +859,7 @@
     {
       "id": "tram-30",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 30",
       "color": "534F96",
       "colorHex": "#534F96",
@@ -875,6 +889,7 @@
     {
       "id": "tram-35",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 35",
       "color": "6B3529",
       "colorHex": "#6B3529",
@@ -919,6 +934,7 @@
     {
       "id": "tram-48",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 48",
       "color": "333434",
       "colorHex": "#333434",
@@ -997,6 +1013,7 @@
     {
       "id": "tram-57",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 57",
       "color": "00C1D5",
       "colorHex": "#00C1D5",
@@ -1068,6 +1085,7 @@
     {
       "id": "tram-58",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 58",
       "color": "969696",
       "colorHex": "#969696",
@@ -1149,6 +1167,7 @@
     {
       "id": "tram-59",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 59",
       "color": "00653A",
       "colorHex": "#00653A",
@@ -1218,6 +1237,7 @@
     {
       "id": "tram-64",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 64",
       "color": "00AB8E",
       "colorHex": "#00AB8E",
@@ -1300,6 +1320,7 @@
     {
       "id": "tram-67",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 67",
       "color": "956C58",
       "colorHex": "#956C58",
@@ -1381,6 +1402,7 @@
     {
       "id": "tram-70",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 70",
       "color": "F59BBB",
       "colorHex": "#F59BBB",
@@ -1461,6 +1483,7 @@
     {
       "id": "tram-72",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 72",
       "color": "9ABEAA",
       "colorHex": "#9ABEAA",
@@ -1555,6 +1578,7 @@
     {
       "id": "tram-75",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 75",
       "color": "00A9E0",
       "colorHex": "#00A9E0",
@@ -1667,6 +1691,7 @@
     {
       "id": "tram-78",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 78",
       "color": "A0A0D6",
       "colorHex": "#A0A0D6",
@@ -1721,6 +1746,7 @@
     {
       "id": "tram-82",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 82",
       "color": "D2D755",
       "colorHex": "#D2D755",
@@ -1777,6 +1803,7 @@
     {
       "id": "tram-86",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 86",
       "color": "FFB500",
       "colorHex": "#FFB500",
@@ -1879,6 +1906,7 @@
     {
       "id": "tram-96",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 96",
       "color": "C6007E",
       "colorHex": "#C6007E",
@@ -1938,6 +1966,7 @@
     {
       "id": "tram-109",
       "systemId": "victoria-transit",
+      "network": "trams",
       "name": "Route 109",
       "color": "E87722",
       "colorHex": "#E87722",
@@ -2020,6 +2049,7 @@
     {
       "id": "alamein",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Alamein",
       "color": "152C6B",
       "colorHex": "#152C6B",
@@ -2055,6 +2085,7 @@
     {
       "id": "belgrave",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Belgrave",
       "color": "152C6B",
       "colorHex": "#152C6B",
@@ -2103,6 +2134,7 @@
     {
       "id": "cranbourne",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Cranbourne",
       "color": "34ACE1",
       "colorHex": "#34ACE1",
@@ -2139,6 +2171,7 @@
     {
       "id": "city-circle",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "City Circle",
       "color": "0072CE",
       "colorHex": "#0072CE",
@@ -2162,6 +2195,7 @@
     {
       "id": "craigieburn",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Craigieburn",
       "color": "FFBE00",
       "colorHex": "#FFBE00",
@@ -2200,6 +2234,7 @@
     {
       "id": "frankston",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Frankston",
       "color": "028430",
       "colorHex": "#028430",
@@ -2249,6 +2284,7 @@
     {
       "id": "glen-waverley",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Glen Waverley",
       "color": "152C6B",
       "colorHex": "#152C6B",
@@ -2286,6 +2322,7 @@
     {
       "id": "hurstbridge",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Hurstbridge",
       "color": "BE1014",
       "colorHex": "#BE1014",
@@ -2331,6 +2368,7 @@
     {
       "id": "lilydale",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Lilydale",
       "color": "152C6B",
       "colorHex": "#152C6B",
@@ -2375,6 +2413,7 @@
     {
       "id": "mernda",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Mernda",
       "color": "BE1014",
       "colorHex": "#BE1014",
@@ -2421,6 +2460,7 @@
     {
       "id": "pakenham",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Pakenham",
       "color": "34ACE1",
       "colorHex": "#34ACE1",
@@ -2468,6 +2508,7 @@
     {
       "id": "flemington-racecourse",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Flemington Racecourse",
       "color": "95979A",
       "colorHex": "#95979A",
@@ -2489,6 +2530,7 @@
     {
       "id": "sandringham",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Sandringham",
       "color": "F178AF",
       "colorHex": "#F178AF",
@@ -2520,6 +2562,7 @@
     {
       "id": "stony-point",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Stony Point",
       "color": "028430",
       "colorHex": "#028430",
@@ -2547,6 +2590,7 @@
     {
       "id": "sunbury",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Sunbury",
       "color": "34ACE1",
       "colorHex": "#34ACE1",
@@ -2580,6 +2624,7 @@
     {
       "id": "upfield",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Upfield",
       "color": "FFBE00",
       "colorHex": "#FFBE00",
@@ -2616,6 +2661,7 @@
     {
       "id": "werribee",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Werribee",
       "color": "F178AF",
       "colorHex": "#F178AF",
@@ -2650,6 +2696,7 @@
     {
       "id": "williamstown",
       "systemId": "victoria-transit",
+      "network": "metro-trains",
       "name": "Williamstown",
       "color": "F178AF",
       "colorHex": "#F178AF",
