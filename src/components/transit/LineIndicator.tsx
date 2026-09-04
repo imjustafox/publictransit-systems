@@ -88,6 +88,8 @@ export function LineIndicator({
 
   const badge = (
     <div
+      title={lineName}
+      aria-label={lineName}
       className={cn(
         "flex items-center justify-center font-mono font-bold transition-all",
         shape === "square" ? "rounded-sm" : "rounded-full",
@@ -148,8 +150,10 @@ export function LineIndicatorGroup({
   glow = true,
   className,
 }: LineIndicatorGroupProps) {
+  // Wraps: interchanges on large systems reach eighteen lines, and every one
+  // of them should stay visible.
   return (
-    <div className={cn("flex items-center gap-1.5", className)}>
+    <div className={cn("flex flex-wrap items-center gap-1.5", className)}>
       {lines.map((line) => {
         const lineId = typeof line === "object" ? line.id : line;
         return (
