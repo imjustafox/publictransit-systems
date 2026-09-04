@@ -8,7 +8,7 @@ import {
   getLineGeometry,
   formatDate,
 } from "@/lib/data";
-import type { TransitNetwork } from "@/lib/types";
+import type { Station, TransitNetwork } from "@/lib/types";
 import { Card, CardHeader, CardTitle, CardContent } from "@/components/ui/Card";
 import { StatusBadge } from "@/components/ui/Badge";
 import { StationCard } from "@/components/transit/StationCard";
@@ -24,6 +24,30 @@ interface LineDetailContentProps {
   network?: TransitNetwork;
 }
 
+// Greedy nearest-neighbor chain, starting from the station farthest from the
+// centroid (an endpoint on any roughly linear route).
+function orderByProximity(stations: Station[]): Station[] {
+  if (stations.length < 3) return stations;
+  const dist2 = (a: Station, b: Station) =>
+    (a.coordinates!.lat - b.coordinates!.lat) ** 2 + (a.coordinates!.lng - b.coordinates!.lng) ** 2;
+  const cLat = stations.reduce((sum, s) => sum + s.coordinates!.lat, 0) / stations.length;
+  const cLng = stations.reduce((sum, s) => sum + s.coordinates!.lng, 0) / stations.length;
+  const centroid = { coordinates: { lat: cLat, lng: cLng } } as Station;
+  let current = stations.reduce((far, s) => (dist2(s, centroid) > dist2(far, centroid) ? s : far));
+  const remaining = new Set(stations.filter((s) => s !== current));
+  const ordered = [current];
+  while (remaining.size > 0) {
+    let next: Station | null = null;
+    for (const s of remaining) {
+      if (!next || dist2(current, s) < dist2(current, next)) next = s;
+    }
+    ordered.push(next!);
+    remaining.delete(next!);
+    current = next!;
+  }
+  return ordered;
+}
+
 // Shared body of the flat and network-scoped line detail pages.
 export async function LineDetailContent({ systemId, lineId, network }: LineDetailContentProps) {
   const [system, line, allLines, stations, geometry] = await Promise.all([
@@ -36,6 +60,24 @@ export async function LineDetailContent({ systemId, lineId, network }: LineDetai
 
   if (!line) {
     notFound();
+  }
+
+  // Lines without feed shapes (hand-maintained systems, hand service-pattern
+  // lines) fall back to a polyline through their stations so every line page
+  // has a map. line.stations order wins when present; otherwise the member
+  // stations are chained nearest-neighbor from an endpoint, since hand
+  // stations.json files carry no reliable route order.
+  let shapes = geometry ?? [];
+  if (shapes.length === 0) {
+    const byId = new Map(stations.map((s) => [s.id, s]));
+    const ordered =
+      line.stations && line.stations.length > 0
+        ? line.stations.map((id) => byId.get(id)).filter((s) => s?.coordinates)
+        : orderByProximity(stations.filter((s) => s.coordinates));
+    const path = ordered.map((s) => [s!.coordinates!.lat, s!.coordinates!.lng] as [number, number]);
+    if (path.length >= 2) {
+      shapes = [path];
+    }
   }
 
   return (
@@ -123,13 +165,13 @@ export async function LineDetailContent({ systemId, lineId, network }: LineDetai
       />
 
       {/* Route Map */}
-      {geometry && geometry.length > 0 && (
+      {shapes.length > 0 && (
         <Card>
           <CardHeader>
             <CardTitle>Route Map</CardTitle>
           </CardHeader>
           <CardContent>
-            <LineMap line={line} geometry={geometry} stations={stations} />
+            <LineMap line={line} geometry={shapes} stations={stations} />
           </CardContent>
         </Card>
       )}

@@ -498,7 +498,7 @@
       "id": "bwi-airport",
       "systemId": "mta-maryland",
       "name": "BWI Airport",
-      "lines": ["main-line"],
+      "lines": ["bwi-branch"],
       "status": "active",
       "coordinates": {
         "lat": 39.182827,
@@ -525,7 +525,7 @@
       "id": "bwi-business-district",
       "systemId": "mta-maryland",
       "name": "BWI Business District",
-      "lines": ["main-line"],
+      "lines": ["bwi-branch"],
       "status": "active",
       "coordinates": {
         "lat": 39.191429,
@@ -541,7 +541,7 @@
       "id": "linthicum",
       "systemId": "mta-maryland",
       "name": "Linthicum",
-      "lines": ["main-line"],
+      "lines": ["main-line", "bwi-branch"],
       "status": "active",
       "coordinates": {
         "lat": 39.202332,
@@ -669,7 +669,7 @@
       "id": "camden-yards",
       "systemId": "mta-maryland",
       "name": "Camden Yards",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.283745,
@@ -685,7 +685,7 @@
       "id": "convention-center",
       "systemId": "mta-maryland",
       "name": "Convention Center",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.285789,
@@ -701,7 +701,7 @@
       "id": "university-center-baltimore-street",
       "systemId": "mta-maryland",
       "name": "University Center/Baltimore Street",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.288818,
@@ -717,7 +717,7 @@
       "id": "lexington-market-light-rail",
       "systemId": "mta-maryland",
       "name": "Lexington Market",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.292255,
@@ -754,7 +754,7 @@
       "id": "centre-street",
       "systemId": "mta-maryland",
       "name": "Centre Street",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.296818,
@@ -770,7 +770,7 @@
       "id": "cultural-center",
       "systemId": "mta-maryland",
       "name": "Cultural Center",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.30368,
@@ -786,7 +786,7 @@
       "id": "university-of-baltimore-mt-royal",
       "systemId": "mta-maryland",
       "name": "University of Baltimore/Mt Royal",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.307499,
@@ -1010,7 +1010,7 @@
       "id": "penn-station",
       "systemId": "mta-maryland",
       "name": "Penn Station",
-      "lines": ["main-line"],
+      "lines": ["penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.307768,
