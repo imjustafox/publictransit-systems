@@ -1,0 +1,521 @@
+{
+  "system": {
+    "overview": "The Maryland Transit Administration runs Baltimore's rail transit: the Metro SubwayLink heavy rail line and the Light RailLink network reaching from Hunt Valley to BWI Airport and Cromwell.",
+    "history": [
+      {
+        "date": "1976-12-01",
+        "title": "Major Construction Begins",
+        "description": "Full-scale construction begins on Section A, the initial 7.6-mile segment from Charles Center to Reisterstown Plaza."
+      },
+      {
+        "date": "1983-11-21",
+        "title": "System Opens",
+        "description": "First 7.6-mile, 8-station segment from Charles Center to Reisterstown Plaza opens to passengers with 72 Budd UTV cars. Total construction cost was approximately $1.4 billion."
+      },
+      {
+        "date": "1987-07-20",
+        "title": "Owings Mills Extension Opens",
+        "description": "6.1-mile western extension from Reisterstown Plaza to Owings Mills opens with 3 new stations: Old Court, Milford Mill, and Owings Mills."
+      },
+      {
+        "date": "1992-04-02",
+        "title": "Limited Service Opens",
+        "description": "Light RailLink opens with limited service from Timonium Fairgrounds to Camden Yards for Baltimore Orioles games at the new Oriole Park at Camden Yards."
+      },
+      {
+        "date": "1992-05-17",
+        "title": "Full Daily Service Begins",
+        "description": "Full daily service begins on the initial 9.4-mile segment from Timonium Fairgrounds to Camden Yards, comprising 14 stations."
+      },
+      {
+        "date": "1993-05-20",
+        "title": "Southern Extension Completed",
+        "description": "Final southern stations open to Cromwell Station/Glen Burnie, completing the original 22.5-mile main line from Timonium to Glen Burnie."
+      },
+      {
+        "date": "1995-05-31",
+        "title": "Johns Hopkins Extension Opens",
+        "description": "Final 1.6-mile eastern extension opens with 2 new stations, Shot Tower and Johns Hopkins Hospital, completing the 14-station, 15.4-mile line."
+      },
+      {
+        "date": "1997-09-09",
+        "title": "Hunt Valley Extension",
+        "description": "Line extended 4.5 miles north from Timonium to Hunt Valley, adding five new stations including park-and-ride facilities."
+      },
+      {
+        "date": "1997-12-06",
+        "title": "BWI Airport Branch and Penn Station Spur Open",
+        "description": "Two short branches added: a 2.7-mile spur to BWI Thurgood Marshall Airport terminal and a 0.3-mile spur connecting to Penn Station for Amtrak and MARC transfers."
+      },
+      {
+        "date": "1998-09-06",
+        "title": "Hamburg Street Station Opens",
+        "description": "Infill station opens adjacent to the new Ravens stadium (now M&T Bank Stadium), initially serving game days only. Later renamed Stadium/Federal Hill."
+      },
+      {
+        "date": "2002-01-01",
+        "title": "Fleet Refurbishment Begins",
+        "description": "All 100 Budd UTV cars undergo midlife refurbishment including seat reupholstery, floor replacement, and LED destination displays."
+      },
+      {
+        "date": "2004-01-01",
+        "title": "Double-Tracking Project Begins",
+        "description": "Major $205 million reconstruction project to double-track most of the system begins. Southern section closed through much of 2004; northern section closed January\u2013October 2005."
+      },
+      {
+        "date": "2006-02-26",
+        "title": "Double-Tracking Completed",
+        "description": "Full service restored after completion of the double-tracking project, significantly improving frequency and reliability across the system."
+      },
+      {
+        "date": "2015-01-01",
+        "title": "System Rebranded as SubwayLink",
+        "description": "MTA Maryland rebrands all services under the unified 'Link' family. The Metro Subway becomes 'Metro SubwayLink' alongside CityLink buses and Light RailLink."
+      },
+      {
+        "date": "2017-07-26",
+        "title": "New Railcar Contract Awarded",
+        "description": "MTA awards $400.5 million contract to Hitachi Rail for 78 new metro cars and Communications-Based Train Control (CBTC) signaling, the first fleet replacement in system history."
+      },
+      {
+        "date": "2024-02-20",
+        "title": "Fleet Replacement Grant Awarded",
+        "description": "MTA awarded $213.7 million federal grant to replace the entire 53-vehicle Light Rail fleet with new modern railcars as part of the Light Rail Modernization Program."
+      },
+      {
+        "date": "2026-01-09",
+        "title": "Hitachi Rail Cars Enter Service",
+        "description": "New Hitachi Rail metro cars enter revenue service, marking the first fleet replacement in the system's 42-year history. The new cars feature AC propulsion, digital signage, and improved accessibility."
+      }
+    ],
+    "stats": {
+      "annualRidership": "10.5 million",
+      "dailyRidership": "29,700",
+      "trackLength": 45.4,
+      "trackMiles": 45.4,
+      "distanceUnit": "mi"
+    }
+  },
+  "lines": {
+    "metro": {
+      "name": "Metro SubwayLink",
+      "color": "green",
+      "colorHex": "#00A550",
+      "opened": "1983-11-21",
+      "description": "The Metro SubwayLink runs 15.4 miles from Owings Mills in western Baltimore County through downtown Baltimore to Johns Hopkins Hospital in East Baltimore. The line includes 6.2 miles of underground tunnel, 2.2 miles of elevated track, and 6.8 miles at grade. Trains operate every 8 minutes during rush hours and every 15 minutes during off-peak hours.",
+      "termini": ["Owings Mills", "Johns Hopkins Hospital"],
+      "network": "metro"
+    },
+    "main-line": {
+      "name": "Hunt Valley \u2013 Cromwell/Glen Burnie",
+      "color": "blue",
+      "colorHex": "#0072CE",
+      "opened": "1992-04-02",
+      "description": "The main north-south line running from Hunt Valley in northern Baltimore County through downtown Baltimore on Howard Street to Cromwell Station/Glen Burnie in Anne Arundel County. The line follows the former Northern Central Railway right-of-way north of downtown and the former Baltimore and Annapolis Railroad alignment to the south.",
+      "termini": ["Hunt Valley", "Cromwell Station/Glen Burnie"],
+      "length": 29.4,
+      "network": "light-rail"
+    },
+    "bwi-branch": {
+      "id": "bwi-branch",
+      "systemId": "baltimore-light-rail",
+      "name": "BWI Airport Branch",
+      "color": "blue",
+      "colorHex": "#0072CE",
+      "opened": "1997-12-06",
+      "status": "active",
+      "termini": ["Linthicum", "BWI Airport"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 2.7,
+      "stationCount": 3,
+      "description": "A 2.7-mile branch diverging from the main line near Linthicum, serving the BWI Business District and BWI Thurgood Marshall Airport terminal. Partially single-tracked.",
+      "network": "light-rail"
+    },
+    "penn-camden-shuttle": {
+      "id": "penn-camden-shuttle",
+      "systemId": "baltimore-light-rail",
+      "name": "Penn-Camden Shuttle",
+      "color": "blue",
+      "colorHex": "#0072CE",
+      "opened": "1997-12-06",
+      "status": "active",
+      "termini": ["Penn Station", "Camden Yards"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 1.8,
+      "stationCount": 9,
+      "description": "A shuttle service running between Penn Station and Camden Yards via the downtown Howard Street corridor. Penn Station is connected via a 0.3-mile single-track spur from the main line near University of Baltimore/Mt Royal. Operates every 30 minutes with single-car trains.",
+      "network": "light-rail"
+    }
+  },
+  "stations": {
+    "owings-mills": {
+      "name": "Owings Mills",
+      "opened": "1987-07-20",
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "description": "Western terminus of the Metro SubwayLink. Surface station with approximately 3,500 parking spaces, the largest park-and-ride facility in the system."
+    },
+    "old-court": {
+      "name": "Old Court",
+      "opened": "1987-07-20",
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "description": "Surface station serving the Old Court Road area of Baltimore County. Opened as part of the 1987 Owings Mills extension."
+    },
+    "milford-mill": {
+      "name": "Milford Mill",
+      "opened": "1987-07-20",
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "description": "Surface station serving the Milford Mill area. The easternmost station added in the 1987 Owings Mills extension."
+    },
+    "reisterstown-plaza": {
+      "name": "Reisterstown Plaza",
+      "opened": "1983-11-21",
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "description": "Surface station adjacent to the Reisterstown Road Plaza shopping center. Original western terminus when the system opened in 1983."
+    },
+    "rogers-avenue": {
+      "name": "Rogers Avenue",
+      "opened": "1983-11-21",
+      "features": ["bus-connection", "fare-vending"],
+      "description": "Surface station in the Park Heights neighborhood of northwest Baltimore."
+    },
+    "west-cold-spring": {
+      "name": "West Cold Spring",
+      "opened": "1983-11-21",
+      "features": ["bus-connection", "fare-vending"],
+      "description": "Surface station near the intersection of Wabash Avenue and Cold Spring Lane in northwest Baltimore."
+    },
+    "mondawmin": {
+      "name": "Mondawmin",
+      "opened": "1983-11-21",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Located near the Mondawmin Mall, this station marks the transition from surface running to the deep-bore tunnel section. Major bus transfer point."
+    },
+    "penn-north": {
+      "name": "Penn North",
+      "opened": "1983-11-21",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Deep underground station approximately 120 feet below street level, serving the Penn North neighborhood along Pennsylvania Avenue."
+    },
+    "upton": {
+      "name": "Upton",
+      "opened": "1983-11-21",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Underground station in the Upton neighborhood. Features Romare Bearden's jazz-themed mosaic artwork. Formerly known as Upton/Avenue Market."
+    },
+    "state-center": {
+      "name": "State Center",
+      "opened": "1983-11-21",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Underground station near the Maryland State Center office complex. Walking distance to the Light RailLink Cultural Center stop for transfers."
+    },
+    "lexington-market": {
+      "name": "Lexington Market",
+      "opened": "1983-11-21",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "connections": ["baltimore-light-rail:lexington-market"],
+      "description": "Underground station adjacent to the historic Lexington Market. Transfer point to the Light RailLink system via a short walk to the Lexington Market light rail stop on Howard Street."
+    },
+    "charles-center": {
+      "name": "Charles Center",
+      "opened": "1983-11-21",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Underground station in the heart of downtown Baltimore's Charles Center business district. Original eastern terminus when the system opened in 1983."
+    },
+    "shot-tower": {
+      "name": "Shot Tower",
+      "opened": "1995-05-31",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Underground station near the historic Phoenix Shot Tower. Opened in 1995 as part of the Johns Hopkins extension. Formerly known as Shot Tower/Market Place."
+    },
+    "johns-hopkins-hospital": {
+      "name": "Johns Hopkins Hospital",
+      "opened": "1995-05-31",
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "description": "Eastern terminus of the Metro SubwayLink, serving the Johns Hopkins Hospital campus and East Baltimore. Opened in 1995, completing the 14-station line."
+    },
+    "hunt-valley": {
+      "name": "Hunt Valley",
+      "opened": "1997-09-09",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Northern terminus of the Light RailLink system, located in Hunt Valley, Baltimore County. Large park-and-ride facility."
+    },
+    "pepper-road": {
+      "name": "Pepper Road",
+      "opened": "1997-09-09",
+      "features": ["accessible"],
+      "description": "Surface station in the Hunt Valley area, opened as part of the 1997 northern extension."
+    },
+    "mccormick-road": {
+      "name": "McCormick Road",
+      "opened": "1997-09-09",
+      "features": ["accessible"],
+      "description": "Surface station near McCormick & Company headquarters in Hunt Valley."
+    },
+    "gilroy-road": {
+      "name": "Gilroy Road",
+      "opened": "1997-09-09",
+      "features": ["accessible"],
+      "description": "Surface station in the Timonium area of Baltimore County."
+    },
+    "warren-road": {
+      "name": "Warren Road",
+      "opened": "1997-09-09",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Surface station with park-and-ride facility in the Timonium area."
+    },
+    "fairgrounds": {
+      "name": "Fairgrounds",
+      "opened": "1992-04-02",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Formerly Timonium Fairgrounds, this was the original northern terminus when the system opened in 1992. Located adjacent to the Maryland State Fairgrounds."
+    },
+    "timonium-business-park": {
+      "name": "Timonium Business Park",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Surface station serving the Timonium business park area of Baltimore County."
+    },
+    "lutherville": {
+      "name": "Lutherville",
+      "opened": "1992-04-02",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Surface station with park-and-ride facility in the Lutherville-Timonium community."
+    },
+    "falls-road": {
+      "name": "Falls Road",
+      "opened": "1992-04-02",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Surface station with park-and-ride facility adjacent to Lake Roland and the Robert E. Lee Memorial Park."
+    },
+    "mt-washington": {
+      "name": "Mt Washington",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Surface station in the Mt Washington neighborhood of Baltimore."
+    },
+    "cold-spring-lane": {
+      "name": "Cold Spring Lane",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Surface station at Cold Spring Lane in northern Baltimore."
+    },
+    "woodberry": {
+      "name": "Woodberry",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Surface station in the Woodberry neighborhood, near the Meadow Mill development and Clipper Mill."
+    },
+    "north-avenue": {
+      "name": "North Avenue",
+      "opened": "1992-04-02",
+      "features": ["accessible", "bus-connection"],
+      "description": "Street-running station on Howard Street at North Avenue. Adjacent to the light rail maintenance facility. Served by both the main line and Penn-Camden shuttle."
+    },
+    "university-of-baltimore-mt-royal": {
+      "name": "University of Baltimore/Mt Royal",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Street-running station on Howard Street near the University of Baltimore and Maryland Institute College of Art. The Penn Station spur diverges near this station."
+    },
+    "cultural-center": {
+      "name": "Cultural Center",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Street-running station on Howard Street near the Lyric Opera House and Joseph Meyerhoff Symphony Hall. Walking distance to the Metro SubwayLink State Center station."
+    },
+    "centre-street": {
+      "name": "Centre Street",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Street-running station on Howard Street at Centre Street in downtown Baltimore."
+    },
+    "lexington-market-light-rail": {
+      "name": "Lexington Market",
+      "opened": "1992-04-02",
+      "features": ["accessible", "bus-connection"],
+      "connections": ["baltimore-metro:lexington-market"],
+      "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station."
+    },
+    "university-center-baltimore-street": {
+      "name": "University Center/Baltimore Street",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Street-running station on Howard Street at Baltimore Street, near the University of Maryland, Baltimore campus."
+    },
+    "convention-center": {
+      "name": "Convention Center",
+      "opened": "1992-04-02",
+      "features": ["accessible"],
+      "description": "Street-running station on Howard Street near the Baltimore Convention Center."
+    },
+    "camden-yards": {
+      "name": "Camden Yards",
+      "opened": "1992-04-02",
+      "features": ["accessible", "amtrak-connection"],
+      "description": "Street-running station near Oriole Park at Camden Yards and the historic Camden Station. Southern terminus of the Penn-Camden shuttle. Adjacent to the Camden MARC station for Amtrak and MARC Camden Line service."
+    },
+    "stadium-federal-hill": {
+      "name": "Stadium/Federal Hill",
+      "opened": "1998-09-06",
+      "features": ["accessible"],
+      "description": "Infill station formerly known as Hamburg Street, opened in 1998 adjacent to M&T Bank Stadium (home of the Baltimore Ravens). Initially a game-day-only stop, it became a full-time daily station in 2005."
+    },
+    "westport": {
+      "name": "Westport",
+      "opened": "1992-08-20",
+      "features": ["accessible"],
+      "description": "Surface station in the Westport neighborhood of South Baltimore."
+    },
+    "cherry-hill": {
+      "name": "Cherry Hill",
+      "opened": "1992-08-20",
+      "features": ["accessible"],
+      "description": "Surface station serving the Cherry Hill community of South Baltimore."
+    },
+    "patapsco": {
+      "name": "Patapsco",
+      "opened": "1992-08-20",
+      "features": ["accessible"],
+      "description": "Surface station near the Patapsco River crossing. The BWI Airport branch diverges south of this station."
+    },
+    "baltimore-highlands": {
+      "name": "Baltimore Highlands",
+      "opened": "1993-04-02",
+      "features": ["accessible"],
+      "description": "Surface station in the Baltimore Highlands community of Anne Arundel County."
+    },
+    "nursery-road": {
+      "name": "Nursery Road",
+      "opened": "1993-04-02",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Surface station with park-and-ride facility near Nursery Road in Linthicum Heights."
+    },
+    "north-linthicum": {
+      "name": "North Linthicum",
+      "opened": "1993-04-02",
+      "features": ["accessible"],
+      "description": "Surface station in the North Linthicum area of Anne Arundel County."
+    },
+    "linthicum": {
+      "name": "Linthicum",
+      "opened": "1993-04-02",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Junction station where the BWI Airport branch diverges from the main line. Park-and-ride facility available."
+    },
+    "ferndale": {
+      "name": "Ferndale",
+      "opened": "1993-05-20",
+      "features": ["accessible"],
+      "description": "Surface station in the Ferndale community of Anne Arundel County."
+    },
+    "cromwell-station-glen-burnie": {
+      "name": "Cromwell Station/Glen Burnie",
+      "opened": "1993-05-20",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Southern terminus of the main line, located in Glen Burnie, Anne Arundel County. Large park-and-ride facility."
+    },
+    "bwi-business-district": {
+      "name": "BWI Business District",
+      "opened": "1997-12-06",
+      "features": ["park-and-ride", "accessible"],
+      "description": "Surface station serving the BWI Business District office park area near the airport."
+    },
+    "bwi-airport": {
+      "name": "BWI Airport",
+      "opened": "1997-12-06",
+      "features": ["accessible", "airport-connection"],
+      "description": "Terminus of the BWI Airport branch, providing direct rail access to BWI Thurgood Marshall Airport. Connected to the airport terminal via a covered walkway."
+    },
+    "penn-station": {
+      "name": "Penn Station",
+      "opened": "1997-12-06",
+      "features": ["accessible", "amtrak-connection"],
+      "description": "Northern terminus of the Penn-Camden shuttle, located adjacent to Baltimore Penn Station. Provides connections to Amtrak Northeast Corridor and MARC Penn Line commuter rail services."
+    }
+  },
+  "railcars": [
+    {
+      "id": "budd-utv",
+      "systemId": "baltimore-metro",
+      "name": "Budd UTV",
+      "manufacturer": "Budd Company",
+      "introduced": 1983,
+      "retired": null,
+      "status": "active",
+      "count": 100,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft",
+        "capacity": 166,
+        "seatedCapacity": 76,
+        "maxSpeed": "70 mph",
+        "weight": "76,000 lbs",
+        "traction": "DC chopper"
+      },
+      "description": "The Budd Universal Transit Vehicles were the last railcars ever built by the Budd Company. Cars 100\u2013171 were delivered in 1983 from a joint order shared with Miami Metrorail, and cars 172\u2013199 arrived in 1986 for the Owings Mills extension. The fleet was refurbished in 2002\u20132005 and is currently being phased out in favor of new Hitachi Rail cars."
+    },
+    {
+      "id": "hitachi-metro",
+      "systemId": "baltimore-metro",
+      "name": "Hitachi Rail Metro",
+      "manufacturer": "Hitachi Rail",
+      "introduced": 2026,
+      "retired": null,
+      "status": "active",
+      "count": 78,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 2 in",
+        "capacity": 196,
+        "seatedCapacity": 76,
+        "maxSpeed": "47 mph",
+        "traction": "AC IGBT"
+      },
+      "description": "The Hitachi Rail metro cars are the first fleet replacement in system history, entering revenue service in January 2026. Built in Hagerstown, MD and Miami, FL as part of a $400.5 million contract that also includes Communications-Based Train Control signaling. The 78 cars operate as 39 married pairs and feature LED lighting, digital signage, and improved accessibility."
+    },
+    {
+      "id": "abb-lrv",
+      "systemId": "baltimore-light-rail",
+      "name": "ABB LRV (5001\u20135035)",
+      "manufacturer": "ABB Traction",
+      "introduced": 1992,
+      "retired": null,
+      "status": "active",
+      "count": 35,
+      "specs": {
+        "length": "95 ft",
+        "width": "9 ft 6 in",
+        "capacity": 176,
+        "seatedCapacity": 85,
+        "maxSpeed": "60 mph",
+        "weight": "99,440 lbs",
+        "traction": "AC propulsion"
+      },
+      "description": "The original 35 articulated light rail vehicles, numbered 5001\u20135035, were the first transit vehicles in the United States to employ AC propulsion. Each three-section car is powered via pantograph from 750V DC overhead catenary. They were the widest LRVs in the US at delivery at 9 ft 6 in."
+    },
+    {
+      "id": "adtranz-lrv",
+      "systemId": "baltimore-light-rail",
+      "name": "ADtranz LRV (5036\u20135053)",
+      "manufacturer": "AAI Corporation / ADtranz",
+      "introduced": 1997,
+      "retired": null,
+      "status": "active",
+      "count": 18,
+      "specs": {
+        "length": "95 ft",
+        "width": "9 ft 6 in",
+        "capacity": 176,
+        "seatedCapacity": 85,
+        "maxSpeed": "60 mph",
+        "weight": "99,440 lbs",
+        "traction": "AC propulsion"
+      },
+      "description": "18 additional vehicles, numbered 5036\u20135053, were delivered in 1997\u20131999 to support the Hunt Valley extension and BWI Airport branch. Built by AAI Corporation under the ADtranz brand (successor to ABB Traction), they are functionally identical to the original fleet. The entire 53-car fleet is slated for replacement under the Light Rail Modernization Program."
+    }
+  ]
+}

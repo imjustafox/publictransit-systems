@@ -93,6 +93,39 @@ own. Pin them in the overlay only when the agency's official count differs
 from how we model the system. NYC is the example: the MTA counts 472
 stations, we model station complexes, so the overlay pins 472.
 
+## Networks
+
+A system that spans several modes can declare networks in `system.json`:
+
+```jsonc
+"networks": [
+  { "id": "sounder", "name": "Sounder", "type": "commuter-rail" },
+  { "id": "link-light-rail", "name": "Link Light Rail", "type": "light-rail" }
+]
+```
+
+Every line must then belong to one. Three ways to assign, and the overlay
+always wins: a subfeed entry can carry a network (`{ "path":
+"2/google_transit.zip", "network": "metro-trains" }`), `gtfs.json` can map
+line slugs (`"networks": { "sounder": ["n-line", "s-line"] }`), or an
+overlay line entry can set `network` by hand, which is how pass-through
+lines get theirs. The build fails if a declared system leaves a line
+unassigned.
+
+Networked systems grow a URL level: `/system/network`, with the network's
+lines and stations beneath it. Systems without networks keep flat URLs.
+A station's networks are derived from its lines and never stored.
+
+Systems whose modes come from separate feed downloads use `sources`
+instead of a single `url_secret`:
+
+```jsonc
+"sources": [
+  { "url_secret": "BALTIMORE_METRO_GTFS_URL", "auth": { "type": "none" }, "network": "metro" },
+  { "url_secret": "BALTIMORE_LR_GTFS_URL", "auth": { "type": "none" }, "network": "light-rail" }
+]
+```
+
 ## Adding a new system
 
 If the agency publishes GTFS:
