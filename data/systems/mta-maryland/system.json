@@ -1,0 +1,124 @@
+{
+  "id": "mta-maryland",
+  "dataSource": "gtfs",
+  "name": "Maryland Transit Administration",
+  "shortName": "MDOT MTA",
+  "location": "Baltimore, MD",
+  "region": "Maryland",
+  "country": "United States",
+  "opened": "1983-11-21",
+  "website": "https://www.mta.maryland.gov",
+  "overview": "The Maryland Transit Administration runs Baltimore's rail transit: the Metro SubwayLink heavy rail line and the Light RailLink network reaching from Hunt Valley to BWI Airport and Cromwell.",
+  "stats": {
+    "distanceUnit": "mi",
+    "totalLines": 4,
+    "totalStations": 47,
+    "annualRidership": "10.5 million",
+    "dailyRidership": "29,700",
+    "trackLength": 45.4,
+    "trackMiles": 45.4
+  },
+  "colors": {
+    "primary": "#00A550",
+    "secondary": "#0072CE"
+  },
+  "networks": [
+    {
+      "id": "metro",
+      "name": "Metro SubwayLink",
+      "type": "metro"
+    },
+    {
+      "id": "light-rail",
+      "name": "Light RailLink",
+      "type": "light-rail"
+    }
+  ],
+  "history": [
+    {
+      "date": "1976-12-01",
+      "title": "Major Construction Begins",
+      "description": "Full-scale construction begins on Section A, the initial 7.6-mile segment from Charles Center to Reisterstown Plaza."
+    },
+    {
+      "date": "1983-11-21",
+      "title": "System Opens",
+      "description": "First 7.6-mile, 8-station segment from Charles Center to Reisterstown Plaza opens to passengers with 72 Budd UTV cars. Total construction cost was approximately $1.4 billion."
+    },
+    {
+      "date": "1987-07-20",
+      "title": "Owings Mills Extension Opens",
+      "description": "6.1-mile western extension from Reisterstown Plaza to Owings Mills opens with 3 new stations: Old Court, Milford Mill, and Owings Mills."
+    },
+    {
+      "date": "1992-04-02",
+      "title": "Limited Service Opens",
+      "description": "Light RailLink opens with limited service from Timonium Fairgrounds to Camden Yards for Baltimore Orioles games at the new Oriole Park at Camden Yards."
+    },
+    {
+      "date": "1992-05-17",
+      "title": "Full Daily Service Begins",
+      "description": "Full daily service begins on the initial 9.4-mile segment from Timonium Fairgrounds to Camden Yards, comprising 14 stations."
+    },
+    {
+      "date": "1993-05-20",
+      "title": "Southern Extension Completed",
+      "description": "Final southern stations open to Cromwell Station/Glen Burnie, completing the original 22.5-mile main line from Timonium to Glen Burnie."
+    },
+    {
+      "date": "1995-05-31",
+      "title": "Johns Hopkins Extension Opens",
+      "description": "Final 1.6-mile eastern extension opens with 2 new stations, Shot Tower and Johns Hopkins Hospital, completing the 14-station, 15.4-mile line."
+    },
+    {
+      "date": "1997-09-09",
+      "title": "Hunt Valley Extension",
+      "description": "Line extended 4.5 miles north from Timonium to Hunt Valley, adding five new stations including park-and-ride facilities."
+    },
+    {
+      "date": "1997-12-06",
+      "title": "BWI Airport Branch and Penn Station Spur Open",
+      "description": "Two short branches added: a 2.7-mile spur to BWI Thurgood Marshall Airport terminal and a 0.3-mile spur connecting to Penn Station for Amtrak and MARC transfers."
+    },
+    {
+      "date": "1998-09-06",
+      "title": "Hamburg Street Station Opens",
+      "description": "Infill station opens adjacent to the new Ravens stadium (now M&T Bank Stadium), initially serving game days only. Later renamed Stadium/Federal Hill."
+    },
+    {
+      "date": "2002-01-01",
+      "title": "Fleet Refurbishment Begins",
+      "description": "All 100 Budd UTV cars undergo midlife refurbishment including seat reupholstery, floor replacement, and LED destination displays."
+    },
+    {
+      "date": "2004-01-01",
+      "title": "Double-Tracking Project Begins",
+      "description": "Major $205 million reconstruction project to double-track most of the system begins. Southern section closed through much of 2004; northern section closed January–October 2005."
+    },
+    {
+      "date": "2006-02-26",
+      "title": "Double-Tracking Completed",
+      "description": "Full service restored after completion of the double-tracking project, significantly improving frequency and reliability across the system."
+    },
+    {
+      "date": "2015-01-01",
+      "title": "System Rebranded as SubwayLink",
+      "description": "MTA Maryland rebrands all services under the unified 'Link' family. The Metro Subway becomes 'Metro SubwayLink' alongside CityLink buses and Light RailLink."
+    },
+    {
+      "date": "2017-07-26",
+      "title": "New Railcar Contract Awarded",
+      "description": "MTA awards $400.5 million contract to Hitachi Rail for 78 new metro cars and Communications-Based Train Control (CBTC) signaling, the first fleet replacement in system history."
+    },
+    {
+      "date": "2024-02-20",
+      "title": "Fleet Replacement Grant Awarded",
+      "description": "MTA awarded $213.7 million federal grant to replace the entire 53-vehicle Light Rail fleet with new modern railcars as part of the Light Rail Modernization Program."
+    },
+    {
+      "date": "2026-01-09",
+      "title": "Hitachi Rail Cars Enter Service",
+      "description": "New Hitachi Rail metro cars enter revenue service, marking the first fleet replacement in the system's 42-year history. The new cars feature AC propulsion, digital signage, and improved accessibility."
+    }
+  ]
+}

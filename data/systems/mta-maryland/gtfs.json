@@ -1,0 +1,30 @@
+{
+  "static": {
+    "sources": [
+      {
+        "url_secret": "BALTIMORE_METRO_GTFS_URL",
+        "auth": {
+          "type": "none"
+        },
+        "network": "metro"
+      },
+      {
+        "url_secret": "BALTIMORE_LR_GTFS_URL",
+        "auth": {
+          "type": "none"
+        },
+        "network": "light-rail"
+      }
+    ],
+    "filters": {
+      "stop_ids_exclude": ["7649"]
+    },
+    "route_groups": {
+      "metro": ["11682"],
+      "main-line": ["11693"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name"
+    }
+  }
+}
