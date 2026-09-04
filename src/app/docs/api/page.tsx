@@ -22,7 +22,7 @@ const endpoints: Endpoint[] = [
   {
     method: "GET",
     path: "/api/systems/:systemId",
-    description: "Get details for a specific transit system including history",
+    description: "Get details for a specific transit system including history and declared networks",
     params: [
       {
         name: "systemId",
@@ -35,7 +35,7 @@ const endpoints: Endpoint[] = [
   {
     method: "GET",
     path: "/api/systems/:systemId/lines",
-    description: "List all lines for a transit system",
+    description: "List all lines for a transit system; lines carry a network id on multi-mode systems",
     params: [{ name: "systemId", type: "string", description: "System identifier" }],
     example: "/api/systems/bart/lines",
   },

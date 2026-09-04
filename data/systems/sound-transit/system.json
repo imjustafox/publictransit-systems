@@ -78,5 +78,22 @@
       "title": "Crosslake Connection Opens",
       "description": "The 2 Line Crosslake Connection opens, linking the downtown Seattle tunnel to the Eastside via I-90 with new Judkins Park and Mercer Island stations. The 2 Line now runs the full route from Lynnwood to Downtown Redmond."
     }
+  ],
+  "networks": [
+    {
+      "id": "link-light-rail",
+      "name": "Link Light Rail",
+      "type": "light-rail"
+    },
+    {
+      "id": "sounder",
+      "name": "Sounder",
+      "type": "commuter-rail"
+    },
+    {
+      "id": "stride",
+      "name": "Stride",
+      "type": "bus"
+    }
   ]
 }

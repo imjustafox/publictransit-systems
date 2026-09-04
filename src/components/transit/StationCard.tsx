@@ -23,8 +23,14 @@ export function StationCard({
   className,
   compact = false,
 }: StationCardProps) {
+  // Canonical station URL lives under its first line's network when the
+  // system declares networks; flat otherwise (and for callers without lines).
+  const network = lines?.find((l) => l.id === station.lines[0])?.network;
+  const href = network
+    ? `/${systemId}/${network}/stations/${station.id}`
+    : `/${systemId}/stations/${station.id}`;
   return (
-    <Link href={`/${systemId}/stations/${station.id}`}>
+    <Link href={href}>
       <Card hover className={cn("h-full", className)}>
         <div className="flex items-start justify-between gap-2 mb-2">
           <h2 className="font-mono font-semibold text-text-primary">{station.name}</h2>

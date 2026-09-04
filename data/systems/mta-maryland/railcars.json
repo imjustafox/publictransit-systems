@@ -1,0 +1,83 @@
+{
+  "generations": [
+    {
+      "id": "budd-utv",
+      "systemId": "mta-maryland",
+      "name": "Budd UTV",
+      "manufacturer": "Budd Company",
+      "introduced": 1983,
+      "retired": null,
+      "status": "active",
+      "count": 100,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft",
+        "capacity": 166,
+        "seatedCapacity": 76,
+        "maxSpeed": "70 mph",
+        "weight": "76,000 lbs",
+        "traction": "DC chopper"
+      },
+      "description": "The Budd Universal Transit Vehicles were the last railcars ever built by the Budd Company. Cars 100–171 were delivered in 1983 from a joint order shared with Miami Metrorail, and cars 172–199 arrived in 1986 for the Owings Mills extension. The fleet was refurbished in 2002–2005 and is currently being phased out in favor of new Hitachi Rail cars."
+    },
+    {
+      "id": "hitachi-metro",
+      "systemId": "mta-maryland",
+      "name": "Hitachi Rail Metro",
+      "manufacturer": "Hitachi Rail",
+      "introduced": 2026,
+      "retired": null,
+      "status": "active",
+      "count": 78,
+      "specs": {
+        "length": "75 ft",
+        "width": "10 ft 2 in",
+        "capacity": 196,
+        "seatedCapacity": 76,
+        "maxSpeed": "47 mph",
+        "traction": "AC IGBT"
+      },
+      "description": "The Hitachi Rail metro cars are the first fleet replacement in system history, entering revenue service in January 2026. Built in Hagerstown, MD and Miami, FL as part of a $400.5 million contract that also includes Communications-Based Train Control signaling. The 78 cars operate as 39 married pairs and feature LED lighting, digital signage, and improved accessibility."
+    },
+    {
+      "id": "abb-lrv",
+      "systemId": "mta-maryland",
+      "name": "ABB LRV (5001–5035)",
+      "manufacturer": "ABB Traction",
+      "introduced": 1992,
+      "retired": null,
+      "status": "active",
+      "count": 35,
+      "specs": {
+        "length": "95 ft",
+        "width": "9 ft 6 in",
+        "capacity": 176,
+        "seatedCapacity": 85,
+        "maxSpeed": "60 mph",
+        "weight": "99,440 lbs",
+        "traction": "AC propulsion"
+      },
+      "description": "The original 35 articulated light rail vehicles, numbered 5001–5035, were the first transit vehicles in the United States to employ AC propulsion. Each three-section car is powered via pantograph from 750V DC overhead catenary. They were the widest LRVs in the US at delivery at 9 ft 6 in."
+    },
+    {
+      "id": "adtranz-lrv",
+      "systemId": "mta-maryland",
+      "name": "ADtranz LRV (5036–5053)",
+      "manufacturer": "AAI Corporation / ADtranz",
+      "introduced": 1997,
+      "retired": null,
+      "status": "active",
+      "count": 18,
+      "specs": {
+        "length": "95 ft",
+        "width": "9 ft 6 in",
+        "capacity": 176,
+        "seatedCapacity": 85,
+        "maxSpeed": "60 mph",
+        "weight": "99,440 lbs",
+        "traction": "AC propulsion"
+      },
+      "description": "18 additional vehicles, numbered 5036–5053, were delivered in 1997–1999 to support the Hunt Valley extension and BWI Airport branch. Built by AAI Corporation under the ADtranz brand (successor to ABB Traction), they are functionally identical to the original fleet. The entire 53-car fleet is slated for replacement under the Light Rail Modernization Program."
+    }
+  ]
+}

@@ -58,3 +58,6 @@ test-results/
 
 # wrangler local dev cache
 .wrangler/
+
+# design scratch, not repo content
+docs/superpowers/

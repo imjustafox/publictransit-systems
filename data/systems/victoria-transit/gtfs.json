@@ -1,0 +1,79 @@
+{
+  "static": {
+    "url_secret": "VICTORIA_GTFS_URL",
+    "auth": {
+      "type": "none"
+    },
+    "subfeeds": [
+      {
+        "path": "1/google_transit.zip",
+        "network": "vline"
+      },
+      {
+        "path": "2/google_transit.zip",
+        "network": "metro-trains"
+      },
+      {
+        "path": "3/google_transit.zip",
+        "network": "trams"
+      }
+    ],
+    "filters": {
+      "route_types": [0, 2, 400],
+      "route_ids_exclude": [
+        "aus:vic:vic-02-ALM-R:",
+        "aus:vic:vic-02-BEG-R:",
+        "aus:vic:vic-02-CBE-R:",
+        "aus:vic:vic-02-CGB-R:",
+        "aus:vic:vic-02-FKN-R:",
+        "aus:vic:vic-02-GWY-R:",
+        "aus:vic:vic-02-HBE-R:",
+        "aus:vic:vic-02-LIL-R:",
+        "aus:vic:vic-02-MDD-R:",
+        "aus:vic:vic-02-PKM-R:",
+        "aus:vic:vic-02-SHM-R:",
+        "aus:vic:vic-02-STY-R:",
+        "aus:vic:vic-02-SUY-R:",
+        "aus:vic:vic-02-UFD-R:",
+        "aus:vic:vic-02-WER-R:",
+        "aus:vic:vic-02-WIL-R:"
+      ]
+    },
+    "route_groups": {
+      "geelong-line": ["aus:vic:vic-01-GEL:", "aus:vic:vic-01-WBL:"],
+      "ballarat-line": ["aus:vic:vic-01-ART:", "aus:vic:vic-01-BAT:", "aus:vic:vic-01-MBY:"],
+      "bendigo-line": ["aus:vic:vic-01-BGO:", "aus:vic:vic-01-ECH:", "aus:vic:vic-01-SWL:"],
+      "seymour-line": ["aus:vic:vic-01-ABY:", "aus:vic:vic-01-SER:", "aus:vic:vic-01-SNH:"],
+      "gippsland-line": ["aus:vic:vic-01-BDE:", "aus:vic:vic-01-TRN:"],
+      "tram-1": ["aus:vic:vic-03-1:"],
+      "tram-3": ["aus:vic:vic-03-3:"],
+      "tram-5": ["aus:vic:vic-03-5:"],
+      "tram-6": ["aus:vic:vic-03-6:"],
+      "tram-11": ["aus:vic:vic-03-11:"],
+      "tram-12": ["aus:vic:vic-03-12:"],
+      "tram-16": ["aus:vic:vic-03-16:"],
+      "tram-19": ["aus:vic:vic-03-19:"],
+      "tram-30": ["aus:vic:vic-03-30:"],
+      "tram-35": ["aus:vic:vic-03-35:"],
+      "tram-48": ["aus:vic:vic-03-48:"],
+      "tram-57": ["aus:vic:vic-03-57:"],
+      "tram-58": ["aus:vic:vic-03-58:"],
+      "tram-59": ["aus:vic:vic-03-59:"],
+      "tram-64": ["aus:vic:vic-03-64:"],
+      "tram-67": ["aus:vic:vic-03-67:"],
+      "tram-70": ["aus:vic:vic-03-70:"],
+      "tram-72": ["aus:vic:vic-03-72:"],
+      "tram-75": ["aus:vic:vic-03-75:"],
+      "tram-78": ["aus:vic:vic-03-78:"],
+      "tram-82": ["aus:vic:vic-03-82:"],
+      "tram-86": ["aus:vic:vic-03-86:"],
+      "tram-96": ["aus:vic:vic-03-96:"],
+      "tram-109": ["aus:vic:vic-03-109:"]
+    },
+    "fields": {
+      "line_name_source": "route_short_name",
+      "line_color_fallback": "#5F249F",
+      "stop_grouping": "name"
+    }
+  }
+}

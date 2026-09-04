@@ -187,3 +187,72 @@ export async function parseGtfsBundle(zipBuffer: Buffer): Promise<GtfsBundle> {
       : [],
   };
 }
+
+// Merge parsed bundles into one: routes/trips/pathways concatenate, stop_times
+// and shapes union by id. Ids are trusted to be globally unique across bundles
+// except stops, which deliberately reuse ids for stations served by several
+// bundles (Footscray is vic:rail:FSY in both the V/Line and metro feeds);
+// first occurrence wins so shared stations merge instead of duplicating.
+export function mergeGtfsBundles(bundles: GtfsBundle[]): GtfsBundle {
+  const merged: GtfsBundle = {
+    routes: [],
+    stops: [],
+    trips: [],
+    stopTimesByTrip: new Map(),
+    shapesByShapeId: new Map(),
+    pathways: [],
+  };
+  const seenStops = new Set<string>();
+
+  for (const bundle of bundles) {
+    merged.routes.push(...bundle.routes);
+    merged.trips.push(...bundle.trips);
+    merged.pathways.push(...bundle.pathways);
+    for (const stop of bundle.stops) {
+      if (!seenStops.has(stop.stop_id)) {
+        seenStops.add(stop.stop_id);
+        merged.stops.push(stop);
+      }
+    }
+    for (const [tripId, stopTimes] of bundle.stopTimesByTrip) {
+      merged.stopTimesByTrip.set(tripId, stopTimes);
+    }
+    for (const [shapeId, points] of bundle.shapesByShapeId) {
+      merged.shapesByShapeId.set(shapeId, points);
+    }
+  }
+
+  return merged;
+}
+
+// A subfeed entry is either a bare inner-zip path or a { path, network }
+// object; the network id tags every route the subfeed contributes.
+export type SubfeedSpec = string | { path: string; network?: string };
+
+// Some publishers (Victoria's PTV) ship one outer zip holding a zip per
+// operational branch. Parse the named inner bundles and merge them into one.
+// Routes parsed from a subfeed that declares a network are reported in
+// networkByRouteId so the caller can carry the origin onto its lines.
+export async function parseGtfsSubfeeds(
+  outerBuffer: Buffer,
+  subfeeds: SubfeedSpec[]
+): Promise<GtfsBundle & { networkByRouteId: Map<string, string> }> {
+  const outer = await JSZip.loadAsync(outerBuffer);
+
+  const bundles: GtfsBundle[] = [];
+  const networkByRouteId = new Map<string, string>();
+
+  for (const entry of subfeeds) {
+    const { path, network } =
+      typeof entry === "string" ? { path: entry, network: undefined } : entry;
+    const file = outer.file(path);
+    if (!file) throw new Error(`Outer GTFS bundle missing subfeed: ${path}`);
+    const bundle = await parseGtfsBundle(Buffer.from(await file.async("nodebuffer")));
+    if (network) {
+      for (const route of bundle.routes) networkByRouteId.set(route.route_id, network);
+    }
+    bundles.push(bundle);
+  }
+
+  return { ...mergeGtfsBundles(bundles), networkByRouteId };
+}

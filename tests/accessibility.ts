@@ -7,8 +7,12 @@ type AxeFixture = {
   makeAxeBuilder: () => AxeBuilder;
 };
 
+type SystemFile = {
+  networks?: Array<{ id?: string }>;
+};
+
 type LinesFile = {
-  lines?: Array<{ id?: string; status?: string }>;
+  lines?: Array<{ id?: string; status?: string; network?: string }>;
 };
 
 type RailcarsFile = {
@@ -16,7 +20,7 @@ type RailcarsFile = {
 };
 
 type StationsFile = {
-  stations?: Array<{ id?: string }>;
+  stations?: Array<{ id?: string; lines?: string[] }>;
 };
 
 const dataDir = path.join(process.cwd(), "data", "systems");
@@ -65,6 +69,33 @@ export function getRoutes(): string[] {
     const firstStation = stations?.stations?.find((station) => station.id);
     if (firstStation?.id) {
       routes.add(`/${systemId}/stations/${firstStation.id}`);
+    }
+
+    // Networked systems: one landing plus one line and one station page per network.
+    const system = readJSON<SystemFile>(path.join(systemDir, "system.json"));
+    for (const network of system?.networks ?? []) {
+      if (!network.id) {
+        continue;
+      }
+      const firstNetworkLine = lines?.lines?.find(
+        (line) => line.id && line.status !== "disabled" && line.network === network.id
+      );
+      if (!firstNetworkLine?.id) {
+        // All-disabled placeholder networks (Stride) render nothing.
+        continue;
+      }
+      routes.add(`/${systemId}/${network.id}`);
+      routes.add(`/${systemId}/${network.id}/lines/${firstNetworkLine.id}`);
+
+      const networkLineIds = new Set(
+        lines?.lines?.filter((line) => line.network === network.id).map((line) => line.id) ?? []
+      );
+      const firstNetworkStation = stations?.stations?.find(
+        (station) => station.id && station.lines?.some((lineId) => networkLineIds.has(lineId))
+      );
+      if (firstNetworkStation?.id) {
+        routes.add(`/${systemId}/${network.id}/stations/${firstNetworkStation.id}`);
+      }
     }
   }
 

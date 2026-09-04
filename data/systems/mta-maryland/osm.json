@@ -269,7 +269,7 @@
       "entrances": [
         {
           "id": "osm-node-7785026037",
-          "name": "Penn–North",
+          "name": "Penn\u2013North",
           "coordinates": {
             "lat": 39.3102325,
             "lng": -76.6424918
@@ -279,7 +279,7 @@
         },
         {
           "id": "osm-node-844091722",
-          "name": "Penn–North",
+          "name": "Penn\u2013North",
           "coordinates": {
             "lat": 39.3103754,
             "lng": -76.6422095
@@ -299,6 +299,179 @@
         }
       ],
       "features": ["elevator"]
+    },
+    "north-linthicum": {
+      "osmId": "node/848279364",
+      "wikidata": "Q7055962"
+    },
+    "mt-washington": {
+      "osmId": "node/529084461",
+      "wikidata": "Q14692257",
+      "features": ["accessible"]
+    },
+    "bwi-airport": {
+      "osmId": "node/848318012",
+      "wikidata": "Q4836842",
+      "features": ["elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10070170226",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.1823201,
+            "lng": -76.6694993
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
+    "westport": {
+      "osmId": "node/847727112",
+      "wikidata": "Q7989583"
+    },
+    "camden-yards": {
+      "osmId": "node/845910705",
+      "wikidata": "Q5025819",
+      "features": ["accessible"]
+    },
+    "lutherville": {
+      "osmId": "node/844225037",
+      "wikidata": "Q6705770",
+      "features": ["accessible"]
+    },
+    "bwi-business-district": {
+      "osmId": "node/848318076",
+      "wikidata": "Q4836841"
+    },
+    "ferndale": {
+      "osmId": "node/850371399",
+      "wikidata": "Q5445053"
+    },
+    "falls-road": {
+      "osmId": "node/844224968",
+      "wikidata": "Q5432495"
+    },
+    "nursery-road": {
+      "osmId": "node/848279442",
+      "wikidata": "Q7070223"
+    },
+    "fairgrounds": {
+      "osmId": "node/844179240",
+      "wikidata": "Q7806934"
+    },
+    "linthicum": {
+      "osmId": "node/848279408",
+      "wikidata": "Q6554849",
+      "features": ["accessible"]
+    },
+    "cherry-hill": {
+      "osmId": "node/847727185",
+      "wikidata": "Q5092376"
+    },
+    "timonium-business-park": {
+      "osmId": "node/844225174",
+      "wikidata": "Q7806935",
+      "features": ["accessible"]
+    },
+    "centre-street": {
+      "osmId": "node/845371951",
+      "wikidata": "Q5062312"
+    },
+    "warren-road": {
+      "osmId": "node/844179301",
+      "wikidata": "Q7970453"
+    },
+    "baltimore-highlands": {
+      "osmId": "node/848279440",
+      "wikidata": "Q4852878"
+    },
+    "cultural-center": {
+      "osmId": "node/845372038",
+      "wikidata": "Q5193198",
+      "features": ["accessible"]
+    },
+    "lexington-market-light-rail": {
+      "osmId": "node/845372088",
+      "wikidata": "Q18153577",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-844091649",
+          "name": "Lexington Market",
+          "coordinates": {
+            "lat": 39.2916428,
+            "lng": -76.620633
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-844091777",
+          "name": "Lexington Market",
+          "coordinates": {
+            "lat": 39.2929275,
+            "lng": -76.620955
+          },
+          "accessibility": []
+        }
+      ]
+    },
+    "patapsco": {
+      "osmId": "node/848279259",
+      "wikidata": "Q7144253"
+    },
+    "woodberry": {
+      "osmId": "node/844696754",
+      "wikidata": "Q8032348"
+    },
+    "gilroy-road": {
+      "osmId": "node/844179024",
+      "wikidata": "Q5562585"
+    },
+    "convention-center": {
+      "osmId": "node/845911393",
+      "wikidata": "Q5166215",
+      "features": ["accessible"]
+    },
+    "cromwell-station-glen-burnie": {
+      "osmId": "node/850371396",
+      "wikidata": "Q5187676"
+    },
+    "hunt-valley": {
+      "osmId": "node/844118971",
+      "wikidata": "Q5944009"
+    },
+    "north-avenue": {
+      "osmId": "node/844812526",
+      "wikidata": "Q15262492"
+    },
+    "stadium-federal-hill": {
+      "osmId": "node/847727127",
+      "wikidata": "Q5644323"
+    },
+    "mccormick-road": {
+      "osmId": "node/844179415",
+      "wikidata": "Q6800581"
+    },
+    "pepper-road": {
+      "osmId": "node/844179287",
+      "wikidata": "Q7166374"
+    },
+    "university-center-baltimore-street": {
+      "osmId": "node/845911138",
+      "wikidata": "Q7894542"
+    },
+    "university-of-baltimore-mt-royal": {
+      "osmId": "node/844812290",
+      "wikidata": "Q7895106"
+    },
+    "cold-spring-lane": {
+      "osmId": "node/844696317",
+      "wikidata": "Q5142551",
+      "features": ["accessible"]
+    },
+    "penn-station": {
+      "osmId": "node/7103884603",
+      "wikidata": "Q3374785"
     }
   }
 }

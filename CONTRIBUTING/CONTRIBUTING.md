@@ -62,6 +62,33 @@ OSM enrichment runs automatically for every system and adds station
 identifiers, accessibility features, and entrances. Set
 `"osmEnrichment": false` in `system.json` only if you need to opt out.
 
+## Multi-mode systems and networks
+
+A system that spans several modes (Sound Transit's light rail and commuter
+rail, Victoria's trains and trams) declares networks in `system.json`:
+
+```jsonc
+"networks": [
+  { "id": "sounder", "name": "Sounder", "type": "commuter-rail" },
+  { "id": "link-light-rail", "name": "Link Light Rail", "type": "light-rail" }
+]
+```
+
+Once declared, every line must be tagged with a network id, and the build
+fails if one is missed. Three ways to tag, and the overlay always wins:
+
+- A subfeed entry carries the network when the feed nests one bundle per
+  mode: `{ "path": "2/google_transit.zip", "network": "metro-trains" }`.
+- `gtfs.json` maps line slugs directly:
+  `"networks": { "sounder": ["n-line", "s-line"] }`.
+- An overlay line entry sets `"network"` by hand, which is how lines the
+  feed does not know about get theirs.
+
+If the modes come from separate feed downloads entirely, use `sources`
+instead of a single `url_secret`, one entry per feed, each with its
+network. Networked systems grow a URL level (`/system/network/...`);
+single-mode systems keep flat URLs and need none of this.
+
 ## Live alerts from GTFS-RT
 
 Live service alerts and elevator or escalator outages come from the incidents

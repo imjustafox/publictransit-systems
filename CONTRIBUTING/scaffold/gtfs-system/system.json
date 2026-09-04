@@ -10,8 +10,6 @@
   "website": "https://www.example-metro.gov",
   "overview": "One or two sentences describing the system: what modes it runs, roughly where, and anything that makes it distinctive.",
   "stats": {
-    "totalStations": 48,
-    "totalLines": 3,
     "annualRidership": "22.5 million",
     "dailyRidership": "68,000",
     "trackLength": 52.4,

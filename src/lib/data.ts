@@ -2,6 +2,7 @@ import { promises as fs } from "fs";
 import path from "path";
 import type {
   TransitSystem,
+  TransitNetwork,
   Line,
   Station,
   RailcarGeneration,
@@ -58,6 +59,71 @@ export async function getLines(systemId: string, includeDisabled = false): Promi
 export async function getLine(systemId: string, lineId: string): Promise<Line | undefined> {
   const lines = await getLines(systemId);
   return lines.find((line) => line.id === lineId);
+}
+
+// Networks (declared in system.json for multi-mode systems; empty otherwise)
+export async function getNetworks(systemId: string): Promise<TransitNetwork[]> {
+  const system = await getSystem(systemId);
+  return system.networks ?? [];
+}
+
+// A declared network is visible only when it has at least one active line.
+// Placeholder networks whose lines are all disabled (Stride) stay declared
+// for data completeness but never render.
+export async function getVisibleNetworks(systemId: string): Promise<TransitNetwork[]> {
+  const [networks, lines] = await Promise.all([getNetworks(systemId), getLines(systemId)]);
+  return networks.filter((network) => lines.some((line) => line.network === network.id));
+}
+
+export async function getNetwork(
+  systemId: string,
+  networkId: string
+): Promise<TransitNetwork | undefined> {
+  const networks = await getNetworks(systemId);
+  return networks.find((network) => network.id === networkId);
+}
+
+export async function getLinesByNetwork(
+  systemId: string,
+  networkId: string,
+  includeDisabled = false
+): Promise<Line[]> {
+  const lines = await getLines(systemId, includeDisabled);
+  return lines.filter((line) => line.network === networkId);
+}
+
+// A station's networks are derived from its lines at read time, never stored.
+// Order follows the station's line order, so the first entry is the canonical
+// network the station's URL lives under.
+export async function getStationNetworkIds(systemId: string, station: Station): Promise<string[]> {
+  const lines = await getLines(systemId, true);
+  const networkIds: string[] = [];
+  for (const lineId of station.lines) {
+    const network = lines.find((line) => line.id === lineId)?.network;
+    if (network && !networkIds.includes(network)) {
+      networkIds.push(network);
+    }
+  }
+  return networkIds;
+}
+
+export async function getStationCanonicalNetworkId(
+  systemId: string,
+  station: Station
+): Promise<string | undefined> {
+  const networkIds = await getStationNetworkIds(systemId, station);
+  return networkIds[0];
+}
+
+export async function getStationsByNetwork(
+  systemId: string,
+  networkId: string
+): Promise<Station[]> {
+  const [stations, lines] = await Promise.all([getStations(systemId), getLines(systemId, true)]);
+  const networkLineIds = new Set(
+    lines.filter((line) => line.network === networkId).map((line) => line.id)
+  );
+  return stations.filter((station) => station.lines.some((lineId) => networkLineIds.has(lineId)));
 }
 
 // Stations data
@@ -158,6 +224,10 @@ export function getSystemUrl(systemId: string): string {
   return `/${systemId}`;
 }
 
+export function getNetworkUrl(systemId: string, networkId: string): string {
+  return `/${systemId}/${networkId}`;
+}
+
 export function getLineUrl(systemId: string, lineId: string): string {
   return `/${systemId}/lines/${lineId}`;
 }
@@ -190,6 +260,35 @@ export function getIncidentCacheStatus(): Record<string, { ageSeconds: number; s
   return status;
 }
 
+// The worker keeps its own feed ids; a merged app system maps onto several
+// worker feeds. Station keys that were renamed in the merge are translated.
+const WORKER_FEED_ALIASES: Record<
+  string,
+  Array<{ feed: string; renames?: Record<string, string> }>
+> = {
+  "mta-maryland": [
+    { feed: "baltimore-metro" },
+    {
+      feed: "baltimore-light-rail",
+      renames: { "lexington-market": "lexington-market-light-rail" },
+    },
+  ],
+};
+
+async function fetchWorkerFeed(feedId: string): Promise<IncidentData | null> {
+  try {
+    const response = await fetch(`${INCIDENTS_WORKER_URL}/incidents/${feedId}`, {
+      next: { revalidate: 300 },
+    });
+    if (response.ok) {
+      return (await response.json()) as IncidentData;
+    }
+  } catch {
+    // Worker unavailable; pages render without incident data.
+  }
+  return null;
+}
+
 export async function getIncidents(systemId: string): Promise<IncidentData | null> {
   // Systems the incidents worker polls. Keep in sync with SYSTEM_IDS in
   // workers/incidents/src/index.ts.
@@ -198,8 +297,7 @@ export async function getIncidents(systemId: string): Promise<IncidentData | nul
     "bart",
     "sound-transit",
     "nyc-subway",
-    "baltimore-metro",
-    "baltimore-light-rail",
+    "mta-maryland",
     "tokyo-metro",
     "cta",
     "rtd-denver",
@@ -212,19 +310,53 @@ export async function getIncidents(systemId: string): Promise<IncidentData | nul
     return cached.data;
   }
 
-  try {
-    const response = await fetch(`${INCIDENTS_WORKER_URL}/incidents/${systemId}`, {
-      next: { revalidate: 300 },
-    });
-    if (response.ok) {
-      const data = (await response.json()) as IncidentData;
-      incidentCache.set(systemId, { data, fetchedAt: Date.now() });
-      return data;
-    }
-  } catch {
-    // Worker unavailable; pages render without incident data.
+  const aliases = WORKER_FEED_ALIASES[systemId];
+  if (!aliases) {
+    const data = await fetchWorkerFeed(systemId);
+    if (data) incidentCache.set(systemId, { data, fetchedAt: Date.now() });
+    return data;
   }
-  return null;
+
+  const feeds = (await Promise.all(aliases.map((a) => fetchWorkerFeed(a.feed)))).map((data, i) => ({
+    data,
+    renames: aliases[i].renames,
+  }));
+  const present = feeds.filter((f) => f.data !== null);
+  if (present.length === 0) return null;
+
+  const merged: IncidentData = {
+    fetchedAt: new Date().toISOString(),
+    systemId,
+    summary: {
+      totalOutages: 0,
+      elevatorOutages: 0,
+      escalatorOutages: 0,
+      stationsAffected: 0,
+      activeAlerts: 0,
+    },
+    alerts: [],
+    outagesByStation: {},
+  };
+  for (const { data, renames } of present) {
+    const d = data!;
+    merged.summary.totalOutages += d.summary.totalOutages;
+    merged.summary.elevatorOutages += d.summary.elevatorOutages;
+    merged.summary.escalatorOutages += d.summary.escalatorOutages;
+    merged.summary.activeAlerts =
+      (merged.summary.activeAlerts ?? 0) + (d.summary.activeAlerts ?? 0);
+    merged.alerts!.push(...(d.alerts ?? []));
+    for (const [station, outages] of Object.entries(d.outagesByStation)) {
+      merged.outagesByStation[renames?.[station] ?? station] = outages;
+    }
+  }
+  merged.summary.stationsAffected = Object.keys(merged.outagesByStation).length;
+  // A partial merge (one feed down) is served but never cached, so the next
+  // request retries the missing feed instead of pinning partial data for the
+  // full TTL.
+  if (present.length === aliases.length) {
+    incidentCache.set(systemId, { data: merged, fetchedAt: Date.now() });
+  }
+  return merged;
 }
 
 export async function getStationOutages(

@@ -3,6 +3,7 @@
     {
       "id": "n-line",
       "systemId": "sound-transit",
+      "network": "sounder",
       "name": "N Line (Sounder)",
       "color": "9AB6D3",
       "colorHex": "#9AB6D3",
@@ -20,6 +21,7 @@
     {
       "id": "s-line",
       "systemId": "sound-transit",
+      "network": "sounder",
       "name": "S Line (Sounder)",
       "color": "9AB6D3",
       "colorHex": "#9AB6D3",
@@ -47,6 +49,7 @@
     {
       "id": "1-line",
       "systemId": "sound-transit",
+      "network": "link-light-rail",
       "name": "1 Line",
       "color": "28813F",
       "colorHex": "#28813F",
@@ -91,6 +94,7 @@
     {
       "id": "2-line",
       "systemId": "sound-transit",
+      "network": "link-light-rail",
       "name": "2 Line",
       "color": "007CAD",
       "colorHex": "#007CAD",
@@ -134,6 +138,7 @@
     {
       "id": "t-line",
       "systemId": "sound-transit",
+      "network": "link-light-rail",
       "name": "T Line (Tacoma Link)",
       "color": "F38B00",
       "colorHex": "#F38B00",
@@ -174,7 +179,8 @@
       },
       "length": 0,
       "stationCount": 0,
-      "description": "The 3 Line is a planned light rail line in the Sound Transit system."
+      "description": "The 3 Line is a planned light rail line in the Sound Transit system.",
+      "network": "link-light-rail"
     },
     {
       "systemId": "sound-transit",
@@ -189,7 +195,8 @@
       },
       "length": 0,
       "stationCount": 0,
-      "description": "The 4 Line is a planned light rail line in the Sound Transit system."
+      "description": "The 4 Line is a planned light rail line in the Sound Transit system.",
+      "network": "link-light-rail"
     },
     {
       "systemId": "sound-transit",
@@ -204,7 +211,8 @@
       },
       "length": 0,
       "stationCount": 0,
-      "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines."
+      "description": "Stride is Sound Transit's bus rapid transit service, comprising the S1, S2, and S3 lines.",
+      "network": "stride"
     }
   ]
 }

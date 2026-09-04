@@ -1,28 +1,56 @@
-import { notFound, permanentRedirect } from "next/navigation";
+import { notFound } from "next/navigation";
 import Link from "next/link";
-import { getSystem, getLines } from "@/lib/data";
+import {
+  getVisibleNetworks,
+  getAllSystems,
+  getSystem,
+  getNetwork,
+  getLinesByNetwork,
+  getStationsByNetwork,
+} from "@/lib/data";
 import { Card } from "@/components/ui/Card";
+import { Badge, StatusBadge } from "@/components/ui/Badge";
 import { LineIndicator } from "@/components/transit/LineIndicator";
-import { StatusBadge } from "@/components/ui/Badge";
 import { LineLength } from "@/components/transit/LineLength";
 import { formatTermini } from "@/lib/utils";
 
 interface PageProps {
-  params: Promise<{ system: string }>;
+  params: Promise<{ system: string; network: string }>;
 }
 
-export default async function LinesPage({ params }: PageProps) {
-  const { system: systemId } = await params;
-
-  const [system, lines] = await Promise.all([getSystem(systemId), getLines(systemId)]).catch(() =>
-    notFound()
-  );
-
-  // Networked systems list their lines grouped by network on the system page;
-  // the flat listing would be a duplicate surface.
-  if (system.networks && system.networks.length > 0) {
-    permanentRedirect(`/${systemId}`);
+export async function generateStaticParams() {
+  const systems = await getAllSystems();
+  const params: Array<{ system: string; network: string }> = [];
+  for (const system of systems) {
+    for (const network of await getVisibleNetworks(system.id)) {
+      params.push({ system: system.id, network: network.id });
+    }
   }
+  return params;
+}
+
+export default async function NetworkPage({ params }: PageProps) {
+  const { system: systemId, network: networkId } = await params;
+
+  const [system, network] = await Promise.all([
+    getSystem(systemId),
+    getNetwork(systemId, networkId),
+  ]).catch(() => notFound());
+
+  if (!network) {
+    notFound();
+  }
+
+  const activeLines = await getLinesByNetwork(systemId, networkId);
+  if (activeLines.length === 0) {
+    // Declared but all-disabled networks (placeholders) do not render.
+    notFound();
+  }
+
+  const [lines, stations] = await Promise.all([
+    getLinesByNetwork(systemId, networkId),
+    getStationsByNetwork(systemId, networkId),
+  ]);
 
   return (
     <div className="space-y-6">
@@ -32,21 +60,32 @@ export default async function LinesPage({ params }: PageProps) {
           {system.shortName}
         </Link>
         <span className="text-text-muted">/</span>
-        <span className="text-text-primary">Lines</span>
+        <span className="text-text-primary">{network.name}</span>
       </nav>
 
       {/* Header */}
       <div className="space-y-2">
-        <h1 className="text-2xl font-mono font-bold text-text-primary">{system.shortName} Lines</h1>
+        <div className="flex items-center gap-3">
+          <h1 className="text-2xl font-mono font-bold text-text-primary">{network.name}</h1>
+          <Badge variant="outline">
+            {network.type.replace(/-/g, " ").replace(/\b\w/g, (l) => l.toUpperCase())}
+          </Badge>
+        </div>
         <p className="text-text-secondary">
-          {lines.length} lines serving the {system.location} area
+          {lines.length} line{lines.length !== 1 ? "s" : ""} •{" "}
+          <Link
+            href={`/${systemId}/${networkId}/stations`}
+            className="text-accent-secondary hover:underline"
+          >
+            {stations.length} station{stations.length !== 1 ? "s" : ""} →
+          </Link>
         </p>
       </div>
 
       {/* Lines List */}
       <div className="space-y-3">
         {lines.map((line) => (
-          <Link key={line.id} href={`/${systemId}/lines/${line.id}`}>
+          <Link key={line.id} href={`/${systemId}/${networkId}/lines/${line.id}`}>
             <Card hover>
               <div className="flex items-center gap-4">
                 <LineIndicator

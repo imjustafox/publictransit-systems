@@ -1,5 +1,19 @@
 {
   "stations": {
+    "s0001": "owings-mills",
+    "s0002": "old-court",
+    "s0003": "milford-mill",
+    "s0004": "reisterstown-plaza",
+    "s0005": "rogers-avenue",
+    "s0006": "west-cold-spring",
+    "s0007": "mondawmin",
+    "s0008": "penn-north",
+    "s0009": "upton",
+    "s0010": "state-center",
+    "s0011": "lexington-market",
+    "s0012": "charles-center",
+    "s0013": "shot-tower",
+    "s0014": "johns-hopkins-hospital",
     "s7001": "cromwell-station-glen-burnie",
     "s7002": "ferndale",
     "s7003": "bwi-airport",
@@ -15,7 +29,7 @@
     "s7013": "camden-yards",
     "s7014": "convention-center",
     "s7015": "university-center-baltimore-street",
-    "s7016": "lexington-market",
+    "s7016": "lexington-market-light-rail",
     "s7017": "centre-street",
     "s7018": "cultural-center",
     "s7019": "university-of-baltimore-mt-royal",
@@ -35,6 +49,7 @@
     "s7034": "penn-station"
   },
   "lines": {
-    "main-line": "main-line"
+    "main-line": "main-line",
+    "metro": "metro"
   }
 }

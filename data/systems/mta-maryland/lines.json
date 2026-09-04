@@ -1,8 +1,42 @@
 {
   "lines": [
     {
+      "id": "metro",
+      "systemId": "mta-maryland",
+      "network": "metro",
+      "name": "Metro SubwayLink",
+      "color": "green",
+      "colorHex": "#00A550",
+      "status": "active",
+      "stations": [
+        "owings-mills",
+        "old-court",
+        "milford-mill",
+        "reisterstown-plaza",
+        "rogers-avenue",
+        "west-cold-spring",
+        "mondawmin",
+        "penn-north",
+        "upton",
+        "state-center",
+        "lexington-market",
+        "charles-center",
+        "shot-tower",
+        "johns-hopkins-hospital"
+      ],
+      "stationCount": 14,
+      "termini": ["Owings Mills", "Johns Hopkins Hospital"],
+      "topology": {
+        "type": "linear"
+      },
+      "length": 14.73,
+      "description": "The Metro SubwayLink runs 15.4 miles from Owings Mills in western Baltimore County through downtown Baltimore to Johns Hopkins Hospital in East Baltimore. The line includes 6.2 miles of underground tunnel, 2.2 miles of elevated track, and 6.8 miles at grade. Trains operate every 8 minutes during rush hours and every 15 minutes during off-peak hours.",
+      "opened": "1983-11-21"
+    },
+    {
       "id": "main-line",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
+      "network": "light-rail",
       "name": "Hunt Valley – Cromwell/Glen Burnie",
       "color": "blue",
       "colorHex": "#0072CE",
@@ -12,7 +46,7 @@
         "university-of-baltimore-mt-royal",
         "cultural-center",
         "centre-street",
-        "lexington-market",
+        "lexington-market-light-rail",
         "university-center-baltimore-street",
         "convention-center",
         "camden-yards",
@@ -52,7 +86,7 @@
       "opened": "1992-04-02"
     },
     {
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "id": "bwi-branch",
       "name": "BWI Airport Branch",
       "color": "blue",
@@ -65,10 +99,12 @@
       },
       "length": 2.7,
       "stationCount": 3,
-      "description": "A 2.7-mile branch diverging from the main line near Linthicum, serving the BWI Business District and BWI Thurgood Marshall Airport terminal. Partially single-tracked."
+      "description": "A 2.7-mile branch diverging from the main line near Linthicum, serving the BWI Business District and BWI Thurgood Marshall Airport terminal. Partially single-tracked.",
+      "network": "light-rail",
+      "stations": ["linthicum", "bwi-business-district", "bwi-airport"]
     },
     {
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "id": "penn-camden-shuttle",
       "name": "Penn-Camden Shuttle",
       "color": "blue",
@@ -81,7 +117,18 @@
       },
       "length": 1.8,
       "stationCount": 9,
-      "description": "A shuttle service running between Penn Station and Camden Yards via the downtown Howard Street corridor. Penn Station is connected via a 0.3-mile single-track spur from the main line near University of Baltimore/Mt Royal. Operates every 30 minutes with single-car trains."
+      "description": "A shuttle service running between Penn Station and Camden Yards via the downtown Howard Street corridor. Penn Station is connected via a 0.3-mile single-track spur from the main line near University of Baltimore/Mt Royal. Operates every 30 minutes with single-car trains.",
+      "network": "light-rail",
+      "stations": [
+        "camden-yards",
+        "convention-center",
+        "university-center-baltimore-street",
+        "lexington-market-light-rail",
+        "centre-street",
+        "cultural-center",
+        "university-of-baltimore-mt-royal",
+        "penn-station"
+      ]
     }
   ]
 }

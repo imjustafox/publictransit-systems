@@ -54,6 +54,7 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 /src
   /app                    # Next.js App Router pages
     /[system]             # Dynamic system routes
+      /[network]          # Network landings for multi-mode systems
       /lines/[line]       # Line detail pages
       /stations/[station] # Station detail pages
       /railcars/[model]   # Railcar detail pages
@@ -78,7 +79,9 @@ Open [http://localhost:3000](http://localhost:3000) to view the app.
 Most systems are generated from the agency's GTFS feed and refresh
 themselves nightly, with hand-authored content kept in a per-system
 overlay that regeneration never touches. If the agency has no feed, the
-four JSON files can still be written by hand.
+four JSON files can still be written by hand. Multi-mode systems declare
+networks (Sounder, Link Light Rail) and their lines tag into them, which
+gives each mode its own landing page and URL level.
 
 See [CONTRIBUTING/CONTRIBUTING.md](CONTRIBUTING/CONTRIBUTING.md) for
 the contributor guide, with copy-ready samples of each hand-written

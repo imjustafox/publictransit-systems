@@ -1,6 +1,14 @@
 import { promises as fs } from "fs";
 import path from "path";
-import { parseGtfsBundle, type GtfsRoute, type GtfsStopTime } from "./parser";
+import {
+  parseGtfsBundle,
+  parseGtfsSubfeeds,
+  mergeGtfsBundles,
+  type GtfsBundle,
+  type GtfsRoute,
+  type GtfsStopTime,
+  type SubfeedSpec,
+} from "./parser";
 import { resolveAuth, resolveUrl, MissingSecretError, type AuthConfig } from "./secrets";
 import { loadIdMap, saveIdMap, mergeIdMap, type IdMap } from "./id-map";
 import { detectTopology, extractTripPatterns } from "./topology";
@@ -18,9 +26,21 @@ import { RAIL_ROUTE_TYPES, WHEELCHAIR_BOARDING } from "./constants";
 
 interface GtfsConfig {
   static: {
-    url_secret: string;
-    auth: AuthConfig;
+    // Single-download form. Mutually exclusive with `sources`.
+    url_secret?: string;
+    auth?: AuthConfig;
+    // Independent downloads merged with the subfeed semantics (Baltimore's
+    // two static feeds stay separate fetches). Entries may carry a network
+    // id, tagging every route the source contributes.
+    sources?: Array<{ url_secret: string; auth?: AuthConfig; network?: string }>;
+    // Inner zip paths for feeds that nest one bundle per branch in the
+    // downloaded zip (e.g. Victoria's "2/google_transit.zip"). Entries may
+    // be { path, network } objects, tagging that branch's routes.
+    subfeeds?: SubfeedSpec[];
     route_groups?: Record<string, string[]>;
+    // Post-grouping line slugs per network id, for feeds where the network
+    // split doesn't follow subfeed/source boundaries (Sound Transit).
+    networks?: Record<string, string[]>;
     filters?: {
       route_types?: number[];
       agency_ids?: string[] | null;
@@ -31,7 +51,7 @@ interface GtfsConfig {
     fields?: {
       line_name_source?: "route_short_name" | "route_long_name";
       line_color_fallback?: string;
-      stop_grouping?: "parent_station" | "ifopt";
+      stop_grouping?: "parent_station" | "ifopt" | "name";
       entrances?: "gtfs";
     };
   };
@@ -87,25 +107,70 @@ export async function processSystem(
     throw err;
   }
 
-  // Resolve secrets, fetch
-  let bundleBuffer: Buffer;
+  // Resolve secrets, fetch, parse — malformed = fail loud. Routes from a
+  // subfeed or source that declares a network are remembered so their lines
+  // carry it.
+  if (config.static.sources && config.static.url_secret) {
+    throw new Error(
+      `${systemId}: gtfs.json static.sources and static.url_secret are mutually exclusive`
+    );
+  }
+  if (!config.static.sources && !config.static.url_secret) {
+    throw new Error(`${systemId}: gtfs.json needs static.url_secret or static.sources`);
+  }
+  let gtfs: GtfsBundle;
+  const networkByRouteId = new Map<string, string>();
   try {
-    const baseUrl = resolveUrl(config.static.url_secret, env);
-    const { url, headers } = resolveAuth(baseUrl, config.static.auth, env);
-    const response = await fetch(url, { headers });
-    if (!response.ok) {
-      return { systemId, status: "skipped", reason: `feed HTTP ${response.status}` };
+    if (config.static.sources) {
+      const bundles: GtfsBundle[] = [];
+      for (const source of config.static.sources) {
+        const fetched = await fetchFeed(source.url_secret, source.auth ?? { type: "none" }, env);
+        if (!fetched.ok) return { systemId, status: "skipped", reason: fetched.reason };
+        const bundle = await parseGtfsBundle(fetched.buffer);
+        if (source.network) {
+          for (const route of bundle.routes) networkByRouteId.set(route.route_id, source.network);
+        }
+        bundles.push(bundle);
+      }
+      // Independent sources have independent id namespaces. A stop_id owned
+      // by two sources with different names is a collision the first-wins
+      // dedup would silently paper over; fail loud instead.
+      const stopNames = new Map<string, string>();
+      for (const bundle of bundles) {
+        for (const stop of bundle.stops) {
+          const seen = stopNames.get(stop.stop_id);
+          if (seen !== undefined && seen !== stop.stop_name) {
+            throw new Error(
+              `sources stop_id collision: ${stop.stop_id} is "${seen}" in one feed and "${stop.stop_name}" in another; sources need disjoint or consistent stop ids`
+            );
+          }
+          stopNames.set(stop.stop_id, stop.stop_name);
+        }
+      }
+      gtfs = mergeGtfsBundles(bundles);
+    } else {
+      const fetched = await fetchFeed(
+        config.static.url_secret!,
+        config.static.auth ?? { type: "none" },
+        env
+      );
+      if (!fetched.ok) return { systemId, status: "skipped", reason: fetched.reason };
+      if (config.static.subfeeds?.length) {
+        const parsed = await parseGtfsSubfeeds(fetched.buffer, config.static.subfeeds);
+        for (const [routeId, network] of parsed.networkByRouteId) {
+          networkByRouteId.set(routeId, network);
+        }
+        gtfs = parsed;
+      } else {
+        gtfs = await parseGtfsBundle(fetched.buffer);
+      }
     }
-    bundleBuffer = Buffer.from(await response.arrayBuffer());
   } catch (err) {
     if (err instanceof MissingSecretError) {
       return { systemId, status: "skipped", reason: `missing secret: ${err.secretName}` };
     }
     throw err;
   }
-
-  // Parse — malformed = fail loud
-  const gtfs = await parseGtfsBundle(bundleBuffer);
 
   // Filter routes
   const filters = config.static.filters || {};
@@ -149,8 +214,34 @@ export async function processSystem(
     }
   }
   const useIfopt = config.static.fields?.stop_grouping === "ifopt";
-  const canonical = (sid: string): string =>
-    useIfopt ? ifoptStationId(sid) : (parentByStopId.get(sid) ?? sid);
+  // "name" grouping: stops sharing an exact name collapse to one station.
+  // For feeds with no parent stations where a platform pair is two stops with
+  // the same name (Yarra Trams: "Spencer St #122" once per direction). Falls
+  // back to parent_station when one exists so mixed subfeeds behave.
+  const useNameGrouping = config.static.fields?.stop_grouping === "name";
+  // The canonical member is the lexicographically smallest stop_id, not file
+  // order: feed row order churns between drops, and an order-dependent pick
+  // would re-key stations and grow the append-only id map with duplicates.
+  const firstStopIdByName = new Map<string, string>();
+  if (useNameGrouping) {
+    for (const stop of gtfs.stops) {
+      if (stop.parent_station) continue;
+      const current = firstStopIdByName.get(stop.stop_name);
+      if (current === undefined || stop.stop_id < current) {
+        firstStopIdByName.set(stop.stop_name, stop.stop_id);
+      }
+    }
+  }
+  const nameByStopId = new Map(gtfs.stops.map((s) => [s.stop_id, s.stop_name]));
+  const canonical = (sid: string): string => {
+    if (useIfopt) return ifoptStationId(sid);
+    const parent = parentByStopId.get(sid) ?? sid;
+    if (useNameGrouping && parent === sid) {
+      const name = nameByStopId.get(sid);
+      if (name) return firstStopIdByName.get(name) ?? sid;
+    }
+    return parent;
+  };
 
   // Build canonical stop_times per trip with consecutive-duplicate compression.
   // Two consecutive platforms of the same parent station collapse to a single visit
@@ -205,6 +296,30 @@ export async function processSystem(
     stops.map((s) => ({ gtfs_id: s.stop_id, name: s.stop_name })),
     "stations"
   );
+
+  // Network assignment: subfeed/source origin loses to the static.networks
+  // map (post-grouping line slugs); the overlay wins over both via the
+  // normal overlay merge. Grouped routes inherit from their first member
+  // with a known origin.
+  const networkBySlug = new Map<string, string>();
+  for (const [networkId, slugs] of Object.entries(config.static.networks ?? {})) {
+    for (const slug of slugs) {
+      const existing = networkBySlug.get(slug);
+      if (existing && existing !== networkId) {
+        throw new Error(`networks: line ${slug} appears in both "${existing}" and "${networkId}"`);
+      }
+      networkBySlug.set(slug, networkId);
+    }
+  }
+  const routeNetworkOrigin = (routeId: string): string | undefined => {
+    const direct = networkByRouteId.get(routeId);
+    if (direct) return direct;
+    for (const member of config.static.route_groups?.[routeId] ?? []) {
+      const network = networkByRouteId.get(member);
+      if (network) return network;
+    }
+    return undefined;
+  };
 
   // Build topology + per-line records
   const topologyByLine: Record<string, string> = {};
@@ -299,6 +414,8 @@ export async function processSystem(
     const baseLine: Plain = {
       id: lineSlug,
       systemId,
+      // undefined serializes away, so unassigned lines simply omit the key
+      network: networkBySlug.get(lineSlug) ?? routeNetworkOrigin(route.route_id),
       name: pickRouteName(route, config.static.fields?.line_name_source ?? "route_long_name"),
       color: route.route_color || fallbackColor,
       colorHex,
@@ -402,6 +519,22 @@ export async function processSystem(
       );
     }
   }
+  // A system that declares networks must file every line into one; systems
+  // without a declaration are free-form (network optional).
+  const declaredNetworks = (finalSystem as { networks?: Array<{ id: string }> }).networks;
+  if (declaredNetworks?.length) {
+    const declaredIds = new Set(declaredNetworks.map((n) => n.id));
+    for (const l of finalLines) {
+      if (typeof l.network !== "string" || !declaredIds.has(l.network)) {
+        throw new Error(
+          `line ${l.id} has ` +
+            (typeof l.network === "string" ? `undeclared network "${l.network}"` : "no network") +
+            ` but the system declares networks [${[...declaredIds].join(", ")}]; ` +
+            `assign one via a subfeed/source network, static.networks, or the overlay`
+        );
+      }
+    }
+  }
 
   // Write artifacts
   await fs.writeFile(systemJsonPath, JSON.stringify(finalSystem, null, 2) + "\n");
@@ -436,6 +569,20 @@ export async function processSystem(
       topologyByLine,
     },
   };
+}
+
+async function fetchFeed(
+  urlSecret: string,
+  auth: AuthConfig,
+  env: Record<string, string | undefined>
+): Promise<{ ok: true; buffer: Buffer } | { ok: false; reason: string }> {
+  const baseUrl = resolveUrl(urlSecret, env);
+  const { url, headers } = resolveAuth(baseUrl, auth, env);
+  const response = await fetch(url, { headers });
+  if (!response.ok) {
+    return { ok: false, reason: `feed HTTP ${response.status}` };
+  }
+  return { ok: true, buffer: Buffer.from(await response.arrayBuffer()) };
 }
 
 async function readOverlay(filepath: string): Promise<OverlayShape> {

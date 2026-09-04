@@ -1,8 +1,470 @@
 {
   "stations": [
     {
+      "id": "owings-mills",
+      "systemId": "mta-maryland",
+      "name": "Owings Mills",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.4073509,
+        "lng": -76.779895
+      },
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "osmId": "node/843713678",
+      "wikidata": "Q7114805",
+      "opened": "1987-07-20",
+      "description": "Western terminus of the Metro SubwayLink. Surface station with approximately 3,500 parking spaces, the largest park-and-ride facility in the system."
+    },
+    {
+      "id": "old-court",
+      "systemId": "mta-maryland",
+      "name": "Old Court",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3712687,
+        "lng": -76.7441504
+      },
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "osmId": "node/843714468",
+      "wikidata": "Q7083778",
+      "entrances": [
+        {
+          "id": "osm-node-843714355",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.3722916,
+            "lng": -76.7432785
+          },
+          "accessibility": []
+        }
+      ],
+      "opened": "1987-07-20",
+      "description": "Surface station serving the Old Court Road area of Baltimore County. Opened as part of the 1987 Owings Mills extension."
+    },
+    {
+      "id": "milford-mill",
+      "systemId": "mta-maryland",
+      "name": "Milford Mill",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3596928,
+        "lng": -76.7206052
+      },
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "osmId": "node/843713836",
+      "wikidata": "Q6851741",
+      "opened": "1987-07-20",
+      "description": "Surface station serving the Milford Mill area. The easternmost station added in the 1987 Owings Mills extension."
+    },
+    {
+      "id": "reisterstown-plaza",
+      "systemId": "mta-maryland",
+      "name": "Reisterstown Plaza",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3519903,
+        "lng": -76.7047713
+      },
+      "features": ["park-and-ride", "bus-connection", "fare-vending"],
+      "osmId": "node/843950380",
+      "wikidata": "Q7310492",
+      "entrances": [
+        {
+          "id": "osm-node-10245521724",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.3520905,
+            "lng": -76.7050071
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "opened": "1983-11-21",
+      "description": "Surface station adjacent to the Reisterstown Road Plaza shopping center. Original western terminus when the system opened in 1983."
+    },
+    {
+      "id": "rogers-avenue",
+      "systemId": "mta-maryland",
+      "name": "Rogers Avenue",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.344845,
+        "lng": -76.6919396
+      },
+      "features": ["bus-connection", "fare-vending"],
+      "osmId": "node/843950496",
+      "opened": "1983-11-21",
+      "description": "Surface station in the Park Heights neighborhood of northwest Baltimore."
+    },
+    {
+      "id": "west-cold-spring",
+      "systemId": "mta-maryland",
+      "name": "West Cold Spring",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3363104,
+        "lng": -76.6724589
+      },
+      "features": ["bus-connection", "fare-vending"],
+      "osmId": "node/844073713",
+      "wikidata": "Q7984858",
+      "opened": "1983-11-21",
+      "description": "Surface station near the intersection of Wabash Avenue and Cold Spring Lane in northwest Baltimore."
+    },
+    {
+      "id": "mondawmin",
+      "systemId": "mta-maryland",
+      "name": "Mondawmin",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3179565,
+        "lng": -76.6528647
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/844091673",
+      "wikidata": "Q6898603",
+      "entrances": [
+        {
+          "id": "osm-node-7785026035",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.3178254,
+            "lng": -76.6527187
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7785026036",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.3176851,
+            "lng": -76.6522864
+          },
+          "accessibility": []
+        }
+      ],
+      "opened": "1983-11-21",
+      "description": "Located near the Mondawmin Mall, this station marks the transition from surface running to the deep-bore tunnel section. Major bus transfer point."
+    },
+    {
+      "id": "penn-north",
+      "systemId": "mta-maryland",
+      "name": "Penn North",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3102007,
+        "lng": -76.6424841
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "entrances": [
+        {
+          "id": "osm-node-7785026037",
+          "name": "Penn–North",
+          "coordinates": {
+            "lat": 39.3102325,
+            "lng": -76.6424918
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-844091722",
+          "name": "Penn–North",
+          "coordinates": {
+            "lat": 39.3103754,
+            "lng": -76.6422095
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-9753419653",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.3103433,
+            "lng": -76.6428177
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        }
+      ],
+      "opened": "1983-11-21",
+      "description": "Deep underground station approximately 120 feet below street level, serving the Penn North neighborhood along Pennsylvania Avenue."
+    },
+    {
+      "id": "upton",
+      "systemId": "mta-maryland",
+      "name": "Upton",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.3043190313413,
+        "lng": -76.6355717225485
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/844091815",
+      "wikidata": "Q7899372",
+      "entrances": [
+        {
+          "id": "osm-node-7785026038",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.3041499,
+            "lng": -76.6356242
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7785026039",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.3038862,
+            "lng": -76.6357709
+          },
+          "accessibility": []
+        }
+      ],
+      "opened": "1983-11-21",
+      "description": "Underground station in the Upton neighborhood. Features Romare Bearden's jazz-themed mosaic artwork. Formerly known as Upton/Avenue Market."
+    },
+    {
+      "id": "state-center",
+      "systemId": "mta-maryland",
+      "name": "State Center",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.301515,
+        "lng": -76.623166
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/844091751",
+      "wikidata": "Q10276154",
+      "entrances": [
+        {
+          "id": "osm-node-7785026034",
+          "name": "State Center",
+          "coordinates": {
+            "lat": 39.3016981,
+            "lng": -76.6231126
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-844091838",
+          "name": "State Center",
+          "coordinates": {
+            "lat": 39.301844,
+            "lng": -76.622786
+          },
+          "accessibility": [],
+          "wheelchair": false
+        }
+      ],
+      "opened": "1983-11-21",
+      "description": "Underground station near the Maryland State Center office complex. Walking distance to the Light RailLink Cultural Center stop for transfers."
+    },
+    {
+      "id": "lexington-market",
+      "systemId": "mta-maryland",
+      "name": "Lexington Market",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.29173,
+        "lng": -76.620914
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/844091639",
+      "wikidata": "Q6537838",
+      "entrances": [
+        {
+          "id": "osm-node-844091649",
+          "name": "Lexington Market",
+          "coordinates": {
+            "lat": 39.2916428,
+            "lng": -76.620633
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-844091777",
+          "name": "Lexington Market",
+          "coordinates": {
+            "lat": 39.2929275,
+            "lng": -76.620955
+          },
+          "accessibility": []
+        }
+      ],
+      "opened": "1983-11-21",
+      "connections": ["lexington-market-light-rail"],
+      "description": "Underground station adjacent to the historic Lexington Market. Transfer point to the Light RailLink system via a short walk to the Lexington Market light rail stop on Howard Street."
+    },
+    {
+      "id": "charles-center",
+      "systemId": "mta-maryland",
+      "name": "Charles Center",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.289452,
+        "lng": -76.616275
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/844091742",
+      "wikidata": "Q5076168",
+      "entrances": [
+        {
+          "id": "osm-node-844091678",
+          "name": "Charles Center",
+          "coordinates": {
+            "lat": 39.2893707,
+            "lng": -76.616206
+          },
+          "accessibility": []
+        }
+      ],
+      "opened": "1983-11-21",
+      "description": "Underground station in the heart of downtown Baltimore's Charles Center business district. Original eastern terminus when the system opened in 1983."
+    },
+    {
+      "id": "shot-tower",
+      "systemId": "mta-maryland",
+      "name": "Shot Tower",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.289915,
+        "lng": -76.605583
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/7785026062",
+      "wikidata": "Q7502403",
+      "entrances": [
+        {
+          "id": "osm-node-7491500923",
+          "name": "Shot Tower",
+          "coordinates": {
+            "lat": 39.2899192,
+            "lng": -76.6055533
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7491500985",
+          "name": "Shot Tower",
+          "coordinates": {
+            "lat": 39.2897726,
+            "lng": -76.6054189
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7491500989",
+          "name": "Shot Tower",
+          "coordinates": {
+            "lat": 39.28942,
+            "lng": -76.6065342
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7491500992",
+          "name": "Shot Tower",
+          "coordinates": {
+            "lat": 39.2897548,
+            "lng": -76.6060937
+          },
+          "accessibility": ["elevator"]
+        }
+      ],
+      "opened": "1995-05-31",
+      "description": "Underground station near the historic Phoenix Shot Tower. Opened in 1995 as part of the Johns Hopkins extension. Formerly known as Shot Tower/Market Place."
+    },
+    {
+      "id": "johns-hopkins-hospital",
+      "systemId": "mta-maryland",
+      "name": "Johns Hopkins Hospital",
+      "lines": ["metro"],
+      "status": "active",
+      "coordinates": {
+        "lat": 39.2969481790348,
+        "lng": -76.5941707980649
+      },
+      "features": ["elevator", "escalator", "bus-connection", "fare-vending"],
+      "osmId": "node/844091748",
+      "wikidata": "Q6268023",
+      "entrances": [
+        {
+          "id": "osm-node-7491477578",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.2988437,
+            "lng": -76.5946238
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7491500913",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.2970775,
+            "lng": -76.5941301
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7785026028",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.2985352,
+            "lng": -76.5946483
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7785026029",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.2985378,
+            "lng": -76.5945746
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7785026030",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.2968979,
+            "lng": -76.5941375
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7785026031",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.2968954,
+            "lng": -76.5942085
+          },
+          "accessibility": []
+        }
+      ],
+      "opened": "1995-05-31",
+      "description": "Eastern terminus of the Metro SubwayLink, serving the Johns Hopkins Hospital campus and East Baltimore. Opened in 1995, completing the 14-station line."
+    },
+    {
       "id": "cromwell-station-glen-burnie",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Cromwell Station/Glen Burnie",
       "lines": ["main-line"],
       "status": "active",
@@ -18,7 +480,7 @@
     },
     {
       "id": "ferndale",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Ferndale",
       "lines": ["main-line"],
       "status": "active",
@@ -34,9 +496,9 @@
     },
     {
       "id": "bwi-airport",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "BWI Airport",
-      "lines": ["main-line"],
+      "lines": ["bwi-branch"],
       "status": "active",
       "coordinates": {
         "lat": 39.182827,
@@ -61,9 +523,9 @@
     },
     {
       "id": "bwi-business-district",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "BWI Business District",
-      "lines": ["main-line"],
+      "lines": ["bwi-branch"],
       "status": "active",
       "coordinates": {
         "lat": 39.191429,
@@ -77,9 +539,9 @@
     },
     {
       "id": "linthicum",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Linthicum",
-      "lines": ["main-line"],
+      "lines": ["main-line", "bwi-branch"],
       "status": "active",
       "coordinates": {
         "lat": 39.202332,
@@ -93,7 +555,7 @@
     },
     {
       "id": "north-linthicum",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "North Linthicum",
       "lines": ["main-line"],
       "status": "active",
@@ -109,7 +571,7 @@
     },
     {
       "id": "nursery-road",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Nursery Road",
       "lines": ["main-line"],
       "status": "active",
@@ -125,7 +587,7 @@
     },
     {
       "id": "baltimore-highlands",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Baltimore Highlands",
       "lines": ["main-line"],
       "status": "active",
@@ -141,7 +603,7 @@
     },
     {
       "id": "patapsco",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Patapsco",
       "lines": ["main-line"],
       "status": "active",
@@ -157,7 +619,7 @@
     },
     {
       "id": "cherry-hill",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Cherry Hill",
       "lines": ["main-line"],
       "status": "active",
@@ -173,7 +635,7 @@
     },
     {
       "id": "westport",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Westport",
       "lines": ["main-line"],
       "status": "active",
@@ -189,7 +651,7 @@
     },
     {
       "id": "stadium-federal-hill",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Stadium/Federal Hill",
       "lines": ["main-line"],
       "status": "active",
@@ -205,9 +667,9 @@
     },
     {
       "id": "camden-yards",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Camden Yards",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.283745,
@@ -221,9 +683,9 @@
     },
     {
       "id": "convention-center",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Convention Center",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.285789,
@@ -237,9 +699,9 @@
     },
     {
       "id": "university-center-baltimore-street",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "University Center/Baltimore Street",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.288818,
@@ -252,10 +714,10 @@
       "description": "Street-running station on Howard Street at Baltimore Street, near the University of Maryland, Baltimore campus."
     },
     {
-      "id": "lexington-market",
-      "systemId": "baltimore-light-rail",
+      "id": "lexington-market-light-rail",
+      "systemId": "mta-maryland",
       "name": "Lexington Market",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.292255,
@@ -285,14 +747,14 @@
         }
       ],
       "opened": "1992-04-02",
-      "connections": ["baltimore-metro:lexington-market"],
+      "connections": ["lexington-market"],
       "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station."
     },
     {
       "id": "centre-street",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Centre Street",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.296818,
@@ -306,9 +768,9 @@
     },
     {
       "id": "cultural-center",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Cultural Center",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.30368,
@@ -322,9 +784,9 @@
     },
     {
       "id": "university-of-baltimore-mt-royal",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "University of Baltimore/Mt Royal",
-      "lines": ["main-line"],
+      "lines": ["main-line", "penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.307499,
@@ -338,7 +800,7 @@
     },
     {
       "id": "north-avenue",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "North Avenue",
       "lines": ["main-line"],
       "status": "active",
@@ -354,7 +816,7 @@
     },
     {
       "id": "woodberry",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Woodberry",
       "lines": ["main-line"],
       "status": "active",
@@ -370,7 +832,7 @@
     },
     {
       "id": "cold-spring-lane",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Cold Spring Lane",
       "lines": ["main-line"],
       "status": "active",
@@ -386,7 +848,7 @@
     },
     {
       "id": "mt-washington",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Mt Washington",
       "lines": ["main-line"],
       "status": "active",
@@ -402,7 +864,7 @@
     },
     {
       "id": "falls-road",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Falls Road",
       "lines": ["main-line"],
       "status": "active",
@@ -418,7 +880,7 @@
     },
     {
       "id": "lutherville",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Lutherville",
       "lines": ["main-line"],
       "status": "active",
@@ -434,7 +896,7 @@
     },
     {
       "id": "timonium-business-park",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Timonium Business Park",
       "lines": ["main-line"],
       "status": "active",
@@ -450,7 +912,7 @@
     },
     {
       "id": "fairgrounds",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Fairgrounds",
       "lines": ["main-line"],
       "status": "active",
@@ -466,7 +928,7 @@
     },
     {
       "id": "warren-road",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Warren Road",
       "lines": ["main-line"],
       "status": "active",
@@ -482,7 +944,7 @@
     },
     {
       "id": "gilroy-road",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Gilroy Road",
       "lines": ["main-line"],
       "status": "active",
@@ -498,7 +960,7 @@
     },
     {
       "id": "mccormick-road",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "McCormick Road",
       "lines": ["main-line"],
       "status": "active",
@@ -514,7 +976,7 @@
     },
     {
       "id": "pepper-road",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Pepper Road",
       "lines": ["main-line"],
       "status": "active",
@@ -530,7 +992,7 @@
     },
     {
       "id": "hunt-valley",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Hunt Valley",
       "lines": ["main-line"],
       "status": "active",
@@ -546,9 +1008,9 @@
     },
     {
       "id": "penn-station",
-      "systemId": "baltimore-light-rail",
+      "systemId": "mta-maryland",
       "name": "Penn Station",
-      "lines": ["main-line"],
+      "lines": ["penn-camden-shuttle"],
       "status": "active",
       "coordinates": {
         "lat": 39.307768,

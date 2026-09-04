@@ -1,0 +1,190 @@
+[
+  {
+    "source": "/baltimore-metro/stations/charles-center",
+    "destination": "/mta-maryland/metro/stations/charles-center"
+  },
+  {
+    "source": "/baltimore-metro/stations/johns-hopkins-hospital",
+    "destination": "/mta-maryland/metro/stations/johns-hopkins-hospital"
+  },
+  {
+    "source": "/baltimore-metro/stations/lexington-market",
+    "destination": "/mta-maryland/metro/stations/lexington-market"
+  },
+  {
+    "source": "/baltimore-metro/stations/milford-mill",
+    "destination": "/mta-maryland/metro/stations/milford-mill"
+  },
+  {
+    "source": "/baltimore-metro/stations/mondawmin",
+    "destination": "/mta-maryland/metro/stations/mondawmin"
+  },
+  {
+    "source": "/baltimore-metro/stations/old-court",
+    "destination": "/mta-maryland/metro/stations/old-court"
+  },
+  {
+    "source": "/baltimore-metro/stations/owings-mills",
+    "destination": "/mta-maryland/metro/stations/owings-mills"
+  },
+  {
+    "source": "/baltimore-metro/stations/penn-north",
+    "destination": "/mta-maryland/metro/stations/penn-north"
+  },
+  {
+    "source": "/baltimore-metro/stations/reisterstown-plaza",
+    "destination": "/mta-maryland/metro/stations/reisterstown-plaza"
+  },
+  {
+    "source": "/baltimore-metro/stations/rogers-avenue",
+    "destination": "/mta-maryland/metro/stations/rogers-avenue"
+  },
+  {
+    "source": "/baltimore-metro/stations/shot-tower",
+    "destination": "/mta-maryland/metro/stations/shot-tower"
+  },
+  {
+    "source": "/baltimore-metro/stations/state-center",
+    "destination": "/mta-maryland/metro/stations/state-center"
+  },
+  {
+    "source": "/baltimore-metro/stations/upton",
+    "destination": "/mta-maryland/metro/stations/upton"
+  },
+  {
+    "source": "/baltimore-metro/stations/west-cold-spring",
+    "destination": "/mta-maryland/metro/stations/west-cold-spring"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/baltimore-highlands",
+    "destination": "/mta-maryland/light-rail/stations/baltimore-highlands"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/bwi-airport",
+    "destination": "/mta-maryland/light-rail/stations/bwi-airport"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/bwi-business-district",
+    "destination": "/mta-maryland/light-rail/stations/bwi-business-district"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/camden-yards",
+    "destination": "/mta-maryland/light-rail/stations/camden-yards"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/centre-street",
+    "destination": "/mta-maryland/light-rail/stations/centre-street"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/cherry-hill",
+    "destination": "/mta-maryland/light-rail/stations/cherry-hill"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/cold-spring-lane",
+    "destination": "/mta-maryland/light-rail/stations/cold-spring-lane"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/convention-center",
+    "destination": "/mta-maryland/light-rail/stations/convention-center"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/cromwell-station-glen-burnie",
+    "destination": "/mta-maryland/light-rail/stations/cromwell-station-glen-burnie"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/cultural-center",
+    "destination": "/mta-maryland/light-rail/stations/cultural-center"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/fairgrounds",
+    "destination": "/mta-maryland/light-rail/stations/fairgrounds"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/falls-road",
+    "destination": "/mta-maryland/light-rail/stations/falls-road"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/ferndale",
+    "destination": "/mta-maryland/light-rail/stations/ferndale"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/gilroy-road",
+    "destination": "/mta-maryland/light-rail/stations/gilroy-road"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/hunt-valley",
+    "destination": "/mta-maryland/light-rail/stations/hunt-valley"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/lexington-market",
+    "destination": "/mta-maryland/light-rail/stations/lexington-market-light-rail"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/linthicum",
+    "destination": "/mta-maryland/light-rail/stations/linthicum"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/lutherville",
+    "destination": "/mta-maryland/light-rail/stations/lutherville"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/mccormick-road",
+    "destination": "/mta-maryland/light-rail/stations/mccormick-road"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/mt-washington",
+    "destination": "/mta-maryland/light-rail/stations/mt-washington"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/north-avenue",
+    "destination": "/mta-maryland/light-rail/stations/north-avenue"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/north-linthicum",
+    "destination": "/mta-maryland/light-rail/stations/north-linthicum"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/nursery-road",
+    "destination": "/mta-maryland/light-rail/stations/nursery-road"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/patapsco",
+    "destination": "/mta-maryland/light-rail/stations/patapsco"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/penn-station",
+    "destination": "/mta-maryland/light-rail/stations/penn-station"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/pepper-road",
+    "destination": "/mta-maryland/light-rail/stations/pepper-road"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/stadium-federal-hill",
+    "destination": "/mta-maryland/light-rail/stations/stadium-federal-hill"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/timonium-business-park",
+    "destination": "/mta-maryland/light-rail/stations/timonium-business-park"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/university-center-baltimore-street",
+    "destination": "/mta-maryland/light-rail/stations/university-center-baltimore-street"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/university-of-baltimore-mt-royal",
+    "destination": "/mta-maryland/light-rail/stations/university-of-baltimore-mt-royal"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/warren-road",
+    "destination": "/mta-maryland/light-rail/stations/warren-road"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/westport",
+    "destination": "/mta-maryland/light-rail/stations/westport"
+  },
+  {
+    "source": "/baltimore-light-rail/stations/woodberry",
+    "destination": "/mta-maryland/light-rail/stations/woodberry"
+  }
+]
