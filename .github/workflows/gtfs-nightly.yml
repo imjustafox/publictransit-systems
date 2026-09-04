@@ -36,6 +36,7 @@ jobs:
           WMATA_API_KEY: ${{ secrets.WMATA_API_KEY }}
           NYC_SUBWAY_GTFS_URL: ${{ secrets.NYC_SUBWAY_GTFS_URL }}
           STUTTGART_GTFS_URL: ${{ secrets.STUTTGART_GTFS_URL }}
+          VICTORIA_GTFS_URL: ${{ secrets.VICTORIA_GTFS_URL }}
         run: pnpm run build:gtfs
 
       - name: Format refreshed data

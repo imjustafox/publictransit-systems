@@ -1,0 +1,128 @@
+{
+  "system": {
+    "stats": {
+      "annualRidership": "198 million train station entries (FY24-25)",
+      "dailyRidership": "543,000"
+    }
+  },
+  "lines": {
+    "geelong-line": {
+      "name": "Geelong Line",
+      "description": "V/Line's busiest corridor, from Southern Cross to Geelong and on to Warrnambool in the southwest."
+    },
+    "ballarat-line": {
+      "name": "Ballarat Line",
+      "description": "Serves Melbourne's west through Melton to Ballarat, with extensions to Ararat and Maryborough."
+    },
+    "bendigo-line": {
+      "name": "Bendigo Line",
+      "description": "Runs northwest through Sunbury to Bendigo, with extensions to Echuca and Swan Hill."
+    },
+    "seymour-line": {
+      "name": "Seymour Line",
+      "description": "The northeast corridor through Seymour, extended by Shepparton and Albury services."
+    },
+    "gippsland-line": {
+      "name": "Gippsland Line",
+      "description": "Heads east through the Latrobe Valley to Traralgon, with services continuing to Bairnsdale."
+    },
+    "tram-1": {
+      "name": "Route 1",
+      "abbreviation": "1"
+    },
+    "tram-3": {
+      "name": "Route 3",
+      "abbreviation": "3"
+    },
+    "tram-5": {
+      "name": "Route 5",
+      "abbreviation": "5"
+    },
+    "tram-6": {
+      "name": "Route 6",
+      "abbreviation": "6"
+    },
+    "tram-11": {
+      "name": "Route 11",
+      "abbreviation": "11"
+    },
+    "tram-12": {
+      "name": "Route 12",
+      "abbreviation": "12"
+    },
+    "tram-16": {
+      "name": "Route 16",
+      "abbreviation": "16"
+    },
+    "tram-19": {
+      "name": "Route 19",
+      "abbreviation": "19"
+    },
+    "tram-30": {
+      "name": "Route 30",
+      "abbreviation": "30"
+    },
+    "tram-35": {
+      "name": "Route 35",
+      "abbreviation": "35"
+    },
+    "tram-48": {
+      "name": "Route 48",
+      "abbreviation": "48"
+    },
+    "tram-57": {
+      "name": "Route 57",
+      "abbreviation": "57"
+    },
+    "tram-58": {
+      "name": "Route 58",
+      "abbreviation": "58"
+    },
+    "tram-59": {
+      "name": "Route 59",
+      "abbreviation": "59"
+    },
+    "tram-64": {
+      "name": "Route 64",
+      "abbreviation": "64"
+    },
+    "tram-67": {
+      "name": "Route 67",
+      "abbreviation": "67"
+    },
+    "tram-70": {
+      "name": "Route 70",
+      "abbreviation": "70"
+    },
+    "tram-72": {
+      "name": "Route 72",
+      "abbreviation": "72"
+    },
+    "tram-75": {
+      "name": "Route 75",
+      "abbreviation": "75"
+    },
+    "tram-78": {
+      "name": "Route 78",
+      "abbreviation": "78"
+    },
+    "tram-82": {
+      "name": "Route 82",
+      "abbreviation": "82"
+    },
+    "tram-86": {
+      "name": "Route 86",
+      "abbreviation": "86"
+    },
+    "tram-96": {
+      "name": "Route 96",
+      "abbreviation": "96"
+    },
+    "tram-109": {
+      "name": "Route 109",
+      "abbreviation": "109"
+    }
+  },
+  "stations": {},
+  "railcars": []
+}
