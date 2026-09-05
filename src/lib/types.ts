@@ -59,7 +59,8 @@ export interface SystemStats {
   totalStations: number;
   totalLines: number;
   annualRidership: string;
-  trackLength: number;
+  // Hand-authored published figure; absent until someone sources one.
+  trackLength?: number;
   trackMiles?: number; // deprecated, use trackLength
   dailyRidership: string;
   distanceUnit: DistanceUnit;

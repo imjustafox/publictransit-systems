@@ -15,11 +15,10 @@ interface SystemCardProps {
 
 export function SystemCard({ system, className }: SystemCardProps) {
   const { unit: displayUnit } = useDistanceUnit();
-  const trackLength = convertDistance(
-    system.stats.trackLength,
-    system.stats.distanceUnit,
-    displayUnit
-  );
+  const trackLength =
+    system.stats.trackLength === undefined
+      ? undefined
+      : convertDistance(system.stats.trackLength, system.stats.distanceUnit, displayUnit);
 
   return (
     <Link href={`/${system.id}`}>
@@ -42,7 +41,11 @@ export function SystemCard({ system, className }: SystemCardProps) {
         <div className="grid grid-cols-2 gap-4 pt-4 border-t border-border">
           <StatBlock label="Stations" value={system.stats.totalStations} />
           <StatBlock label="Lines" value={system.stats.totalLines} />
-          <StatBlock label="Track Length" value={Math.round(trackLength)} unit={displayUnit} />
+          <StatBlock
+            label="Track Length"
+            value={trackLength === undefined ? "—" : Math.round(trackLength)}
+            unit={trackLength === undefined ? undefined : displayUnit}
+          />
           <StatBlock label="Daily Riders" value={system.stats.dailyRidership} />
         </div>
       </Card>

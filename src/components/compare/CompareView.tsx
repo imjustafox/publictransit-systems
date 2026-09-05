@@ -48,7 +48,9 @@ export function CompareView({ systems }: CompareViewProps) {
       key: "trackLength",
       label: `Track Length (${displayUnit})`,
       getValue: (s: TransitSystem) =>
-        convertDistance(s.stats.trackLength, s.stats.distanceUnit, displayUnit).toFixed(1),
+        s.stats.trackLength === undefined
+          ? "—"
+          : convertDistance(s.stats.trackLength, s.stats.distanceUnit, displayUnit).toFixed(1),
     },
     {
       key: "dailyRidership",

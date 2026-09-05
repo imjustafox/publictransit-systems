@@ -10,7 +10,7 @@ import type { DistanceUnit } from "@/lib/types";
 interface SystemStats {
   totalStations: number;
   totalLines: number;
-  trackLength: number;
+  trackLength?: number;
   distanceUnit: DistanceUnit;
 }
 
@@ -24,8 +24,10 @@ export function GlobalStats({ systems }: GlobalStatsProps) {
   const totalStations = systems.reduce((sum, s) => sum + s.totalStations, 0);
   const totalLines = systems.reduce((sum, s) => sum + s.totalLines, 0);
 
-  // Convert all track lengths to the display unit and sum
+  // Convert all track lengths to the display unit and sum. Systems with no
+  // published figure sit this one out rather than poisoning the total.
   const totalTrackLength = systems.reduce((sum, s) => {
+    if (s.trackLength === undefined) return sum;
     return sum + convertDistance(s.trackLength, s.distanceUnit, displayUnit);
   }, 0);
 

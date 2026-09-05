@@ -9,7 +9,7 @@ import type { DistanceUnit } from "@/lib/types";
 interface SystemStatsProps {
   totalStations: number;
   totalLines: number;
-  trackLength: number;
+  trackLength?: number;
   sourceUnit: DistanceUnit;
   dailyRidership: string;
 }
@@ -22,14 +22,19 @@ export function SystemStats({
   dailyRidership,
 }: SystemStatsProps) {
   const { unit: displayUnit } = useDistanceUnit();
-  const convertedLength = convertDistance(trackLength, sourceUnit, displayUnit);
+  const convertedLength =
+    trackLength === undefined ? undefined : convertDistance(trackLength, sourceUnit, displayUnit);
 
   return (
     <Card>
       <StatGrid columns={4}>
         <StatBlock label="Stations" value={totalStations} />
         <StatBlock label="Lines" value={totalLines} />
-        <StatBlock label="Track Length" value={convertedLength.toFixed(1)} unit={displayUnit} />
+        <StatBlock
+          label="Track Length"
+          value={convertedLength === undefined ? "—" : convertedLength.toFixed(1)}
+          unit={convertedLength === undefined ? undefined : displayUnit}
+        />
         <StatBlock label="Daily Ridership" value={dailyRidership} />
       </StatGrid>
     </Card>
