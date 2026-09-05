@@ -1,8 +1,10 @@
 {
   "system": {
     "stats": {
-      "annualRidership": "198 million train station entries (FY24-25)",
-      "dailyRidership": "543,000"
+      "annualRidership": "405 million",
+      "dailyRidership": "1,110,000",
+      "trackLength": 1962,
+      "distanceUnit": "km"
     }
   },
   "lines": {

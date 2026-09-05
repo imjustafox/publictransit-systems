@@ -14,8 +14,9 @@
     "distanceUnit": "km",
     "totalLines": 47,
     "totalStations": 1307,
-    "annualRidership": "198 million train station entries (FY24-25)",
-    "dailyRidership": "543,000"
+    "annualRidership": "405 million",
+    "dailyRidership": "1,110,000",
+    "trackLength": 1962
   },
   "colors": {
     "primary": "#5F249F",
