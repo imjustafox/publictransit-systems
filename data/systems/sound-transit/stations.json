@@ -1429,7 +1429,47 @@
         "lat": 47.724043,
         "lng": -122.323851
       },
-      "features": ["elevator"]
+      "features": ["accessible", "elevator"],
+      "osmId": "node/14245205599",
+      "wikidata": "Q23926714",
+      "entrances": [
+        {
+          "id": "osm-node-14203862540",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.7235527,
+            "lng": -122.3237574
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14203862541",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.7235521,
+            "lng": -122.3239244
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14203862542",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.7244589,
+            "lng": -122.323718
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14203862543",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.724455,
+            "lng": -122.3238874
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "shoreline-south-148th",
@@ -1644,7 +1684,7 @@
         "lng": -122.297714
       },
       "features": ["elevator", "escalator", "fare-vending", "parking", "bus-connection"],
-      "osmId": "node/7744630743",
+      "osmId": "way/1557767611",
       "wikidata": "Q14713586",
       "entrances": [
         {
@@ -1860,7 +1900,9 @@
         "lat": 47.811152,
         "lng": -122.384373
       },
-      "features": ["elevator"]
+      "features": ["accessible", "elevator"],
+      "osmId": "node/7012109793",
+      "wikidata": "Q3095725"
     },
     {
       "id": "mukilteo-station",
@@ -1884,7 +1926,20 @@
         "lat": 47.974947,
         "lng": -122.197257
       },
-      "features": ["elevator"]
+      "features": ["accessible", "elevator"],
+      "osmId": "node/7012109791",
+      "wikidata": "Q3095760",
+      "entrances": [
+        {
+          "id": "osm-node-7057386271",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.9742824,
+            "lng": -122.196548
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "king-street-station",
@@ -1896,7 +1951,80 @@
         "lat": 47.597702,
         "lng": -122.329456
       },
-      "features": ["elevator"]
+      "features": ["accessible", "elevator"],
+      "osmId": "way/442511853",
+      "wikidata": "Q536131",
+      "entrances": [
+        {
+          "id": "osm-node-11300787519",
+          "name": "4th Avenue South",
+          "coordinates": {
+            "lat": 47.5975817,
+            "lng": -122.3294165
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-11300787522",
+          "name": "Sounder Platform Elevator",
+          "coordinates": {
+            "lat": 47.5975704,
+            "lng": -122.3294629
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-11300787524",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 47.5983845,
+            "lng": -122.3301374
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-1696334331",
+          "name": "4th Avenue South",
+          "coordinates": {
+            "lat": 47.597636,
+            "lng": -122.3294626
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-4401932587",
+          "name": "Weller Street Elevator",
+          "coordinates": {
+            "lat": 47.5976152,
+            "lng": -122.3302764
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-672239646",
+          "name": "To King Street",
+          "coordinates": {
+            "lat": 47.5984155,
+            "lng": -122.3301186
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-8507802561",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 47.5986787,
+            "lng": -122.3298268
+          },
+          "accessibility": [],
+          "wheelchair": true
+        }
+      ]
     },
     {
       "id": "tukwila-sounder-station",
@@ -1908,7 +2036,9 @@
         "lat": 47.460199,
         "lng": -122.24043
       },
-      "features": ["elevator"]
+      "features": ["accessible", "elevator"],
+      "osmId": "node/7012640630",
+      "wikidata": "Q3097914"
     },
     {
       "id": "kent-sounder-station",
@@ -1920,7 +2050,9 @@
         "lat": 47.384154,
         "lng": -122.233033
       },
-      "features": ["elevator"]
+      "features": ["elevator"],
+      "osmId": "way/334255606",
+      "wikidata": "Q6391588"
     },
     {
       "id": "auburn-station",
@@ -1932,7 +2064,20 @@
         "lat": 47.306411,
         "lng": -122.232257
       },
-      "features": ["elevator"]
+      "features": ["elevator"],
+      "osmId": "way/334255605",
+      "wikidata": "Q4819233",
+      "entrances": [
+        {
+          "id": "osm-node-8122575932",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.3062128,
+            "lng": -122.2325097
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "sumner-station",
@@ -1944,7 +2089,9 @@
         "lat": 47.201287,
         "lng": -122.244813
       },
-      "features": ["elevator"]
+      "features": ["elevator"],
+      "osmId": "way/334255607",
+      "wikidata": "Q7637953"
     },
     {
       "id": "puyallup-station",
@@ -1956,7 +2103,9 @@
         "lat": 47.192717,
         "lng": -122.295675
       },
-      "features": ["elevator"]
+      "features": ["elevator"],
+      "osmId": "way/334251575",
+      "wikidata": "Q7262633"
     },
     {
       "id": "tacoma-dome-station",
@@ -1980,7 +2129,9 @@
         "lat": 47.203491,
         "lng": -122.485552
       },
-      "features": ["elevator"]
+      "features": ["elevator"],
+      "osmId": "way/334251578",
+      "wikidata": "Q14713900"
     },
     {
       "id": "lakewood-station",
@@ -1992,7 +2143,39 @@
         "lat": 47.153189,
         "lng": -122.499103
       },
-      "features": ["elevator"]
+      "features": ["elevator"],
+      "osmId": "way/944912825",
+      "wikidata": "Q14713788",
+      "entrances": [
+        {
+          "id": "osm-node-7848351702",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.1537655,
+            "lng": -122.498526
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-7848351712",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.1534089,
+            "lng": -122.498213
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-7848351713",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.1533956,
+            "lng": -122.4982367
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     {
       "id": "tacoma-dome-t",

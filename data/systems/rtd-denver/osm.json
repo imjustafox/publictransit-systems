@@ -1,5 +1,46 @@
 {
   "stations": {
+    "jefferson-co-government-golden": {
+      "osmId": "node/2377305079",
+      "features": ["accessible"]
+    },
+    "2nd-ave-abilene": {
+      "osmId": "node/3250450281"
+    },
+    "13th-ave": {
+      "osmId": "node/6778270832",
+      "wikidata": "Q28841956"
+    },
+    "48th-ave-brighton-blvd-nat-l-western-ctr": {
+      "osmId": "node/4459574189",
+      "wikidata": "Q28197686",
+      "features": ["accessible"]
+    },
+    "commerce-city-72nd-ave": {
+      "osmId": "node/4459574190",
+      "wikidata": "Q28197686",
+      "features": ["accessible"]
+    },
+    "original-thornton-88th-ave": {
+      "osmId": "node/4459574191",
+      "wikidata": "Q85791236",
+      "features": ["accessible"]
+    },
+    "thornton-crossroads-104th-ave": {
+      "osmId": "node/4459574192",
+      "wikidata": "Q85809372",
+      "features": ["accessible"]
+    },
+    "northglenn-112th-ave": {
+      "osmId": "node/4459574193",
+      "wikidata": "Q85789781",
+      "features": ["accessible"]
+    },
+    "eastlake-124th-ave": {
+      "osmId": "node/4459574194",
+      "wikidata": "Q85758405",
+      "features": ["accessible"]
+    },
     "16th-california": {
       "osmId": "node/983926555",
       "features": ["accessible"]
@@ -249,11 +290,6 @@
       "wikidata": "Q5415873",
       "features": ["accessible"]
     },
-    "northglenn-112th-ave": {
-      "osmId": "node/4459574193",
-      "wikidata": "Q85789781",
-      "features": ["accessible"]
-    },
     "oak": {
       "osmId": "node/2376710507",
       "wikidata": "Q16896002",
@@ -264,17 +300,9 @@
       "wikidata": "Q7166484",
       "features": ["accessible"]
     },
-    "2nd-ave-abilene": {
-      "osmId": "node/3250450281"
-    },
     "alameda": {
       "osmId": "node/1362259728",
       "wikidata": "Q4705848",
-      "features": ["accessible"]
-    },
-    "original-thornton-88th-ave": {
-      "osmId": "node/4459574191",
-      "wikidata": "Q85791236",
       "features": ["accessible"]
     },
     "oxford-city-of-sheridan": {
@@ -285,16 +313,6 @@
     "auraria-west-campus": {
       "osmId": "node/1362259729",
       "wikidata": "Q4822143",
-      "features": ["accessible"]
-    },
-    "eastlake-124th-ave": {
-      "osmId": "node/4459574194",
-      "wikidata": "Q85758405",
-      "features": ["accessible"]
-    },
-    "commerce-city-72nd-ave": {
-      "osmId": "node/4459574190",
-      "wikidata": "Q28197686",
       "features": ["accessible"]
     },
     "decatur-federal": {
@@ -316,11 +334,6 @@
           "accessibility": ["elevator"]
         }
       ]
-    },
-    "48th-ave-brighton-blvd-nat-l-western-ctr": {
-      "osmId": "node/4459574189",
-      "wikidata": "Q28197686",
-      "features": ["accessible"]
     },
     "60th-sheridan-arvada-gold-strike": {
       "osmId": "node/5601586822",
@@ -448,10 +461,6 @@
           "accessibility": ["elevator"]
         }
       ]
-    },
-    "13th-ave": {
-      "osmId": "node/6778270832",
-      "wikidata": "Q28841956"
     },
     "federal-center": {
       "osmId": "node/2376710603",
@@ -605,11 +614,6 @@
         }
       ]
     },
-    "thornton-crossroads-104th-ave": {
-      "osmId": "node/4459574192",
-      "wikidata": "Q85809372",
-      "features": ["accessible"]
-    },
     "i-25-broadway": {
       "osmId": "node/1362259733",
       "wikidata": "Q5967528",
@@ -654,10 +658,6 @@
           "accessibility": ["elevator"]
         }
       ]
-    },
-    "jefferson-co-government-golden": {
-      "osmId": "node/2377305079",
-      "features": ["accessible"]
     },
     "41st-fox": {
       "osmId": "node/3032349499",

@@ -605,10 +605,30 @@
           "id": "osm-node-13520313550",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8019818,
-            "lng": -87.6185227
+            "lat": 41.8019723,
+            "lng": -87.6185222
           },
           "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14158361592",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.801961,
+            "lng": -87.6184078
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14158361595",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.8020365,
+            "lng": -87.6186128
+          },
+          "accessibility": ["elevator"],
           "wheelchair": true
         }
       ],
@@ -2182,6 +2202,16 @@
       "wikidata": "Q3416226",
       "entrances": [
         {
+          "id": "osm-node-14259052349",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.875857,
+            "lng": -87.6617261
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
           "id": "osm-node-2051982650",
           "name": "Entrance",
           "coordinates": {
@@ -2316,10 +2346,50 @@
           "id": "osm-node-13520159132",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.7948933,
-            "lng": -87.6183403
+            "lat": 41.7949068,
+            "lng": -87.6183397
           },
           "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14197737940",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7949268,
+            "lng": -87.6184075
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14197737941",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.7949287,
+            "lng": -87.6182728
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14197737954",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7949909,
+            "lng": -87.6184377
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-14197737955",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 41.7949932,
+            "lng": -87.6182469
+          },
+          "accessibility": ["elevator"],
           "wheelchair": true
         }
       ],
@@ -3271,8 +3341,8 @@
           "id": "osm-node-10302062624",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7802707,
-            "lng": -87.606075
+            "lat": 41.7802868,
+            "lng": -87.6060775
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -3281,8 +3351,8 @@
           "id": "osm-node-10302062627",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7805353,
-            "lng": -87.606092
+            "lat": 41.7805396,
+            "lng": -87.6060774
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -3291,7 +3361,7 @@
           "id": "osm-node-2039152474",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.7807325,
+            "lat": 41.7807347,
             "lng": -87.6060783
           },
           "accessibility": [],
@@ -3302,7 +3372,7 @@
           "name": "Entrance",
           "coordinates": {
             "lat": 41.7807347,
-            "lng": -87.6058
+            "lng": -87.605802
           },
           "accessibility": [],
           "wheelchair": false
@@ -4393,31 +4463,29 @@
           "id": "osm-node-13153337443",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.7790683,
-            "lng": -87.6446006
+            "lat": 41.7790757,
+            "lng": -87.6446284
           },
           "accessibility": [],
           "wheelchair": true
         },
         {
-          "id": "osm-node-6774669070",
+          "id": "osm-node-14260060867",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7790898,
-            "lng": -87.6445636
+            "lat": 41.7790907,
+            "lng": -87.6445359
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
-          "id": "osm-node-6774669073",
+          "id": "osm-node-14260060870",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7789946,
-            "lng": -87.6445587
+            "lat": 41.7789895,
+            "lng": -87.6445361
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         }
       ],
       "description": "Halsted is a station on the Green Line in the Englewood neighborhood."
@@ -5016,7 +5084,7 @@
           "id": "osm-node-13787670388",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.8095844,
+            "lat": 41.809584,
             "lng": -87.6189248
           },
           "accessibility": ["elevator"]
@@ -5261,7 +5329,7 @@
           "id": "osm-node-10302062545",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7801379,
+            "lat": 41.7801382,
             "lng": -87.6157742
           },
           "accessibility": ["elevator"],
@@ -5272,7 +5340,7 @@
           "name": "King Drive",
           "coordinates": {
             "lat": 41.7806022,
-            "lng": -87.615731
+            "lng": -87.6157294
           },
           "accessibility": [],
           "wheelchair": true
@@ -5281,8 +5349,8 @@
           "id": "osm-node-5839695426",
           "name": "King Drive",
           "coordinates": {
-            "lat": 41.7806049,
-            "lng": -87.6155526
+            "lat": 41.7806061,
+            "lng": -87.6155506
           },
           "accessibility": [],
           "wheelchair": false

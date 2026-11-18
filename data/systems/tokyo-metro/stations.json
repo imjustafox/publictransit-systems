@@ -13560,7 +13560,7 @@
         "lat": 35.708467,
         "lng": 139.813735
       },
-      "features": ["elevator", "escalator", "fare-vending", "transfer"],
+      "features": ["accessible", "elevator", "escalator", "fare-vending", "transfer"],
       "description": "Eastern terminus at Tokyo Skytree, connecting to Tobu and Keisei lines.",
       "dailyRidership": 183422,
       "entrances": [
@@ -13619,7 +13619,9 @@
           },
           "accessibility": []
         }
-      ]
+      ],
+      "osmId": "node/3666792383",
+      "wikidata": "Q80545"
     },
     {
       "id": "meguro",

@@ -9651,7 +9651,18 @@
         "lng": 116.4022485
       },
       "osmId": "node/3369459839",
-      "wikidata": "Q18654011"
+      "wikidata": "Q18654011",
+      "entrances": [
+        {
+          "id": "osm-node-14340480958",
+          "name": "C",
+          "coordinates": {
+            "lat": 39.8911858,
+            "lng": 116.4038698
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "梨园",
@@ -14475,7 +14486,18 @@
         "lng": 116.5641046
       },
       "osmId": "node/6930098568",
-      "wikidata": "Q76063542"
+      "wikidata": "Q76063542",
+      "entrances": [
+        {
+          "id": "osm-node-14244804908",
+          "name": "Lanxinzhuang D",
+          "coordinates": {
+            "lat": 39.8552149,
+            "lng": 116.5631887
+          },
+          "accessibility": []
+        }
+      ]
     },
     {
       "id": "郝家府",

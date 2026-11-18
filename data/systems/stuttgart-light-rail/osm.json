@@ -102,7 +102,8 @@
             "lat": 48.8033197,
             "lng": 9.1894543
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         }
       ]
     },
@@ -174,7 +175,8 @@
     },
     "stadtwerke-stuttgart": {
       "osmId": "node/5646998090",
-      "wikidata": "Q106880765"
+      "wikidata": "Q106880765",
+      "features": ["accessible"]
     },
     "heidehofstrasse": {
       "osmId": "node/3224912068",
@@ -200,7 +202,8 @@
     },
     "waldeck": {
       "osmId": "node/5639195396",
-      "wikidata": "Q106879732"
+      "wikidata": "Q106879732",
+      "features": ["accessible"]
     },
     "salzaecker": {
       "osmId": "node/5619200637",
@@ -224,7 +227,8 @@
       "features": ["accessible"]
     },
     "salamanderweg": {
-      "osmId": "node/10873807603"
+      "osmId": "node/10873807603",
+      "features": ["accessible"]
     },
     "erwin-schoettle-platz": {
       "osmId": "node/5646957211",
@@ -246,7 +250,8 @@
     },
     "kaltental": {
       "osmId": "node/5639184610",
-      "wikidata": "Q106880782"
+      "wikidata": "Q106880782",
+      "features": ["accessible"]
     },
     "olgaeck": {
       "osmId": "node/11070705450",
@@ -274,7 +279,8 @@
     },
     "fauststrasse": {
       "osmId": "node/5639140040",
-      "wikidata": "Q106879686"
+      "wikidata": "Q106879686",
+      "features": ["accessible"]
     },
     "untertuerkheim-bf": {
       "osmId": "node/248909838",
@@ -375,7 +381,8 @@
     },
     "vaihingen-schillerplatz": {
       "osmId": "node/9775741114",
-      "wikidata": "Q106879726"
+      "wikidata": "Q106879726",
+      "features": ["accessible"]
     },
     "loewentor": {
       "osmId": "node/11069865625",
@@ -493,7 +500,7 @@
             "lng": 9.1772162
           },
           "accessibility": [],
-          "wheelchair": true
+          "wheelchair": false
         },
         {
           "id": "osm-node-4288719179",
@@ -580,7 +587,8 @@
     },
     "zuffenhausen-rathaus": {
       "osmId": "node/5532654963",
-      "wikidata": "Q106879747"
+      "wikidata": "Q106879747",
+      "features": ["accessible"]
     },
     "wallgraben": {
       "osmId": "node/11068366147",
@@ -626,7 +634,8 @@
     },
     "kelterplatz": {
       "osmId": "node/5621612007",
-      "wikidata": "Q106879746"
+      "wikidata": "Q106879746",
+      "features": ["accessible"]
     },
     "stelle": {
       "osmId": "node/279898521"
@@ -649,11 +658,13 @@
     },
     "schozacher-strasse": {
       "osmId": "node/5623677125",
-      "wikidata": "Q106882041"
+      "wikidata": "Q106882041",
+      "features": ["accessible"]
     },
     "remseck-neckargroeningen": {
       "osmId": "node/11066948709",
-      "wikidata": "Q106880829"
+      "wikidata": "Q106880829",
+      "features": ["accessible"]
     },
     "schelmenwasen": {
       "osmId": "node/11066897677",
@@ -747,7 +758,8 @@
     },
     "salzwiesenstrasse": {
       "osmId": "node/5532634543",
-      "wikidata": "Q106890975"
+      "wikidata": "Q106890975",
+      "features": ["accessible"]
     },
     "brendle": {
       "osmId": "node/5648992534",
@@ -774,7 +786,8 @@
     },
     "stadionstrasse": {
       "osmId": "node/11066897676",
-      "wikidata": "Q110670891"
+      "wikidata": "Q110670891",
+      "features": ["accessible"]
     },
     "plieninger-strasse": {
       "osmId": "node/1667455653",
@@ -799,6 +812,7 @@
     "schemppstrasse": {
       "osmId": "node/5542211032",
       "wikidata": "Q106890977",
+      "features": ["accessible", "elevator"],
       "entrances": [
         {
           "id": "osm-node-5542211040",
@@ -830,8 +844,7 @@
           "accessibility": [],
           "wheelchair": true
         }
-      ],
-      "features": ["elevator"]
+      ]
     },
     "riethmuellerhaus": {
       "osmId": "node/11073488596",
@@ -1020,7 +1033,8 @@
     },
     "heslach-vogelrain": {
       "osmId": "node/5639214769",
-      "wikidata": "Q106880768"
+      "wikidata": "Q106880768",
+      "features": ["accessible"]
     },
     "heumaden": {
       "osmId": "node/5542060485",
@@ -1147,6 +1161,7 @@
     "neckartor": {
       "osmId": "node/11066462322",
       "wikidata": "Q106880831",
+      "features": ["accessible", "elevator"],
       "entrances": [
         {
           "id": "osm-node-10879795518",
@@ -1196,8 +1211,7 @@
           "accessibility": [],
           "wheelchair": true
         }
-      ],
-      "features": ["elevator"]
+      ]
     },
     "steinhaldenfeld": {
       "osmId": "node/738900628",
@@ -1340,7 +1354,8 @@
     },
     "botnang": {
       "osmId": "node/5573102692",
-      "wikidata": "Q106879657"
+      "wikidata": "Q106879657",
+      "features": ["accessible"]
     },
     "mineralbaeder": {
       "osmId": "node/5572880885",
@@ -1479,7 +1494,7 @@
       "entrances": [
         {
           "id": "osm-node-7899464292",
-          "name": "Exit SI 01",
+          "name": "Elevator",
           "coordinates": {
             "lat": 48.7828993,
             "lng": 9.1872163
@@ -1488,7 +1503,7 @@
         },
         {
           "id": "osm-node-7899464293",
-          "name": "Exit SI 02",
+          "name": "Elevator",
           "coordinates": {
             "lat": 48.7829834,
             "lng": 9.1870469
@@ -1809,7 +1824,7 @@
         },
         {
           "id": "osm-node-440975043",
-          "name": "Arnulf-Klett-Platz",
+          "name": "Elevator",
           "coordinates": {
             "lat": 48.7825245,
             "lng": 9.1792129
@@ -1922,7 +1937,8 @@
             "lat": 48.7726931,
             "lng": 9.1793345
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-11860924244",
@@ -1972,15 +1988,6 @@
           "wheelchair": true
         },
         {
-          "id": "osm-node-5709480383",
-          "name": "Rathaus",
-          "coordinates": {
-            "lat": 48.7742415,
-            "lng": 9.1798912
-          },
-          "accessibility": []
-        },
-        {
           "id": "osm-node-5709583940",
           "name": "Elevator",
           "coordinates": {
@@ -2005,7 +2012,8 @@
     },
     "hoehenstrasse": {
       "osmId": "node/9775743222",
-      "wikidata": "Q106880775"
+      "wikidata": "Q106880775",
+      "features": ["accessible"]
     },
     "ruit": {
       "osmId": "node/9689684561",
@@ -2068,7 +2076,7 @@
     },
     "silberwald": {
       "osmId": "node/5542451286",
-      "features": ["elevator"],
+      "features": ["accessible", "elevator"],
       "entrances": [
         {
           "id": "osm-node-3760440704",

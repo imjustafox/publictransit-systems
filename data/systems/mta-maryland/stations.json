@@ -186,6 +186,15 @@
           "wheelchair": false
         },
         {
+          "id": "osm-node-9687538358",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.3097763,
+            "lng": -76.6425756
+          },
+          "accessibility": []
+        },
+        {
           "id": "osm-node-9753419653",
           "name": "Elevator",
           "coordinates": {
@@ -726,26 +735,6 @@
       "features": ["accessible", "bus-connection"],
       "osmId": "node/845372088",
       "wikidata": "Q18153577",
-      "entrances": [
-        {
-          "id": "osm-node-844091649",
-          "name": "Lexington Market",
-          "coordinates": {
-            "lat": 39.2916428,
-            "lng": -76.620633
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-844091777",
-          "name": "Lexington Market",
-          "coordinates": {
-            "lat": 39.2929275,
-            "lng": -76.620955
-          },
-          "accessibility": []
-        }
-      ],
       "opened": "1992-04-02",
       "connections": ["lexington-market"],
       "description": "Street-running station on Howard Street adjacent to the historic Lexington Market. Transfer point to the Metro SubwayLink system via a short walk to the underground metro station."

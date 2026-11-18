@@ -9,8 +9,8 @@
           "id": "osm-node-1378045533",
           "name": "Entrance",
           "coordinates": {
-            "lat": 37.8024006,
-            "lng": -122.2722645
+            "lat": 37.8023859,
+            "lng": -122.272285
           },
           "accessibility": [],
           "wheelchair": false
@@ -19,8 +19,8 @@
           "id": "osm-node-1378045536",
           "name": "Entrance",
           "coordinates": {
-            "lat": 37.8047532,
-            "lng": -122.2713078
+            "lat": 37.8047584,
+            "lng": -122.271324
           },
           "accessibility": [],
           "wheelchair": false
@@ -29,18 +29,18 @@
           "id": "osm-node-1378045538",
           "name": "Entrance",
           "coordinates": {
-            "lat": 37.8034088,
-            "lng": -122.2719278
+            "lat": 37.803396,
+            "lng": -122.2719417
           },
           "accessibility": [],
-          "wheelchair": true
+          "wheelchair": false
         },
         {
           "id": "osm-node-1378045539",
           "name": "Entrance",
           "coordinates": {
-            "lat": 37.8033143,
-            "lng": -122.2716924
+            "lat": 37.8033031,
+            "lng": -122.2717145
           },
           "accessibility": [],
           "wheelchair": false
@@ -69,8 +69,8 @@
           "id": "osm-node-1378045543",
           "name": "Entrance",
           "coordinates": {
-            "lat": 37.8024798,
-            "lng": -122.2725136
+            "lat": 37.8024735,
+            "lng": -122.2725184
           },
           "accessibility": [],
           "wheelchair": false
@@ -89,8 +89,8 @@
           "id": "osm-node-2585950305",
           "name": "Elevator",
           "coordinates": {
-            "lat": 37.8027542,
-            "lng": -122.2724204
+            "lat": 37.8027545,
+            "lng": -122.2724211
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -645,8 +645,8 @@
           "id": "osm-node-307639379",
           "name": "Market & 8th St",
           "coordinates": {
-            "lat": 37.7788061,
-            "lng": -122.4144802
+            "lat": 37.7788152,
+            "lng": -122.4144914
           },
           "accessibility": [],
           "wheelchair": false
@@ -900,7 +900,8 @@
             "lat": 37.7064831,
             "lng": -122.4687955
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         }
       ]
     },
@@ -1601,8 +1602,8 @@
           "id": "osm-node-1352756450",
           "name": "Marina Way / 16th Street",
           "coordinates": {
-            "lat": 37.936899,
-            "lng": -122.3541632
+            "lat": 37.9368789,
+            "lng": -122.3541592
           },
           "accessibility": []
         },
@@ -1615,6 +1616,24 @@
           },
           "accessibility": [],
           "wheelchair": true
+        },
+        {
+          "id": "osm-node-14262169536",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.9370859,
+            "lng": -122.3533678
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14262169542",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 37.936931,
+            "lng": -122.3536796
+          },
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-5309379301",
