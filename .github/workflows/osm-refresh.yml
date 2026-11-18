@@ -28,7 +28,6 @@ jobs:
         uses: pnpm/setup@731dfb6463bbd11c11fd0ee11fe00ed0e36d48a1 # v3.2.0
         with:
           cache: true
-          runtime: node@lts
 
       - name: Enrich from OSM
         run: pnpm run enrich:osm

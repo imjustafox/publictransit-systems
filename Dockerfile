@@ -1,16 +1,21 @@
-FROM node:22-alpine AS base
+FROM node:26-alpine AS base
+
+# Corepack shipped in Node 22/24 and was removed in 25, so pnpm is installed
+# explicitly. Keep this in sync with `packageManager` in package.json.
+FROM base AS toolchain
+ARG PNPM_VERSION=11.9.0
+RUN npm i -g pnpm@${PNPM_VERSION}
 
 # Install dependencies only when needed
-FROM base AS deps
+FROM toolchain AS deps
 RUN apk add --no-cache libc6-compat
 WORKDIR /app
 
-RUN corepack enable
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml ./
 RUN pnpm install --frozen-lockfile --prod=false --filter publictransit-systems
 
 # Rebuild the source code only when needed
-FROM base AS builder
+FROM toolchain AS builder
 WORKDIR /app
 COPY --from=deps /app/node_modules ./node_modules
 COPY . .
@@ -19,7 +24,6 @@ COPY . .
 ARG NEXT_PUBLIC_CARTO_API_KEY
 ENV NEXT_PUBLIC_CARTO_API_KEY=$NEXT_PUBLIC_CARTO_API_KEY
 
-RUN corepack enable
 RUN pnpm run build
 
 # Production image, copy all the files and run next

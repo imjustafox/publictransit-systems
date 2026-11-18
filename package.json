@@ -3,6 +3,13 @@
   "version": "0.1.0",
   "private": true,
   "packageManager": "pnpm@11.9.0",
+  "devEngines": {
+    "runtime": {
+      "name": "node",
+      "version": "^26.0.0",
+      "onFail": "warn"
+    }
+  },
   "scripts": {
     "preinstall": "npx only-allow pnpm",
     "dev": "next dev",
