@@ -21,7 +21,7 @@ A comprehensive information resource about public transit systems worldwide, fea
 
 ## Getting Started
 
-This repo uses [pnpm](https://pnpm.io) (a `preinstall` hook will stop npm and yarn installs). Node 22+ ships Corepack, so `corepack enable` gets you the pinned version; otherwise install pnpm however you like.
+This repo uses [pnpm](https://pnpm.io) (a `preinstall` hook will stop npm and yarn installs). Node 26 LTS is the supported runtime and is declared once under `devEngines` in `package.json`. Corepack is gone as of Node 25, so install pnpm yourself — `npm i -g pnpm@11.9.0` or `corepack`'s replacement of your choice.
 
 ```bash
 # Install dependencies
