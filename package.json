@@ -24,7 +24,7 @@
     "@radix-ui/react-dropdown-menu": "^2.1.16",
     "clsx": "^2.1.1",
     "cmdk": "^1.1.1",
-    "csv-parse": "^6.2.1",
+    "csv-parse": "^7.0.3",
     "framer-motion": "^12.31.0",
     "fuse.js": "^7.1.0",
     "jszip": "^3.10.1",
