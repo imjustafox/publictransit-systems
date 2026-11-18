@@ -224,18 +224,14 @@
         "beach-90-st",
         "beach-98-st",
         "beach-105-st",
-        "rockaway-park-beach-116-st",
-        "howard-beach-jfk-airport",
-        "aqueduct-north-conduit-av",
-        "aqueduct-racetrack",
-        "rockaway-blvd"
+        "rockaway-park-beach-116-st"
       ],
-      "stationCount": 9,
-      "termini": ["Rockaway Park-Beach 116 St", "Rockaway Blvd"],
+      "stationCount": 5,
+      "termini": ["Broad Channel", "Rockaway Park-Beach 116 St"],
       "topology": {
         "type": "linear"
       },
-      "length": 8.18,
+      "length": 2.82,
       "description": "The Rockaway Park Shuttle connects Broad Channel to the Rockaway Park peninsula, branching off from the main A train route across Jamaica Bay. It runs on a former Long Island Rail Road right-of-way acquired by the city in 1956.",
       "opened": "1956"
     },
@@ -432,7 +428,7 @@
         "169-st"
       ],
       "stationCount": 36,
-      "termini": ["Jamaica Center-Parsons/Archer", "World Trade Center", "Jamaica-179 St"],
+      "termini": ["Jamaica Center-York College", "World Trade Center", "Jamaica-179 St"],
       "topology": {
         "type": "linear"
       },
@@ -687,7 +683,7 @@
         "broad-st"
       ],
       "stationCount": 30,
-      "termini": ["Jamaica Center-Parsons/Archer", "Broad St"],
+      "termini": ["Jamaica Center-York College", "Broad St"],
       "topology": {
         "type": "linear"
       },
@@ -726,7 +722,7 @@
         "broad-st"
       ],
       "stationCount": 21,
-      "termini": ["Jamaica Center-Parsons/Archer", "Broad St"],
+      "termini": ["Jamaica Center-York College", "Broad St"],
       "topology": {
         "type": "linear"
       },

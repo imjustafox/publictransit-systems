@@ -1420,6 +1420,18 @@
       "description": "Northgate station is a major transit hub serving the Northgate neighborhood, with extensive park-and-ride facilities and bus connections."
     },
     {
+      "id": "pinehurst",
+      "systemId": "sound-transit",
+      "name": "Pinehurst",
+      "lines": ["1-line", "2-line"],
+      "status": "active",
+      "coordinates": {
+        "lat": 47.724043,
+        "lng": -122.323851
+      },
+      "features": ["elevator"]
+    },
+    {
       "id": "shoreline-south-148th",
       "systemId": "sound-transit",
       "name": "Shoreline South/148th",

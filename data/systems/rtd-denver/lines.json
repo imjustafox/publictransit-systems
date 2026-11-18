@@ -78,6 +78,7 @@
       "colorHex": "#CE0E2D",
       "status": "active",
       "stations": [
+        "alameda",
         "i-25-broadway",
         "louisiana-pearl",
         "university-of-denver",
@@ -91,7 +92,7 @@
         "county-line",
         "lincoln"
       ],
-      "stationCount": 12,
+      "stationCount": 13,
       "termini": ["I-25 / Broadway", "Lincoln"],
       "topology": {
         "type": "linear"

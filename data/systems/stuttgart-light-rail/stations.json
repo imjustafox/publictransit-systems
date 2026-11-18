@@ -18,7 +18,7 @@
       "id": "nuernberger-strasse",
       "systemId": "stuttgart-light-rail",
       "name": "Nürnberger Straße",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.80656049,
@@ -70,7 +70,7 @@
       "id": "vaihingen",
       "systemId": "stuttgart-light-rail",
       "name": "Vaihingen",
-      "lines": ["u1", "u3", "u8", "u14"],
+      "lines": ["u3", "u8", "u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.72698102,
@@ -106,7 +106,7 @@
       "id": "rotebuehlplatz",
       "systemId": "stuttgart-light-rail",
       "name": "Rotebühlplatz",
-      "lines": ["u1", "u2", "u4", "u11"],
+      "lines": ["u1", "u2", "u4", "u9", "u11"],
       "status": "active",
       "coordinates": {
         "lat": 48.7763294,
@@ -256,7 +256,7 @@
       "id": "feuerbach-bahnhof",
       "systemId": "stuttgart-light-rail",
       "name": "Feuerbach Bahnhof",
-      "lines": ["u6", "u7", "u13", "u16"],
+      "lines": ["u6", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.8136354,
@@ -545,7 +545,7 @@
       "id": "zuffenhausen-rathaus",
       "systemId": "stuttgart-light-rail",
       "name": "Zuffenhausen Rathaus",
-      "lines": ["u7", "u15"],
+      "lines": ["u15"],
       "status": "active",
       "coordinates": {
         "lat": 48.83058671,
@@ -826,7 +826,7 @@
       "id": "feuerbach-pfostenwaeldle",
       "systemId": "stuttgart-light-rail",
       "name": "Feuerbach Pfostenwäldle",
-      "lines": ["u6", "u7", "u13", "u16"],
+      "lines": ["u6", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.81232322,
@@ -839,7 +839,7 @@
       "id": "sportpark-feuerbach",
       "systemId": "stuttgart-light-rail",
       "name": "Sportpark Feuerbach",
-      "lines": ["u6", "u7", "u13", "u16"],
+      "lines": ["u6", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.80973318,
@@ -852,7 +852,7 @@
       "id": "foehrich",
       "systemId": "stuttgart-light-rail",
       "name": "Föhrich",
-      "lines": ["u6", "u7", "u13", "u16"],
+      "lines": ["u6", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.8101013,
@@ -865,7 +865,7 @@
       "id": "maybachstrasse",
       "systemId": "stuttgart-light-rail",
       "name": "Maybachstraße",
-      "lines": ["u6", "u7", "u13", "u16"],
+      "lines": ["u6", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.81095255,
@@ -1103,7 +1103,7 @@
       "id": "killesberg",
       "systemId": "stuttgart-light-rail",
       "name": "Killesberg",
-      "lines": ["u5", "u15"],
+      "lines": ["u5"],
       "status": "active",
       "coordinates": {
         "lat": 48.79939735,
@@ -1304,7 +1304,7 @@
       "id": "cannstatter-wasen",
       "systemId": "stuttgart-light-rail",
       "name": "Cannstatter Wasen",
-      "lines": ["u11", "u19"],
+      "lines": ["u19"],
       "status": "active",
       "coordinates": {
         "lat": 48.79651751,
@@ -1946,7 +1946,7 @@
       "id": "uff-kirchhof",
       "systemId": "stuttgart-light-rail",
       "name": "Uff-Kirchhof",
-      "lines": ["u1", "u2", "u13", "u16"],
+      "lines": ["u1", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.80499516,
@@ -2002,7 +2002,7 @@
       "id": "augsburger-platz",
       "systemId": "stuttgart-light-rail",
       "name": "Augsburger Platz",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.80593521,
@@ -2016,7 +2016,7 @@
       "id": "antwerpener-strasse",
       "systemId": "stuttgart-light-rail",
       "name": "Antwerpener Straße",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.80843153,
@@ -2097,7 +2097,7 @@
       "id": "beskidenstrasse",
       "systemId": "stuttgart-light-rail",
       "name": "Beskidenstraße",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.81019755,
@@ -2167,7 +2167,7 @@
       "id": "fauststrasse",
       "systemId": "stuttgart-light-rail",
       "name": "Fauststraße",
-      "lines": ["u1", "u14"],
+      "lines": ["u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.73192566,
@@ -2195,7 +2195,7 @@
       "id": "vaihingen-viadukt",
       "systemId": "stuttgart-light-rail",
       "name": "Vaihingen Viadukt",
-      "lines": ["u1", "u14"],
+      "lines": ["u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.73325289,
@@ -2209,7 +2209,7 @@
       "id": "vaihingen-schillerplatz",
       "systemId": "stuttgart-light-rail",
       "name": "Vaihingen Schillerplatz",
-      "lines": ["u1", "u14"],
+      "lines": ["u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.73016531,
@@ -2223,7 +2223,7 @@
       "id": "kaltental",
       "systemId": "stuttgart-light-rail",
       "name": "Kaltental",
-      "lines": ["u1", "u14"],
+      "lines": ["u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.73966133,
@@ -2237,7 +2237,7 @@
       "id": "waldeck",
       "systemId": "stuttgart-light-rail",
       "name": "Waldeck",
-      "lines": ["u1", "u14"],
+      "lines": ["u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.74482684,
@@ -2436,7 +2436,7 @@
       "id": "ostendplatz",
       "systemId": "stuttgart-light-rail",
       "name": "Ostendplatz",
-      "lines": ["u4"],
+      "lines": ["u4", "u9"],
       "status": "active",
       "coordinates": {
         "lat": 48.78656817,
@@ -2491,7 +2491,7 @@
       "id": "rathaus",
       "systemId": "stuttgart-light-rail",
       "name": "Rathaus",
-      "lines": ["u2", "u4", "u11", "u14"],
+      "lines": ["u1", "u2", "u4", "u9", "u11", "u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.77368396,
@@ -2579,7 +2579,7 @@
       "id": "charlottenplatz",
       "systemId": "stuttgart-light-rail",
       "name": "Charlottenplatz",
-      "lines": ["u2", "u4", "u5", "u6", "u7", "u11", "u12", "u14", "u15"],
+      "lines": ["u1", "u2", "u4", "u5", "u6", "u7", "u9", "u11", "u12", "u14", "u15"],
       "status": "active",
       "coordinates": {
         "lat": 48.77677223,
@@ -3287,7 +3287,7 @@
       "id": "wilhelm-geiger-platz",
       "systemId": "stuttgart-light-rail",
       "name": "Wilhelm-Geiger-Platz",
-      "lines": ["u6", "u7", "u13", "u16"],
+      "lines": ["u6", "u13", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.81159068,
@@ -3652,7 +3652,7 @@
       "id": "ostheim-leo-vetter-bad",
       "systemId": "stuttgart-light-rail",
       "name": "Ostheim Leo-Vetter-Bad",
-      "lines": ["u4"],
+      "lines": ["u4", "u9"],
       "status": "active",
       "coordinates": {
         "lat": 48.78507851,
@@ -3676,7 +3676,7 @@
       "id": "gaisburg",
       "systemId": "stuttgart-light-rail",
       "name": "Gaisburg",
-      "lines": ["u4"],
+      "lines": ["u4", "u9"],
       "status": "active",
       "coordinates": {
         "lat": 48.78387367,
@@ -3690,7 +3690,7 @@
       "id": "engelboldstrasse",
       "systemId": "stuttgart-light-rail",
       "name": "Engelboldstraße",
-      "lines": ["u1", "u14"],
+      "lines": ["u14"],
       "status": "active",
       "coordinates": {
         "lat": 48.73692102,
@@ -4106,7 +4106,7 @@
       "id": "hoehenstrasse",
       "systemId": "stuttgart-light-rail",
       "name": "Höhenstraße",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.81185095,
@@ -4120,7 +4120,7 @@
       "id": "esslinger-strasse",
       "systemId": "stuttgart-light-rail",
       "name": "Esslinger Straße",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.81222138,
@@ -4134,7 +4134,7 @@
       "id": "schwabenlandhalle",
       "systemId": "stuttgart-light-rail",
       "name": "Schwabenlandhalle",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.80880216,
@@ -4148,7 +4148,7 @@
       "id": "fellbach-lutherkirche",
       "systemId": "stuttgart-light-rail",
       "name": "Fellbach Lutherkirche",
-      "lines": ["u1", "u2", "u16"],
+      "lines": ["u1", "u16"],
       "status": "active",
       "coordinates": {
         "lat": 48.8090661,

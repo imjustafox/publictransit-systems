@@ -59,6 +59,7 @@
         "mountlake-terrace",
         "shoreline-north-185th",
         "shoreline-south-148th",
+        "pinehurst",
         "northgate",
         "roosevelt",
         "u-district",
@@ -82,7 +83,7 @@
         "star-lake",
         "federal-way-downtown"
       ],
-      "stationCount": 26,
+      "stationCount": 27,
       "termini": ["Lynnwood", "Federal Way Downtown"],
       "topology": {
         "type": "linear"
@@ -104,6 +105,7 @@
         "mountlake-terrace",
         "shoreline-north-185th",
         "shoreline-south-148th",
+        "pinehurst",
         "northgate",
         "roosevelt",
         "u-district",
@@ -126,7 +128,7 @@
         "marymoor-village",
         "downtown-redmond"
       ],
-      "stationCount": 25,
+      "stationCount": 26,
       "termini": ["Lynnwood", "Downtown Redmond"],
       "topology": {
         "type": "linear"

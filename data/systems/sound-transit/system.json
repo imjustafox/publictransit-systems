@@ -10,7 +10,7 @@
   "website": "https://www.soundtransit.org",
   "overview": "Sound Transit operates regional express bus, light rail, and commuter rail services in the central Puget Sound region of Washington state. The Link light rail system connects Seattle, Bellevue, and surrounding communities.",
   "stats": {
-    "totalStations": 62,
+    "totalStations": 63,
     "totalLines": 5,
     "annualRidership": "48.2 million",
     "trackMiles": 59,

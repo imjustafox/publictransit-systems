@@ -34,20 +34,15 @@
         "esslinger-strasse",
         "schwabenlandhalle",
         "fellbach-lutherkirche",
-        "waldeck",
-        "kaltental",
-        "engelboldstrasse",
-        "vaihingen-viadukt",
-        "fauststrasse",
-        "vaihingen-schillerplatz",
-        "vaihingen"
+        "charlottenplatz",
+        "rathaus"
       ],
-      "stationCount": 33,
-      "termini": ["Fellbach Lutherkirche", "Vaihingen"],
+      "stationCount": 28,
+      "termini": ["Heslach Vogelrain", "Fellbach Lutherkirche"],
       "topology": {
         "type": "linear"
       },
-      "length": 18.73,
+      "length": 14.91,
       "description": "One of the busiest longitudinal lines, the U1 runs from Fellbach Lutherkirche in the east via Bad Cannstatt through the inner-city loop (Charlottenplatz – Marienplatz – Rotebühlplatz) to Heslach Vogelrain in the south. Since the December 2023 Network 2024 reshuffle, it uses the loop rather than running directly via Hauptbahnhof, and is being progressively upgraded for 80 m double-set operation.",
       "opened": "1986-04-19",
       "abbreviation": "U1"
@@ -87,23 +82,14 @@
         "obere-ziegelei",
         "hauptfriedhof",
         "steinhaldenfeld",
-        "neugereut",
-        "fellbach-lutherkirche",
-        "schwabenlandhalle",
-        "esslinger-strasse",
-        "hoehenstrasse",
-        "beskidenstrasse",
-        "antwerpener-strasse",
-        "nuernberger-strasse",
-        "augsburger-platz",
-        "uff-kirchhof"
+        "neugereut"
       ],
-      "stationCount": 37,
-      "termini": ["Botnang", "Neugereut", "Fellbach Lutherkirche"],
+      "stationCount": 28,
+      "termini": ["Botnang", "Neugereut"],
       "topology": {
         "type": "linear"
       },
-      "length": 14.88,
+      "length": 14.13,
       "description": "The U2 runs from the residential Neugereut district in the northeast via Bad Cannstatt, Rotebühlplatz, and Vogelsang to Botnang in the west, with S-Bahn interchange at Bad Cannstatt and Hauptbahnhof. Service to the western terminus Botnang operates during peak hours on school days only; at other times trains typically terminate at Vogelsang.",
       "opened": "2002-06-22",
       "abbreviation": "U2"
@@ -325,22 +311,10 @@
         "scharnhauser-park",
         "scharnhauser-park-kreuzbrunnen",
         "nellingen-technische-akademie",
-        "nellingen-ostfildern",
-        "zuffenhausen-rathaus",
-        "maybachstrasse",
-        "feuerbach-bahnhof",
-        "wilhelm-geiger-platz",
-        "foehrich",
-        "sportpark-feuerbach",
-        "feuerbach-pfostenwaeldle"
+        "nellingen-ostfildern"
       ],
-      "stationCount": 43,
-      "termini": [
-        "Mönchfeld",
-        "Nellingen Ostfildern",
-        "Zuffenhausen Rathaus",
-        "Feuerbach Pfostenwäldle"
-      ],
+      "stationCount": 36,
+      "termini": ["Mönchfeld", "Nellingen Ostfildern"],
       "topology": {
         "type": "linear"
       },
@@ -429,14 +403,20 @@
         "milloeckerstrasse",
         "beethovenstrasse",
         "lindpaintnerstrasse",
-        "herderplatz"
+        "herderplatz",
+        "gaisburg",
+        "ostheim-leo-vetter-bad",
+        "ostendplatz",
+        "charlottenplatz",
+        "rathaus",
+        "rotebuehlplatz"
       ],
-      "stationCount": 28,
+      "stationCount": 34,
       "termini": ["Hedelfingen", "Botnang"],
       "topology": {
         "type": "linear"
       },
-      "length": 13.3,
+      "length": 13.71,
       "description": "The U9 links Hedelfingen in the Neckar valley east with Vogelsang in the west, passing through Raitelsberg and the underground city-centre at Charlottenplatz. During school-day peak hours the line extends further west to Botnang. It provides interchange at multiple stops and serves the eastern Neckar valley neighbourhoods along its route.",
       "opened": "1989-09-30",
       "abbreviation": "U9"
@@ -449,27 +429,26 @@
       "colorHex": "#8f8f8f",
       "status": "active",
       "stations": [
-        "cannstatter-wasen",
-        "mercedesstrasse",
-        "mineralbaeder",
-        "metzstrasse",
-        "stoeckach",
-        "neckartor",
-        "staatsgalerie",
         "hauptbahnhof",
         "boersenplatz",
         "berliner-platz",
         "rotebuehlplatz",
         "rathaus",
         "charlottenplatz",
+        "staatsgalerie",
+        "neckartor",
+        "stoeckach",
+        "metzstrasse",
+        "mineralbaeder",
+        "mercedesstrasse",
         "neckarpark"
       ],
-      "stationCount": 14,
-      "termini": ["Hauptbf (A.-Klett-Pl.)", "NeckarPark (Stadion)"],
+      "stationCount": 13,
+      "termini": ["Hauptbahnhof (A.-Klett-Platz)", "NeckarPark (Stadion)"],
       "topology": {
         "type": "linear"
       },
-      "length": 7.22,
+      "length": 7.71,
       "description": "The U11 is a special event line operating only during major events at the MHP Arena (formerly Mercedes-Benz Arena) and the Cannstatter Volksfest. It runs from Hauptbahnhof via the inner-city loop (Rotebühlplatz – Charlottenplatz) and through Bad Cannstatt to Neckarpark (Stadion), providing high-capacity shuttle service. The predecessor E-line dates to 1988; it was renumbered U11 in 1994.",
       "opened": "1994-01-01",
       "abbreviation": "U11"
@@ -562,13 +541,13 @@
         "wangen-marktplatz",
         "stadtwerke-stuttgart",
         "hedelfingen",
-        "giebel",
-        "salamanderweg",
-        "bergheimer-hof",
-        "wolfbusch",
-        "rastatter-strasse",
+        "landauer-strasse",
         "loewen-markt",
-        "landauer-strasse"
+        "rastatter-strasse",
+        "wolfbusch",
+        "bergheimer-hof",
+        "salamanderweg",
+        "giebel"
       ],
       "stationCount": 32,
       "termini": ["Hedelfingen", "Giebel"],
@@ -667,16 +646,15 @@
         "heutingsheimer-strasse",
         "korntaler-strasse",
         "stammheim",
-        "kelterplatz",
-        "killesberg",
         "heumaden",
         "bockelstrasse",
         "schemppstrasse",
         "sillenbuch",
-        "silberwald"
+        "silberwald",
+        "kelterplatz"
       ],
-      "stationCount": 34,
-      "termini": ["Stammheim", "Zuffenhausen Kelterplatz", "Killesberg", "Heumaden"],
+      "stationCount": 33,
+      "termini": ["Stammheim", "Heumaden", "Zuffenhausen Kelterplatz"],
       "topology": {
         "type": "linear"
       },
@@ -742,19 +720,19 @@
       "colorHex": "#f8b00a",
       "status": "active",
       "stations": [
-        "neugereut",
-        "steinhaldenfeld",
-        "hauptfriedhof",
-        "obere-ziegelei",
-        "gnesener-strasse",
-        "kursaal",
-        "daimlerplatz",
-        "bad-cannstatt-wilhelmsplatz",
+        "neckarpark",
         "cannstatter-wasen",
-        "neckarpark"
+        "bad-cannstatt-wilhelmsplatz",
+        "daimlerplatz",
+        "kursaal",
+        "gnesener-strasse",
+        "obere-ziegelei",
+        "hauptfriedhof",
+        "steinhaldenfeld",
+        "neugereut"
       ],
       "stationCount": 10,
-      "termini": ["Neugereut", "NeckarPark (Stadion)"],
+      "termini": ["NeckarPark (Stadion)", "Neugereut"],
       "topology": {
         "type": "linear"
       },

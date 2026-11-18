@@ -15072,7 +15072,7 @@
       "id": "rockaway-blvd",
       "systemId": "nyc-subway",
       "name": "Rockaway Blvd",
-      "lines": ["S-rockaway", "A"],
+      "lines": ["A"],
       "status": "active",
       "coordinates": {
         "lat": 40.680429,
@@ -21089,7 +21089,7 @@
     {
       "id": "jamaica-center-parsons-archer",
       "systemId": "nyc-subway",
-      "name": "Jamaica Center-Parsons/Archer",
+      "name": "Jamaica Center-York College",
       "lines": ["E", "J", "Z"],
       "status": "active",
       "coordinates": {
@@ -22704,7 +22704,7 @@
       "id": "aqueduct-racetrack",
       "systemId": "nyc-subway",
       "name": "Aqueduct Racetrack",
-      "lines": ["S-rockaway", "A"],
+      "lines": ["A"],
       "status": "active",
       "coordinates": {
         "lat": 40.672097,
@@ -22762,7 +22762,7 @@
       "id": "aqueduct-north-conduit-av",
       "systemId": "nyc-subway",
       "name": "Aqueduct-N Conduit Av",
-      "lines": ["S-rockaway", "A"],
+      "lines": ["A"],
       "status": "active",
       "coordinates": {
         "lat": 40.668234,
@@ -22810,7 +22810,7 @@
       "id": "howard-beach-jfk-airport",
       "systemId": "nyc-subway",
       "name": "Howard Beach-JFK Airport",
-      "lines": ["S-rockaway", "A"],
+      "lines": ["A"],
       "status": "active",
       "coordinates": {
         "lat": 40.660476,
