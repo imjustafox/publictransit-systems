@@ -68,13 +68,13 @@ export function Header() {
             <button
               onClick={() => setCommandOpen(true)}
               className="flex items-center gap-2 px-3 py-1.5 rounded border border-border bg-bg-secondary hover:bg-bg-tertiary hover:border-border-hover transition-all text-text-muted hover:text-text-primary group"
-              aria-label="Open search"
             >
-              <Search className="w-4 h-4" />
+              <Search className="w-4 h-4" aria-hidden="true" />
               <span className="hidden sm:inline font-mono text-xs">Search</span>
               <kbd className="hidden lg:inline-flex h-5 select-none items-center gap-1 rounded border border-border bg-bg-tertiary px-1.5 font-mono text-xs">
                 ⌘K
               </kbd>
+              <span className="sr-only sm:hidden">Search</span>
             </button>
             <DistanceUnitToggle />
             <ThemeToggle />
