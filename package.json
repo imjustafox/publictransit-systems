@@ -29,7 +29,7 @@
     "fuse.js": "^7.1.0",
     "jszip": "^3.10.1",
     "leaflet": "^1.9.4",
-    "lucide-react": "^0.563.0",
+    "lucide-react": "^1.73.0",
     "maplibre-gl": "^5.24.0",
     "next": "^16.1.6",
     "next-themes": "^0.4.6",
