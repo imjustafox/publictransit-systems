@@ -49,6 +49,9 @@ jobs:
       - name: Format refreshed data
         run: pnpm exec prettier --write "data/systems/**/*.json"
 
+      - name: Install Playwright browser
+        run: pnpm exec playwright install chromium
+
       - name: Verify before publishing
         env:
           CI: "1"
@@ -68,7 +71,7 @@ jobs:
             echo "no data changes"
           fi
 
-      - name: Open issue on failure
+      - name: Report failure
         if: failure()
         uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
         env:
@@ -80,10 +83,65 @@ jobs:
               .map((s) => s.trim())
               .filter(Boolean);
             const today = new Date().toISOString().slice(0, 10);
-            await github.rest.issues.create({
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+            const prefix = "[OSM bot] Enrichment refresh failed";
+
+            const { data: open } = await github.rest.issues.listForRepo({
               owner: context.repo.owner,
               repo: context.repo.repo,
-              title: `[OSM bot] Enrichment refresh failed (${today})`,
-              body: `OSM enrichment workflow failed.\n\nRun: ${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`,
-              assignees,
+              state: "open",
+              per_page: 100,
             });
+            const existing = open.find(
+              (issue) => !issue.pull_request && issue.title.startsWith(prefix),
+            );
+
+            if (existing) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: existing.number,
+                body: `Still failing on ${today}.\n\nLatest run: ${runUrl}`,
+              });
+            } else {
+              await github.rest.issues.create({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                title: `${prefix} (${today})`,
+                body: `OSM enrichment workflow failed.\n\nRun: ${runUrl}`,
+                assignees,
+              });
+            }
+
+      - name: Close failure issue on recovery
+        if: success()
+        uses: actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3 # v9.0.0
+        with:
+          script: |
+            const prefix = "[OSM bot] Enrichment refresh failed";
+            const runUrl = `${context.serverUrl}/${context.repo.owner}/${context.repo.repo}/actions/runs/${context.runId}`;
+
+            const { data: open } = await github.rest.issues.listForRepo({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: "open",
+              per_page: 100,
+            });
+            const stale = open.filter(
+              (issue) => !issue.pull_request && issue.title.startsWith(prefix),
+            );
+
+            for (const issue of stale) {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                body: `OSM refresh is green again: ${runUrl}`,
+              });
+              await github.rest.issues.update({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: issue.number,
+                state: "closed",
+              });
+            }
