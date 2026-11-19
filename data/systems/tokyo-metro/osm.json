@@ -11630,6 +11630,68 @@
       ],
       "features": ["elevator"]
     },
+    "oshiage": {
+      "osmId": "node/3666792383",
+      "wikidata": "Q80545",
+      "features": ["accessible"],
+      "entrances": [
+        {
+          "id": "osm-node-13503671782",
+          "name": "Exit B3",
+          "coordinates": {
+            "lat": 35.7103981,
+            "lng": 139.8132846
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2571389916",
+          "name": "押上 A2",
+          "coordinates": {
+            "lat": 35.7091728,
+            "lng": 139.8126673
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-2571389927",
+          "name": "押上 B1",
+          "coordinates": {
+            "lat": 35.7082133,
+            "lng": 139.813984
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-2571389932",
+          "name": "押上 B2",
+          "coordinates": {
+            "lat": 35.7083779,
+            "lng": 139.8136672
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7487284116",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 35.7105846,
+            "lng": 139.8128914
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-7487289890",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 35.710523,
+            "lng": 139.8127077
+          },
+          "accessibility": []
+        }
+      ]
+    },
     "meguro": {
       "osmId": "node/266085875",
       "wikidata": "Q678461",
@@ -13304,68 +13366,6 @@
             "lng": 139.7017592
           },
           "accessibility": ["elevator"]
-        }
-      ]
-    },
-    "oshiage": {
-      "osmId": "node/3666792383",
-      "wikidata": "Q80545",
-      "features": ["accessible"],
-      "entrances": [
-        {
-          "id": "osm-node-13503671782",
-          "name": "Exit B3",
-          "coordinates": {
-            "lat": 35.7103981,
-            "lng": 139.8132846
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-2571389916",
-          "name": "押上 A2",
-          "coordinates": {
-            "lat": 35.7091728,
-            "lng": 139.8126673
-          },
-          "accessibility": [],
-          "wheelchair": false
-        },
-        {
-          "id": "osm-node-2571389927",
-          "name": "押上 B1",
-          "coordinates": {
-            "lat": 35.7082133,
-            "lng": 139.813984
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-2571389932",
-          "name": "押上 B2",
-          "coordinates": {
-            "lat": 35.7083779,
-            "lng": 139.8136672
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-7487284116",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 35.7105846,
-            "lng": 139.8128914
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-7487289890",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 35.710523,
-            "lng": 139.8127077
-          },
-          "accessibility": []
         }
       ]
     },

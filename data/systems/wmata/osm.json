@@ -2605,7 +2605,8 @@
             "lat": 38.9611947,
             "lng": -77.0856171
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-567266988",

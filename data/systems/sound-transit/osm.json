@@ -1444,6 +1444,49 @@
         }
       ]
     },
+    "pinehurst": {
+      "osmId": "node/14245205599",
+      "wikidata": "Q23926714",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-14203862540",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.7235527,
+            "lng": -122.3237574
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14203862541",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.7235521,
+            "lng": -122.3239244
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14203862542",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.7244589,
+            "lng": -122.323718
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14203862543",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.724455,
+            "lng": -122.3238874
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
+    },
     "shoreline-south-148th": {
       "osmId": "node/12147667039",
       "wikidata": "Q20712543",
@@ -1746,6 +1789,58 @@
         }
       ]
     },
+    "angle-lake": {
+      "osmId": "way/1557767611",
+      "wikidata": "Q14713586",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-10062515773",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.4224361,
+            "lng": -122.2977961
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-13034323301",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 47.4230818,
+            "lng": -122.2978699
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13034323302",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 47.423082,
+            "lng": -122.2977424
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13034323305",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 47.4224817,
+            "lng": -122.2977445
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-13034323306",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 47.4225615,
+            "lng": -122.2978402
+          },
+          "accessibility": []
+        }
+      ]
+    },
     "kent-des-moines": {
       "osmId": "node/13358783522",
       "wikidata": "Q24260668",
@@ -1827,122 +1922,26 @@
         }
       ]
     },
-    "tacoma-dome-t": {
-      "osmId": "node/3866522252"
-    },
-    "s-25th-street": {
-      "osmId": "node/3866522251"
-    },
-    "tacoma-union-station": {
-      "osmId": "node/3866522254"
-    },
-    "convention-center": {
-      "osmId": "node/3866522250"
-    },
-    "theater-district": {
-      "osmId": "node/3866522247"
-    },
-    "old-city-hall": {
-      "osmId": "node/11197214089"
-    },
-    "s-4th": {
-      "osmId": "node/11197216104"
-    },
-    "stadium-district-tacoma": {
-      "osmId": "node/11197216102"
-    },
-    "tacoma-general-hospital": {
-      "osmId": "node/6516647445"
-    },
-    "6th-ave": {
-      "osmId": "node/11197216100"
-    },
-    "hilltop-district": {
-      "osmId": "node/11197216098"
-    },
-    "st-joseph": {
-      "osmId": "node/11197215741"
-    },
-    "puyallup-station": {
-      "osmId": "way/334251575",
-      "wikidata": "Q7262633"
-    },
-    "kent-sounder-station": {
-      "osmId": "way/334255606",
-      "wikidata": "Q6391588"
-    },
-    "tukwila-sounder-station": {
-      "osmId": "node/7012640630",
-      "wikidata": "Q3097914",
-      "features": ["accessible"]
-    },
-    "auburn-station": {
-      "osmId": "way/334255605",
-      "wikidata": "Q4819233",
-      "features": ["elevator"],
-      "entrances": [
-        {
-          "id": "osm-node-8122575932",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 47.3062128,
-            "lng": -122.2325097
-          },
-          "accessibility": ["elevator"]
-        }
-      ]
-    },
-    "pinehurst": {
-      "osmId": "node/14245205599",
-      "wikidata": "Q23926714",
-      "features": ["accessible", "elevator"],
-      "entrances": [
-        {
-          "id": "osm-node-14203862540",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 47.7235527,
-            "lng": -122.3237574
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "osm-node-14203862541",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 47.7235521,
-            "lng": -122.3239244
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "osm-node-14203862542",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 47.7244589,
-            "lng": -122.323718
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "osm-node-14203862543",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 47.724455,
-            "lng": -122.3238874
-          },
-          "accessibility": ["elevator"]
-        }
-      ]
-    },
     "edmonds-station": {
       "osmId": "node/7012109793",
       "wikidata": "Q3095725",
       "features": ["accessible"]
     },
-    "sumner-station": {
-      "osmId": "way/334255607",
-      "wikidata": "Q7637953"
+    "everett-station": {
+      "osmId": "node/7012109791",
+      "wikidata": "Q3095760",
+      "features": ["accessible", "elevator"],
+      "entrances": [
+        {
+          "id": "osm-node-7057386271",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 47.9742824,
+            "lng": -122.196548
+          },
+          "accessibility": ["elevator"]
+        }
+      ]
     },
     "king-street-station": {
       "osmId": "way/442511853",
@@ -2020,77 +2019,42 @@
         }
       ]
     },
-    "angle-lake": {
-      "osmId": "way/1557767611",
-      "wikidata": "Q14713586",
-      "features": ["accessible", "elevator"],
+    "tukwila-sounder-station": {
+      "osmId": "node/7012640630",
+      "wikidata": "Q3097914",
+      "features": ["accessible"]
+    },
+    "kent-sounder-station": {
+      "osmId": "way/334255606",
+      "wikidata": "Q6391588"
+    },
+    "auburn-station": {
+      "osmId": "way/334255605",
+      "wikidata": "Q4819233",
+      "features": ["elevator"],
       "entrances": [
         {
-          "id": "osm-node-10062515773",
+          "id": "osm-node-8122575932",
           "name": "Elevator",
           "coordinates": {
-            "lat": 47.4224361,
-            "lng": -122.2977961
+            "lat": 47.3062128,
+            "lng": -122.2325097
           },
           "accessibility": ["elevator"]
-        },
-        {
-          "id": "osm-node-13034323301",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 47.4230818,
-            "lng": -122.2978699
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-13034323302",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 47.423082,
-            "lng": -122.2977424
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-13034323305",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 47.4224817,
-            "lng": -122.2977445
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-13034323306",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 47.4225615,
-            "lng": -122.2978402
-          },
-          "accessibility": []
         }
       ]
+    },
+    "sumner-station": {
+      "osmId": "way/334255607",
+      "wikidata": "Q7637953"
+    },
+    "puyallup-station": {
+      "osmId": "way/334251575",
+      "wikidata": "Q7262633"
     },
     "south-tacoma-station": {
       "osmId": "way/334251578",
       "wikidata": "Q14713900"
-    },
-    "everett-station": {
-      "osmId": "node/7012109791",
-      "wikidata": "Q3095760",
-      "features": ["accessible", "elevator"],
-      "entrances": [
-        {
-          "id": "osm-node-7057386271",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 47.9742824,
-            "lng": -122.196548
-          },
-          "accessibility": ["elevator"]
-        }
-      ]
     },
     "lakewood-station": {
       "osmId": "way/944912825",
@@ -2126,6 +2090,42 @@
           "accessibility": ["elevator"]
         }
       ]
+    },
+    "tacoma-dome-t": {
+      "osmId": "node/3866522252"
+    },
+    "s-25th-street": {
+      "osmId": "node/3866522251"
+    },
+    "tacoma-union-station": {
+      "osmId": "node/3866522254"
+    },
+    "convention-center": {
+      "osmId": "node/3866522250"
+    },
+    "theater-district": {
+      "osmId": "node/3866522247"
+    },
+    "old-city-hall": {
+      "osmId": "node/11197214089"
+    },
+    "s-4th": {
+      "osmId": "node/11197216104"
+    },
+    "stadium-district-tacoma": {
+      "osmId": "node/11197216102"
+    },
+    "tacoma-general-hospital": {
+      "osmId": "node/6516647445"
+    },
+    "6th-ave": {
+      "osmId": "node/11197216100"
+    },
+    "hilltop-district": {
+      "osmId": "node/11197216098"
+    },
+    "st-joseph": {
+      "osmId": "node/11197215741"
     }
   }
 }
