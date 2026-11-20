@@ -441,6 +441,15 @@
           "wheelchair": false
         },
         {
+          "id": "osm-node-9687538358",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.3097763,
+            "lng": -76.6425756
+          },
+          "accessibility": []
+        },
+        {
           "id": "osm-node-9753419653",
           "name": "Elevator",
           "coordinates": {
