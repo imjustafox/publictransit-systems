@@ -241,7 +241,8 @@
     },
     "esslinger-strasse": {
       "osmId": "node/9775743223",
-      "wikidata": "Q106879680"
+      "wikidata": "Q106879680",
+      "features": ["accessible"]
     },
     "daimlerplatz": {
       "osmId": "node/137321732",

@@ -16613,7 +16613,7 @@
       "entrances": [
         {
           "id": "osm-node-2724259714",
-          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
+          "name": "Entrance",
           "coordinates": {
             "lat": 40.7027879,
             "lng": -73.7998621
@@ -16623,7 +16623,7 @@
         },
         {
           "id": "osm-node-2748788921",
-          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
+          "name": "Entrance",
           "coordinates": {
             "lat": 40.7019032,
             "lng": -73.8017623
@@ -16633,7 +16633,7 @@
         },
         {
           "id": "osm-node-2748788922",
-          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
+          "name": "Entrance",
           "coordinates": {
             "lat": 40.7022466,
             "lng": -73.8018511
@@ -16643,7 +16643,7 @@
         },
         {
           "id": "osm-node-2748788923",
-          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
+          "name": "Entrance",
           "coordinates": {
             "lat": 40.7023389,
             "lng": -73.7999933
