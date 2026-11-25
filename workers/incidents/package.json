@@ -15,6 +15,6 @@
     "wrangler": "^4.162.0"
   },
   "dependencies": {
-    "gtfs-realtime-bindings": "^1.1.1"
+    "gtfs-realtime-bindings": "^3.0.0"
   }
 }
