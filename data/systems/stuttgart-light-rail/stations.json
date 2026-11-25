@@ -2415,7 +2415,7 @@
       "entrances": [
         {
           "id": "osm-node-7899464292",
-          "name": "Elevator",
+          "name": "Exit SI 01",
           "coordinates": {
             "lat": 48.7828993,
             "lng": 9.1872163
@@ -2424,7 +2424,7 @@
         },
         {
           "id": "osm-node-7899464293",
-          "name": "Elevator",
+          "name": "Exit SI 02",
           "coordinates": {
             "lat": 48.7829834,
             "lng": 9.1870469

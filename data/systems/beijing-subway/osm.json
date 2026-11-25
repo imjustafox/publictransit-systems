@@ -1183,7 +1183,8 @@
             "lat": 39.9064325,
             "lng": 116.2689917
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-1298050555",
@@ -1201,7 +1202,8 @@
             "lat": 39.9064325,
             "lng": 116.2685273
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-1298050575",
@@ -2047,6 +2049,15 @@
           "accessibility": []
         },
         {
+          "id": "osm-node-14182113609",
+          "name": "Exit G",
+          "coordinates": {
+            "lat": 39.8975451,
+            "lng": 116.3942984
+          },
+          "accessibility": []
+        },
+        {
           "id": "osm-node-2048053079",
           "name": "E3出口",
           "coordinates": {
@@ -2153,6 +2164,15 @@
       "wikidata": "Q847852",
       "entrances": [
         {
+          "id": "osm-node-14311386080",
+          "name": "Entrance C: South-East",
+          "coordinates": {
+            "lat": 39.8826142,
+            "lng": 116.4556043
+          },
+          "accessibility": []
+        },
+        {
           "id": "osm-node-385074709",
           "name": "Entrance",
           "coordinates": {
@@ -2181,7 +2201,7 @@
         },
         {
           "id": "osm-node-385074716",
-          "name": "Entrance",
+          "name": "D",
           "coordinates": {
             "lat": 39.8824945,
             "lng": 116.454695
@@ -2501,7 +2521,7 @@
         },
         {
           "id": "osm-node-9379477296",
-          "name": "Entrance",
+          "name": "C",
           "coordinates": {
             "lat": 39.8739505,
             "lng": 116.4715984
@@ -2560,8 +2580,8 @@
           "id": "osm-node-7553495967",
           "name": "Exit C",
           "coordinates": {
-            "lat": 39.9995947,
-            "lng": 116.3635919
+            "lat": 39.9995872,
+            "lng": 116.3635269
           },
           "accessibility": []
         },
@@ -2569,8 +2589,8 @@
           "id": "osm-node-7553495968",
           "name": "Exit B1",
           "coordinates": {
-            "lat": 40.0008724,
-            "lng": 116.3626245
+            "lat": 40.0009574,
+            "lng": 116.3625469
           },
           "accessibility": []
         },
@@ -2578,8 +2598,8 @@
           "id": "osm-node-7553495969",
           "name": "Exit B2",
           "coordinates": {
-            "lat": 40.0007137,
-            "lng": 116.3639156
+            "lat": 40.0006828,
+            "lng": 116.3639761
           },
           "accessibility": []
         },
@@ -2587,8 +2607,8 @@
           "id": "osm-node-7553495970",
           "name": "Exit A",
           "coordinates": {
-            "lat": 40.0003329,
-            "lng": 116.3611584
+            "lat": 40.0003576,
+            "lng": 116.3610774
           },
           "accessibility": []
         }
@@ -2965,6 +2985,15 @@
       "osmId": "node/3369459833",
       "wikidata": "Q5936021",
       "entrances": [
+        {
+          "id": "osm-node-14311386079",
+          "name": "Entrance H",
+          "coordinates": {
+            "lat": 39.8915117,
+            "lng": 116.4561535
+          },
+          "accessibility": []
+        },
         {
           "id": "osm-node-6780237716",
           "name": "Exit A",
@@ -3681,7 +3710,8 @@
             "lat": 39.9335092,
             "lng": 116.4551116
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         }
       ],
       "features": ["elevator"]
@@ -4065,8 +4095,8 @@
           "id": "osm-node-1303500882",
           "name": "A 出口",
           "coordinates": {
-            "lat": 39.9073896,
-            "lng": 116.470911
+            "lat": 39.907381,
+            "lng": 116.4711472
           },
           "accessibility": []
         },
@@ -4842,8 +4872,8 @@
           "id": "osm-node-2358646254",
           "name": "Exit E",
           "coordinates": {
-            "lat": 39.9655315,
-            "lng": 116.3881039
+            "lat": 39.9656082,
+            "lng": 116.3880825
           },
           "accessibility": []
         },
@@ -4851,8 +4881,8 @@
           "id": "osm-node-6813701180",
           "name": "Exit B",
           "coordinates": {
-            "lat": 39.9685599,
-            "lng": 116.3878982
+            "lat": 39.9685789,
+            "lng": 116.3879266
           },
           "accessibility": []
         },
@@ -4860,8 +4890,8 @@
           "id": "osm-node-6813718730",
           "name": "Exit A",
           "coordinates": {
-            "lat": 39.9678158,
-            "lng": 116.3869742
+            "lat": 39.9678477,
+            "lng": 116.3869299
           },
           "accessibility": []
         },
@@ -4876,10 +4906,10 @@
         },
         {
           "id": "osm-node-7605950427",
-          "name": "Exit D2",
+          "name": "Exit D",
           "coordinates": {
-            "lat": 39.9657954,
-            "lng": 116.3888669
+            "lat": 39.9658554,
+            "lng": 116.388837
           },
           "accessibility": []
         }
@@ -6245,8 +6275,8 @@
           "id": "osm-node-13516609002",
           "name": "Exit F",
           "coordinates": {
-            "lat": 39.9927452,
-            "lng": 116.4424676
+            "lat": 39.9927499,
+            "lng": 116.4423731
           },
           "accessibility": []
         },
@@ -6547,15 +6577,6 @@
             "lng": 116.3677876
           },
           "accessibility": []
-        },
-        {
-          "id": "osm-node-9471058656",
-          "name": "Exit C2",
-          "coordinates": {
-            "lat": 40.020355,
-            "lng": 116.3685515
-          },
-          "accessibility": []
         }
       ]
     },
@@ -6655,7 +6676,18 @@
     },
     "桥湾": {
       "osmId": "node/3369459839",
-      "wikidata": "Q18654011"
+      "wikidata": "Q18654011",
+      "entrances": [
+        {
+          "id": "osm-node-14340480958",
+          "name": "C",
+          "coordinates": {
+            "lat": 39.8911858,
+            "lng": 116.4038698
+          },
+          "accessibility": []
+        }
+      ]
     },
     "森林公园南门": {
       "osmId": "node/5305505998",
@@ -7218,6 +7250,15 @@
           "accessibility": []
         },
         {
+          "id": "osm-node-14317157201",
+          "name": "Entrance A, Panjiayuan",
+          "coordinates": {
+            "lat": 39.8753723,
+            "lng": 116.4543501
+          },
+          "accessibility": []
+        },
+        {
           "id": "osm-node-2492158965",
           "name": "Exit C1",
           "coordinates": {
@@ -7540,7 +7581,8 @@
             "lat": 39.9060332,
             "lng": 116.2474247
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-1296155066",
@@ -7576,7 +7618,8 @@
             "lat": 39.9060412,
             "lng": 116.2477704
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         }
       ]
     },
@@ -7989,7 +8032,8 @@
             "lat": 39.9752549,
             "lng": 116.3217654
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-1350216500",
@@ -7997,6 +8041,16 @@
           "coordinates": {
             "lat": 39.9753297,
             "lng": 116.3241987
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
+          "id": "osm-node-14028431246",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9746941,
+            "lng": 116.3221748
           },
           "accessibility": []
         }
@@ -8466,7 +8520,7 @@
       "entrances": [
         {
           "id": "osm-node-2144158429",
-          "name": "西南口",
+          "name": "地铁花园桥站西南口（D2）",
           "coordinates": {
             "lat": 39.9302709,
             "lng": 116.3036167
@@ -9077,8 +9131,8 @@
           "id": "osm-node-12428545250",
           "name": "蓝靛厂站B口",
           "coordinates": {
-            "lat": 39.9565864,
-            "lng": 116.2790997
+            "lat": 39.9562689,
+            "lng": 116.2790933
           },
           "accessibility": []
         }
@@ -9147,11 +9201,11 @@
           "wheelchair": true
         },
         {
-          "id": "osm-node-12430955748",
+          "id": "osm-node-12430955742",
           "name": "Exit E",
           "coordinates": {
-            "lat": 39.9657577,
-            "lng": 116.3468035
+            "lat": 39.9657434,
+            "lng": 116.3468275
           },
           "accessibility": []
         }
@@ -9298,7 +9352,7 @@
       "entrances": [
         {
           "id": "osm-node-1301959229",
-          "name": "Entrance",
+          "name": "Exit H",
           "coordinates": {
             "lat": 39.9054167,
             "lng": 116.3688683
@@ -9334,7 +9388,7 @@
         },
         {
           "id": "osm-node-5077273852",
-          "name": "Entrance",
+          "name": "Exit F1",
           "coordinates": {
             "lat": 39.9065932,
             "lng": 116.367471
@@ -9343,7 +9397,7 @@
         },
         {
           "id": "osm-node-5077273885",
-          "name": "Entrance",
+          "name": "Exit J1",
           "coordinates": {
             "lat": 39.9049896,
             "lng": 116.3674772
@@ -9352,7 +9406,7 @@
         },
         {
           "id": "osm-node-5077273896",
-          "name": "Entrance",
+          "name": "Exit F2",
           "coordinates": {
             "lat": 39.9061048,
             "lng": 116.366936
@@ -9361,7 +9415,7 @@
         },
         {
           "id": "osm-node-8500051831",
-          "name": "Entrance",
+          "name": "Exit J2",
           "coordinates": {
             "lat": 39.9054638,
             "lng": 116.3669418
@@ -9877,7 +9931,18 @@
     },
     "郎辛庄": {
       "osmId": "node/6930098568",
-      "wikidata": "Q76063542"
+      "wikidata": "Q76063542",
+      "entrances": [
+        {
+          "id": "osm-node-14244804908",
+          "name": "Lanxinzhuang D",
+          "coordinates": {
+            "lat": 39.8552149,
+            "lng": 116.5631887
+          },
+          "accessibility": []
+        }
+      ]
     },
     "郝家府": {
       "osmId": "node/5441488835",
@@ -11011,8 +11076,37 @@
       "wikidata": "Q111802872"
     },
     "十里堡": {
-      "osmId": "node/5365586568",
-      "wikidata": "Q82802"
+      "osmId": "node/14142473063",
+      "wikidata": "Q82802",
+      "entrances": [
+        {
+          "id": "osm-node-14124123701",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9214964,
+            "lng": 116.4969512
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-14124123702",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9221025,
+            "lng": 116.4962607
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5365586568",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9214414,
+            "lng": 116.4951942
+          },
+          "accessibility": []
+        }
+      ]
     },
     "军事博物馆": {
       "entrances": [

@@ -18,8 +18,8 @@
           "id": "osm-node-2074799361",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8707536,
-            "lng": -87.7744428
+            "lat": 41.8707526,
+            "lng": -87.7744429
           },
           "accessibility": [],
           "wheelchair": false
@@ -72,24 +72,13 @@
           "wheelchair": true
         },
         {
-          "id": "osm-node-13834688441",
+          "id": "osm-node-7706503949",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8868297,
-            "lng": -87.8034302
+            "lat": 41.8868553,
+            "lng": -87.8033714
           },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-7706503950",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.8871012,
-            "lng": -87.8034454
-          },
-          "accessibility": [],
-          "wheelchair": true
+          "accessibility": []
         }
       ],
       "description": "Harlem/Lake is the western terminus of the Green Line in Oak Park."
@@ -605,30 +594,10 @@
           "id": "osm-node-13520313550",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8019723,
-            "lng": -87.6185222
+            "lat": 41.8019818,
+            "lng": -87.6185227
           },
           "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14158361592",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.801961,
-            "lng": -87.6184078
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14158361595",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.8020365,
-            "lng": -87.6186128
-          },
-          "accessibility": ["elevator"],
           "wheelchair": true
         }
       ],
@@ -722,8 +691,7 @@
             "lat": 41.8538647,
             "lng": -87.7245602
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-9782295462",
@@ -1236,8 +1204,7 @@
             "lat": 41.8874304,
             "lng": -87.7654014
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         }
       ],
       "description": "Central is a station on the Green Line in the Austin neighborhood."
@@ -1297,30 +1264,10 @@
           "id": "osm-node-13520432403",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.821828,
-            "lng": -87.6213717
+            "lat": 41.8218289,
+            "lng": -87.6213641
           },
           "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14132272580",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.8217776,
-            "lng": -87.6211841
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14132272581",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.8218887,
-            "lng": -87.6211869
-          },
-          "accessibility": ["elevator"],
           "wheelchair": true
         }
       ],
@@ -1877,18 +1824,6 @@
       "features": ["wheelchair-accessible"],
       "osmId": "node/2080123172",
       "wikidata": "Q2972269",
-      "entrances": [
-        {
-          "id": "osm-node-14071135229",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.8519296,
-            "lng": -87.7444271
-          },
-          "accessibility": [],
-          "wheelchair": true
-        }
-      ],
       "description": "Cicero is a station on the Pink Line in the Cicero neighborhood."
     },
     {
@@ -1999,8 +1934,7 @@
             "lat": 41.8543024,
             "lng": -87.6953074
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         }
       ],
       "description": "California is a station on the Pink Line in the Brighton Park neighborhood."
@@ -2202,16 +2136,6 @@
       "wikidata": "Q3416226",
       "entrances": [
         {
-          "id": "osm-node-14259052349",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.875857,
-            "lng": -87.6617261
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
           "id": "osm-node-2051982650",
           "name": "Entrance",
           "coordinates": {
@@ -2265,8 +2189,7 @@
             "lat": 41.8865712,
             "lng": -87.7451209
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-13694142016",
@@ -2275,8 +2198,7 @@
             "lat": 41.8869767,
             "lng": -87.7452201
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         }
       ],
       "description": "Cicero is a station on the Green Line in the Austin neighborhood."
@@ -2346,50 +2268,10 @@
           "id": "osm-node-13520159132",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.7949068,
-            "lng": -87.6183397
+            "lat": 41.7948933,
+            "lng": -87.6183403
           },
           "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14197737940",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.7949268,
-            "lng": -87.6184075
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14197737941",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.7949287,
-            "lng": -87.6182728
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14197737954",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.7949909,
-            "lng": -87.6184377
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14197737955",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.7949932,
-            "lng": -87.6182469
-          },
-          "accessibility": ["elevator"],
           "wheelchair": true
         }
       ],
@@ -2640,7 +2522,7 @@
           "name": "Elevator",
           "coordinates": {
             "lat": 41.878615,
-            "lng": -87.6276861
+            "lng": -87.6276867
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -2859,28 +2741,6 @@
       "features": ["wheelchair-accessible"],
       "osmId": "node/7758311744",
       "wikidata": "Q3199118",
-      "entrances": [
-        {
-          "id": "osm-node-7965508560",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.8537717,
-            "lng": -87.7322977
-          },
-          "accessibility": [],
-          "wheelchair": false
-        },
-        {
-          "id": "osm-node-9782295453",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.853732,
-            "lng": -87.7344371
-          },
-          "accessibility": [],
-          "wheelchair": true
-        }
-      ],
       "description": "Kostner is a station on the Pink Line in the South Lawndale neighborhood."
     },
     {
@@ -2930,16 +2790,6 @@
           "coordinates": {
             "lat": 41.9037652,
             "lng": -87.6327226
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14086219812",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.9038862,
-            "lng": -87.6326936
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -3255,6 +3105,16 @@
           "wheelchair": false
         },
         {
+          "id": "osm-node-2445152689",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8874931,
+            "lng": -87.7554203
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
           "id": "osm-node-2445152693",
           "name": "Entrance",
           "coordinates": {
@@ -3341,8 +3201,8 @@
           "id": "osm-node-10302062624",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7802868,
-            "lng": -87.6060775
+            "lat": 41.7802707,
+            "lng": -87.606075
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -3351,8 +3211,8 @@
           "id": "osm-node-10302062627",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7805396,
-            "lng": -87.6060774
+            "lat": 41.7805353,
+            "lng": -87.606092
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -3361,7 +3221,7 @@
           "id": "osm-node-2039152474",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.7807347,
+            "lat": 41.7807325,
             "lng": -87.6060783
           },
           "accessibility": [],
@@ -3372,7 +3232,7 @@
           "name": "Entrance",
           "coordinates": {
             "lat": 41.7807347,
-            "lng": -87.605802
+            "lng": -87.6058
           },
           "accessibility": [],
           "wheelchair": false
@@ -3506,8 +3366,7 @@
             "lat": 41.8543648,
             "lng": -87.6854198
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-2404385137",
@@ -3647,54 +3506,44 @@
       "wikidata": "Q2892844",
       "entrances": [
         {
-          "id": "osm-node-14062425410",
+          "id": "osm-node-13507741491",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8541588,
-            "lng": -87.7152859
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14062425411",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.854164,
-            "lng": -87.7153962
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14062425419",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.8540363,
-            "lng": -87.7151977
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14062452312",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.8540051,
-            "lng": -87.7154715
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14062452321",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.854032,
-            "lng": -87.7149315
+            "lat": 41.854028,
+            "lng": -87.714923
           },
           "accessibility": [],
           "wheelchair": false
+        },
+        {
+          "id": "osm-node-13507741493",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8540633,
+            "lng": -87.7151878
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13507741497",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8541593,
+            "lng": -87.7152916
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-13507741499",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 41.8541594,
+            "lng": -87.7153871
+          },
+          "accessibility": [],
+          "wheelchair": true
         }
       ],
       "description": "Central Park is a station on the Pink Line in the Lawndale neighborhood."
@@ -3826,24 +3675,6 @@
             "lng": -87.6387055
           },
           "accessibility": []
-        },
-        {
-          "id": "osm-node-12330631511",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.91049,
-            "lng": -87.6388778
-          },
-          "accessibility": ["elevator"]
-        },
-        {
-          "id": "osm-node-12330631512",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.9103258,
-            "lng": -87.6388751
-          },
-          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-12330631551",
@@ -4463,29 +4294,31 @@
           "id": "osm-node-13153337443",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.7790757,
-            "lng": -87.6446284
+            "lat": 41.7790683,
+            "lng": -87.6446006
           },
           "accessibility": [],
           "wheelchair": true
         },
         {
-          "id": "osm-node-14260060867",
+          "id": "osm-node-6774669070",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7790907,
-            "lng": -87.6445359
+            "lat": 41.7790898,
+            "lng": -87.6445636
           },
-          "accessibility": ["elevator"]
+          "accessibility": ["elevator"],
+          "wheelchair": true
         },
         {
-          "id": "osm-node-14260060870",
+          "id": "osm-node-6774669073",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7789895,
-            "lng": -87.6445361
+            "lat": 41.7789946,
+            "lng": -87.6445587
           },
-          "accessibility": ["elevator"]
+          "accessibility": ["elevator"],
+          "wheelchair": true
         }
       ],
       "description": "Halsted is a station on the Green Line in the Englewood neighborhood."
@@ -4837,8 +4670,7 @@
             "lat": 41.8712934,
             "lng": -87.6694571
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-13771187996",
@@ -4847,8 +4679,7 @@
             "lat": 41.8712914,
             "lng": -87.6696803
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         }
       ],
       "description": "Polk is a station on the Pink Line in the Pilsen neighborhood."
@@ -4904,8 +4735,7 @@
             "lat": 41.8541534,
             "lng": -87.705564
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         }
       ],
       "description": "Kedzie is a station on the Pink Line in the South Lawndale neighborhood."
@@ -5084,7 +4914,7 @@
           "id": "osm-node-13787670388",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.809584,
+            "lat": 41.8095844,
             "lng": -87.6189248
           },
           "accessibility": ["elevator"]
@@ -5213,11 +5043,21 @@
       "wikidata": "Q2816282",
       "entrances": [
         {
+          "id": "osm-node-10560378839",
+          "name": "35th-Bronzewille-IIT (34th Street Entrance)",
+          "coordinates": {
+            "lat": 41.8329524,
+            "lng": -87.6259128
+          },
+          "accessibility": [],
+          "wheelchair": false
+        },
+        {
           "id": "osm-node-13520443191",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8312256,
-            "lng": -87.625865
+            "lat": 41.8312238,
+            "lng": -87.6258669
           },
           "accessibility": [],
           "wheelchair": true
@@ -5226,21 +5066,11 @@
           "id": "osm-node-13783990392",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.8313795,
-            "lng": -87.6258688
+            "lat": 41.8313644,
+            "lng": -87.6258675
           },
           "accessibility": ["elevator"],
           "wheelchair": true
-        },
-        {
-          "id": "osm-node-14120681443",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 41.8329508,
-            "lng": -87.625874
-          },
-          "accessibility": [],
-          "wheelchair": false
         }
       ],
       "description": "35th-Bronzeville-IIT is a station on the Green Line in the Bronzeville neighborhood."
@@ -5329,7 +5159,7 @@
           "id": "osm-node-10302062545",
           "name": "Elevator",
           "coordinates": {
-            "lat": 41.7801382,
+            "lat": 41.7801379,
             "lng": -87.6157742
           },
           "accessibility": ["elevator"],
@@ -5340,7 +5170,7 @@
           "name": "King Drive",
           "coordinates": {
             "lat": 41.7806022,
-            "lng": -87.6157294
+            "lng": -87.615731
           },
           "accessibility": [],
           "wheelchair": true
@@ -5349,8 +5179,8 @@
           "id": "osm-node-5839695426",
           "name": "King Drive",
           "coordinates": {
-            "lat": 41.7806061,
-            "lng": -87.6155506
+            "lat": 41.7806049,
+            "lng": -87.6155526
           },
           "accessibility": [],
           "wheelchair": false
@@ -5774,8 +5604,7 @@
             "lat": 41.8873049,
             "lng": -87.774665
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-13683367019",
@@ -5817,30 +5646,10 @@
           "id": "osm-node-13520429991",
           "name": "Entrance",
           "coordinates": {
-            "lat": 41.8166906,
-            "lng": -87.6190614
+            "lat": 41.8167168,
+            "lng": -87.6190626
           },
           "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14133911184",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.8167565,
-            "lng": -87.6191468
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14133911185",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 41.8167593,
-            "lng": -87.6189812
-          },
-          "accessibility": ["elevator"],
           "wheelchair": true
         }
       ],
@@ -6275,8 +6084,7 @@
             "lat": 41.884344,
             "lng": -87.6960669
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-13673012075",
@@ -6285,8 +6093,7 @@
             "lat": 41.8841987,
             "lng": -87.6960582
           },
-          "accessibility": ["elevator"],
-          "wheelchair": true
+          "accessibility": ["elevator"]
         },
         {
           "id": "osm-node-13709817394",

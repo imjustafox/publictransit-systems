@@ -212,8 +212,8 @@
           "id": "osm-node-7578364021",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.8687196,
-            "lng": -73.91604
+            "lat": 40.8694437,
+            "lng": -73.9154344
           },
           "accessibility": [],
           "wheelchair": false
@@ -1336,8 +1336,8 @@
           "id": "osm-node-3447488959",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7563613,
-            "lng": -73.9872682
+            "lat": 40.7563644,
+            "lng": -73.9872666
           },
           "accessibility": [],
           "wheelchair": false
@@ -2204,8 +2204,8 @@
           "id": "osm-node-11301572367",
           "name": "Greenwich St & Vesey St",
           "coordinates": {
-            "lat": 40.7126429,
-            "lng": -74.011972
+            "lat": 40.7126213,
+            "lng": -74.0119802
           },
           "accessibility": [],
           "wheelchair": false
@@ -2214,8 +2214,8 @@
           "id": "osm-node-11301575769",
           "name": "Greenwich St & Vesey St",
           "coordinates": {
-            "lat": 40.7127203,
-            "lng": -74.0119444
+            "lat": 40.7127218,
+            "lng": -74.0119482
           },
           "accessibility": [],
           "wheelchair": false
@@ -2224,8 +2224,8 @@
           "id": "osm-node-11301575771",
           "name": "Greenwich St & Vesey St",
           "coordinates": {
-            "lat": 40.7125398,
-            "lng": -74.0119972
+            "lat": 40.7125458,
+            "lng": -74.0120014
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -3913,8 +3913,8 @@
           "id": "osm-node-1956618005",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.6834077,
-            "lng": -73.9764991
+            "lat": 40.6833704,
+            "lng": -73.9765452
           },
           "accessibility": [],
           "wheelchair": true
@@ -4530,7 +4530,7 @@
           "id": "osm-node-11644742256",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.6688435,
+            "lat": 40.6688358,
             "lng": -73.9342315
           },
           "accessibility": [],
@@ -5431,16 +5431,6 @@
       "wikidata": "Q1821857",
       "entrances": [
         {
-          "id": "osm-node-14221050626",
-          "name": "Elevator",
-          "coordinates": {
-            "lat": 40.8129454,
-            "lng": -73.9286684
-          },
-          "accessibility": ["elevator"],
-          "wheelchair": true
-        },
-        {
           "id": "osm-node-3640644327",
           "name": "Entrance",
           "coordinates": {
@@ -5470,8 +5460,7 @@
           "accessibility": [],
           "wheelchair": false
         }
-      ],
-      "features": ["elevator"]
+      ]
     },
     "wall-st-irt-lex": {
       "osmId": "node/5367519866",
@@ -6802,16 +6791,6 @@
       "wikidata": "Q2982347",
       "entrances": [
         {
-          "id": "osm-node-13931536712",
-          "name": "68th Street - Hunter College",
-          "coordinates": {
-            "lat": 40.7680911,
-            "lng": -73.9637075
-          },
-          "accessibility": [],
-          "wheelchair": false
-        },
-        {
           "id": "osm-node-2296577480",
           "name": "East 68th Street & Lexington Avenue at Northwest Corner",
           "coordinates": {
@@ -6829,7 +6808,7 @@
             "lng": -73.9639064
           },
           "accessibility": [],
-          "wheelchair": true
+          "wheelchair": false
         },
         {
           "id": "osm-node-2296577482",
@@ -7218,8 +7197,8 @@
           "id": "osm-node-7581054284",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7512696,
-            "lng": -73.9758844
+            "lat": 40.7512932,
+            "lng": -73.9759409
           },
           "accessibility": [],
           "wheelchair": false
@@ -7228,8 +7207,8 @@
           "id": "osm-node-7581084585",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7512474,
-            "lng": -73.9758317
+            "lat": 40.7512243,
+            "lng": -73.9757835
           },
           "accessibility": [],
           "wheelchair": false
@@ -7482,7 +7461,7 @@
             "lng": -73.9866075
           },
           "accessibility": [],
-          "wheelchair": true
+          "wheelchair": false
         },
         {
           "id": "osm-node-3854495479",
@@ -8608,8 +8587,8 @@
           "id": "osm-node-3575563152",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7467968,
-            "lng": -73.8909283
+            "lat": 40.7467979,
+            "lng": -73.8909285
           },
           "accessibility": [],
           "wheelchair": true
@@ -8618,8 +8597,8 @@
           "id": "osm-node-3575634838",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7470894,
-            "lng": -73.8914067
+            "lat": 40.7470851,
+            "lng": -73.8914055
           },
           "accessibility": [],
           "wheelchair": false
@@ -8628,8 +8607,8 @@
           "id": "osm-node-4927692387",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7472413,
-            "lng": -73.8921095
+            "lat": 40.7472411,
+            "lng": -73.8921104
           },
           "accessibility": [],
           "wheelchair": false
@@ -8638,8 +8617,8 @@
           "id": "osm-node-4927692388",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7470577,
-            "lng": -73.892565
+            "lat": 40.7470527,
+            "lng": -73.8925658
           },
           "accessibility": [],
           "wheelchair": false
@@ -8648,8 +8627,8 @@
           "id": "osm-node-7571716695",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7466856,
-            "lng": -73.8907738
+            "lat": 40.7466809,
+            "lng": -73.890767
           },
           "accessibility": [],
           "wheelchair": true
@@ -10859,31 +10838,11 @@
       "wikidata": "Q2430804",
       "entrances": [
         {
-          "id": "osm-node-14151248748",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 40.7254807,
-            "lng": -74.0043271
-          },
-          "accessibility": [],
-          "wheelchair": true
-        },
-        {
-          "id": "osm-node-14151248767",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 40.7254868,
-            "lng": -74.0043927
-          },
-          "accessibility": [],
-          "wheelchair": false
-        },
-        {
           "id": "osm-node-2477457637",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7256221,
-            "lng": -74.0043342
+            "lat": 40.72562,
+            "lng": -74.0043546
           },
           "accessibility": [],
           "wheelchair": false
@@ -10892,8 +10851,8 @@
           "id": "osm-node-2477457639",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.7262046,
-            "lng": -74.0039903
+            "lat": 40.7262102,
+            "lng": -74.0040311
           },
           "accessibility": [],
           "wheelchair": false
@@ -13995,7 +13954,7 @@
         },
         {
           "id": "osm-node-5005658572",
-          "name": "Exit EL210",
+          "name": "Elevator",
           "coordinates": {
             "lat": 40.7503782,
             "lng": -73.9872019
@@ -14004,7 +13963,7 @@
         },
         {
           "id": "osm-node-5005658576",
-          "name": "Exit EL209",
+          "name": "Elevator",
           "coordinates": {
             "lat": 40.7504407,
             "lng": -73.9873525
@@ -14013,7 +13972,7 @@
         },
         {
           "id": "osm-node-5005659765",
-          "name": "Exit EL212",
+          "name": "Elevator",
           "coordinates": {
             "lat": 40.7500205,
             "lng": -73.9877632
@@ -14022,7 +13981,7 @@
         },
         {
           "id": "osm-node-5005659769",
-          "name": "Exit EL211",
+          "name": "Elevator",
           "coordinates": {
             "lat": 40.7500399,
             "lng": -73.9879347
@@ -14264,8 +14223,8 @@
           "id": "osm-node-6633465064",
           "name": "Entrance",
           "coordinates": {
-            "lat": 40.6608065,
-            "lng": -73.9621062
+            "lat": 40.6607996,
+            "lng": -73.9621058
           },
           "accessibility": [],
           "wheelchair": true
@@ -14835,6 +14794,16 @@
           },
           "accessibility": [],
           "wheelchair": false
+        },
+        {
+          "id": "osm-node-10285341116",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 40.7122689,
+            "lng": -74.0107963
+          },
+          "accessibility": [],
+          "wheelchair": true
         },
         {
           "id": "osm-node-5035490053",
@@ -16613,7 +16582,7 @@
       "entrances": [
         {
           "id": "osm-node-2724259714",
-          "name": "Entrance",
+          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
           "coordinates": {
             "lat": 40.7027879,
             "lng": -73.7998621
@@ -16623,7 +16592,7 @@
         },
         {
           "id": "osm-node-2748788921",
-          "name": "Entrance",
+          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
           "coordinates": {
             "lat": 40.7019032,
             "lng": -73.8017623
@@ -16633,7 +16602,7 @@
         },
         {
           "id": "osm-node-2748788922",
-          "name": "Entrance",
+          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
           "coordinates": {
             "lat": 40.7022466,
             "lng": -73.8018511
@@ -16643,7 +16612,7 @@
         },
         {
           "id": "osm-node-2748788923",
-          "name": "Entrance",
+          "name": "Jamaica Center - Parsons/Archer (E,J,Z)",
           "coordinates": {
             "lat": 40.7023389,
             "lng": -73.7999933
@@ -22843,6 +22812,16 @@
       "wikidata": "Q2193425",
       "features": ["accessible"],
       "entrances": [
+        {
+          "id": "osm-node-10282972102",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 40.711901,
+            "lng": -74.0110021
+          },
+          "accessibility": [],
+          "wheelchair": true
+        },
         {
           "id": "osm-node-2824641706",
           "name": "Entrance",
