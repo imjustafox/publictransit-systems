@@ -10,9 +10,9 @@
     "tail": "wrangler tail"
   },
   "devDependencies": {
-    "@cloudflare/workers-types": "^5.20261115.1",
+    "@cloudflare/workers-types": "^5.20261121.1",
     "typescript": "^5.3.3",
-    "wrangler": "^4.162.0"
+    "wrangler": "^4.166.0"
   },
   "dependencies": {
     "gtfs-realtime-bindings": "^1.1.1"
