@@ -1388,6 +1388,15 @@
       "features": ["elevator"],
       "entrances": [
         {
+          "id": "osm-node-14419206699",
+          "name": "5a",
+          "coordinates": {
+            "lat": 35.7113501,
+            "lng": 139.776101
+          },
+          "accessibility": []
+        },
+        {
           "id": "osm-node-3259269181",
           "name": "Elevator",
           "coordinates": {
@@ -1461,7 +1470,7 @@
         },
         {
           "id": "osm-node-6204418464",
-          "name": "5",
+          "name": "5b",
           "coordinates": {
             "lat": 35.7113841,
             "lng": 139.775832

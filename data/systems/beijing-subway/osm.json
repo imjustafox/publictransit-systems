@@ -2778,6 +2778,39 @@
     "十八里店": {
       "osmId": "node/9380291879"
     },
+    "十里堡": {
+      "osmId": "node/14142473063",
+      "wikidata": "Q82802",
+      "entrances": [
+        {
+          "id": "osm-node-14124123701",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9214964,
+            "lng": 116.4969512
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-14124123702",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9221025,
+            "lng": 116.4962607
+          },
+          "accessibility": []
+        },
+        {
+          "id": "osm-node-5365586568",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 39.9214414,
+            "lng": 116.4951942
+          },
+          "accessibility": []
+        }
+      ]
+    },
     "十里河": {
       "osmId": "node/9147328748",
       "entrances": [
@@ -11074,39 +11107,6 @@
     "龙泽西": {
       "osmId": "node/13354529561",
       "wikidata": "Q111802872"
-    },
-    "十里堡": {
-      "osmId": "node/14142473063",
-      "wikidata": "Q82802",
-      "entrances": [
-        {
-          "id": "osm-node-14124123701",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 39.9214964,
-            "lng": 116.4969512
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-14124123702",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 39.9221025,
-            "lng": 116.4962607
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-5365586568",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 39.9214414,
-            "lng": 116.4951942
-          },
-          "accessibility": []
-        }
-      ]
     },
     "军事博物馆": {
       "entrances": [

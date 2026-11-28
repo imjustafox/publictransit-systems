@@ -1563,8 +1563,8 @@
           "id": "osm-node-439664706",
           "name": "Elevator",
           "coordinates": {
-            "lat": 48.7462421,
-            "lng": 9.1631076
+            "lat": 48.7462367,
+            "lng": 9.1631166
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -2415,7 +2415,7 @@
       "entrances": [
         {
           "id": "osm-node-7899464292",
-          "name": "Exit SI 01",
+          "name": "Elevator",
           "coordinates": {
             "lat": 48.7828993,
             "lng": 9.1872163
@@ -2424,7 +2424,7 @@
         },
         {
           "id": "osm-node-7899464293",
-          "name": "Exit SI 02",
+          "name": "Elevator",
           "coordinates": {
             "lat": 48.7829834,
             "lng": 9.1870469
@@ -3879,8 +3879,8 @@
           "id": "osm-node-5541834226",
           "name": "Elevator",
           "coordinates": {
-            "lat": 48.7244424,
-            "lng": 9.2719826
+            "lat": 48.7244412,
+            "lng": 9.2719822
           },
           "accessibility": ["elevator"],
           "wheelchair": true

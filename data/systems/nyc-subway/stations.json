@@ -6876,10 +6876,20 @@
         "lat": 40.813224,
         "lng": -73.929849
       },
-      "features": [],
+      "features": ["elevator"],
       "osmId": "node/5921006942",
       "wikidata": "Q1821857",
       "entrances": [
+        {
+          "id": "osm-node-14221050626",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 40.8129454,
+            "lng": -73.9286684
+          },
+          "accessibility": ["elevator"],
+          "wheelchair": true
+        },
         {
           "id": "osm-node-3640644327",
           "name": "Entrance",

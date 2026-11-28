@@ -39,8 +39,8 @@
           "id": "osm-node-5261181923",
           "name": "Entrance",
           "coordinates": {
-            "lat": 38.9482996,
-            "lng": -77.3389129
+            "lat": 38.9482971,
+            "lng": -77.3389164
           },
           "accessibility": [],
           "wheelchair": true
@@ -210,6 +210,7 @@
     "vienna": {
       "osmId": "node/738189340",
       "wikidata": "Q7928300",
+      "features": ["accessible"],
       "entrances": [
         {
           "id": "osm-node-446861221",
@@ -218,7 +219,8 @@
             "lat": 38.8773489,
             "lng": -77.2712391
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": true
         },
         {
           "id": "osm-node-446861222",
@@ -371,7 +373,7 @@
             "lng": -77.1032885
           },
           "accessibility": [],
-          "wheelchair": false
+          "wheelchair": true
         },
         {
           "id": "osm-node-9219824288",
@@ -439,8 +441,8 @@
           "id": "osm-node-10090582447",
           "name": "Entrance",
           "coordinates": {
-            "lat": 38.8912221,
-            "lng": -77.0849743
+            "lat": 38.8911707,
+            "lng": -77.0850222
           },
           "accessibility": []
         },
@@ -448,10 +450,20 @@
           "id": "osm-node-10164801044",
           "name": "Elevator",
           "coordinates": {
-            "lat": 38.8904738,
-            "lng": -77.0860787
+            "lat": 38.8905012,
+            "lng": -77.0860958
           },
           "accessibility": ["elevator"],
+          "wheelchair": true
+        },
+        {
+          "id": "osm-node-5516417966",
+          "name": "Entrance",
+          "coordinates": {
+            "lat": 38.8917067,
+            "lng": -77.0850605
+          },
+          "accessibility": [],
           "wheelchair": true
         }
       ]
@@ -640,8 +652,8 @@
           "id": "osm-node-13893886323",
           "name": "Entrance",
           "coordinates": {
-            "lat": 38.8442708,
-            "lng": -76.9322879
+            "lat": 38.8442703,
+            "lng": -76.9322876
           },
           "accessibility": []
         }
@@ -977,7 +989,7 @@
         },
         {
           "id": "osm-node-1683828330",
-          "name": "Columbia Heights Station West Entrance",
+          "name": "Mount Pleasant Entrance",
           "coordinates": {
             "lat": 38.9285941,
             "lng": -77.0331312
@@ -987,7 +999,7 @@
         },
         {
           "id": "osm-node-1683828334",
-          "name": "Columbia Heights Station East Entrance",
+          "name": "Civic Plaza Entrance",
           "coordinates": {
             "lat": 38.928965,
             "lng": -77.0324504
@@ -1015,8 +1027,8 @@
           "id": "osm-node-1739572386",
           "name": "Entrance",
           "coordinates": {
-            "lat": 38.9167532,
-            "lng": -77.0259716
+            "lat": 38.9167391,
+            "lng": -77.0259715
           },
           "accessibility": [],
           "wheelchair": true
@@ -1040,7 +1052,7 @@
       "entrances": [
         {
           "id": "osm-node-1739572373",
-          "name": "Shaw-Howard Univ",
+          "name": "Shaw-Howard University",
           "coordinates": {
             "lat": 38.9127849,
             "lng": -77.0227112
@@ -1425,8 +1437,8 @@
           "id": "osm-node-5171896413",
           "name": "L'Enfant Plaza - Entrance A (7th St & Maryland Av)",
           "coordinates": {
-            "lat": 38.8862829,
-            "lng": -77.0214401
+            "lat": 38.886284,
+            "lng": -77.0214443
           },
           "accessibility": [],
           "wheelchair": false
@@ -1585,7 +1597,8 @@
             "lat": 38.813745,
             "lng": -77.0538557
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": true
         }
       ]
     },
@@ -2021,14 +2034,32 @@
     "forest-glen": {
       "osmId": "node/738189324",
       "wikidata": "Q5468881",
-      "features": ["accessible"],
+      "features": ["accessible", "elevator"],
       "entrances": [
+        {
+          "id": "osm-node-14117966304",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0152738,
+            "lng": -77.0430122
+          },
+          "accessibility": ["elevator"]
+        },
+        {
+          "id": "osm-node-14117966305",
+          "name": "Elevator",
+          "coordinates": {
+            "lat": 39.0153539,
+            "lng": -77.0430331
+          },
+          "accessibility": ["elevator"]
+        },
         {
           "id": "osm-node-1518253623",
           "name": "Entrance",
           "coordinates": {
-            "lat": 39.0153111,
-            "lng": -77.0436449
+            "lat": 39.0153256,
+            "lng": -77.0436485
           },
           "accessibility": [],
           "wheelchair": false
@@ -2037,8 +2068,8 @@
           "id": "osm-node-460391051",
           "name": "Forest Glen Metro",
           "coordinates": {
-            "lat": 39.0158316,
-            "lng": -77.0443083
+            "lat": 39.0157994,
+            "lng": -77.0443303
           },
           "accessibility": [],
           "wheelchair": true
@@ -2095,7 +2126,8 @@
             "lat": 38.9939095,
             "lng": -77.0310934
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": true
         }
       ]
     },
@@ -2356,7 +2388,7 @@
     },
     "rockville": {
       "osmId": "node/7015066751",
-      "wikidata": "Q4380631",
+      "wikidata": "Q114347894",
       "features": ["accessible"],
       "entrances": [
         {
@@ -2392,22 +2424,14 @@
       "features": ["accessible"],
       "entrances": [
         {
-          "id": "osm-node-2382927897",
+          "id": "osm-node-2382927898",
           "name": "Entrance",
           "coordinates": {
-            "lat": 39.0471887,
-            "lng": -77.1132506
+            "lat": 39.0474756,
+            "lng": -77.1125726
           },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-2382927908",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 39.0473835,
-            "lng": -77.1126276
-          },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": true
         }
       ]
     },
@@ -2433,7 +2457,8 @@
             "lat": 39.0288615,
             "lng": -77.1038286
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": true
         }
       ]
     },
@@ -2580,7 +2605,8 @@
             "lat": 38.9611947,
             "lng": -77.0856171
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": false
         },
         {
           "id": "osm-node-567266988",
@@ -2819,37 +2845,37 @@
       "entrances": [
         {
           "id": "osm-node-2295072019",
-          "name": "Metro Center (South Entrance)",
+          "name": "Exit C",
           "coordinates": {
-            "lat": 38.8971935,
-            "lng": -77.0282983
+            "lat": 38.8971659,
+            "lng": -77.0285227
           },
           "accessibility": [],
           "wheelchair": false
         },
         {
           "id": "osm-node-2295072023",
-          "name": "Metro Center (West Entrance)",
+          "name": "Exit D",
           "coordinates": {
-            "lat": 38.8981029,
-            "lng": -77.0293383
+            "lat": 38.8980855,
+            "lng": -77.0294017
           },
           "accessibility": [],
           "wheelchair": false
         },
         {
           "id": "osm-node-2295072026",
-          "name": "Metro Center (East Entrance)",
+          "name": "Exit B",
           "coordinates": {
-            "lat": 38.8980983,
-            "lng": -77.0266771
+            "lat": 38.8981329,
+            "lng": -77.0267885
           },
           "accessibility": [],
           "wheelchair": false
         },
         {
           "id": "osm-node-585335305",
-          "name": "Metro Center (North Entrance)",
+          "name": "Exit A",
           "coordinates": {
             "lat": 38.8984716,
             "lng": -77.0278947
@@ -2859,10 +2885,10 @@
         },
         {
           "id": "osm-node-9951086238",
-          "name": "Elevator",
+          "name": "Exit A",
           "coordinates": {
-            "lat": 38.8988951,
-            "lng": -77.0279197
+            "lat": 38.8989219,
+            "lng": -77.0279277
           },
           "accessibility": ["elevator"],
           "wheelchair": true
@@ -2873,24 +2899,6 @@
           "coordinates": {
             "lat": 38.8989927,
             "lng": -77.0282458
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-9951086240",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 38.8984625,
-            "lng": -77.0266713
-          },
-          "accessibility": []
-        },
-        {
-          "id": "osm-node-9951184361",
-          "name": "Entrance",
-          "coordinates": {
-            "lat": 38.8984625,
-            "lng": -77.0294018
           },
           "accessibility": []
         }
@@ -2962,7 +2970,8 @@
             "lat": 38.9535559,
             "lng": -77.3845183
           },
-          "accessibility": []
+          "accessibility": [],
+          "wheelchair": true
         }
       ]
     },
